@@ -1001,12 +1001,29 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:1
 
   <h3>📥 BD 配置档（可下载）</h3>
   <div class="card">
-    <p>完整的技能连接、连招顺序、做装备规则，独立成文件，方便你边玩边对照或打印。</p>
+    <div class="ok" style="margin-top:0">
+      <b>⭐ <a href="锐眼开荒.build">锐眼开荒.build</a></b> —— <b>可导入游戏的 Build 文件</b><br>
+      放到 <code>文档\My Games\Path of Exile 2\BuildPlanner\</code> 文件夹里，
+      游戏会自动识别。之后打开天赋树点左上角蓝色图标就能选它。
+    </div>
     <div class="kv"><span><a href="锐眼冰射狙击-开荒配置档.md">锐眼冰射狙击-开荒配置档.md</a></span><span>Markdown，手机上也能看</span></div>
     <div class="kv"><span><a href="build.json">build.json</a></span><span>结构化数据，方便以后做工具</span></div>
     <p style="margin-bottom:0;font-size:13px">
       手机上打开链接后，用浏览器的"保存到文件"或长按保存。
     </p>
+  </div>
+
+  <div class="warn">
+    <b>关于那个 .build 文件，我要如实说明它的能力和局限：</b><br><br>
+    <b>✅ 它能做的：</b>在游戏里学技能 / 切宝石时，<b>列出这套 BD 需要的技能和对应辅助宝石</b>，
+    并按等级段提示（1–30 级给闪电箭体系，31 级后给冰射体系）。<br><br>
+    <b>❌ 它不能做的：天赋树高亮。</b><br>
+    原因：天赋节点需要游戏内部的节点 ID（如 <code>strength89</code> 这种），
+    我在公开来源里<b>没能查到可靠的天赋树节点 ID 数据</b>（poe2db 的天赋树是 JS 渲染，抓不到）。
+    <b>我不会编 ID 填进去——填错了游戏里会报错或者点错天赋。</b><br><br>
+    <b>所以天赋这一块，你有两个选择：</b><br>
+    ① 游戏内自己按方向点（前期堆投射物伤害、攻速、闪避）<br>
+    ② 去 poe.ninja 或 Maxroll 下一个<b>带完整天赋的</b>锐眼 BD 文件，替换我这个
   </div>
 
   <h3>版本说明</h3>
