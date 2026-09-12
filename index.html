@@ -107,8 +107,42 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 
   <a class="dl" href="锐眼开荒.build" download>
     <div class="t">⬇ 下载 BD 文件（锐眼开荒.build）</div>
-    <div class="d">放到 <code>文档\My Games\Path of Exile 2\BuildPlanner\</code> → 游戏里天赋树左上角蓝色图标选它</div>
+    <div class="d">14 个技能 + 19 个辅助，带等级段。放对文件夹后游戏里天赋树左上角选它</div>
   </a>
+  <a class="dl" href="锐眼开荒-极简版.build" download style="border-color:var(--gold)">
+    <div class="t" style="color:var(--gold)">⬇ 极简版（上面那个不显示就试这个）</div>
+    <div class="d">去掉所有可选字段，只留技能 ID。用于排查是不是格式问题</div>
+  </a>
+
+  <div class="danger">
+    <b>⚠️ 导入不显示的排查步骤（按顺序试）</b><br><br>
+    这些是 GGG 官方论坛上大量玩家的实际踩坑记录：
+    <table style="margin-top:9px">
+      <tr><th style="width:30%">问题</th><th>怎么解决</th></tr>
+      <tr><td><b>① 文件夹不存在</b></td>
+          <td><b>游戏不会自动创建这个文件夹</b>，要你自己建：<br>
+              <code>文档/My Games/Path of Exile 2/BuildPlanner/</code><br>
+              文件夹名必须是 <b>BuildPlanner</b>，大小写敏感</td></tr>
+      <tr><td><b>② 开了 OneDrive</b><br><span style="color:var(--red)">最常见的坑</span></td>
+          <td>游戏会<b>优先找 OneDrive 里的文档</b>，不是本地的：<br>
+              <code>C:/Users/你的用户名/OneDrive/Documents/My Games/Path of Exile 2/BuildPlanner/</code><br>
+              <b>两个地方都放一份最保险</b></td></tr>
+      <tr><td><b>③ 放的是压缩包</b></td>
+          <td>.zip <b>必须先解压</b>，把里面的 <b>.build 文件</b>放进去</td></tr>
+      <tr><td><b>④ 文档路径被重定向</b></td>
+          <td>文件资源管理器地址栏输入下面这行回车，看它解析到哪，以实际路径为准：<br>
+              <code>%USERPROFILE%/Documents/My Games/Path of Exile 2</code></td></tr>
+      <tr><td><b>⑤ 格式问题</b></td>
+          <td>试上面那个<b>极简版</b>。如果极简版能显示、完整版不能，
+              就是可选字段的问题，告诉我我来改</td></tr>
+      <tr><td><b>⑥ 怎么确认成功</b></td>
+          <td>按 <b>P</b> 打开天赋树 → 点<b>左上角蓝色图标</b> → 能看到 BD 列表</td></tr>
+    </table>
+    <p style="margin:10px 0 0">
+      <b>放进文件夹后不用重启游戏</b>——游戏有文件监听会自动识别。
+      没反应的话来回切一次地图，或者重开天赋面板。
+    </p>
+  </div>
 
   <div class="warn">
     <b>怎么用这张表：</b>左边是<b>技能名</b>，中间是<b>要连的辅助宝石</b>。
