@@ -58,6 +58,9 @@ label{display:block;font-size:12.5px;color:var(--tx2);margin-bottom:4px}
 input[type=number]{width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:7px;padding:8px 11px;font-size:14px;font-family:inherit}
 .btn{background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:7px;padding:8px 16px;cursor:pointer;font-size:13.5px;font-family:inherit}
 .grid{display:grid;gap:10px}
+.toc{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.toc a{font-size:12.5px;background:var(--panel);border:1px solid var(--line);padding:4px 11px;border-radius:99px;text-decoration:none;color:var(--tx2)}
+.toc a:hover{border-color:var(--cyan);color:var(--cyan)}
 @media(min-width:700px){.grid.g3{grid-template-columns:1fr 1fr 1fr}.grid.g2{grid-template-columns:1fr 1fr}}
 footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:12px}
 </style></head><body>
@@ -237,77 +240,145 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 </section>
 
 <section id="gear">
- <h2>🔨 装备</h2>
+ <h2>🔨 装备（前中后期全流程）</h2>
+ <p>全部来自 <b>网瘾老年人lowK</b> 的《0.5冰射 前中后期的装备搭配》+《0.55锐眼开荒文档》。</p>
 
- <h3>弓的词条优先级（原文）</h3>
- <table>
-  <tr><th style="width:16%">位置</th><th>优先级（从高到低）</th></tr>
-  <tr><td><b>前缀</b></td><td>物理%+物理点伤 &gt; 冰点伤 &gt; 电点伤 &gt; 火点伤 &gt; 攻击技能的元素伤害提高%</td></tr>
-  <tr><td><b>后缀</b></td><td>暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命（回蓝）&gt; 其他</td></tr>
- </table>
+<div class="toc">
+ <a href="#g1">① 弓</a><a href="#g2">② 暗金弓</a><a href="#g3">③ 箭袋</a>
+ <a href="#g4">④ 各部位词条</a><a href="#g5">⑤ 暗金推荐</a>
+ <a href="#g6">⑥ T1–T15 配装</a><a href="#g7">⑦ 护符</a>
+ <a href="#g8">⑧ 暴击转换</a><a href="#g9">⑨ 天赋宝石</a>
+ <a href="#g10">⑩ 中期提升</a><a href="#g11">⑪ 后期提升</a><a href="#g12">⑫ 赚 D 技巧</a>
+</div>
 
- <div class="ok">
-  <b>原文补充：</b>「2 把弓伤害差不多时，<b>有'攻击技能的元素伤害提高%'的要强</b>——
-  因为暴击流天赋要点暴击爆伤，inc% 类比较少，所以这条加成很强。」<br>
-  「<b>额外几率箭</b>大幅度提高刷图效率，但没必要强求（锐眼天赋 +1、符文 +1）。」
- </div>
+<h3 id="g1">① 弓 — 词条怎么挑</h3>
+<div class="ok">
+ <b>首选：毁灭者之弓。</b>性价比最高、伤害高。<br>
+ <span style="color:var(--red)">缺点：投射物射程降低 50%，影响清怪效率。</span>
+ <b>但仍是最佳首选，接近毕业才会换别的弓。</b>输出比它高、价格一样的也可以买。
+</div>
+<table>
+ <tr><th style="width:14%">位置</th><th>优先级（从高到低）</th></tr>
+ <tr><td><b>前缀</b></td><td>物理%+物理点伤 &gt; 冰元素点伤 &gt; 闪电元素点伤 &gt; 火元素点伤 &gt; 攻击技能的元素伤害提高%</td></tr>
+ <tr><td><b>后缀</b></td><td>暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命（回蓝）&gt; 其他</td></tr>
+</table>
 
- <h4>暴击数值怎么搜（原文）</h4>
- <table>
-  <tr><th>档位</th><th>搜索设置</th></tr>
-  <tr><td>前期过渡</td><td>暴击<b>最少 3.5</b></td></tr>
-  <tr><td>搜 T2 以上</td><td>设 <b>3.81</b></td></tr>
-  <tr><td>搜 T1</td><td>设 <b>4.41</b></td></tr>
- </table>
- <p>「比如你弓暴击是 4.41，就可以用<b>神圣石</b>让暴击 ROLL 值变高。这个操作在你弓比较好的情况下再做。」</p>
+<div class="warn">
+ <b>原文解释「为什么'攻击技能元素伤害提高%'要强：」</b><br>
+ 「2 把弓伤害输出差不多的情况下，<b>有'攻击技能的元素伤害提高%'的要强</b>——因为暴击流的天赋需要加点爆击爆伤，
+ inc% 类（各种伤害，比如元素伤害、投射物伤害）比较少，所以这一条加成很强。
+ 非暴击加点 inc% 多，提升就比较小，但也是不错的词条。」
+</div>
 
- <h4>符文</h4>
- <div class="kv" style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--line)">
-  <span style="color:var(--tx2)">符文怎么上</span><span style="font-weight:600">一个上 +1 箭，另一个上全元素额外</span></div>
+<h4>暴击数值怎么搜（原文）</h4>
+<table>
+ <tr><th>档位</th><th>设置</th></tr>
+ <tr><td>前期过渡</td><td>暴击<b>最少 3.5</b></td></tr>
+ <tr><td>搜 T2 以上</td><td>设 <b>3.81</b></td></tr>
+ <tr><td>搜 T1</td><td>设 <b>4.41</b></td></tr>
+</table>
+<p>「比如你弓暴击是 4.41，就可以用<b>神圣石</b>让暴击 ROLL 值变高。<b>这个操作是在你弓比较好的情况下再做。</b>」</p>
 
- <h3>第一天要买的装备（有链接）</h3>
- <p>搜索名是<b>游戏内直接搜的英文名</b>（国服物品英文名可搜）。</p>
- <table>
-  <tr><th style="width:12%">部位</th><th style="width:24%">国服叫法</th><th>游戏内搜这个英文</th></tr>
-  <tr><td>弓</td><td><b>裂心弓</b></td><td><code>Splinterheart Runeforged Recurve Bow</code></td></tr><tr><td>弓</td><td><b>裂舌</b></td><td><code>Slivertongue Runeforged Zealot Bow</code></td></tr><tr><td>头</td><td><b>寒炎头</b></td><td><code>Heatshiver Velvet Cap</code></td></tr><tr><td>手</td><td><b>穿抗手</b></td><td><code>Leopold's Applause Embroidered Gloves</code></td></tr><tr><td>腰带</td><td><b>夜临</b></td><td><code>Darkness Enthroned Fine Belt</code></td></tr><tr><td>腰带</td><td><b>独创</b></td><td><code>Ingenuity Utility Belt</code></td></tr>
- </table>
- <div class="ok">
-  <b>腰带两条是二选一/不同阶段：</b>夜临（注意最好 90 以上，跟"被视为"）、独创（注意护符栏位为 2）。<br>
-  <b>弓两条：</b>裂心弓（已升级）/ 裂舌（已升级）。文档提到裂舌"现在存货不多，都是 2D 以上，建议买 2 孔用瓦尔宝珠瓦 3 孔——<b>瓦之前先升满品质、打满 2 孔</b>"。
- </div>
+<div class="danger">
+ <b>⚠️ 购买武器一定要注意符文情况（原文）：</b><br>
+ 「商店大多数都插了<b>物理%/元素点伤</b>符文来提高武器 DPS，让武器看起来 DPS 更高，也就更好卖。<br>
+ <b>同价位、DPS 差不多时，看符文选择武器</b>（因为符文是要换成 +1 箭 和 +5% 全元素的）。<br>
+ 还有攻速——攻速会提高总伤害输出。<b>实际上同 DPS、同价位，选择没攻速的伤害会更高。</b>
+ 当然这不是说攻速不好，只是对比武器时的情况。」
+</div>
 
- <h3>商人搜索正则（国服版）</h3>
- <div class="ok">
-  放在<b>商人</b>那里高亮有用的装备——<b>不是搜交易用的</b>：<br>
-  <code style="display:block;margin-top:7px;padding:8px">闪避|护盾|护甲|弓 移动|技能等级|%物理伤害|附加|攻击元素|找到的物品|品质|攻击速度</code>
-  <span style="font-size:12.5px">（国际服版是繁体那套，国服不能用，本页只放国服版）</span>
- </div>
+<h4>符文怎么上</h4>
+<div class="kv" style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--line)">
+ <span style="color:var(--tx2)">两个符文位</span><span style="font-weight:600">一个上 +1 箭，另一个上全元素额外</span>
+</div>
 
- <h3>16 级反曲弓怎么打造</h3>
- <div class="warn">
-  <b>① 去第二章武器 NPC 处</b>，买白色或蓝色点伤弓（蓝色后缀的）<br>
-  <b>② 用蜕变石 + 增幅石</b>强化，洗高点伤或高物理%<br>
-  <b>③ 判断标准：</b>一把弓<b>仅 1 个前缀就达到 23-46 点伤</b>，非常值得打造<br>
-  <span style="font-size:13px">对比：人马掉的弓虽然 5 词条，点伤也只有 20-59</span>
- </div>
+<h3 id="g2">② 暗金弓</h3>
+<table><tr><th style="width:14%">部位</th><th style="width:24%">装备</th><th>效果 / 说明</th></tr><tr><td><b>寡妇弓</b></td><td>练级小号用</td><td>搭配<b>高点伤箭袋</b>，剧情可以用到 3、4 章。<b>每章都要换高点伤箭袋</b></td></tr><tr><td><b>裂心</b></td><td>16 级可用</td><td>投射物分裂，清怪更快。40 级通过赛季任务解锁的<b>维金工作台</b>可以升级成 200 多 DPS 的弓。40 级能打到异界 T10 左右，<b>赛季初期开荒首选</b></td></tr><tr><td><b>裂心</b>（弓名文档里写重了，实际指的是另一把可升级弓）</td><td>进异界转暴击首选</td><td>暴击 14–16%，能省下很多暴击点投到 inc% 天赋上。<b>开荒前期保持 40% 暴击即可</b></td></tr></table>
+<p style="font-size:13px">其他弓（如狮眼弓等）对应 BD 很多，可自行搜索。</p>
 
- <h3>通货使用须知（原文）</h3>
- <div class="warn">
-  · 前期一般<b>只用蜕变石和增幅石</b>，其余通货尽量留着，<b>16 级和 33 级</b>用来打造弓<br>
-  · 接近需要打造的等级时，蜕变石和增幅石也留一点，不要用完<br>
-  · <b>40 级后到第四章，就可以上拍卖行买便宜弓了</b>
- </div>
+<h3 id="g3">③ 箭袋</h3>
+<div class="ok">
+ <b>箭袋基本绑定暗金「卡迪罗的赌局」精工箭袋</b>——清图效率比普通箭袋<b>起码翻倍</b>，对冰射加成非常大。
+</div>
+<table><tr><th style="width:26%">普通箭袋词缀</th><th>内容</th></tr><tr><td><b>普通箭袋 · 前缀</b></td><td>一条点伤 + 弓类伤害 + 投射物速度加快</td></tr><tr><td><b>普通箭袋 · 后缀</b></td><td>暴击 &gt; 爆伤 &gt; 投射物等级 ≥ 攻速</td></tr></table>
 
- <h3>蓝装词缀机制（原文）</h3>
- <table>
-  <tr><th>规则</th><th>说明</th></tr>
-  <tr><td><b>蓝装必定 1 前 1 后</b></td><td>如果弓<b>已有后缀</b>，用增幅石<b>必定出前缀</b></td></tr>
-  <tr><td><b>别浪费</b></td><td>比较烂的过渡蓝弓，没必要浪费通货</td></tr>
-  <tr><td><b>值得点的</b></td><td>好的点伤蓝弓，可以试着点出<b>攻速或技能等级</b></td></tr>
-  <tr><td><b>手套技巧</b></td><td>手套通过已有后缀来点出前缀点伤</td></tr>
-  <tr><td><b>物品等级</b></td><td>前期最好 <b>≥ 8</b> 再投入增幅石</td></tr>
-  <tr><td><b>养成习惯</b></td><td>多捡<b>手套和鞋子</b>鉴定</td></tr>
- </table>
+<h3 id="g4">④ 各部位词条优先级</h3>
+<table><tr><th style="width:18%">部位</th><th style="width:36%">词条优先级</th><th>说明</th></tr><tr><td><b>项链</b></td><td>后缀：凑齐抗性 &gt; 投射物等级 &gt; 暴击爆伤<br>前缀：精魂 &gt; 护盾 &gt; 护盾% &gt; 闪避 &gt; 生命</td><td>词缀：<b>抗性</b> &gt; 投射物等级（凑满抗性后反过来）。<b>前期无需精魂。</b>有 120 精魂就能开幻影射手60+寒冰之捷30+风舞者30；没有精魂就取消风舞者</td></tr><tr><td><b>戒指</b></td><td>前缀：冰冻点伤 &gt; 冰冻% &gt; 其他点伤<br>后缀：抗性 &gt; 稀有度 &gt; 击杀回魔</td><td>词缀：三点伤 &gt; 冰冻%+双点伤+抗性。<b>双戒指之一要一个「击杀回魔力」词条（15 以上）</b>。第 4 章海岛监狱的教堂可以选 +30% 回蓝量。<br>另有暗金戒指 <b>意志呼唤</b>（电转冰）——只适合开服前期，现在便宜的戒指很多，用不上了</td></tr><tr><td><b>头盔</b></td><td>前缀：高护盾 ≥ 护盾% &gt; 生命 &gt; 稀有度<br>后缀：抗性 &gt; 稀有度 &gt; 智慧 &gt; 暴击（后期）</td><td>词缀：高护盾、抗性、暴击（后期）。<b>盾头需要高智慧</b>，也可以从其他部位找智慧</td></tr><tr><td><b>衣服</b></td><td>前缀：高闪避%+闪避 &gt; 精魂 &gt; 生命<br>后缀：抗性 &gt; 闪避转偏斜（有最好，不必强求）</td><td>词缀：高闪避、抗性、精魂。<b>闪避最少 1500+</b>。精魂跟项链凑 60</td></tr><tr><td><b>手套</b></td><td>前缀：1–3 条点伤 &gt; 闪避 或 护盾 &gt; 生命<br>后缀：抗性 &gt; 攻速 &gt; 稀有度</td><td>词缀：点伤、抗性、攻速</td></tr><tr><td><b>腰带</b></td><td>前缀：生命 &gt; 其他药水护符效果<br>后缀：抗性 &gt; 力量</td><td>词缀：抗性、生命、力量。尽量从其他部位凑更多抗性。<b>中期用夜临腰带，后期换猎首腰带</b></td></tr><tr><td><b>鞋子</b></td><td>前缀：<b>移速（必须要）</b> &gt; 高护盾+护盾% &gt; 稀有度<br>后缀：抗性 &gt; 稀有度</td><td>词缀：移速（必须）、高护盾、抗性、稀有度</td></tr></table>
+
+<h3 id="g5">⑤ 暗金装备推荐</h3>
+<table><tr><th style="width:14%">部位</th><th style="width:24%">装备</th><th>效果 / 说明</th></tr><tr><td>头</td><td><b>寒焰天鹅绒便帽</b></td><td>敌人每有 1% 冰缓幅度，就获得 1% 冰冷伤害的额外火焰伤害。<b>适合赛季初期缺伤害时开荒用</b>，配合天赋的冰缓增伤</td></tr><tr><td>头</td><td><b>敏锐敕令 远古护面盔</b></td><td>高护甲 + 高闪避 + <b>致盲反转（闪避命中 ×1.2）+ 闪避转额外护甲</b>。配高闪避衣服能达到 40% 护甲减伤、70 闪避。<b>缺点：没抗性</b></td></tr><tr><td>手</td><td><b>公理不存 宏伟手镯</b>（国际服叫「无与伦比」）</td><td><b>让冰冻效率翻倍——50% 进度就冰冻，不需要 100%</b>。有攻速，对冰冻的敌人增加 50% 伤害。选高攻速高伤害即可</td></tr><tr><td>鞋</td><td><b>阿兹里的金履 系带长靴</b></td><td>关键：<b>获得同等 %闪避的偏斜值（抵御伤害量越大越好 −6）</b>、移动时增加 %偏斜率。需要巧匠石（神庙通货）瓦出来，有最好，前期可以不要</td></tr><tr><td>衣服 · 可选</td><td><b>西里的战衣</b></td><td>20% 额外冰伤害。<b>缺点：没抗性、没精魂</b>。也可以选盾闪衣服（更高护盾）</td></tr><tr><td>腰带 · 中期</td><td><b>夜临</b></td><td>效果要是<b>手套加成</b>。符文插 8% 攻速、30% 非伤害异常强度提高。<b>注意：这版本不能插相同特殊符文了，全身装备包括第二套武器都算</b></td></tr><tr><td>腰带 · 可选</td><td><b>独创</b></td><td>增加戒指属性，戒指越好越强，前中期非常实用</td></tr></table>
+
+<h3 id="g6">⑥ T1–T15 装备购买搭配建议</h3>
+<div class="danger">
+ <b>核心原则：优先凑满元素抗性（火冰电），再提升伤害。</b><br>
+ 注意<b>混沌不是元素</b>，元素抗性增加不了。所以装备上最好有 <b>1–2 条混沌抗</b>。
+</div>
+<table><tr><th style="width:26%">步骤</th><th>说明</th></tr><tr><td><b>第一步</b></td><td><b>优先凑满元素抗性（火冰电），再提升伤害</b>。</td></tr><tr><td><b>注意</b></td><td><b>混沌不是元素</b>，元素抗性增加不了。所以装备上最好有 1–2 条混沌抗。</td></tr><tr><td><b>配装目标</b></td><td>从<b>项链 + 戒指 + 腰带共 4 件</b>里凑齐元素抗性，并且至少 <b>2 条混沌抗</b>，就能轻松刷 T15。</td></tr><tr><td><b>购买提醒</b></td><td><b>注意等级需求和属性需求</b>，买来等级不够用不了。</td></tr><tr><td><b>属性门槛</b></td><td>最好的弓要 <b>163 敏捷</b>；盾头要 <b>115 智力</b>。</td></tr></table>
+<div class="ok">
+ <b>绿框（头 / 鞋 / 手）选暗金：</b>敏锐敕令护面盔 + 公理不存手镯 + 阿兹里的金履<br>
+ <b>蓝框（衣服）选高闪避：</b>2100+ 闪避，带闪避转偏斜，带 50 抗性，现在很便宜（也可以选盾闪衣服）<br>
+ <b>红框（首饰）：</b>项链投射物等级+抗性 · 戒指伤害/抗性/一条击杀回蓝 · 腰带力量/抗性或换暗金腰带
+</div>
+
+<h3 id="g7">⑦ 护符推荐</h3>
+<div class="kv" style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--line)">
+ <span style="color:var(--tx2)">优先选</span><span style="font-weight:600">减速猛攻 · 免疫冰冻 · 免疫点燃</span>
+</div>
+<p>有钱可以选择黄金护符，推荐使用猪的：<b>20% 火伤 + 20% 减伤</b></p>
+
+<h3 id="g8">⑧ 暴击转换</h3>
+<table><tr><th style="width:26%">问题</th><th>答案</th></tr><tr><td><b>什么时候转</b></td><td>非暴击天赋看之前开荒视频，<b>70 级左右就可以转暴击</b><br>（也有说法是不用双天赋，只走暴击单天赋也行）</td></tr></table>
+<table><tr><th style="width:26%">要准备什么</th><th>说明</th></tr><tr><td><b>要准备什么</b></td><td><b>转暴击需要留存 100 万金币洗点</b></td></tr><tr><td><b>双天赋</b></td><td>不会双天赋的先看他视频（391 手把手点双天赋）</td></tr></table>
+
+<h3 id="g9">⑨ 天赋宝石选择</h3>
+<p><b>默认 4 孔：1 蓝 + 2 绿 + 1 泉水。</b></p>
+<table><tr><th style="width:26%">宝石</th><th>要求</th></tr><tr><td><b>蓝宝石</b></td><td>2% 击杀回蓝 + 2 条伤害词条　可选加盾</td></tr><tr><td><b>绿宝石</b></td><td>6 条词缀选 3</td></tr><tr><td><b>绿色范围宝石</b></td><td>8 条词缀选 3–4 条</td></tr><tr><td><b>泉水之心</b></td><td>双额外，只要冰闪</td></tr><tr><td><b>力抗黑暗</b></td><td>双额外（有钱再上）　单额外冰 16D / 闪电 8D（国服价）</td></tr></table>
+
+<h3 id="g10">⑩ 中期装备提升（提升顺序）</h3>
+<table><tr><th style="width:26%">阶段</th><th>做什么</th></tr><tr><td><b>先存 D 买「<b>拉齐塔的流动</b>」</b></td><td>大概 100D。<b>可让怪物抗性反转，高抗变负抗</b>，提升刷图效率。<br>物价稳定、不容易掉价。</td></tr><tr><td><b>再存 D 买「<b>猎首</b>」</b></td><td>200D。<b>有了猎首就可以打迷雾 200 了。</b></td></tr><tr><td><b>进阶操作</b></td><td>有了拉齐塔后又存 100D → <b>把拉齐塔卖掉凑钱买猎首</b> → 有了猎首再攒钱把拉齐塔买回来。<b>猎首重要性 &gt; 拉齐塔</b>。</td></tr><tr><td><b>缺伤害</b></td><td>补上更好的弓</td></tr><tr><td><b>缺生存</b></td><td>把<b>头、鞋都换成盾的</b>；衣服换 3000+ 闪避 + 闪避转偏斜</td></tr><tr><td><b>最后</b></td><td>看情况补「<b>决心</b>」约 300D</td></tr><tr><td><b>注意</b></td><td>这个时候<b>别急着打 200 迷雾</b>——伤害不够、生存也不够，很便秘</td></tr></table>
+
+<h3 id="g11">⑪ 后期装备提升</h3>
+<table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>便宜的提升</b></td><td><b>怒火项链</b>（注意怒火需要大量力量值）。有了猎首后，猎首 +70 属性再补这个项链，<b>全程 30% 总增伤</b></td></tr><tr><td><b>天赋宝石</b></td><td><b>冰射等级 +3</b>，大概每等提升 10% 总增伤</td></tr><tr><td><b>从无到有</b></td><td>用「从无到有」在共鸣圈内点核心天赋点，再加上范围非常大的绿宝石，<b>拿到更多暴击爆伤</b></td></tr><tr><td><b>也可以上</b></td><td>力抗黑暗 双额外</td></tr></table>
+
+<h3 id="g12">⑫ 赚 D 技巧</h3>
+<div class="warn"><b>中期可以攻坚打 BOSS 赚 D。原文只推荐「迷雾祭坛 BOSS」，需要先做完任务。</b></div>
+<table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>推荐打法</b></td><td><b>中期可以攻坚打 BOSS 赚 D。只推荐「迷雾祭坛 BOSS」</b>，需要先做完任务</td></tr><tr><td><b>门票成本</b></td><td>最便宜门票 5 张共 30E</td></tr><tr><td><b>产出</b></td><td>4 件装备都值钱（猿神用户需求多）。<b>装备不好卖就降价——卖出去才是 D</b></td></tr><tr><td><b>其他掉落</b></td><td>BOSS 还掉落 <b>50D 插槽</b></td></tr><tr><td><b>做法</b></td><td>打满品质 → 开孔 → 瓦尔宝珠<br>祭坛任务区放 5 个暗影呼唤（共 30E）→ 开启 BOSS</td></tr><tr><td><b>难度</b></td><td>BOSS 大概 2000 万血，<b>很简单</b>。攻坚 BOSS 可以死无数次</td></tr><tr><td><b>小贴士</b></td><td>注意 BOSS 音量，最好关闭音效</td></tr><tr><td><b>进阶</b></td><td>带<b>战旗</b>、<b>驳斥</b>（格挡增伤），技能宝石插槽换上伤害类。熟练后可换多里亚尼天赋</td></tr></table>
+
+<h3>装备速查（国服交易链接）</h3>
+<div class="ok">
+ <b>游戏内按 <code>/</code> 可以进入拍卖行查看装备。</b><br>
+ 前期没有崇高石，可以通过<b>通货兑换 NPC 把混沌石换成崇高石</b>。物价自己参考，开服跟现在不同。
+</div>
+<p style="font-size:13px">
+ 原文档给了大量<b>国服交易页直链</b>（头/手/鞋/衣服/项链/戒指/腰带/护符/宝石各自一条，加上国际服对应链接）。
+ 链接太长且带会话参数，我这里不逐个复制——
+ <b>建议直接打开原文档点</b>：
+ <a href="https://www.bilibili.com/opus/1215366068527169545" target="_blank">0.5冰射 前中后期的装备搭配 ↗</a>
+</p>
+
+<h3>前期异界之外的：怎么打造弓</h3>
+<div class="warn">
+ <b>16 级反曲弓（来自 0.55 文档）</b><br>
+ ① 去第二章武器 NPC 处，买<b>白色或蓝色点伤弓</b>（蓝色后缀的）<br>
+ ② 用<b>蜕变石 + 增幅石</b>强化，洗高点伤或高物理%<br>
+ ③ 判断标准：<b>仅 1 个前缀就达到 23-46 点伤</b>，非常值得打造<br>
+ <span style="font-size:13px">对比：人马掉的弓虽然 5 词条，点伤也只有 20-59</span>
+</div>
+<div class="warn">
+ <b>通货使用纪律（来自 0.55 文档）</b><br>
+ · 前期一般<b>只用蜕变石和增幅石</b>，其余通货留着，<b>16 级和 33 级</b>用来打造弓<br>
+ · 接近需要打造的等级时，蜕变石和增幅石也留一点，别用完<br>
+ · <b>40 级后到第四章就可以上拍卖行买便宜弓了</b>
+</div>
+<div class="warn">
+ <b>蓝装词缀机制</b><br>
+ · 蓝装<b>必定 1 前 1 后</b>。如果弓已有后缀，用增幅石<b>必定出前缀</b><br>
+ · 比较烂的过渡蓝弓，没必要浪费通货<br>
+ · 好的点伤蓝弓，可以试着点出<b>攻速或技能等级</b><br>
+ · 手套通过已有后缀来点出前缀点伤<br>
+ · 物品等级最好 <b>≥ 8</b> 再投入增幅石
+</div>
+
 </section>
 
 <section id="chk">
