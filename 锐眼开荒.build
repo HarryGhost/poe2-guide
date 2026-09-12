@@ -1,99 +1,181 @@
 {
   "name": "锐眼 闪电箭 → 冰射狙击 开荒",
   "author": "HarryGhost（整理）",
-  "description": "国服 0.5.5 禁断仪式。1-30级闪电箭+雷霆之杖，31级转冰霜射击。技能按等级段排列，游戏内学到对应等级时会提示。注意：本文件不含天赋树节点（需要游戏内自己点，或从其他来源导入天赋）。",
+  "description": "国服 0.5.5 禁断仪式。1-30级用「闪电箭矢 + 引雷针」，31级转「冰霜射击」。★技能名已改用国服叫法（元素军械/范围集中/快速攻击等）。本文件只含技能与辅助宝石；天赋树需要游戏内自己点或另找带天赋的BD文件。",
   "ascendancy": "Deadeye",
-
   "skills": [
     {
       "id": "Metadata/Items/Gems/SkillGemLightningArrow",
-      "level_interval": [1, 30],
-      "additional_text": "1-30级清图主力。打Boss前先插雷霆之杖。",
+      "level_interval": [
+        1,
+        30
+      ],
+      "additional_text": "1-30级清图主力。打Boss前先插引雷针。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装" },
-        { "id": "Metadata/Items/Gems/SupportGemMartialTempo", "additional_text": "快速攻击" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "additional_text": "快速攻击"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gems/SkillGemLightningRod",
-      "level_interval": [1, 30],
+      "level_interval": [
+        1,
+        30
+      ],
       "additional_text": "1-30级打Boss主力。★核心技巧：在同一个地方放6-9个，再用闪电箭打。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装" },
-        { "id": "Metadata/Items/Gems/SupportGemConcentratedEffect", "additional_text": "集中范围" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "范围集中"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gems/SkillGemFrostBomb",
-      "level_interval": [1, 30],
+      "level_interval": [
+        1,
+        30
+      ],
       "additional_text": "辅助清图；挂不上曝露之后就可以丢掉。"
     },
     {
       "id": "Metadata/Items/Gems/SkillGemHeraldOfThunder",
-      "level_interval": [1, 31],
+      "level_interval": [
+        1,
+        31
+      ],
       "additional_text": "31级前的光环。占精魂。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装" },
-        { "id": "Metadata/Items/Gems/SupportGemConcentratedEffect", "additional_text": "集中范围" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "范围集中"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gems/SkillGemWolfPounce",
-      "level_interval": [1, 100],
+      "level_interval": [
+        1,
+        100
+      ],
       "additional_text": "位移+挂标记。31级后用来给Boss挂冰冻印记——连招第一步。"
     },
     {
       "id": "Metadata/Items/Gems/SkillGemBarrage",
-      "level_interval": [1, 100],
+      "level_interval": [
+        1,
+        100
+      ],
       "additional_text": "★31级后连招第三步：开弹幕，然后接狙击。"
     },
-
     {
       "id": "Metadata/Items/Gems/SkillGemIceShot",
-      "level_interval": [31, 100],
+      "level_interval": [
+        31,
+        100
+      ],
       "additional_text": "★31级主力。需要角色31级（弓类9级宝石）。武器改看物理点伤——物理越高，转出的冰伤越高。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装2" },
-        { "id": "Metadata/Items/Gems/SupportGemMartialTempo", "additional_text": "快速攻击" },
-        { "id": "Metadata/Items/Gems/SupportGemIceBite", "additional_text": "霜咬" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械2"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "additional_text": "快速攻击"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBite",
+          "additional_text": "霜咬"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
-      "level_interval": [31, 100],
+      "level_interval": [
+        31,
+        100
+      ],
       "additional_text": "31级后用来冻住Boss——连招第二步。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装2" },
-        { "id": "Metadata/Items/Gems/SupportGemIceBite", "additional_text": "霜咬" },
-        { "id": "Metadata/Items/Gems/SupportGemConcentratedEffect", "additional_text": "集中范围" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械2"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBite",
+          "additional_text": "霜咬"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "范围集中"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gem/SkillGemSnipe",
-      "level_interval": [31, 100],
+      "level_interval": [
+        31,
+        100
+      ],
       "additional_text": "★31级爆发技能。连招第四步。需要卡「完美时机」，要练习。贴脸放（升华零点射击近距离多20%伤害）。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装2" },
-        { "id": "Metadata/Items/Gems/SupportGemConcentratedEffect", "additional_text": "集中范围" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械2"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "范围集中"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
-      "level_interval": [31, 100],
-      "additional_text": "31级光环，替换雷霆之捷。需要智慧——等级高了智慧可能不够，提前备好属性和4-7级精魂石。",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "31级光环，替换闪电之捷。需要智慧——等级高了智慧可能不够，提前备好属性和4-7级精魂石。",
       "support_skills": [
-        { "id": "Metadata/Items/Gems/SupportGemPrimalArmament", "additional_text": "元素武装2" },
-        { "id": "Metadata/Items/Gems/SupportGemElementalFocus", "additional_text": "元素专注" }
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "元素军械2"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "additional_text": "元素专注"
+        }
       ]
     },
     {
       "id": "Metadata/Items/Gem/SkillGemVoltaic_Mark",
-      "level_interval": [22, 100],
+      "level_interval": [
+        22,
+        100
+      ],
       "additional_text": "22级拿到，大伤害提升，别漏。"
     },
     {
       "id": "Metadata/Items/Gems/SkillGemWindDancer",
-      "level_interval": [31, 100],
+      "level_interval": [
+        31,
+        100
+      ],
       "additional_text": "第三章拿到。保命技能，装上后配「致盲」。"
     }
   ]
