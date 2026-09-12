@@ -1,0 +1,227 @@
+{
+  "name": "锐眼冰射 · 第二天后期BD（暴击流）· 国服0.5.5",
+  "author": "网瘾老年人lowK（配置）· HarryGhost 整理",
+  "link": "https://space.bilibili.com/27858039",
+  "description": "【第二天 / 70级后 · 暴击流】\n来自：网瘾老年人lowK《第二天暴击锐眼 攻坚刷图》(09-07) +《冰射0成本提升》(07-08)\n\n★什么时候转：70 级左右。要留 100 万金币洗点\n★整套造价：20D 主装 + 10D 箭袋 ≈ 30D\n★武器：换暴击弓（暴击率 15% 左右）\n\n★与第一天的主要区别：\n  · 多【蜃影神射】（升华技能）——用冰霜射击的配置\n  · 狙击加近战和大好时机\n  · 幻影射手带致盲联动盲点\n  · 攻坚时寒冰之捷换损耗（贴脸+50%击中伤害）\n\n★武器组勾选同第一天。★ID 来自 PoB 数据核对。不含天赋树。",
+  "ascendancy": "Deadeye",
+  "skills": [
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【冰霜射击】★暴击流主力，第一个4孔",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "additional_text": "【快速攻击】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBite",
+          "additional_text": "【霜咬】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【狙击】★爆发。元素军械 + 范围集中 + 元素集中",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "【范围集中】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "additional_text": "【元素集中】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【冻结齐射】",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdExposure",
+          "additional_text": "【冰霜曝露】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "【范围集中】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【弹幕】冷却回复 + 机动 + 效能 + 助力之风 + 欧罗什的信念",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "additional_text": "【冷却回复】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOvercharge",
+          "additional_text": "【永续充能】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion",
+          "additional_text": "【能量球激增】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【冰冻印记】虹吸印记 + 充能印记 + 持续时间延长（用于第二套天赋）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence",
+          "additional_text": "【持续时间延长】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "additional_text": "【冷却回复】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion",
+          "additional_text": "【能量球激增】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【寒冰之捷】元素军械 + 范围扩大 + 元素集中 + 远射",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+          "additional_text": "【范围扩大】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "additional_text": "【元素集中】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【幻影射手】60精魂。致盲联动盲点，+15%总暴击伤害和几率",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "additional_text": "【冷却回复】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind",
+          "additional_text": "【致盲】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdExposure",
+          "additional_text": "【冰霜曝露】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【战旗】30精魂。需要150精魂才能开",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence",
+          "additional_text": "【持续时间延长】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【风舞者】30精魂。范围扩大 + 瘫痪 + 致盲",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+          "additional_text": "【范围扩大】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind",
+          "additional_text": "【致盲】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【龙卷射击】冗余 + 范围集中 + 致盲",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "【范围集中】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind",
+          "additional_text": "【致盲】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "level_interval": [
+        70,
+        100
+      ],
+      "additional_text": "【战斗狂怒】输出够了就可以不要",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion",
+          "additional_text": "【能量球激增】"
+        }
+      ]
+    }
+  ]
+}

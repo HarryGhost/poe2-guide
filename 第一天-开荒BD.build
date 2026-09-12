@@ -1,0 +1,251 @@
+{
+  "name": "锐眼冰射 · 第一天开荒BD（非暴击）· 国服0.5.5",
+  "author": "网瘾老年人lowK（配置）· HarryGhost 整理",
+  "link": "https://space.bilibili.com/27858039",
+  "description": "【第一天开荒 · 非暴击冰射】\n来自：网瘾老年人lowK《0.55-第一天锐眼2D轻松T15》(09-06) +《锐眼冰射T15生存构筑》(06-08)\n\n★武器组勾选（他视频强调）：\n  1号武器：冰霜射击 / 寒冰之捷 / 幻影射手 / 弹幕 / 龙卷射击\n  副手：狙击 / 冰冻印记 / 战旗\n  战旗勾副手省 30 精魂（100精魂时 30+60+30=120 超了）\n  触发法：先放冰冻印记（切副手）→ 再插战旗\n\n★装备：裂心弓 + 卡迪罗箭袋，约 2D 就能刷 T15\n★ID 来自 PoB 权威数据核对。不含天赋树。",
+  "ascendancy": "Deadeye",
+  "skills": [
+    {
+      "id": "Metadata/Items/Gems/SkillGemLightningArrow",
+      "level_interval": [
+        1,
+        30
+      ],
+      "additional_text": "【闪电箭矢】1-30级清图。打BOSS时元素军械换连锁",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "additional_text": "【快速攻击】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemLightningRod",
+      "level_interval": [
+        1,
+        30
+      ],
+      "additional_text": "【引雷针】1-30级打BOSS。只对不主动乱动的BOSS有效",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "【范围集中】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemFrostBomb",
+      "level_interval": [
+        1,
+        30
+      ],
+      "additional_text": "【寒霜爆】辅助清图"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemEscapeShot",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【逃脱射击】位移"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "level_interval": [
+        22,
+        100
+      ],
+      "additional_text": "【冰冻印记】★连招第一步。7级宝石，24智慧。有它冻BOSS只要70%",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence",
+          "additional_text": "【持续时间延长】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【冰霜射击】★核心输出。第一个4孔。把80%物理转冰冷，武器看物理点伤",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBite",
+          "additional_text": "【霜咬】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo",
+          "additional_text": "【快速攻击】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【冻结齐射】冻BOSS用，力量智力不够先不上辅助",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdExposure",
+          "additional_text": "【冰霜曝露】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【狙击】★爆发。会炸开就是完美时机（完美会发光且有范围）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "【范围集中】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "additional_text": "【元素集中】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【弹幕】冻住后先开弹幕再狙击",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemOvercharge",
+          "additional_text": "【永续充能】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion",
+          "additional_text": "【能量球激增】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【寒冰之捷】31级后光环，替换闪电之捷",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament",
+          "additional_text": "【元素军械】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "additional_text": "【元素集中】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【战旗】★打BOSS替换闪电之捷。勾副手省30精魂",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence",
+          "additional_text": "【持续时间延长】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【战斗狂怒】8级精魂宝石可学，一般10级换",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion",
+          "additional_text": "【能量球激增】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【幻影射手】★勾1号武器。致盲联动盲点，+15%暴击",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuity",
+          "additional_text": "【冷却回复】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind",
+          "additional_text": "【致盲】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【龙卷射击】打BOSS砸上去上致盲",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "additional_text": "【范围集中】"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind",
+          "additional_text": "【致盲】"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "level_interval": [
+        31,
+        100
+      ],
+      "additional_text": "【风舞者】保命，被击中弹开敌人",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect",
+          "additional_text": "【范围扩大】"
+        }
+      ]
+    }
+  ]
+}
