@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemLightningRod",
+      "id": "Metadata/Items/Gems/SkillGemLightningRod",
       "level_interval": [
         1,
         30
@@ -92,7 +92,7 @@
       "additional_text": "【扑袭】位移+给Boss挂印记。"
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "id": "Metadata/Items/Gems/SkillGemIceShot",
       "level_interval": [
         31,
         100
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "id": "Metadata/Items/Gems/SkillGemFreezingSalvo",
       "level_interval": [
         31,
         100
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "id": "Metadata/Items/Gems/SkillGemSnipe",
       "level_interval": [
         31,
         100
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "id": "Metadata/Items/Gems/SkillGemFreezingMark",
       "level_interval": [
         22,
         100
