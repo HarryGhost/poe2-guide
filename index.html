@@ -93,6 +93,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
     <button data-t="rot">⚔ 输出手法</button>
     <button data-t="craft">🔨 做装备</button>
     <button data-t="chk">✔ 进度勾选</button>
+    <button data-t="links">🔗 链接</button>
     <button data-t="memo">📖 速查</button>
   </nav>
 </div></header>
@@ -527,6 +528,94 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   <p style="font-size:13px;margin:0 0 8px" id="barTx">0 / 0</p>
   <div id="chkList"></div>
   <div style="margin-top:18px"><button class="btn" id="resetChk">清空全部勾选</button></div>
+</section>
+
+<!-- ═══ 链接 ═══ -->
+<section id="links">
+  <h2>🔗 有用链接（全部验证过能打开）</h2>
+  <p>按<b>重要程度</b>排的。<b>带 ⭐ 的收进书签。</b></p>
+
+  <h3>⭐ 先收藏这 4 个</h3>
+  <table>
+    <tr><th style="width:30%">网站</th><th>干什么用</th></tr>
+    <tr><td><b><a href="https://poe2db.tw/cn/" target="_blank">poe2db 流亡2编年史</a></b></td>
+        <td><b>查任何东西的数据库。</b>装备、技能、抗性上限、天赋、地区、掉落。
+            中文界面。<b>你玩的时候需要查数据，就来这里</b></td></tr>
+    <tr><td><b><a href="https://poe2.qq.com/" target="_blank">官网 poe2.qq.com</a></b></td>
+        <td>官方公告、活动、维护通知。<b>看活动就上这</b></td></tr>
+    <tr><td><b><a href="https://poe.ninja/poe2/builds" target="_blank">poe.ninja（忍者网）</a></b></td>
+        <td><b>看真实玩家在用什么 BD。</b>能看别人的实际装备和天赋，也能下载 .build 文件</td></tr>
+    <tr><td><b><a href="https://maxroll.gg/poe2" target="_blank">Maxroll</a></b></td>
+        <td>英文攻略站，质量高。有内置规划器可以导出 .build 文件</td></tr>
+  </table>
+
+  <h3>新手入门（中文，先看这些）</h3>
+  <table>
+    <tr><th style="width:30%">标题</th><th>讲什么</th></tr>
+    <tr><td><a href="https://wap.gamersky.com/gl/Content-2013039.html" target="_blank">游民星空 · 新手入门指南</a></td>
+        <td><b>最全的新手基础。</b>技能/精魂/天赋怎么用、<b>24 点天赋和 100 点精魂的完整清单</b>、回收台重铸台解锁</td></tr>
+    <tr><td><a href="https://news.17173.com/content/12082024/101516880.shtml" target="_blank">17173 · 新手必知基础知识点</a></td>
+        <td><b>进游戏要改的设置</b>、回城习惯、<b>国服两个翻译错误</b>、快捷操作</td></tr>
+    <tr><td><a href="https://www.dvg.cn/danjigl/111832.html" target="_blank">黑话全解析</a></td>
+        <td>E/C/D/BD/T1/瓦/厕所/底子 这些老玩家用语</td></tr>
+    <tr><td><a href="https://m.sdwyzx.com/view/2199.html" target="_blank">入坑术语须知</a></td>
+        <td>BD 是什么、通货是什么、装备稀有度怎么分</td></tr>
+    <tr><td><a href="https://www.9game.cn/lfzl2/10690081.html" target="_blank">人物基础属性一览</a></td>
+        <td>生命/护盾/魔力/精魂/护甲/闪避/<b>抗性上限</b>的作用</td></tr>
+  </table>
+
+  <h3>锐眼冰射攻略（中文）</h3>
+  <table>
+    <tr><th style="width:30%">标题</th><th>讲什么</th></tr>
+    <tr><td><b><a href="https://gl.ali213.net/html/2026-6/1778991.html" target="_blank">游侠网 · 0.5 锐眼冰射开荒攻略</a></b><br>
+            <span style="font-size:12px">（共 5 页，本网站主要参考这份）</span></td>
+        <td><b>最详细的一份。</b>逐章技能搭配（<b>国际服/国服双栏对照</b>）、输出手法、赛季玩法、
+            每张地图掉落。<b>本网站的「照抄表」就是从这来的</b></td></tr>
+    <tr><td><a href="https://ol.3dmgame.com/gl/341697.html" target="_blank">踩蘑菇 · 0.5 冰射狙击开荒 BD</a></td>
+        <td>另一套打法（狙击流）。有完整的做装备规则和搜索正则</td></tr>
+    <tr><td><a href="https://www.wz1580.com/2355.html" target="_blank">锐眼从零开荒到 T16</a></td>
+        <td>完整的剧情流程视角</td></tr>
+    <tr><td><a href="https://news.17173.com/content/09092025/203901490.shtml" target="_blank">17173 · 国服游侠开荒 + 锐眼后期</a></td>
+        <td>国服视角的开荒路线</td></tr>
+    <tr><td><a href="http://www.linggouguoji.com/lgzx/427076.html" target="_blank">仓库页怎么买划算</a></td>
+        <td>哪个仓库页值得买、哪个不值得</td></tr>
+  </table>
+
+  <h3>BNuild 文件（导入游戏用）</h3>
+  <table>
+    <tr><th style="width:30%">标题</th><th>讲什么</th></tr>
+    <tr><td><a href="https://maxroll.gg/poe2/getting-started/how-to-use-the-in-game-build-planner" target="_blank">Maxroll · 内置 BD 规划器怎么用</a></td>
+        <td>① 导出 .build 文件 ② 放进哪个文件夹 ③ 游戏里怎么选</td></tr>
+    <tr><td><b><a href="https://poe.ninja/poe2/builds" target="_blank">poe.ninja → 下载别人的 BD</a></b></td>
+        <td>打开任意角色 → 右上角 Build Planner → 下载</td></tr>
+  </table>
+
+  <h3>官方文档 / 数据</h3>
+  <table>
+    <tr><th style="width:30%">标题</th><th>讲什么</th></tr>
+    <tr><td><a href="https://poe2db.tw/cn/Maximum_Resistances" target="_blank">抗性上限（poe2db）</a></td>
+        <td><b>官方数据：默认 75%，最高 90%</b></td></tr>
+    <tr><td><a href="https://poe2db.tw/cn/Skill_Gems" target="_blank">技能宝石列表（poe2db）</a></td>
+        <td>所有技能和辅助宝石，可以搜中文名</td></tr>
+    <tr><td><a href="https://www.pathofexile.com/developer/docs/game" target="_blank">GGG 开发者文档 · .build 格式</a></td>
+        <td>官方公布的 Build 文件规范（技术向，不用看也行）</td></tr>
+  </table>
+
+  <h3>社区</h3>
+  <table>
+    <tr><th style="width:30%">地方</th><th>干什么</th></tr>
+    <tr><td><a href="https://www.caimogu.cc/circle/2.html" target="_blank">踩蘑菇 · 流放之路2圈</a></td>
+        <td>中文讨论区，有攻略也有问题讨论</td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV13NHqzcEh5/" target="_blank">B站 · 国服锐眼开荒保姆级教学</a></td>
+        <td>视频教程，看打法比看文字直观</td></tr>
+    <tr><td>B站搜索「流放之路降临 锐眼」</td>
+        <td>视频攻略很多，<b>卡住的时候看视频最快</b></td></tr>
+  </table>
+
+  <div class="warn">
+    <b>关于 NGA：</b>那个论坛有一批很硬核的老玩家讨论，<b>但访客看不到内容</b>（需要登录 APP）。
+    所以这里没放。
+  </div>
 </section>
 
 <!-- ═══ 速查 ═══ -->
