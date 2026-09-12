@@ -82,12 +82,18 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 .job .jt{background:var(--panel2);padding:8px 13px;font-size:13px;font-weight:600;color:var(--gold);border-left:4px solid var(--cyan)}
 .job .jn{padding:9px 13px;font-size:13.5px;color:var(--tx2);line-height:1.7}
 .job .jn b{color:var(--tx)}
+
+.treegal{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin:12px 0}
+.treegal a{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.treegal a:hover{border-color:var(--cyan)}
+.treegal img{display:block;width:100%;height:190px;object-fit:cover;background:#0b0f14}
+.treegal span{display:block;font-size:12.5px;color:var(--tx2);padding:8px 10px;line-height:1.55}
 </style></head><body>
 <header><div class="wrap">
  <div class="brand"><h1>锐眼冰射狙击 · 开荒手册</h1>
   <span class="ver">0.5.5 国服</span>
   <span class="ver" style="color:var(--cyan);border-color:var(--cyan)">来源：网瘾老年人lowK</span></div>
- <nav><button class="on" data-t="copy">📋 照抄表</button><button data-t="skill">⚔ 技能配置</button><button data-t="rot">🎯 输出手法</button><button data-t="end">🌌 异界后</button><button data-t="gear">🔨 装备</button><button data-t="talent">🧭 天赋加点</button><button data-t="chk">✔ 进度勾选</button><button data-t="memo">📖 速查</button><button data-t="video">🎬 视频笔记</button><button data-t="lowk">🔗 链接与配图</button></nav>
+ <nav><button class="on" data-t="copy">📋 照抄表</button><button data-t="skill">⚔ 技能配置</button><button data-t="rot">🎯 输出手法</button><button data-t="end">🌌 异界后</button><button data-t="gear">🔨 装备</button><button data-t="talent">🧭 天赋加点</button><button data-t="chk">✔ 进度勾选</button><button data-t="memo">📖 速查</button><button data-t="video">🎬 视频笔记</button><button data-t="pics">🖼 配图</button><button data-t="lowk">🔗 他的链接</button></nav>
 </div></header><main class="wrap">
 <section id="copy" class="on">
  <h2>照抄表</h2>
@@ -484,13 +490,21 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 
 <div class="toc">
  <a href="#t1">① 属性：敏捷 / 智力 / 力量</a>
- <a href="#t2">② 加点顺序（分四个阶段）</a>
- <a href="#t3">③ 升华顺序</a>
- <a href="#t4">④ 洗点与双天赋</a>
+ <a href="#t2">② 加点方向（四个阶段）</a>
+ <a href="#t3">③ 天赋树长什么样（他的原图）</a>
+ <a href="#t4">④ 升华顺序</a>
+ <a href="#t5">⑤ 洗点与双天赋</a>
 </div>
 
 <div class="ok">
- <b>这一页只讲两件事：点什么、属性怎么配。</b>技能怎么搭看「⚔ 技能配置」，装备怎么买看「🔨 装备」。
+ <b>这一页讲两件事：点什么、属性怎么配。</b>技能怎么搭看「⚔ 技能配置」，装备怎么买看「🔨 装备」。
+</div>
+
+<div class="warn">
+ <b>先说清楚一件事：点天赋照着下面的图点，别看我写的节点名。</b>
+ 我要么给你他视频里的<b>具体点位</b>，要么不给 —— 我配不出跟他一模一样的一棵树，
+ 所以我把自己配的那份删了。下面是<b>他文档里的 5 张天赋树原图</b>，
+ <b>这是唯一准确的来源</b>。属性数字和加点方向我放在前面，那些是从他视频里听出来的，可信。
 </div>
 
 <h3 id="t1">① 属性：三句话记住</h3>
@@ -509,58 +523,25 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  · 头 / 手 → 看<b>智力需求</b>（穿抗手 64，盾头 115）+ <b>力量需求</b>（敏锐敕令要 59 力量）
 </div>
 
-<h3 id="t2">② 加点顺序：分四个阶段，每个阶段拿什么</h3>
-<div class="stageblock">
- <div class="stagehead">
-  <span class="stagename">1–30 级（前 40 点）</span>
-  <span class="stagegoal"><b>先把锐眼起点周围的投射物 / 攻速 / 移速圈连成一片。</b></span>
- </div>
- <table>
-  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
-  <tr><td><b>猎手本能（Honed Instincts）</b></td><td>+8% 投射物速度 / +8% 攻速 / +10 敏捷</td></tr><tr><td><b>精准齐射（Precision Salvo）</b></td><td>+8% 投射物速度 / +6% 攻速 / +12% 命中</td></tr><tr><td><b>模糊（Blur）</b></td><td>+4% 移速 / +20% 闪避 / +10 敏捷</td></tr><tr><td><b>爆破伤口（Vile Wounds）</b></td><td>对被异常状态影响的目标 +33% 伤害</td></tr><tr><td><b>精准射击（Clean Shot）</b></td><td>+15% 穿透几率 / +15% 投射物伤害</td></tr>
- </table>
- <div class="kv" style="margin-top:8px;font-size:13px">他讲天赋时第一句就是：「这里要加<b>投射物速度跟攻击速度</b>，还有石的敏捷是一个不错的比较实惠的点。」前期伤害不够，先把投射物系和攻速拿满。</div>
-</div><div class="stageblock">
- <div class="stagehead">
-  <span class="stagename">31–55 级（中间 40 点）</span>
-  <span class="stagegoal"><b>转冰霜射击之后，开始拿冰冷相关的点。</b></span>
- </div>
- <table>
-  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
-  <tr><td><b>山之神髓（Essence of the Mountain）</b></td><td>伤害的 5% 作为额外冰冷伤害 / +20% 冰冻积累</td></tr><tr><td><b>风暴涌浪（Storm Swell）</b></td><td>穿透 15% 冰冷抗性</td></tr><tr><td><b>雷霆汹涌（Storm Surge）</b></td><td>穿透 8% 冰冷抗性</td></tr><tr><td><b>无拘之力（Unbound Forces）</b></td><td>+40% 冰缓持续时间 / +25% 感电幅度等</td></tr><tr><td><b>敏捷精通（Proficiency）</b></td><td>+25 敏捷</td></tr>
- </table>
- <div class="kv" style="margin-top:8px;font-size:13px">「往下面下来还是到这边……」这段的核心就一句：<b>冰霜射击靠穿透和冰缓吃饭</b>，穿透点比单纯加伤害更值。</div>
-</div><div class="stageblock">
- <div class="stagehead">
-  <span class="stagename">55–75 级（再 30 点）</span>
-  <span class="stagegoal"><b>补命中 / 闪避 / 攻速，顺手把暴击前置点拿好。</b></span>
- </div>
- <table>
-  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
-  <tr><td><b>隼之技巧（Falcon Technique）</b></td><td>每 25 敏捷 +1% 攻击速度</td></tr><tr><td><b>精准瞄准（Careful Aim）</b></td><td>+15% 命中 / +20% 投射物伤害</td></tr><tr><td><b>鹰眼（Eagle Eye）</b></td><td>+30 命中 / +10% 命中</td></tr><tr><td><b>猫步轻盈（Catlike Agility）</b></td><td>+25% 闪避（翻滚后 +40%）</td></tr><tr><td><b>不屈（Feel no Pain）</b></td><td>+20% 护甲与闪避 / +20% 眩晕门槛</td></tr><tr><td><b>久经沙场（Battle-hardened）</b></td><td>被暴击伤害 -20% / +20% 护甲与闪避</td></tr>
- </table>
- <div class="kv" style="margin-top:8px;font-size:13px">他原话：「因为我们暴击比较缺命中。」(<b>原文疑似</b>，ASR 里是"运可"，按语境应是命中)<b>转暴击要在 70 级左右开始</b>，这些命中/暴击前置点先铺好，转的时候不用大面积洗点。</div>
-</div><div class="stageblock">
- <div class="stagehead">
-  <span class="stagename">75–90 级（最后 28 点）</span>
-  <span class="stagegoal"><b>暴击圈 + 偏斜圈 + 冰霜与护盾。</b></span>
- </div>
- <table>
-  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
-  <tr><td><b>弹射（Ricochet）</b></td><td>+15% 投射物伤害 / 投射物有 10% 几率额外连锁</td></tr><tr><td><b>重弹药（Heavy Ammunition）</b></td><td>+40% 投射物伤害（代价：攻速 -5%）</td></tr><tr><td><b>无情（Remorseless）</b></td><td>+15% 投射物伤害</td></tr><tr><td><b>沙卡瓦之爪 / 之皮（Saqawal's Talon / Hide）</b></td><td>各 +5% 冰冷 / 闪电抗性 + 25% 护甲与闪避</td></tr><tr><td><b>难以杀死（Hard to Kill）</b></td><td>+40% 药剂生命回复 / 每秒回复 0.75% 最大生命</td></tr>
- </table>
- <div class="kv" style="margin-top:8px;font-size:13px">他讲第二天天赋时：「这里也可以加个暴击对吧，25%……这里有个暴击几率 12，再加这里就是 37%，也是不错的。然后这边是纯加伤害的。」<br>另外他把生存挪过来的时候说：「<b>把加点挪一部分来这个偏斜圈</b>——这里 4 点，这里 5 点，总共 9 点。」<b>伤害够了之后再把生存补上</b>。</div>
-</div>
-<div class="warn"><b>说明：</b>上面这些点名来自他视频里口述的加点方向（投射物速度+攻速、命中、冰抗穿透、暴击圈、偏斜圈、闪避加护盾），节点名是我按 PoB 的 0.5 天赋树数据对上号的中文名。他视频里的<b>具体点位顺序</b>因为需要看画面，我没有可靠来源——<b>方向可以照抄，逐点点位请看视频或直接下他 poe.ninja 的角色</b>。</div>
+<h3 id="t2">② 加点方向（四个阶段）</h3>
+<div class="stageblock"><div class="stagehead"><span class="stagename">1–30 级</span><span class="stagegoal"><b>先连投射物 / 攻速 / 移速那一圈。</b></span></div><div class="kv" style="font-size:13.5px;line-height:1.75">他讲天赋时第一句：「这里要加<b>投射物速度跟攻击速度</b>，还有石的敏捷是一个不错的比较实惠的点。」<br>前期伤害不够，先拿投射物系和攻速，别急着往冰系那边走。</div><div class="kv" style="font-size:12.5px;color:var(--tx2)">看哪张图：这一圈在锐眼起点左上方，图 1 里那串<b>绿色连起来的节点</b>就是。</div></div><div class="stageblock"><div class="stagehead"><span class="stagename">31–55 级</span><span class="stagegoal"><b>转冰霜射击之后，往冰冷穿透 / 冰冻积累那边点。</b></span></div><div class="kv" style="font-size:13.5px;line-height:1.75">他原话：「往下面下来还是到这边……」这段的核心是：<b>冰霜射击靠穿透和冰缓吃饭</b>，穿透点比单纯加伤害更值。</div><div class="kv" style="font-size:12.5px;color:var(--tx2)">看哪张图：图 1 中间偏下那几个橙色大点，和图 4 里靠外侧的橙色点。</div></div><div class="stageblock"><div class="stagehead"><span class="stagename">55–75 级</span><span class="stagegoal"><b>补命中 / 闪避 / 攻速，为转暴击铺路。</b></span></div><div class="kv" style="font-size:13.5px;line-height:1.75">他原话：「因为我们暴击比较缺命中。」（<b>原文疑似</b>：ASR 里是"运可"，按语境应是命中）<br><b>转暴击要在 70 级左右开始</b>，这些命中点先铺好，转的时候不用大面积洗。</div><div class="kv" style="font-size:12.5px;color:var(--tx2)">看哪张图：图 2、图 5 里那些偏黄的射线状节点，以及右侧那一圈闪避。</div></div><div class="stageblock"><div class="stagehead"><span class="stagename">75–90 级</span><span class="stagegoal"><b>暴击圈 + 偏斜圈 + 冰霜与护盾。</b></span></div><div class="kv" style="font-size:13.5px;line-height:1.75">他讲第二天天赋时说：「这里也可以加个暴击对吧，25%……这里有个暴击几率 12，再加这里就是 37%。」<br>生存那条他原话：「<b>把加点挪一部分来这个偏斜圈</b>——这里 4 点，这里 5 点，总共 9 点。」<b>伤害够了再把生存补上。</b></div><div class="kv" style="font-size:12.5px;color:var(--tx2)">看哪张图：图 3（暴击流主天赋）和图 5（副天赋/暴击圈）。</div></div>
+<div class="warn">上面四个阶段的<b>方向</b>是从他视频口述里对出来的，可信。<br><b>具体点位照下面的图点</b>——他视频里的点位顺序需要看画面，我没有可靠来源，所以不给点位，只给方向和对照图。</div>
 
-<h3 id="t3">③ 升华顺序（4 个点）</h3>
+<h3 id="t3">③ 天赋树长什么样（他的原图，5 张）</h3>
+<div class="ok">
+ <b>照着图点。</b>点开就是大图，可以直接缩放看节点。这 5 张都来自他的《0.55锐眼开荒文档》。
+ <b>注：他是在国际服（繁体界面）录的，国服的节点位置一样，只是文字翻译不同。</b>
+</div>
+<div class="treegal"><a href="images/13.jpg" target="_blank" class="treeimg"><img src="images/13.jpg" loading="lazy" alt="第一天 · 非暴击／主天赋（图里是国服繁体界面的「天赋技能」页）"><span>第一天 · 非暴击／主天赋（图里是国服繁体界面的「天赋技能」页）</span></a><a href="images/14.jpg" target="_blank" class="treeimg"><img src="images/14.jpg" loading="lazy" alt="第一天 · 非暴击（另一张视角）"><span>第一天 · 非暴击（另一张视角）</span></a><a href="images/23.jpg" target="_blank" class="treeimg"><img src="images/23.jpg" loading="lazy" alt="第二天 · 转暴击后（生命 1459 / 护盾 895，血量明显比第一天高）"><span>第二天 · 转暴击后（生命 1459 / 护盾 895，血量明显比第一天高）</span></a><a href="images/15.jpg" target="_blank" class="treeimg"><img src="images/15.jpg" loading="lazy" alt="第二天 · 转暴击（生命 1443 / 护盾 707）"><span>第二天 · 转暴击（生命 1443 / 护盾 707）</span></a><a href="images/16.jpg" target="_blank" class="treeimg"><img src="images/16.jpg" loading="lazy" alt="第二天 · 双天赋的副天赋（点大量印记类节点的那一套）"><span>第二天 · 双天赋的副天赋（点大量印记类节点的那一套）</span></a></div>
+
+<h3 id="t4">④ 升华顺序（4 个点）</h3>
 <table>
  <tr><th style="width:8%">顺序</th><th style="width:18%">升华</th><th>效果</th><th style="width:26%">备注</th></tr>
  <tr><td><b>1</b></td><td><b style="color:var(--gold)">零点射击</b></td><td>近身 / 远射专用化（Projectile Proximity Specialisation）</td><td>第一个升华就点。</td></tr><tr><td><b>2</b></td><td><b style="color:var(--gold)">无限弹药</b></td><td>技能额外发射 1 个投射物（Endless Munitions）</td><td>配天赋 +1 箭、符文 +1 箭，箭矢数量叠起来清图质变。</td></tr><tr><td><b>3</b></td><td><b style="color:var(--gold)">蜃影神射</b></td><td>幻影锐眼（Mirage Deadeye）：翻滚时产生的影子帮你射</td><td>他视频里说的"影子"就是这个。配合幻影射手的致盲联动盲点。</td></tr><tr><td><b>4</b></td><td><b style="color:var(--gold)">疾风</b></td><td>使用技能时获得顺风（Gathering Winds）</td><td>第四个点。</td></tr>
 </table>
 <div class="ok"><b>顺序别反：</b>他视频里的顺序就是 零点射击 → 无限弹药 → 蜃影神射 → 疾风。<b>4 个升华点一共要 4 次试炼才能拿满</b>，所以正常情况下就是这个顺序。</div>
 
-<h3 id="t4">④ 洗点与双天赋</h3>
+<h3 id="t5">⑤ 洗点与双天赋</h3>
 <table>
  <tr><th style="width:26%">项目</th><th>内容</th></tr>
  <tr><td><b>前期不用纠结</b></td><td><b>天赋点错了前期不用怕</b>——洗点用的是金币，不是通货。真正要留金币的地方是转暴击那一次。</td></tr><tr><td><b>转暴击要留 100 万金币</b></td><td>他原话：「转暴击需要留 100 万金币洗点。」约 70 级左右转。</td></tr><tr><td><b>双天赋</b></td><td>这套要用<b>两套天赋</b>：主天赋打图，副天赋（印记类）+ 招架/驳斥应付一直出招的 BOSS（比如火焰巅峰的神圣仲裁者）。不会点双天赋的看他视频「391 手把手点双天赋」。</td></tr>
@@ -778,8 +759,35 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  </table>
 </div>
 </section>
+<section id="pics">
+ <h2>🖼 配图总览</h2>
+
+<div class="ok">
+ <b>这一页是备查的资料图。</b>你平时要用的两类图已经放在对应页面里了：<br>
+ · <b>天赋树 5 张</b> → 「🧭 天赋加点」页（跟加点说明放一起）<br>
+ · <b>装备截图 41 张（带说明）</b> → 「🔨 装备」页最后一节<br>
+ 这里只是把全部图片整理成一个总览，方便你找。
+</div>
+
+<h3>0.55 开荒文档 · 23 张</h3>
+<p style="font-size:12.5px">按文件名顺序。带编号说明的是我认出来的，没标的就是普通截图。</p>
+<div class="gal"><a href="images/01.jpg" target="_blank" class="gitem"><img src="images/01.jpg" loading="lazy" alt="01.jpg"></a><a href="images/02.jpg" target="_blank" class="gitem"><img src="images/02.jpg" loading="lazy" alt="02.jpg"></a><a href="images/03.jpg" target="_blank" class="gitem"><img src="images/03.jpg" loading="lazy" alt="03.jpg"></a><a href="images/04.jpg" target="_blank" class="gitem"><img src="images/04.jpg" loading="lazy" alt="04.jpg"></a><a href="images/05.jpg" target="_blank" class="gitem"><img src="images/05.jpg" loading="lazy" alt="05.jpg"></a><a href="images/06.jpg" target="_blank" class="gitem"><img src="images/06.jpg" loading="lazy" alt="06.jpg"></a><a href="images/07.jpg" target="_blank" class="gitem"><img src="images/07.jpg" loading="lazy" alt="07.jpg"></a><a href="images/08.jpg" target="_blank" class="gitem"><img src="images/08.jpg" loading="lazy" alt="08.jpg"></a><a href="images/09.jpg" target="_blank" class="gitem"><img src="images/09.jpg" loading="lazy" alt="09.jpg"></a><a href="images/10.jpg" target="_blank" class="gitem"><img src="images/10.jpg" loading="lazy" alt="裂心弓 交易对比"><span>裂心弓 交易对比</span></a><a href="images/11.jpg" target="_blank" class="gitem"><img src="images/11.jpg" loading="lazy" alt="寒焰头 交易对比"><span>寒焰头 交易对比</span></a><a href="images/12.jpg" target="_blank" class="gitem"><img src="images/12.jpg" loading="lazy" alt="敏锐敕令 头盔"><span>敏锐敕令 头盔</span></a><a href="images/13.jpg" target="_blank" class="gitem"><img src="images/13.jpg" loading="lazy" alt="天赋树 ①"><span>天赋树 ①</span></a><a href="images/14.jpg" target="_blank" class="gitem"><img src="images/14.jpg" loading="lazy" alt="天赋树 ②"><span>天赋树 ②</span></a><a href="images/15.jpg" target="_blank" class="gitem"><img src="images/15.jpg" loading="lazy" alt="天赋树 ③"><span>天赋树 ③</span></a><a href="images/16.jpg" target="_blank" class="gitem"><img src="images/16.jpg" loading="lazy" alt="天赋树 ④"><span>天赋树 ④</span></a><a href="images/17.jpg" target="_blank" class="gitem"><img src="images/17.jpg" loading="lazy" alt="白银之舌 交易对比"><span>白银之舌 交易对比</span></a><a href="images/18.jpg" target="_blank" class="gitem"><img src="images/18.jpg" loading="lazy" alt="毁灭者之弓"><span>毁灭者之弓</span></a><a href="images/19.jpg" target="_blank" class="gitem"><img src="images/19.jpg" loading="lazy" alt="弓后缀词条"><span>弓后缀词条</span></a><a href="images/20.jpg" target="_blank" class="gitem"><img src="images/20.jpg" loading="lazy" alt="冰霜之捷 面板"><span>冰霜之捷 面板</span></a><a href="images/21.jpg" target="_blank" class="gitem"><img src="images/21.jpg" loading="lazy" alt="夜临腰带"><span>夜临腰带</span></a><a href="images/22.jpg" target="_blank" class="gitem"><img src="images/22.jpg" loading="lazy" alt="独闯腰带"><span>独闯腰带</span></a><a href="images/23.jpg" target="_blank" class="gitem"><img src="images/23.jpg" loading="lazy" alt="天赋树 ⑤"><span>天赋树 ⑤</span></a></div>
+
+<h3>装备搭配文档 · 41 张（缩略图）</h3>
+<p style="font-size:12.5px">
+ 文件名已按内容命名（<code>c3-hunter-final</code> = 猎心成品弓那种）。
+ <b>每张图的中文说明在「🔨 装备」页最后一节</b>，这里只作总览。
+</p>
+<div class="gal"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="c1-belt-ingenuity.jpg"></a><a href="images/gear/c1-belt-nightfall.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-nightfall.jpg" loading="lazy" alt="c1-belt-nightfall.jpg"></a><a href="images/gear/c1-belt-runestatues.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-runestatues.jpg" loading="lazy" alt="c1-belt-runestatues.jpg"></a><a href="images/gear/c1-boots-atziri.jpg" target="_blank" class="gitem"><img src="images/gear/c1-boots-atziri.jpg" loading="lazy" alt="c1-boots-atziri.jpg"></a><a href="images/gear/c1-boots-evdodge.jpg" target="_blank" class="gitem"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="c1-boots-evdodge.jpg"></a><a href="images/gear/c2-belt-headhunter.jpg" target="_blank" class="gitem"><img src="images/gear/c2-belt-headhunter.jpg" loading="lazy" alt="c2-belt-headhunter.jpg"></a><a href="images/gear/c2-bow-theory.jpg" target="_blank" class="gitem"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="c2-bow-theory.jpg"></a><a href="images/gear/c2-chest-rare.jpg" target="_blank" class="gitem"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="c2-chest-rare.jpg"></a><a href="images/gear/c2-chest-siris.jpg" target="_blank" class="gitem"><img src="images/gear/c2-chest-siris.jpg" loading="lazy" alt="c2-chest-siris.jpg"></a><a href="images/gear/c2-freeze-support.jpg" target="_blank" class="gitem"><img src="images/gear/c2-freeze-support.jpg" loading="lazy" alt="c2-freeze-support.jpg"></a><a href="images/gear/c2-gem-breakpoint.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-breakpoint.jpg" loading="lazy" alt="c2-gem-breakpoint.jpg"></a><a href="images/gear/c2-gem-critcap.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-critcap.jpg" loading="lazy" alt="c2-gem-critcap.jpg"></a><a href="images/gear/c2-gem-ice-shot.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-ice-shot.jpg" loading="lazy" alt="c2-gem-ice-shot.jpg"></a><a href="images/gear/c2-gem-levelcurve.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-levelcurve.jpg" loading="lazy" alt="c2-gem-levelcurve.jpg"></a><a href="images/gear/c2-gloves-sine.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="c2-gloves-sine.jpg"></a><a href="images/gear/c2-gloves-trade.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gloves-trade.jpg" loading="lazy" alt="c2-gloves-trade.jpg"></a><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank" class="gitem"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="c2-hat-heatshiver.jpg"></a><a href="images/gear/c2-jewel-diamond.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="c2-jewel-diamond.jpg"></a><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="c2-jewel-fromnothing.jpg"></a><a href="images/gear/c2-jewel-green.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="c2-jewel-green.jpg"></a><a href="images/gear/c2-rune-arrow.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="c2-rune-arrow.jpg"></a><a href="images/gear/c2-rune-element.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="c2-rune-element.jpg"></a><a href="images/gear/c2-rune-list.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-list.jpg" loading="lazy" alt="c2-rune-list.jpg"></a><a href="images/gear/c2-widowhail.jpg" target="_blank" class="gitem"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="c2-widowhail.jpg"></a><a href="images/gear/c3-helm-acuity.jpg" target="_blank" class="gitem"><img src="images/gear/c3-helm-acuity.jpg" loading="lazy" alt="c3-helm-acuity.jpg"></a><a href="images/gear/c3-hunter-base.jpg" target="_blank" class="gitem"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="c3-hunter-base.jpg"></a><a href="images/gear/c3-hunter-final.jpg" target="_blank" class="gitem"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="c3-hunter-final.jpg"></a><a href="images/gear/c3-lioneye.jpg" target="_blank" class="gitem"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="c3-lioneye.jpg"></a><a href="images/gear/c3-slivertongue.jpg" target="_blank" class="gitem"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="c3-slivertongue.jpg"></a><a href="images/gear/c4-amulet-fury.jpg" target="_blank" class="gitem"><img src="images/gear/c4-amulet-fury.jpg" loading="lazy" alt="c4-amulet-fury.jpg"></a><a href="images/gear/c4-amulet.jpg" target="_blank" class="gitem"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="c4-amulet.jpg"></a><a href="images/gear/c4-ring-call.jpg" target="_blank" class="gitem"><img src="images/gear/c4-ring-call.jpg" loading="lazy" alt="c4-ring-call.jpg"></a><a href="images/gear/c4-trade-filled.jpg" target="_blank" class="gitem"><img src="images/gear/c4-trade-filled.jpg" loading="lazy" alt="c4-trade-filled.jpg"></a><a href="images/gear/c4-trade-filter.jpg" target="_blank" class="gitem"><img src="images/gear/c4-trade-filter.jpg" loading="lazy" alt="c4-trade-filter.jpg"></a><a href="images/gear/c5-devastator-cheap.jpg" target="_blank" class="gitem"><img src="images/gear/c5-devastator-cheap.jpg" loading="lazy" alt="c5-devastator-cheap.jpg"></a><a href="images/gear/c5-devastator.jpg" target="_blank" class="gitem"><img src="images/gear/c5-devastator.jpg" loading="lazy" alt="c5-devastator.jpg"></a><a href="images/gear/c6-arrow-types.jpg" target="_blank" class="gitem"><img src="images/gear/c6-arrow-types.jpg" loading="lazy" alt="c6-arrow-types.jpg"></a><a href="images/gear/c9-boss.jpg" target="_blank" class="gitem"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="c9-boss.jpg"></a><a href="images/gear/c9-currency-exchange.jpg" target="_blank" class="gitem"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="c9-currency-exchange.jpg"></a><a href="images/gear/c9-money-log.jpg" target="_blank" class="gitem"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="c9-money-log.jpg"></a><a href="images/gear/c9-money-log2.jpg" target="_blank" class="gitem"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="c9-money-log2.jpg"></a></div>
+
+<div class="warn">
+ 图片来自 <b>网瘾老年人lowK</b> 的文档，版权归他。B 站 CDN 禁止外部网站直接引用，
+ 所以存到本网站方便你看，内容没有改动。
+</div>
+</section>
 <section id="lowk">
- <h2>🔗 他的链接与配图</h2>
+ <h2>🔗 他的链接</h2>
+ <p>全部指向 <b>网瘾老年人lowK</b> 的原始内容。</p>
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin:12px 0}
 .gitem{position:relative;display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;text-decoration:none}
@@ -829,35 +837,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 </table>
 
 
-<h3>🖼 他文档里的 23 张配图（已下载到本网站）</h3>
-<div class="warn">
- <b>为什么要下载到本地：</b>B站 CDN <b>禁止外部网站直接引用</b>（实测带 GitHub 的 Referer 返回 403），
- 所以我把它们下载压缩后放到了本网站。你在这里直接看，不用去 B站翻。
- <br><br>
- <b>这些图是什么（我抽查了 7 张，全部有内容）：</b><br>
- · <b>天赋树截图</b>（游戏内「天赋技能」界面）——不同加点阶段，HUD 数值不同（生命/护盾/精魂）<br>
- · <b>交易页装备对比</b>（比如两把「裂舌」弓，10 chaos vs 2 divine）<br>
- · <b>装备效果说明</b>（比如夜临腰带「91% 镶嵌物品效果 / 视为手套」）<br>
- <br>
- <b>我按文档里的原始顺序编号（01–23）。</b>点图片开大图。
- <br><br>
- <b>关于「删掉无用的图」：</b>我本来打算删，但<b>查完之后发现没有一张是完全重复的</b>
- （逐字节哈希比对，0 组重复）。所以<b>全部保留</b>了。
- 如果你看到某张确实没用，告诉我编号，我删。
- <br><br>
- <b>要对照"这张图对应文档哪一节"</b>，请回原文档看位置：
- <a href="https://www.bilibili.com/opus/1244113182261248006" target="_blank">0.55锐眼开荒文档 ↗</a>
-</div>
-
-<div class="gal">
- <a href="images/01.jpg" target="_blank" class="gitem"><img src="images/01.jpg" loading="lazy" alt="文档配图 1"><span>01</span></a><a href="images/02.jpg" target="_blank" class="gitem"><img src="images/02.jpg" loading="lazy" alt="文档配图 2"><span>02</span></a><a href="images/03.jpg" target="_blank" class="gitem"><img src="images/03.jpg" loading="lazy" alt="文档配图 3"><span>03</span></a><a href="images/04.jpg" target="_blank" class="gitem"><img src="images/04.jpg" loading="lazy" alt="文档配图 4"><span>04</span></a><a href="images/05.jpg" target="_blank" class="gitem"><img src="images/05.jpg" loading="lazy" alt="文档配图 5"><span>05</span></a><a href="images/06.jpg" target="_blank" class="gitem"><img src="images/06.jpg" loading="lazy" alt="文档配图 6"><span>06</span></a><a href="images/07.jpg" target="_blank" class="gitem"><img src="images/07.jpg" loading="lazy" alt="文档配图 7"><span>07</span></a><a href="images/08.jpg" target="_blank" class="gitem"><img src="images/08.jpg" loading="lazy" alt="文档配图 8"><span>08</span></a><a href="images/09.jpg" target="_blank" class="gitem"><img src="images/09.jpg" loading="lazy" alt="文档配图 9"><span>09</span></a><a href="images/10.jpg" target="_blank" class="gitem"><img src="images/10.jpg" loading="lazy" alt="文档配图 10"><span>10</span></a><a href="images/11.jpg" target="_blank" class="gitem"><img src="images/11.jpg" loading="lazy" alt="文档配图 11"><span>11</span></a><a href="images/12.jpg" target="_blank" class="gitem"><img src="images/12.jpg" loading="lazy" alt="文档配图 12"><span>12</span></a><a href="images/13.jpg" target="_blank" class="gitem"><img src="images/13.jpg" loading="lazy" alt="文档配图 13"><span>13</span></a><a href="images/14.jpg" target="_blank" class="gitem"><img src="images/14.jpg" loading="lazy" alt="文档配图 14"><span>14</span></a><a href="images/15.jpg" target="_blank" class="gitem"><img src="images/15.jpg" loading="lazy" alt="文档配图 15"><span>15</span></a><a href="images/16.jpg" target="_blank" class="gitem"><img src="images/16.jpg" loading="lazy" alt="文档配图 16"><span>16</span></a><a href="images/17.jpg" target="_blank" class="gitem"><img src="images/17.jpg" loading="lazy" alt="文档配图 17"><span>17</span></a><a href="images/18.jpg" target="_blank" class="gitem"><img src="images/18.jpg" loading="lazy" alt="文档配图 18"><span>18</span></a><a href="images/19.jpg" target="_blank" class="gitem"><img src="images/19.jpg" loading="lazy" alt="文档配图 19"><span>19</span></a><a href="images/20.jpg" target="_blank" class="gitem"><img src="images/20.jpg" loading="lazy" alt="文档配图 20"><span>20</span></a><a href="images/21.jpg" target="_blank" class="gitem"><img src="images/21.jpg" loading="lazy" alt="文档配图 21"><span>21</span></a><a href="images/22.jpg" target="_blank" class="gitem"><img src="images/22.jpg" loading="lazy" alt="文档配图 22"><span>22</span></a><a href="images/23.jpg" target="_blank" class="gitem"><img src="images/23.jpg" loading="lazy" alt="文档配图 23"><span>23</span></a>
-</div>
-
-<div class="ok">
- <b>说明一下我的做法：</b>我只把图从 B站搬到了这里方便你看，
- <b>没有改动图片内容</b>，也没有标成我的。图片版权归 <b>网瘾老年人lowK</b> 所有。<br>
- 压缩方式是等比缩到宽 1500、转 JPEG 质量 84（原图最大 2.6MB，压缩后最大 373KB）。
-</div>
 
 
 <h3>🏠 他的主页</h3>
@@ -870,40 +849,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <div class="ok">
  <b>建议：</b>把上面「文档」那一栏的<b>第一篇（0.55锐眼开荒文档）</b>和<b>忍者网参考角色</b>存成书签。
  前者是他的最新总纲，后者是拿来导 BD 的。
-</div>
-
-<h3 style="margin-top:22px">🖼 他文档里的配图</h3>
-
-<div class="ok">
- <b>为什么图在本网站：</b>B站 CDN <b>禁止外部网站引用</b>（我实测带 GitHub 的 Referer 返回 403），
- 所以我下载压缩后放到这里，你直接看，不用去 B站翻。<br><br>
- <b>图片版权归「网瘾老年人lowK」</b>。我没有改动内容，也没标成我的。
- 压缩方式：等比缩到宽 1280–1500、转 JPEG 质量 76–84。
-</div>
-
-<h3>📦 装备文档配图（41 张）</h3>
-<div class="warn">
- 来自《<a href="https://www.bilibili.com/opus/1215366068527169545" target="_blank">0.5冰射 前中后期的装备搭配</a>》。<br>
- <b>这些图含大量装备词条截图和交易页示例</b>。<br>
- ✅ <b>现在每一张都已经用 OCR 读过内容、写好了说明，并且按主题重命名了文件</b>
- （比如 <code>c3-hunter-final.jpg</code> = 猎心符锻反曲弓的成品截图）——
- <b>带说明的版本在「🔨 装备」页 ⑪ 那一节</b>，那里每张图下面都写着图里是什么、什么价格。<br>
- 下面这个网格是<b>按文件名的总览</b>，点开看大图。
-</div>
-<div class="gal"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="配图 1"><span>01</span></a><a href="images/gear/c1-belt-nightfall.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-nightfall.jpg" loading="lazy" alt="配图 2"><span>02</span></a><a href="images/gear/c1-belt-runestatues.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-runestatues.jpg" loading="lazy" alt="配图 3"><span>03</span></a><a href="images/gear/c1-boots-atziri.jpg" target="_blank" class="gitem"><img src="images/gear/c1-boots-atziri.jpg" loading="lazy" alt="配图 4"><span>04</span></a><a href="images/gear/c1-boots-evdodge.jpg" target="_blank" class="gitem"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="配图 5"><span>05</span></a><a href="images/gear/c2-belt-headhunter.jpg" target="_blank" class="gitem"><img src="images/gear/c2-belt-headhunter.jpg" loading="lazy" alt="配图 6"><span>06</span></a><a href="images/gear/c2-bow-theory.jpg" target="_blank" class="gitem"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="配图 7"><span>07</span></a><a href="images/gear/c2-chest-rare.jpg" target="_blank" class="gitem"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="配图 8"><span>08</span></a><a href="images/gear/c2-chest-siris.jpg" target="_blank" class="gitem"><img src="images/gear/c2-chest-siris.jpg" loading="lazy" alt="配图 9"><span>09</span></a><a href="images/gear/c2-freeze-support.jpg" target="_blank" class="gitem"><img src="images/gear/c2-freeze-support.jpg" loading="lazy" alt="配图 10"><span>10</span></a><a href="images/gear/c2-gem-breakpoint.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-breakpoint.jpg" loading="lazy" alt="配图 11"><span>11</span></a><a href="images/gear/c2-gem-critcap.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-critcap.jpg" loading="lazy" alt="配图 12"><span>12</span></a><a href="images/gear/c2-gem-ice-shot.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-ice-shot.jpg" loading="lazy" alt="配图 13"><span>13</span></a><a href="images/gear/c2-gem-levelcurve.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-levelcurve.jpg" loading="lazy" alt="配图 14"><span>14</span></a><a href="images/gear/c2-gloves-sine.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="配图 15"><span>15</span></a><a href="images/gear/c2-gloves-trade.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gloves-trade.jpg" loading="lazy" alt="配图 16"><span>16</span></a><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank" class="gitem"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="配图 17"><span>17</span></a><a href="images/gear/c2-jewel-diamond.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="配图 18"><span>18</span></a><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="配图 19"><span>19</span></a><a href="images/gear/c2-jewel-green.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="配图 20"><span>20</span></a><a href="images/gear/c2-rune-arrow.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="配图 21"><span>21</span></a><a href="images/gear/c2-rune-element.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="配图 22"><span>22</span></a><a href="images/gear/c2-rune-list.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-list.jpg" loading="lazy" alt="配图 23"><span>23</span></a><a href="images/gear/c2-widowhail.jpg" target="_blank" class="gitem"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="配图 24"><span>24</span></a><a href="images/gear/c3-helm-acuity.jpg" target="_blank" class="gitem"><img src="images/gear/c3-helm-acuity.jpg" loading="lazy" alt="配图 25"><span>25</span></a><a href="images/gear/c3-hunter-base.jpg" target="_blank" class="gitem"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="配图 26"><span>26</span></a><a href="images/gear/c3-hunter-final.jpg" target="_blank" class="gitem"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="配图 27"><span>27</span></a><a href="images/gear/c3-lioneye.jpg" target="_blank" class="gitem"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="配图 28"><span>28</span></a><a href="images/gear/c3-slivertongue.jpg" target="_blank" class="gitem"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="配图 29"><span>29</span></a><a href="images/gear/c4-amulet-fury.jpg" target="_blank" class="gitem"><img src="images/gear/c4-amulet-fury.jpg" loading="lazy" alt="配图 30"><span>30</span></a><a href="images/gear/c4-amulet.jpg" target="_blank" class="gitem"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="配图 31"><span>31</span></a><a href="images/gear/c4-ring-call.jpg" target="_blank" class="gitem"><img src="images/gear/c4-ring-call.jpg" loading="lazy" alt="配图 32"><span>32</span></a><a href="images/gear/c4-trade-filled.jpg" target="_blank" class="gitem"><img src="images/gear/c4-trade-filled.jpg" loading="lazy" alt="配图 33"><span>33</span></a><a href="images/gear/c4-trade-filter.jpg" target="_blank" class="gitem"><img src="images/gear/c4-trade-filter.jpg" loading="lazy" alt="配图 34"><span>34</span></a><a href="images/gear/c5-devastator-cheap.jpg" target="_blank" class="gitem"><img src="images/gear/c5-devastator-cheap.jpg" loading="lazy" alt="配图 35"><span>35</span></a><a href="images/gear/c5-devastator.jpg" target="_blank" class="gitem"><img src="images/gear/c5-devastator.jpg" loading="lazy" alt="配图 36"><span>36</span></a><a href="images/gear/c6-arrow-types.jpg" target="_blank" class="gitem"><img src="images/gear/c6-arrow-types.jpg" loading="lazy" alt="配图 37"><span>37</span></a><a href="images/gear/c9-boss.jpg" target="_blank" class="gitem"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="配图 38"><span>38</span></a><a href="images/gear/c9-currency-exchange.jpg" target="_blank" class="gitem"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="配图 39"><span>39</span></a><a href="images/gear/c9-money-log.jpg" target="_blank" class="gitem"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="配图 40"><span>40</span></a><a href="images/gear/c9-money-log2.jpg" target="_blank" class="gitem"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="配图 41"><span>41</span></a></div>
-
-<h3>📄 0.55 开荒文档配图（23 张）</h3>
-<div class="warn">
- 来自《<a href="https://www.bilibili.com/opus/1244113182261248006" target="_blank">0.55锐眼开荒文档</a>》。
- <b>主要是天赋树截图。</b>按文档原始顺序编号。
-</div>
-<div class="gal"><a href="images/01.jpg" target="_blank" class="gitem"><img src="images/01.jpg" loading="lazy" alt="配图 1"><span>01</span></a><a href="images/02.jpg" target="_blank" class="gitem"><img src="images/02.jpg" loading="lazy" alt="配图 2"><span>02</span></a><a href="images/03.jpg" target="_blank" class="gitem"><img src="images/03.jpg" loading="lazy" alt="配图 3"><span>03</span></a><a href="images/04.jpg" target="_blank" class="gitem"><img src="images/04.jpg" loading="lazy" alt="配图 4"><span>04</span></a><a href="images/05.jpg" target="_blank" class="gitem"><img src="images/05.jpg" loading="lazy" alt="配图 5"><span>05</span></a><a href="images/06.jpg" target="_blank" class="gitem"><img src="images/06.jpg" loading="lazy" alt="配图 6"><span>06</span></a><a href="images/07.jpg" target="_blank" class="gitem"><img src="images/07.jpg" loading="lazy" alt="配图 7"><span>07</span></a><a href="images/08.jpg" target="_blank" class="gitem"><img src="images/08.jpg" loading="lazy" alt="配图 8"><span>08</span></a><a href="images/09.jpg" target="_blank" class="gitem"><img src="images/09.jpg" loading="lazy" alt="配图 9"><span>09</span></a><a href="images/10.jpg" target="_blank" class="gitem"><img src="images/10.jpg" loading="lazy" alt="配图 10"><span>10</span></a><a href="images/11.jpg" target="_blank" class="gitem"><img src="images/11.jpg" loading="lazy" alt="配图 11"><span>11</span></a><a href="images/12.jpg" target="_blank" class="gitem"><img src="images/12.jpg" loading="lazy" alt="配图 12"><span>12</span></a><a href="images/13.jpg" target="_blank" class="gitem"><img src="images/13.jpg" loading="lazy" alt="配图 13"><span>13</span></a><a href="images/14.jpg" target="_blank" class="gitem"><img src="images/14.jpg" loading="lazy" alt="配图 14"><span>14</span></a><a href="images/15.jpg" target="_blank" class="gitem"><img src="images/15.jpg" loading="lazy" alt="配图 15"><span>15</span></a><a href="images/16.jpg" target="_blank" class="gitem"><img src="images/16.jpg" loading="lazy" alt="配图 16"><span>16</span></a><a href="images/17.jpg" target="_blank" class="gitem"><img src="images/17.jpg" loading="lazy" alt="配图 17"><span>17</span></a><a href="images/18.jpg" target="_blank" class="gitem"><img src="images/18.jpg" loading="lazy" alt="配图 18"><span>18</span></a><a href="images/19.jpg" target="_blank" class="gitem"><img src="images/19.jpg" loading="lazy" alt="配图 19"><span>19</span></a><a href="images/20.jpg" target="_blank" class="gitem"><img src="images/20.jpg" loading="lazy" alt="配图 20"><span>20</span></a><a href="images/21.jpg" target="_blank" class="gitem"><img src="images/21.jpg" loading="lazy" alt="配图 21"><span>21</span></a><a href="images/22.jpg" target="_blank" class="gitem"><img src="images/22.jpg" loading="lazy" alt="配图 22"><span>22</span></a><a href="images/23.jpg" target="_blank" class="gitem"><img src="images/23.jpg" loading="lazy" alt="配图 23"><span>23</span></a></div>
-
-<div class="danger">
- <b>两点说明：</b><br>
- · <b>我没法逐张给你标注"这张是什么"</b>——那需要看 64 张图，成本和收益不成比例。
-   <b>编号就是文档里的原始顺序</b>，要定位某张图对应哪一节，回原文档看位置最快。<br>
- · 图片可能随他的文档更新而变化。<b>以原文档为准。</b>
 </div>
 </section>
 </main>
