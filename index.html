@@ -3,1388 +3,605 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>锐眼开荒手册 · 流放之路降临 0.5.5</title>
+<title>锐眼冰射 · 照着抄开荒手册（国服 0.5.5）</title>
 <style>
-:root{
-  --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --line:#2b3542;
-  --tx:#e6edf3; --tx2:#9aa7b4; --gold:#d4a24c; --cyan:#4ec9d0;
-  --red:#e05252; --green:#4caf7d; --blue:#5b9bd5;
-}
+:root{--bg:#0d1117;--panel:#161b22;--panel2:#1c2330;--line:#2b3542;
+--tx:#e6edf3;--tx2:#9aa7b4;--gold:#d4a24c;--cyan:#4ec9d0;--red:#e05252;--green:#4caf7d}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--tx);
-  font:15px/1.75 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
-  -webkit-text-size-adjust:100%}
+font:15px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-text-size-adjust:100%}
 a{color:var(--cyan)}
 header{position:sticky;top:0;z-index:10;background:rgba(13,17,23,.97);
-  border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
-.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
-.brand{display:flex;align-items:center;gap:12px;padding:14px 0 10px;flex-wrap:wrap}
-.brand h1{font-size:18px;margin:0;letter-spacing:.5px}
-.brand .ver{font-size:12px;color:var(--gold);border:1px solid var(--gold);
-  border-radius:99px;padding:1px 10px}
-nav{display:flex;gap:4px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none}
+border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 18px}
+.brand{display:flex;align-items:center;gap:10px;padding:12px 0 8px;flex-wrap:wrap}
+.brand h1{font-size:17px;margin:0}
+.ver{font-size:11px;color:var(--gold);border:1px solid var(--gold);border-radius:99px;padding:1px 9px}
+nav{display:flex;gap:3px;overflow-x:auto;padding-bottom:9px;scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
 nav button{background:transparent;color:var(--tx2);border:1px solid transparent;
-  padding:7px 14px;border-radius:8px;cursor:pointer;font-size:14px;white-space:nowrap;
-  font-family:inherit}
-nav button:hover{color:var(--tx);background:var(--panel)}
+padding:6px 13px;border-radius:7px;cursor:pointer;font-size:13.5px;white-space:nowrap;font-family:inherit}
 nav button.on{background:var(--panel2);color:var(--gold);border-color:var(--line)}
-nav button.gate::after{content:"先看";font-size:10px;background:var(--gold);
-  color:#1a1206;border-radius:99px;padding:1px 6px;margin-left:6px;font-weight:700}
-main{padding:26px 0 80px}
+main{padding:22px 0 70px}
 section{display:none} section.on{display:block}
-h2{font-size:22px;margin:0 0 6px;color:var(--gold)}
-h3{font-size:16px;margin:30px 0 10px;padding-left:11px;border-left:3px solid var(--cyan)}
-h4{font-size:14px;margin:18px 0 8px;color:var(--cyan)}
-p{margin:9px 0;color:var(--tx2)}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
-  padding:16px 20px;margin:14px 0}
-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:14px}
-th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);
-  vertical-align:top}
-th{color:var(--gold);font-weight:600;font-size:13px}
-td{color:var(--tx2)}
-td b,td strong{color:var(--tx)}
-code{background:var(--panel2);padding:2px 6px;border-radius:5px;
-  font-size:12.5px;color:var(--cyan);font-family:ui-monospace,Menlo,monospace;
-  word-break:break-all}
-ul,ol{margin:8px 0;padding-left:22px;color:var(--tx2)} li{margin:6px 0}
-.warn{background:#2a1d12;border-left:3px solid var(--gold);padding:12px 16px;
-  border-radius:0 8px 8px 0;margin:14px 0;color:#e8d5b0}
+h2{font-size:20px;margin:0 0 4px;color:var(--gold)}
+h3{font-size:15px;margin:24px 0 8px;padding-left:10px;border-left:3px solid var(--cyan)}
+h4{font-size:13.5px;margin:16px 0 6px;color:var(--cyan)}
+p{margin:8px 0;color:var(--tx2)}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:13.5px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--gold);font-weight:600;font-size:12.5px}
+td{color:var(--tx2)} td b{color:var(--tx)}
+code{background:var(--panel2);padding:1px 6px;border-radius:4px;font-size:12.5px;
+color:var(--cyan);font-family:ui-monospace,Menlo,monospace}
+ul{margin:6px 0;padding-left:20px;color:var(--tx2)} li{margin:4px 0}
+.todo li{margin:3px 0}
+.warn{background:#2a1d12;border-left:3px solid var(--gold);padding:11px 15px;
+border-radius:0 8px 8px 0;margin:12px 0;color:#e8d5b0;font-size:14px}
 .warn b{color:var(--gold)}
-.ok{background:#12251c;border-left:3px solid var(--green);padding:12px 16px;
-  border-radius:0 8px 8px 0;margin:14px 0;color:#b8e0cb}
-.danger{background:#2b1618;border-left:3px solid var(--red);padding:12px 16px;
-  border-radius:0 8px 8px 0;margin:14px 0;color:#f0c0c4}
+.ok{background:#12251c;border-left:3px solid var(--green);padding:11px 15px;
+border-radius:0 8px 8px 0;margin:12px 0;color:#b8e0cb;font-size:14px}
+.danger{background:#2b1618;border-left:3px solid var(--red);padding:11px 15px;
+border-radius:0 8px 8px 0;margin:12px 0;color:#f0c0c4;font-size:14px}
 .danger b{color:var(--red)}
-.grid{display:grid;gap:12px}
-@media(min-width:720px){.grid.g2{grid-template-columns:1fr 1fr}
-  .grid.g3{grid-template-columns:1fr 1fr 1fr}}
-.kv{display:flex;justify-content:space-between;gap:14px;padding:7px 0;
-  border-bottom:1px dashed var(--line);font-size:14px}
-.kv span:first-child{color:var(--tx2);flex:0 0 auto}
-.kv span:last-child{color:var(--tx);font-weight:600;text-align:right}
-label{display:block;font-size:13px;color:var(--tx2);margin-bottom:5px}
-input[type=number],input[type=text]{width:100%;background:var(--bg);color:var(--tx);
-  border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-size:14px;
-  font-family:inherit}
-input:focus{outline:none;border-color:var(--cyan)}
+.dl{display:block;background:linear-gradient(135deg,#1a2a1f,#161b22);
+border:1px solid var(--green);border-radius:11px;padding:15px 18px;margin:12px 0;text-decoration:none}
+.dl:hover{border-color:var(--cyan)}
+.dl .t{font-size:16px;font-weight:700;color:var(--green)}
+.dl .d{font-size:13px;color:var(--tx2);margin-top:3px}
+.stageblock{border:1px solid var(--line);border-radius:12px;padding:4px 18px 16px;margin:18px 0;background:var(--panel)}
+.stagehead{display:flex;align-items:baseline;gap:11px;flex-wrap:wrap;
+border-left:5px solid var(--cyan);padding:11px 0 11px 13px;margin:0 -18px 8px;
+background:var(--panel2)}
+.stagename{font-size:17px;font-weight:700;color:var(--tx)}
+.stagelv{font-size:13px;color:var(--gold)}
+.stagegoal{font-size:12.5px;color:var(--tx2)}
+table.copy td,table.copy th{padding:6px 9px;font-size:13px}
+.kv{display:flex;justify-content:space-between;gap:12px;padding:6px 0;
+border-bottom:1px dashed var(--line);font-size:14px}
+.kv span:first-child{color:var(--tx2)} .kv span:last-child{color:var(--tx);font-weight:600}
+label{display:block;font-size:12.5px;color:var(--tx2);margin-bottom:4px}
+input[type=number]{width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--line);
+border-radius:7px;padding:8px 11px;font-size:14px;font-family:inherit}
 .btn{background:var(--panel2);color:var(--tx);border:1px solid var(--line);
-  border-radius:8px;padding:9px 18px;cursor:pointer;font-size:14px;font-family:inherit}
-.btn:hover{border-color:var(--cyan);color:var(--cyan)}
-.chk{display:flex;gap:11px;align-items:flex-start;padding:8px 12px;
-  border-radius:8px;cursor:pointer;transition:background .12s}
-.chk:hover{background:var(--panel)}
-.chk input{margin-top:5px;width:17px;height:17px;accent-color:var(--green);flex:0 0 auto}
-.chk .txt{flex:1;font-size:14px;color:var(--tx2)}
-.chk.done .txt{color:#5b6674;text-decoration:line-through}
-.bar{height:9px;background:var(--panel2);border-radius:99px;overflow:hidden;margin:10px 0 4px}
-.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--green));
-  width:0;transition:width .25s}
-.stage{margin:26px 0 6px;font-size:14px;color:var(--gold);font-weight:700;
-  border-bottom:1px solid var(--line);padding-bottom:6px}
-.stage small{color:var(--tx2);font-weight:400;margin-left:8px}
-.res{display:flex;align-items:center;gap:12px;padding:11px 14px;
-  border-radius:10px;background:var(--panel2);margin:8px 0}
-.res .nm{width:58px;font-size:14px;flex:0 0 auto}
-.res .val{font-size:19px;font-weight:700;font-variant-numeric:tabular-nums}
-.res .st{font-size:12px;margin-left:auto;padding:2px 10px;border-radius:99px;flex:0 0 auto}
-.s-ok{background:#12251c;color:var(--green)}
-.s-warn{background:#2a1d12;color:var(--gold)}
+border-radius:7px;padding:8px 16px;cursor:pointer;font-size:13.5px;font-family:inherit}
+.grid{display:grid;gap:10px}
+@media(min-width:700px){.grid.g3{grid-template-columns:1fr 1fr 1fr}.grid.g2{grid-template-columns:1fr 1fr}}
+.res{display:flex;align-items:center;gap:11px;padding:10px 13px;border-radius:9px;background:var(--panel2);margin:7px 0}
+.res .val{font-size:18px;font-weight:700}
+.res .st{font-size:11.5px;margin-left:auto;padding:2px 9px;border-radius:99px}
+.s-ok{background:#12251c;color:var(--green)}.s-warn{background:#2a1d12;color:var(--gold)}
 .s-bad{background:#3d1f1f;color:var(--red)}
-footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:12.5px}
-.src{font-size:12.5px;color:#5b6674;margin-top:14px;line-height:1.9}
-.hero{background:linear-gradient(135deg,#161b22 0%,#1a2230 100%);
-  border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:14px 0}
-.hero h3{margin-top:0;border:0;padding:0;font-size:17px;color:var(--gold)}
-.flow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0}
-.flow .n{background:var(--panel2);border:1px solid var(--line);border-radius:10px;
-  padding:10px 16px;font-size:14px}
-.flow .n b{color:var(--cyan)}
-.flow .ar{color:var(--tx2)}
-.step{display:flex;gap:14px;margin:16px 0;align-items:flex-start}
-.step .num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--panel2);
-  border:1px solid var(--cyan);color:var(--cyan);display:flex;align-items:center;
-  justify-content:center;font-weight:700;font-size:15px}
-.step .bd{flex:1;min-width:0}
-.step .bd>b{color:var(--tx)}
-.setrow{display:flex;gap:12px;align-items:flex-start;padding:10px 0;
-  border-bottom:1px dashed var(--line)}
-.setrow .sw{flex:0 0 18px;height:18px;border-radius:4px;background:var(--green);margin-top:4px}
+.chk{display:flex;gap:10px;align-items:flex-start;padding:6px 10px;border-radius:7px;cursor:pointer}
+.chk:hover{background:var(--panel)}
+.chk input{margin-top:4px;width:16px;height:16px;accent-color:var(--green);flex:0 0 auto}
+.chk .txt{flex:1;font-size:13.5px;color:var(--tx2)}
+.chk.done .txt{color:#5b6674;text-decoration:line-through}
+.bar{height:8px;background:var(--panel2);border-radius:99px;overflow:hidden;margin:8px 0 3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--green));width:0;transition:width .25s}
+footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:12px}
+.src{font-size:12px;color:#5b6674;margin-top:12px;line-height:1.8}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <div class="brand">
-      <h1>锐眼开荒手册</h1>
-      <span class="ver">0.5.5 禁断仪式</span>
-    </div>
-    <nav>
-      <button class="on gate" data-t="zero">零基础入门</button>
-      <button data-t="route">锐眼开荒路线</button>
-      <button data-t="perm">永久奖励</button>
-      <button data-t="gear">装备与词缀</button>
-      <button data-t="res">抗性计算器</button>
-      <button data-t="chk">进度清单</button>
-      <button data-t="memo">速查表</button>
-    </nav>
-  </div>
-</header>
+<header><div class="wrap">
+  <div class="brand"><h1>锐眼冰射 · 照着抄</h1>
+    <span class="ver">国服 0.5.5</span></div>
+  <nav>
+    <button class="on" data-t="copy">📋 照抄表</button>
+    <button data-t="start">0 · 开服前</button>
+    <button data-t="craft">🔨 做装备</button>
+    <button data-t="chk">✔ 进度勾选</button>
+    <button data-t="memo">📖 速查</button>
+  </nav>
+</div></header>
 
 <main class="wrap">
 
-<!-- ══════════ 零基础入门 ══════════ -->
-<section id="zero" class="on">
-  <h2>零基础入门</h2>
-  <p><b>没玩过这类游戏、也没玩过流放之路系列</b>——这一页就是给你写的。从头讲，不跳步。</p>
+<!-- ═══ 照抄表 ═══ -->
+<section id="copy" class="on">
+  <h2>照抄表：每个阶段用什么</h2>
+  <p><b>不用通读。</b>玩到哪一段，翻到哪一段，照着买照着连就行。</p>
 
-  <div class="hero">
-    <h3>先搞清楚你在玩什么</h3>
-    <p style="color:#c9d3dc">
-      这是个<b>刷装备的游戏</b>。你操控一个角色在地图里打怪，怪掉装备和材料，你换上更好的装备，
-      去更难的地图，重复这个过程。游戏分三个阶段：
-    </p>
-    <div class="flow">
-      <div class="n"><b>剧情</b><br>跟着主线跑图升级</div>
-      <div class="ar">→</div>
-      <div class="n"><b>异界</b><br>终局刷图，游戏正式开始</div>
-      <div class="ar">→</div>
-      <div class="n"><b>做装备</b><br>把角色打磨到极限</div>
-    </div>
-    <p style="margin-bottom:0;color:#c9d3dc">
-      <b>这个手册只管第一段——剧情开荒。</b>把剧情跑完，你就摸清游戏了。后面的事后面再说。
-    </p>
-  </div>
+  <a class="dl" href="锐眼开荒.build" download>
+    <div class="t">⬇ 下载 BD 文件（锐眼开荒.build）</div>
+    <div class="d">放到 <code>文档\My Games\Path of Exile 2\BuildPlanner\</code> → 游戏里天赋树左上角蓝色图标选它</div>
+  </a>
 
-  <h3>⭐ 现在该干什么（你需要的就是这张表）</h3>
   <div class="warn">
-    <b>用法：进游戏 → 在左列找到你的处境 → 做右列的事 → 做完看"怎么算做完"。</b>
-    卡住了就回来查这张表，不用读完整站。
+    <b>怎么用这张表：</b>左边是<b>技能名</b>，中间是<b>要连的辅助宝石</b>。
+    在游戏里切出左边的技能，然后按中间那行把辅助宝石连上去。
+    <b>名字都是国服叫法</b>，直接搜就能找到。
   </div>
-
-  <table>
-    <tr><th style="width:26%">你现在在哪</th><th>具体做什么</th><th style="width:22%">怎么算做完</th></tr>
-
-    <tr><td><b>还没进游戏</b></td>
-      <td>① 下载 WeGame 客户端 → 登录账号<br>
-          ② 确认资格已生效（活动页显示"永久畅玩资格"）<br>
-          ③ 下载游戏（预留 140G）</td>
-      <td>能进入创建角色界面</td></tr>
-
-    <tr><td><b>刚进游戏</b></td>
-      <td>① 按 <code>O</code> 改 6 个设置（见下一节）<br>
-          ② 选<b>游侠 Ranger</b>，创建角色<br>
-          ③ 跟着任务箭头走</td>
-      <td>设置改完 + 角色建好</td></tr>
-
-    <tr><td><b>1–5 级<br>刚进第一章</b></td>
-      <td>① 打第一批虫子，升到 2 级<br>
-          ② 拿「<b>闪电箭矢 Lightning Arrow</b>」（清图主力）<br>
-          ③ 拿「<b>弓射 Bow Shot</b>」（备用单体）<br>
-          ④ 往<b>泥沼墓葬</b>方向走</td>
-      <td>技能栏里有闪电箭矢</td></tr>
-
-    <tr><td><b>打「吞噬者」前</b></td>
-      <td>① 任务会给「<b>引雷针 Lightning Rod</b>」，拿到它<br>
-          ② 打 Boss 时：<b>先按引雷针插到地上，再用闪电箭矢射</b><br>
-          ③ 只对<b>不主动乱动</b>的 Boss 有效</td>
-      <td>知道引雷针怎么用</td></tr>
-
-    <tr><td><b>到「皆伐」区域</b></td>
-      <td>① 激活<b>传送点</b>（蓝色石碑，点一下）<br>
-          ② 找<b>宝箱</b>，里面有一张<b>1 级技能宝石</b><br>
-          ③ 切出「<b>寒霜爆 Frost Bomb</b>」<br>
-          ④ 找营地里的 <b>NPC 乌娜</b>，接她的任务</td>
-      <td>传送点激活 + 拿到寒霜爆</td></tr>
-
-    <tr><td><b>打「贝伊拉」后</b></td>
-      <td>① 地上会掉<b>凛冬狼的头颅</b><br>
-          ② <b>捡起来，右键使用</b> → 冰霜抗性永久 +10%</td>
-      <td>抗性面板里冰抗多了 10%</td></tr>
-
-    <tr><td><b>进「灰木林」</b></td>
-      <td>① 找<b>艾瑞格妮</b>（可选 Boss，但必须打）<br>
-          ② 打完后拿一颗<b>未切割辅助宝石</b><br>
-          ③ 切出「<b>连锁 Chain</b>」，装到闪电箭矢上</td>
-      <td>闪电箭矢后面挂上了辅助宝石</td></tr>
-
-    <tr><td><b>拿「闪电之捷」</b></td>
-      <td>任务会给「<b>闪电之捷 Herald of Thunder</b>」<br>
-          装上后它会占用"精魂"——这是正常的<br>
-          ② <b>清怪时开闪电之捷，打 Boss 时换成「战旗」</b></td>
-      <td>技能栏里有闪电之捷</td></tr>
-
-    <tr><td><b>到「奥格姆村」</b></td>
-      <td>① 在村里找<b>锻造工具</b><br>
-          ② 回<b>皆伐营地</b>，交给 NPC <b>伦利</b><br>
-          ③ → 解锁<b>回收台</b>（分解装备拿材料）</td>
-      <td>营地出现回收功能</td></tr>
-
-    <tr><td><b>到「奥格姆农地」</b></td>
-      <td>① 找<b>乌娜的鲁特琴</b>（地上物品）<br>
-          ② 回皆伐营地交给<b>乌娜</b><br>
-          ③ 拿到专精之书，<b>右键使用 → 天赋 +2</b></td>
-      <td>天赋点多了 2 点</td></tr>
-
-    <tr><td><b>到「猎场」</b></td>
-      <td>① 找到<b>鸦铃</b>（精英怪）并击杀<br>
-          ② 掉落专精之书 → <b>右键使用 → 天赋 +2</b></td>
-      <td>天赋点又多了 2 点</td></tr>
-
-    <tr><td><b>到「弗雷索恩」</b></td>
-      <td>① 击杀<b>迷雾之王</b><br>
-          ② 捡起地上的<b>宝石花颅骨</b><br>
-          ③ <b>右键使用 → 精魂 +30</b></td>
-      <td>能带更多光环了</td></tr>
-
-    <tr><td><b>升到 11 级</b></td>
-      <td>换「<b>守护者之弓</b>」（市集买或地上捡）<br>
-          <span style="color:var(--red)">⚠️ 别给它投任何通货</span></td>
-      <td>换上了新弓</td></tr>
-
-    <tr><td><b>打完「铁锈之王」</b></td>
-      <td>往<b>红谷</b>走 → 进<b>奥戈姆宅邸一层</b><br>
-          → 击杀<b>烛光</b> → 捡<b>烛光精髓</b> → 右键使用 → 生命 +20</td>
-      <td>生命上限涨了</td></tr>
-
-    <tr><td><b>第一章快结束</b></td>
-      <td>① 检查这 5 处是否都做了：<br>
-          &nbsp;&nbsp;· 皆伐的贝伊拉（冰抗）<br>
-          &nbsp;&nbsp;· 灰木林的艾瑞格妮（辅助宝石）<br>
-          &nbsp;&nbsp;· 猎场的鸦铃（+2 天赋）<br>
-          &nbsp;&nbsp;· 奥格姆农地的鲁特琴（+2 天赋）<br>
-          &nbsp;&nbsp;· 弗雷索恩的迷雾之王（+30 精魂）<br>
-          ② 打开「永久奖励」页逐条打勾</td>
-      <td>5 项全勾上</td></tr>
-
-    <tr><td><b>每次回城</b></td>
-      <td>① 把带「品质」的武器<b>回收</b>（拿磨刀石）<br>
-          ② 把带「插槽」的装备<b>回收</b>（拿工匠石）<br>
-          ③ 剩下的卖商店<br>
-          ④ 看商人有没有<b>带点伤的手套</b>（每 1–2 级刷新一次）</td>
-      <td>包里没垃圾了</td></tr>
-
-    <tr><td><b>升到 10 / 16 / 23 / 30 级</b></td>
-      <td>回城看商人有没有<b>新的生命药剂和魔力药剂</b>，有就换</td>
-      <td>药剂是当前最高级</td></tr>
-
-    <tr><td><b>发现打怪变慢</b></td>
-      <td>① 按 <code>Alt</code> 看手上弓的词条<br>
-          ② 找<b>点伤更高</b>的弓换上（打怪掉的、商人卖的、城里买的都行）<br>
-          ③ 顺便看手套、戒指、箭袋有没有点伤</td>
-      <td>打怪速度回来了</td></tr>
-
-    <tr><td><b>到第二章</b></td>
-      <td>照「锐眼开荒路线」的第二章表格做，重点两件事：<br>
-          ① <b>16 级</b>换弓 + 换大药剂（把攒的通货投进去）<br>
-          ② <b>22 级</b>拿冰冻印记（大伤害提升）</td>
-      <td>16 级和 22 级的都做了</td></tr>
-
-    <tr><td><b>到第三章 / 31 级</b></td>
-      <td>照第三章表格做，重点是<b>换冰霜射击</b>和<b>确认属性够</b></td>
-      <td>主力技能变成冰霜射击</td></tr>
-
-    <tr><td><b>不知道下一步干啥</b></td>
-      <td><b>跟着主线任务箭头走。</b>任务指引几乎不会错，<br>
-          支线奖励对照「永久奖励」页抓</td>
-      <td>—</td></tr>
-  </table>
 
   <div class="ok">
-    <b>三条通用原则，记不住具体的就记这三条：</b><br>
-    ① <b>跟主线走</b>，别自己乱逛。<br>
-    ② <b>每次回城</b>先回收、再卖、再看商人有没有带点伤的装备。<br>
-    ③ <b>打不动了</b>就去练级换装，别硬送。
+    <b>一条主线记住就行：</b>
+    <b>1–30 级</b> 用「闪电箭矢 + 引雷针」→ <b>31 级</b> 换「冰霜射击」→ 用狙击打爆发。
   </div>
 
-  <h3>第 1 步：进游戏前必须改的设置</h3>
-  <div class="warn">
-    <b>这一步很多人漏掉，漏了直接影响操作手感和资源。</b>
-    进游戏后按 <code>O</code> 打开设置，逐项确认下面这些。
+  
+<div class="stageblock" id="s1">
+  <div class="stagehead" style="border-left-color:#4caf7d">
+    <span class="stagename">第一章</span>
+    <span class="stagelv">1–12 级</span>
+    <span class="stagegoal">活着跑完，把闪电箭体系搭起来</span>
   </div>
 
-  <div class="card">
-    <div class="setrow"><div class="sw"></div><div>
-      <b>显示生命数值</b><br>
-      <span style="color:var(--tx2);font-size:14px">随时看到自己的血量上限，不用心算。</span>
-    </div></div>
-    <div class="setrow"><div class="sw"></div><div>
-      <b>头上显示生命条</b><br>
-      <span style="color:var(--tx2);font-size:14px">挨打时能第一时间看到，及时嗑药。开荒期保命全靠这个。</span>
-    </div></div>
-    <div class="setrow"><div class="sw"></div><div>
-      <b>NPC 头上显示生命条 → 选「敌方」</b><br>
-      <span style="color:var(--tx2);font-size:14px">能看清每个怪还剩多少血，打 Boss 很有用。</span>
-    </div></div>
-    <div class="setrow"><div class="sw"></div><div>
-      <b>原地攻击取消动作</b><br>
-      <span style="color:var(--tx2);font-size:14px">
-        这游戏<b>攻击时也能移动</b>（只是变慢），有时会害你走位失控。
-        点上之后按住原地攻击键，角色会立刻停住。
-      </span>
-    </div></div>
-    <div class="setrow"><div class="sw"></div><div>
-      <b>宝石切割限制 ⚠️ 重要</b><br>
-      <span style="color:var(--tx2);font-size:14px">防止切出一颗用不了的技能宝石，白白浪费。</span>
-    </div></div>
-    <div class="setrow"><div class="sw"></div><div>
-      <b>装备限制 ⚠️ 重要</b><br>
-      <span style="color:var(--tx2);font-size:14px">防止换装备导致属性不够、技能突然用不了。</span>
-    </div></div>
-    <p style="margin:14px 0 0;font-size:13px;color:#5b6674">
-      「预设物品分配」「预设等级降评」是组队用的，单人玩不用管。
-    </p>
+  <h4>技能 + 辅助宝石</h4>
+  <table class="copy">
+    <tr><th style="width:22%">技能</th><th style="width:40%">辅助宝石怎么连</th><th>说明</th></tr>
+    <tr><td><b>闪电箭矢</b></td><td><code>元素军械1 + 快速攻击1</code></td><td>清图主力</td></tr><tr><td><b>引雷针</b></td><td><code>元素军械1 + 范围集中</code></td><td>打 Boss 主力</td></tr><tr><td><b>寒霜爆</b></td><td><code>—</code></td><td>辅助清图；挂不上曝露就丢</td></tr><tr><td><b>闪电之捷</b></td><td><code>元素军械1 + 范围集中</code></td><td>清怪光环。打 Boss 换战旗</td></tr><tr><td><b>战旗</b></td><td><code>持续时间延长</code></td><td>打 Boss 时替换闪电之捷</td></tr><tr><td><b>瘟疫</b></td><td><code>—</code></td><td>用到 6 级</td></tr><tr><td><b>扑袭</b></td><td><code>—</code></td><td>位移，被围时逃命</td></tr>
+  </table>
+
+  <h4>装备看什么</h4>
+  <table class="copy">
+    <tr><th style="width:22%">部位</th><th style="width:32%">找什么</th><th>备注</th></tr>
+    <tr><td><b>弓</b></td><td>谁 DPS 高用谁</td><td>11 级换守护者之弓，别投入源</td></tr><tr><td><b>箭袋</b></td><td>+技能等级 > 点伤</td><td>基础类型不重要</td></tr><tr><td><b>手套</b></td><td>点伤</td><td>每 1–2 级回城看商人</td></tr><tr><td><b>鞋子</b></td><td>移动速度</td><td>有移速就别换没有的</td></tr><tr><td><b>药剂</b></td><td>—</td><td>10 级换新药剂</td></tr>
+  </table>
+
+  <h4>这个阶段要做完的事（9 项）</h4>
+  <ul class="todo"><li>拿齐 4 个技能：闪电箭矢 / 引雷针 / 寒霜爆 / 闪电之捷</li><li>打贝伊拉 → 冬狼之头 → 右键用 → 冰抗 +10%</li><li>打艾瑞格妮 → 未切割辅助宝石</li><li>打铁锈之王 → 3 级未切割技能宝石</li><li>猎场打鸦铃 → +2 天赋</li><li>奥格姆农地拿鲁特琴 → 交乌娜 → +2 天赋</li><li>奥格姆村拿锻造工具 → 交伦利 → 解锁回收台</li><li>迷雾之王 → 宝石花颅骨 → 精魂 +30</li><li>11 级换守护者之弓（不投入源）</li></ul>
+</div>
+
+<div class="stageblock" id="s2">
+  <div class="stagehead" style="border-left-color:#5b9bd5">
+    <span class="stagename">第二章</span>
+    <span class="stagelv">13–28 级</span>
+    <span class="stagegoal">16 级做反曲弓，22 级拿冰冻印记</span>
   </div>
 
-  <h3>第 2 步：创建角色</h3>
-  <div class="card">
-    <div class="kv"><span>选哪个职业</span><span>游侠 Ranger</span></div>
-    <div class="kv"><span>用什么武器</span><span>弓 + 箭袋</span></div>
-    <div class="kv"><span>怎么打</span><span>远远地射，别让怪靠近你</span></div>
-    <div class="warn" style="margin-bottom:0">
-      <b>初始职业不能改。</b>但<b>技能随时能换</b>——所以选错职业不会毁号，只是不能换成别的升华（转职）。
-    </div>
+  <h4>技能 + 辅助宝石</h4>
+  <table class="copy">
+    <tr><th style="width:22%">技能</th><th style="width:40%">辅助宝石怎么连</th><th>说明</th></tr>
+    <tr><td><b>闪电箭矢</b></td><td><code>元素军械2 + 快速攻击1</code></td><td>打 Boss 时元素军械换连锁2</td></tr><tr><td><b>引雷针</b></td><td><code>元素军械2 + 范围集中</code></td><td>只对不主动乱动的 Boss 有效</td></tr><tr><td><b>冰尖箭矢</b></td><td><code>元素军械2 + 冻结</code></td><td>属性不够可先不上辅助</td></tr><tr><td><b>冻结齐射</b></td><td><code>元素军械2 + 冻结</code></td><td>属性不够可先不上辅助</td></tr><tr><td><b>狙击</b></td><td><code>元素军械2 + 范围集中</code></td><td></td></tr><tr><td><b>弹幕</b></td><td><code>（无辅助）</code></td><td></td></tr><tr><td><b>冰冻印记</b></td><td><code>持续时间延长</code></td><td>7 级技能宝石，只需 24 智慧</td></tr><tr><td><b>战旗</b></td><td><code>持续时间延长</code></td><td></td></tr><tr><td><b>闪电之捷</b></td><td><code>元素军械2 + 范围集中</code></td><td>清怪开 / 打 Boss 换战旗</td></tr>
+  </table>
+
+  <h4>装备看什么</h4>
+  <table class="copy">
+    <tr><th style="width:22%">部位</th><th style="width:32%">找什么</th><th>备注</th></tr>
+    <tr><td><b>弓 · 16 级</b></td><td><b>反曲弓</b></td><td>第一个值得投入的弓，详见下方打造规则</td></tr><tr><td><b>弓 · 11 级</b></td><td>守护者之弓</td><td>过渡，不投入源</td></tr><tr><td><b>箭袋</b></td><td>高点伤</td><td></td></tr><tr><td><b>手套</b></td><td>高点伤</td><td></td></tr><tr><td><b>戒指</b></td><td>高点伤</td><td></td></tr><tr><td><b>药剂</b></td><td>—</td><td>16 级换大生命/魔力药剂</td></tr>
+  </table>
+
+  <h4>这个阶段要做完的事（11 项）</h4>
+  <ul class="todo"><li>16 级：换反曲弓 + 大药剂</li><li>17 级前后：击败法理登 → 7 级技能石</li><li>22 级：拿冰冻印记 + 闪电调和 + 持续时间延长</li><li>凯斯城：卡巴拉 → +2 天赋</li><li>戴斯哈：遗书 → 交夏布林 → +2 天赋</li><li>戴斯哈：姐妹雕像 → +10% 闪电抗性</li><li>泰坦之谷：放两族圣物 → 选护符</li><li>鲁贾之前：装红宝石护符</li><li>进无畏舰前：完成丝克玛试炼 → 前 2 点升华</li><li>28 级：做双弦弓</li><li>掩埋的殿堂：必打 → 低阶工匠石</li></ul>
+</div>
+
+<div class="stageblock" id="s3">
+  <div class="stagehead" style="border-left-color:#d4a24c">
+    <span class="stagename">第三章</span>
+    <span class="stagelv">28–40 级</span>
+    <span class="stagegoal">31 级转冰霜射击——这是质变点</span>
   </div>
 
-  <h3>第 3 步：认识操作</h3>
+  <h4>技能 + 辅助宝石</h4>
+  <table class="copy">
+    <tr><th style="width:22%">技能</th><th style="width:40%">辅助宝石怎么连</th><th>说明</th></tr>
+    <tr><td><b>冰霜射击</b></td><td><code>元素军械2 + 霜咬2 + 快速攻击1</code></td><td><b>第一个 4 孔给它</b>。一个图 90% 时间都用它</td></tr><tr><td><b>狙击</b></td><td><code>元素军械2 + 范围集中 + 元素集中</code></td><td><b>第二个 4 孔给它</b>，Boss 爆发</td></tr><tr><td><b>冻结齐射</b></td><td><code>元素军械2 + 冻结</code></td><td></td></tr><tr><td><b>冰尖箭矢</b></td><td><code>元素军械2 + 冻结</code></td><td></td></tr><tr><td><b>弹幕</b></td><td><code>永续充能 + 强化能量球</code></td><td>连招第 3 步</td></tr><tr><td><b>冰冻印记</b></td><td><code>持续时间延长1</code></td><td>7 级技能宝石，24 智慧</td></tr><tr><td><b>战斗狂怒</b></td><td><code>能量球激增1</code></td><td>8 级精魂宝石可学</td></tr><tr><td><b>寒冰之捷</b></td><td><code>元素军械2 + 元素集中</code></td><td>31 级后光环</td></tr><tr><td><b>逃脱之矢</b></td><td><code>—</code></td><td>位移</td></tr>
+  </table>
+
+  <h4>装备看什么</h4>
+  <table class="copy">
+    <tr><th style="width:22%">部位</th><th style="width:32%">找什么</th><th>备注</th></tr>
+    <tr><td><b>弓</b></td><td>继续按等级做</td><td>33 级教徒弓 / 39 级狂热者弓</td></tr><tr><td><b>头盔</b></td><td>闪避 + 生命 + 抗性</td><td>敏捷/智力在这里补</td></tr><tr><td><b>腰带</b></td><td>生命 + 抗性</td><td>力量在这里补</td></tr><tr><td><b>4 孔优先</b></td><td>冰霜射击 > 狙击</td><td>5 孔同理</td></tr>
+  </table>
+
+  <h4>这个阶段要做完的事（12 项）</h4>
+  <ul class="todo"><li>30 级：换巨型药剂</li><li>31 级：换冰霜射击 + 寒冰之捷</li><li>31 级：把闪电箭矢/引雷针的辅助换给新技能</li><li>31 级：确认属性够（不够从头盔/腰带补）</li><li>丛林遗迹：神威银拳 → +2 天赋</li><li>剧毒墓穴：交蛇毒液 → 选 +25% 晕眩阈值（不可改）</li><li>吉卡尼机械迷城：火焰核心 → +10% 火抗</li><li>阿扎克泥沼：沼泽女巫 → 杰洛特颅骨 → +30 精魂</li><li>阿扎克沼泽：击败伊格纳格杜克 → 做风舞者</li><li>风舞者 + 致盲 I</li><li>奥扎尔/阿戈拉：牺牲之心 → +2 天赋</li><li>熔岩宝库：梅克图 → 交奥斯瓦德 → 解锁重铸台</li></ul>
+</div>
+
+<div class="stageblock" id="s4">
+  <div class="stagehead" style="border-left-color:#a888d8">
+    <span class="stagename">第四章</span>
+    <span class="stagelv">40 级+</span>
+    <span class="stagegoal">出剧情，准备进异界</span>
+  </div>
+
+  <h4>技能 + 辅助宝石</h4>
+  <table class="copy">
+    <tr><th style="width:22%">技能</th><th style="width:40%">辅助宝石怎么连</th><th>说明</th></tr>
+    <tr><td><b>冰霜射击</b></td><td><code>元素军械2 + 霜咬2 + 快速攻击2 + 投机射击</code></td><td><b>优先 4 孔</b></td></tr><tr><td><b>狙击</b></td><td><code>元素军械2 + 范围集中 + 元素集中 + 近身战</code></td><td><b>第二顺位 4 孔</b></td></tr><tr><td><b>冰尖箭矢</b></td><td><code>元素军械2 + 冻结 + 冰霜曝露</code></td><td></td></tr><tr><td><b>冻结齐射</b></td><td><code>元素军械2 + 冻结 + 范围集中</code></td><td></td></tr><tr><td><b>弹幕</b></td><td><code>永续充能 + 强化能量球</code></td><td></td></tr><tr><td><b>冰冻印记</b></td><td><code>持续时间延长2</code></td><td></td></tr><tr><td><b>战斗狂怒</b></td><td><code>能量球激增1</code></td><td></td></tr><tr><td><b>寒冰之捷</b></td><td><code>元素军械2 + 元素集中 + 增幅光环1</code></td><td></td></tr><tr><td><b>龙卷射击</b></td><td><code>冗余2 + 耐久度 + 持续时间延长2</code></td><td></td></tr>
+  </table>
+
+  <h4>装备看什么</h4>
+  <table class="copy">
+    <tr><th style="width:22%">部位</th><th style="width:32%">找什么</th><th>备注</th></tr>
+    <tr><td><b>弓 · 45 级</b></td><td>炮火弓</td><td>做完可以畅玩。参考属性：70-166 点伤 / 18% 攻速</td></tr><tr><td><b>戒指</b></td><td>阿拉塔斯岛购买</td><td>开场就能买到好词条的小极品戒指</td></tr><tr><td><b>符文</b></td><td>高级符文</td><td>金氏岛巨兽掉：1-30 闪电 / 9-16 冰霜 / 18% 物理</td></tr>
+  </table>
+
+  <h4>这个阶段要做完的事（8 项）</h4>
+  <ul class="todo"><li>45 级：做炮火弓</li><li>尼加卡努岛：赛季玩法 → 高级工匠石（开 4 孔用）</li><li>金氏岛：盲眼巨兽 → 染怒之书 → +2 天赋</li><li>亡者之殿：白之亚玛 → 银币 → 娜瓦莉 → 刺青 → +2 天赋</li><li>亡者之殿：三个刺青试炼 → 三选一（不可改）</li><li>废弃监狱：正义女神 → 药剂恢复 30%</li><li>悉妮蔻拉之眼：沉默之厅 → +5% 最大魔力</li><li>金司马区：黑衣幽魂 → +2 天赋</li></ul>
+</div>
+
+<div class="stageblock" id="s5">
+  <div class="stagehead" style="border-left-color:#4ec9d0">
+    <span class="stagename">间章</span>
+    <span class="stagelv">章节间</span>
+    <span class="stagegoal">拿满天赋点，然后进终局</span>
+  </div>
+
+  <h4>技能 + 辅助宝石</h4>
+  <table class="copy">
+    <tr><th style="width:22%">技能</th><th style="width:40%">辅助宝石怎么连</th><th>说明</th></tr>
+    <tr><td><b>冰冻印记</b></td><td><code>持续时间延长2 + 高效2 + 充能印记</code></td><td>5 级辅助宝石</td></tr><tr><td><b>战斗狂怒</b></td><td><code>能量球激增2</code></td><td>升级到 2 级版本</td></tr><tr><td><b>其他技能</b></td><td><code>与第四章一致</code></td><td>不用改</td></tr>
+  </table>
+
+  <h4>装备看什么</h4>
+  <table class="copy">
+    <tr><th style="width:22%">部位</th><th style="width:32%">找什么</th><th>备注</th></tr>
+    <tr><td><b>—</b></td><td>保持第四章配装</td><td></td></tr>
+  </table>
+
+  <h4>这个阶段要做完的事（9 项）</h4>
+  <ul class="todo"><li>间章2：干涸河流往右 → 打 BOSS → +2 天赋</li><li>间章2：圣所打蛇女 → 拿 2 个巨灵币</li><li>间章2：奇玛找恩赐 → 选 5% 抗性</li><li>回城找黑鬼切换间章1</li><li>间章1：狼之要塞 → +2 天赋</li><li>间章3：库莱娅山巅 → 左上角找老头 → 选暗金</li><li>三个间章尾王打完 → 回君锋镇找黑鬼 → 最后 2 点天赋</li><li>确认天赋点总数 = 24</li><li>继续与黑鬼对话 → 进终局 → 再 +2 天赋</li></ul>
+</div>
+</section>
+
+<!-- ═══ 开服前 ═══ -->
+<section id="start">
+  <h2>0 · 开服前和第一小时</h2>
+
+  <h3>进游戏先改 6 个设置（按 O 打开设置）</h3>
   <table>
-    <tr><th>按键</th><th>是什么</th></tr>
-    <tr><td><b>K</b></td><td>商城（花钱的地方）</td></tr>
+    <tr><th>设置项</th><th>为什么</th></tr>
+    <tr><td><b>显示生命数值</b></td><td>随时看到血量上限</td></tr>
+    <tr><td><b>头上显示生命条</b></td><td>挨打时能及时嗑药</td></tr>
+    <tr><td><b>NPC 生命条 → 敌方</b></td><td>看清怪还剩多少血</td></tr>
+    <tr><td><b>原地攻击取消动作</b></td><td>按住原地攻击键角色会立刻停住</td></tr>
+    <tr><td><b>宝石切割限制</b> ⚠️</td><td>防止切出用不了的技能宝石，白白浪费</td></tr>
+    <tr><td><b>装备限制</b> ⚠️</td><td>防止换装备导致属性不够、技能突然用不了</td></tr>
+  </table>
+
+  <h3>创建角色</h3>
+  <div class="kv"><span>职业</span><span>游侠 Ranger</span></div>
+  <div class="kv"><span>武器</span><span>弓 + 箭袋</span></div>
+  <div class="kv"><span>打法</span><span>远远地射，别让怪靠近</span></div>
+
+  <h3>操作按键</h3>
+  <table>
+    <tr><th>键</th><th>作用</th></tr>
+    <tr><td><b>K</b></td><td>商城</td></tr>
     <tr><td><b>I</b></td><td>背包</td></tr>
-    <tr><td><b>P</b></td><td>天赋树（升级加点的地方）</td></tr>
-    <tr><td><b>G</b></td><td>技能面板（管理技能和辅助宝石）</td></tr>
-    <tr><td><b>X</b></td><td>切换武器组（可以准备两套武器）</td></tr>
-    <tr><td><b>Tab</b></td><td>当前地图</td></tr>
-    <tr><td><b>U</b></td><td>世界地图</td></tr>
+    <tr><td><b>P</b></td><td>天赋树</td></tr>
+    <tr><td><b>G</b></td><td>技能面板</td></tr>
     <tr><td><b>O</b></td><td>设置</td></tr>
-    <tr><td><b>Ctrl + 左键</b></td><td>物品快速转移（背包↔仓库、卖给商人）</td></tr>
-    <tr><td><b>Shift + 左键</b></td><td>拆分堆叠</td></tr>
-    <tr><td><b>Alt + 左键</b></td><td>看装备每条属性的数值范围</td></tr>
+    <tr><td><b>Tab / U</b></td><td>当前地图 / 世界地图</td></tr>
+    <tr><td><b>Ctrl + 左键</b></td><td>物品快速转移（背包↔仓库、卖商店）</td></tr>
+    <tr><td><b>Alt + 左键</b></td><td><b>看装备词条的数值范围</b>——判断好坏的唯一方法</td></tr>
   </table>
 
-  <div class="ok">
-    <b>Alt + 左键 是你最该学会的一招。</b>鼠标放在装备上按 Alt，能看到每条词条在这件装备上算好还是算差。
-    <b>新手判断装备好坏，全靠它。</b>
+  <h3>三个你必须先懂的概念</h3>
+
+  <div class="card" style="border:1px solid var(--line);border-radius:11px;padding:14px 17px;margin:12px 0;background:var(--panel)">
+    <h4 style="margin-top:0">① 点伤 = 前 30 级的上帝</h4>
+    <p>装备上写「<b>附加 7-11 点火伤害</b>」这种就是点伤。<b>百分比加成是放大基础值，点伤是直接加在基础值上。</b>
+    前期你基础伤害很小，加 10 点点伤可能让输出翻倍。</p>
+    <p style="margin-bottom:0"><b>能出点伤的部位：弓 &gt; 箭袋 &gt; 手套 &gt; 戒指。</b>看到带点伤的，谁 DPS 高用谁，不用纠结物理还是元素。</p>
   </div>
 
-  <h3>第 4 步：技能宝石怎么用（游戏核心机制）</h3>
-  <p>这游戏的技能不是升级学的，是<b>往装备的插槽里塞宝石</b>塞出来的。</p>
+  <div class="card" style="border:1px solid var(--line);border-radius:11px;padding:14px 17px;margin:12px 0;background:var(--panel)">
+    <h4 style="margin-top:0">② 抗性 = 保命符</h4>
+    <p><b>火 / 冰 / 电三抗上限是 75%</b>（已验证）。抗性不够，小怪一个法术就能秒你。</p>
+    <div class="danger" style="margin-bottom:0">
+      <b>⚠️ 重要：</b>通关剧情进终局后，三抗会被<b>大幅扣减</b>（具体数值见「速查」页的说明）。
+      <b>所以剧情阶段能堆抗性就堆，不然进终局会被秒。</b>
+    </div>
+  </div>
 
+  <div class="card" style="border:1px solid var(--line);border-radius:11px;padding:14px 17px;margin:12px 0;background:var(--panel)">
+    <h4 style="margin-top:0">③ 回收 = 你的资源来源</h4>
+    <table style="margin-bottom:0">
+      <tr><th>回收什么</th><th>得到</th><th>用来</th></tr>
+      <tr><td><b>带「品质」的武器</b></td><td>磨刀石</td><td>提升武器品质（最多 +20%）</td></tr>
+      <tr><td><b>带「插槽」的装备</b></td><td>工匠石</td><td>给装备打孔 / 连宝石</td></tr>
+    </table>
+    <p style="margin:10px 0 0"><b>第一章奥格姆村找到「锻造工具」→ 回皆伐营地交给伦利 → 解锁回收台。</b>越早解锁越好。</p>
+  </div>
+
+  <h3>技能宝石怎么用</h3>
   <div class="grid g3">
-    <div class="card">
-      <h4>① 技能宝石</h4>
-      <p style="font-size:13.5px;margin:0">
-        你的<b>主动技能</b>，比如闪电箭矢、冰霜射击。<br>
-        用「<b>未切割技能宝石</b>」在城里切出来。
-      </p>
+    <div style="background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px 16px">
+      <h4 style="margin-top:0">技能宝石</h4>
+      <p style="font-size:13px;margin:0">主动技能。用「<b>未切割技能宝石</b>」在城里切出来。</p>
     </div>
-    <div class="card">
-      <h4>② 辅助宝石</h4>
-      <p style="font-size:13.5px;margin:0">
-        <b>改造技能效果</b>，比如"连锁"让箭矢弹跳、"元素军械"加元素伤害。<br>
-        用「<b>未切割辅助宝石</b>」切出来。
-      </p>
+    <div style="background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px 16px">
+      <h4 style="margin-top:0">辅助宝石</h4>
+      <p style="font-size:13px;margin:0">改造技能效果。用「<b>未切割辅助宝石</b>」切出来，塞进<b>同一个插槽组</b>就生效。</p>
     </div>
-    <div class="card">
-      <h4>③ 精魂宝石</h4>
-      <p style="font-size:13.5px;margin:0">
-        <b>光环 / 持续生效的技能</b>，比如闪电之捷。<br>
-        会占用你的<b>精魂</b>。
-      </p>
+    <div style="background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:13px 16px">
+      <h4 style="margin-top:0">精魂宝石</h4>
+      <p style="font-size:13px;margin:0">光环。会占用你的<b>精魂</b>（一种容量）。剧情里 3 处奖励能加精魂。</p>
     </div>
   </div>
 
-  <div class="card">
-    <h4>怎么把辅助宝石连到技能上</h4>
-    <p>
-      装备如果有<b>插槽</b>，把技能宝石和辅助宝石塞进<b>同一个插槽组</b>，辅助就生效。
-      新手期最直接的办法：<b>把技能和辅助都塞进同一件带多个插槽的装备</b>。
-    </p>
-    <p style="margin-bottom:0">前期插槽少很正常，<b>用工匠石给装备打孔</b>（回收带插槽的装备就能拿到工匠石）。</p>
-  </div>
-
-  <div class="warn">
-    <b>精魂是什么：</b>一种"容量"资源。<b>你带的光环技能会占精魂</b>，精魂不够就装不了新光环。<br>
-    剧情里有 <b>3 处</b>奖励能加精魂（共 100 点），都在「永久奖励」页列着——<b>别忘了拿</b>。
-  </div>
-
-  <h3>第 5 步：天赋怎么点</h3>
-  <p>按 <code>P</code> 打开。每升一级给 1 点，剧情支线还能再拿 24 点。</p>
-  <div class="card">
-    <ul>
-      <li>天赋树很大，<b>但你不用看懂全图</b>。前期只沿着游侠起点附近走</li>
-      <li>优先点：<b>投射物伤害、攻击速度、闪避值、元素伤害</b></li>
-      <li>鼠标放在天赋点上<b>按住 Alt</b>，能看到它具体影响哪些属性</li>
-      <li>点错了不用慌，<b>可以花金币重置</b>（重置入口见下面第 8 步）</li>
-    </ul>
-  </div>
-
-  <h3>第 6 步：装备怎么判断好坏</h3>
-
-  <h4>稀有度（看颜色）</h4>
-  <table>
-    <tr><th>颜色</th><th>名称</th><th>词条</th></tr>
-    <tr><td>白</td><td>普通装备</td><td>没有</td></tr>
-    <tr><td>蓝</td><td>魔法装备</td><td>最多 2 条（1 前 + 1 后）</td></tr>
-    <tr><td><b>金</b></td><td>稀有装备</td><td><b>最多 6 条（3 前 + 3 后）</b></td></tr>
-    <tr><td>暗金</td><td>传奇装备</td><td>有独特效果，<b>但不代表更强</b></td></tr>
-  </table>
-
+  <h3>国服翻译错了的两个地方</h3>
   <div class="danger">
-    <b>最容易搞错的观念：这游戏不看装备的"品质"和"数值大小"，只看【词条】。</b><br>
-    一件金装可能比另一件金装强十倍，区别全在词条。而<b>暗金（传奇）装备不等于强</b>，
-    它只是"特殊"——很多暗金还不如一件词条好的金装。
-  </div>
-
-  <div class="card">
-    <h4>T 阶是什么</h4>
-    <p>每条词条都有"阶级"，用 T 加数字表示（<b>具体到 T 几，随词条类型不同</b>）。读法是反的：</p>
-    <div class="kv"><span>T1</span><span>最高阶级，数值最好</span></div>
-    <div class="kv"><span>T13</span><span>最低阶级，数值最差</span></div>
-    <p style="margin-bottom:0"><b>T 后面的数字越小越好。</b>按 Alt 看装备时会显示每条词条的阶级。</p>
-  </div>
-
-  <div class="ok">
-    <b>开荒期你只需要一个判断标准：</b>鼠标放装备上，<b>看它能不能提升你的伤害或生存</b>。
-    能就换，不能就卖或回收。<b>不用做装备，不用纠结词条搭配</b>——那是通关之后的事。
-  </div>
-
-  <h3>第 7 步：打怪和走位的铁律</h3>
-  <div class="card">
-    <ul>
-      <li><b>死亡不掉经验、不掉装备耐久</b>——但复活时<b>当前地图会刷新，地上没捡的东西全没了</b>。打完赶紧捡</li>
-      <li><b>别让怪围住你。</b>你是远程，被围基本就死。被围就往外跑</li>
-      <li><b>准备一个位移技能。</b>前期推荐「扑袭 Pounce」，被围时能救命</li>
-      <li><b>每张野外地图有精英怪</b>（骷髅头旁边有 <b>+</b> 号的），<b>第一次杀掉给永久属性奖励，必须打</b></li>
-      <li><b>喝药别省。</b>血量掉得快就喝，药剂会自动恢复</li>
-    </ul>
-  </div>
-
-  <h3>第 8 步：两个"国服翻译错了"的地方</h3>
-  <div class="danger">
-    <b>这两个是国服的实际翻译问题，看不懂会错过重要功能：</b>
-    <table style="margin-top:10px">
+    <table style="margin:0">
       <tr><th>游戏里写的</th><th>实际是什么</th></tr>
-      <tr><td>「<b>伯爵之死</b>」（黑衣幽魂的对话选项）</td><td>其实是<b>免费鉴定背包里未鉴定的物品</b></td></tr>
+      <tr><td>「<b>伯爵之死</b>」（黑衣幽魂的对话）</td><td>其实是<b>免费鉴定背包里未鉴定的物品</b></td></tr>
       <tr><td>「<b>跟随种子的踪迹</b>」</td><td>其实是<b>花金币重置天赋点</b></td></tr>
     </table>
-    <p style="margin-bottom:0">前提是你要先<b>把黑衣幽魂救活</b>，他的对话里才会出现这两个选项。</p>
-  </div>
-
-  <h3>第 9 步：什么该留，什么该卖</h3>
-  <div class="card">
-    <h4>必须留（别卖、别用掉）</h4>
-    <ul>
-      <li><b>所有带颜色的"石头"</b>——这些是通货，是这游戏的钱，也是改造装备的材料</li>
-      <li><b>工匠石</b>——给装备打孔，前期很缺</li>
-      <li><b>磨刀石 / 护甲片</b>——提升武器和护甲品质</li>
-      <li><b>未切割技能 / 辅助宝石</b>——后面要用来切新技能</li>
-      <li><b>16 级之前的所有通货</b>——留给 16 级那把弓</li>
-    </ul>
-    <h4>该回收（不是卖）</h4>
-    <ul>
-      <li><b>带「品质」的武器</b> → 回收成磨刀石</li>
-      <li><b>带「插槽」的装备</b> → 回收成工匠石</li>
-    </ul>
-    <h4>直接卖商店</h4>
-    <ul>
-      <li>白色、蓝色装备（属性没用的）</li>
-      <li>金色但词条完全不适合你的</li>
-    </ul>
-  </div>
-
-  <div class="warn">
-    <b>回收台怎么解锁：</b>第一章<b>奥格姆村</b>找到「锻造工具」，
-    回皆伐营地交给伦利，就解锁了。<b>越早解锁越好。</b>
-  </div>
-
-  <h3>第 10 步：黑话对照表</h3>
-  <p>老玩家和攻略里会用这些简称，看不懂会一头雾水。</p>
-  <table>
-    <tr><th>黑话</th><th>意思</th></tr>
-    <tr><td><b>BD</b></td><td>Build 的缩写，指<b>一整套搭配方案</b>（技能 + 天赋 + 装备的组合）</td></tr>
-    <tr><td><b>E</b></td><td>崇高石（通货，买便宜东西用）</td></tr>
-    <tr><td><b>C</b></td><td>混沌石（通货，基础计价单位）</td></tr>
-    <tr><td><b>D</b></td><td>神圣石（较稀有，买贵重东西用）</td></tr>
-    <tr><td><b>镜子</b></td><td>卡兰德的魔镜，最贵的通货</td></tr>
-    <tr><td><b>T1 词条</b></td><td>最高阶级词条（<b>数字越小越好</b>）</td></tr>
-    <tr><td><b>T15 / T16</b></td><td>15 / 16 阶的引路石地图（终局内容）</td></tr>
-    <tr><td><b>瓦</b></td><td>用瓦尔宝珠给装备"腐化"，改属性，结果随机</td></tr>
-    <tr><td><b>厕所</b></td><td>丝克玛试炼（玩法像一代的"圣所"）</td></tr>
-    <tr><td><b>底子</b></td><td>有高价值词条、值得继续加工的蓝装</td></tr>
-    <tr><td><b>涂油 / 灌注</b></td><td>给项链额外加一条天赋词条</td></tr>
-    <tr><td><b>开荒</b></td><td>新赛季 / 新角色从零跑剧情</td></tr>
-    <tr><td><b>搬砖</b></td><td>反复刷图赚通货</td></tr>
-    <tr><td><b>毕业</b></td><td>装备 / 角色已经很强，不用再换</td></tr>
-  </table>
-
-  <h3>第 11 步：交易（了解即可，不急着用）</h3>
-  <div class="card">
-    <p>这游戏的"钱"很特别：<b>交易用的货币，本身就是改造装备的材料。</b>所以每种石头都有用，别乱花。</p>
-    <div class="kv"><span>通货交易所</span><span>第四章解锁，和其他玩家换材料</span></div>
-    <div class="kv"><span>网页集市</span><span>搜索装备，私聊卖家交易</span></div>
-    <div class="kv"><span>商人页签</span><span>第四章完成安吉藏身处任务后解锁，可挂东西自动卖</span></div>
-    <p style="margin-bottom:0"><b>开荒期你用不到这些</b>，捡到什么用什么。知道它们存在就行。</p>
-  </div>
-
-  <div class="ok">
-    <b>零基础入门到这里就够了。</b><br>
-    你现在应该能：进游戏、改设置、建角色、打出第一个技能、看懂掉落物。<br>
-    接下来去「<b>锐眼开荒路线</b>」，按部就班跑图。
-  </div>
-
-  <div class="src">
-    整理自：<a href="https://wap.gamersky.com/gl/Content-2013039.html" target="_blank">游民星空 · 新手入门指南</a>、
-    <a href="https://news.17173.com/content/12082024/101516880.shtml" target="_blank">17173 · 新手基础知识</a>、
-    <a href="https://www.dvg.cn/danjigl/111832.html" target="_blank">黑话全解析</a>、
-    <a href="https://m.sdwyzx.com/view/2199.html" target="_blank">入坑术语须知</a>。
+    <p style="margin:9px 0 0">前提：先把黑衣幽魂救活，他的对话里才会出现这两个选项。</p>
   </div>
 </section>
 
-<!-- ══════════ 锐眼开荒路线 ══════════ -->
-<section id="route">
-  <h2>锐眼开荒路线</h2>
-  <p>先读过「零基础入门」再看这页。这里按幕告诉你：<b>拿什么技能、换什么装备、打哪些必打的怪</b>。</p>
+<!-- ═══ 做装备 ═══ -->
+<section id="craft">
+  <h2>🔨 做装备（这游戏的核心）</h2>
 
-  <div class="hero">
-    <h3>主线就这一条</h3>
-    <div class="flow">
-      <div class="n"><b>1–30 级</b><br>闪电箭矢 + 引雷针</div>
-      <div class="ar">→</div>
-      <div class="n"><b>31 级</b><br>转冰霜射击</div>
-      <div class="ar">→</div>
-      <div class="n"><b>通关</b><br>进异界</div>
-    </div>
-    <p style="margin-bottom:0;color:#c9d3dc">
-      <b>冰霜射击需要角色 31 级才能用</b>（它是"弓类 9 级宝石"）。所以前两章你必须用闪电箭矢体系打——
-      这不是绕路，<b>这就是这个 BD 本来的样子</b>。
-    </p>
-  </div>
+  <h3>弓的等级节点</h3>
+  <table>
+    <tr><th>等级</th><th>弓</th><th>怎么做</th></tr>
+    <tr><td><b>5</b></td><td>短弓</td><td>过渡，别投入源</td></tr>
+    <tr><td><b>11</b></td><td>守护者之弓</td><td><b style="color:var(--red)">一个通货都别投</b>，4 个等级就要换</td></tr>
+    <tr><td><b>16</b></td><td><b>反曲弓</b></td><td><b>第一个值得做的弓</b>，把攒的通货全投进去</td></tr>
+    <tr><td><b>28</b></td><td>双弦弓</td><td>优先选带「额外发射 1 支箭」的</td></tr>
+    <tr><td><b>33 / 39</b></td><td>教徒弓 / 狂热者弓</td><td>同样标准做</td></tr>
+    <tr><td><b>45</b></td><td><b>炮火弓</b></td><td>做完可以畅玩。参考：70-166 点伤 / 18% 攻速</td></tr>
+  </table>
 
+  <h3>16 级反曲弓怎么打造（详细步骤）</h3>
   <div class="ok">
-    <b>打 Boss 最重要的操作：先插引雷针 → 再用闪电箭矢打。</b><br>
-    <b>适用场景：那些不主动乱动的 Boss。</b>引雷针插在原地，闪电箭矢打过去会连锁到它上面，
-    伤害大幅提升。会到处乱跑的 Boss 效果会差很多。
+    <b>① 去第二章武器 NPC 处</b>，买<b>白色或蓝色</b>的弓<br>
+    <b>② 用蜕变石 + 增幅石洗</b>，观察能不能洗出好词条<br>
+    <b>③ 判断标准看下面</b>
   </div>
 
-  <h3>第一章（1–14 级）</h3>
-
-  <div class="step"><div class="num">1</div><div class="bd">
-    <b>2 级：拿技能</b><br>
-    <span style="color:var(--tx2)">拿「弓射 Bow Shot」（单体备用）和「闪电箭矢 Lightning Arrow」（清图主力）。</span>
-  </div></div>
-
-  <div class="step"><div class="num">2</div><div class="bd">
-    <b>尽快拿「引雷针 Lightning Rod」</b><br>
-    <span style="color:var(--tx2)">打吞噬者、贝伊拉之前就要拿到。它是你打 Boss 的主力。</span>
-  </div></div>
-
-  <div class="step"><div class="num">3</div><div class="bd">
-    <b>拿「寒霜爆」和「闪电之捷」</b><br>
-    <span style="color:var(--tx2)">寒霜爆辅助清图，闪电之捷是光环（占精魂）。</span>
-  </div></div>
-
-  <div class="step"><div class="num">4</div><div class="bd">
-    <b>技能怎么连</b><br>
-    <table style="margin-top:6px">
-      <tr><th>用途</th><th>怎么连</th></tr>
-      <tr><td>清图</td><td>闪电箭矢 + 连锁 Chain</td></tr>
-      <tr><td>打 Boss</td><td>引雷针 + 元素军械 I</td></tr>
-      <tr><td>辅助</td><td>寒霜爆</td></tr>
-      <tr><td>备用单体</td><td>弓射</td></tr>
-    </table>
-    <span style="color:var(--tx2);font-size:13.5px">
-      <b>小技巧：</b>前期辅助宝石不够，打 Boss 时把「元素军械」从闪电箭矢上拔下来插给引雷针。
-    </span>
-  </div></div>
-
-  <div class="step"><div class="num">5</div><div class="bd">
-    <b>Boss 按这个顺序打</b>
-    <div class="kv" style="margin-top:6px"><span>① 吞噬者</span><span>泥沼墓葬</span></div>
-    <div class="kv"><span>② 腐败兽群·贝伊拉</span><span>皆伐</span></div>
-    <div class="kv"><span>③ 艾瑞格妮</span><span>灰木林</span></div>
-    <div class="kv"><span>④ 铁锈之王</span><span>红谷</span></div>
-    <span style="color:var(--tx2);font-size:13.5px">
-      <b>② 和 ③ 一定要打</b>：贝伊拉给 +10% 冰霜抗性，艾瑞格妮给一颗辅助宝石。
-    </span>
-  </div></div>
-
-  <div class="step"><div class="num">6</div><div class="bd">
-    <b>11 级换「守护者之弓」，但别投资源</b><br>
-    <span style="color:var(--tx2)">
-      需 23 敏捷，用你能拿到的最高 DPS 那把。
-      <b style="color:var(--red)">一个通货都别投给它</b>——16 级就要换掉。
-      弓和箭袋都可以用便宜的蜕变石洗一下。
-    </span>
-  </div></div>
-
-  <h3>第二章（13–28 级）</h3>
+  <h4>词条优先级（从高到低）</h4>
   <table>
-    <tr><th>等级</th><th>做什么</th></tr>
-    <tr><td><b>16 级</b></td><td>换<b>大生命 / 魔力药剂</b>；换弓（第一个值得投资的弓），<b>把攒的通货全投进去</b></td></tr>
-    <tr><td><b>22 级</b></td><td>拿「<b>冰冻印记 Voltaic Mark</b>」+ 闪电调和 + 延长持续时间 I —— <b>大伤害提升，别漏</b></td></tr>
-    <tr><td><b>28 级</b></td><td>做出并装备「<b>双弦弓 Dualstring Bow</b>」—— <b>全程最大的装备跃升</b></td></tr>
+    <tr><th>优先级</th><th>词条</th><th>说明</th></tr>
+    <tr><td><b>首选</b></td><td><b>物理百分比</b></td><td>提升基础物理伤害，做弓最重要的一条</td></tr>
+    <tr><td><b>次选</b></td><td><b>高点伤</b></td><td>直接加伤害数值</td></tr>
   </table>
 
   <div class="warn">
-    <b>升华试炼（第一次转职）：</b>进「无畏舰」之前完成<b>丝克玛试炼</b>，拿<b>前 2 点升华点</b>。
-    有信心就早做，没信心练到 <b>27 级以上</b>再去。<b>别拖。</b>
+    <b>参考标准（来自攻略原文）：</b><br>
+    一把弓<b>仅 1 个前缀就达到 23-46 点伤</b>，非常值得打造。<br>
+    对比：人马掉落的弓虽然 5 词条，点伤也只有 20-59。
   </div>
 
-  <div class="warn">
-    <b>打「鲁贾」之前装备一颗红宝石护符</b>（这 Boss 是火伤）。
-    进无畏舰之前准备黄玉护符或闪电抗性装备。
-  </div>
-
-  <h3>第三章（28–40 级）</h3>
-  <table>
-    <tr><th>等级</th><th>做什么</th></tr>
-    <tr><td><b>30 级</b></td><td>换<b>巨型生命 / 魔力药剂</b></td></tr>
-    <tr><td><b>31 级</b></td><td><b>换冰霜射击 Ice Shot</b>；光环从闪电之捷换成<b>寒冰之捷 Herald of Ice</b></td></tr>
-  </table>
-
-  <h4>31 级切换要点</h4>
-  <div class="card">
-    <div class="kv"><span>主输出</span><span>冰霜射击 Ice Shot</span></div>
-    <div class="kv"><span>光环</span><span>闪电之捷 → 寒冰之捷</span></div>
-    <div class="kv"><span>辅助优先</span><span>投机射击 · 元素军械</span></div>
-    <div class="kv"><span>武器选法变了</span><span>看<b>物理点伤</b>（物理越高，转出的冰伤越高）</span></div>
-    <div class="warn" style="margin-bottom:0">
-      <b>切换前先确认属性够。</b>冰射和它的辅助宝石可能要求更高的敏捷 / 智力，
-      不够就从头盔、腰带补，否则技能装不上。
-    </div>
-  </div>
-
-  <div class="card" style="border-color:var(--red)">
-    <h4 style="color:var(--red)">★ 31 级后的四步连招（这个 BD 的精髓）</h4>
-    <div class="step"><div class="num">1</div><div class="bd">
-      <b>先上「冰冻印记」</b><br>
-      <span style="color:var(--tx2)">用引雷针（或扑袭）给 Boss 挂上印记。<b>这一步决定了后面能不能冻住。</b></span>
-    </div></div>
-    <div class="step"><div class="num">2</div><div class="bd">
-      <b>用冰霜射击 / 冻结齐射把 Boss 冻住</b><br>
-      <span style="color:var(--tx2)">
-        <b style="color:var(--red)">冻结阈值的关键区别：</b><br>
-        · <b>上了冰冻印记</b> → 冻结条累积到 <b>70%</b> 就冻住<br>
-        · <b>没上印记</b> → 要累积到 <b>100%</b><br>
-        所以要养成看冻结百分比的习惯，快满时提前准备。
-      </span>
-    </div></div>
-    <div class="step"><div class="num">3</div><div class="bd">
-      <b>冻住的瞬间，立刻开「弹幕」</b><br>
-      <span style="color:var(--tx2)">
-        ⚠️ <b>这一步最容易错过。</b>如果你在 Boss 冻住时还在放别的技能，
-        很可能来不及开弹幕就解冻了，爆发窗口直接浪费。
-      </span>
-    </div></div>
-    <div class="step"><div class="num">4</div><div class="bd">
-      <b>接「狙击」</b><br>
-      <span style="color:var(--tx2)">
-        贴脸放（升华「零点射击」近距离多 20% 伤害）。狙击需要卡「完美时机」，要练。
-      </span>
-    </div></div>
-  </div>
-
-  <div class="card" style="border-color:var(--gold)">
-    <h4 style="color:var(--gold)">⚠️ 技能名对照表（国服 ≠ 国际服，务必看这个）</h4>
-    <p>
-      <b>国服和国际服的技能名是两套完全不同的翻译。</b>你在网上看到的攻略、英文攻略，
-      名字跟国服游戏里显示的可能完全不一样。下表左边是你<b>游戏里实际看到的</b>，右边是对应关系。
-    </p>
-    <table>
-      <tr><th>国服（游戏里显示）</th><th>英文 / 国际服</th><th>用途</th></tr>
-      <tr><td><b>闪电箭矢</b></td><td>Lightning Arrow</td><td>1–30 级清图主力</td></tr>
-      <tr><td><b>引雷针</b></td><td>Lightning Rod</td><td>1–30 级打 Boss 主力</td></tr>
-      <tr><td><b>寒霜爆</b></td><td>Frost Bomb</td><td>辅助清图</td></tr>
-      <tr><td><b>闪电之捷</b></td><td>Herald of Thunder</td><td>清怪时开的光环</td></tr>
-      <tr><td><b>战旗</b></td><td>War Banner</td><td><b>打 Boss 时替换闪电之捷</b></td></tr>
-      <tr><td><b>冰霜射击</b></td><td>Ice Shot</td><td>31 级后主力</td></tr>
-      <tr><td><b>冻结齐射</b></td><td>Freezing Salvo</td><td>连招第 2 步</td></tr>
-      <tr><td><b>冰尖箭矢</b></td><td>Ice-tipped Arrows</td><td>另一种冻 Boss 的手段</td></tr>
-      <tr><td><b>狙击</b></td><td>Snipe</td><td>连招第 4 步，爆发</td></tr>
-      <tr><td><b>弹幕</b></td><td>Barrage</td><td>连招第 3 步</td></tr>
-      <tr><td><b>冰冻印记</b></td><td>Frozen Mark</td><td>连招第 1 步</td></tr>
-      <tr><td><b>寒冰之捷</b></td><td>Herald of Ice</td><td>31 级后光环</td></tr>
-      <tr><td><b>逃脱之矢</b></td><td>Escape Shot</td><td>位移</td></tr>
-    </table>
-
-    <h4>辅助宝石对照（这个最容易搞错）</h4>
-    <table>
-      <tr><th>国服（游戏里显示）</th><th>国际服</th><th>英文</th></tr>
-      <tr><td><b>元素军械</b></td><td>元素武装</td><td>Elemental Armament</td></tr>
-      <tr><td><b>范围集中</b></td><td>集中光环</td><td>Concentrated Area</td></tr>
-      <tr><td><b>快速攻击</b></td><td>疾速攻击</td><td>Rapid Attacks</td></tr>
-      <tr><td><b>霜咬</b></td><td>霜咬</td><td>Ice Bite</td></tr>
-      <tr><td><b>元素集中</b></td><td>元素专注</td><td>Elemental Focus</td></tr>
-      <tr><td><b>投机射击</b></td><td>博弈射击</td><td>—</td></tr>
-      <tr><td><b>持续时间延长</b></td><td>延长持续时间</td><td>Prolonged Duration</td></tr>
-      <tr><td><b>连锁</b></td><td>连锁</td><td>Chain</td></tr>
-      <tr><td><b>永续充能</b></td><td>永恒充能</td><td>—</td></tr>
-      <tr><td><b>强化能量球</b></td><td>增强诅咒</td><td>—</td></tr>
-    </table>
-
-    <div class="warn" style="margin-bottom:0">
-      <b>本网站已全部改用国服名称。</b>如果你看到别处写「元素武装」「集中光环」，
-      那是国际服叫法，游戏里要搜「<b>元素军械</b>」「<b>范围集中</b>」。
-    </div>
-  </div>
-
-  <div class="warn">
-    第三章拿到「<b>风舞者 Wind Dancer</b>」后<b>装上并配「致盲 I」</b>——这是你的保命技能。
-  </div>
-
-  <h4>第三章这几个 Boss 很难，打不动就去练级</h4>
   <div class="danger">
-    <b>瓦尔熔炉的梅克图尔</b>、<b>乌扎尔的毒蛇纳帕瓦兹</b>、<b>黑室的多里亚尼</b>。<br>
-    这三个血厚、机制多。<b>觉得打不动就去刷高等级区域练级换装，别硬送</b>——死了要重新跑，更亏。
+    <b>最重要的判断：没有物理百分比的弓，不要花太多资源做。</b>
   </div>
 
-  <h3>第四章及之后</h3>
-  <div class="card">
-    <ul>
-      <li>继续按等级换弓：<b>33 级 → 45 级</b></li>
-      <li>辅助宝石和技能连接逐步补齐</li>
-      <li><b>开始关注抗性</b>——离进异界越来越近，抗性会被扣减</li>
-      <li>通关剧情后：<b>停止用开荒配装</b>，换成正式的终局 BD</li>
-    </ul>
-  </div>
-
-  <h3>升华顺序</h3>
-  <div class="grid g3">
-    <div class="card"><h4>① 零点射击</h4>
-      <p style="font-size:13px;margin:0">Point Blank。近距离增伤，前期提升最大。</p></div>
-    <div class="card"><h4>② 无尽弹药</h4>
-      <p style="font-size:13px;margin:0">Endless Munitions。额外投射物，清图效率上一档。</p></div>
-    <div class="card"><h4>③ 集风</h4>
-      <p style="font-size:13px;margin:0">Gathering Winds。顺风：移速、攻速、手感。</p></div>
-  </div>
-  <div class="ok">
-    <b>这三个顺序来自中文攻略原文，不是我推的。</b><br>
-    <span style="font-size:13px">
-    来源：玩转手游网《流放之路2 0.5 赛季冰霜射击锐眼开荒攻略》（2026-05-27，标注 0.5 赛季）原文：
-    「升华优先级 推荐顺序：零点射击 → 无尽弹药 → 集风」。
-    </span>
-  </div>
-
-  <div class="warn">
-    <b>天赋走法：</b>新手走「<b>伤害优先</b>」——13 级前先把伤害节点堆满，再补移速和其他。
-    另一条「移速优先」适合老手，且要求你在 11 级弓和 28 级弓之间再换一次弓。
-  </div>
-
-  <div class="src">
-    整理自 <a href="https://maxroll.gg/poe2/build-guides/lightning-arrow-deadeye-leveling-build-guide" target="_blank">Maxroll Lightning Arrow Deadeye（标注 0.5.5）</a>、
-    <a href="https://timesaver.gg/blog/poe2-0-5-5-ice-shot-deadeye-leveling-guide" target="_blank">Timesaver 0.5.5 Ice Shot Deadeye</a>、
-    <a href="https://wap.gamersky.com/gl/Content-2013039.html" target="_blank">游民星空 新手入门指南</a>。
-    中文技能名为意译，游戏内可能不同，请对照英文名。
-  </div>
-</section>
-
-<!-- ══════════ 永久奖励 ══════════ -->
-<section id="perm">
-  <h2>永久奖励（必拿清单）</h2>
-  <div class="danger">
-    <b>这一页是整站最值钱的一页。</b><br>
-    这些奖励散在整个剧情的支线里，<b>加的是永久属性，漏了就是真的没了</b>。
-    很多新手通关了才发现自己少了十几点天赋。<b>边跑图边对照这页勾。</b>
-  </div>
-
-  <h3>天赋点（共 24 点，散在 12 处）</h3>
+  <h3>其他部位的词条</h3>
   <table>
-    <tr><th>章节</th><th>地点</th><th>怎么做</th></tr>
-    <tr><td>一</td><td>猎场</td><td>击杀鸦铃 → 掉落<b>专精之书</b> → 使用 +2 天赋</td></tr>
-    <tr><td>一</td><td>奥格姆农地</td><td>拾取<b>乌娜的鲁特琴</b> → 回皆伐营地交给乌娜 → 得专精之书</td></tr>
-    <tr><td>二</td><td>凯斯城</td><td>击杀蛇女卡巴拉 → 专精之书</td></tr>
-    <tr><td>二</td><td>戴斯哈</td><td>找到<b>遗书</b> → 回阿杜拉车队交给夏布林 → 得专精之书</td></tr>
-    <tr><td>三</td><td>丛林遗迹</td><td>击杀神威银拳 → 专精之书</td></tr>
-    <tr><td>三</td><td>奥扎尔 / 阿戈拉</td><td>小怪随机掉<b>牺牲之心</b> → 去阿戈拉找献祭讲台刺穿 → +2 天赋</td></tr>
-    <tr><td>四</td><td>金氏岛</td><td>击杀盲眼巨兽 → <b>染怒之书</b></td></tr>
-    <tr><td>四</td><td>亡者之殿</td><td>击败白之亚玛 → 得银币 → 与祖灵试炼的娜瓦莉对话 → <b>悉妮蔻拉的刺青</b></td></tr>
-    <tr><td>间歇</td><td>狼之要塞</td><td>击杀恐惧典狱长欧斯温 → <b>典狱长的账册</b></td></tr>
-    <tr><td>间歇</td><td>卡里交汇道</td><td>击杀沙虫艾能德 + 最终之刺艾克提 → 回卡里市集找芮苏对话</td></tr>
-    <tr><td>间歇</td><td>狂嗥洞穴</td><td>击杀怪异雪兽 → 拾取<b>寒冰獠牙</b> → 回林间空地找希尔妲</td></tr>
-    <tr><td>四</td><td>金司马区</td><td>完成全部剧情和间隙后，找<b>黑衣幽魂</b>对话 → 专精之书</td></tr>
-  </table>
-
-  <h3>精魂（共 100 点，3 处）</h3>
-  <p>精魂决定你能带几个光环，<b>直接影响输出和生存</b>。</p>
-  <table>
-    <tr><th>章节</th><th>地点</th><th>奖励</th></tr>
-    <tr><td>一</td><td>弗雷索恩</td><td>击杀迷雾之王 → 拾取<b>宝石花颅骨</b> → +30 精魂</td></tr>
-    <tr><td>三</td><td>阿扎克泥沼</td><td>击杀沼泽女巫 → 拾取<b>杰洛特颅骨</b> → +30 精魂</td></tr>
-    <tr><td>间歇</td><td>库莱亚村</td><td>击杀迷失长锋莱塔拉 → 拾取<b>宝石壳颅骨</b> → +40 精魂</td></tr>
-  </table>
-
-  <h3>抗性（3 处，各 +10%）</h3>
-  <table>
-    <tr><th>章节</th><th>地点</th><th>奖励</th></tr>
-    <tr><td>一</td><td>皆伐</td><td>击杀贝伊拉 → 拾取<b>凛冬狼的头颅</b> → +10% 冰霜抗性</td></tr>
-    <tr><td>二</td><td>戴斯哈</td><td>找到<b>戴斯哈姐妹雕像</b> → 点击 → +10% 闪电抗性</td></tr>
-    <tr><td>三</td><td>吉卡尼的机械迷城</td><td>击杀遗忘的黑颚 → 拾取<b>火焰核心</b> → +10% 火焰抗性</td></tr>
-  </table>
-
-  <h3>生命 / 魔力（3 处）</h3>
-  <table>
-    <tr><th>章节</th><th>地点</th><th>奖励</th></tr>
-    <tr><td>一</td><td>奥戈姆宅邸一层</td><td>击杀烛光 → 拾取<b>烛光精髓</b> → +20 生命</td></tr>
-    <tr><td>四</td><td>悉妮蔻拉之眼</td><td>寻找<b>沉默之厅</b>，表达敬意 → +5% 最大魔力</td></tr>
-    <tr><td>间歇</td><td>卡里交汇道</td><td>寻找<b>骨额阶梯</b> → 拾取「熔岩者的礼物」 → +5% 最大生命</td></tr>
-  </table>
-
-  <h3>需要做选择的奖励</h3>
-  <div class="danger"><b>标了「不可更改」的一定要想清楚再选。</b></div>
-  <table>
-    <tr><th>地点</th><th>选择内容</th><th>能改吗</th></tr>
-    <tr><td>二 · 泰坦之谷</td><td>放置卡巴拉圣物 + 太阳部落圣物 → 选护符效果</td><td>✅ 可改</td></tr>
-    <tr><td><b>三 · 剧毒墓穴</b></td><td>交尸蛇毒液给瑟维 → 三选一：<br>① <b>+25% 晕眩阈值（推荐新手）</b><br>② +30% 元素异常阈值<br>③ +25% 魔力回复速度</td><td>❌ <b>不可改</b></td></tr>
-    <tr><td>四 · 废弃监狱</td><td>击杀稀有怪 → 点正义女神 → 药剂魔力恢复 或 生命恢复 30%</td><td>✅ 可改</td></tr>
-    <tr><td><b>四 · 亡者之殿</b></td><td>完成三个刺青试炼 → 三选一：<br>① +5 敏捷 或 +5% 闪电抗性<br>② +5 智力 或 +5% 冰霜抗性<br>③ +5 力量 或 +5% 火焰抗性</td><td>❌ <b>不可改</b></td></tr>
-    <tr><td>间歇 · 奇玛</td><td>找七灵柱 → 选一项永久属性（伤害 / 移速等）</td><td>✅ 可改</td></tr>
-  </table>
-
-  <h3>功能解锁（影响你后续所有操作）</h3>
-  <table>
-    <tr><th>章节</th><th>怎么做</th><th>解锁什么</th></tr>
-    <tr><td>一</td><td>奥格姆村找锻造工具 → 回皆伐营地交给伦利</td><td><b>回收台</b>（分解装备拿材料）</td></tr>
-    <tr><td>三</td><td>熔岩宝库击败梅克图，拾取绿色任务物品 → 回高地神塔营地交给奥斯瓦德</td><td><b>重铸台</b>（3 个同类物品重铸成 1 个新的，地图也能升阶）</td></tr>
-  </table>
-
-  <div class="src">
-    整理自 <a href="https://wap.gamersky.com/gl/Content-2013039.html" target="_blank">游民星空 · 新手入门指南（含完整奖励清单）</a>。
-    地点译名可能与游戏内略有差异，以游戏内实际为准。
-  </div>
-</section>
-
-<!-- ══════════ 装备与词缀 ══════════ -->
-<section id="gear">
-  <h2>装备与词缀</h2>
-  <p>开荒期的装备逻辑很简单：<b>有输出就用，没输出就换</b>。</p>
-
-  <h3>弓：按等级换，别提前投资</h3>
-  <table>
-    <tr><th>等级</th><th>弓</th><th>要点</th></tr>
-    <tr><td><b>11</b></td><td>守护者之弓 Warden Bow</td><td>需 23 敏捷。<b>不要投任何通货</b></td></tr>
-    <tr><td><b>16</b></td><td>反曲弓 Recurve Bow</td><td><b>第一个值得投资的弓</b>，把攒的通货全用上</td></tr>
-    <tr><td><b>28 / 33</b></td><td>双弦弓 Dualstring Bow</td><td><b>最大的跃升</b>。优先选带"额外发射 1 支箭"的</td></tr>
-    <tr><td><b>45</b></td><td>火炮弓 Artillery Bow</td><td>继续按等级推进</td></tr>
-  </table>
-
-  <h3>各部位看什么</h3>
-  <table>
-    <tr><th>部位</th><th>优先属性</th></tr>
-    <tr><td><b>弓</b></td><td>点伤 &gt; 物理伤害% &gt; 攻速。冰射阶段看物理点伤</td></tr>
-    <tr><td><b>箭袋</b></td><td><code>+技能等级</code> + 高点伤。<b>单件收益最高的非武器位</b></td></tr>
-    <tr><td><b>手套</b></td><td>点伤 + 生命 + 闪避。<b>每 1–2 级回城看商人</b></td></tr>
-    <tr><td><b>鞋子</b></td><td><b>移动速度是第一属性</b>，没有移速的鞋别换</td></tr>
-    <tr><td><b>头盔</b></td><td>闪避 + 生命 + 抗性。<b>敏捷 / 智力在这里补</b></td></tr>
-    <tr><td><b>衣服</b></td><td>闪避 + 生命 + 抗性</td></tr>
-    <tr><td><b>腰带</b></td><td>生命 + 抗性。<b>力量在这里补</b></td></tr>
+    <tr><th>部位</th><th>找什么</th></tr>
+    <tr><td><b>箭袋</b></td><td><b>+技能等级</b> &gt; 点伤 &gt; 其他。<b>基础类型不重要</b></td></tr>
+    <tr><td><b>手套</b></td><td>点伤（火 / 物理）+ 生命 + 闪避。每 1–2 级回城看商人</td></tr>
     <tr><td><b>戒指</b></td><td>点伤 + 生命 + 抗性</td></tr>
+    <tr><td><b>鞋子</b></td><td><b>移动速度是第一属性</b>，没移速的别换</td></tr>
+    <tr><td><b>头盔</b></td><td>闪避 + 生命 + 抗性。<b>敏捷 / 智力在这里补</b></td></tr>
+    <tr><td><b>腰带</b></td><td>生命 + 抗性。<b>力量在这里补</b></td></tr>
     <tr><td><b>项链</b></td><td>生命 + 精魂 + 暴击 + 抗性</td></tr>
   </table>
 
-  <h3>药剂（最容易被忽略）</h3>
-  <div class="flow">
-    <div class="n"><b>10 级</b></div><div class="ar">·</div>
-    <div class="n"><b>16 级</b></div><div class="ar">·</div>
-    <div class="n"><b>23 级</b></div><div class="ar">·</div>
-    <div class="n"><b>30 级</b></div>
-  </div>
-  <p>每到这些等级，<b>回城看商人有没有新的生命 / 魔力药剂</b>。药剂等级直接影响续航，开荒期死很多次就是药剂太小。</p>
+  <h3>资源使用纪律</h3>
+  <table>
+    <tr><th>规则</th><th>说明</th></tr>
+    <tr><td><b>前期不要用富豪石、崇高石</b></td><td>留给 16 级反曲弓</td></tr>
+    <tr><td><b>16 级前先攒</b></td><td>工匠石、崇高石、富豪石、点金石</td></tr>
+    <tr><td><b>有品质的武器别卖</b></td><td>回收成磨刀石 → 提升武器百分比伤害</td></tr>
+    <tr><td><b>24 级前别用光 6/7 级未切割宝石</b></td><td>24 级有小型技能切换，要预留</td></tr>
+  </table>
 
-  <h3>商人的搜索正则（省时间神器）</h3>
-  <div class="card">
-    <p>贴到商人搜索框里，自动高亮<b>带插槽、移速、物理伤害、点伤、技能等级、攻速</b>的装备：</p>
-    <p><code>"ts: S|\d+% i.+mov|d Ph|ds .+Da|ll P|k Sp"</code></p>
-    <p style="margin-bottom:0;font-size:13px">
-      <b>每次回城都用一次。</b>商人的货每升一级就刷新，很容易刷出带孔的装备或金装。
-    </p>
+  <h3>商人的搜索正则</h3>
+  <div class="warn">
+    贴到商人搜索框，自动高亮<b>带插槽、移速、物理伤害、点伤、技能等级、攻速</b>的装备：<br>
+    <code style="display:block;margin-top:7px;padding:8px">"ts: S|\d+% i.+mov|d Ph|ds .+Da|ll P|k Sp"</code>
+    <b>每次回城都用一次。</b>商人的货每升一级就刷新。
   </div>
 
-  <div class="src">
-    整理自 <a href="https://maxroll.gg/poe2/build-guides/lightning-arrow-deadeye-leveling-build-guide" target="_blank">Maxroll（0.5.5）</a>、
-    <a href="https://timesaver.gg/blog/poe2-0-5-5-ice-shot-deadeye-leveling-guide" target="_blank">Timesaver（0.5.5）</a>。
-  </div>
+  <h3>弓上的符文</h3>
+  <div class="kv"><span>插什么</span><span>低阶暴风符文 或 钢铁符文</span></div>
+  <div class="kv"><span>品质</span><span>用磨刀石洗到 20%</span></div>
 </section>
 
-<!-- ══════════ 抗性计算器 ══════════ -->
-<section id="res">
-  <h2>抗性计算器</h2>
-  <p>把各部位装备和天赋给的抗性填进去，看最终抗性和还差多少。</p>
-  <div class="ok">
-    <b>✅ 已确认：抗性上限 = 75%</b>（元素和混沌都是）。装备和天赋可以突破，<b>但最多到 90%</b>。<br>
-    <span style="font-size:13px">来源：poe2db 抗性上限页 + 游民星空人物属性页，两处一致。</span>
-  </div>
-
-  <div class="danger">
-    <b>⚠️ 重要更正：终局抗性扣减不是 −30%，我上一版写错了。</b><br><br>
-    我查了 GGG 官方论坛的实测帖，<b>2024 年（抢先体验期）的实测数据</b>是这样的：
-    <table style="margin:10px 0">
-      <tr><th>阶段</th><th>累计扣减</th></tr>
-      <tr><td>普通难度第一章</td><td>0%</td></tr>
-      <tr><td>普通难度第三章后</td><td>−10%</td></tr>
-      <tr><td>残酷难度第三章后（通关剧情）</td><td><b>−60% ~ −70%</b></td></tr>
-      <tr><td>进异界后按地图阶级继续加罚</td><td>再 −10% / −20%</td></tr>
-    </table>
-    <b>⚠️ 但我确认不了 0.5.5 当前版本的确切数字。</b>上面是 2024 年抢先体验期的数据，
-    中间经历了很多次版本更新，现在可能是别的值。<br><br>
-    <b>所以下面的计算器默认值我改成了 70（更保守）。</b>
-    真实数值等你进游戏后看角色面板确认，<b>然后把实际扣减填进去</b>——计算器会按你填的算。
-  </div>
-  <div class="card">
-    <h4>各部位抗性</h4>
-    <div class="grid g3" id="resInputs"></div>
-    <div style="margin-top:16px">
-      <label>终局扣减（默认 70，<b>以游戏内实际为准</b>）</label>
-      <input type="number" id="penalty" value="70" step="5" style="max-width:140px">
-    </div>
-  </div>
-  <div class="card">
-    <h4>最终抗性</h4>
-    <div id="resOut"></div>
-    <p style="font-size:12.5px;margin-top:14px;color:#5b6674">
-      纯算术计算，不含天赋树百分比加成和条件效果。
-    </p>
-  </div>
-</section>
-
-<!-- ══════════ 进度清单 ══════════ -->
+<!-- ═══ 进度勾选 ═══ -->
 <section id="chk">
-  <h2>进度清单</h2>
-  <p>打勾会存在本机浏览器，换电脑不同步。</p>
+  <h2>✔ 进度勾选</h2>
+  <p>会存在本机浏览器。<b>每一项都是永久属性或功能解锁，漏了就真没了。</b></p>
   <div class="bar"><i id="barIn"></i></div>
-  <p style="font-size:13px;margin:0 0 10px" id="barTx">0 / 0</p>
+  <p style="font-size:13px;margin:0 0 8px" id="barTx">0 / 0</p>
   <div id="chkList"></div>
-  <div style="margin-top:20px">
-    <button class="btn" id="resetChk">清空全部勾选</button>
-  </div>
+  <div style="margin-top:18px"><button class="btn" id="resetChk">清空全部勾选</button></div>
 </section>
 
-<!-- ══════════ 速查表 ══════════ -->
+<!-- ═══ 速查 ═══ -->
 <section id="memo">
-  <h2>速查表</h2>
+  <h2>📖 速查</h2>
+
+  <h3>国服 vs 国际服 技能名对照</h3>
+  <div class="danger"><b>两套完全不同的翻译。你在网上看到的攻略多半是国际服叫法，游戏里搜不到。</b></div>
+  <table>
+    <tr><th>国服（游戏里搜这个）</th><th>国际服</th><th>英文</th></tr>
+    <tr><td><b>闪电箭矢</b></td><td>闪电箭矢</td><td>Lightning Arrow</td></tr>
+    <tr><td><b>引雷针</b></td><td>雷霆之杖</td><td>Lightning Rod</td></tr>
+    <tr><td><b>寒霜爆</b></td><td>寒霜爆</td><td>Frost Bomb</td></tr>
+    <tr><td><b>冰霜射击</b></td><td>冰霜射击</td><td>Ice Shot</td></tr>
+    <tr><td><b>冻结齐射</b></td><td>冻结齐射</td><td>Freezing Salvo</td></tr>
+    <tr><td><b>冰尖箭矢</b></td><td>冰簇箭矢</td><td>—</td></tr>
+    <tr><td><b>狙击</b></td><td>狙击</td><td>Snipe</td></tr>
+    <tr><td><b>弹幕</b></td><td>弹幕</td><td>Barrage</td></tr>
+    <tr><td><b>冰冻印记</b></td><td>冰冻印记</td><td>Frozen Mark</td></tr>
+    <tr><td><b>闪电之捷</b></td><td>闪电之捷</td><td>Herald of Thunder</td></tr>
+    <tr><td><b>寒冰之捷</b></td><td>冰霜之捷</td><td>Herald of Ice</td></tr>
+    <tr><td><b>战旗</b></td><td>战争之旗</td><td>War Banner</td></tr>
+    <tr><td><b>风舞者</b></td><td>风魔舞者</td><td>Wind Dancer</td></tr>
+    <tr><td><b>逃脱之矢</b></td><td>逃脱之矢</td><td>Escape Shot</td></tr>
+    <tr><td><b>战斗狂怒</b></td><td>战斗狂怒</td><td>—</td></tr>
+    <tr><td><b>龙卷射击</b></td><td>龙卷射击</td><td>Tornado Shot</td></tr>
+  </table>
+
+  <h4>辅助宝石对照</h4>
+  <table>
+    <tr><th>国服</th><th>国际服</th><th>英文</th></tr>
+    <tr><td><b>元素军械</b></td><td>元素武装</td><td>Elemental Armament</td></tr>
+    <tr><td><b>范围集中</b></td><td>集中光环</td><td>Concentrated Area</td></tr>
+    <tr><td><b>快速攻击</b></td><td>疾速攻击</td><td>Rapid Attacks</td></tr>
+    <tr><td><b>元素集中</b></td><td>元素专注</td><td>Elemental Focus</td></tr>
+    <tr><td><b>霜咬</b></td><td>霜咬</td><td>Ice Bite</td></tr>
+    <tr><td><b>投机射击</b></td><td>博弈射击</td><td>—</td></tr>
+    <tr><td><b>持续时间延长</b></td><td>延长持续时间</td><td>Prolonged Duration</td></tr>
+    <tr><td><b>永续充能</b></td><td>永恒充能</td><td>—</td></tr>
+    <tr><td><b>强化能量球</b></td><td>增强诅咒</td><td>—</td></tr>
+    <tr><td><b>能量球激增</b></td><td>充能满盈</td><td>—</td></tr>
+    <tr><td><b>增幅光环</b></td><td>增幅范围</td><td>Magnified Effect</td></tr>
+    <tr><td><b>近身战</b></td><td>近身战</td><td>—</td></tr>
+    <tr><td><b>范围集中</b></td><td>集中范围</td><td>—</td></tr>
+  </table>
+
+  <h3>31 级后的四步连招</h3>
+  <table>
+    <tr><th>步骤</th><th>做什么</th></tr>
+    <tr><td><b>①</b></td><td>用<b>冰冻印记</b>给 Boss 挂印记</td></tr>
+    <tr><td><b>②</b></td><td>用<b>冰霜射击 / 冻结齐射</b>把 Boss 冻住</td></tr>
+    <tr><td><b>③</b></td><td>冻住的瞬间<b>立刻开弹幕</b></td></tr>
+    <tr><td><b>④</b></td><td>接<b>狙击</b>（贴脸放，零点射击近距离 +20%）</td></tr>
+  </table>
+  <div class="danger">
+    <b>冻结阈值：</b>上了冰冻印记 → <b>70%</b> 冻结条就冻住；<b>没上印记 → 要 100%</b>。<br>
+    <b>最容易错的一步：</b>Boss 冻住时你如果还在放别的技能，来不及开弹幕就解冻了，爆发窗口直接浪费。
+    <b>养成看冻结百分比的习惯。</b>
+  </div>
+
+  <h3>抗性计算器</h3>
+  <div class="ok"><b>✅ 抗性上限 = 75%</b>（poe2db + 游民星空两处一致）。装备天赋可突破，<b>最多 90%</b>。</div>
+  <div class="danger">
+    <b>⚠️ 关于终局扣减：</b>GGG 官方论坛 2024 年实测是 <b>−70%</b>（普通第 3 章后 −10%、残酷 3 章通关 −60~70%），
+    但我<b>确认不了 0.5.5 当前版本</b>的确切值。<br>
+    <b>进游戏后看角色面板，把实际数字填进下面的框。</b>默认我给的是 70（保守）。
+  </div>
+  <div class="grid g3" id="resInputs"></div>
+  <label style="margin-top:10px">终局扣减（默认 70，以游戏内为准）</label>
+  <input type="number" id="penalty" value="70" step="5" style="max-width:130px">
+  <div id="resOut" style="margin-top:12px"></div>
+
+  <h3>升华顺序</h3>
+  <div class="ok">
+    <b>① 零点射击</b>（Point Blank，近距离增伤）→
+    <b>② 无尽弹药</b>（Endless Munitions，额外投射物）→
+    <b>③ 集风</b>（Gathering Winds，顺风）<br>
+    <span style="font-size:12.5px">来源：玩转手游网 0.5 赛季攻略原文 + 9game 游侠升华页</span>
+  </div>
 
   <h3>等级节点</h3>
-  <div class="card">
-    <div class="kv"><span>11 级</span><span>守护者之弓（别投资源）</span></div>
-    <div class="kv"><span>16 级</span><span>换弓 + 大药剂（开始投资源）</span></div>
-    <div class="kv"><span>22 级</span><span>冰冻印记（大伤害提升）</span></div>
-    <div class="kv"><span>24 级</span><span>小型技能切换（别提前用光宝石）</span></div>
-    <div class="kv"><span>28 级</span><span>双弦弓（最大跃升）</span></div>
-    <div class="kv"><span>30 级</span><span>巨型药剂</span></div>
-    <div class="kv"><span>31 级</span><span>转冰霜射击</span></div>
-  </div>
+  <div class="kv"><span>11 级</span><span>守护者之弓（别投资源）</span></div>
+  <div class="kv"><span>16 级</span><span>反曲弓 + 大药剂（开始投资源）</span></div>
+  <div class="kv"><span>22 级</span><span>冰冻印记</span></div>
+  <div class="kv"><span>24 级</span><span>小型技能切换（别提前用光宝石）</span></div>
+  <div class="kv"><span>28 级</span><span>双弦弓</span></div>
+  <div class="kv"><span>30 级</span><span>巨型药剂</span></div>
+  <div class="kv"><span>31 级</span><span><b>转冰霜射击（质变点）</b></span></div>
+  <div class="kv"><span>45 级</span><span>炮火弓</span></div>
 
-  <h3>升华名中英对照</h3>
+  <h3>永久奖励汇总</h3>
   <table>
-    <tr><th>中文</th><th>英文</th><th>作用</th></tr>
-    <tr><td>零点射击</td><td>Point Blank</td><td>近距离增伤</td></tr>
-    <tr><td>无尽弹药</td><td>Endless Munitions</td><td>额外投射物</td></tr>
-    <tr><td>集风</td><td>Gathering Winds</td><td>顺风：移速、攻速</td></tr>
-    <tr><td>风舞者</td><td>Wind Dancer</td><td>生存（后期可选）</td></tr>
+    <tr><th>类型</th><th>总量</th><th>在哪</th></tr>
+    <tr><td><b>天赋点</b></td><td>24 点（12 处 × 2 点）</td><td>各章支线，见「进度勾选」页</td></tr>
+    <tr><td><b>精魂</b></td><td>100 点（3 处）</td><td>弗雷索恩 / 阿扎克泥沼 / 库莱亚村</td></tr>
+    <tr><td><b>抗性</b></td><td>各 +10%（3 处）</td><td>皆伐 / 戴斯哈 / 吉卡尼机械迷城</td></tr>
+    <tr><td><b>生命魔力</b></td><td>3 处</td><td>奥戈姆宅邸一层 / 悉妮蔻拉之眼 / 卡里交汇道</td></tr>
   </table>
 
-  <h3>核心技能中英对照</h3>
-  <table>
-    <tr><th>中文</th><th>英文</th><th>用途</th></tr>
-    <tr><td>闪电箭矢</td><td>Lightning Arrow</td><td>1–30 级清图主力</td></tr>
-    <tr><td>引雷针</td><td>引雷针 Lightning Rod</td><td>1–30 级打 Boss 主力</td></tr>
-    <tr><td>寒霜爆</td><td>Frost Bomb</td><td>辅助清图</td></tr>
-    <tr><td>闪电之捷</td><td>Herald of Thunder</td><td>前期光环</td></tr>
-    <tr><td>寒冰之捷</td><td>Herald of Ice</td><td>31 级后换它</td></tr>
-    <tr><td>冰霜射击</td><td>Ice Shot</td><td>31 级后主力</td></tr>
-    <tr><td>冰冻印记</td><td>Voltaic Mark</td><td>22 级拿</td></tr>
-    <tr><td>风舞者</td><td>Wind Dancer</td><td>第三章拿，保命</td></tr>
-    <tr><td>弓射</td><td>Bow Shot</td><td>备用单体</td></tr>
-    <tr><td>扑袭</td><td>Pounce</td><td>位移，被围时逃命</td></tr>
-  </table>
-
-  <h3>国服翻译错误提醒</h3>
-  <table>
-    <tr><th>游戏里写的</th><th>实际功能</th></tr>
-    <tr><td>伯爵之死</td><td><b>免费鉴定未鉴定物品</b></td></tr>
-    <tr><td>跟随种子的踪迹</td><td><b>花金币重置天赋点</b></td></tr>
-  </table>
-
-  <h3>我的仓库页</h3>
-  <div class="card">
-    <div class="kv"><span>系统赠送</span><span>普通仓库页</span></div>
-    <div class="kv"><span>通货仓库页</span><span>礼包</span></div>
-    <div class="kv"><span>普通仓库页</span><span>礼包</span></div>
-    <div class="kv"><span>商人页签 ×2</span><span>礼包</span></div>
-    <div class="kv"><span>碎片仓库页</span><span>商城</span></div>
-    <div class="kv"><span>可镶嵌仓库页（符文）</span><span>商城</span></div>
-    <div class="kv"><span>精华仓库页</span><span>商城</span></div>
-    <div class="ok" style="margin-bottom:0">
-      <b>买完做一件事：</b>右键点每个仓库页 → 勾选对应物品偏好。
-      之后 <code>Ctrl+左键</code> 点物品会自动归位。
-    </div>
-  </div>
-
-  <h3>🎯 把 BD 导入游戏（重点看这节）</h3>
+  <h3>🔍 来源与可信度</h3>
   <div class="ok">
-    <b>0.5 赛季新增了「游戏内置 BD 规划器」。</b>导入之后，游戏里会直接告诉你：
-    天赋树下一个点哪、该学什么技能、装备上要什么属性。<b>不用再对着网站手动抄。</b>
+    <b>✅ 已交叉验证：</b>抗性上限 75%（poe2db + 游民星空）、冰射 31 级（三处一致）、
+    升华顺序（玩转手游网原文）、金装 6 词条、24 点天赋、国服技能名（游侠网双栏对照表）、24 级技能切换。
   </div>
-
-  <div class="card">
-    <h4>它长什么样</h4>
-    <ul>
-      <li><b>天赋树</b>：左上角有蓝色图标，点开选 BD 后，<b>下一步该点的节点会高亮</b></li>
-      <li><b>学技能时</b>：点左上角按钮，<b>直接列出这个 BD 需要的技能</b></li>
-      <li><b>辅助宝石</b>：同样能列出当前技能该配哪些辅助</li>
-      <li><b>装备</b>：鼠标放到装备上的蓝色图标，显示<b>词缀优先级</b>和说明</li>
-    </ul>
-  </div>
-
-  <h4>安装步骤</h4>
-  <div class="step"><div class="num">1</div><div class="bd">
-    <b>下载 .build 文件</b><br>
-    <span style="color:var(--tx2)">
-      游戏内<b>没有下载功能</b>，文件要从外部拿。三个来源：<br>
-      · <b>poe.ninja</b>（忍者网）——打开任意角色页面 → 右上角 Build Planner → 点下载<br>
-      · <b>Maxroll</b>——攻略页的订阅按钮，或从装备/技能栏右上角图标打开规划器 → Export Build Planner (GGG)<br>
-      · <b>国服登录界面</b>自带 BD 模拟器也能下载（但里面 BD 很少）
-    </span>
-  </div></div>
-
-  <div class="step"><div class="num">2</div><div class="bd">
-    <b>放进这个文件夹</b><br>
-    <span style="color:var(--tx2)">
-      游戏里 → <b>设置 → 物品过滤器 → 打开过滤器文件夹</b><br>
-      把 .build 文件放进去即可。<br>
-      <b>国际服和国服用的位置一样，文件也通用。</b>
-    </span>
-  </div></div>
-
-  <div class="step"><div class="num">3</div><div class="bd">
-    <b>在游戏里启用</b><br>
-    <span style="color:var(--tx2)">
-      打开<b>天赋树</b> → 点左上角<b>蓝色图标</b> → 选择你的 BD。<br>
-      想关掉就点那块黑色区域。
-    </span>
-  </div></div>
-
-  <div class="warn">
-    <b>两个注意：</b><br>
-    ① <b>主机版（PS5 / Xbox）不支持</b> Build Planner，只有 PC。<br>
-    ② <b>下载的文件不会自动更新</b>。攻略作者改了 BD，你得重新下载。
-  </div>
-
-  <h4>反过来：导出你自己的 BD</h4>
-  <div class="card">
-    <p>想把自己的角色配置分享给别人：</p>
-    <div class="kv"><span>国际服</span><span>poe2db.tw/cn/account → 登录 → 角色后面点 link → download</span></div>
-    <div class="kv"><span>国服</span><span>WeGame → 数据 → 一键分享 → 复制链接 → 粘贴到 poe2db 那个网站</span></div>
-    <p style="margin-bottom:0;color:#e8d5b0">
-      <b>注意：</b>poe2db 上要选<b>「中文」</b>，别选繁体——国服和繁体服是两套。
-    </p>
-  </div>
-
-  <h4>配套的公开 BD 去哪找</h4>
-  <table>
-    <tr><th>站点</th><th>地址</th><th>特点</th></tr>
-    <tr><td><b>poe.ninja</b></td><td>poe.ninja/poe2/builds/runesofaldur</td><td>抓的是<b>真实玩家在天梯上的角色</b>，能看到实际装备和天赋，也能下载 .build</td></tr>
-    <tr><td><b>Maxroll</b></td><td>maxroll.gg/poe2</td><td>攻略质量高，有内置规划器导出功能</td></tr>
-    <tr><td><b>Mobalytics</b></td><td>mobalytics.gg/poe-2/builds</td><td>英文，攻略详细</td></tr>
-    <tr><td><b>踩蘑菇 / NGA</b></td><td>中文社区</td><td>中文讨论，但<b>多数是文字攻略，不一定有 .build 文件</b></td></tr>
-  </table>
-
   <div class="danger">
-    <b>我必须说实话：我没能帮你拿到一份现成的「闪电箭矢/冰射锐眼」.build 文件。</b><br>
-    原因：<br>
-    · Maxroll 的下载按钮在<b>页面里的嵌入式规划器组件</b>里，需要点击操作，我抓不到后台文件<br>
-    · 中文社区（踩蘑菇那篇）是文字攻略，<b>作者没提供 .build 文件</b><br><br>
-    <b>所以这一份得你自己动手 2 分钟</b>：按上面的步骤去 poe.ninja 或 Maxroll 挑一个锐眼 BD 下载。
-    我给你的配置档（md / json）是<b>文字对照版</b>，配合游戏内规划器一起用。
+    <b>❌ 未验证：</b><br>
+    · <b>终局抗性扣减确切值</b>（2024 数据，0.5.5 待确认）<br>
+    · <b>国服地名</b>（没跟游戏内实际比对过）<br>
+    · <b>.build 里的宝石 ID</b>（从没导入测试过）<br>
+    · <b>天赋树逐点路线</b>（只有图片）
   </div>
 
-  <h3>📥 BD 配置档（可下载）</h3>
-  <div class="card">
-    <div class="ok" style="margin-top:0">
-      <b>⭐ <a href="锐眼开荒.build">锐眼开荒.build</a></b> —— <b>可导入游戏的 Build 文件</b><br>
-      放到 <code>文档\My Games\Path of Exile 2\BuildPlanner\</code> 文件夹里，
-      游戏会自动识别。之后打开天赋树点左上角蓝色图标就能选它。
-    </div>
-    <div class="kv"><span><a href="锐眼冰射狙击-开荒配置档.md">锐眼冰射狙击-开荒配置档.md</a></span><span>Markdown，手机上也能看</span></div>
-    <div class="kv"><span><a href="build.json">build.json</a></span><span>结构化数据，方便以后做工具</span></div>
-    <p style="margin-bottom:0;font-size:13px">
-      手机上打开链接后，用浏览器的"保存到文件"或长按保存。
-    </p>
-  </div>
-
-  <div class="warn">
-    <b>关于那个 .build 文件，我要如实说明它的能力和局限：</b><br><br>
-    <b>✅ 它能做的：</b>在游戏里学技能 / 切宝石时，<b>列出这套 BD 需要的技能和对应辅助宝石</b>，
-    并按等级段提示（1–30 级给闪电箭矢体系，31 级后给冰射体系）。<br><br>
-    <b>❌ 它不能做的：天赋树高亮。</b><br>
-    原因：天赋节点需要游戏内部的节点 ID（如 <code>strength89</code> 这种），
-    我在公开来源里<b>没能查到可靠的天赋树节点 ID 数据</b>（poe2db 的天赋树是 JS 渲染，抓不到）。
-    <b>我不会编 ID 填进去——填错了游戏里会报错或者点错天赋。</b><br><br>
-    <b>所以天赋这一块，你有两个选择：</b><br>
-    ① 游戏内自己按方向点（前期堆投射物伤害、攻速、闪避）<br>
-    ② 去 poe.ninja 或 Maxroll 下一个<b>带完整天赋的</b>锐眼 BD 文件，替换我这个
-  </div>
-
-  <h3>🔍 来源与可信度（这一节告诉你哪些能信、哪些要自己验）</h3>
-
-  <div class="ok">
-    <h4 style="margin-top:0">✅ 已交叉验证（两个以上独立来源一致）</h4>
-    <table>
-      <tr><th>内容</th><th>来源</th></tr>
-      <tr><td><b>抗性上限 75%</b>（最高可堆到 90%）</td><td>poe2db 抗性上限页 + 游民星空人物属性页</td></tr>
-      <tr><td><b>冰霜射击要角色 31 级</b>（弓类 9 级宝石）</td><td>踩蘑菇 + Maxroll + Timesaver 三处一致</td></tr>
-      <tr><td><b>升华顺序：零点射击 → 无尽弹药 → 集风</b></td><td>玩转手游网 0.5 赛季攻略原文 + 9game 游侠升华页</td></tr>
-      <tr><td><b>金装最多 6 条词缀（3前3后）</b></td><td>术语须知 + 多个中文新手攻略</td></tr>
-      <tr><td><b>天赋点共 24 点</b></td><td>游民星空完整清单（12 处 × 2 点）+ 游侠网攻略复核</td></tr>
-      <tr><td><b>国服技能名（元素军械/范围集中/引雷针等）</b></td><td>游侠网 0.5 冰射攻略的<b>国际服 vs 国服双栏对照表</b></td></tr>
-      <tr><td><b>24 级有小型技能切换</b></td><td>玩转手游网攻略原文</td></tr>
-    </table>
-  </div>
-
-  <div class="danger">
-    <h4 style="margin-top:0">❌ 未验证（你需要自己在游戏里确认）</h4>
-    <table>
-      <tr><th>内容</th><th>为什么没验证</th></tr>
-      <tr><td><b>终局抗性扣减的确切数值</b></td><td>
-        GGG 官方论坛 2024 年实测是 <b>−70%</b>，但我不确定 0.5.5 是否改过。
-        <b>进游戏后看角色面板，把实际数字填进计算器</b></td></tr>
-      <tr><td><b>国服地名</b>（奥格姆村、皆伐、德西尔…）</td><td>来自中文攻略，<b>没跟国服游戏内实际地名逐一比对过</b></td></tr>
-      <tr><td><b>.build 文件里的宝石 ID</b></td><td>从 poe2db 抓的 Metadata 路径，<b>从没在游戏里导入测试过</b></td></tr>
-      <tr><td><b>国服版搜索正则</b></td><td>中文攻略给的是国际服繁体版，国服版没找到</td></tr>
-      <tr><td><b>天赋树逐点路线</b></td><td>只有图片，文字给不了</td></tr>
-      <tr><td><b>地图页 / 碎片页等仓库页建议</b></td><td>基于社区攻略共识，非官方数据</td></tr>
-    </table>
-  </div>
-
-  <div class="warn">
-    <h4 style="margin-top:0">📌 版本说明：国服 ≠ 国际服</h4>
-    <p>
-      <b>技能名是两套完全不同的翻译。</b>本网站已全部改用国服叫法，并在「开荒路线」页附了完整对照表。
-    </p>
-    <p style="margin-bottom:0">
-      如果你在别处看到「元素武装」「集中光环」「雷霆之杖」——那是国际服叫法，
-      游戏里要搜「<b>元素军械</b>」「<b>范围集中</b>」「<b>引雷针</b>」。
-    </p>
-  </div>
-
-  <h3>版本说明</h3>
-  <div class="card">
-    <div class="kv"><span>适用版本</span><span>国服 0.5.5「禁断仪式」</span></div>
-    <div class="kv"><span>更新日期</span><span>2026-09-12</span></div>
-    <p style="margin-bottom:0;font-size:13px">
-      0.5.5 没有技能、辅助宝石、天赋树和升华的平衡改动，主要是赛季机制和终局内容，
-      所以 0.5 的技能与天赋部分在 0.5.5 依然有效。
-    </p>
+  <h3>参考资料</h3>
+  <div class="src">
+    游侠网《流放之路2 0.5赛季锐眼冰射开荒攻略》（含国际服/国服双栏对照）·
+    踩蘑菇《0.5锐眼游侠冰射狙击开荒BD》· 玩转手游网《0.5赛季冰霜射击锐眼开荒》·
+    GGG 官方开发者文档（.build 格式）· poe2db（宝石 ID、抗性上限）· 游民星空《新手入门指南》
   </div>
 </section>
 
 </main>
 
-<footer>
-  <div class="wrap">
-    锐眼开荒手册 · 《流放之路：降临》国服 0.5.5<br>
-    内容整理自公开攻略，仅供参考。游戏数值可能随版本调整，以游戏内实际为准。<br>
-    技能中文名为意译，游戏内显示可能不同——请对照英文名查找。
-  </div>
-</footer>
+<footer><div class="wrap">
+  锐眼冰射照抄手册 · 国服《流放之路：降临》0.5.5<br>
+  内容整理自公开攻略。技能名已核为正国服叫法。<b>数值以游戏内实际为准。</b>
+</div></footer>
 
 <script>
 document.querySelectorAll('nav button').forEach(function(b){
-  b.onclick = function(){
+  b.onclick=function(){
     document.querySelectorAll('nav button').forEach(function(x){x.classList.remove('on')});
     document.querySelectorAll('section').forEach(function(x){x.classList.remove('on')});
-    b.classList.add('on');
-    document.getElementById(b.dataset.t).classList.add('on');
+    b.classList.add('on'); document.getElementById(b.dataset.t).classList.add('on');
     window.scrollTo(0,0);
   };
 });
 
-var RES = ['火','冰','电','混沌'];
-var SLOTS = ['头盔','衣服','手套','鞋子','腰带','戒指','项链','其他'];
-
-function buildResInputs(){
-  var box = document.getElementById('resInputs'), html = '';
-  SLOTS.forEach(function(s){
-    html += '<div><label>' + s + '</label>'
-          + '<input type="number" class="rin" value="0" step="5"></div>';
-  });
-  box.innerHTML = html;
-  box.addEventListener('input', calcRes);
-  document.getElementById('penalty').addEventListener('input', calcRes);
+/* 抗性计算器 */
+var RES=['火','冰','电','混沌'], SLOTS=['头盔','衣服','手套','鞋子','腰带','戒指','项链','其他'];
+function buildRes(){
+  var box=document.getElementById('resInputs'), h='';
+  SLOTS.forEach(function(s){ h+='<div><label>'+s+'</label><input type="number" class="rin" value="0" step="5"></div>'; });
+  box.innerHTML=h;
+  box.addEventListener('input',calcRes);
+  document.getElementById('penalty').addEventListener('input',calcRes);
   calcRes();
 }
-
 function calcRes(){
-  var pen = parseFloat(document.getElementById('penalty').value) || 0, total = 0;
-  document.querySelectorAll('.rin').forEach(function(i){ total += parseFloat(i.value) || 0; });
-  var out = document.getElementById('resOut');
-  out.innerHTML = '';
+  var pen=parseFloat(document.getElementById('penalty').value)||0, tot=0;
+  document.querySelectorAll('.rin').forEach(function(i){ tot+=parseFloat(i.value)||0; });
+  var out=document.getElementById('resOut'); out.innerHTML='';
   RES.forEach(function(r){
-    var v = (r === '混沌') ? total : (total - pen), st, cls, col;
-    if(r === '混沌'){
-      if(v >= 0){ st='可用'; cls='s-ok'; col='var(--green)'; }
-      else { st='负抗'; cls='s-bad'; col='var(--red)'; }
-    } else {
-      if(v >= 75){ st='已满'; cls='s-ok'; col='var(--green)'; }
-      else if(v >= 0){ st='未满'; cls='s-warn'; col='var(--gold)'; }
-      else { st='负抗'; cls='s-bad'; col='var(--red)'; }
-    }
-    var row = document.createElement('div');
-    row.className = 'res';
-    row.innerHTML = '<span class="nm">' + r + '抗</span>'
-      + '<span class="val" style="color:' + col + '">' + v.toFixed(0) + '%</span>'
-      + '<span class="st ' + cls + '">' + st + '</span>';
-    out.appendChild(row);
+    var v=(r==='混沌')?tot:(tot-pen), st,cls,col;
+    if(r==='混沌'){ if(v>=0){st='可用';cls='s-ok';col='var(--green)';} else {st='负抗';cls='s-bad';col='var(--red)';} }
+    else { if(v>=75){st='已满';cls='s-ok';col='var(--green)';} else if(v>=0){st='未满';cls='s-warn';col='var(--gold)';} else {st='负抗';cls='s-bad';col='var(--red)';} }
+    out.innerHTML+='<div class="res"><span style="width:52px">'+r+'抗</span><span class="val" style="color:'+col+'">'+v.toFixed(0)+'%</span><span class="st '+cls+'">'+st+'</span></div>';
   });
-  var tip = document.createElement('p');
-  tip.style.cssText = 'font-size:13.5px;margin-top:14px';
-  var net = total - pen, need = [];
-  RES.slice(0,3).forEach(function(r){
-    if(net < 75) need.push(r + ' 还差 ' + (75 - net).toFixed(0) + '%');
-  });
-  tip.innerHTML = need.length ? '<b>还需补充：</b>' + need.join('　')
-                              : '<b>三抗已满 75%，可以了。</b>';
-  out.appendChild(tip);
+  var need=[], net=tot-pen;
+  RES.slice(0,3).forEach(function(r){ if(net<75) need.push(r+' 差 '+(75-net).toFixed(0)+'%'); });
+  out.innerHTML+='<p style="font-size:13px;margin-top:10px"><b>'+(need.length?'还需补充：'+need.join('　'):'三抗已满 75%')+'</b></p>';
 }
 
-var STAGES = [
-  ['进游戏前', [
-    '改设置：显示生命数值',
-    '改设置：头上显示生命条',
-    '改设置：NPC 生命条选「敌方」',
-    '改设置：原地攻击取消动作',
-    '改设置：宝石切割限制',
-    '改设置：装备限制',
-    '创建角色：游侠 Ranger',
-    '右键设置各仓库页的物品偏好'
-  ]],
-  ['第一章 · 1–14 级', [
-    '2 级：拿闪电箭矢 Lightning Arrow',
-    '拿引雷针 Lightning Rod',
-    '拿寒霜爆 Frost Bomb',
-    '拿闪电之捷 Herald of Thunder',
-    '拿扑袭 Pounce（位移保命）',
-    '击杀贝伊拉 → 凛冬狼的头颅 → +10% 冰霜抗性',
-    '击杀艾瑞格妮 → 未切割辅助宝石',
-    '击杀铁锈之王 → 3 级未切割技能宝石',
-    '击杀烛光 → 烛光精髓 → +20 生命（奥戈姆宅邸一层）',
-    '猎场：击杀鸦铃 → 专精之书 → +2 天赋',
-    '奥格姆农地：拾取乌娜的鲁特琴 → 交乌娜 → +2 天赋',
-    '奥格姆村：找锻造工具 → 交伦利 → 解锁回收台',
-    '弗雷索恩：击杀迷雾之王 → 宝石花颅骨 → +30 精魂',
-    '11 级：换守护者之弓（不投入通货）',
-    '确认 Boss 连招：先插引雷针 → 再闪电箭矢'
-  ]],
-  ['第二章 · 13–28 级', [
-    '16 级：换大生命 / 魔力药剂',
-    '16 级：换反曲弓，投入攒的通货',
-    '22 级：冰冻印记 + 闪电调和 + 延长持续时间 I',
-    '凯斯城：击杀蛇女卡巴拉 → +2 天赋',
-    '戴斯哈：找遗书 → 交夏布林 → +2 天赋',
-    '戴斯哈：找戴斯哈姐妹雕像 → +10% 闪电抗性',
-    '泰坦之谷：放置两族圣物 → 选护符效果',
-    '鲁贾之前：装备红宝石护符',
-    '进无畏舰前：完成丝克玛试炼 → 前 2 点升华点',
-    '28 级：做出并装备双弦弓'
-  ]],
-  ['第三章 · 28–40 级', [
-    '30 级：换巨型生命 / 魔力药剂',
-    '31 级：换冰霜射击 Ice Shot',
-    '31 级：光环换寒冰之捷',
-    '31 级：确认属性够（不够从头盔 / 腰带补）',
-    '丛林遗迹：击杀神威银拳 → +2 天赋',
-    '剧毒墓穴：交尸蛇毒液 → 选 +25% 晕眩阈值（不可改）',
-    '吉卡尼机械迷城：火焰核心 → +10% 火焰抗性',
-    '阿扎克泥沼：击杀沼泽女巫 → 杰洛特颅骨 → +30 精魂',
-    '阿扎克沼泽：击败伊格纳格杜克 → 制作风舞者',
-    '装备风舞者 + 致盲 I',
-    '奥扎尔 / 阿戈拉：牺牲之心 → 献祭讲台 → +2 天赋',
-    '熔岩宝库：击败梅克图 → 交奥斯瓦德 → 解锁重铸台',
-    '击败毒蛇纳帕瓦兹（难，先练级）',
-    '击败多里亚尼（难）'
-  ]],
-  ['第四章', [
-    '33 级 / 45 级：继续换弓',
-    '金氏岛：击杀盲眼巨兽 → 染怒之书 → +2 天赋',
-    '亡者之殿：白之亚玛 → 银币 → 娜瓦莉 → 刺青 → +2 天赋',
-    '亡者之殿：完成三个刺青试炼 → 三选一（不可改）',
-    '废弃监狱：正义女神 → 药剂恢复 30%（可改）',
-    '悉妮蔻拉之眼：沉默之厅 → +5% 最大魔力',
-    '金司马区：找黑衣幽魂 → +2 天赋'
-  ]],
-  ['间歇章节', [
-    '狼之要塞：击杀恐惧典狱长 → +2 天赋',
-    '卡里交汇道：击杀双 BOSS → 找芮苏 → +2 天赋',
-    '卡里交汇道：骨额阶梯 → 熔岩者的礼物 → +5% 最大生命',
-    '狂嗥洞穴：击杀怪异雪兽 → 回林间空地找希尔妲 → +2 天赋',
-    '库莱亚村：击杀迷失长锋 → 宝石壳颅骨 → +40 精魂',
-    '奇玛：找七灵柱 → 选永久属性'
-  ]],
-  ['升华', [
-    '第 1 次：零点射击 Point Blank',
-    '第 2 次：无尽弹药 Endless Munitions',
-    '第 3 次：集风 Gathering Winds'
-  ]],
-  ['进异界前检查', [
-    '24 点天赋奖励拿全了（12 处）',
-    '100 点精魂拿全了（3 处）',
-    '三处 +10% 抗性拿全了',
-    '三抗在扣减后不为负数',
-    '药剂是当前最高级'
-  ]]
-];
-
-function allIds(){
-  var ids = [];
-  STAGES.forEach(function(st, si){ st[1].forEach(function(_, ti){ ids.push('c'+si+'_'+ti); }); });
-  return ids;
-}
-function loadChk(){ try { return JSON.parse(localStorage.getItem('poe2_chk_v3') || '{}'); } catch(e){ return {}; } }
-function saveChk(o){ try { localStorage.setItem('poe2_chk_v3', JSON.stringify(o)); } catch(e){} }
-
+/* 清单 */
+var STAGES=[{"name": "第一章", "lv": "1–12 级", "color": "#4caf7d", "todo": ["拿齐 4 个技能：闪电箭矢 / 引雷针 / 寒霜爆 / 闪电之捷", "打贝伊拉 → 冬狼之头 → 右键用 → 冰抗 +10%", "打艾瑞格妮 → 未切割辅助宝石", "打铁锈之王 → 3 级未切割技能宝石", "猎场打鸦铃 → +2 天赋", "奥格姆农地拿鲁特琴 → 交乌娜 → +2 天赋", "奥格姆村拿锻造工具 → 交伦利 → 解锁回收台", "迷雾之王 → 宝石花颅骨 → 精魂 +30", "11 级换守护者之弓（不投入源）"]}, {"name": "第二章", "lv": "13–28 级", "color": "#5b9bd5", "todo": ["16 级：换反曲弓 + 大药剂", "17 级前后：击败法理登 → 7 级技能石", "22 级：拿冰冻印记 + 闪电调和 + 持续时间延长", "凯斯城：卡巴拉 → +2 天赋", "戴斯哈：遗书 → 交夏布林 → +2 天赋", "戴斯哈：姐妹雕像 → +10% 闪电抗性", "泰坦之谷：放两族圣物 → 选护符", "鲁贾之前：装红宝石护符", "进无畏舰前：完成丝克玛试炼 → 前 2 点升华", "28 级：做双弦弓", "掩埋的殿堂：必打 → 低阶工匠石"]}, {"name": "第三章", "lv": "28–40 级", "color": "#d4a24c", "todo": ["30 级：换巨型药剂", "31 级：换冰霜射击 + 寒冰之捷", "31 级：把闪电箭矢/引雷针的辅助换给新技能", "31 级：确认属性够（不够从头盔/腰带补）", "丛林遗迹：神威银拳 → +2 天赋", "剧毒墓穴：交蛇毒液 → 选 +25% 晕眩阈值（不可改）", "吉卡尼机械迷城：火焰核心 → +10% 火抗", "阿扎克泥沼：沼泽女巫 → 杰洛特颅骨 → +30 精魂", "阿扎克沼泽：击败伊格纳格杜克 → 做风舞者", "风舞者 + 致盲 I", "奥扎尔/阿戈拉：牺牲之心 → +2 天赋", "熔岩宝库：梅克图 → 交奥斯瓦德 → 解锁重铸台"]}, {"name": "第四章", "lv": "40 级+", "color": "#a888d8", "todo": ["45 级：做炮火弓", "尼加卡努岛：赛季玩法 → 高级工匠石（开 4 孔用）", "金氏岛：盲眼巨兽 → 染怒之书 → +2 天赋", "亡者之殿：白之亚玛 → 银币 → 娜瓦莉 → 刺青 → +2 天赋", "亡者之殿：三个刺青试炼 → 三选一（不可改）", "废弃监狱：正义女神 → 药剂恢复 30%", "悉妮蔻拉之眼：沉默之厅 → +5% 最大魔力", "金司马区：黑衣幽魂 → +2 天赋"]}, {"name": "间章", "lv": "章节间", "color": "#4ec9d0", "todo": ["间章2：干涸河流往右 → 打 BOSS → +2 天赋", "间章2：圣所打蛇女 → 拿 2 个巨灵币", "间章2：奇玛找恩赐 → 选 5% 抗性", "回城找黑鬼切换间章1", "间章1：狼之要塞 → +2 天赋", "间章3：库莱娅山巅 → 左上角找老头 → 选暗金", "三个间章尾王打完 → 回君锋镇找黑鬼 → 最后 2 点天赋", "确认天赋点总数 = 24", "继续与黑鬼对话 → 进终局 → 再 +2 天赋"]}];
+function allIds(){var a=[];STAGES.forEach(function(s,i){s.todo.forEach(function(_,j){a.push('c'+i+'_'+j)})});return a}
+function load(){try{return JSON.parse(localStorage.getItem('poe2_copy')||'{}')}catch(e){return{}}}
+function save(o){try{localStorage.setItem('poe2_copy',JSON.stringify(o))}catch(e){}}
 function buildChk(){
-  var box = document.getElementById('chkList'), html = '';
-  STAGES.forEach(function(st, si){
-    html += '<div class="stage">' + st[0] + '<small>' + st[1].length + ' 项</small></div>';
-    st[1].forEach(function(t, ti){
-      var id = 'c' + si + '_' + ti;
-      html += '<label class="chk"><input type="checkbox" id="' + id + '">'
-            + '<span class="txt">' + t + '</span></label>';
+  var box=document.getElementById('chkList'), h='';
+  STAGES.forEach(function(s,i){
+    h+='<div style="margin:20px 0 5px;font-size:14px;color:'+s.color+';font-weight:700;border-bottom:1px solid var(--line);padding-bottom:5px">'+s.name+' <span style="color:var(--tx2);font-weight:400">'+s.lv+'</span></div>';
+    s.todo.forEach(function(t,j){
+      h+='<label class="chk"><input type="checkbox" id="c'+i+'_'+j+'"><span class="txt">'+t+'</span></label>';
     });
   });
-  box.innerHTML = html;
-  box.addEventListener('change', function(e){
-    if(e.target.type !== 'checkbox') return;
-    var st = loadChk();
-    st[e.target.id] = e.target.checked;
-    saveChk(st);
-    e.target.closest('.chk').classList.toggle('done', e.target.checked);
-    updateBar();
+  box.innerHTML=h;
+  box.addEventListener('change',function(e){
+    if(e.target.type!=='checkbox')return;
+    var st=load(); st[e.target.id]=e.target.checked; save(st);
+    e.target.closest('.chk').classList.toggle('done',e.target.checked); bar();
   });
 }
-
-function updateBar(){
-  var ids = allIds(), st = loadChk(), n = 0;
+function bar(){
+  var ids=allIds(), st=load(), n=0;
   ids.forEach(function(id){
-    var el = document.getElementById(id);
-    if(el){
-      el.checked = !!st[id];
-      el.closest('.chk').classList.toggle('done', !!st[id]);
-    }
-    if(st[id]) n++;
+    var el=document.getElementById(id);
+    if(el){ el.checked=!!st[id]; el.closest('.chk').classList.toggle('done',!!st[id]); }
+    if(st[id])n++;
   });
-  var pct = ids.length ? Math.round(n / ids.length * 100) : 0;
-  document.getElementById('barIn').style.width = pct + '%';
-  document.getElementById('barTx').textContent = n + ' / ' + ids.length + '　完成度 ' + pct + '%';
+  var p=ids.length?Math.round(n/ids.length*100):0;
+  document.getElementById('barIn').style.width=p+'%';
+  document.getElementById('barTx').textContent=n+' / '+ids.length+'　完成度 '+p+'%';
 }
-
-document.getElementById('resetChk').onclick = function(){
-  if(!confirm('确定清空所有勾选？')) return;
-  saveChk({}); updateBar();
+document.getElementById('resetChk').onclick=function(){
+  if(!confirm('清空全部勾选？'))return; save({}); bar();
 };
 
-buildResInputs(); buildChk(); updateBar();
+buildRes(); buildChk(); bar();
 </script>
 </body>
 </html>
