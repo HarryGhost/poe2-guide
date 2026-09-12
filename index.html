@@ -921,6 +921,84 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:1
     </div>
   </div>
 
+  <h3>🎯 把 BD 导入游戏（重点看这节）</h3>
+  <div class="ok">
+    <b>0.5 赛季新增了「游戏内置 BD 规划器」。</b>导入之后，游戏里会直接告诉你：
+    天赋树下一个点哪、该学什么技能、装备上要什么属性。<b>不用再对着网站手动抄。</b>
+  </div>
+
+  <div class="card">
+    <h4>它长什么样</h4>
+    <ul>
+      <li><b>天赋树</b>：左上角有蓝色图标，点开选 BD 后，<b>下一步该点的节点会高亮</b></li>
+      <li><b>学技能时</b>：点左上角按钮，<b>直接列出这个 BD 需要的技能</b></li>
+      <li><b>辅助宝石</b>：同样能列出当前技能该配哪些辅助</li>
+      <li><b>装备</b>：鼠标放到装备上的蓝色图标，显示<b>词缀优先级</b>和说明</li>
+    </ul>
+  </div>
+
+  <h4>安装步骤</h4>
+  <div class="step"><div class="num">1</div><div class="bd">
+    <b>下载 .build 文件</b><br>
+    <span style="color:var(--tx2)">
+      游戏内<b>没有下载功能</b>，文件要从外部拿。三个来源：<br>
+      · <b>poe.ninja</b>（忍者网）——打开任意角色页面 → 右上角 Build Planner → 点下载<br>
+      · <b>Maxroll</b>——攻略页的订阅按钮，或从装备/技能栏右上角图标打开规划器 → Export Build Planner (GGG)<br>
+      · <b>国服登录界面</b>自带 BD 模拟器也能下载（但里面 BD 很少）
+    </span>
+  </div></div>
+
+  <div class="step"><div class="num">2</div><div class="bd">
+    <b>放进这个文件夹</b><br>
+    <span style="color:var(--tx2)">
+      游戏里 → <b>设置 → 物品过滤器 → 打开过滤器文件夹</b><br>
+      把 .build 文件放进去即可。<br>
+      <b>国际服和国服用的位置一样，文件也通用。</b>
+    </span>
+  </div></div>
+
+  <div class="step"><div class="num">3</div><div class="bd">
+    <b>在游戏里启用</b><br>
+    <span style="color:var(--tx2)">
+      打开<b>天赋树</b> → 点左上角<b>蓝色图标</b> → 选择你的 BD。<br>
+      想关掉就点那块黑色区域。
+    </span>
+  </div></div>
+
+  <div class="warn">
+    <b>两个注意：</b><br>
+    ① <b>主机版（PS5 / Xbox）不支持</b> Build Planner，只有 PC。<br>
+    ② <b>下载的文件不会自动更新</b>。攻略作者改了 BD，你得重新下载。
+  </div>
+
+  <h4>反过来：导出你自己的 BD</h4>
+  <div class="card">
+    <p>想把自己的角色配置分享给别人：</p>
+    <div class="kv"><span>国际服</span><span>poe2db.tw/cn/account → 登录 → 角色后面点 link → download</span></div>
+    <div class="kv"><span>国服</span><span>WeGame → 数据 → 一键分享 → 复制链接 → 粘贴到 poe2db 那个网站</span></div>
+    <p style="margin-bottom:0;color:#e8d5b0">
+      <b>注意：</b>poe2db 上要选<b>「中文」</b>，别选繁体——国服和繁体服是两套。
+    </p>
+  </div>
+
+  <h4>配套的公开 BD 去哪找</h4>
+  <table>
+    <tr><th>站点</th><th>地址</th><th>特点</th></tr>
+    <tr><td><b>poe.ninja</b></td><td>poe.ninja/poe2/builds/runesofaldur</td><td>抓的是<b>真实玩家在天梯上的角色</b>，能看到实际装备和天赋，也能下载 .build</td></tr>
+    <tr><td><b>Maxroll</b></td><td>maxroll.gg/poe2</td><td>攻略质量高，有内置规划器导出功能</td></tr>
+    <tr><td><b>Mobalytics</b></td><td>mobalytics.gg/poe-2/builds</td><td>英文，攻略详细</td></tr>
+    <tr><td><b>踩蘑菇 / NGA</b></td><td>中文社区</td><td>中文讨论，但<b>多数是文字攻略，不一定有 .build 文件</b></td></tr>
+  </table>
+
+  <div class="danger">
+    <b>我必须说实话：我没能帮你拿到一份现成的「闪电箭/冰射锐眼」.build 文件。</b><br>
+    原因：<br>
+    · Maxroll 的下载按钮在<b>页面里的嵌入式规划器组件</b>里，需要点击操作，我抓不到后台文件<br>
+    · 中文社区（踩蘑菇那篇）是文字攻略，<b>作者没提供 .build 文件</b><br><br>
+    <b>所以这一份得你自己动手 2 分钟</b>：按上面的步骤去 poe.ninja 或 Maxroll 挑一个锐眼 BD 下载。
+    我给你的配置档（md / json）是<b>文字对照版</b>，配合游戏内规划器一起用。
+  </div>
+
   <h3>📥 BD 配置档（可下载）</h3>
   <div class="card">
     <p>完整的技能连接、连招顺序、做装备规则，独立成文件，方便你边玩边对照或打印。</p>
