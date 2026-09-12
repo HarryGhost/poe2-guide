@@ -1,0 +1,165 @@
+{
+  "name": "锐眼冰射 · 第一天开荒BD（非暴击）· 国服0.5.5（极简版）",
+  "author": "网瘾老年人lowK（配置）· HarryGhost 整理",
+  "link": "https://space.bilibili.com/27858039",
+  "description": "极简版：只有技能和辅助，没有任何附加文字。用来排查是不是附加字段导致的导入失败。",
+  "ascendancy": "Ranger1",
+  "passives": [],
+  "skills": [
+    {
+      "id": "Metadata/Items/Gems/SkillGemLightningArrow",
+      "level_interval": [
+        1,
+        30
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPrimalArmament",
+        "Metadata/Items/Gems/SupportGemMartialTempo"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemLightningRod",
+      "level_interval": [
+        1,
+        30
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPrimalArmament",
+        "Metadata/Items/Gems/SupportGemConcentratedEffect"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemFrostBomb",
+      "level_interval": [
+        1,
+        30
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemEscapeShot",
+      "level_interval": [
+        1,
+        100
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "level_interval": [
+        22,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPersistence"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPrimalArmament",
+        "Metadata/Items/Gems/SupportGemIceBite",
+        "Metadata/Items/Gems/SupportGemMartialTempo"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPrimalArmament",
+        "Metadata/Items/Gems/SupportGemColdExposure"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPrimalArmament",
+        "Metadata/Items/Gems/SupportGemConcentratedEffect",
+        "Metadata/Items/Gems/SupportGemElementalFocus"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemOvercharge",
+        "Metadata/Items/Gems/SupportGemProfusion"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPrimalArmament",
+        "Metadata/Items/Gems/SupportGemElementalFocus"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "level_interval": [
+        1,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemPersistence"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemProfusion"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemIngenuity",
+        "Metadata/Items/Gems/SupportGemBlind"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemConcentratedEffect",
+        "Metadata/Items/Gems/SupportGemBlind"
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+      ]
+    }
+  ]
+}

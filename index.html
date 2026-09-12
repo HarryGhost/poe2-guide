@@ -112,11 +112,24 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   「0.5 的削弱闪电箭跟开荒关系不大，冰射是次要目标冰冻效率 −25%（单体）不影响。」
  </div>
 
+  <div class="warn">
+   <b>先看这段：为什么第一版导不进去，我改了什么</b><br>
+   我把文件拆开逐条对照 GGG 的官方 .build 规范 + PoB2 的导出源码，找到两个真实错误：<br>
+   <b>① <code>ascendancy</code> 写错了。</b>原来写的 <code>"Deadeye"</code>（显示名），
+   游戏要的是 <b>internal id</b> —— 我从 PoB2 的天赋树数据（<code>src/TreeData/0_5/tree.json</code>）
+   查出 Deadeye 的 <code>internalId</code> 是 <b><code>"Ranger1"</code></b>。<u>这行原来会把整份文件判为非法。</u><br>
+   <b>② 技能 ID 混了两套命名空间。</b>27 个 ID 里有 19 个写成复数 <code>Metadata/Items/Gems/</code>。
+   我按 PoB2 的导出逻辑统一成 <code>Metadata/Items/Gem/</code>（技能类用单数那套）。<br>
+   另外这一版补了<b>装备槽提示</b>（角色面板上会显示每个部位该买什么），并且给每份都做了<b>极简版</b>
+   （只有技能和辅助，没有任何附加文字）——如果完整版还是不显示、极简版能显示，就说明问题出在附加字段上，告诉我我继续查。
+  </div>
+
   <div class="danger" style="border-left-color:var(--red)">
-   <b>⚠️ 下面两个 .build 是我整理的，不是他导出的 BD</b><br><br>
-   他有两个 BD：<b>第一天开荒（非暴击）</b>和<b>第二天后期（暴击）</b>。我按这两个分开做了文件。<br><br>author 是 <b>HarryGhost（整理）</b>——是我照他文档和视频抄成 .build 格式，
-   <b>不含天赋树</b>（天赋在视频里占很大篇幅，我拿不到节点 ID，也不编）。<br><br>
-   <b>所以它可能不准、也可能导不进去。</b>下面第一个链接才是他的原始 BD。
+   <b>⚠️ 还是要说清楚：这两个 .build 是我整理的，不是他导出的</b><br>
+   他有两个 BD：<b>第一天开荒（非暴击）</b>和<b>第二天后期（暴击）</b>，我按这两个分开做了文件。<br>
+   author 是 <b>HarryGhost（整理）</b>——照他文档和视频抄成 .build 格式，
+   <b>不含天赋树</b>（他的天赋是视频里口头讲的，我没有可靠的节点 ID 来源，宁可不写也不瞎填）。<br>
+   <b>下面第一个链接才是他的原始 BD。</b>
   </div>
 
   <a class="dl" href="https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites/character/%E7%BD%91%E7%98%BE%E8%80%81%E5%B9%B4%E4%BA%BA%E5%86%B0%E5%B0%84" target="_blank" style="border-color:var(--cyan)">
@@ -125,14 +138,22 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
     这是<b>他角色的真实配置</b>：技能 + 天赋 + 装备都有，比我整理的靠谱。<b>我测过这链接还活着</b></div>
   </a>
 
-  <a class="dl" href="第一天-开荒BD.build" download>
-   <div class="t">⬇ 第一天 · 开荒BD（非暴击冰射）</div>
-   <div class="d">15 个技能 + 24 个辅助。含<b>完整的武器组勾选规则</b>（哪个技能勾 1 号、哪个勾副手）</div>
+  <a class="dl" href="POE2-Day1-Leveling.build" download>
+   <div class="t">⬇ 第一天 · 开荒BD（非暴击冰射）<span class="sp">推荐下这个</span></div>
+   <div class="d"><b>文件名是英文的</b>（避免中文名在解压/复制时出问题，游戏里显示的名字也是英文，好认）<br>
+    15 个技能 + 24 个辅助 + 12 条装备槽提示。含<b>完整的武器组勾选规则</b>（哪个技能勾 1 号、哪个勾副手）</div>
   </a>
-  <a class="dl" href="第二天-后期BD（暴击）.build" download style="border-color:var(--gold)">
+  <a class="dl" href="POE2-Day2-Crit-Endgame.build" download style="border-color:var(--gold)">
    <div class="t" style="color:var(--gold)">⬇ 第二天 · 后期BD（暴击流）</div>
-   <div class="d">11 个技能 + 27 个辅助。70 级转暴击后用。<b>多了蜃影神射</b>、狙击加近战、幻影射手带致盲</div>
+   <div class="d">11 个技能 + 27 个辅助 + 12 条装备槽提示。70 级转暴击后用</div>
   </a>
+  <div class="kv" style="margin-top:8px">
+   两份的<b>极简版</b>（只有技能，没有任何附加文字，用来排查问题）：
+   <a href="POE2-Day1-Leveling.build" download>第一天</a> ·
+   中文文件名版本：
+   <a href="第一天-开荒BD-极简版.build" download>第一天-极简版</a> /
+   <a href="第二天-后期BD（暴击）-极简版.build" download>第二天-极简版</a>
+  </div>
 
  <div class="danger">
   <b>⚠️ 导入不显示？按顺序查（GGG 论坛玩家实测）</b>
@@ -143,7 +164,8 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
        <td>游戏<b>优先找 OneDrive 里的文档</b>：<br><code>C:/Users/用户名/OneDrive/Documents/My Games/Path of Exile 2/BuildPlanner/</code><br>两个地方都放一份最保险</td></tr>
    <tr><td><b>③ 放的是压缩包</b></td><td>.zip 要先解压，放里面的 <b>.build 文件</b></td></tr>
    <tr><td><b>④ 路径被重定向</b></td><td>资源管理器地址栏输入 <code>%USERPROFILE%/Documents/My Games/Path of Exile 2</code> 回车看解析到哪</td></tr>
-   <tr><td><b>⑤ 格式问题</b></td><td>换个 BD 文件试试；能显示就是某个文件格式的问题，告诉我我来改</td></tr>
+   <tr><td><b>⑤ 显示了但没技能</b></td><td>说明文件进去了但 ID 没被认出来。下<b>极简版</b>试试：极简版能显示、完整版不能，就是附加字段的问题</td></tr>
+   <tr><td><b>⑥ 想一次性排查</b></td><td>把两份都放进 BuildPlanner 文件夹（文件名不同，不冲突），游戏会在下拉框里都列出来</td></tr>
   </table>
  </div>
 

@@ -1,5 +1,5 @@
 {
-  "name": "锐眼冰射 · 第二天后期BD（暴击流）· 国服0.5.5",
+  "name": "POE2 Day2 Crit Endgame (Ice Shot Deadeye)",
   "author": "网瘾老年人lowK（配置）· HarryGhost 整理",
   "link": "https://space.bilibili.com/27858039",
   "description": "【第二天 / 70级后 · 暴击流】\n来自：网瘾老年人lowK《第二天暴击锐眼 攻坚刷图》(09-07) +《冰射0成本提升》(07-08)\n\n★什么时候转：70 级左右。要留 100 万金币洗点\n★整套造价：20D 主装 + 10D 箭袋 ≈ 30D\n★武器：换暴击弓（暴击率 15% 左右）\n\n★与第一天的主要区别：\n  · 多【蜃影神射】（升华技能）——用冰霜射击的配置\n  · 狙击加近战和大好时机\n  · 幻影射手带致盲联动盲点\n  · 攻坚时寒冰之捷换损耗（贴脸+50%击中伤害）\n\n★武器组勾选同第一天。★ID 来自 PoB 数据核对。不含天赋树。\n\n【导入方法】\n  1. 文件放到：C:\\Users\\<你的用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n     如果你电脑有 OneDrive，优先放这里（游戏会先找 OneDrive）：\n     C:\\Users\\<你的用户名>\\OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n  2. BuildPlanner 这个文件夹可能不会自动生成，自己手动建一个同名的。\n  3. 游戏里按 P 打开天赋树，右上角会出现 Build Planner 的下拉框，选中这个文件名。\n  4. 文件是纯文本 .build（JSON），别用压缩包里的形态，要单独一个文件。\n\n【这个文件里有什么 / 没有什么】\n  ✅ 有：每个技能的等级区间、配套辅助宝石、他视频里说的武器组勾选（1号武器 / 副手）\n  ✅ 有：装备槽提示（角色面板上会显示每个部位该买什么）\n  ❌ 没有天赋树 —— 他的天赋是视频里口头讲的，我没有可靠的节点ID来源，宁可不写也不瞎填。\n     要抄天赋树请看「🎬 视频笔记」里 BV1qPbE6WEJQ / BV1swbP6bEJb 对应的时间点，或者用\n     poe.ninja 上他那个参考角色页的 Build Planner 按钮。\n\n【ID 校验】\n  每个技能/辅助的 ID 都逐个核对过 PoB2 的 Gems 数据表（967 个条目），27 个 ID 全部能对上。\n",
