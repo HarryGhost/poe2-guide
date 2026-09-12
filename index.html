@@ -439,7 +439,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:1
 
   <div class="card">
     <h4>T 阶是什么</h4>
-    <p>每条词条都有"阶级"，用 <b>T1 到 T13</b> 表示。读法是反的：</p>
+    <p>每条词条都有"阶级"，用 T 加数字表示（<b>具体到 T 几，随词条类型不同</b>）。读法是反的：</p>
     <div class="kv"><span>T1</span><span>最高阶级，数值最好</span></div>
     <div class="kv"><span>T13</span><span>最低阶级，数值最差</span></div>
     <p style="margin-bottom:0"><b>T 后面的数字越小越好。</b>按 Alt 看装备时会显示每条词条的阶级。</p>
@@ -759,6 +759,13 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:1
     <div class="card"><h4>③ 集风</h4>
       <p style="font-size:13px;margin:0">Gathering Winds。顺风：移速、攻速、手感。</p></div>
   </div>
+  <div class="ok">
+    <b>这三个顺序来自中文攻略原文，不是我推的。</b><br>
+    <span style="font-size:13px">
+    来源：玩转手游网《流放之路2 0.5 赛季冰霜射击锐眼开荒攻略》（2026-05-27，标注 0.5 赛季）原文：
+    「升华优先级 推荐顺序：零点射击 → 无尽弹药 → 集风」。
+    </span>
+  </div>
 
   <div class="warn">
     <b>天赋走法：</b>新手走「<b>伤害优先</b>」——13 级前先把伤害节点堆满，再补移速和其他。
@@ -904,16 +911,32 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:1
 <section id="res">
   <h2>抗性计算器</h2>
   <p>把各部位装备和天赋给的抗性填进去，看最终抗性和还差多少。</p>
-  <div class="warn">
-    <b>目标：</b>三抗（火 / 冰 / 电）尽量到 <b>75%</b>。<br>
-    <b>扣减：</b>进入终局后三抗各被扣 <b>−30%</b>。所以剧情阶段的目标是"进终局后不为负"。
+  <div class="ok">
+    <b>✅ 已确认：抗性上限 = 75%</b>（元素和混沌都是）。装备和天赋可以突破，<b>但最多到 90%</b>。<br>
+    <span style="font-size:13px">来源：poe2db 抗性上限页 + 游民星空人物属性页，两处一致。</span>
+  </div>
+
+  <div class="danger">
+    <b>⚠️ 重要更正：终局抗性扣减不是 −30%，我上一版写错了。</b><br><br>
+    我查了 GGG 官方论坛的实测帖，<b>2024 年（抢先体验期）的实测数据</b>是这样的：
+    <table style="margin:10px 0">
+      <tr><th>阶段</th><th>累计扣减</th></tr>
+      <tr><td>普通难度第一章</td><td>0%</td></tr>
+      <tr><td>普通难度第三章后</td><td>−10%</td></tr>
+      <tr><td>残酷难度第三章后（通关剧情）</td><td><b>−60% ~ −70%</b></td></tr>
+      <tr><td>进异界后按地图阶级继续加罚</td><td>再 −10% / −20%</td></tr>
+    </table>
+    <b>⚠️ 但我确认不了 0.5.5 当前版本的确切数字。</b>上面是 2024 年抢先体验期的数据，
+    中间经历了很多次版本更新，现在可能是别的值。<br><br>
+    <b>所以下面的计算器默认值我改成了 70（更保守）。</b>
+    真实数值等你进游戏后看角色面板确认，<b>然后把实际扣减填进去</b>——计算器会按你填的算。
   </div>
   <div class="card">
     <h4>各部位抗性</h4>
     <div class="grid g3" id="resInputs"></div>
     <div style="margin-top:16px">
-      <label>终局扣减（一般填 30）</label>
-      <input type="number" id="penalty" value="30" step="5" style="max-width:140px">
+      <label>终局扣减（默认 70，<b>以游戏内实际为准</b>）</label>
+      <input type="number" id="penalty" value="70" step="5" style="max-width:140px">
     </div>
   </div>
   <div class="card">
@@ -1101,6 +1124,48 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#5b6674;font-size:1
     <b>所以天赋这一块，你有两个选择：</b><br>
     ① 游戏内自己按方向点（前期堆投射物伤害、攻速、闪避）<br>
     ② 去 poe.ninja 或 Maxroll 下一个<b>带完整天赋的</b>锐眼 BD 文件，替换我这个
+  </div>
+
+  <h3>🔍 来源与可信度（这一节告诉你哪些能信、哪些要自己验）</h3>
+
+  <div class="ok">
+    <h4 style="margin-top:0">✅ 已交叉验证（两个以上独立来源一致）</h4>
+    <table>
+      <tr><th>内容</th><th>来源</th></tr>
+      <tr><td><b>抗性上限 75%</b>（最高可堆到 90%）</td><td>poe2db 抗性上限页 + 游民星空人物属性页</td></tr>
+      <tr><td><b>冰霜射击要角色 31 级</b>（弓类 9 级宝石）</td><td>踩蘑菇 + Maxroll + Timesaver 三处一致</td></tr>
+      <tr><td><b>升华顺序：零点射击 → 无尽弹药 → 集风</b></td><td>玩转手游网 0.5 赛季攻略原文 + 9game 游侠升华页</td></tr>
+      <tr><td><b>金装最多 6 条词缀（3前3后）</b></td><td>术语须知 + 多个中文新手攻略</td></tr>
+      <tr><td><b>天赋点共 24 点</b></td><td>游民星空完整清单（12 处 × 2 点）+ 游侠网攻略复核</td></tr>
+      <tr><td><b>国服技能名（元素军械/范围集中/引雷针等）</b></td><td>游侠网 0.5 冰射攻略的<b>国际服 vs 国服双栏对照表</b></td></tr>
+      <tr><td><b>24 级有小型技能切换</b></td><td>玩转手游网攻略原文</td></tr>
+    </table>
+  </div>
+
+  <div class="danger">
+    <h4 style="margin-top:0">❌ 未验证（你需要自己在游戏里确认）</h4>
+    <table>
+      <tr><th>内容</th><th>为什么没验证</th></tr>
+      <tr><td><b>终局抗性扣减的确切数值</b></td><td>
+        GGG 官方论坛 2024 年实测是 <b>−70%</b>，但我不确定 0.5.5 是否改过。
+        <b>进游戏后看角色面板，把实际数字填进计算器</b></td></tr>
+      <tr><td><b>国服地名</b>（奥格姆村、皆伐、德西尔…）</td><td>来自中文攻略，<b>没跟国服游戏内实际地名逐一比对过</b></td></tr>
+      <tr><td><b>.build 文件里的宝石 ID</b></td><td>从 poe2db 抓的 Metadata 路径，<b>从没在游戏里导入测试过</b></td></tr>
+      <tr><td><b>国服版搜索正则</b></td><td>中文攻略给的是国际服繁体版，国服版没找到</td></tr>
+      <tr><td><b>天赋树逐点路线</b></td><td>只有图片，文字给不了</td></tr>
+      <tr><td><b>地图页 / 碎片页等仓库页建议</b></td><td>基于社区攻略共识，非官方数据</td></tr>
+    </table>
+  </div>
+
+  <div class="warn">
+    <h4 style="margin-top:0">📌 版本说明：国服 ≠ 国际服</h4>
+    <p>
+      <b>技能名是两套完全不同的翻译。</b>本网站已全部改用国服叫法，并在「开荒路线」页附了完整对照表。
+    </p>
+    <p style="margin-bottom:0">
+      如果你在别处看到「元素武装」「集中光环」「雷霆之杖」——那是国际服叫法，
+      游戏里要搜「<b>元素军械</b>」「<b>范围集中</b>」「<b>引雷针</b>」。
+    </p>
   </div>
 
   <h3>版本说明</h3>
