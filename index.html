@@ -88,14 +88,26 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 .treegal a:hover{border-color:var(--cyan)}
 .treegal img{display:block;width:100%;height:190px;object-fit:cover;background:#0b0f14}
 .treegal span{display:block;font-size:12.5px;color:var(--tx2);padding:8px 10px;line-height:1.55}
+
+.stagetoc{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.stagetoc a{font-size:12.5px;background:var(--panel);border:1px solid var(--line);padding:5px 10px;border-radius:8px;text-decoration:none;color:var(--tx2);display:flex;gap:6px;align-items:baseline}
+.stagetoc a span{font-size:11px;color:var(--gold)}
+.stagetoc a:hover{border-color:var(--cyan);color:var(--cyan)}
+.navsep{font-size:11px;color:#5b6674;padding:0 4px 0 10px;border-left:1px solid var(--line);margin-left:6px;align-self:center;white-space:nowrap}
+.steplist{margin:6px 0;padding-left:18px}
+.steplist li{margin:3px 0;font-size:13.5px;color:var(--tx2)}
+.steplist li b{color:var(--tx)}
+h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
 </style></head><body>
 <header><div class="wrap">
  <div class="brand"><h1>锐眼冰射狙击 · 开荒手册</h1>
   <span class="ver">0.5.5 国服</span>
   <span class="ver" style="color:var(--cyan);border-color:var(--cyan)">来源：网瘾老年人lowK</span></div>
- <nav><button class="on" data-t="copy">📋 照抄表</button><button data-t="skill">⚔ 技能配置</button><button data-t="rot">🎯 输出手法</button><button data-t="end">🌌 异界后</button><button data-t="gear">🔨 装备</button><button data-t="talent">🧭 天赋加点</button><button data-t="chk">✔ 进度勾选</button><button data-t="memo">📖 速查</button><button data-t="video">🎬 视频笔记</button><button data-t="pics">🖼 配图</button><button data-t="lowk">🔗 他的链接</button></nav>
+ <nav><button class="on" data-t="stage_s1">1️⃣ 1–14级</button><button data-t="stage_s2">2️⃣ 造弓</button><button data-t="stage_s3">3️⃣ 转冰</button><button data-t="stage_s4">4️⃣ 第四章</button><button data-t="stage_s5">5️⃣ 异界</button><button data-t="stage_s6">6️⃣ 暴击</button><button data-t="stage_s7">7️⃣ 成型</button><button data-t="skill">⚔ 技能全表</button><button data-t="rot">🎯 输出手法</button><button data-t="end">🌌 异界后（成型）</button><button data-t="gear">🔨 装备全流程</button><button data-t="talent">🧭 加点与属性</button><button data-t="memo">📖 对照速查</button><button data-t="video">🎬 视频笔记</button><button data-t="pics">🖼 配图总览</button><button data-t="lowk">🔗 他的链接</button></nav>
 </div></header><main class="wrap">
-<section id="copy" class="on">
+<section id="stage_s1" class="on"><span id="s1"></span>
+ <h2>1️⃣ 开局–第一章</h2>
+
  <h2>照抄表</h2>
  <p><b>不用通读。</b>玩到哪一段翻到哪一段。</p>
 
@@ -166,6 +178,229 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   <tr><td><b>第四章</b></td><td>冰霜射击（4孔）+ 狙击（4孔）</td><td>投机射击、近身战</td></tr>
   <tr><td><b>异界后</b></td><td>冰霜射击 + 幻影射手</td><td>武器组勾选规则（见「🌌 异界后」）</td></tr>
  </table>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 1 · 开局到第一章末</span>
+  <span class="stagelv">1–14 级</span>
+  <span class="stagegoal">把第一章打完，拿到前期三个技能</span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ <ul class="steplist"><li>皆伐营地：找铁匠领 1 级技能宝石 → 选 <b>引雷针</b></li><li>皆伐：途中营地拿 2 级技能石 → 学 <b>寒霜爆</b>；赛季玩法掉蜕变石</li><li>第一个蜕变石用在<b>箭袋</b>上（5 级要换弓）</li><li>森林：小屋拿药水；打完赤谷再回来打女巫拿辅助宝石</li><li>赤谷：<b>练到 5 级</b>；赛季玩法掉 2 级技能宝石</li><li>赤谷：多翻武器架，出短弓先用；回城看 5 级弓/手套/鞋子</li><li>沼泽：赛季玩法 + BOSS → 共 2 个 3 级宝石 → 学 3 级闪电箭矢 / 3 级引雷针</li><li>沼泽：辅助宝石选<b>范围集中</b></li><li>墓园：打 2 个任务 BOSS → 2 个辅助宝石</li><li><b>墓园女BOSS图：清完怪再开宝箱！开了宝箱死了就拿不到辅助宝石</b></li><li>墓园：棺材 → 戒指；赛季玩法 → 富豪石（留 16/33 级）</li><li>墓园辅助宝石：① 快速攻击 → 闪电箭矢 ② 范围集中/元素军械 → 引雷针</li><li>猎场：乌鸦 BOSS → <b>+2 天赋</b></li><li>猎场：树灵祭祀 → 辅助宝石，闪电箭矢学<b>连锁1</b></li><li>弗雷索恩：先开 3 个小祭坛，再去大祭坛打 BOSS → 精魂宝石学<b>战旗</b></li><li>弗雷索恩：战利品<b>选冰抗</b>（狼王是冰伤）</li><li>农地：乌娜的琴 → 交乌娜 → <b>+2 天赋</b></li><li>农地：麦田怪圈精英 → 4 级技能宝石（引雷针等级保持比闪电箭高）</li><li>村庄：<b>铁匠的锤子 → 解锁回收台</b></li><li>村庄：铁匠任务给 1 巧匠石 + 1 符文（选<b>闪电符文</b>）</li><li>11 级：用掉 1 个巧匠石在弓上；<b>闪电符文留给 16 级武器</b></li><li>庄园：绞刑架 → 辅助宝石</li><li>狼王：一楼 BOSS → 加生命的道具</li><li><b>狼王打法：拉到电梯旁，用墙的夹角放引雷针，再插战旗</b></li><li>狼王前回城找乌娜买<b>高级回血/回蓝药水</b>；装<b>冰抗护符</b></li></ul>
+
+ <h4>② 技能怎么搭</h4>
+ <table><tr><th style="width:20%">技能</th><th style="width:34%">辅助</th><th>备注</th></tr><tr><td><b>闪电箭矢</b></td><td>元素军械1 + 快速攻击1</td><td>打BOSS时把元素军械换成<b>连锁1</b></td></tr><tr><td><b>引雷针</b></td><td>元素军械1 + 范围集中</td><td></td></tr><tr><td><b>寒霜爆</b></td><td>—</td><td></td></tr><tr><td><b>逃脱射击</b></td><td>—</td><td>位移。文档第二章写「逃脱之矢」，两种叫法都出现过</td></tr><tr><td><b>战旗</b></td><td>持续时间延长</td><td></td></tr></table>
+
+ <h4>③ 天赋怎么点</h4>
+ <ul>
+     <li>第一颗升华点在<b>第一章后</b>，选 <b>零点射击</b>。</li>
+     <li>天赋先连<b>投射物 / 攻击速度 / 移动速度</b>那一圈（锐眼起点左上方）。</li>
+     <li>属性：现在什么也不用管，装备上的属性够用就行。</li>
+    </ul>
+
+ <h4>④ 装备什么时候换</h4>
+ <div class="ok"><b>1–14 级不用买任何装备。</b>掉什么穿什么。</div>
+    <ul>
+     <li>通货纪律：<b>只用蜕变石和增幅石</b>，其余（点金石、混沌石、崇高石）全部留着。</li>
+     <li>第一个蜕变石用在<b>箭袋</b>上（5 级要换弓，弓先别点）。</li>
+     <li>赤谷多翻武器架，出短弓先用；回城看 5 级的弓 / 手套 / 鞋子。</li>
+    </ul>
+ 
+ <div class="warn"><b>墓园女 BOSS 那张图：清完怪再开宝箱！</b>开了宝箱死了就拿不到辅助宝石。</div>
+</div>
+</section>
+<section id="stage_s2"><span id="s2"></span>
+ <h2>2️⃣ 第二章 · 造弓</h2>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 2 · 第二章：打造第一把弓</span>
+  <span class="stagelv">13–28 级</span>
+  <span class="stagegoal"><b>16 级打造弓</b>，这是这一阶段唯一的大事</span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ <ul class="steplist"><li>第二章武器 NPC：买白/蓝点伤弓，用蜕变石+增幅石洗</li><li>16 级弓参考：1 个前缀就有 <b>23-46 点伤</b>就值得打造</li><li>人马 → 2 级辅助宝石（学 <b>连锁2</b>，打 BOSS 给闪电箭矢装上）</li><li>莫丹采石场/矿坑：怪多，练到 18 级左右；掉大量磨刀石/护甲片</li><li>叛徒小径：打芭芭拉拿 22 级巨灵币过升华（武器不好建议先不打）</li><li>哈拉尼之门：跟艾萨拉开 3 个门 → BOSS → 下楼看风墙回城</li><li>长毛象荒原/骨坑：赛季玩法掉富豪石（留 33 级）；<b>20 级找 NPC 买更高级血药</b></li><li>凯斯城：蛇女 BOSS → <b>+2 天赋</b>；地图中蛇女掉任务物品</li><li>失落之城/掩埋神殿：低阶级工匠石、<b>7 级精魂石（学冰冻之捷）</b>、天赋珠宝</li><li>泰坦之谷/泰坦石窟：<b>护符栏位 +1（重要）</b></li><li>戴哈斯/悼念之路：<b>+2 天赋</b>；28 级巨灵币</li><li>戴哈斯尖塔：<b>+10% 电抗</b></li><li>升华：选 <b>零点射击</b></li></ul>
+
+ <h4>② 技能怎么搭</h4>
+ <table><tr><th style="width:20%">技能</th><th style="width:34%">辅助</th><th>备注</th></tr><tr><td><b>闪电箭矢</b></td><td>元素军械2 + 快速攻击1</td><td>打BOSS时把元素军械换成<b>连锁2</b></td></tr><tr><td><b>引雷针</b></td><td>元素军械2 + 范围集中</td><td></td></tr><tr><td><b>冰尖箭矢</b></td><td>元素军械2 + 冻结</td><td>力量/智力不够就先不上辅助</td></tr><tr><td><b>冻结齐射</b></td><td>元素军械2 + 冻结</td><td>力量/智力不够就先不上辅助</td></tr><tr><td><b>狙击</b></td><td>元素军械2 + 范围集中</td><td></td></tr><tr><td><b>弹幕</b></td><td>—</td><td></td></tr><tr><td><b>冰冻印记</b></td><td>持续时间延长</td><td>7级技能宝石，只需24智慧，不用升级</td></tr><tr><td><b>战旗</b></td><td>持续时间延长</td><td></td></tr><tr><td><b>闪电之捷</b></td><td>元素军械2 + 范围集中</td><td><b>清怪开，BOSS开战旗</b></td></tr></table>
+
+ <h4>③ 天赋怎么点</h4>
+ <ul>
+     <li>继续往投射物 / 攻速圈点，开始摸到冰系那边。</li>
+     <li>属性：力量 / 智力不够就先不上辅助宝石（文档原话）。</li>
+    </ul>
+
+ <h4>④ 装备什么时候换</h4>
+ <table><tr><th style="width:26%">步骤</th><th>怎么做</th></tr><tr><td><b>怎么做</b></td><td>去<b>第二章武器 NPC</b> 处，买<b>白色或蓝色点伤弓</b>（蓝色看后缀）。</td></tr><tr><td><b>洗什么</b></td><td>用<b>蜕变石 + 增幅石</b>，洗高点伤或高物理%。</td></tr><tr><td><b>判断标准</b></td><td><b>只要 1 个前缀就达到 23–46 点伤，这只弓就非常值得打造。</b></td></tr><tr><td><b>对比</b></td><td>人马掉的弓虽然有 5 条词条，点伤也只有 20–59——不如上面那只蓝弓。</td></tr><tr><td><b>33 级</b></td><td>同样的办法再打造一次（文档只说「33 级用来打造弓」，<b>没给具体数值门槛</b>）。</td></tr></table><div class="warn"><b>选弓的时候一定要看符文（他的原话）：</b><br>「商店大多数都插了<b>物理% / 元素点伤</b>符文来提高武器 DPS，让武器看起来 DPS 更高，也就更好卖。<br><b>同价位、DPS 差不多时，看符文选择武器</b>（因为符文是要换成 +1 箭和 +5% 全元素的）。<br>还有攻速——攻速会提高总伤害输出。<b>实际上同 DPS、同价位，选没攻速的伤害会更高。</b>当然这不是说攻速不好，只是对比武器时的情况。」</div>
+ 
+ <div class="warn"><b>16 级弓的判断标准只有一条：1 个前缀就达到 23–46 点伤，就值得打造。</b><br>蓝装必定 1 前 1 后；有后缀时用增幅石必定出前缀。洗不出 23–46 就先用 20+ 的，别硬肝。</div>
+</div>
+</section>
+<section id="stage_s3"><span id="s3"></span>
+ <h2>3️⃣ 第三章 · 转冰</h2>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 3 · 第三章：31 级转冰霜射击</span>
+  <span class="stagelv">28–40 级</span>
+  <span class="stagegoal"><b>31 级换冰霜射击，这是整套 BD 的质变点</b></span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ <ul class="steplist"><li>水道放水后回城，楼梯可以下了</li><li>淹没之城：熔岩宝库打完 BOSS → <b>解锁重铸台</b>（剧情用不到，可以到异界再来）</li><li>污秽顶峰：任务道具可不拿（要凑 3 个颜色换 1 瓶药水，没必要，找 NPC 买）</li><li>科佩克神庙：3 个角落找上楼的门 → 上 2 次楼 → 打 BOSS → 中间互动等自动回城</li><li>回城看装备和药水；<b>进营地买药水 + 看 33 级弓（打造）</b></li><li>混沌试炼（升华2）：城内传送到混沌试炼（没开过要去龙蜥湿地开图）</li><li>升华选<b>无限弹药</b>（投射物数量 +1）</li><li>奥扎尔：胖子和下张图的怪掉<b>牺牲之心</b>；蛇女 BOSS 冻住一狙击送走</li><li>阿戈拉：用匕首扎破牺牲之心 → <b>+2 天赋</b></li><li>漆黑密室：BOSS 房在进门后正对面最远端</li></ul>
+
+ <h4>② 技能怎么搭</h4>
+ <table><tr><th style="width:20%">技能</th><th style="width:34%">辅助</th><th>备注</th></tr><tr><td><b>冰霜射击</b></td><td>元素军械2 + 霜咬2 + 快速攻击1</td><td><b>强烈建议投机射击</b>：4孔使用或替换3孔的攻速，清怪效率很高</td></tr><tr><td><b>冰尖箭矢</b></td><td>元素军械2 + 冻结</td><td>力量/智力不够就先不上辅助</td></tr><tr><td><b>冻结齐射</b></td><td>元素军械2 + 冻结</td><td>力量/智力不够就先不上辅助</td></tr><tr><td><b>狙击</b></td><td>元素军械2 + 范围集中 + 元素集中</td><td>3孔</td></tr><tr><td><b>弹幕</b></td><td>永续充能 + 强化能量球</td><td></td></tr><tr><td><b>冰冻印记</b></td><td>持续时间延长1</td><td>7级技能宝石，24智慧，不用升级</td></tr><tr><td><b>战斗狂怒</b></td><td>能量球激增1</td><td>最早8级精魂宝石可学，一般等阿扎克泥沼BOSS（10级）换，替掉前两章的战旗</td></tr><tr><td><b>寒冰之捷</b></td><td>元素军械2 + 元素集中 + 范围扩大</td><td></td></tr><tr><td><b>逃脱之矢</b></td><td>—</td><td></td></tr></table>
+
+ <h4>③ 天赋怎么点</h4>
+ <ul>
+     <li>开始往<b>冰冷穿透 / 冰冻积累</b>方向点。</li>
+     <li>属性：这时候开始注意<b>敏捷</b>（弓需要），顺手把智力往 64 凑。</li>
+    </ul>
+
+ <h4>④ 装备什么时候换</h4>
+ <div class="ok">
+     33 级再打造一次弓（同样的办法：第二章武器 NPC 买蓝弓，蜕变+增幅）。
+     攒着的通货这时候可以用。
+    </div>
+ 
+ <div class="warn">转冰霜射击之后，<b>武器看的就是物理点伤</b>（80% 物理转冰冷），元素点伤是次要的。</div>
+</div>
+</section>
+<section id="stage_s4"><span id="s4"></span>
+ <h2>4️⃣ 第四章</h2>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 4 · 第四章：双 4 孔</span>
+  <span class="stagelv">40 级进异界前</span>
+  <span class="stagegoal">两个 4 孔分别给冰霜射击和狙击</span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ <ul class="steplist"><li>第一个 4 孔给<b>冰霜射击</b>（一个图 90% 时间用它刷怪）</li><li>第二个 4 孔给<b>狙击</b>，5 孔同理</li><li>尼加卡努（最后一个岛）：赛季玩法掉<b>高级工匠石</b></li><li>阿拉塔斯：开局直接坐船去买<b>饰品</b>，能买到好词条戒指</li><li>45 级弓打造参考：70-166 点伤 / 18% 攻速，用到异界</li><li>第一岛 凯吉湾：地图碎片交给开船的 → 2 天赋点</li><li>第二岛 百舌岛：一路走到底打 BOSS；路上尸体有地图碎片</li><li>第三岛 瓦卡帕努岛：大白鲨 BOSS；鲨鱼鳍等第四章打完去左边船交 NPC（道具二选一）</li><li>第四岛 辛格拉之眼：<b>15% 抗性 + 2 天赋点</b></li><li>第五岛 金氏岛：低阶工匠石、高级符文</li><li>第六岛 废弃监狱：药水 BUFF</li><li>第七岛 阿拉塔斯：3 个崇高石</li></ul>
+
+ <h4>② 技能怎么搭</h4>
+ <table><tr><th style="width:20%">技能</th><th style="width:34%">辅助</th><th>备注</th></tr><tr><td><b>冰霜射击</b></td><td>元素军械2 + 霜咬2 + 快速攻击2 + 投机射击</td><td><b>第一个4孔给它</b>。一个图90%时间用它刷怪。投机射击：最后一张图掉高级工匠石</td></tr><tr><td><b>狙击</b></td><td>元素军械2 + 范围集中 + 元素集中 + 近身战</td><td><b>第二个4孔给它</b>。大好时机1（看自己狙击熟练度）</td></tr><tr><td><b>冰尖箭矢</b></td><td>元素军械2 + 冻结 + 冰霜曝露</td><td></td></tr><tr><td><b>冻结齐射</b></td><td>元素军械2 + 冻结 + 范围集中</td><td></td></tr><tr><td><b>弹幕</b></td><td>永续充能 + 强化能量球</td><td></td></tr><tr><td><b>冰冻印记</b></td><td>虹吸印记2 + 充能印记 + 持续时间延长2</td><td></td></tr><tr><td><b>战斗狂怒</b></td><td>能量球激增1</td><td></td></tr><tr><td><b>寒冰之捷</b></td><td>元素军械2 + 元素集中 + 范围扩大2</td><td></td></tr><tr><td><b>龙卷射击</b></td><td>冗余2 + 耐久度 + 持续时间延长2</td><td></td></tr></table>
+
+ <h4>③ 天赋怎么点</h4>
+ <ul>
+     <li>继续补命中 / 闪避 / 攻速，为 70 级转暴击铺路。</li>
+    </ul>
+
+ <h4>④ 装备什么时候换</h4>
+ <table><tr><th style="width:26%">项目</th><th>怎么做</th></tr><tr><td><b>40 级 · 猎心弓</b></td><td><b>别买升级好的。</b>先买没升级的（30 级能用 / 物理 36–74 / 1 个富豪石），再用<b>死境探险的圆环</b>给它升级。 变成<b>符锻反曲弓</b>：需求等级 40、72 敏捷，物理 <b>110–226</b>，投射物<b>分裂至 +2 个目标</b>，10 个崇高石上下。</td></tr><tr><td><b>符文</b></td><td>两个符文位：一个 <b>+1 箭</b>，一个 <b>+5% 全元素额外</b>。</td></tr><tr><td><b>第四章之后</b></td><td><b>可以上拍卖行了</b>，前面攒的通货这时候花。</td></tr></table>
+ 
+ <div class="warn">「最后一个图掉高级工匠石」——用来给冰霜射击开 4 孔。</div>
+</div>
+</section>
+<section id="stage_s5"><span id="s5"></span>
+ <h2>5️⃣ 进异界 · 买装</h2>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 5 · 进异界：只买 3 件暗金</span>
+  <span class="stagelv">40–70 级</span>
+  <span class="stagegoal">三件暗金不到 2D，就能刷 T15</span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ 
+
+ <h4>② 技能怎么搭</h4>
+ <div class="ok">
+     异界用的是<b>异界后</b>那套技能。<b>武器组勾选规则</b>：<br>
+     1 号武器 = 冰霜射击 / 寒冰之捷 / 幻影射手 / 弹幕 / 龙卷射击<br>
+     副手 = 狙击 / 冰冻印记 / 战旗（<b>省 30 精魂</b>；先放冰冻印记会自动切副手）
+    </div>
+
+ <h4>③ 天赋怎么点</h4>
+ <table><tr><th style="width:26%">项目</th><th>要求</th></tr><tr><td><b>升华顺序</b></td><td>零点射击 → 无限弹药 → 蜃影神射 → 疾风</td></tr><tr><td><b>属性</b></td><td><b>敏捷 163</b>（78 级弓的要求）、<b>智力 64</b>（穿抗手）、力量 59 用完就够</td></tr><tr><td><b>天赋方向</b></td><td>这一阶段往<b>冰抗穿透、冰冻积累</b>点；伤害够后再补生存</td></tr></table>
+
+ <h4>④ 装备什么时候换</h4>
+ <table><tr><th style="width:26%">买什么</th><th>为什么 / 多少钱</th></tr><tr><td><b>① <b>穿抗手</b>｜<b>利奥波德的赞许</b> 刺绣手套</b></td><td><b>整套 BD 就是围绕它建起来的</b>（他自己原话「我们这一套是围绕手套」）。<br>· 击中会让敌人<b>元素抗性最低的一项降到 −50%</b>（正常只能穿到 0）——等于<b>凭空多 50% 输出</b>；<br>· 上面还有一条 <b>+10% 穿透抗性</b>；<br>· 有攻速，对<b>被禁锢（冰冻系）</b>的敌人<b>+50% 伤害</b>；<br>· 价格<b>一两 D</b>（国际服名 Leopold's Applause，poe2db 写「利奥波德的赞许 刺绣手套」，国服玩家叫「穿抗手」）。</td></tr><tr><td><b>② <b>寒焰头</b>｜<b>寒焰</b> 丝绒帽</b></td><td><b>前中期输出 + 生存两头兼顾的廉价头</b>（国际服名 Heatshiver Velvet Cap，国服玩家叫「寒焰头」）。<br>· 敌人身上每有 1% 冰缓幅度 → 你获得等同 1% 冰冷伤害的<b>额外火焰伤害</b>（他实测约等于<b>把 50% 冰冷伤害转成额外火伤</b>）；<br>· 本身带<b>双抗</b>和 400 上下的护甲值（他买的那只）；<br>· <b>十几崇高石一个</b>。</td></tr><tr><td><b>③ <b>猎心弓</b>｜符锻反曲弓</b></td><td>40 级武器，见上面 ②。<b>这三件加起来不到 2D，就是第一天的全部投入。</b></td></tr></table><div class="warn"><b>剩下的位置（衣服 / 项链 / 戒指 / 腰带 / 鞋）：掉落什么穿什么。</b><br>两个硬要求：<b>抗性尽量往 75% 堆</b>、<b>智力要够 64</b>（穿抗手要 64 智力，不够就戴不上）。</div>
+ <div class="figrow"><a href="images/13.jpg" target="_blank" class="gitem"><img src="images/13.jpg" loading="lazy" alt="第一天非暴击天赋树"><span>阶段 5 天赋树（他的原图）</span></a><a href="images/14.jpg" target="_blank" class="gitem"><img src="images/14.jpg" loading="lazy" alt="第一天非暴击天赋树 另一视角"><span>同上，另一段视角</span></a></div>
+ <div class="warn"><b>抗性优先级永远高于伤害</b>：项链 + 戒指 + 腰带 4 件里凑满火冰电 75%，再补 1–2 条混沌抗（混沌不是元素，元素抗性加不了）。</div>
+</div>
+</section>
+<section id="stage_s6"><span id="s6"></span>
+ <h2>6️⃣ 转暴击 · 第二套</h2>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 6 · 转暴击 + 第二套</span>
+  <span class="stagelv">70–90 级</span>
+  <span class="stagegoal">70 级左右转暴击，整套约 30D</span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ 
+
+ <h4>② 技能怎么搭</h4>
+ <div class="warn">
+     转暴击时冰霜射击把「精准暴击」换成 <b>盲点</b>，配合幻影射手的致盲，
+     +15% 暴击与爆伤。
+    </div>
+
+ <h4>③ 天赋怎么点</h4>
+ <table><tr><th style="width:26%">问题</th><th>答案</th></tr><tr><td><b>武器</b></td><td>转暴击换弓，这把弓<b>便宜得离谱</b>：<br>· 200 亿（20 亿？他口述）一个，<b>10 亿以内能买到暴击 5% 以上的</b>；<br>· 「打满大概 178 点伤，暴击率 15 左右」；<br>· <b>5.5% 以上就够用了</b>，挑升级过的版本。</td></tr><tr><td><b>暴击数值怎么搜弓</b></td><td>前期过渡：<b>最少 3.5</b> ／ 搜 T2 以上：设 <b>3.81</b> ／ 搜 T1：设 <b>4.41</b>。<br>「比如你弓暴击是 4.41，就可以用<b>神圣石</b>让暴击 ROLL 值变高——<b>这个操作是在你弓比较好的情况下再做</b>。」</td></tr><tr><td><b>什么时候转</b></td><td><b>70 级左右就可以转暴击</b>（非暴击天赋看开荒视频）。</td></tr><tr><td><b>要准备什么</b></td><td><b>转暴击需要留 100 万金币洗点。</b></td></tr><tr><td><b>双天赋</b></td><td>不会双天赋的先看他的视频（「391 手把手点双天赋」）。</td></tr></table><table><tr><th style="width:26%">项目</th><th>要求</th></tr><tr><td><b>天赋方向</b></td><td>补命中 → 暴击圈 → 偏斜圈（伤害够了再把生存挪过来）</td></tr><tr><td><b>升华</b></td><td>这时候 4 点应该拿满了</td></tr></table>
+
+ <h4>④ 装备什么时候换</h4>
+ <table><tr><th style="width:20%">部位</th><th style="width:34%">买什么</th><th>细节 / 价格</th></tr><tr><td><b>武器</b></td><td><b>猎心弓</b>（符锻反曲弓）或转暴击用的高暴击弓</td><td>20D 以内最好的非攻速弓；「1D」那只 308 物理 DPS 就是他挑的方向</td></tr><tr><td><b>手套</b></td><td><b>穿抗手</b>（利奥波德的赞许）</td><td>19 崇高石上下；<b>前中期都能用</b></td></tr><tr><td><b>头盔</b></td><td>高护盾 + 双抗的头，<b>约 350 护盾</b></td><td>「找个 300 左右的、双抗 65 的」，大约 1D 多一点，换完约 750 护盾</td></tr><tr><td><b>衣服</b></td><td><b>2000 闪避</b> + 抗性，之后追闪避转偏斜</td><td>他的原话：2000 闪避 + 单抗大约「三四十几近一 D」；不要抗性的更便宜</td></tr><tr><td><b>项链</b></td><td><b>抗性 + 精魂</b>（40+10 那种）</td><td>有了项链就可以不用在戒指上找精魂；「项链 + 手套」这两件要搭配起来看</td></tr><tr><td><b>腰带</b></td><td><b>独闯</b>（Ingenuity 实用腰带）<b>或夜临</b></td><td>独闯做 2 个护符栏位、加左手/右手戒指属性；夜临是 <b>90 级以上 / 视为手套</b>，镶嵌物效果 50–100%</td></tr><tr><td><b>戒指</b></td><td>点伤 + 生命 + 抗性 + 属性（后补击杀回魔 T2 以上）</td><td>「一两 D 买的、30 亿买的、155 亿买的」——他自己也是混着便宜的买</td></tr><tr><td><b>鞋子</b></td><td><b>25–30 移速</b> + 闪避/护盾 + 抗性 + 偏斜</td><td>三抗鞋也行</td></tr><tr><td><b>护符</b></td><td>解冻 + 猛攻 + 免疫点燃</td><td>—</td></tr><tr><td><b>天赋宝石</b></td><td>蓝宝石：2% 击杀回蓝 + 2 条伤害｜绿宝石：6 条选 3｜绿色范围宝石：8 条选 3–4<br>泉水之心：双额外（只要冰闪）｜力抗黑暗：双额外（有钱再上）</td><td>默认 4 孔：<b>1 蓝 + 2 绿 + 1 泉水</b></td></tr></table>
+ <div class="figrow"><a href="images/23.jpg" target="_blank" class="gitem"><img src="images/23.jpg" loading="lazy" alt="第二天暴击天赋树"><span>阶段 6 天赋树（暴击流）</span></a><a href="images/15.jpg" target="_blank" class="gitem"><img src="images/15.jpg" loading="lazy" alt="第二天暴击天赋树 2"><span>同上，另一段</span></a><a href="images/16.jpg" target="_blank" class="gitem"><img src="images/16.jpg" loading="lazy" alt="副天赋"><span>副天赋（印记/招架那套）</span></a></div>
+ <div class="warn"><b>转暴击要留 100 万金币洗点。</b></div>
+</div>
+</section>
+<section id="stage_s7"><span id="s7"></span>
+ <h2>7️⃣ 成型后 · 赚 D</h2>
+<div class="toc" style="margin:14px 0 4px">
+ <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
+ <a href="#s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+</div>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">阶段 7 · 成型之后：赚 D 和提升</span>
+  <span class="stagelv">90 级以后</span>
+  <span class="stagegoal">刷 T15 赚钱，按顺序换大件</span>
+ </div>
+
+ <h4>① 这一阶段要做什么</h4>
+ 
+
+ <h4>② 技能怎么搭</h4>
+ <div class="ok">
+     这一阶段技能不变。攻坚（单挑 BOSS）时把<b>寒冰之捷换成损耗</b>（精魂技能），
+     白嫖对稀有 / 传奇敌人的额外伤害。
+    </div>
+
+ <h4>③ 天赋怎么点</h4>
+ <table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>天赋</b></td><td>伤害够了之后，把生存点（偏斜圈那 9 点）补上</td></tr><tr><td><b>宝石</b></td><td>冰霜射击等级 +3 的宝石、「从无到有」珠宝、超大范围绿宝石</td></tr></table>
+
+ <h4>④ 装备什么时候换</h4>
+ <table><tr><th style="width:26%">顺序</th><th>做什么</th></tr><tr><td><b>先存 D 买「<b>拉齐塔的流动</b>」</b></td><td>大概 <b>100D</b>。让<b>怪物抗性反转，高抗变负抗</b>。<br>物价稳定、不容易掉价。（他自己用的是 60D 的暗金版；国际服名 Lairada's Flow）</td></tr><tr><td><b>再存 D 买「<b>猎首</b>」</b></td><td><b>200D</b>。效果：杀死稀有怪物时获得它的词缀，持续 60 秒。<b>有了猎首就可以打迷雾 200 了。</b></td></tr><tr><td><b>进阶操作</b></td><td>有了拉齐塔后又存 100D → <b>把拉齐塔卖掉凑钱买猎首</b> → 有了猎首再攒钱把拉齐塔买回来。<b>猎首重要性 &gt; 拉齐塔</b>。</td></tr><tr><td><b>缺伤害</b></td><td>补上更好的弓。</td></tr><tr><td><b>缺生存</b></td><td>把<b>头、鞋都换成护盾体系</b>；衣服换 <b>3000+ 闪避 + 闪避转偏斜</b>。</td></tr><tr><td><b>别急着打</b></td><td>这个时候<b>别急着打 200 迷雾</b>——伤害不够、生存也不够，很便秘。</td></tr></table><h4>后期</h4><table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>怒火项链</b></td><td>便宜提升。<b>注意怒火需要大量力量值。</b>有了猎首再补这个项链，<b>全程 30% 总增伤</b>。</td></tr><tr><td><b>天赋宝石</b></td><td><b>冰霜射击等级 +3</b>，大概每级提升 10% 总增伤。（他交易页搜出来是 <b>388D</b>，只有 11 条在售）</td></tr><tr><td><b>从无到有</b></td><td>用<b>无根之源（From Nothing）</b>在共鸣圈内点核心天赋点，再加上<b>范围非常大的绿宝石</b>，拿到更多暴击爆伤。（绿宝石截图 <b>200D</b>，双额外钻石 <b>550D</b>）</td></tr><tr><td><b>「决心」</b></td><td>⚠ <b>约 300D，我没能独立核实这件装备。</b></td></tr></table><h4>赚 D</h4><table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>推荐打法</b></td><td>中期可以<b>攻坚打 BOSS 赚 D。只推荐「迷雾祭坛 BOSS」</b>，需要先做完任务。</td></tr><tr><td><b>门票成本</b></td><td>最便宜门票 5 张共 <b>30E</b>。</td></tr><tr><td><b>产出</b></td><td>4 件装备都值钱（猿神用户需求多）。<b>装备不好卖就降价——卖出去才是 D。</b></td></tr><tr><td><b>其他掉落</b></td><td>BOSS 还掉 <b>50D 插槽</b>。</td></tr><tr><td><b>做法</b></td><td>打满品质 → 开孔 → 瓦尔宝珠；祭坛任务区放 5 个暗影呼唤（共 30E）→ 开启 BOSS。</td></tr><tr><td><b>难度</b></td><td>BOSS 大概 2000 万血，<b>很简单</b>。攻坚 BOSS 可以死无数次。</td></tr><tr><td><b>小贴士</b></td><td>注意 BOSS 音量，最好关闭音效。</td></tr><tr><td><b>进阶</b></td><td>带<b>战旗</b>、<b>驳斥</b>（格挡增伤），技能宝石换成伤害类。熟练后可换多里亚尼天赋。</td></tr><tr><td><b>他的实际收入</b></td><td>他截图里的销售记录：毁灭者之弓 <b>198D</b>、时迭绿宝石 <b>55D</b>、潜能之戒 <b>55D</b>、暗金弓 35D / 2D / 5D、魔道权杖 15D / 35D / 4D / 9D、野性标记 2D / 11D / 77E。</td></tr></table><h4>通货怎么换</h4><table><tr><th style="width:26%">方向</th><th>比率 / 做法</th></tr><tr><td><b>崇高石 → 混沌石</b></td><td>他视频里市场比率是 <b>1 : 3 ~ 1 : 6.5</b> 一档一档挂（他用的是 1:2.5 / 1:3 那档）。</td></tr><tr><td><b>混沌石 → 崇高石</b></td><td>前期没有崇高石，<b>去通货兑换 NPC 把混沌石换成崇高石</b>。他挂的是 <b>22.92 : 1</b>。</td></tr><tr><td><b>注意</b></td><td>「物价自己参考，<b>开服跟现在不同</b>。」他第二天录视频时说箭袋「明天可能会掉到 6D」。</td></tr></table>
+ 
+ <div class="warn">别急着打 200 迷雾——伤害和生存都不够的时候很便秘。</div>
+</div>
 </section>
 <section id="skill">
  <h2>⚔ 技能配置（逐章照抄）</h2>
@@ -546,14 +781,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  <tr><th style="width:26%">项目</th><th>内容</th></tr>
  <tr><td><b>前期不用纠结</b></td><td><b>天赋点错了前期不用怕</b>——洗点用的是金币，不是通货。真正要留金币的地方是转暴击那一次。</td></tr><tr><td><b>转暴击要留 100 万金币</b></td><td>他原话：「转暴击需要留 100 万金币洗点。」约 70 级左右转。</td></tr><tr><td><b>双天赋</b></td><td>这套要用<b>两套天赋</b>：主天赋打图，副天赋（印记类）+ 招架/驳斥应付一直出招的 BOSS（比如火焰巅峰的神圣仲裁者）。不会点双天赋的看他视频「391 手把手点双天赋」。</td></tr>
 </table>
-</section>
-<section id="chk">
- <h2>✔ 进度勾选</h2>
- <p>会存在本机浏览器。<b>这些多是永久属性或功能解锁，漏了就真没了。</b></p>
- <div class="bar"><i id="barIn"></i></div>
- <p style="font-size:13px;margin:0 0 8px" id="barTx">0 / 0</p>
- <div id="chkList"></div>
- <div style="margin-top:16px"><button class="btn" id="resetChk">清空全部勾选</button></div>
 </section>
 <section id="memo">
  <h2>📖 速查</h2>
