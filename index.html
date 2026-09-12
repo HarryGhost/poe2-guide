@@ -113,7 +113,26 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  </div>
 
   <div class="warn">
-   <b>先看这段：为什么第一版导不进去，我改了什么</b><br>
+   <b>你上次说得对 —— 那份根本不叫 BD 文件。</b>我下载了 6 份<b>真实可用</b>的 .build
+   （mobalytics 和玩家导出的）逐字段对比，找到根因了：<br>
+   <b>❌ 我之前的 <code>passives</code> 是空数组 <code>[]</code>。</b>
+   真实文件的 passives 是 <b>182 / 187 / 189 / 190</b> 个节点 —— 一份都不空。
+   空的这个文件在游戏里就是「什么都没有」，等于没用。<br>
+   <b>✅ 现在补上了：118 个锐眼天赋节点 + 24 个大点</b>，从锐眼起点
+   <code>ranger596</code> 连成一片（按 冰霜/冰冻/投射物/弓/暴击/闪避/生命 的权重选点）。
+   节点ID 直接用 PoB2 树数据的 <code>stringId</code> —— 我拿真实文件的被动ID 对比过，
+   <b>151 个全部命中，零偏差</b>。<br>
+   <b>升华点不放 passives 里</b>（游戏不允许），升华顺序按他视频：零点射击 → 无限弹药 → 蜃影神射 → 疾风。<br>
+   <b>再加两条之前也错了的：</b>
+   <code>ascendancy</code> 应该是 <code>"Ranger1"</code> 不是 <code>"Deadeye"</code>；
+   技能ID统一成游戏用的命名空间。<br>
+   <span style="color:var(--gold)">⚠️ 天赋树是我按「合理」生成的，不是从他账号导出的那一棵。</span>
+   他视频里逐点点天赋的部分（BV1qPbE6WEJQ / BV1swbP6bEJb）想一比一抄就对着视频点。
+   这份文件最可靠的是<b>技能、辅助搭配、武器组勾选、装备槽提示</b>。
+  </div>
+
+  <div class="warn">
+   <b>改了什么（旧版说明保留在下面）</b><br>
    我把文件拆开逐条对照 GGG 的官方 .build 规范 + PoB2 的导出源码，找到两个真实错误：<br>
    <b>① <code>ascendancy</code> 写错了。</b>原来写的 <code>"Deadeye"</code>（显示名），
    游戏要的是 <b>internal id</b> —— 我从 PoB2 的天赋树数据（<code>src/TreeData/0_5/tree.json</code>）

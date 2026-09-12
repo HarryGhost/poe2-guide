@@ -1,10 +1,859 @@
 {
-  "name": "锐眼冰射 · 第一天开荒BD（非暴击）· 国服0.5.5（极简版）",
-  "author": "网瘾老年人lowK（配置）· HarryGhost 整理",
-  "link": "https://space.bilibili.com/27858039",
-  "description": "极简版：只有技能和辅助，没有任何附加文字。用来排查是不是附加字段导致的导入失败。",
+  "name": "POE2 Day1 Leveling (Ice Shot Deadeye) (min)",
+  "author": "网瘾老年人lowK / HarryGhost",
   "ascendancy": "Ranger1",
-  "passives": [],
+  "passives": [
+    {
+      "id": "ranger596",
+      "level_interval": [
+        2,
+        100
+      ]
+    },
+    {
+      "id": "projectiles15",
+      "level_interval": [
+        3,
+        100
+      ]
+    },
+    {
+      "id": "projectiles22",
+      "level_interval": [
+        4,
+        100
+      ]
+    },
+    {
+      "id": "projectiles8",
+      "level_interval": [
+        5,
+        100
+      ]
+    },
+    {
+      "id": "projectiles14",
+      "level_interval": [
+        6,
+        100
+      ]
+    },
+    {
+      "id": "ranger_huntress_notable2",
+      "level_interval": [
+        7,
+        100
+      ],
+      "additional_text": "Honed Instincts"
+    },
+    {
+      "id": "projectiles16",
+      "level_interval": [
+        8,
+        100
+      ]
+    },
+    {
+      "id": "projectiles23",
+      "level_interval": [
+        9,
+        100
+      ],
+      "additional_text": "Clean Shot"
+    },
+    {
+      "id": "projectiles17",
+      "level_interval": [
+        10,
+        100
+      ]
+    },
+    {
+      "id": "ranged6",
+      "level_interval": [
+        11,
+        100
+      ]
+    },
+    {
+      "id": "attack_speed3",
+      "level_interval": [
+        12,
+        100
+      ]
+    },
+    {
+      "id": "attack_speed7",
+      "level_interval": [
+        13,
+        100
+      ]
+    },
+    {
+      "id": "exploiting_elemental_ailments8",
+      "level_interval": [
+        14,
+        100
+      ]
+    },
+    {
+      "id": "exploiting_elemental_ailments10",
+      "level_interval": [
+        15,
+        100
+      ],
+      "additional_text": "Vile Wounds"
+    },
+    {
+      "id": "exploiting_elemental_ailments9_",
+      "level_interval": [
+        16,
+        100
+      ]
+    },
+    {
+      "id": "evasion11",
+      "level_interval": [
+        17,
+        100
+      ]
+    },
+    {
+      "id": "evasion12",
+      "level_interval": [
+        18,
+        100
+      ]
+    },
+    {
+      "id": "evasion13",
+      "level_interval": [
+        19,
+        100
+      ]
+    },
+    {
+      "id": "evasion14",
+      "level_interval": [
+        20,
+        100
+      ]
+    },
+    {
+      "id": "ranger_huntress_notable1",
+      "level_interval": [
+        21,
+        100
+      ],
+      "additional_text": "Blur"
+    },
+    {
+      "id": "evasion4",
+      "level_interval": [
+        22,
+        100
+      ]
+    },
+    {
+      "id": "evasion39",
+      "level_interval": [
+        23,
+        100
+      ],
+      "additional_text": "Catlike Agility"
+    },
+    {
+      "id": "evasion9",
+      "level_interval": [
+        24,
+        100
+      ]
+    },
+    {
+      "id": "evasion23_",
+      "level_interval": [
+        25,
+        100
+      ]
+    },
+    {
+      "id": "flasks20_",
+      "level_interval": [
+        26,
+        100
+      ]
+    },
+    {
+      "id": "flasks21",
+      "level_interval": [
+        27,
+        100
+      ],
+      "additional_text": "Combat Alchemy"
+    },
+    {
+      "id": "flasks19_",
+      "level_interval": [
+        28,
+        100
+      ]
+    },
+    {
+      "id": "dexterity17",
+      "level_interval": [
+        29,
+        100
+      ]
+    },
+    {
+      "id": "dexterity25",
+      "level_interval": [
+        30,
+        100
+      ]
+    },
+    {
+      "id": "dexterity16",
+      "level_interval": [
+        31,
+        100
+      ]
+    },
+    {
+      "id": "dexterity24_",
+      "level_interval": [
+        32,
+        100
+      ]
+    },
+    {
+      "id": "dexterity15",
+      "level_interval": [
+        33,
+        100
+      ]
+    },
+    {
+      "id": "dexterity23_",
+      "level_interval": [
+        34,
+        100
+      ]
+    },
+    {
+      "id": "dexterity14",
+      "level_interval": [
+        35,
+        100
+      ]
+    },
+    {
+      "id": "life_flasks29",
+      "level_interval": [
+        36,
+        100
+      ]
+    },
+    {
+      "id": "life_flasks12_",
+      "level_interval": [
+        37,
+        100
+      ],
+      "additional_text": "Staunching"
+    },
+    {
+      "id": "life_flasks1",
+      "level_interval": [
+        38,
+        100
+      ]
+    },
+    {
+      "id": "dexterity18",
+      "level_interval": [
+        39,
+        100
+      ]
+    },
+    {
+      "id": "dexterity22",
+      "level_interval": [
+        40,
+        100
+      ]
+    },
+    {
+      "id": "dexterity31",
+      "level_interval": [
+        41,
+        100
+      ]
+    },
+    {
+      "id": "ranged1",
+      "level_interval": [
+        42,
+        100
+      ]
+    },
+    {
+      "id": "ranged2",
+      "level_interval": [
+        43,
+        100
+      ]
+    },
+    {
+      "id": "ranged4",
+      "level_interval": [
+        44,
+        100
+      ]
+    },
+    {
+      "id": "ranged31",
+      "level_interval": [
+        45,
+        100
+      ],
+      "additional_text": "Careful Aim"
+    },
+    {
+      "id": "accuracy9",
+      "level_interval": [
+        46,
+        100
+      ]
+    },
+    {
+      "id": "accuracy18",
+      "level_interval": [
+        47,
+        100
+      ],
+      "additional_text": "Eagle Eye"
+    },
+    {
+      "id": "dexterity19",
+      "level_interval": [
+        48,
+        100
+      ]
+    },
+    {
+      "id": "accuracy8",
+      "level_interval": [
+        49,
+        100
+      ]
+    },
+    {
+      "id": "dexterity21",
+      "level_interval": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": "dexterity87",
+      "level_interval": [
+        51,
+        100
+      ]
+    },
+    {
+      "id": "dexterity33",
+      "level_interval": [
+        52,
+        100
+      ]
+    },
+    {
+      "id": "dexterity36",
+      "level_interval": [
+        53,
+        100
+      ]
+    },
+    {
+      "id": "elemental29",
+      "level_interval": [
+        54,
+        100
+      ]
+    },
+    {
+      "id": "elemental24",
+      "level_interval": [
+        55,
+        100
+      ]
+    },
+    {
+      "id": "elemental23",
+      "level_interval": [
+        56,
+        100
+      ]
+    },
+    {
+      "id": "elemental32",
+      "level_interval": [
+        57,
+        100
+      ],
+      "additional_text": "Harness the Elements"
+    },
+    {
+      "id": "elemental16",
+      "level_interval": [
+        58,
+        100
+      ]
+    },
+    {
+      "id": "elemental26",
+      "level_interval": [
+        59,
+        100
+      ]
+    },
+    {
+      "id": "elemental27",
+      "level_interval": [
+        60,
+        100
+      ]
+    },
+    {
+      "id": "cold_penetration6",
+      "level_interval": [
+        61,
+        100
+      ]
+    },
+    {
+      "id": "cold_penetration1",
+      "level_interval": [
+        62,
+        100
+      ]
+    },
+    {
+      "id": "cold_penetration7",
+      "level_interval": [
+        63,
+        100
+      ]
+    },
+    {
+      "id": "cold_penetration24",
+      "level_interval": [
+        64,
+        100
+      ],
+      "additional_text": "Snowpiercer"
+    },
+    {
+      "id": "elemental18",
+      "level_interval": [
+        65,
+        100
+      ]
+    },
+    {
+      "id": "elemental25",
+      "level_interval": [
+        66,
+        100
+      ]
+    },
+    {
+      "id": "elemental28",
+      "level_interval": [
+        67,
+        100
+      ]
+    },
+    {
+      "id": "lightning_penetration11",
+      "level_interval": [
+        68,
+        100
+      ]
+    },
+    {
+      "id": "lightning_penetration9",
+      "level_interval": [
+        69,
+        100
+      ]
+    },
+    {
+      "id": "lightning_penetration13",
+      "level_interval": [
+        70,
+        100
+      ]
+    },
+    {
+      "id": "lightning_penetration26__",
+      "level_interval": [
+        71,
+        100
+      ],
+      "additional_text": "Surging Currents"
+    },
+    {
+      "id": "dexterity20",
+      "level_interval": [
+        72,
+        100
+      ]
+    },
+    {
+      "id": "ranged17",
+      "level_interval": [
+        73,
+        100
+      ]
+    },
+    {
+      "id": "ranged18",
+      "level_interval": [
+        74,
+        100
+      ]
+    },
+    {
+      "id": "ranged21",
+      "level_interval": [
+        75,
+        100
+      ],
+      "additional_text": "Adaptable Assault"
+    },
+    {
+      "id": "ranged20",
+      "level_interval": [
+        76,
+        100
+      ]
+    },
+    {
+      "id": "ranged19_",
+      "level_interval": [
+        77,
+        100
+      ]
+    },
+    {
+      "id": "spell_suppression31",
+      "level_interval": [
+        78,
+        100
+      ]
+    },
+    {
+      "id": "spell_suppression32",
+      "level_interval": [
+        79,
+        100
+      ],
+      "additional_text": "Shedding Skin"
+    },
+    {
+      "id": "spell_suppression29",
+      "level_interval": [
+        80,
+        100
+      ]
+    },
+    {
+      "id": "spell_suppression30",
+      "level_interval": [
+        81,
+        100
+      ]
+    },
+    {
+      "id": "dexterity67_",
+      "level_interval": [
+        82,
+        100
+      ]
+    },
+    {
+      "id": "dexterity8",
+      "level_interval": [
+        83,
+        100
+      ]
+    },
+    {
+      "id": "life_on_kill10",
+      "level_interval": [
+        84,
+        100
+      ]
+    },
+    {
+      "id": "life_on_kill11",
+      "level_interval": [
+        85,
+        100
+      ]
+    },
+    {
+      "id": "life_on_kill15",
+      "level_interval": [
+        86,
+        100
+      ],
+      "additional_text": "Taste for Blood"
+    },
+    {
+      "id": "dexterity38",
+      "level_interval": [
+        87,
+        100
+      ]
+    },
+    {
+      "id": "evasion1",
+      "level_interval": [
+        88,
+        100
+      ]
+    },
+    {
+      "id": "evasion3",
+      "level_interval": [
+        89,
+        100
+      ]
+    },
+    {
+      "id": "evasion5",
+      "level_interval": [
+        90,
+        100
+      ],
+      "additional_text": "High Alert"
+    },
+    {
+      "id": "evasion2",
+      "level_interval": [
+        91,
+        100
+      ]
+    },
+    {
+      "id": "attack51",
+      "level_interval": [
+        92,
+        100
+      ]
+    },
+    {
+      "id": "attack48",
+      "level_interval": [
+        93,
+        100
+      ]
+    },
+    {
+      "id": "attack46",
+      "level_interval": [
+        94,
+        100
+      ],
+      "additional_text": "Imbibed Power"
+    },
+    {
+      "id": "dexterity68",
+      "level_interval": [
+        95,
+        100
+      ]
+    },
+    {
+      "id": "dexterity3",
+      "level_interval": [
+        96,
+        100
+      ]
+    },
+    {
+      "id": "shadow_monk_notable2",
+      "level_interval": [
+        97,
+        100
+      ],
+      "additional_text": "Step Like Mist"
+    },
+    {
+      "id": "cold28",
+      "level_interval": [
+        98,
+        100
+      ]
+    },
+    {
+      "id": "cold39__",
+      "level_interval": [
+        99,
+        100
+      ],
+      "additional_text": "Essence of the Mountain"
+    },
+    {
+      "id": "cold29",
+      "level_interval": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": "evasion_and_energy_shield27",
+      "level_interval": [
+        101,
+        100
+      ]
+    },
+    {
+      "id": "evasion_and_energy_shield35_",
+      "level_interval": [
+        102,
+        100
+      ],
+      "additional_text": "Mindful Awareness"
+    },
+    {
+      "id": "evasion_and_energy_shield4",
+      "level_interval": [
+        103,
+        100
+      ]
+    },
+    {
+      "id": "evasion_and_energy_shield2",
+      "level_interval": [
+        104,
+        100
+      ]
+    },
+    {
+      "id": "evasion_and_energy_shield26",
+      "level_interval": [
+        105,
+        100
+      ]
+    },
+    {
+      "id": "shadow_monk_notable1",
+      "level_interval": [
+        106,
+        100
+      ],
+      "additional_text": "Flow Like Water"
+    },
+    {
+      "id": "criticals11",
+      "level_interval": [
+        107,
+        100
+      ]
+    },
+    {
+      "id": "criticals3",
+      "level_interval": [
+        108,
+        100
+      ],
+      "additional_text": "Crashing Wave"
+    },
+    {
+      "id": "criticals15",
+      "level_interval": [
+        109,
+        100
+      ]
+    },
+    {
+      "id": "criticals14",
+      "level_interval": [
+        110,
+        100
+      ]
+    },
+    {
+      "id": "criticals12",
+      "level_interval": [
+        111,
+        100
+      ]
+    },
+    {
+      "id": "evasion_and_energy_shield3",
+      "level_interval": [
+        112,
+        100
+      ]
+    },
+    {
+      "id": "evasion_and_energy_shield1",
+      "level_interval": [
+        113,
+        100
+      ]
+    },
+    {
+      "id": "life_on_kill2",
+      "level_interval": [
+        114,
+        100
+      ]
+    },
+    {
+      "id": "life_on_kill14",
+      "level_interval": [
+        115,
+        100
+      ],
+      "additional_text": "Life from Death"
+    },
+    {
+      "id": "life_on_kill1",
+      "level_interval": [
+        116,
+        100
+      ]
+    },
+    {
+      "id": "attack_speed46",
+      "level_interval": [
+        117,
+        100
+      ]
+    },
+    {
+      "id": "attack_speed37",
+      "level_interval": [
+        118,
+        100
+      ],
+      "additional_text": "Flow State"
+    },
+    {
+      "id": "attack_speed27",
+      "level_interval": [
+        119,
+        100
+      ]
+    }
+  ],
   "skills": [
     {
       "id": "Metadata/Items/Gems/SkillGemLightningArrow",
