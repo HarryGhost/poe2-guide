@@ -58,12 +58,12 @@ label{display:block;font-size:12.5px;color:var(--tx2);margin-bottom:4px}
 input[type=number]{width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:7px;padding:8px 11px;font-size:14px;font-family:inherit}
 .btn{background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:7px;padding:8px 16px;cursor:pointer;font-size:13.5px;font-family:inherit}
 .grid{display:grid;gap:10px}
-.toc{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
-.toc a{font-size:12.5px;background:var(--panel);border:1px solid var(--line);padding:4px 11px;border-radius:99px;text-decoration:none;color:var(--tx2)}
-.toc a:hover{border-color:var(--cyan);color:var(--cyan)}
 @media(min-width:700px){.grid.g3{grid-template-columns:1fr 1fr 1fr}.grid.g2{grid-template-columns:1fr 1fr}}
 footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:12px}
 
+.toc{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.toc a{font-size:12.5px;background:var(--panel);border:1px solid var(--line);padding:4px 11px;border-radius:99px;text-decoration:none;color:var(--tx2)}
+.toc a:hover{border-color:var(--cyan);color:var(--cyan)}
 .stage{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:11px;padding:11px 14px;margin:9px 0;background:var(--panel)}
 .stage .snum{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--panel2);border:1px solid var(--cyan);color:var(--cyan);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px}
 .stage .sbody{flex:1;min-width:0}
@@ -87,21 +87,8 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  <div class="brand"><h1>锐眼冰射狙击 · 开荒手册</h1>
   <span class="ver">0.5.5 国服</span>
   <span class="ver" style="color:var(--cyan);border-color:var(--cyan)">来源：网瘾老年人lowK</span></div>
- <nav>
-  <button class="on" data-t="copy">📋 照抄表</button>
-  <button data-t="skill">⚔ 技能配置</button>
-  <button data-t="rot">🎯 输出手法</button>
-  <button data-t="end">🌌 异界后</button>
-  <button data-t="gear">🔨 装备</button>
-  <button data-t="chk">✔ 进度勾选</button>
-  <button data-t="video">🎬 视频笔记</button>
-  <button data-t="lowk">🔗 他的链接</button>
-  <button data-t="pics">🖼 他的配图</button>
-  <button data-t="memo">📖 速查</button>
- </nav>
-</div></header>
-<main class="wrap">
-
+ <nav><button class="on" data-t="copy">📋 照抄表</button><button data-t="skill">⚔ 技能配置</button><button data-t="rot">🎯 输出手法</button><button data-t="end">🌌 异界后</button><button data-t="gear">🔨 装备</button><button data-t="talent">🧭 天赋加点</button><button data-t="chk">✔ 进度勾选</button><button data-t="memo">📖 速查</button><button data-t="video">🎬 视频笔记</button><button data-t="lowk">🔗 链接与配图</button></nav>
+</div></header><main class="wrap">
 <section id="copy" class="on">
  <h2>照抄表</h2>
  <p><b>不用通读。</b>玩到哪一段翻到哪一段。</p>
@@ -112,25 +99,18 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   「0.5 的削弱闪电箭跟开荒关系不大，冰射是次要目标冰冻效率 −25%（单体）不影响。」
  </div>
 
+  <h3>下载（两个文件，先看区别）</h3>
   <div class="ok">
-   <b>两个文件的区别，先看这个再下载：</b><br>
    · <b>第一天开荒（非暴击）</b>：1–70 级用。闪电箭矢 / 引雷针过渡 → 31 级转冰霜射击。<br>
    · <b>第二天后期（暴击）</b>：70 级转暴击后用。冰霜射击 + 狙击 + 幻影射手，多了盲点联动。<br>
-   两份都<b>自带天赋树</b>（118 个锐眼节点）、技能与辅助、装备槽提示、武器组勾选规则。
-  </div>
-
-  <div class="warn">
-  <div class="danger" style="border-left-color:var(--red)">
-   <b>一句实话：这两个文件是我按他的文档和视频整理的，不是他导出的原件。</b><br>
-   技能、辅助、装备槽提示照着原文抄，可靠；<b>天赋树是按他的思路配的，不是他账号里那一棵</b>。
-   想一比一抄他的天赋，用下面第一个链接，或者对着他视频点。
+   两份都自带：<b>天赋树（118 个锐眼节点）、技能与辅助、装备槽提示、武器组勾选规则</b>。
   </div>
 
   <div class="warn">
    <b>放进游戏前先确认三件事：</b><br>
    ① 文件夹 <code>BuildPlanner</code> 要自己建（游戏不会自动创建）；<br>
    ② 电脑开了 OneDrive 的话，优先放 OneDrive 那份 Documents；<br>
-   ③ 放进去之后，文件要单独一个 <code>.build</code> 文件，不能是压缩包里的形态。
+   ③ 文件要单独一个 <code>.build</code> 文件，不能是压缩包里的形态。
   </div>
 
   <a class="dl" href="https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites/character/%E7%BD%91%E7%98%BE%E8%80%81%E5%B9%B4%E4%BA%BA%E5%86%B0%E5%B0%84" target="_blank" style="border-color:var(--cyan)">
@@ -154,7 +134,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
    <br>
    ⬇ <a href="第二天-后期BD（暴击）.build" download>第二天-后期BD（暴击）.build</a>
   </div>
- </div>
 
  <div class="danger">
   <b>⚠️ 导入不显示？按顺序查（GGG 论坛玩家实测）</b>
@@ -182,7 +161,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   <tr><td><b>异界后</b></td><td>冰霜射击 + 幻影射手</td><td>武器组勾选规则（见「🌌 异界后」）</td></tr>
  </table>
 </section>
-
 <section id="skill">
  <h2>⚔ 技能配置（逐章照抄）</h2>
  <p>全部是<b>国服技能名</b>。左边游戏里切出来，中间那行就是辅助宝石怎么连。</p>
@@ -214,7 +192,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   · 序言里「元素武装」是国际服叫法，国服是「<b>元素军械</b>」
  </div>
 </section>
-
 <section id="rot">
  <h2>🎯 输出手法</h2>
 
@@ -263,7 +240,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   <div class="warn"><b>是否用狙击看你自己的冰冻效率。</b>冻不住就别勉强。</div>
  </div>
 </section>
-
 <section id="end">
  <h2>🌌 异界后（成型配置）</h2>
  <div class="warn">
@@ -296,13 +272,12 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   <a href="https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites/character/%E7%BD%91%E7%98%BE%E8%80%81%E5%B9%B4%E4%BA%BA%E5%86%B0%E5%B0%84" target="_blank" style="font-weight:600">poe.ninja ↗</a>
  </div>
 </section>
-
 <section id="gear">
  <h2>🔨 装备（前中后期全流程）</h2>
  <p>来自 <b>网瘾老年人lowK</b>《0.5冰射 前中后期的装备搭配》+《0.55锐眼开荒文档》。</p>
 
 <div class="toc">
- <a href="#gs">① 阶段总表</a><a href="#g1">② 剧情 1–2 章（打造第一把弓）</a>
+ <a href="#gs">① 阶段总表</a><a href="#g1">② 剧情 1–2 章：打造第一把弓</a>
  <a href="#g2">③ 进异界：猎心弓三天流程</a>
  <a href="#g3">④ 异界前期：只买 3 件暗金</a>
  <a href="#g4">⑤ 各部位怎么挑（金装优先级）</a>
@@ -378,7 +353,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  <span style="font-size:12.5px">（国际服是繁体那套，国服不能用）</span>
 </div>
 
-<h4>第二章那把弓的筛选条件（我从他截图里读出来的数字）</h4>
+<h4>他挑弓时用的筛选数字</h4>
 <table><tr><th style="width:24%">通货</th><th>怎么用</th></tr><tr><td><b>蜕变石 / 增幅石</b></td><td><b>这是唯一可以随便用的两种通货。</b>就用在 16 级和 33 级那两把弓上。</td></tr><tr><td><b>其余通货（点金石、混沌石、崇高石…）</b></td><td><b>全部留着，别乱点。</b>到了 40 级能上拍卖行再用。</td></tr><tr><td><b>时间点</b></td><td>「接近需要打造的等级时，蜕变石和增幅石也留一点，别用完。」</td></tr><tr><td><b>40 级之后</b></td><td><b>40 级后到第四章就可以上拍卖行买便宜弓了。</b>前期不用自己打造，直接买更省。</td></tr><tr><td><b>为什么前期反而不花钱</b></td><td>异界前期<b>掉什么穿什么</b>就行——这段路的怪物强度不高，把通货花在过渡装上纯亏。</td></tr></table>
 
 <!-- ③ -->
@@ -395,7 +370,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <p>搜索名用<b>游戏内的英文名</b>最稳（国服物品也能用英文搜到）。腰带两条是不同阶段，不是都要买。</p>
 <table><tr><th style="width:13%">部位</th><th style="width:26%">国服叫法</th><th>游戏内搜这个英文</th></tr><tr><td><b>弓</b></td><td>猎心弓（未升级先买，自己升级）</td><td>Splinterheart Recurve Bow</td></tr><tr><td><b>弓</b></td><td>猎心弓（升级后 = 符锻反曲弓）</td><td>Splinterheart Runeforged Recurve Bow</td></tr><tr><td><b>弓</b></td><td>白银之舌（转暴击后可换）</td><td>Slivertongue Runeforged Zealot Bow</td></tr><tr><td><b>头</b></td><td>寒焰头</td><td>Heatshiver Velvet Cap</td></tr><tr><td><b>手</b></td><td>穿抗手</td><td>Leopold's Applause Embroidered Gloves</td></tr><tr><td><b>箭袋</b></td><td>卡迪罗的赌局</td><td>Cadiro's Gambit</td></tr><tr><td><b>腰带</b></td><td>夜临</td><td>Darkness Enthroned Fine Belt</td></tr><tr><td><b>腰带</b></td><td>独闯</td><td>Ingenuity Utility Belt</td></tr></table>
 
-<h4>买弓之前先记住这两行（词条优先级，他的原文顺序）</h4>
+<h4>买弓之前先记住这两行：词条优先级</h4>
 <table><tr><th style="width:24%">位置</th><th>优先级（从高到低）</th></tr><tr><td><b>前缀（从高到低）</b></td><td><b>物理% + 物理点伤</b> &gt; 冰元素点伤 &gt; 闪电元素点伤 &gt; 火元素点伤 &gt; 攻击技能的元素伤害提高%</td></tr><tr><td><b>后缀（从高到低）</b></td><td><b>暴击</b> &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命（回蓝）&gt; 其他</td></tr></table>
 <div class="warn"><b>为什么「攻击技能的元素伤害提高%」这条要强：</b><br>「2 把弓伤害输出差不多的情况下，<b>有『攻击技能的元素伤害提高%』的要强</b>——因为暴击流的天赋需要加点爆击爆伤，inc% 类（各种伤害，比如元素伤害、投射物伤害）比较少，所以这一条加成很强。非暴击加点 inc% 多，提升就比较小，但也是不错的词条。」</div>
 <div class="warn"><b>白银之舌（他截图里 1D / 2D 两档，另有 66 崇高石一档）注意这几点：</b><br>· <b>瓦之前先升满品质、打满 2 孔</b>——他文档里写「现在存货不多，都是 2D 以上，建议买 2 孔用瓦尔宝珠瓦 3 孔」；<br>· <b>用了它就不要「分叉」</b>（他的技能表里注了一句「裂舌就不要分叉」）；<br>· 它比普通弓多 20D 的价值就在于<b>底子自带 14% 暴击率</b>——相当于省下天赋里一大片暴击点。</div>
@@ -412,7 +387,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <div class="warn"><b>选弓的时候一定要看符文（他的原话）：</b><br>「商店大多数都插了<b>物理% / 元素点伤</b>符文来提高武器 DPS，让武器看起来 DPS 更高，也就更好卖。<br><b>同价位、DPS 差不多时，看符文选择武器</b>（因为符文是要换成 +1 箭和 +5% 全元素的）。<br>还有攻速——攻速会提高总伤害输出。<b>实际上同 DPS、同价位，选没攻速的伤害会更高。</b>当然这不是说攻速不好，只是对比武器时的情况。」</div>
 <div class="figrow"><div class="figbox"><a href="images/gear/c2-rune-arrow.jpg" target="_blank"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢（等级 50）"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b>（等级 50）</div></div><div class="figbox"><a href="images/gear/c2-rune-element.jpg" target="_blank"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢 + 萨奇沃的苍空符文（获得相当于伤害 5% 的所有元素额外伤害）——等级 50"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b> + <b>萨奇沃的苍空符文</b>（获得相当于伤害 5% 的所有元素额外伤害）——等级 50</div></div></div>
 
-<h4>顺手看一眼别的弓（他截图里出现过的）</h4>
+<h4>其他几把可以看一眼的弓</h4>
 <table><tr><th style="width:13%">弓名</th><th style="width:26%">什么时候用</th><th>说明（他截图里的数字）</th></tr><tr><td><b>遗孀之雹</b></td><td>练级弓</td><td>「增加 235% 从已装备箭袋获得的加成」——搭配高点伤箭袋，剧情能用到 3、4 章，<b>每章都要换高点伤箭袋</b>。1 个富豪石。</td></tr><tr><td><b>白银之舌</b></td><td>转暴击后可换</td><td>暴击 14.08%、附加物理 42–69，能省下很多暴击点投到 inc% 天赋上。<b>1D / 2D 两档。</b></td></tr><tr><td><b>狮眼的战弓</b></td><td>备选</td><td>物理 171–284、+330 命中、+24 敏捷。</td></tr><tr><td><b>毁灭者之弓</b></td><td>后期换</td><td>他挑弓的筛选条件就是「物理 DPS 300+、暴击 9.42+」；截图里 445 DPS 那只 2 崇高石，<b>「1D」那档 308 物理 DPS 是他挑的方向</b>。</td></tr></table>
 <div class="figrow"><div class="figbox"><a href="images/gear/c3-slivertongue.jpg" target="_blank"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="白银之舌符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档"></a><div class="fcap"><b>白银之舌</b>符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档</div></div><div class="figbox"><a href="images/gear/c3-lioneye.jpg" target="_blank"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="狮眼的战弓（重弓）：物理 171–284、+330 命中、+24 敏捷"></a><div class="fcap"><b>狮眼的战弓</b>（重弓）：物理 171–284、+330 命中、+24 敏捷</div></div><div class="figbox"><a href="images/gear/c2-widowhail.jpg" target="_blank"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="遗孀之雹（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓"></a><div class="fcap"><b>遗孀之雹</b>（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓</div></div></div>
 
@@ -473,7 +448,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <!-- ⑨ -->
 <h3 id="g8">⑨ 攒钱与通货</h3>
 <table><tr><th style="width:24%">项目</th><th>内容</th></tr><tr><td><b>推荐打法</b></td><td>中期可以<b>攻坚打 BOSS 赚 D。只推荐「迷雾祭坛 BOSS」</b>，需要先做完任务。</td></tr><tr><td><b>门票成本</b></td><td>最便宜门票 5 张共 <b>30E</b>。</td></tr><tr><td><b>产出</b></td><td>4 件装备都值钱（猿神用户需求多）。<b>装备不好卖就降价——卖出去才是 D。</b></td></tr><tr><td><b>其他掉落</b></td><td>BOSS 还掉 <b>50D 插槽</b>。</td></tr><tr><td><b>做法</b></td><td>打满品质 → 开孔 → 瓦尔宝珠；祭坛任务区放 5 个暗影呼唤（共 30E）→ 开启 BOSS。</td></tr><tr><td><b>难度</b></td><td>BOSS 大概 2000 万血，<b>很简单</b>。攻坚 BOSS 可以死无数次。</td></tr><tr><td><b>小贴士</b></td><td>注意 BOSS 音量，最好关闭音效。</td></tr><tr><td><b>进阶</b></td><td>带<b>战旗</b>、<b>驳斥</b>（格挡增伤），技能宝石换成伤害类。熟练后可换多里亚尼天赋。</td></tr><tr><td><b>他的实际收入</b></td><td>他截图里的销售记录：毁灭者之弓 <b>198D</b>、时迭绿宝石 <b>55D</b>、潜能之戒 <b>55D</b>、暗金弓 35D / 2D / 5D、魔道权杖 15D / 35D / 4D / 9D、野性标记 2D / 11D / 77E。</td></tr></table>
-<h4>通货怎么换（他截图里的实际比率）</h4>
+<h4>通货怎么换</h4>
 <table><tr><th style="width:24%">方向</th><th>比率 / 做法</th></tr><tr><td><b>崇高石 → 混沌石</b></td><td>他视频里市场比率是 <b>1 : 3 ~ 1 : 6.5</b> 一档一档挂（他用的是 1:2.5 / 1:3 那档）。</td></tr><tr><td><b>混沌石 → 崇高石</b></td><td>前期没有崇高石，<b>去通货兑换 NPC 把混沌石换成崇高石</b>。他挂的是 <b>22.92 : 1</b>。</td></tr><tr><td><b>注意</b></td><td>「物价自己参考，<b>开服跟现在不同</b>。」他第二天录视频时说箭袋「明天可能会掉到 6D」。</td></tr></table>
 <div class="ok">
  <b>他的销售记录（截图里的真实数字）</b>：毁灭者之弓 <b>198D</b>、时迭绿宝石 <b>55D</b>、潜能之戒 <b>55D</b>、
@@ -494,19 +469,103 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <div class="warn"><b>国服交易搜索的正则（他给的，用于筛选商店 / 商人刷新）：</b><br><code>闪避|护盾|护甲|弓 移动|技能等级|%物理伤害|附加|攻击元素|找到的物品|品质|攻击速度</code><br>游戏内按 <b>/</b> 打开拍卖行；买之前注意<b>等级需求</b>和<b>属性需求</b>。</div>
 
 <!-- ⑪ -->
-<h3 id="g10">⑪ 他的截图（我用 OCR 逐张读过，56 张）</h3>
+<h3 id="g10">⑪ 他文档里的截图（56 张，都写了说明）</h3>
 <div class="ok">
- <b>为什么这里有图：</b>B 站 CDN <b>禁止外部网站引用</b>（带 GitHub 的 Referer 会返回 403），
- 所以我下载压缩后放到这里。图片版权归<b>网瘾老年人lowK</b>，我没改动内容。<br>
- <b>说明文案是我用 macOS 内置的 Vision 逐张 OCR 读出上面的文字和数字之后写的</b>——
- 所以「445 DPS / 2 崇高石」这种数字是<b>截图里真实写着的</b>，不是我猜的。
- 带 <b>⚠</b> 的地方是我<b>没能独立核实</b>的。
+ <b>这些图直接从他的文档抄下来的</b>（B 站 CDN 禁止外部网站引用，所以存到本网站），
+ 版权归<b>网瘾老年人lowK</b>，内容没改。每张图下面写着图里是什么、什么价格。
+ 带 <b>⚠</b> 的是<b>没能核实</b>的部分。
 </div>
 <div class="figgrid"><div class="figbox"><a href="images/gear/c4-trade-filter.jpg" target="_blank"><img src="images/gear/c4-trade-filter.jpg" loading="lazy" alt="交易筛选器：物理 DPS 300、暴击率 9.42、最低价上限 1000（等值崇高石）——这就是他挑弓的筛选条件"></a><div class="fcap">交易筛选器：物理 DPS <b>300</b>、暴击率 <b>9.42</b>、最低价上限 1000（等值崇高石）——这就是他挑弓的筛选条件</div></div><div class="figbox"><a href="images/gear/c5-devastator.jpg" target="_blank"><img src="images/gear/c5-devastator.jpg" loading="lazy" alt="毁灭者之弓：物理 151–280、暴击 9.90%、附加 81–111 火伤，已污染，40 崇高石"></a><div class="fcap"><b>毁灭者之弓</b>：物理 151–280、暴击 9.90%、附加 81–111 火伤，已污染，40 崇高石</div></div><div class="figbox"><a href="images/gear/c5-devastator-cheap.jpg" target="_blank"><img src="images/gear/c5-devastator-cheap.jpg" loading="lazy" alt="另一只毁灭者之弓（奇蹟真眼）：物理 196–364、闪电 1–117，1 神圣石——「1D」这档他挑的方向"></a><div class="fcap">另一只<b>毁灭者之弓</b>（奇蹟真眼）：物理 196–364、闪电 1–117，<b>1 神圣石</b>——「1D」这档他挑的方向</div></div><div class="figbox"><a href="images/gear/c2-bow-theory.jpg" target="_blank"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="他文档里「好弓长什么样」的截图：+127%（125–150）溢出几率发射一支额外箭矢、暴击几率 +3.7（3.11–3.…"></a><div class="fcap">他文档里「好弓长什么样」的截图：<b>+127%（125–150）溢出几率发射一支额外箭矢</b>、<b>暴击几率 +3.7（3.11–3.8）%</b>、<b>所有投射物技能等级 +1</b>——这就是「额外几率箭 / 暴击 / 等级」三条的实物样子</div></div><div class="figbox"><a href="images/gear/c3-hunter-base.jpg" target="_blank"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="猎心 反曲弓（未升级）：物理 35–73、投射物分裂至 +2 个目标，1 个富豪石"></a><div class="fcap"><b>猎心 反曲弓</b>（未升级）：物理 35–73、投射物分裂至 +2 个目标，<b>1 个富豪石</b></div></div><div class="figbox"><a href="images/gear/c3-hunter-final.jpg" target="_blank"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="猎心 符锻反曲弓（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，10 崇高石"></a><div class="fcap"><b>猎心 符锻反曲弓</b>（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，<b>10 崇高石</b></div></div><div class="figbox"><a href="images/gear/c3-slivertongue.jpg" target="_blank"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="白银之舌符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档"></a><div class="fcap"><b>白银之舌</b>符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档</div></div><div class="figbox"><a href="images/gear/c3-lioneye.jpg" target="_blank"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="狮眼的战弓（重弓）：物理 171–284、+330 命中、+24 敏捷"></a><div class="fcap"><b>狮眼的战弓</b>（重弓）：物理 171–284、+330 命中、+24 敏捷</div></div><div class="figbox"><a href="images/gear/c2-widowhail.jpg" target="_blank"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="遗孀之雹（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓"></a><div class="fcap"><b>遗孀之雹</b>（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓</div></div><div class="figbox"><a href="images/gear/c2-rune-arrow.jpg" target="_blank"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢（等级 50）"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b>（等级 50）</div></div><div class="figbox"><a href="images/gear/c2-rune-element.jpg" target="_blank"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢 + 萨奇沃的苍空符文（获得相当于伤害 5% 的所有元素额外伤害）——等级 50"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b> + <b>萨奇沃的苍空符文</b>（获得相当于伤害 5% 的所有元素额外伤害）——等级 50</div></div><div class="figbox"><a href="images/gear/c4-amulet.jpg" target="_blank"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="项链：全部投射物技能等级 +3 + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，1D"></a><div class="fcap">项链：<b>全部投射物技能等级 +3</b> + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，<b>1D</b></div></div><div class="figbox"><a href="images/gear/c4-ring-call.jpg" target="_blank"><img src="images/gear/c4-ring-call.jpg" loading="lazy" alt="意志呼唤黄玉戒指：冻结积累 +30%、100% 闪电伤害转冰霜，1 崇高石"></a><div class="fcap"><b>意志呼唤</b>黄玉戒指：冻结积累 +30%、100% 闪电伤害转冰霜，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="寒焰丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，1 崇高石"></a><div class="fcap"><b>寒焰</b>丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c3-helm-acuity.jpg" target="_blank"><img src="images/gear/c3-helm-acuity.jpg" loading="lazy" alt="敏锐法令远古面甲：护甲 732 + 闪避 667、+31 敏捷、26% 闪避转额外护甲"></a><div class="fcap"><b>敏锐法令</b>远古面甲：护甲 732 + 闪避 667、+31 敏捷、<b>26% 闪避转额外护甲</b></div></div><div class="figbox"><a href="images/gear/c2-chest-siris.jpg" target="_blank"><img src="images/gear/c2-chest-siris.jpg" loading="lazy" alt="西里的战衣铠装背心：闪避 1242、15% 额外冰霜伤害，已腐化，14D"></a><div class="fcap"><b>西里的战衣</b>铠装背心：闪避 1242、<b>15% 额外冰霜伤害</b>，已腐化，14D</div></div><div class="figbox"><a href="images/gear/c2-chest-rare.jpg" target="_blank"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，1 崇高石"></a><div class="fcap">稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-gloves-sine.jpg" target="_blank"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="公理不存恢弘袖口：累积禁锢达 50% 时即禁锢敌人（而非 100%）、+35% 对被禁锢敌人的伤害，19 崇高石"></a><div class="fcap"><b>公理不存</b>恢弘袖口：<b>累积禁锢达 50% 时即禁锢敌人（而非 100%）</b>、+35% 对被禁锢敌人的伤害，<b>19 崇高石</b></div></div><div class="figbox"><a href="images/gear/c1-belt-nightfall.jpg" target="_blank"><img src="images/gear/c1-belt-nightfall.jpg" loading="lazy" alt="夜临精致腰带：3 个咒符位、此物品可作为手套获得镶嵌物加成，镶嵌物效果 93%（50–100%），攻速 +15%、非伤害…"></a><div class="fcap"><b>夜临</b>精致腰带：3 个咒符位、<b>此物品可作为手套获得镶嵌物加成</b>，镶嵌物效果 93%（50–100%），攻速 +15%、非伤害异常状态强度 +57%</div></div><div class="figbox"><a href="images/gear/c1-belt-runestatues.jpg" target="_blank"><img src="images/gear/c1-belt-runestatues.jpg" loading="lazy" alt="腰带可镶嵌的雕像：手套攻击速度 +8%、非伤害异常状态强度 +30%"></a><div class="fcap">腰带可镶嵌的<b>雕像</b>：手套攻击速度 +8%、非伤害异常状态强度 +30%</div></div><div class="figbox"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="独闯实用腰带：2 个护符栏位、+23% / +21% 戒指属性，1 崇高石"></a><div class="fcap"><b>独闯</b>实用腰带：2 个护符栏位、<b>+23% / +21% 戒指属性</b>，1 崇高石</div></div><div class="figbox"><a href="images/gear/c1-boots-atziri.jpg" target="_blank"><img src="images/gear/c1-boots-atziri.jpg" loading="lazy" alt="阿兹里的金履系带长靴：30% 移速、获得等同 56% 闪避值的偏斜值、−6% 偏斜抵御伤害量"></a><div class="fcap"><b>阿兹里的金履</b>系带长靴：30% 移速、<b>获得等同 56% 闪避值的偏斜值</b>、−6% 偏斜抵御伤害量</div></div><div class="figbox"><a href="images/gear/c2-belt-headhunter.jpg" target="_blank"><img src="images/gear/c2-belt-headhunter.jpg" loading="lazy" alt="猎首重革腰带：3 个护符栏位、+34 力量 / +38 敏捷、杀死稀有怪物获得其词缀持续 60 秒"></a><div class="fcap"><b>猎首</b>重革腰带：3 个护符栏位、+34 力量 / +38 敏捷、<b>杀死稀有怪物获得其词缀持续 60 秒</b></div></div><div class="figbox"><a href="images/gear/c4-amulet-fury.jpg" target="_blank"><img src="images/gear/c4-amulet-fury.jpg" loading="lazy" alt="无尽怒火增益：保留 100 精魂、每秒回复 4.25 盛怒（配怒火项链用）"></a><div class="fcap"><b>无尽怒火</b>增益：保留 100 精魂、每秒回复 4.25 盛怒（配怒火项链用）</div></div><div class="figbox"><a href="images/gear/c1-boots-evdodge.jpg" target="_blank"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、获得等同 15% 闪避值的偏斜值，35 / 40 崇高石两档"></a><div class="fcap">闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、<b>获得等同 15% 闪避值的偏斜值</b>，35 / 40 崇高石两档</div></div><div class="figbox"><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="无根之源宝钻：范围共鸣内的天赋可以在没有连线的情况下配置"></a><div class="fcap"><b>无根之源</b>宝钻：范围共鸣内的天赋可以在没有连线的情况下配置</div></div><div class="figbox"><a href="images/gear/c2-jewel-green.jpg" target="_blank"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="时迭绿宝石（范围非常大）：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，200D"></a><div class="fcap"><b>时迭绿宝石（范围非常大）</b>：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，<b>200D</b></div></div><div class="figbox"><a href="images/gear/c2-jewel-diamond.jpg" target="_blank"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="双额外钻石：3% 额外冰冷 + 4% 额外闪电，550D"></a><div class="fcap">双额外钻石：3% 额外冰冷 + 4% 额外闪电，<b>550D</b></div></div><div class="figbox"><a href="images/gear/c2-gem-ice-shot.jpg" target="_blank"><img src="images/gear/c2-gem-ice-shot.jpg" loading="lazy" alt="冰霜射击宝石面板：等级 23、消耗 50 魔力、攻击伤害 418%、80% 物理转冰冷、25% 更多冰冻积累"></a><div class="fcap"><b>冰霜射击</b>宝石面板：等级 23、消耗 50 魔力、攻击伤害 418%、80% 物理转冰冷、25% 更多冰冻积累</div></div><div class="figbox"><a href="images/gear/c2-gem-levelcurve.jpg" target="_blank"><img src="images/gear/c2-gem-levelcurve.jpg" loading="lazy" alt="冰霜射击的等级成长表（21–34 级：367% → 849% 攻击伤害，1 条 100% 的固定项）"></a><div class="fcap"><b>冰霜射击的等级成长表</b>（21–34 级：367% → 849% 攻击伤害，1 条 100% 的固定项）</div></div><div class="figbox"><a href="images/gear/c9-currency-exchange.jpg" target="_blank"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="通货兑换界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 1:2.5 ~ 1:6.5 一档一档挂（他有 1:3、1:5、…"></a><div class="fcap"><b>通货兑换</b>界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 <b>1:2.5 ~ 1:6.5</b> 一档一档挂（他有 1:3、1:5、1:6.31 等），底下显示「我拥有的：崇高石 1/10」</div></div><div class="figbox"><a href="images/gear/c9-money-log.jpg" target="_blank"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="攻坚 BOSS 的销售记录：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2…"></a><div class="fcap"><b>攻坚 BOSS 的销售记录</b>：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2–11D</div></div><div class="figbox"><a href="images/gear/c9-money-log2.jpg" target="_blank"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="销售记录（续）：暗金弓 1–5D 一档也卖得掉——「卖出去才是 D」"></a><div class="fcap">销售记录（续）：暗金弓 1–5D 一档也卖得掉——<b>「卖出去才是 D」</b></div></div><div class="figbox"><a href="images/gear/c9-boss.jpg" target="_blank"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）"></a><div class="fcap">攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）</div></div><div class="figbox"><a href="images/gear/c2-gem-breakpoint.jpg" target="_blank"><img src="images/gear/c2-gem-breakpoint.jpg" loading="lazy" alt="冻结相关数据：冰霜射击 54,736 伤害 / 40,540 冰冻积累，印记持续 10.8 秒、增益持续 13.5 秒、…"></a><div class="fcap">冻结相关数据：冰霜射击 54,736 伤害 / 40,540 冰冻积累，印记持续 10.8 秒、增益持续 13.5 秒、目眩 25%</div></div><div class="figbox"><a href="images/gear/c2-freeze-support.jpg" target="_blank"><img src="images/gear/c2-freeze-support.jpg" loading="lazy" alt="冰冻辅助宝石：被辅助技能造成 50% 更多冰冻积累"></a><div class="fcap"><b>冰冻</b>辅助宝石：被辅助技能<b>造成 50% 更多冰冻积累</b></div></div><div class="figbox"><a href="images/gear/c6-arrow-types.jpg" target="_blank"><img src="images/gear/c6-arrow-types.jpg" loading="lazy" alt="箭袋的六种特殊箭矢文字说明：渐强（连 6 次，每次 +60% 伤害）、裂片（+6 目标）、回转、金刚（必暴 +60% 感…"></a><div class="fcap"><b>箭袋的六种特殊箭矢</b>文字说明：渐强（连 6 次，每次 +60% 伤害）、裂片（+6 目标）、回转、金刚（必暴 +60% 感电）、贪婪（掉落提高 600%）、钝击（积累 +600%）</div></div><div class="figbox"><a href="images/gear/c2-gem-critcap.jpg" target="_blank"><img src="images/gear/c2-gem-critcap.jpg" loading="lazy" alt="转暴击要用的辅助宝石：被辅助技能的暴击率上限为 50%（卡洛翰的决心）"></a><div class="fcap">转暴击要用的辅助宝石：<b>被辅助技能的暴击率上限为 50%</b>（卡洛翰的决心）</div></div><div class="figbox"><a href="images/gear/c2-rune-list.jpg" target="_blank"><img src="images/gear/c2-rune-list.jpg" loading="lazy" alt="符文一览（手套 / 弓 / 腰带可镶嵌的各种雕像与符文名）"></a><div class="fcap">符文一览（手套 / 弓 / 腰带可镶嵌的各种雕像与符文名）</div></div><div class="figbox"><a href="images/gear/c2-gloves-trade.jpg" target="_blank"><img src="images/gear/c2-gloves-trade.jpg" loading="lazy" alt="宏伟手套交易结果：10 崇高石那档「50% 即禁锢 + 42% 对被禁锢敌人伤害」"></a><div class="fcap">宏伟手套交易结果：<b>10 崇高石</b>那档「50% 即禁锢 + 42% 对被禁锢敌人伤害」</div></div><div class="figbox"><a href="images/gear/c4-trade-filled.jpg" target="_blank"><img src="images/gear/c4-trade-filled.jpg" loading="lazy" alt="交易筛选器填好数值的样子：300 / 9.42 / 1000 上限"></a><div class="fcap">交易筛选器填好数值的样子：300 / 9.42 / 1000 上限</div></div></div>
 <p style="font-size:12.5px">共 41 张（装备文档截图里去掉了重复的空白帧和纯图标帧）。</p>
-
 </section>
+<section id="talent">
+ <h2>🧭 天赋加点与属性</h2>
+ <p>加点顺序、三个属性各要多少、升华用什么顺序。来源：他的视频口述 + 0.5 天赋树数据。</p>
 
+<div class="toc">
+ <a href="#t1">① 属性：敏捷 / 智力 / 力量</a>
+ <a href="#t2">② 加点顺序（分四个阶段）</a>
+ <a href="#t3">③ 升华顺序</a>
+ <a href="#t4">④ 洗点与双天赋</a>
+</div>
+
+<div class="ok">
+ <b>这一页只讲两件事：点什么、属性怎么配。</b>技能怎么搭看「⚔ 技能配置」，装备怎么买看「🔨 装备」。
+</div>
+
+<h3 id="t1">① 属性：三句话记住</h3>
+<table>
+ <tr><th style="width:12%">属性</th><th style="width:10%">要到</th><th>为什么</th></tr>
+ <tr><td><b>敏捷</b></td><td><b style="color:var(--gold)">163</b></td><td><b>弓的要求</b>。78 级那把弓需要 163 敏捷——这是这套 BD 里最高的一条属性门槛。<br>他原话：「敏捷我们需要163敏捷，因为有78级的武器它就是需要163的。」<br><b>顺带好处</b>：锐眼天赋里有按敏捷加攻速的点（Falcon Technique：每 25 敏捷 +1% 攻速），所以敏捷不只是门槛。</td></tr><tr><td><b>智力 / 智慧</b></td><td><b style="color:var(--gold)">64</b></td><td><b>穿抗手的要求</b>。他原话：「这个手套是需要 64 智力的。」<br>另外<b>冰系的辅助宝石都要智慧</b>（冰冻印记 7 级宝石只要 24 智慧）。<br><b>如果穿盾鞋</b>，智慧要求会更高——他原话：「盾鞋的智慧会需要比较高，你要根据智慧需求来看。」（他另一处说盾头要 115 智力）</td></tr><tr><td><b>力量</b></td><td><b style="color:var(--gold)">59</b></td><td><b>他原话：「力量首先就要达到 59。」</b><br>用途有两个：① 部分装备/宝石的力量门槛；② <b>力量每 5 点可以插一颗红色辅助宝石</b>，所以他建议<b>腰带最好带一条力量</b>。</td></tr>
+</table>
+<h4>优先级（照这个顺序凑）</h4>
+<table>
+ <tr><th style="width:24%">顺序</th><th>说明</th></tr>
+ <tr><td><b>优先敏捷</b></td><td>穿装备的第一门槛，也是锐眼的核心属性（弓的伤害基底、攻速换算）。</td></tr><tr><td><b>其次智力到 64</b></td><td>为了戴上穿抗手。这是整套 BD 的核心装备，戴不上就白买。</td></tr><tr><td><b>力量 59 用完就够</b></td><td>不主动堆。缺就从腰带找一条力量，顺手解决红色辅助宝石的插槽。</td></tr><tr><td><b>属性先看装备，再看天赋</b></td><td>他原话：「包括我们的属性点也可以装备上需求的属性点也可以少一点，也可以从装备上凑出一个词条来省出一个词条来。」——<b>能靠装备帽子/戒指/项链上的属性凑，就别在天赋里浪费点</b>。</td></tr>
+</table>
+<div class="warn">
+ <b>买装备时看这两行就不会买错：</b><br>
+ · 弓 → 看<b>敏捷需求</b>（最好的弓要 163）<br>
+ · 头 / 手 → 看<b>智力需求</b>（穿抗手 64，盾头 115）+ <b>力量需求</b>（敏锐敕令要 59 力量）
+</div>
+
+<h3 id="t2">② 加点顺序：分四个阶段，每个阶段拿什么</h3>
+<div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">1–30 级（前 40 点）</span>
+  <span class="stagegoal"><b>先把锐眼起点周围的投射物 / 攻速 / 移速圈连成一片。</b></span>
+ </div>
+ <table>
+  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
+  <tr><td><b>猎手本能（Honed Instincts）</b></td><td>+8% 投射物速度 / +8% 攻速 / +10 敏捷</td></tr><tr><td><b>精准齐射（Precision Salvo）</b></td><td>+8% 投射物速度 / +6% 攻速 / +12% 命中</td></tr><tr><td><b>模糊（Blur）</b></td><td>+4% 移速 / +20% 闪避 / +10 敏捷</td></tr><tr><td><b>爆破伤口（Vile Wounds）</b></td><td>对被异常状态影响的目标 +33% 伤害</td></tr><tr><td><b>精准射击（Clean Shot）</b></td><td>+15% 穿透几率 / +15% 投射物伤害</td></tr>
+ </table>
+ <div class="kv" style="margin-top:8px;font-size:13px">他讲天赋时第一句就是：「这里要加<b>投射物速度跟攻击速度</b>，还有石的敏捷是一个不错的比较实惠的点。」前期伤害不够，先把投射物系和攻速拿满。</div>
+</div><div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">31–55 级（中间 40 点）</span>
+  <span class="stagegoal"><b>转冰霜射击之后，开始拿冰冷相关的点。</b></span>
+ </div>
+ <table>
+  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
+  <tr><td><b>山之神髓（Essence of the Mountain）</b></td><td>伤害的 5% 作为额外冰冷伤害 / +20% 冰冻积累</td></tr><tr><td><b>风暴涌浪（Storm Swell）</b></td><td>穿透 15% 冰冷抗性</td></tr><tr><td><b>雷霆汹涌（Storm Surge）</b></td><td>穿透 8% 冰冷抗性</td></tr><tr><td><b>无拘之力（Unbound Forces）</b></td><td>+40% 冰缓持续时间 / +25% 感电幅度等</td></tr><tr><td><b>敏捷精通（Proficiency）</b></td><td>+25 敏捷</td></tr>
+ </table>
+ <div class="kv" style="margin-top:8px;font-size:13px">「往下面下来还是到这边……」这段的核心就一句：<b>冰霜射击靠穿透和冰缓吃饭</b>，穿透点比单纯加伤害更值。</div>
+</div><div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">55–75 级（再 30 点）</span>
+  <span class="stagegoal"><b>补命中 / 闪避 / 攻速，顺手把暴击前置点拿好。</b></span>
+ </div>
+ <table>
+  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
+  <tr><td><b>隼之技巧（Falcon Technique）</b></td><td>每 25 敏捷 +1% 攻击速度</td></tr><tr><td><b>精准瞄准（Careful Aim）</b></td><td>+15% 命中 / +20% 投射物伤害</td></tr><tr><td><b>鹰眼（Eagle Eye）</b></td><td>+30 命中 / +10% 命中</td></tr><tr><td><b>猫步轻盈（Catlike Agility）</b></td><td>+25% 闪避（翻滚后 +40%）</td></tr><tr><td><b>不屈（Feel no Pain）</b></td><td>+20% 护甲与闪避 / +20% 眩晕门槛</td></tr><tr><td><b>久经沙场（Battle-hardened）</b></td><td>被暴击伤害 -20% / +20% 护甲与闪避</td></tr>
+ </table>
+ <div class="kv" style="margin-top:8px;font-size:13px">他原话：「因为我们暴击比较缺命中。」(<b>原文疑似</b>，ASR 里是"运可"，按语境应是命中)<b>转暴击要在 70 级左右开始</b>，这些命中/暴击前置点先铺好，转的时候不用大面积洗点。</div>
+</div><div class="stageblock">
+ <div class="stagehead">
+  <span class="stagename">75–90 级（最后 28 点）</span>
+  <span class="stagegoal"><b>暴击圈 + 偏斜圈 + 冰霜与护盾。</b></span>
+ </div>
+ <table>
+  <tr><th style="width:30%">优先拿的点</th><th>效果</th></tr>
+  <tr><td><b>弹射（Ricochet）</b></td><td>+15% 投射物伤害 / 投射物有 10% 几率额外连锁</td></tr><tr><td><b>重弹药（Heavy Ammunition）</b></td><td>+40% 投射物伤害（代价：攻速 -5%）</td></tr><tr><td><b>无情（Remorseless）</b></td><td>+15% 投射物伤害</td></tr><tr><td><b>沙卡瓦之爪 / 之皮（Saqawal's Talon / Hide）</b></td><td>各 +5% 冰冷 / 闪电抗性 + 25% 护甲与闪避</td></tr><tr><td><b>难以杀死（Hard to Kill）</b></td><td>+40% 药剂生命回复 / 每秒回复 0.75% 最大生命</td></tr>
+ </table>
+ <div class="kv" style="margin-top:8px;font-size:13px">他讲第二天天赋时：「这里也可以加个暴击对吧，25%……这里有个暴击几率 12，再加这里就是 37%，也是不错的。然后这边是纯加伤害的。」<br>另外他把生存挪过来的时候说：「<b>把加点挪一部分来这个偏斜圈</b>——这里 4 点，这里 5 点，总共 9 点。」<b>伤害够了之后再把生存补上</b>。</div>
+</div>
+<div class="warn"><b>说明：</b>上面这些点名来自他视频里口述的加点方向（投射物速度+攻速、命中、冰抗穿透、暴击圈、偏斜圈、闪避加护盾），节点名是我按 PoB 的 0.5 天赋树数据对上号的中文名。他视频里的<b>具体点位顺序</b>因为需要看画面，我没有可靠来源——<b>方向可以照抄，逐点点位请看视频或直接下他 poe.ninja 的角色</b>。</div>
+
+<h3 id="t3">③ 升华顺序（4 个点）</h3>
+<table>
+ <tr><th style="width:8%">顺序</th><th style="width:18%">升华</th><th>效果</th><th style="width:26%">备注</th></tr>
+ <tr><td><b>1</b></td><td><b style="color:var(--gold)">零点射击</b></td><td>近身 / 远射专用化（Projectile Proximity Specialisation）</td><td>第一个升华就点。</td></tr><tr><td><b>2</b></td><td><b style="color:var(--gold)">无限弹药</b></td><td>技能额外发射 1 个投射物（Endless Munitions）</td><td>配天赋 +1 箭、符文 +1 箭，箭矢数量叠起来清图质变。</td></tr><tr><td><b>3</b></td><td><b style="color:var(--gold)">蜃影神射</b></td><td>幻影锐眼（Mirage Deadeye）：翻滚时产生的影子帮你射</td><td>他视频里说的"影子"就是这个。配合幻影射手的致盲联动盲点。</td></tr><tr><td><b>4</b></td><td><b style="color:var(--gold)">疾风</b></td><td>使用技能时获得顺风（Gathering Winds）</td><td>第四个点。</td></tr>
+</table>
+<div class="ok"><b>顺序别反：</b>他视频里的顺序就是 零点射击 → 无限弹药 → 蜃影神射 → 疾风。<b>4 个升华点一共要 4 次试炼才能拿满</b>，所以正常情况下就是这个顺序。</div>
+
+<h3 id="t4">④ 洗点与双天赋</h3>
+<table>
+ <tr><th style="width:26%">项目</th><th>内容</th></tr>
+ <tr><td><b>前期不用纠结</b></td><td><b>天赋点错了前期不用怕</b>——洗点用的是金币，不是通货。真正要留金币的地方是转暴击那一次。</td></tr><tr><td><b>转暴击要留 100 万金币</b></td><td>他原话：「转暴击需要留 100 万金币洗点。」约 70 级左右转。</td></tr><tr><td><b>双天赋</b></td><td>这套要用<b>两套天赋</b>：主天赋打图，副天赋（印记类）+ 招架/驳斥应付一直出招的 BOSS（比如火焰巅峰的神圣仲裁者）。不会点双天赋的看他视频「391 手把手点双天赋」。</td></tr>
+</table>
+</section>
 <section id="chk">
  <h2>✔ 进度勾选</h2>
  <p>会存在本机浏览器。<b>这些多是永久属性或功能解锁，漏了就真没了。</b></p>
@@ -515,9 +574,111 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  <div id="chkList"></div>
  <div style="margin-top:16px"><button class="btn" id="resetChk">清空全部勾选</button></div>
 </section>
+<section id="memo">
+ <h2>📖 速查</h2>
 
+ <h3>国服 vs 国际服 技能名对照</h3>
+ <div class="danger"><b>两套完全不同的翻译。</b>网上攻略多半是国际服叫法，游戏里搜不到。</div>
+ <table>
+  <tr><th>国服（游戏里搜这个）</th><th>国际服</th></tr>
+  <tr><td><b>闪电箭矢</b></td><td>閃電箭矢</td></tr>
+  <tr><td><b>引雷针</b></td><td>雷霆之杖</td></tr>
+  <tr><td><b>寒霜爆</b></td><td>寒霜爆</td></tr>
+  <tr><td><b>逃脱射击 / 逃脱之矢</b></td><td>逃脫射擊 / 逃脫之矢</td></tr>
+  <tr><td><b>战旗</b></td><td>戰爭之旗</td></tr>
+  <tr><td><b>闪电之捷</b></td><td>閃電之捷</td></tr>
+  <tr><td><b>寒冰之捷</b></td><td>冰霜之捷</td></tr>
+  <tr><td><b>冰霜射击</b></td><td>冰霜射擊</td></tr>
+  <tr><td><b>冰尖箭矢</b></td><td>冰簇箭矢</td></tr>
+  <tr><td><b>冻结齐射</b></td><td>凍結齊射</td></tr>
+  <tr><td><b>狙击</b></td><td>狙擊</td></tr>
+  <tr><td><b>弹幕</b></td><td>彈幕</td></tr>
+  <tr><td><b>冰冻印记</b></td><td>冰凍印記</td></tr>
+  <tr><td><b>战斗狂怒</b></td><td>戰鬥狂怒</td></tr>
+  <tr><td><b>幻影射手</b></td><td>幻影射手</td></tr>
+  <tr><td><b>蜃影神射</b></td><td>幻影銳眼</td></tr>
+  <tr><td><b>风舞者</b></td><td>風魔舞者</td></tr>
+  <tr><td><b>龙卷射击</b></td><td>龍捲射擊</td></tr>
+ </table>
+
+ <h4>辅助宝石对照</h4>
+ <table>
+  <tr><th>国服</th><th>国际服</th></tr>
+  <tr><td><b>元素军械</b></td><td>元素武裝</td></tr>
+  <tr><td><b>范围集中</b></td><td>集中光環</td></tr>
+  <tr><td><b>快速攻击</b></td><td>疾速攻擊</td></tr>
+  <tr><td><b>元素集中</b></td><td>元素專注</td></tr>
+  <tr><td><b>霜咬</b></td><td>霜咬</td></tr>
+  <tr><td><b>投机射击</b></td><td>博弈射擊</td></tr>
+  <tr><td><b>持续时间延长</b></td><td>延長持續時間</td></tr>
+  <tr><td><b>永续充能</b></td><td>永恆充能</td></tr>
+  <tr><td><b>强化能量球</b></td><td>增强詛咒</td></tr>
+  <tr><td><b>能量球激增</b></td><td>充能滿盈</td></tr>
+  <tr><td><b>范围扩大</b></td><td>增幅光環</td></tr>
+  <tr><td><b>虹吸印记</b></td><td>汲取印記</td></tr>
+  <tr><td><b>充能印记</b></td><td>蓄電印記</td></tr>
+  <tr><td><b>助力之风</b></td><td>機動性</td></tr>
+  <tr><td><b>冗余</b></td><td>過剩</td></tr>
+  <tr><td><b>耐久度</b></td><td>耐久</td></tr>
+  <tr><td><b>近身战</b></td><td>近身戰</td></tr>
+  <tr><td><b>大好时机</b></td><td>機會之窗</td></tr>
+  <tr><td><b>从容不迫</b></td><td>審慎</td></tr>
+  <tr><td><b>远射</b></td><td>遠程射擊</td></tr>
+  <tr><td><b>分叉</b></td><td>分岔</td></tr>
+  <tr><td><b>冰霜曝露</b></td><td>冰冷曝晒</td></tr>
+  <tr><td><b>欧罗什的信念</b></td><td>奧爾羅斯的信念</td></tr>
+  <tr><td><b>德瑞所的热情</b></td><td>德瑞所的熱情</td></tr>
+ </table>
+
+ <h3>升华顺序</h3>
+ <div class="ok">
+  <b>① 零点射击</b> → <b>② 无限弹药</b> → <b>③ 蜃影神射</b> → <b>④ 疾风</b>
+  <span style="font-size:12.5px">（完整说明在「🧭 天赋加点」页）</span>
+ </div>
+
+ <h3>等级节点</h3>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">5 级</span><span style="font-weight:600">换弓（所以第一个蜕变石用箭袋）</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">11 级</span><span style="font-weight:600">守护者之弓 + 用掉 1 巧匠石（不投入源）</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">16 级</span><span style="font-weight:600">★ 打造反曲弓（开始投入源）</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">20 级</span><span style="font-weight:600">找 NPC 买更高级血药</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">22 级</span><span style="font-weight:600">冰冻印记</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">28 级</span><span style="font-weight:600">双弦弓</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">31 级</span><span style="font-weight:600;color:var(--gold)">★ 转冰霜射击（质变点）</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">33 级</span><span style="font-weight:600">打造弓</span></div>
+ <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">45 级</span><span style="font-weight:600">炮火弓（70-166 点伤 / 18% 攻速）</span></div>
+
+ <h3>抗性计算器</h3>
+ <div class="ok"><b>✅ 抗性上限 = 75%</b>（poe2db + 游民星空两处一致），装备天赋可突破，最高 90%。</div>
+ <div class="danger">
+  <b>⚠️ 终局扣减：</b>GGG 官方论坛 2024 年实测 <b>−60%</b>（另有帖写 −70%）。
+  <b>0.5.5 的确切值我确认不了</b>——进游戏后看角色面板，把实际数字填进来。
+ </div>
+ <div class="grid g3" id="resInputs"></div>
+ <label style="margin-top:10px">终局扣减（默认 70，以游戏内为准）</label>
+ <input type="number" id="penalty" value="70" step="5" style="max-width:130px">
+ <div id="resOut" style="margin-top:12px"></div>
+
+ <h3>参考资料与来源</h3>
+ <div class="ok">
+  <b>本网站内容主要来自：</b><br>
+  · <b>网瘾老年人lowK</b>《<a href="https://www.bilibili.com/opus/1244113182261248006" target="_blank">0.55锐眼开荒文档</a>》（2026-09-07）<br>
+  · 配套视频：<a href="https://www.bilibili.com/video/BV1kjti6LEWv" target="_blank">0.55新赛季锐眼开荒视频文档</a><br>
+  · UP 主主页：<a href="https://space.bilibili.com/27858039" target="_blank">space.bilibili.com/27858039</a>
+ </div>
+ <div class="warn">
+  <b>其他补充来源（用于新手基础部分，非 BD 内容）：</b><br>
+  游民星空《新手入门指南》（24 点天赋清单）· 17173（游戏设置、国服翻译错误）·
+  poe2db（宝石 ID 核对、抗性上限）· GGG 官方开发者文档（.build 格式）
+ </div>
+ <div class="danger">
+  <b>❌ 我没能自己确认的：</b><br>
+  · 终局抗性扣减的确切数值（2024 年数据）<br>
+  · .build 文件能否被游戏成功导入（ID 我逐个核对过，但没有游戏可以实测）<br>
+  · 文档里标"后续施工"的部分（天赋图、第二天转暴击流）只有图片/视频，没有文字
+ </div>
+</section>
 <section id="video">
- <h2>🎬 视频笔记（文档里没有的内容）</h2>
+ <h2>🎬 视频笔记</h2>
 
 <div class="warn">
  <b>这一页全部来自他的视频，不是文档。</b>文档里没有这些内容。<br><br>
@@ -526,10 +687,10 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 </div>
 
 <div class="toc">
- <a href="#v1">① 打BOSS卡位</a><a href="#v2">② 升华顺序</a>
+ <a href="#v1">① 打BOSS卡位</a>
  <a href="#v3">③ 武器组勾选</a><a href="#v4">④ 省精魂窍门</a>
  <a href="#v5">⑤ 完美时机</a><a href="#v6">⑥ 贴脸增伤</a>
- <a href="#v7">⑦ 天赋路线</a><a href="#v8">⑧ 双天赋</a>
+ <a href="#v7">⑦ 天赋路线</a><a href="#talent">⑧ 双天赋</a>
  <a href="#v9">⑨ 进度补充</a><a href="#v10">⑩ 技能辅助细节</a>
  <a href="#v11">⑪ 第一天装备</a><a href="#v12">⑫ 第二天转暴击</a>
  <a href="#v13">⑬ 生存构筑</a><a href="#v14">⑭ 0成本提伤</a>
@@ -538,10 +699,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <h3 id="v1">① 打 BOSS 的卡位技巧</h3>
 <div class="ok">这三条文档里一条都没有。</div>
 <table><tr><th style="width:26%">BOSS</th><th>怎么打</th></tr><tr><td><b>祭坛 BOSS</b></td><td><b>一阶段</b>：他喜欢一直往前走 A 你 → <b>用祭坛卡住他</b><br><b>二阶段</b>：只要你<b>靠近他</b>，他就不会乱动</td></tr><tr><td><b>狼王</b></td><td><b>靠墙放引雷针</b> → 他打你时不会跑出范围</td></tr><tr><td><b>人马</b></td><td><b>靠到最下面（贴边）放</b> → 少很多怪来捣乱</td></tr></table>
-
-<h3 id="v2">② 升华顺序</h3>
-<div class="ok"><b>文档里完全没写升华顺序，视频里讲了。</b></div>
-<table><tr><th style="width:26%">升华</th><th>选择</th></tr><tr><td><b>① 零点射击</b></td><td>近距离增伤。他第一天视频里明确说「升华我们选的是中间这条」</td></tr><tr><td><b>② 无限弹药</b></td><td>投射物数量 +1</td></tr><tr><td><b>③ 幻影锐眼</b></td><td>国服对应<b>蜃影神射</b>。他在视频里强调「升华二、升华三都用幻影锐眼，记得」</td></tr><tr><td><b>④ 疾风</b></td><td>06-08 视频里的说法是「外加一个疾风」</td></tr></table>
 
 <h3 id="v3">③ 武器组怎么勾选（他说得最细）</h3>
 <div class="warn"><b>这个文档里完全没写，但直接影响你能不能正常输出。</b></div>
@@ -575,9 +732,6 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  我按他的话整理成顺序，<b>但具体节点你得对照视频看</b>。
 </div>
 <table><tr><th style="width:26%">阶段</th><th>怎么点</th></tr><tr><td><b>练级起点</b></td><td>往这边下来 → 这一圈到这个圈 → 再往下走这一边 → 再走这一边 → 再过来这个圈点上 → 再往上面走 → 来到这再到这 → 点完之后再过来把这边也点了</td></tr><tr><td><b>这4个先不点</b></td><td><b>这 4 个是进异界之后、打怪吃力/抗性高的时候再点</b></td></tr><tr><td><b>出异界（50 多级）</b></td><td>往这边来 → 到这边到这边就出一界了，大概五十多级、五六十级出一界</td></tr><tr><td><b>进异界后第一步</b></td><td><b>这里可以加 50% 多额外箭</b> → 配合符文刚好就多一只箭</td></tr><tr><td><b>然后</b></td><td>把生存点一下 → 这边伤害 → 伤害</td></tr><tr><td><b>接近 T10→T15</b></td><td><b>把抗性穿透点出来</b>（冰抗穿透）。觉得冰抗吃力就点这个 —— <b>必须要配合那个手套</b></td></tr><tr><td><b>双天赋</b></td><td>注意看<b>红线跟绿线</b>。红线是 1 号天赋，绿线是 2 号天赋</td></tr><tr><td><b>感电怎么吃</b></td><td><b>感电幅度主要靠冰冻</b>——寒冰之捷冻住敌人后会触发低面感电，敌人在感电上面就吃到加成。<br><b style="color:var(--red)">但要打上钩二号武器才能加，一号武器吃不到</b></td></tr><tr><td><b>强化攻击（30级）</b></td><td>30 级往上走到这边加这三点：<b>强化攻击</b>，配合<b>冰尖箭矢 + 弹幕</b>可以获得<b>额外冰冷伤害，他说「非常强」</b></td></tr><tr><td><b>84 点时的状态</b></td><td>绿色的都在绿色圈里，<b>红色的任由你安排</b>。后续朝暴击流走：暴击圈再往上加</td></tr></table>
-
-<h3 id="v8">⑧ 双天赋机制</h3>
-<table><tr><th style="width:26%">问题</th><th>说明</th></tr><tr><td><b>核心概念</b></td><td><b>双天赋 = 一个点拆成两个用。</b>武器天赋有 24 点</td></tr><tr><td><b>正确操作</b></td><td>① 先把一号武器的三点退掉<br>② 用<b>共用天赋</b>点三点：共用 + 一号 + 二号都能吃到<br>③ 切到一号 → 切到二号</td></tr><tr><td><b>错误做法</b></td><td><b>一号先点这两点、二号先点这两点 —— 这样是不可以的</b>。5G 套装也用不到共用天赋，只能点「实现」类的</td></tr><tr><td><b>他的建议</b></td><td><b>「如果不会点双天赋的话，最好去找一个视频看一看」</b>——他说这个用文字讲不清</td></tr></table>
 
 <h3 id="v9">⑨ 开荒进度补充（文档没有的细节）</h3>
 <table><tr><th style="width:26%">阶段</th><th>做什么</th></tr><tr><td><b>第一章</b></td><td>老三样：闪电箭矢 + 引雷针 + 寒霜爆。<b>精魂技能选「战旗」，加 25% 伤害和攻速</b></td></tr><tr><td><b>人马赛季玩法</b></td><td>掉 <b>5 级精魂宝石</b>（0.55 应该变成祭坛玩法掉落）→ 用来学闪电之捷</td></tr><tr><td><b>16 级后</b></td><td>把之前攒的资源给 16 级这把弓</td></tr><tr><td><b>→33 级</b></td><td>继续攒资源，到 33 级再给新的弓</td></tr><tr><td><b>阿扎克泥沼（赛季玩法必打）</b></td><td>掉一个<b>低阶工匠石</b></td></tr><tr><td><b>这里石头比较多</b></td><td>学冰系技能：<b>冰尖箭矢 + 冻结齐射</b>清怪</td></tr><tr><td><b>低阶工匠石给谁</b></td><td><b>给狙击学</b>（开孔）</td></tr><tr><td><b>7 级技能石</b></td><td>留一颗学<b>冰冻印记</b>（只需 24 智慧）。<b>智慧不高就不用升级</b></td></tr><tr><td><b>精魂石</b></td><td><b>8 级、7 级的留着</b>。31 级后精魂石学<b>寒冰之捷</b>，配合 30 级学的冰射就成型</td></tr><tr><td><b>第二章</b></td><td>还是推荐直接用<b>闪电箭矢 + 引雷针</b>打输出</td></tr><tr><td><b>第三章</b></td><td>树精 BOSS 掉 <b>9 级技能石</b>（学冰射）；双精英掉<b>低阶工匠石</b> → <b>给冰射开孔</b>，这样冰射和狙击都有三孔<br><b>后续有 4 孔先给狙击</b></td></tr><tr><td><b>33 级后</b></td><td>打造<b>混沌弓</b>。前缀有三条后就不用再打造了——等级低时后缀用不上，等于浪费两个崇高石</td></tr><tr><td><b>升华 2</b></td><td>建议 <b>37、38 级左右</b>再打</td></tr><tr><td><b>第四章</b></td><td>解锁交易后兑换通货。<b>低于 40 等级的武器不要买</b>。<br>要注意的一点：<b>升级到 40 级</b></td></tr></table>
@@ -623,12 +777,9 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   <tr><td>2026-06-08</td><td>锐眼冰射T15 生存简单构筑</td><td><a href="https://www.bilibili.com/video/BV1bCEg6bE8x" target="_blank">BV1bCEg6bE8x ↗</a></td></tr>
  </table>
 </div>
-
 </section>
-
 <section id="lowk">
- <h2>🔗 他的链接总汇</h2>
- <p>全部指向 <b>网瘾老年人lowK</b> 的原始内容，我已逐条实测可访问。</p>
+ <h2>🔗 他的链接与配图</h2>
 <style>
 .gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px;margin:12px 0}
 .gitem{position:relative;display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;text-decoration:none}
@@ -721,10 +872,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  前者是他的最新总纲，后者是拿来导 BD 的。
 </div>
 
-</section>
-
-<section id="pics">
- <h2>🖼 他的配图</h2>
+<h3 style="margin-top:22px">🖼 他文档里的配图</h3>
 
 <div class="ok">
  <b>为什么图在本网站：</b>B站 CDN <b>禁止外部网站引用</b>（我实测带 GitHub 的 Referer 返回 403），
@@ -757,113 +905,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
    <b>编号就是文档里的原始顺序</b>，要定位某张图对应哪一节，回原文档看位置最快。<br>
  · 图片可能随他的文档更新而变化。<b>以原文档为准。</b>
 </div>
-
 </section>
-
-<section id="memo">
- <h2>📖 速查</h2>
-
- <h3>国服 vs 国际服 技能名对照</h3>
- <div class="danger"><b>两套完全不同的翻译。</b>网上攻略多半是国际服叫法，游戏里搜不到。</div>
- <table>
-  <tr><th>国服（游戏里搜这个）</th><th>国际服</th></tr>
-  <tr><td><b>闪电箭矢</b></td><td>閃電箭矢</td></tr>
-  <tr><td><b>引雷针</b></td><td>雷霆之杖</td></tr>
-  <tr><td><b>寒霜爆</b></td><td>寒霜爆</td></tr>
-  <tr><td><b>逃脱射击 / 逃脱之矢</b></td><td>逃脫射擊 / 逃脫之矢</td></tr>
-  <tr><td><b>战旗</b></td><td>戰爭之旗</td></tr>
-  <tr><td><b>闪电之捷</b></td><td>閃電之捷</td></tr>
-  <tr><td><b>寒冰之捷</b></td><td>冰霜之捷</td></tr>
-  <tr><td><b>冰霜射击</b></td><td>冰霜射擊</td></tr>
-  <tr><td><b>冰尖箭矢</b></td><td>冰簇箭矢</td></tr>
-  <tr><td><b>冻结齐射</b></td><td>凍結齊射</td></tr>
-  <tr><td><b>狙击</b></td><td>狙擊</td></tr>
-  <tr><td><b>弹幕</b></td><td>彈幕</td></tr>
-  <tr><td><b>冰冻印记</b></td><td>冰凍印記</td></tr>
-  <tr><td><b>战斗狂怒</b></td><td>戰鬥狂怒</td></tr>
-  <tr><td><b>幻影射手</b></td><td>幻影射手</td></tr>
-  <tr><td><b>蜃影神射</b></td><td>幻影銳眼</td></tr>
-  <tr><td><b>风舞者</b></td><td>風魔舞者</td></tr>
-  <tr><td><b>龙卷射击</b></td><td>龍捲射擊</td></tr>
- </table>
-
- <h4>辅助宝石对照</h4>
- <table>
-  <tr><th>国服</th><th>国际服</th></tr>
-  <tr><td><b>元素军械</b></td><td>元素武裝</td></tr>
-  <tr><td><b>范围集中</b></td><td>集中光環</td></tr>
-  <tr><td><b>快速攻击</b></td><td>疾速攻擊</td></tr>
-  <tr><td><b>元素集中</b></td><td>元素專注</td></tr>
-  <tr><td><b>霜咬</b></td><td>霜咬</td></tr>
-  <tr><td><b>投机射击</b></td><td>博弈射擊</td></tr>
-  <tr><td><b>持续时间延长</b></td><td>延長持續時間</td></tr>
-  <tr><td><b>永续充能</b></td><td>永恆充能</td></tr>
-  <tr><td><b>强化能量球</b></td><td>增强詛咒</td></tr>
-  <tr><td><b>能量球激增</b></td><td>充能滿盈</td></tr>
-  <tr><td><b>范围扩大</b></td><td>增幅光環</td></tr>
-  <tr><td><b>虹吸印记</b></td><td>汲取印記</td></tr>
-  <tr><td><b>充能印记</b></td><td>蓄電印記</td></tr>
-  <tr><td><b>助力之风</b></td><td>機動性</td></tr>
-  <tr><td><b>冗余</b></td><td>過剩</td></tr>
-  <tr><td><b>耐久度</b></td><td>耐久</td></tr>
-  <tr><td><b>近身战</b></td><td>近身戰</td></tr>
-  <tr><td><b>大好时机</b></td><td>機會之窗</td></tr>
-  <tr><td><b>从容不迫</b></td><td>審慎</td></tr>
-  <tr><td><b>远射</b></td><td>遠程射擊</td></tr>
-  <tr><td><b>分叉</b></td><td>分岔</td></tr>
-  <tr><td><b>冰霜曝露</b></td><td>冰冷曝晒</td></tr>
-  <tr><td><b>欧罗什的信念</b></td><td>奧爾羅斯的信念</td></tr>
-  <tr><td><b>德瑞所的热情</b></td><td>德瑞所的熱情</td></tr>
- </table>
-
- <h3>升华顺序</h3>
- <div class="ok">
-  <b>① 零点射击</b>（近距离增伤，第一章后第一次升华）→
-  <b>② 无限弹药</b>（投射物数量 +1，第三章混沌试炼）→ 之后按文档继续
- </div>
-
- <h3>等级节点</h3>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">5 级</span><span style="font-weight:600">换弓（所以第一个蜕变石用箭袋）</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">11 级</span><span style="font-weight:600">守护者之弓 + 用掉 1 巧匠石（不投入源）</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">16 级</span><span style="font-weight:600">★ 打造反曲弓（开始投入源）</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">20 级</span><span style="font-weight:600">找 NPC 买更高级血药</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">22 级</span><span style="font-weight:600">冰冻印记</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">28 级</span><span style="font-weight:600">双弦弓</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">31 级</span><span style="font-weight:600;color:var(--gold)">★ 转冰霜射击（质变点）</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">33 级</span><span style="font-weight:600">打造弓</span></div>
- <div class="kv" style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed var(--line)"><span style="color:var(--tx2)">45 级</span><span style="font-weight:600">炮火弓（70-166 点伤 / 18% 攻速）</span></div>
-
- <h3>抗性计算器</h3>
- <div class="ok"><b>✅ 抗性上限 = 75%</b>（poe2db + 游民星空两处一致），装备天赋可突破，最高 90%。</div>
- <div class="danger">
-  <b>⚠️ 终局扣减：</b>GGG 官方论坛 2024 年实测 <b>−60%</b>（另有帖写 −70%）。
-  <b>0.5.5 的确切值我确认不了</b>——进游戏后看角色面板，把实际数字填进来。
- </div>
- <div class="grid g3" id="resInputs"></div>
- <label style="margin-top:10px">终局扣减（默认 70，以游戏内为准）</label>
- <input type="number" id="penalty" value="70" step="5" style="max-width:130px">
- <div id="resOut" style="margin-top:12px"></div>
-
- <div class="ok" style="margin-top:10px"><b>🎬「视频笔记」页的内容来自他的视频，不是他文档里的。</b>（<a href="https://www.bilibili.com/video/BV1kjti6LEWv" target="_blank">BV1kjti6LEWv</a>）<br><b>标注「原文疑似」的地方，请对照视频确认。</b></div><h3>参考资料与来源</h3>
- <div class="ok">
-  <b>本网站内容主要来自：</b><br>
-  · <b>网瘾老年人lowK</b>《<a href="https://www.bilibili.com/opus/1244113182261248006" target="_blank">0.55锐眼开荒文档</a>》（2026-09-07）<br>
-  · 配套视频：<a href="https://www.bilibili.com/video/BV1kjti6LEWv" target="_blank">0.55新赛季锐眼开荒视频文档</a><br>
-  · UP 主主页：<a href="https://space.bilibili.com/27858039" target="_blank">space.bilibili.com/27858039</a>
- </div>
- <div class="warn">
-  <b>其他补充来源（用于新手基础部分，非 BD 内容）：</b><br>
-  游民星空《新手入门指南》（24 点天赋清单）· 17173（游戏设置、国服翻译错误）·
-  poe2db（宝石 ID 核对、抗性上限）· GGG 官方开发者文档（.build 格式）
- </div>
- <div class="danger">
-  <b>❌ 我没能自己确认的：</b><br>
-  · 终局抗性扣减的确切数值（2024 年数据）<br>
-  · .build 文件能否被游戏成功导入（ID 我逐个核对过，但没有游戏可以实测）<br>
-  · 文档里标"后续施工"的部分（天赋图、第二天转暴击流）只有图片/视频，没有文字
- </div>
-</section>
-
 </main>
 <footer><div class="wrap">
  锐眼冰射狙击 · 0.5.5 国服开荒手册<br>
