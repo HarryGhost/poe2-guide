@@ -112,43 +112,25 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
   「0.5 的削弱闪电箭跟开荒关系不大，冰射是次要目标冰冻效率 −25%（单体）不影响。」
  </div>
 
-  <div class="warn">
-   <b>你上次说得对 —— 那份根本不叫 BD 文件。</b>我下载了 6 份<b>真实可用</b>的 .build
-   （mobalytics 和玩家导出的）逐字段对比，找到根因了：<br>
-   <b>❌ 我之前的 <code>passives</code> 是空数组 <code>[]</code>。</b>
-   真实文件的 passives 是 <b>182 / 187 / 189 / 190</b> 个节点 —— 一份都不空。
-   空的这个文件在游戏里就是「什么都没有」，等于没用。<br>
-   <b>✅ 现在补上了：118 个锐眼天赋节点 + 24 个大点</b>，从锐眼起点
-   <code>ranger596</code> 连成一片（按 冰霜/冰冻/投射物/弓/暴击/闪避/生命 的权重选点）。
-   节点ID 直接用 PoB2 树数据的 <code>stringId</code> —— 我拿真实文件的被动ID 对比过，
-   <b>151 个全部命中，零偏差</b>。<br>
-   <b>升华点不放 passives 里</b>（游戏不允许），升华顺序按他视频：零点射击 → 无限弹药 → 蜃影神射 → 疾风。<br>
-   <b>再加两条之前也错了的：</b>
-   <code>ascendancy</code> 应该是 <code>"Ranger1"</code> 不是 <code>"Deadeye"</code>；
-   技能ID统一成游戏用的命名空间。<br>
-   <span style="color:var(--gold)">⚠️ 天赋树是我按「合理」生成的，不是从他账号导出的那一棵。</span>
-   他视频里逐点点天赋的部分（BV1qPbE6WEJQ / BV1swbP6bEJb）想一比一抄就对着视频点。
-   这份文件最可靠的是<b>技能、辅助搭配、武器组勾选、装备槽提示</b>。
+  <div class="ok">
+   <b>两个文件的区别，先看这个再下载：</b><br>
+   · <b>第一天开荒（非暴击）</b>：1–70 级用。闪电箭矢 / 引雷针过渡 → 31 级转冰霜射击。<br>
+   · <b>第二天后期（暴击）</b>：70 级转暴击后用。冰霜射击 + 狙击 + 幻影射手，多了盲点联动。<br>
+   两份都<b>自带天赋树</b>（118 个锐眼节点）、技能与辅助、装备槽提示、武器组勾选规则。
   </div>
 
   <div class="warn">
-   <b>改了什么（旧版说明保留在下面）</b><br>
-   我把文件拆开逐条对照 GGG 的官方 .build 规范 + PoB2 的导出源码，找到两个真实错误：<br>
-   <b>① <code>ascendancy</code> 写错了。</b>原来写的 <code>"Deadeye"</code>（显示名），
-   游戏要的是 <b>internal id</b> —— 我从 PoB2 的天赋树数据（<code>src/TreeData/0_5/tree.json</code>）
-   查出 Deadeye 的 <code>internalId</code> 是 <b><code>"Ranger1"</code></b>。<u>这行原来会把整份文件判为非法。</u><br>
-   <b>② 技能 ID 混了两套命名空间。</b>27 个 ID 里有 19 个写成复数 <code>Metadata/Items/Gems/</code>。
-   我按 PoB2 的导出逻辑统一成 <code>Metadata/Items/Gem/</code>（技能类用单数那套）。<br>
-   另外这一版补了<b>装备槽提示</b>（角色面板上会显示每个部位该买什么），并且给每份都做了<b>极简版</b>
-   （只有技能和辅助，没有任何附加文字）——如果完整版还是不显示、极简版能显示，就说明问题出在附加字段上，告诉我我继续查。
-  </div>
-
   <div class="danger" style="border-left-color:var(--red)">
-   <b>⚠️ 还是要说清楚：这两个 .build 是我整理的，不是他导出的</b><br>
-   他有两个 BD：<b>第一天开荒（非暴击）</b>和<b>第二天后期（暴击）</b>，我按这两个分开做了文件。<br>
-   author 是 <b>HarryGhost（整理）</b>——照他文档和视频抄成 .build 格式，
-   <b>不含天赋树</b>（他的天赋是视频里口头讲的，我没有可靠的节点 ID 来源，宁可不写也不瞎填）。<br>
-   <b>下面第一个链接才是他的原始 BD。</b>
+   <b>一句实话：这两个文件是我按他的文档和视频整理的，不是他导出的原件。</b><br>
+   技能、辅助、装备槽提示照着原文抄，可靠；<b>天赋树是按他的思路配的，不是他账号里那一棵</b>。
+   想一比一抄他的天赋，用下面第一个链接，或者对着他视频点。
+  </div>
+
+  <div class="warn">
+   <b>放进游戏前先确认三件事：</b><br>
+   ① 文件夹 <code>BuildPlanner</code> 要自己建（游戏不会自动创建）；<br>
+   ② 电脑开了 OneDrive 的话，优先放 OneDrive 那份 Documents；<br>
+   ③ 放进去之后，文件要单独一个 <code>.build</code> 文件，不能是压缩包里的形态。
   </div>
 
   <a class="dl" href="https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites/character/%E7%BD%91%E7%98%BE%E8%80%81%E5%B9%B4%E4%BA%BA%E5%86%B0%E5%B0%84" target="_blank" style="border-color:var(--cyan)">
@@ -167,15 +149,12 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
    <div class="d">11 个技能 + 27 个辅助 + 12 条装备槽提示。70 级转暴击后用</div>
   </a>
   <div class="kv" style="margin-top:10px;font-size:13px">
-   <b>极简版</b>（只有技能和辅助，不带装备槽提示和任何附加文字；导不进去时先用它试）：<br>
-   ⬇ <a href="第一天-开荒BD-极简版.build" download>第一天-极简版.build</a>
-   &nbsp;·&nbsp;
-   ⬇ <a href="第二天-后期BD（暴击）-极简版.build" download>第二天-极简版.build</a><br>
-   中文文件名的完整版（跟上面 POE2-Day1 那份内容一样，只是文件名不同）：
+   中文文件名的同一份文件（内容一样，只是文件名不同，挑一个下就行）：
    ⬇ <a href="第一天-开荒BD.build" download>第一天-开荒BD.build</a>
-   &nbsp;·&nbsp;
+   <br>
    ⬇ <a href="第二天-后期BD（暴击）.build" download>第二天-后期BD（暴击）.build</a>
   </div>
+ </div>
 
  <div class="danger">
   <b>⚠️ 导入不显示？按顺序查（GGG 论坛玩家实测）</b>
@@ -186,8 +165,8 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
        <td>游戏<b>优先找 OneDrive 里的文档</b>：<br><code>C:/Users/用户名/OneDrive/Documents/My Games/Path of Exile 2/BuildPlanner/</code><br>两个地方都放一份最保险</td></tr>
    <tr><td><b>③ 放的是压缩包</b></td><td>.zip 要先解压，放里面的 <b>.build 文件</b></td></tr>
    <tr><td><b>④ 路径被重定向</b></td><td>资源管理器地址栏输入 <code>%USERPROFILE%/Documents/My Games/Path of Exile 2</code> 回车看解析到哪</td></tr>
-   <tr><td><b>⑤ 显示了但没技能</b></td><td>说明文件进去了但 ID 没被认出来。下<b>极简版</b>试试：极简版能显示、完整版不能，就是附加字段的问题</td></tr>
-   <tr><td><b>⑥ 想一次性排查</b></td><td>把两份都放进 BuildPlanner 文件夹（文件名不同，不冲突），游戏会在下拉框里都列出来</td></tr>
+   <tr><td><b>⑤ 下拉框里出现了，但天赋树是空的</b></td><td>先确认文件是完整下载的（右键看属性，大小在 23KB 左右，不是 0KB）</td></tr>
+   <tr><td><b>⑥ 两份都想试</b></td><td>文件名不同，可以都放进 BuildPlanner 文件夹，游戏会在下拉框里都列出来</td></tr>
   </table>
  </div>
 
@@ -542,8 +521,8 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 
 <div class="warn">
  <b>这一页全部来自他的视频，不是文档。</b>文档里没有这些内容。<br><br>
- <b>怎么来的：</b>我下载视频音频 → 本地 whisper（large-v3-turbo，Metal 加速）转写 → 按游戏内名称校正同音字。
- <b>校正过的、以及我没听准的地方都标出来了。</b>
+ <b>这是他"说"的部分，他视频里演示画面（天赋树点哪个节点、装备栏逐个展示）这里没有，那些要看视频。</b>
+ <b>标注「原文疑似」的地方是听音不确定的，请对照视频确认。</b>
 </div>
 
 <div class="toc">
@@ -627,15 +606,14 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 <table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>核心套路</b></td><td><b>红西法杖 + 力量巅峰</b>：每消耗一个暴击球可以增加 <b>15% 冰元素伤害</b>，吃三颗就能增加 <b>45% 总伤</b></td></tr><tr><td><b>要买什么</b></td><td>① <b>红西法杖</b><br>② <b>狼杖</b>——可以再增加 <b>300 最大护盾</b>，还能带「巨狼」帮你承受伤害（忠诚：击中伤害由怪物承受）</td></tr><tr><td><b>符文</b></td><td>用「颈线 1」（原文疑似）的符文，他选的是<b>获得额外 5% 元素伤害</b></td></tr><tr><td><b>怎么用</b></td><td>带三个暴击球 → 用一次力量巅峰</td></tr><tr><td><b>效果</b></td><td>他用之前 25 万伤害 → <b>变成 46 万</b>；触发双倍时消耗 6 个球</td></tr><tr><td><b>⚠️ 关键提醒</b></td><td><b>第一次放上去的时候是没效果的，需要换个图或者退出重上</b>——「你换个图进个图切换一下，然后我们就有这个了」</td></tr></table>
 
 <div class="danger">
- <b>转写质量说明（我不掩饰）：</b><br>
- · 前几个视频原始参数下会崩（一直重复同一段），<b>改用 VAD 模式后恢复</b><br>
- · 仍有同音字我没完全确定，已标注「<b>原文疑似</b>」<br>
- · 视频里演示画面的部分（比如天赋树具体点哪个节点、装备栏逐个展示）<b>转写拿不到</b>，
-   这些你得看视频；<b>文字能覆盖的是他"说"的部分</b>
+ <b>两处要注意：</b><br>
+ · 标注「<b>原文疑似</b>」的地方，是我听音不确定的，请对照视频确认；<br>
+ · 他视频里演示画面的部分（天赋树具体点哪个节点、装备栏逐个展示）这里没有，
+   那些得看视频；<b>下面这些是他"说"到的东西。</b>
 </div>
 
 <div class="ok">
- <b>已转写的视频：</b>
+ <b>已整理的视频：</b>
  <table style="margin-top:8px">
   <tr><th>日期</th><th>视频</th><th>BV号</th></tr>
   <tr><td>2026-09-04</td><td>0.55新赛季锐眼开荒视频文档</td><td><a href="https://www.bilibili.com/video/BV1kjti6LEWv" target="_blank">BV1kjti6LEWv ↗</a></td></tr>
@@ -866,7 +844,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  <input type="number" id="penalty" value="70" step="5" style="max-width:130px">
  <div id="resOut" style="margin-top:12px"></div>
 
- <div class="ok" style="margin-top:10px"><b>🎬 视频内容的来源说明：</b><br>「🎬 视频笔记」页的内容来自他的视频（<a href="https://www.bilibili.com/video/BV1kjti6LEWv" target="_blank">BV1kjti6LEWv</a>），<b>不是他文档里的</b>。<br>获取方式：我下载了视频音频 → 本地用 whisper（large-v3-turbo）转写 → 按游戏内名称校正同音字。后半段原始参数下转写失败，改用 VAD 模式重跑才恢复。<b>标注「原文疑似」的地方请对照视频确认。</b></div><h3>参考资料与来源</h3>
+ <div class="ok" style="margin-top:10px"><b>🎬「视频笔记」页的内容来自他的视频，不是他文档里的。</b>（<a href="https://www.bilibili.com/video/BV1kjti6LEWv" target="_blank">BV1kjti6LEWv</a>）<br><b>标注「原文疑似」的地方，请对照视频确认。</b></div><h3>参考资料与来源</h3>
  <div class="ok">
   <b>本网站内容主要来自：</b><br>
   · <b>网瘾老年人lowK</b>《<a href="https://www.bilibili.com/opus/1244113182261248006" target="_blank">0.55锐眼开荒文档</a>》（2026-09-07）<br>
