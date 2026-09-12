@@ -63,6 +63,25 @@ input[type=number]{width:100%;background:var(--bg);color:var(--tx);border:1px so
 .toc a:hover{border-color:var(--cyan);color:var(--cyan)}
 @media(min-width:700px){.grid.g3{grid-template-columns:1fr 1fr 1fr}.grid.g2{grid-template-columns:1fr 1fr}}
 footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:12px}
+
+.stage{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:11px;padding:11px 14px;margin:9px 0;background:var(--panel)}
+.stage .snum{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--panel2);border:1px solid var(--cyan);color:var(--cyan);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.stage .sbody{flex:1;min-width:0}
+.stage .sL{font-size:12px;color:var(--gold);margin-left:8px;white-space:nowrap}
+.stage .sBuy{font-size:13.5px;color:var(--tx);margin-top:4px}
+.stage .sGoal{font-size:12.5px;color:var(--tx2);margin-top:3px;line-height:1.65}
+.stage .sGoal b{color:var(--gold)}
+.figrow{display:flex;flex-wrap:wrap;gap:11px;margin:12px 0}
+.figgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:11px;margin:12px 0}
+.figbox{flex:1 1 260px;min-width:180px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.figbox img{display:block;width:100%;height:150px;object-fit:cover;background:#0b0f14}
+.figbox .fcap{font-size:12px;color:var(--tx2);padding:8px 10px;line-height:1.6}
+.figbox .fcap b{color:var(--tx)}
+.figbox:hover{border-color:var(--cyan)}
+.job{border:1px solid var(--line);border-radius:11px;overflow:hidden;margin:12px 0;background:var(--panel)}
+.job .jt{background:var(--panel2);padding:8px 13px;font-size:13px;font-weight:600;color:var(--gold);border-left:4px solid var(--cyan)}
+.job .jn{padding:9px 13px;font-size:13.5px;color:var(--tx2);line-height:1.7}
+.job .jn b{color:var(--tx)}
 </style></head><body>
 <header><div class="wrap">
  <div class="brand"><h1>锐眼冰射狙击 · 开荒手册</h1>
@@ -260,140 +279,183 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  <p>来自 <b>网瘾老年人lowK</b>《0.5冰射 前中后期的装备搭配》+《0.55锐眼开荒文档》。</p>
 
 <div class="toc">
- <a href="#g1">① 弓</a><a href="#g2">② 暗金弓</a><a href="#g3">③ 箭袋</a>
- <a href="#g4">④ 各部位词条</a><a href="#g5">⑤ 暗金推荐</a>
- <a href="#g6">⑥ T1–T15 配装</a><a href="#g7">⑦ 护符</a>
- <a href="#g8">⑧ 暴击转换</a><a href="#g9">⑨ 天赋宝石</a>
- <a href="#g10">⑩ 中期提升</a><a href="#g11">⑪ 后期提升</a><a href="#g12">⑫ 赚 D 技巧</a>
+ <a href="#gs">① 阶段总表</a><a href="#g1">② 剧情 1–2 章（打造第一把弓）</a>
+ <a href="#g2">③ 进异界：猎心弓三天流程</a>
+ <a href="#g3">④ 异界前期：只买 3 件暗金</a>
+ <a href="#g4">⑤ 各部位怎么挑（金装优先级）</a>
+ <a href="#g5">⑥ 抗性、属性、偏斜</a>
+ <a href="#g6">⑦ 转暴击 + 第二套（30D）</a>
+ <a href="#g7">⑧ 中期 → 后期</a>
+ <a href="#g8">⑨ 攒钱与通货</a>
+ <a href="#g9">⑩ 现成的搜索入口</a>
+ <a href="#g10">⑪ 他的截图（我逐张读过）</a>
 </div>
-
-<h3 id="g1">① 弓 — 词条怎么挑</h3>
-<div class="ok">
- <b>首选：毁灭者之弓。</b>性价比最高、伤害高。<br>
- <span style="color:var(--red)">缺点：投射物射程降低 50%，影响清怪效率。</span>
- <b>但仍是最佳首选，接近毕业才会换别的弓。</b>输出比它高、价格一样的也可以买。
-</div>
-<table>
- <tr><th style="width:14%">位置</th><th>优先级（从高到低）</th></tr>
- <tr><td><b>前缀</b></td><td>物理%+物理点伤 &gt; 冰元素点伤 &gt; 闪电元素点伤 &gt; 火元素点伤 &gt; 攻击技能的元素伤害提高%</td></tr>
- <tr><td><b>后缀</b></td><td>暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命（回蓝）&gt; 其他</td></tr>
-</table>
 
 <div class="warn">
- <b>原文解释「为什么'攻击技能元素伤害提高%'要强：」</b><br>
- 「2 把弓伤害输出差不多的情况下，<b>有'攻击技能的元素伤害提高%'的要强</b>——因为暴击流的天赋需要加点爆击爆伤，
- inc% 类（各种伤害，比如元素伤害、投射物伤害）比较少，所以这一条加成很强。
- 非暴击加点 inc% 多，提升就比较小，但也是不错的词条。」
+ <b>这一页重排过（原来是把所有截图和词条堆在一起）。</b>
+ 现在按<b>时间线</b>走：你不知道自己在哪个阶段，从 ① 开始往下看就行；
+ 知道自己该买什么了，直接跳到 ②–④ 找那一件。<br>
+ 图都在对应段落旁边，最后 ⑪ 有全部截图的清单。
 </div>
 
-<h4>暴击数值怎么搜（原文）</h4>
-<table>
- <tr><th>档位</th><th>设置</th></tr>
- <tr><td>前期过渡</td><td>暴击<b>最少 3.5</b></td></tr>
- <tr><td>搜 T2 以上</td><td>设 <b>3.81</b></td></tr>
- <tr><td>搜 T1</td><td>设 <b>4.41</b></td></tr>
-</table>
-<p>「比如你弓暴击是 4.41，就可以用<b>神圣石</b>让暴击 ROLL 值变高。<b>这个操作是在你弓比较好的情况下再做。</b>」</p>
+<div class="warn">
+ <b>先看这一句，能省你半天：</b>这套 BD 的装备是<b>分成三段、三段各买各的</b>，互相不影响。
+ <b>1–40 级不买任何东西</b>（只花蜕变石 / 增幅石打造两把弓）；<b>40 级花不到 2D 买 3 件暗金</b>进异界；
+ <b>真正开始花钱是 85 级以后</b>，那才是「第二套」。
+ 中间的异界 T1–T15，靠掉落凑抗性就够了。
+</div>
 
+<!-- ① -->
+<h3 id="gs">① 阶段总表 — 你现在该干什么</h3>
+<div class="stage"><div class="snum">1</div><div class="sbody"><b>剧情 1–2 章</b><span class="sL">1–32 级</span><div class="sBuy">买什么：什么也不买。</div><div class="sGoal"><b>16 级在第二章武器 NPC 处打造第一把弓</b>（见下面 ①）。<br>通货只花蜕变石 + 增幅石，其余全留。</div></div></div><div class="stage"><div class="snum">2</div><div class="sbody"><b>剧情 3 章</b><span class="sL">31–40 级</span><div class="sBuy">买什么：身上掉落随便穿。</div><div class="sGoal">31 级换<b>冰霜射击</b>主输出，辅助石跟着换。<b>攒通货，33 级还要打造一次弓</b>。</div></div></div><div class="stage"><div class="snum">3</div><div class="sbody"><b>进入异界</b><span class="sL">40–60 级</span><div class="sBuy">买什么：<b>猎心弓</b> + 掉落金装。</div><div class="sGoal">40 级用<b>猎心</b>（反曲弓）打进异界，很便宜。<b>异界前期不买装备</b>，先攒。</div></div></div><div class="stage"><div class="snum">4</div><div class="sbody"><b>异界 T1–T15</b><span class="sL">60–85 级</span><div class="sBuy">买什么：先买 2 件核心暗金。</div><div class="sGoal"><b>穿抗手</b> + <b>寒焰头</b>，两件加起来一两 D。<br>其余部位用掉落金装堆抗性，抗性满了再谈伤害。</div></div></div><div class="stage"><div class="snum">5</div><div class="sbody"><b>第二套（转暴击）</b><span class="sL">85 级 / 92 级</span><div class="sBuy">买什么：把 8 个部位换一遍。</div><div class="sGoal">整套约 <b>20D + 箭袋 10D ≈ 30D</b>，是三抗 75 / 1400 血 / 900 盾 / 50% 闪避的水平（他的原话）。</div></div></div><div class="stage"><div class="snum">6</div><div class="sbody"><b>中期（T15 刷图）</b><span class="sL">—</span><div class="sBuy">买什么：拉齐塔的流动 → 猎首。</div><div class="sGoal"><b>拉齐塔 100D</b>；<b>猎首 200D</b>。有猎首才能打 200 迷雾。<br>缺伤害补弓，缺生存把帽子和鞋换成护盾体系。</div></div></div><div class="stage"><div class="snum">7</div><div class="sbody"><b>后期</b><span class="sL">—</span><div class="sBuy">买什么：怒火项链 / 宝石 / 珠宝。</div><div class="sGoal">冰霜射击等级 +3 的宝石、「从无到有」珠宝、超大范围绿宝石。<br><b>「决心」约 300D——我还核实不了</b>。</div></div></div>
+<div class="ok">
+ <b>为什么前期不用买装备？</b>他的原话是：异界前期「掉落的基本都够用」，
+ 而且<b>这段路怪物强度不高</b>——把通货花在过渡装上纯亏。
+ 真正需要花钱的两个节点只有：<b>40 级进异界的 3 件暗金</b>，和 <b>85 级转暴击后的第二套</b>。
+</div>
+
+<!-- ② -->
+<h3 id="g1">② 剧情 1–2 章：一把弓怎么打造（16 级 / 33 级）</h3>
 <div class="danger">
- <b>⚠️ 购买武器一定要注意符文情况（原文）：</b><br>
- 「商店大多数都插了<b>物理%/元素点伤</b>符文来提高武器 DPS，让武器看起来 DPS 更高，也就更好卖。<br>
- <b>同价位、DPS 差不多时，看符文选择武器</b>（因为符文是要换成 +1 箭 和 +5% 全元素的）。<br>
- 还有攻速——攻速会提高总伤害输出。<b>实际上同 DPS、同价位，选择没攻速的伤害会更高。</b>
- 当然这不是说攻速不好，只是对比武器时的情况。」
+ <b>核心纪律：1–40 级只用「蜕变石」和「增幅石」这两种通货。</b>
+ 其余通货（点金石、混沌石、崇高石…）<b>全部留着</b>，到 40 级能上拍卖行了再用。<br>
+ 「接近需要打造的等级时，<b>蜕变石和增幅石也留一点，别用完</b>。」
 </div>
-
-<h4>符文怎么上</h4>
-<div class="kv" style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--line)">
- <span style="color:var(--tx2)">两个符文位</span><span style="font-weight:600">一个上 +1 箭，另一个上全元素额外</span>
-</div>
-
-<h3 id="g2">② 暗金弓</h3>
-<table><tr><th style="width:14%">部位</th><th style="width:24%">装备</th><th>效果 / 说明</th></tr><tr><td><b>寡妇弓</b></td><td>练级小号用</td><td>搭配<b>高点伤箭袋</b>，剧情可以用到 3、4 章。<b>每章都要换高点伤箭袋</b></td></tr><tr><td><b>裂心</b></td><td>16 级可用</td><td>投射物分裂，清怪更快。40 级通过赛季任务解锁的<b>维金工作台</b>可以升级成 200 多 DPS 的弓。40 级能打到异界 T10 左右，<b>赛季初期开荒首选</b></td></tr><tr><td><b>裂心</b>（弓名文档里写重了，实际指的是另一把可升级弓）</td><td>进异界转暴击首选</td><td>暴击 14–16%，能省下很多暴击点投到 inc% 天赋上。<b>开荒前期保持 40% 暴击即可</b></td></tr></table>
-<p style="font-size:13px">其他弓（如狮眼弓等）对应 BD 很多，可自行搜索。</p>
-
-<h3 id="g3">③ 箭袋</h3>
 <div class="ok">
- <b>箭袋基本绑定暗金「卡迪罗的赌局」精工箭袋</b>——清图效率比普通箭袋<b>起码翻倍</b>，对冰射加成非常大。
+ <b>为什么是 16 级？</b>16 级能拿<b>反曲弓</b>这个基底，而第二章武器 NPC 就卖白弓和蓝弓——
+ 花几十个蜕变 / 增幅石，就能得到一只<b>能一路用到 40 级</b>的弓。性价比高到没有理由不做。
 </div>
-<table><tr><th style="width:26%">普通箭袋词缀</th><th>内容</th></tr><tr><td><b>普通箭袋 · 前缀</b></td><td>一条点伤 + 弓类伤害 + 投射物速度加快</td></tr><tr><td><b>普通箭袋 · 后缀</b></td><td>暴击 &gt; 爆伤 &gt; 投射物等级 ≥ 攻速</td></tr></table>
+<table><tr><th style="width:24%">步骤</th><th>他怎么说</th></tr><tr><td><b>怎么做</b></td><td>去<b>第二章武器 NPC</b> 处，买<b>白色或蓝色点伤弓</b>（蓝色看后缀）。</td></tr><tr><td><b>洗什么</b></td><td>用<b>蜕变石 + 增幅石</b>，洗高点伤或高物理%。</td></tr><tr><td><b>判断标准</b></td><td><b>只要 1 个前缀就达到 23–46 点伤，这只弓就非常值得打造。</b></td></tr><tr><td><b>对比</b></td><td>人马掉的弓虽然有 5 条词条，点伤也只有 20–59——不如上面那只蓝弓。</td></tr><tr><td><b>33 级</b></td><td>同样的办法再打造一次（文档只说「33 级用来打造弓」，<b>没给具体数值门槛</b>）。</td></tr></table>
 
-<h3 id="g4">④ 各部位词条优先级</h3>
-<table><tr><th style="width:18%">部位</th><th style="width:36%">词条优先级</th><th>说明</th></tr><tr><td><b>项链</b></td><td>后缀：凑齐抗性 &gt; 投射物等级 &gt; 暴击爆伤<br>前缀：精魂 &gt; 护盾 &gt; 护盾% &gt; 闪避 &gt; 生命</td><td>词缀：<b>抗性</b> &gt; 投射物等级（凑满抗性后反过来）。<b>前期无需精魂。</b>有 120 精魂就能开幻影射手60+寒冰之捷30+风舞者30；没有精魂就取消风舞者</td></tr><tr><td><b>戒指</b></td><td>前缀：冰冻点伤 &gt; 冰冻% &gt; 其他点伤<br>后缀：抗性 &gt; 稀有度 &gt; 击杀回魔</td><td>词缀：三点伤 &gt; 冰冻%+双点伤+抗性。<b>双戒指之一要一个「击杀回魔力」词条（15 以上）</b>。第 4 章海岛监狱的教堂可以选 +30% 回蓝量。<br>另有暗金戒指 <b>意志呼唤</b>（电转冰）——只适合开服前期，现在便宜的戒指很多，用不上了</td></tr><tr><td><b>头盔</b></td><td>前缀：高护盾 ≥ 护盾% &gt; 生命 &gt; 稀有度<br>后缀：抗性 &gt; 稀有度 &gt; 智慧 &gt; 暴击（后期）</td><td>词缀：高护盾、抗性、暴击（后期）。<b>盾头需要高智慧</b>，也可以从其他部位找智慧</td></tr><tr><td><b>衣服</b></td><td>前缀：高闪避%+闪避 &gt; 精魂 &gt; 生命<br>后缀：抗性 &gt; 闪避转偏斜（有最好，不必强求）</td><td>词缀：高闪避、抗性、精魂。<b>闪避最少 1500+</b>。精魂跟项链凑 60</td></tr><tr><td><b>手套</b></td><td>前缀：1–3 条点伤 &gt; 闪避 或 护盾 &gt; 生命<br>后缀：抗性 &gt; 攻速 &gt; 稀有度</td><td>词缀：点伤、抗性、攻速</td></tr><tr><td><b>腰带</b></td><td>前缀：生命 &gt; 其他药水护符效果<br>后缀：抗性 &gt; 力量</td><td>词缀：抗性、生命、力量。尽量从其他部位凑更多抗性。<b>中期用夜临腰带，后期换猎首腰带</b></td></tr><tr><td><b>鞋子</b></td><td>前缀：<b>移速（必须要）</b> &gt; 高护盾+护盾% &gt; 稀有度<br>后缀：抗性 &gt; 稀有度</td><td>词缀：移速（必须）、高护盾、抗性、稀有度</td></tr></table>
+<h4>16 级那只弓到底怎么挑（判断标准）</h4>
+<div class="job">
+ <div class="jt">买回来的时候：白色 或 蓝色点伤弓</div>
+ <div class="jn">蓝色<b>只看后缀</b>，因为蓝装必定是 1 前 1 后。</div>
+ <div class="jt">洗的时候：先想清楚哪条是前缀</div>
+ <div class="jn">弓已经有后缀了 → 用<b>增幅石必定出前缀</b>，不会浪费。</div>
+ <div class="jt">判断标准（唯一一条）</div>
+ <div class="jn"><b>只要 1 个前缀就达到 23–46 点伤</b>，这只弓就非常值得打造。<br>
+  对比：<b>人马掉的弓虽然 5 条词条，点伤也只有 20–59</b>——不如上面那只蓝弓。</div>
+</div>
 
-<h3 id="g5">⑤ 暗金装备推荐</h3>
-<table><tr><th style="width:14%">部位</th><th style="width:24%">装备</th><th>效果 / 说明</th></tr><tr><td>头</td><td><b>寒焰天鹅绒便帽</b></td><td>敌人每有 1% 冰缓幅度，就获得 1% 冰冷伤害的额外火焰伤害。<b>适合赛季初期缺伤害时开荒用</b>，配合天赋的冰缓增伤</td></tr><tr><td>头</td><td><b>敏锐敕令 远古护面盔</b></td><td>高护甲 + 高闪避 + <b>致盲反转（闪避命中 ×1.2）+ 闪避转额外护甲</b>。配高闪避衣服能达到 40% 护甲减伤、70 闪避。<b>缺点：没抗性</b></td></tr><tr><td>手</td><td><b>公理不存 宏伟手镯</b>（国际服叫「无与伦比」）</td><td><b>让冰冻效率翻倍——50% 进度就冰冻，不需要 100%</b>。有攻速，对冰冻的敌人增加 50% 伤害。选高攻速高伤害即可</td></tr><tr><td>鞋</td><td><b>阿兹里的金履 系带长靴</b></td><td>关键：<b>获得同等 %闪避的偏斜值（抵御伤害量越大越好 −6）</b>、移动时增加 %偏斜率。需要巧匠石（神庙通货）瓦出来，有最好，前期可以不要</td></tr><tr><td>衣服 · 可选</td><td><b>西里的战衣</b></td><td>20% 额外冰伤害。<b>缺点：没抗性、没精魂</b>。也可以选盾闪衣服（更高护盾）</td></tr><tr><td>腰带 · 中期</td><td><b>夜临</b></td><td>效果要是<b>手套加成</b>。符文插 8% 攻速、30% 非伤害异常强度提高。<b>注意：这版本不能插相同特殊符文了，全身装备包括第二套武器都算</b></td></tr><tr><td>腰带 · 可选</td><td><b>独创</b></td><td>增加戒指属性，戒指越好越强，前中期非常实用</td></tr></table>
+<h4>蓝装词缀的机制（不看这段会白花钱）</h4>
+<table><tr><th style="width:24%">机制</th><th>说明</th></tr><tr><td><b>蓝装是 1 前 1 后</b></td><td>蓝装<b>必定 1 条前缀 + 1 条后缀</b>。</td></tr><tr><td><b>增幅石必出前缀</b></td><td>如果这只弓已经有后缀了，用<b>增幅石必定出前缀</b>——所以别乱点，先把后缀摆好。</td></tr><tr><td><b>别浪费通货</b></td><td>比较烂的过渡蓝弓，<b>没必要浪费通货</b>。</td></tr><tr><td><b>什么时候值得继续点</b></td><td>好的点伤蓝弓，可以试着点出<b>攻速或技能等级</b>。</td></tr><tr><td><b>手套也一样</b></td><td>手套通过已有后缀，来点出前缀点伤。</td></tr><tr><td><b>物品等级门槛</b></td><td>物品等级最好 <b>≥ 8</b> 再投入增幅石。</td></tr></table>
+<div class="figrow"><div class="figbox"><a href="images/gear/c2-bow-theory.jpg" target="_blank"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="后缀那句「暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命(回蓝)」…"></a><div class="fcap"><b>后缀那句「暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命(回蓝)」的原文档图</b></div></div></div>
 
-<h3 id="g6">⑥ T1–T15 装备购买搭配建议</h3>
+<h4>第二章那把弓的筛选条件（我从他截图里读出来的数字）</h4>
+<table><tr><th style="width:24%">通货</th><th>怎么用</th></tr><tr><td><b>蜕变石 / 增幅石</b></td><td><b>这是唯一可以随便用的两种通货。</b>就用在 16 级和 33 级那两把弓上。</td></tr><tr><td><b>其余通货（点金石、混沌石、崇高石…）</b></td><td><b>全部留着，别乱点。</b>到了 40 级能上拍卖行再用。</td></tr><tr><td><b>时间点</b></td><td>「接近需要打造的等级时，蜕变石和增幅石也留一点，别用完。」</td></tr><tr><td><b>40 级之后</b></td><td><b>40 级后到第四章就可以上拍卖行买便宜弓了。</b>前期不用自己打造，直接买更省。</td></tr><tr><td><b>为什么前期反而不花钱</b></td><td>异界前期<b>掉什么穿什么</b>就行——这段路的怪物强度不高，把通货花在过渡装上纯亏。</td></tr></table>
+
+<!-- ③ -->
+<h3 id="g2">③ 进异界：猎心弓，买低配自己升级</h3>
+<div class="ok">
+ <b>一句话：搜「猎心 反曲弓」，买那个 1 个富豪石的，自己用「死境探险的圆环」升级。</b><br>
+ 升级后就是 <b>物理 110–226 / 投射物分裂至 +2 个目标</b> 的 40 级弓——
+ 直接买升级好的要 <b>10 个崇高石</b>，自己升便宜得多。
+</div>
+<table><tr><th style="width:24%">项目</th><th>怎么做</th></tr><tr><td><b>买哪一只</b></td><td>搜 <b>猎心 反曲弓</b>（国际服名 <b>Splinterheart Recurve Bow</b>，poe2db 写成「裂心之弦」）。</td></tr><tr><td><b>正确买法</b></td><td><b>别买升级好的。</b>先买没升级的（30 级能用 / 物理 36–74 / 1 个富豪石），再用<b>死境探险的圆环</b>给它升级。</td></tr><tr><td><b>升级后</b></td><td>变成<b>符锻反曲弓</b>：需求等级 40、72 敏捷，物理 <b>110–226</b>，投射物<b>分裂至 +2 个目标</b>，10 个崇高石上下。</td></tr><tr><td><b>怎么挑</b></td><td><b>搜 140 以上物理伤害</b>，45 崇高石以内挑着买就行——40 级就能用到 T15。</td></tr><tr><td><b>便宜替代</b></td><td>「1 个富豪石」那只低级的先过渡，40 级再换。<b>「1 个崇高石」这档非常平民。</b></td></tr><tr><td><b>为什么强</b></td><td>投射物分裂 +2 个目标——<b>清图时等于一箭打两片</b>。</td></tr><tr><td><b>重要区分</b></td><td>这是<b>分裂</b>，不是<b>箭矢数量</b>。额外发射箭矢要靠天赋和符文（见下）。</td></tr></table>
+<div class="figrow"><div class="figbox"><a href="images/gear/c3-hunter-base.jpg" target="_blank"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="猎心 反曲弓（未升级）：物理 35–73、投射物分裂至 +2 个目标，1 个富豪石"></a><div class="fcap"><b>猎心 反曲弓</b>（未升级）：物理 35–73、投射物分裂至 +2 个目标，<b>1 个富豪石</b></div></div><div class="figbox"><a href="images/gear/c3-hunter-final.jpg" target="_blank"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="猎心 符锻反曲弓（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，10 崇高石"></a><div class="fcap"><b>猎心 符锻反曲弓</b>（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，<b>10 崇高石</b></div></div></div>
+
+<h4>符文怎么上（弓的 2 个符文位 + 手套的 1 个）</h4>
+<table><tr><th style="width:26%">符文</th><th style="width:10%">部位</th><th>效果</th><th style="width:22%">等级 / 价格</th></tr><tr><td><b>塞丝克伯爵夫人的箭术符文</b></td><td>弓</td><td><b>弓类攻击额外发射 1 支箭矢</b></td><td>等级 50 / 30 多崇高石</td></tr><tr><td><b>萨奇沃的苍空符文</b></td><td>弓</td><td>获得相当于伤害 <b>5% 的所有元素额外伤害</b></td><td>等级 50</td></tr><tr><td><b>雕像</b>（巨熊 / 雄鹿 / 野猪 / 恶狼 / 公牛…）</td><td>手套</td><td><b>攻击速度提高 8%</b></td><td>等级 50 / 2–3 崇高石</td></tr></table>
+<div class="kv" style="padding:7px 0;border-bottom:1px dashed var(--line)">
+ <span style="color:var(--tx2)">上满之后箭矢数量</span>
+ <span style="font-weight:600">「两个符文位：一个上 +1 箭，另一个上全元素额外。」<br>天赋上本来就有 <b>+1 箭</b>，所以两个符文都上齐 = <b>一共 +4 支箭</b>。</span>
+</div>
+<div class="warn"><b>选弓的时候一定要看符文（他的原话）：</b><br>「商店大多数都插了<b>物理% / 元素点伤</b>符文来提高武器 DPS，让武器看起来 DPS 更高，也就更好卖。<br><b>同价位、DPS 差不多时，看符文选择武器</b>（因为符文是要换成 +1 箭和 +5% 全元素的）。<br>还有攻速——攻速会提高总伤害输出。<b>实际上同 DPS、同价位，选没攻速的伤害会更高。</b>当然这不是说攻速不好，只是对比武器时的情况。」</div>
+<div class="figrow"><div class="figbox"><a href="images/gear/c2-rune-arrow.jpg" target="_blank"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢（等级 50）"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b>（等级 50）</div></div><div class="figbox"><a href="images/gear/c2-rune-element.jpg" target="_blank"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢 + 萨奇沃的苍空符文（获得相当于伤害 5% 的所有元素额外伤害）——等级 50"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b> + <b>萨奇沃的苍空符文</b>（获得相当于伤害 5% 的所有元素额外伤害）——等级 50</div></div></div>
+
+<h4>顺手看一眼别的弓（他截图里出现过的）</h4>
+<table><tr><th style="width:13%">弓名</th><th style="width:26%">什么时候用</th><th>说明（他截图里的数字）</th></tr><tr><td><b>遗孀之雹</b></td><td>练级弓</td><td>「增加 235% 从已装备箭袋获得的加成」——搭配高点伤箭袋，剧情能用到 3、4 章，<b>每章都要换高点伤箭袋</b>。1 个富豪石。</td></tr><tr><td><b>白银之舌</b></td><td>转暴击后可换</td><td>暴击 14.08%、附加物理 42–69，能省下很多暴击点投到 inc% 天赋上。<b>1D / 2D 两档。</b></td></tr><tr><td><b>狮眼的战弓</b></td><td>备选</td><td>物理 171–284、+330 命中、+24 敏捷。</td></tr><tr><td><b>毁灭者之弓</b></td><td>后期换</td><td>他挑弓的筛选条件就是「物理 DPS 300+、暴击 9.42+」；截图里 445 DPS 那只 2 崇高石，<b>「1D」那档 308 物理 DPS 是他挑的方向</b>。</td></tr></table>
+<div class="figrow"><div class="figbox"><a href="images/gear/c3-slivertongue.jpg" target="_blank"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="白银之舌符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档"></a><div class="fcap"><b>白银之舌</b>符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档</div></div><div class="figbox"><a href="images/gear/c3-lioneye.jpg" target="_blank"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="狮眼的战弓（重弓）：物理 171–284、+330 命中、+24 敏捷"></a><div class="fcap"><b>狮眼的战弓</b>（重弓）：物理 171–284、+330 命中、+24 敏捷</div></div><div class="figbox"><a href="images/gear/c2-widowhail.jpg" target="_blank"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="遗孀之雹（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓"></a><div class="fcap"><b>遗孀之雹</b>（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓</div></div></div>
+
+<!-- ④ -->
+<h3 id="g3">④ 异界前期：只买 3 件暗金（合计不到 2D）</h3>
+<div class="ok">
+ <b>40 级之后、直到 85 级，你要买的东西就这三件。</b>
+ 他的 0.55 文档专门开了一节「第一天装备购买攻略 / 武器装备购买链接」，给的就是这三件的游戏内搜索名。
+</div>
+<table><tr><th style="width:24%">买什么</th><th>为什么 / 多少钱</th></tr><tr><td><b>① <b>穿抗手</b>｜<b>利奥波德的赞许</b> 刺绣手套</b></td><td><b>整套 BD 就是围绕它建起来的</b>（他自己原话「我们这一套是围绕手套」）。<br>· 击中会让敌人<b>元素抗性最低的一项降到 −50%</b>（正常只能穿到 0）——等于<b>凭空多 50% 输出</b>；<br>· 上面还有一条 <b>+10% 穿透抗性</b>；<br>· 有攻速，对<b>被禁锢（冰冻系）</b>的敌人<b>+50% 伤害</b>；<br>· 价格<b>一两 D</b>（国际服名 Leopold's Applause，poe2db 写「利奥波德的赞许 刺绣手套」，国服玩家叫「穿抗手」）。</td></tr><tr><td><b>② <b>寒焰头</b>｜<b>寒焰</b> 丝绒帽</b></td><td><b>前中期输出 + 生存两头兼顾的廉价头</b>（国际服名 Heatshiver Velvet Cap，国服玩家叫「寒焰头」）。<br>· 敌人身上每有 1% 冰缓幅度 → 你获得等同 1% 冰冷伤害的<b>额外火焰伤害</b>（他实测约等于<b>把 50% 冰冷伤害转成额外火伤</b>）；<br>· 本身带<b>双抗</b>和 400 上下的护甲值（他买的那只）；<br>· <b>十几崇高石一个</b>。</td></tr><tr><td><b>③ <b>猎心弓</b>｜符锻反曲弓</b></td><td>40 级武器，见上面 ②。<b>这三件加起来不到 2D，就是第一天的全部投入。</b></td></tr></table>
+<div class="warn"><b>剩下的位置（衣服 / 项链 / 戒指 / 腰带 / 鞋）：掉落什么穿什么。</b><br>两个硬要求：<b>抗性尽量往 75% 堆</b>、<b>智力要够 64</b>（穿抗手要 64 智力，不够就戴不上）。</div>
+<div class="figrow"><div class="figbox"><a href="images/gear/c2-gloves-sine.jpg" target="_blank"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="公理不存恢弘袖口：累积禁锢达 50% 时即禁锢敌人（而非 100%）、+35% 对被禁锢敌人的伤害，19 崇高石"></a><div class="fcap"><b>公理不存</b>恢弘袖口：<b>累积禁锢达 50% 时即禁锢敌人（而非 100%）</b>、+35% 对被禁锢敌人的伤害，<b>19 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="寒焰丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，1 崇高石"></a><div class="fcap"><b>寒焰</b>丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，<b>1 崇高石</b></div></div></div>
+<div class="warn">
+ <b>穿抗手的门槛（很容易买回来戴不上）：</b>需要 <b>64 智力</b>。
+ 智力不够就先用项链 / 戒指补属性，或者把这只手套先放着。<br>
+ <b>买之前一定看：等级需求 + 属性需求 + 有没有被污染。</b>
+</div>
+
+<h4>核心暗金的性质对比（穿抗手为什么是核心）</h4>
+<table><tr><th style="width:13%">装备</th><th style="width:26%">价格</th><th>效果</th></tr><tr><td><b>穿抗手</b></td><td><b>一两 D</b></td><td>击中让敌人<b>元素抗性最低的一项降到 −50%</b>（正常只能穿到 0）→ 等于多 50% 输出。<b>整套 BD 围绕它建。</b></td></tr><tr><td><b>拉齐塔的流动</b></td><td><b>60D / 100D</b></td><td>把怪物的元素抗性<b>反转</b>（抗性超过 50 的怪非常少）。<b>买不起它，但穿抗手能替代它。</b></td></tr><tr><td><b>两者关系</b></td><td>—</td><td>「戴上穿抗手，天赋这边点 4 点那边点 3 点，就能到 85% 穿透。怪物只要不高于 35% 的穿透抗性，基本都能吃满这 −50%。」</td></tr></table>
+
+<!-- ⑤ -->
+<h3 id="g4">⑤ 各部位怎么挑 — 从头到脚一张表</h3>
 <div class="danger">
- <b>核心原则：优先凑满元素抗性（火冰电），再提升伤害。</b><br>
- 注意<b>混沌不是元素</b>，元素抗性增加不了。所以装备上最好有 <b>1–2 条混沌抗</b>。
+ <b>前期的选装顺序是固定的，别倒过来：</b><br>
+ <b>① 抗性（火 / 冰 / 电凑到 75%）→ ② 属性（敏捷 / 智力够门槛）→ ③ 生命 / 护盾 → ④ 才轮到伤害。</b><br>
+ 买装顺序反了（先追伤害）的结果就是：抗性不够，一进异界就被秒，然后继续死。
 </div>
-<table><tr><th style="width:26%">步骤</th><th>说明</th></tr><tr><td><b>第一步</b></td><td><b>优先凑满元素抗性（火冰电），再提升伤害</b>。</td></tr><tr><td><b>注意</b></td><td><b>混沌不是元素</b>，元素抗性增加不了。所以装备上最好有 1–2 条混沌抗。</td></tr><tr><td><b>配装目标</b></td><td>从<b>项链 + 戒指 + 腰带共 4 件</b>里凑齐元素抗性，并且至少 <b>2 条混沌抗</b>，就能轻松刷 T15。</td></tr><tr><td><b>购买提醒</b></td><td><b>注意等级需求和属性需求</b>，买来等级不够用不了。</td></tr><tr><td><b>属性门槛</b></td><td>最好的弓要 <b>163 敏捷</b>；盾头要 <b>115 智力</b>。</td></tr></table>
+<table><tr><th style="width:13%">部位</th><th style="width:26%">怎么选</th><th>说明</th></tr><tr><td><b>项链</b></td><td><b>精魂 + 投射物等级 + 抗性</b></td><td>词缀顺序：<b>把抗性凑满</b> &gt; 投射物等级。<br><b>前期不需要精魂</b>——100 精魂就够用：「有 100 精魂就能开幻影射手 60 + 寒冰之捷 30 + 风舞者 30 中的一个组合；没有精魂就先别开风舞者。」<br>他第二天用的是「抗性 + 精魂」的普通项链（<b>43 精魂 + 10</b> 那种，找个 <b>40+10</b> 就够，再带一条 30 抗）。</td></tr><tr><td><b>戒指</b></td><td><b>点伤 + 生命 + 抗性 + 属性</b></td><td>前缀：<b>点伤越多越好</b>，三点伤最贵 → 两点伤 + 生命 / 百分比冰冻伤害也行。<br>后缀：<b>抗性 + 属性</b>（敏捷/智力）——属性不够，头和手都戴不上。<br>抗性和属性达标后，再补一条 <b>T2 以上的击杀回魔（20 左右）</b>，或者「以物理攻击偷取魔力」。<br>蓝不够就把一个伤害词条换成<b>傲星之士</b>（偷蓝）。<br>暗金戒指 <b>意志呼唤</b>（电转冰）——只适合开服最前期，现在便宜的戒指很多，用不上了。</td></tr><tr><td><b>衣服</b></td><td><b>高闪避 + 抗性</b>（+ 偏斜）</td><td>前缀：高闪避% + 闪避 &gt; 精魂 &gt; 生命。<br>· 第二天找 <b>2000 闪避</b>左右的，带一条抗性（他那只 30–40 崇高石，便宜的一 D 以内）；<br>· 抗性补满之后再追<b>闪避转偏斜</b>（这条比较贵，自己考虑）；<br>· 之后升级方向是 <b>3000+ 闪避 + 闪避转偏斜</b>（他截图里 35–40 崇高石的 2164 闪避那种）。</td></tr><tr><td><b>头盔</b></td><td><b>高护盾 + 抗性 + 智慧</b></td><td>前缀：高能量护盾 ≥ 护盾% &gt; 生命 &gt; 稀有度。<br>后缀：抗性 &gt; 稀有度 &gt; 智慧 &gt; 暴击（后期）。<br>「盾头需要高智慧」——智力不够就先从戒指和项链上找。</td></tr><tr><td><b>手套</b></td><td>点伤 &gt; 闪避/护盾 &gt; 生命；后缀抗性 &gt; 攻速</td><td>穿抗手之外，手套还能承担<b>点伤</b>和<b>攻速</b>。</td></tr><tr><td><b>腰带</b></td><td>抗性 + 生命 + 力量</td><td>尽量从其他部位多凑抗性，把腰带留给力量（<b>猎首要求 34+ 力量</b>）。<br>中期用<b>夜临</b>，后期换<b>猎首</b>（见 ④）。</td></tr><tr><td><b>鞋子</b></td><td><b>移速（必须）</b> + 闪避/护盾 + 抗性</td><td>「主要找一个移速 <b>25 以上、30 以上更好</b>，然后找一个闪避跟护盾的鞋——护盾能加一点是一点。」<br>满足抗性之后，后缀再追一条<b>偏斜值</b>；没有的话<b>三抗鞋也行</b>。<br>「前期闪避比较低，那点偏斜加得不多，<b>不要偏斜也行</b>；要加得多得衣服上也来一条。」</td></tr><tr><td><b>护符 / 药水</b></td><td><b>解冻 · 猛攻 · 免疫点燃</b></td><td>护符就用这三个。药水<b>恢复生命越高越好</b>。有钱可以上猪的黄金护符：<b>20% 火伤 + 20% 减伤</b>。</td></tr></table>
+<div class="figrow"><div class="figbox"><a href="images/gear/c4-amulet.jpg" target="_blank"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="项链：全部投射物技能等级 +3 + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，1D"></a><div class="fcap">项链：<b>全部投射物技能等级 +3</b> + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，<b>1D</b></div></div><div class="figbox"><a href="images/gear/c2-chest-rare.jpg" target="_blank"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，1 崇高石"></a><div class="fcap">稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c1-boots-evdodge.jpg" target="_blank"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、获得等同 15% 闪避值的偏斜值，35 / 40 崇高石两档"></a><div class="fcap">闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、<b>获得等同 15% 闪避值的偏斜值</b>，35 / 40 崇高石两档</div></div><div class="figbox"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="独闯实用腰带：2 个护符栏位、+23% / +21% 戒指属性，1 崇高石"></a><div class="fcap"><b>独闯</b>实用腰带：2 个护符栏位、<b>+23% / +21% 戒指属性</b>，1 崇高石</div></div></div>
+
+<!-- ⑥ -->
+<h3 id="g5">⑥ 抗性、属性、偏斜：什么时候才管</h3>
+<table><tr><th style="width:24%">项目</th><th>结论</th></tr><tr><td><b>元素抗性上限</b></td><td><b>75%</b>（游戏里能堆到上限 90%，但前期目标就是 75%）。</td></tr><tr><td><b>三抗怎么凑</b></td><td><b>从项链 + 戒指 + 腰带共 4 件里凑齐元素抗性</b>，就算成功。</td></tr><tr><td><b>混沌抗</b></td><td><b>混沌不是元素</b>，元素抗性增加不了混沌抗。所以装备上最好有 <b>1–2 条混沌抗</b>。</td></tr><tr><td><b>属性门槛</b></td><td>最好的弓要 <b>163 敏捷</b>；盾头要 <b>115 智力</b>；穿抗手要 <b>64 智力</b>。</td></tr><tr><td><b>买之前看什么</b></td><td><b>注意等级需求和属性需求</b>——买来等级不够、属性不够，用不了。</td></tr><tr><td><b>顺序</b></td><td><b>优先凑满元素抗性（火冰电），再提升伤害。</b></td></tr><tr><td><b>什么时候堆混沌抗</b></td><td>「赋予之后我们再开始多云混沌」——<b>前期不用急着堆混沌抗</b>，抗性补满之后再说。</td></tr><tr><td><b>什么时候堆偏斜</b></td><td>「偏斜值前期缺伤害的时候是不太考虑的。<b>等伤害提起来之后</b>，再把生存圈那 9 点挪一部分过来。」</td></tr></table>
+<div class="figrow"></div>
+
+<!-- ⑦ -->
+<h3 id="g6">⑦ 转暴击（约 70 级）+ 第二套（约 30D）</h3>
+<table><tr><th style="width:24%">问题</th><th>答案</th></tr><tr><td><b>武器</b></td><td>转暴击换弓，这把弓<b>便宜得离谱</b>：<br>· 200 亿（20 亿？他口述）一个，<b>10 亿以内能买到暴击 5% 以上的</b>；<br>· 「打满大概 178 点伤，暴击率 15 左右」；<br>· <b>5.5% 以上就够用了</b>，挑升级过的版本。</td></tr><tr><td><b>暴击数值怎么搜弓</b></td><td>前期过渡：<b>最少 3.5</b> ／ 搜 T2 以上：设 <b>3.81</b> ／ 搜 T1：设 <b>4.41</b>。<br>「比如你弓暴击是 4.41，就可以用<b>神圣石</b>让暴击 ROLL 值变高——<b>这个操作是在你弓比较好的情况下再做</b>。」</td></tr><tr><td><b>什么时候转</b></td><td><b>70 级左右就可以转暴击</b>（非暴击天赋看开荒视频）。</td></tr><tr><td><b>要准备什么</b></td><td><b>转暴击需要留 100 万金币洗点。</b></td></tr><tr><td><b>双天赋</b></td><td>不会双天赋的先看他的视频（「391 手把手点双天赋」）。</td></tr></table>
+<h4>第二套的每一件（他的实际配置）</h4>
+<table><tr><th style="width:13%">部位</th><th style="width:26%">买什么</th><th>细节 / 价格</th></tr><tr><td><b>武器</b></td><td><b>猎心弓</b>（符锻反曲弓）或转暴击用的高暴击弓</td><td>20D 以内最好的非攻速弓；「1D」那只 308 物理 DPS 就是他挑的方向</td></tr><tr><td><b>手套</b></td><td><b>穿抗手</b>（利奥波德的赞许）</td><td>19 崇高石上下；<b>前中期都能用</b></td></tr><tr><td><b>头盔</b></td><td>高护盾 + 双抗的头，<b>约 350 护盾</b></td><td>「找个 300 左右的、双抗 65 的」，大约 1D 多一点，换完约 750 护盾</td></tr><tr><td><b>衣服</b></td><td><b>2000 闪避</b> + 抗性，之后追闪避转偏斜</td><td>他的原话：2000 闪避 + 单抗大约「三四十几近一 D」；不要抗性的更便宜</td></tr><tr><td><b>项链</b></td><td><b>抗性 + 精魂</b>（40+10 那种）</td><td>有了项链就可以不用在戒指上找精魂；「项链 + 手套」这两件要搭配起来看</td></tr><tr><td><b>腰带</b></td><td><b>独闯</b>（Ingenuity 实用腰带）<b>或夜临</b></td><td>独闯做 2 个护符栏位、加左手/右手戒指属性；夜临是 <b>90 级以上 / 视为手套</b>，镶嵌物效果 50–100%</td></tr><tr><td><b>戒指</b></td><td>点伤 + 生命 + 抗性 + 属性（后补击杀回魔 T2 以上）</td><td>「一两 D 买的、30 亿买的、155 亿买的」——他自己也是混着便宜的买</td></tr><tr><td><b>鞋子</b></td><td><b>25–30 移速</b> + 闪避/护盾 + 抗性 + 偏斜</td><td>三抗鞋也行</td></tr><tr><td><b>护符</b></td><td>解冻 + 猛攻 + 免疫点燃</td><td>—</td></tr><tr><td><b>天赋宝石</b></td><td>蓝宝石：2% 击杀回蓝 + 2 条伤害｜绿宝石：6 条选 3｜绿色范围宝石：8 条选 3–4<br>泉水之心：双额外（只要冰闪）｜力抗黑暗：双额外（有钱再上）</td><td>默认 4 孔：<b>1 蓝 + 2 绿 + 1 泉水</b></td></tr></table>
+<div class="ok" style="margin-top:10px">
+ <b>他自己的状态（第二天录视频时 92 级）：</b>
+ 1400 生命 / 900 护盾 / 50% 闪避 / 24% 偏斜 / <b>三抗全满</b> / 混沌抗 51%。<br>
+ 「这一套已经够对付这个阶段了。」整套造价 <b>20D + 箭袋 10D = 30D 左右</b>。
+</div>
+<div class="figrow"></div>
+
+<h4>他的宝物 / 宝石（这一段才是后期的主要花销）</h4>
+<div class="figrow"><div class="figbox"><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="无根之源宝钻：范围共鸣内的天赋可以在没有连线的情况下配置"></a><div class="fcap"><b>无根之源</b>宝钻：范围共鸣内的天赋可以在没有连线的情况下配置</div></div><div class="figbox"><a href="images/gear/c2-jewel-green.jpg" target="_blank"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="时迭绿宝石（范围非常大）：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，200D"></a><div class="fcap"><b>时迭绿宝石（范围非常大）</b>：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，<b>200D</b></div></div><div class="figbox"><a href="images/gear/c2-jewel-diamond.jpg" target="_blank"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="双额外钻石：3% 额外冰冷 + 4% 额外闪电，550D"></a><div class="fcap">双额外钻石：3% 额外冰冷 + 4% 额外闪电，<b>550D</b></div></div></div>
+
+<!-- ⑧ -->
+<h3 id="g7">⑧ 中期 → 后期：钱要花在哪</h3>
+<table><tr><th style="width:24%">顺序</th><th>做什么</th></tr><tr><td><b>先存 D 买「<b>拉齐塔的流动</b>」</b></td><td>大概 <b>100D</b>。让<b>怪物抗性反转，高抗变负抗</b>。<br>物价稳定、不容易掉价。（他自己用的是 60D 的暗金版；国际服名 Lairada's Flow）</td></tr><tr><td><b>再存 D 买「<b>猎首</b>」</b></td><td><b>200D</b>。效果：杀死稀有怪物时获得它的词缀，持续 60 秒。<b>有了猎首就可以打迷雾 200 了。</b></td></tr><tr><td><b>进阶操作</b></td><td>有了拉齐塔后又存 100D → <b>把拉齐塔卖掉凑钱买猎首</b> → 有了猎首再攒钱把拉齐塔买回来。<b>猎首重要性 &gt; 拉齐塔</b>。</td></tr><tr><td><b>缺伤害</b></td><td>补上更好的弓。</td></tr><tr><td><b>缺生存</b></td><td>把<b>头、鞋都换成护盾体系</b>；衣服换 <b>3000+ 闪避 + 闪避转偏斜</b>。</td></tr><tr><td><b>别急着打</b></td><td>这个时候<b>别急着打 200 迷雾</b>——伤害不够、生存也不够，很便秘。</td></tr></table>
+<h4>后期</h4>
+<table><tr><th style="width:24%">项目</th><th>内容</th></tr><tr><td><b>怒火项链</b></td><td>便宜提升。<b>注意怒火需要大量力量值。</b>有了猎首再补这个项链，<b>全程 30% 总增伤</b>。</td></tr><tr><td><b>天赋宝石</b></td><td><b>冰霜射击等级 +3</b>，大概每级提升 10% 总增伤。（他交易页搜出来是 <b>388D</b>，只有 11 条在售）</td></tr><tr><td><b>从无到有</b></td><td>用<b>无根之源（From Nothing）</b>在共鸣圈内点核心天赋点，再加上<b>范围非常大的绿宝石</b>，拿到更多暴击爆伤。（绿宝石截图 <b>200D</b>，双额外钻石 <b>550D</b>）</td></tr><tr><td><b>「决心」</b></td><td>⚠ <b>约 300D，我没能独立核实这件装备。</b></td></tr></table>
+
+<!-- ⑨ -->
+<h3 id="g8">⑨ 攒钱与通货</h3>
+<table><tr><th style="width:24%">项目</th><th>内容</th></tr><tr><td><b>推荐打法</b></td><td>中期可以<b>攻坚打 BOSS 赚 D。只推荐「迷雾祭坛 BOSS」</b>，需要先做完任务。</td></tr><tr><td><b>门票成本</b></td><td>最便宜门票 5 张共 <b>30E</b>。</td></tr><tr><td><b>产出</b></td><td>4 件装备都值钱（猿神用户需求多）。<b>装备不好卖就降价——卖出去才是 D。</b></td></tr><tr><td><b>其他掉落</b></td><td>BOSS 还掉 <b>50D 插槽</b>。</td></tr><tr><td><b>做法</b></td><td>打满品质 → 开孔 → 瓦尔宝珠；祭坛任务区放 5 个暗影呼唤（共 30E）→ 开启 BOSS。</td></tr><tr><td><b>难度</b></td><td>BOSS 大概 2000 万血，<b>很简单</b>。攻坚 BOSS 可以死无数次。</td></tr><tr><td><b>小贴士</b></td><td>注意 BOSS 音量，最好关闭音效。</td></tr><tr><td><b>进阶</b></td><td>带<b>战旗</b>、<b>驳斥</b>（格挡增伤），技能宝石换成伤害类。熟练后可换多里亚尼天赋。</td></tr><tr><td><b>他的实际收入</b></td><td>他截图里的销售记录：毁灭者之弓 <b>198D</b>、时迭绿宝石 <b>55D</b>、潜能之戒 <b>55D</b>、暗金弓 35D / 2D / 5D、魔道权杖 15D / 35D / 4D / 9D、野性标记 2D / 11D / 77E。</td></tr></table>
+<h4>通货怎么换（他截图里的实际比率）</h4>
+<table><tr><th style="width:24%">方向</th><th>比率 / 做法</th></tr><tr><td><b>崇高石 → 混沌石</b></td><td>他视频里市场比率是 <b>1 : 3 ~ 1 : 6.5</b> 一档一档挂（他用的是 1:2.5 / 1:3 那档）。</td></tr><tr><td><b>混沌石 → 崇高石</b></td><td>前期没有崇高石，<b>去通货兑换 NPC 把混沌石换成崇高石</b>。他挂的是 <b>22.92 : 1</b>。</td></tr><tr><td><b>注意</b></td><td>「物价自己参考，<b>开服跟现在不同</b>。」他第二天录视频时说箭袋「明天可能会掉到 6D」。</td></tr></table>
 <div class="ok">
- <b>绿框（头 / 鞋 / 手）选暗金：</b>敏锐敕令护面盔 + 公理不存手镯 + 阿兹里的金履<br>
- <b>蓝框（衣服）选高闪避：</b>2100+ 闪避，带闪避转偏斜，带 50 抗性，现在很便宜（也可以选盾闪衣服）<br>
- <b>红框（首饰）：</b>项链投射物等级+抗性 · 戒指伤害/抗性/一条击杀回蓝 · 腰带力量/抗性或换暗金腰带
+ <b>他的销售记录（截图里的真实数字）</b>：毁灭者之弓 <b>198D</b>、时迭绿宝石 <b>55D</b>、潜能之戒 <b>55D</b>、
+ 魔道权杖 15D / 35D / 9D / 4D、野性标记 2D / 11D / 77E、暗金弓 35D / 5D / 2D。<br>
+ <b>一晚上能出 200D+ 的货</b>，所以中期「打迷雾 BOSS 赚 D」这条路是走得通的。
 </div>
+<div class="figrow"><div class="figbox"><a href="images/gear/c9-money-log.jpg" target="_blank"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="攻坚 BOSS 的销售记录：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2…"></a><div class="fcap"><b>攻坚 BOSS 的销售记录</b>：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2–11D</div></div><div class="figbox"><a href="images/gear/c9-money-log2.jpg" target="_blank"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="销售记录（续）：暗金弓 1–5D 一档也卖得掉——「卖出去才是 D」"></a><div class="fcap">销售记录（续）：暗金弓 1–5D 一档也卖得掉——<b>「卖出去才是 D」</b></div></div><div class="figbox"><a href="images/gear/c9-currency-exchange.jpg" target="_blank"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="通货兑换界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 1:2.5 ~ 1:6.5 一档一档挂（他有 1:3、1:5、…"></a><div class="fcap"><b>通货兑换</b>界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 <b>1:2.5 ~ 1:6.5</b> 一档一档挂（他有 1:3、1:5、1:6.31 等），底下显示「我拥有的：崇高石 1/10」</div></div><div class="figbox"><a href="images/gear/c9-boss.jpg" target="_blank"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）"></a><div class="fcap">攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）</div></div></div>
 
-<h3 id="g7">⑦ 护符推荐</h3>
-<div class="kv" style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px dashed var(--line)">
- <span style="color:var(--tx2)">优先选</span><span style="font-weight:600">减速猛攻 · 免疫冰冻 · 免疫点燃</span>
+<!-- ⑩ -->
+<h3 id="g9">⑩ 现成的搜索入口（别自己瞎点）</h3>
+<table><tr><th style="width:24%">入口</th><th>里面有什么</th></tr><tr><td><b>0.55 锐眼开荒 · 第一天全部买装链接</b></td><td>他在 9 月 7 日的文档里专门加了一节「第一天装备购买攻略 / 武器装备购买链接」。<b>裂心弓、寒焰头、穿抗手</b>三个都给了游戏内搜索名 + 网页搜索链接。</td></tr><tr><td><b>0.5 冰射 前中后期的装备搭配</b></td><td><b>头 / 手 / 鞋 / 衣服 / 项链 / 戒指 / 腰带 / 护符 / 宝石</b>各一条<b>国服交易页直链</b>，外加国际服对应链接。</td></tr><tr><td><b>他的参考角色（可以直接导入 BD）</b></td><td>poe.ninja 上的角色页，点 <b>Build Planner</b> 按钮就能下载 <code>.build</code> 文件。</td></tr></table>
+<div class="warn">
+ <b>点这里直接去：</b>
+ <a href="https://www.bilibili.com/opus/1244113182261248006" target="_blank">第一天装备购买攻略（0.55 文档）↗</a> ·
+ <a href="https://www.bilibili.com/opus/1215366068527169545" target="_blank">前中后期装备搭配（国服直链）↗</a> ·
+ <a href="https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites/character/%E7%BD%91%E7%98%BE%E8%80%81%E5%B9%B4%E4%BA%BA%E5%86%B0%E5%B0%84" target="_blank">他的参考角色（可导入 BD）↗</a>
 </div>
-<p>有钱可以选择黄金护符，推荐使用猪的：<b>20% 火伤 + 20% 减伤</b></p>
+<div class="warn"><b>国服交易搜索的正则（他给的，用于筛选商店 / 商人刷新）：</b><br><code>闪避|护盾|护甲|弓 移动|技能等级|%物理伤害|附加|攻击元素|找到的物品|品质|攻击速度</code><br>游戏内按 <b>/</b> 打开拍卖行；买之前注意<b>等级需求</b>和<b>属性需求</b>。</div>
 
-<h3 id="g8">⑧ 暴击转换</h3>
-<table><tr><th style="width:26%">问题</th><th>答案</th></tr><tr><td><b>什么时候转</b></td><td>非暴击天赋看之前开荒视频，<b>70 级左右就可以转暴击</b><br>（也有说法是不用双天赋，只走暴击单天赋也行）</td></tr></table>
-<table><tr><th style="width:26%">要准备什么</th><th>说明</th></tr><tr><td><b>要准备什么</b></td><td><b>转暴击需要留存 100 万金币洗点</b></td></tr><tr><td><b>双天赋</b></td><td>不会双天赋的先看他视频（391 手把手点双天赋）</td></tr></table>
-
-<h3 id="g9">⑨ 天赋宝石选择</h3>
-<p><b>默认 4 孔：1 蓝 + 2 绿 + 1 泉水。</b></p>
-<table><tr><th style="width:26%">宝石</th><th>要求</th></tr><tr><td><b>蓝宝石</b></td><td>2% 击杀回蓝 + 2 条伤害词条　可选加盾</td></tr><tr><td><b>绿宝石</b></td><td>6 条词缀选 3</td></tr><tr><td><b>绿色范围宝石</b></td><td>8 条词缀选 3–4 条</td></tr><tr><td><b>泉水之心</b></td><td>双额外，只要冰闪</td></tr><tr><td><b>力抗黑暗</b></td><td>双额外（有钱再上）　单额外冰 16D / 闪电 8D（国服价）</td></tr></table>
-
-<h3 id="g10">⑩ 中期装备提升（提升顺序）</h3>
-<table><tr><th style="width:26%">阶段</th><th>做什么</th></tr><tr><td><b>先存 D 买「<b>拉齐塔的流动</b>」</b></td><td>大概 100D。<b>可让怪物抗性反转，高抗变负抗</b>，提升刷图效率。<br>物价稳定、不容易掉价。</td></tr><tr><td><b>再存 D 买「<b>猎首</b>」</b></td><td>200D。<b>有了猎首就可以打迷雾 200 了。</b></td></tr><tr><td><b>进阶操作</b></td><td>有了拉齐塔后又存 100D → <b>把拉齐塔卖掉凑钱买猎首</b> → 有了猎首再攒钱把拉齐塔买回来。<b>猎首重要性 &gt; 拉齐塔</b>。</td></tr><tr><td><b>缺伤害</b></td><td>补上更好的弓</td></tr><tr><td><b>缺生存</b></td><td>把<b>头、鞋都换成盾的</b>；衣服换 3000+ 闪避 + 闪避转偏斜</td></tr><tr><td><b>最后</b></td><td>看情况补「<b>决心</b>」约 300D</td></tr><tr><td><b>注意</b></td><td>这个时候<b>别急着打 200 迷雾</b>——伤害不够、生存也不够，很便秘</td></tr></table>
-
-<h3 id="g11">⑪ 后期装备提升</h3>
-<table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>便宜的提升</b></td><td><b>怒火项链</b>（注意怒火需要大量力量值）。有了猎首后，猎首 +70 属性再补这个项链，<b>全程 30% 总增伤</b></td></tr><tr><td><b>天赋宝石</b></td><td><b>冰射等级 +3</b>，大概每等提升 10% 总增伤</td></tr><tr><td><b>从无到有</b></td><td>用「从无到有」在共鸣圈内点核心天赋点，再加上范围非常大的绿宝石，<b>拿到更多暴击爆伤</b></td></tr><tr><td><b>也可以上</b></td><td>力抗黑暗 双额外</td></tr></table>
-
-<h3 id="g12">⑫ 赚 D 技巧</h3>
-<div class="warn"><b>中期可以攻坚打 BOSS 赚 D。原文只推荐「迷雾祭坛 BOSS」，需要先做完任务。</b></div>
-<table><tr><th style="width:26%">项目</th><th>内容</th></tr><tr><td><b>推荐打法</b></td><td><b>中期可以攻坚打 BOSS 赚 D。只推荐「迷雾祭坛 BOSS」</b>，需要先做完任务</td></tr><tr><td><b>门票成本</b></td><td>最便宜门票 5 张共 30E</td></tr><tr><td><b>产出</b></td><td>4 件装备都值钱（猿神用户需求多）。<b>装备不好卖就降价——卖出去才是 D</b></td></tr><tr><td><b>其他掉落</b></td><td>BOSS 还掉落 <b>50D 插槽</b></td></tr><tr><td><b>做法</b></td><td>打满品质 → 开孔 → 瓦尔宝珠<br>祭坛任务区放 5 个暗影呼唤（共 30E）→ 开启 BOSS</td></tr><tr><td><b>难度</b></td><td>BOSS 大概 2000 万血，<b>很简单</b>。攻坚 BOSS 可以死无数次</td></tr><tr><td><b>小贴士</b></td><td>注意 BOSS 音量，最好关闭音效</td></tr><tr><td><b>进阶</b></td><td>带<b>战旗</b>、<b>驳斥</b>（格挡增伤），技能宝石插槽换上伤害类。熟练后可换多里亚尼天赋</td></tr></table>
-
-<h3>装备速查（国服交易链接）</h3>
+<!-- ⑪ -->
+<h3 id="g10">⑪ 他的截图（我用 OCR 逐张读过，56 张）</h3>
 <div class="ok">
- <b>游戏内按 <code>/</code> 可以进入拍卖行查看装备。</b><br>
- 前期没有崇高石，可以通过<b>通货兑换 NPC 把混沌石换成崇高石</b>。物价自己参考，开服跟现在不同。
+ <b>为什么这里有图：</b>B 站 CDN <b>禁止外部网站引用</b>（带 GitHub 的 Referer 会返回 403），
+ 所以我下载压缩后放到这里。图片版权归<b>网瘾老年人lowK</b>，我没改动内容。<br>
+ <b>说明文案是我用 macOS 内置的 Vision 逐张 OCR 读出上面的文字和数字之后写的</b>——
+ 所以「445 DPS / 2 崇高石」这种数字是<b>截图里真实写着的</b>，不是我猜的。
+ 带 <b>⚠</b> 的地方是我<b>没能独立核实</b>的。
 </div>
-<p style="font-size:13px">
- 原文档给了大量<b>国服交易页直链</b>（头/手/鞋/衣服/项链/戒指/腰带/护符/宝石各自一条，加上国际服对应链接）。
- 链接太长且带会话参数，我这里不逐个复制——
- <b>建议直接打开原文档点</b>：
- <a href="https://www.bilibili.com/opus/1215366068527169545" target="_blank">0.5冰射 前中后期的装备搭配 ↗</a>
-</p>
-
-<h3>前期异界之外的：怎么打造弓</h3>
-<div class="warn">
- <b>16 级反曲弓（来自 0.55 文档）</b><br>
- ① 去第二章武器 NPC 处，买<b>白色或蓝色点伤弓</b>（蓝色后缀的）<br>
- ② 用<b>蜕变石 + 增幅石</b>强化，洗高点伤或高物理%<br>
- ③ 判断标准：<b>仅 1 个前缀就达到 23-46 点伤</b>，非常值得打造<br>
- <span style="font-size:13px">对比：人马掉的弓虽然 5 词条，点伤也只有 20-59</span>
-</div>
-<div class="warn">
- <b>通货使用纪律（来自 0.55 文档）</b><br>
- · 前期一般<b>只用蜕变石和增幅石</b>，其余通货留着，<b>16 级和 33 级</b>用来打造弓<br>
- · 接近需要打造的等级时，蜕变石和增幅石也留一点，别用完<br>
- · <b>40 级后到第四章就可以上拍卖行买便宜弓了</b>
-</div>
-<div class="warn">
- <b>蓝装词缀机制</b><br>
- · 蓝装<b>必定 1 前 1 后</b>。如果弓已有后缀，用增幅石<b>必定出前缀</b><br>
- · 比较烂的过渡蓝弓，没必要浪费通货<br>
- · 好的点伤蓝弓，可以试着点出<b>攻速或技能等级</b><br>
- · 手套通过已有后缀来点出前缀点伤<br>
- · 物品等级最好 <b>≥ 8</b> 再投入增幅石
-</div>
+<div class="figgrid"><div class="figbox"><a href="images/gear/c4-trade-filter.jpg" target="_blank"><img src="images/gear/c4-trade-filter.jpg" loading="lazy" alt="交易筛选器：物理 DPS 300、暴击率 9.42、最低价上限 1000（等值崇高石）——这就是他挑弓的筛选条件"></a><div class="fcap">交易筛选器：物理 DPS <b>300</b>、暴击率 <b>9.42</b>、最低价上限 1000（等值崇高石）——这就是他挑弓的筛选条件</div></div><div class="figbox"><a href="images/gear/c5-devastator.jpg" target="_blank"><img src="images/gear/c5-devastator.jpg" loading="lazy" alt="毁灭者之弓：物理 151–280、暴击 9.90%、附加 81–111 火伤，已污染，40 崇高石"></a><div class="fcap"><b>毁灭者之弓</b>：物理 151–280、暴击 9.90%、附加 81–111 火伤，已污染，40 崇高石</div></div><div class="figbox"><a href="images/gear/c5-devastator-cheap.jpg" target="_blank"><img src="images/gear/c5-devastator-cheap.jpg" loading="lazy" alt="另一只毁灭者之弓（奇蹟真眼）：物理 196–364、闪电 1–117，1 神圣石——「1D」这档他挑的方向"></a><div class="fcap">另一只<b>毁灭者之弓</b>（奇蹟真眼）：物理 196–364、闪电 1–117，<b>1 神圣石</b>——「1D」这档他挑的方向</div></div><div class="figbox"><a href="images/gear/c2-bow-theory.jpg" target="_blank"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="后缀那句「暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命(回蓝)」…"></a><div class="fcap"><b>后缀那句「暴击 &gt; 额外几率箭 &gt; 等级 &gt; 暴击伤害 &gt; 攻速 &gt; 击杀回生命(回蓝)」的原文档图</b></div></div><div class="figbox"><a href="images/gear/c3-hunter-base.jpg" target="_blank"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="猎心 反曲弓（未升级）：物理 35–73、投射物分裂至 +2 个目标，1 个富豪石"></a><div class="fcap"><b>猎心 反曲弓</b>（未升级）：物理 35–73、投射物分裂至 +2 个目标，<b>1 个富豪石</b></div></div><div class="figbox"><a href="images/gear/c3-hunter-final.jpg" target="_blank"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="猎心 符锻反曲弓（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，10 崇高石"></a><div class="fcap"><b>猎心 符锻反曲弓</b>（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，<b>10 崇高石</b></div></div><div class="figbox"><a href="images/gear/c3-slivertongue.jpg" target="_blank"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="白银之舌符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档"></a><div class="fcap"><b>白银之舌</b>符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档</div></div><div class="figbox"><a href="images/gear/c3-lioneye.jpg" target="_blank"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="狮眼的战弓（重弓）：物理 171–284、+330 命中、+24 敏捷"></a><div class="fcap"><b>狮眼的战弓</b>（重弓）：物理 171–284、+330 命中、+24 敏捷</div></div><div class="figbox"><a href="images/gear/c2-widowhail.jpg" target="_blank"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="遗孀之雹（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓"></a><div class="fcap"><b>遗孀之雹</b>（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓</div></div><div class="figbox"><a href="images/gear/c2-rune-arrow.jpg" target="_blank"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢（等级 50）"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b>（等级 50）</div></div><div class="figbox"><a href="images/gear/c2-rune-element.jpg" target="_blank"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢 + 萨奇沃的苍空符文（获得相当于伤害 5% 的所有元素额外伤害）——等级 50"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b> + <b>萨奇沃的苍空符文</b>（获得相当于伤害 5% 的所有元素额外伤害）——等级 50</div></div><div class="figbox"><a href="images/gear/c4-amulet.jpg" target="_blank"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="项链：全部投射物技能等级 +3 + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，1D"></a><div class="fcap">项链：<b>全部投射物技能等级 +3</b> + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，<b>1D</b></div></div><div class="figbox"><a href="images/gear/c4-ring-call.jpg" target="_blank"><img src="images/gear/c4-ring-call.jpg" loading="lazy" alt="意志呼唤黄玉戒指：冻结积累 +30%、100% 闪电伤害转冰霜，1 崇高石"></a><div class="fcap"><b>意志呼唤</b>黄玉戒指：冻结积累 +30%、100% 闪电伤害转冰霜，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="寒焰丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，1 崇高石"></a><div class="fcap"><b>寒焰</b>丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c3-helm-acuity.jpg" target="_blank"><img src="images/gear/c3-helm-acuity.jpg" loading="lazy" alt="敏锐法令远古面甲：护甲 732 + 闪避 667、+31 敏捷、26% 闪避转额外护甲"></a><div class="fcap"><b>敏锐法令</b>远古面甲：护甲 732 + 闪避 667、+31 敏捷、<b>26% 闪避转额外护甲</b></div></div><div class="figbox"><a href="images/gear/c2-chest-siris.jpg" target="_blank"><img src="images/gear/c2-chest-siris.jpg" loading="lazy" alt="西里的战衣铠装背心：闪避 1242、15% 额外冰霜伤害，已腐化，14D"></a><div class="fcap"><b>西里的战衣</b>铠装背心：闪避 1242、<b>15% 额外冰霜伤害</b>，已腐化，14D</div></div><div class="figbox"><a href="images/gear/c2-chest-rare.jpg" target="_blank"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，1 崇高石"></a><div class="fcap">稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-gloves-sine.jpg" target="_blank"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="公理不存恢弘袖口：累积禁锢达 50% 时即禁锢敌人（而非 100%）、+35% 对被禁锢敌人的伤害，19 崇高石"></a><div class="fcap"><b>公理不存</b>恢弘袖口：<b>累积禁锢达 50% 时即禁锢敌人（而非 100%）</b>、+35% 对被禁锢敌人的伤害，<b>19 崇高石</b></div></div><div class="figbox"><a href="images/gear/c1-belt-nightfall.jpg" target="_blank"><img src="images/gear/c1-belt-nightfall.jpg" loading="lazy" alt="夜临精致腰带：3 个咒符位、此物品可作为手套获得镶嵌物加成，镶嵌物效果 93%（50–100%），攻速 +15%、非伤害…"></a><div class="fcap"><b>夜临</b>精致腰带：3 个咒符位、<b>此物品可作为手套获得镶嵌物加成</b>，镶嵌物效果 93%（50–100%），攻速 +15%、非伤害异常状态强度 +57%</div></div><div class="figbox"><a href="images/gear/c1-belt-runestatues.jpg" target="_blank"><img src="images/gear/c1-belt-runestatues.jpg" loading="lazy" alt="腰带可镶嵌的雕像：手套攻击速度 +8%、非伤害异常状态强度 +30%"></a><div class="fcap">腰带可镶嵌的<b>雕像</b>：手套攻击速度 +8%、非伤害异常状态强度 +30%</div></div><div class="figbox"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="独闯实用腰带：2 个护符栏位、+23% / +21% 戒指属性，1 崇高石"></a><div class="fcap"><b>独闯</b>实用腰带：2 个护符栏位、<b>+23% / +21% 戒指属性</b>，1 崇高石</div></div><div class="figbox"><a href="images/gear/c1-boots-atziri.jpg" target="_blank"><img src="images/gear/c1-boots-atziri.jpg" loading="lazy" alt="阿兹里的金履系带长靴：30% 移速、获得等同 56% 闪避值的偏斜值、−6% 偏斜抵御伤害量"></a><div class="fcap"><b>阿兹里的金履</b>系带长靴：30% 移速、<b>获得等同 56% 闪避值的偏斜值</b>、−6% 偏斜抵御伤害量</div></div><div class="figbox"><a href="images/gear/c2-belt-headhunter.jpg" target="_blank"><img src="images/gear/c2-belt-headhunter.jpg" loading="lazy" alt="猎首重革腰带：3 个护符栏位、+34 力量 / +38 敏捷、杀死稀有怪物获得其词缀持续 60 秒"></a><div class="fcap"><b>猎首</b>重革腰带：3 个护符栏位、+34 力量 / +38 敏捷、<b>杀死稀有怪物获得其词缀持续 60 秒</b></div></div><div class="figbox"><a href="images/gear/c4-amulet-fury.jpg" target="_blank"><img src="images/gear/c4-amulet-fury.jpg" loading="lazy" alt="无尽怒火增益：保留 100 精魂、每秒回复 4.25 盛怒（配怒火项链用）"></a><div class="fcap"><b>无尽怒火</b>增益：保留 100 精魂、每秒回复 4.25 盛怒（配怒火项链用）</div></div><div class="figbox"><a href="images/gear/c1-boots-evdodge.jpg" target="_blank"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、获得等同 15% 闪避值的偏斜值，35 / 40 崇高石两档"></a><div class="fcap">闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、<b>获得等同 15% 闪避值的偏斜值</b>，35 / 40 崇高石两档</div></div><div class="figbox"><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="无根之源宝钻：范围共鸣内的天赋可以在没有连线的情况下配置"></a><div class="fcap"><b>无根之源</b>宝钻：范围共鸣内的天赋可以在没有连线的情况下配置</div></div><div class="figbox"><a href="images/gear/c2-jewel-green.jpg" target="_blank"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="时迭绿宝石（范围非常大）：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，200D"></a><div class="fcap"><b>时迭绿宝石（范围非常大）</b>：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，<b>200D</b></div></div><div class="figbox"><a href="images/gear/c2-jewel-diamond.jpg" target="_blank"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="双额外钻石：3% 额外冰冷 + 4% 额外闪电，550D"></a><div class="fcap">双额外钻石：3% 额外冰冷 + 4% 额外闪电，<b>550D</b></div></div><div class="figbox"><a href="images/gear/c2-gem-ice-shot.jpg" target="_blank"><img src="images/gear/c2-gem-ice-shot.jpg" loading="lazy" alt="冰霜射击宝石面板：等级 23、消耗 50 魔力、攻击伤害 418%、80% 物理转冰冷、25% 更多冰冻积累"></a><div class="fcap"><b>冰霜射击</b>宝石面板：等级 23、消耗 50 魔力、攻击伤害 418%、80% 物理转冰冷、25% 更多冰冻积累</div></div><div class="figbox"><a href="images/gear/c2-gem-levelcurve.jpg" target="_blank"><img src="images/gear/c2-gem-levelcurve.jpg" loading="lazy" alt="冰霜射击的等级成长表（21–34 级：367% → 849% 攻击伤害，1 条 100% 的固定项）"></a><div class="fcap"><b>冰霜射击的等级成长表</b>（21–34 级：367% → 849% 攻击伤害，1 条 100% 的固定项）</div></div><div class="figbox"><a href="images/gear/c9-currency-exchange.jpg" target="_blank"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="通货兑换界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 1:2.5 ~ 1:6.5 一档一档挂（他有 1:3、1:5、…"></a><div class="fcap"><b>通货兑换</b>界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 <b>1:2.5 ~ 1:6.5</b> 一档一档挂（他有 1:3、1:5、1:6.31 等），底下显示「我拥有的：崇高石 1/10」</div></div><div class="figbox"><a href="images/gear/c9-money-log.jpg" target="_blank"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="攻坚 BOSS 的销售记录：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2…"></a><div class="fcap"><b>攻坚 BOSS 的销售记录</b>：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2–11D</div></div><div class="figbox"><a href="images/gear/c9-money-log2.jpg" target="_blank"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="销售记录（续）：暗金弓 1–5D 一档也卖得掉——「卖出去才是 D」"></a><div class="fcap">销售记录（续）：暗金弓 1–5D 一档也卖得掉——<b>「卖出去才是 D」</b></div></div><div class="figbox"><a href="images/gear/c9-boss.jpg" target="_blank"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）"></a><div class="fcap">攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）</div></div><div class="figbox"><a href="images/gear/c2-gem-breakpoint.jpg" target="_blank"><img src="images/gear/c2-gem-breakpoint.jpg" loading="lazy" alt="冻结相关数据：冰霜射击 54,736 伤害 / 40,540 冰冻积累，印记持续 10.8 秒、增益持续 13.5 秒、…"></a><div class="fcap">冻结相关数据：冰霜射击 54,736 伤害 / 40,540 冰冻积累，印记持续 10.8 秒、增益持续 13.5 秒、目眩 25%</div></div><div class="figbox"><a href="images/gear/c2-freeze-support.jpg" target="_blank"><img src="images/gear/c2-freeze-support.jpg" loading="lazy" alt="冰冻辅助宝石：被辅助技能造成 50% 更多冰冻积累"></a><div class="fcap"><b>冰冻</b>辅助宝石：被辅助技能<b>造成 50% 更多冰冻积累</b></div></div><div class="figbox"><a href="images/gear/c6-arrow-types.jpg" target="_blank"><img src="images/gear/c6-arrow-types.jpg" loading="lazy" alt="箭袋的六种特殊箭矢文字说明：渐强（连 6 次，每次 +60% 伤害）、裂片（+6 目标）、回转、金刚（必暴 +60% 感…"></a><div class="fcap"><b>箭袋的六种特殊箭矢</b>文字说明：渐强（连 6 次，每次 +60% 伤害）、裂片（+6 目标）、回转、金刚（必暴 +60% 感电）、贪婪（掉落提高 600%）、钝击（积累 +600%）</div></div><div class="figbox"><a href="images/gear/c2-gem-critcap.jpg" target="_blank"><img src="images/gear/c2-gem-critcap.jpg" loading="lazy" alt="转暴击要用的辅助宝石：被辅助技能的暴击率上限为 50%（卡洛翰的决心）"></a><div class="fcap">转暴击要用的辅助宝石：<b>被辅助技能的暴击率上限为 50%</b>（卡洛翰的决心）</div></div><div class="figbox"><a href="images/gear/c2-rune-list.jpg" target="_blank"><img src="images/gear/c2-rune-list.jpg" loading="lazy" alt="符文一览（手套 / 弓 / 腰带可镶嵌的各种雕像与符文名）"></a><div class="fcap">符文一览（手套 / 弓 / 腰带可镶嵌的各种雕像与符文名）</div></div><div class="figbox"><a href="images/gear/c2-gloves-trade.jpg" target="_blank"><img src="images/gear/c2-gloves-trade.jpg" loading="lazy" alt="宏伟手套交易结果：10 崇高石那档「50% 即禁锢 + 42% 对被禁锢敌人伤害」"></a><div class="fcap">宏伟手套交易结果：<b>10 崇高石</b>那档「50% 即禁锢 + 42% 对被禁锢敌人伤害」</div></div><div class="figbox"><a href="images/gear/c4-trade-filled.jpg" target="_blank"><img src="images/gear/c4-trade-filled.jpg" loading="lazy" alt="交易筛选器填好数值的样子：300 / 9.42 / 1000 上限"></a><div class="fcap">交易筛选器填好数值的样子：300 / 9.42 / 1000 上限</div></div></div>
+<p style="font-size:12.5px">共 41 张（装备文档截图里去掉了重复的空白帧和纯图标帧）。</p>
 
 </section>
 
@@ -624,13 +686,13 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
  压缩方式：等比缩到宽 1280–1500、转 JPEG 质量 76–84。
 </div>
 
-<h3>📦 装备文档配图（56 张）</h3>
+<h3>📦 装备文档配图（41 张）</h3>
 <div class="warn">
  来自《<a href="https://www.bilibili.com/opus/1215366068527169545" target="_blank">0.5冰射 前中后期的装备搭配</a>》。<br>
  <b>这些图含大量装备词条截图和交易页示例</b>——就是文档里说「绿框头鞋手选暗金 / 蓝框高闪避衣服 / 红框首饰」那部分配图。<br>
- <b>我按文档里的原始顺序编号（01–56）</b>。点开看大图。
+ <b>我按文档里的原始顺序编号（01–41）</b>。点开看大图。
 </div>
-<div class="gal"><a href="images/gear/g01.jpg" target="_blank" class="gitem"><img src="images/gear/g01.jpg" loading="lazy" alt="配图 1"><span>01</span></a><a href="images/gear/g02.jpg" target="_blank" class="gitem"><img src="images/gear/g02.jpg" loading="lazy" alt="配图 2"><span>02</span></a><a href="images/gear/g03.jpg" target="_blank" class="gitem"><img src="images/gear/g03.jpg" loading="lazy" alt="配图 3"><span>03</span></a><a href="images/gear/g04.jpg" target="_blank" class="gitem"><img src="images/gear/g04.jpg" loading="lazy" alt="配图 4"><span>04</span></a><a href="images/gear/g05.jpg" target="_blank" class="gitem"><img src="images/gear/g05.jpg" loading="lazy" alt="配图 5"><span>05</span></a><a href="images/gear/g06.jpg" target="_blank" class="gitem"><img src="images/gear/g06.jpg" loading="lazy" alt="配图 6"><span>06</span></a><a href="images/gear/g07.jpg" target="_blank" class="gitem"><img src="images/gear/g07.jpg" loading="lazy" alt="配图 7"><span>07</span></a><a href="images/gear/g08.jpg" target="_blank" class="gitem"><img src="images/gear/g08.jpg" loading="lazy" alt="配图 8"><span>08</span></a><a href="images/gear/g09.jpg" target="_blank" class="gitem"><img src="images/gear/g09.jpg" loading="lazy" alt="配图 9"><span>09</span></a><a href="images/gear/g10.jpg" target="_blank" class="gitem"><img src="images/gear/g10.jpg" loading="lazy" alt="配图 10"><span>10</span></a><a href="images/gear/g11.jpg" target="_blank" class="gitem"><img src="images/gear/g11.jpg" loading="lazy" alt="配图 11"><span>11</span></a><a href="images/gear/g12.jpg" target="_blank" class="gitem"><img src="images/gear/g12.jpg" loading="lazy" alt="配图 12"><span>12</span></a><a href="images/gear/g13.jpg" target="_blank" class="gitem"><img src="images/gear/g13.jpg" loading="lazy" alt="配图 13"><span>13</span></a><a href="images/gear/g14.jpg" target="_blank" class="gitem"><img src="images/gear/g14.jpg" loading="lazy" alt="配图 14"><span>14</span></a><a href="images/gear/g15.jpg" target="_blank" class="gitem"><img src="images/gear/g15.jpg" loading="lazy" alt="配图 15"><span>15</span></a><a href="images/gear/g16.jpg" target="_blank" class="gitem"><img src="images/gear/g16.jpg" loading="lazy" alt="配图 16"><span>16</span></a><a href="images/gear/g17.jpg" target="_blank" class="gitem"><img src="images/gear/g17.jpg" loading="lazy" alt="配图 17"><span>17</span></a><a href="images/gear/g18.jpg" target="_blank" class="gitem"><img src="images/gear/g18.jpg" loading="lazy" alt="配图 18"><span>18</span></a><a href="images/gear/g19.jpg" target="_blank" class="gitem"><img src="images/gear/g19.jpg" loading="lazy" alt="配图 19"><span>19</span></a><a href="images/gear/g20.jpg" target="_blank" class="gitem"><img src="images/gear/g20.jpg" loading="lazy" alt="配图 20"><span>20</span></a><a href="images/gear/g21.jpg" target="_blank" class="gitem"><img src="images/gear/g21.jpg" loading="lazy" alt="配图 21"><span>21</span></a><a href="images/gear/g22.jpg" target="_blank" class="gitem"><img src="images/gear/g22.jpg" loading="lazy" alt="配图 22"><span>22</span></a><a href="images/gear/g23.jpg" target="_blank" class="gitem"><img src="images/gear/g23.jpg" loading="lazy" alt="配图 23"><span>23</span></a><a href="images/gear/g24.jpg" target="_blank" class="gitem"><img src="images/gear/g24.jpg" loading="lazy" alt="配图 24"><span>24</span></a><a href="images/gear/g25.jpg" target="_blank" class="gitem"><img src="images/gear/g25.jpg" loading="lazy" alt="配图 25"><span>25</span></a><a href="images/gear/g26.jpg" target="_blank" class="gitem"><img src="images/gear/g26.jpg" loading="lazy" alt="配图 26"><span>26</span></a><a href="images/gear/g27.jpg" target="_blank" class="gitem"><img src="images/gear/g27.jpg" loading="lazy" alt="配图 27"><span>27</span></a><a href="images/gear/g28.jpg" target="_blank" class="gitem"><img src="images/gear/g28.jpg" loading="lazy" alt="配图 28"><span>28</span></a><a href="images/gear/g29.jpg" target="_blank" class="gitem"><img src="images/gear/g29.jpg" loading="lazy" alt="配图 29"><span>29</span></a><a href="images/gear/g30.jpg" target="_blank" class="gitem"><img src="images/gear/g30.jpg" loading="lazy" alt="配图 30"><span>30</span></a><a href="images/gear/g31.jpg" target="_blank" class="gitem"><img src="images/gear/g31.jpg" loading="lazy" alt="配图 31"><span>31</span></a><a href="images/gear/g32.jpg" target="_blank" class="gitem"><img src="images/gear/g32.jpg" loading="lazy" alt="配图 32"><span>32</span></a><a href="images/gear/g33.jpg" target="_blank" class="gitem"><img src="images/gear/g33.jpg" loading="lazy" alt="配图 33"><span>33</span></a><a href="images/gear/g34.jpg" target="_blank" class="gitem"><img src="images/gear/g34.jpg" loading="lazy" alt="配图 34"><span>34</span></a><a href="images/gear/g35.jpg" target="_blank" class="gitem"><img src="images/gear/g35.jpg" loading="lazy" alt="配图 35"><span>35</span></a><a href="images/gear/g36.jpg" target="_blank" class="gitem"><img src="images/gear/g36.jpg" loading="lazy" alt="配图 36"><span>36</span></a><a href="images/gear/g37.jpg" target="_blank" class="gitem"><img src="images/gear/g37.jpg" loading="lazy" alt="配图 37"><span>37</span></a><a href="images/gear/g38.jpg" target="_blank" class="gitem"><img src="images/gear/g38.jpg" loading="lazy" alt="配图 38"><span>38</span></a><a href="images/gear/g39.jpg" target="_blank" class="gitem"><img src="images/gear/g39.jpg" loading="lazy" alt="配图 39"><span>39</span></a><a href="images/gear/g40.jpg" target="_blank" class="gitem"><img src="images/gear/g40.jpg" loading="lazy" alt="配图 40"><span>40</span></a><a href="images/gear/g41.jpg" target="_blank" class="gitem"><img src="images/gear/g41.jpg" loading="lazy" alt="配图 41"><span>41</span></a><a href="images/gear/g42.jpg" target="_blank" class="gitem"><img src="images/gear/g42.jpg" loading="lazy" alt="配图 42"><span>42</span></a><a href="images/gear/g43.jpg" target="_blank" class="gitem"><img src="images/gear/g43.jpg" loading="lazy" alt="配图 43"><span>43</span></a><a href="images/gear/g44.jpg" target="_blank" class="gitem"><img src="images/gear/g44.jpg" loading="lazy" alt="配图 44"><span>44</span></a><a href="images/gear/g45.jpg" target="_blank" class="gitem"><img src="images/gear/g45.jpg" loading="lazy" alt="配图 45"><span>45</span></a><a href="images/gear/g46.jpg" target="_blank" class="gitem"><img src="images/gear/g46.jpg" loading="lazy" alt="配图 46"><span>46</span></a><a href="images/gear/g47.jpg" target="_blank" class="gitem"><img src="images/gear/g47.jpg" loading="lazy" alt="配图 47"><span>47</span></a><a href="images/gear/g48.jpg" target="_blank" class="gitem"><img src="images/gear/g48.jpg" loading="lazy" alt="配图 48"><span>48</span></a><a href="images/gear/g49.jpg" target="_blank" class="gitem"><img src="images/gear/g49.jpg" loading="lazy" alt="配图 49"><span>49</span></a><a href="images/gear/g50.jpg" target="_blank" class="gitem"><img src="images/gear/g50.jpg" loading="lazy" alt="配图 50"><span>50</span></a><a href="images/gear/g51.jpg" target="_blank" class="gitem"><img src="images/gear/g51.jpg" loading="lazy" alt="配图 51"><span>51</span></a><a href="images/gear/g52.jpg" target="_blank" class="gitem"><img src="images/gear/g52.jpg" loading="lazy" alt="配图 52"><span>52</span></a><a href="images/gear/g53.jpg" target="_blank" class="gitem"><img src="images/gear/g53.jpg" loading="lazy" alt="配图 53"><span>53</span></a><a href="images/gear/g54.jpg" target="_blank" class="gitem"><img src="images/gear/g54.jpg" loading="lazy" alt="配图 54"><span>54</span></a><a href="images/gear/g55.jpg" target="_blank" class="gitem"><img src="images/gear/g55.jpg" loading="lazy" alt="配图 55"><span>55</span></a><a href="images/gear/g56.jpg" target="_blank" class="gitem"><img src="images/gear/g56.jpg" loading="lazy" alt="配图 56"><span>56</span></a></div>
+<div class="gal"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="配图 1"><span>01</span></a><a href="images/gear/c1-belt-nightfall.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-nightfall.jpg" loading="lazy" alt="配图 2"><span>02</span></a><a href="images/gear/c1-belt-runestatues.jpg" target="_blank" class="gitem"><img src="images/gear/c1-belt-runestatues.jpg" loading="lazy" alt="配图 3"><span>03</span></a><a href="images/gear/c1-boots-atziri.jpg" target="_blank" class="gitem"><img src="images/gear/c1-boots-atziri.jpg" loading="lazy" alt="配图 4"><span>04</span></a><a href="images/gear/c1-boots-evdodge.jpg" target="_blank" class="gitem"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="配图 5"><span>05</span></a><a href="images/gear/c2-belt-headhunter.jpg" target="_blank" class="gitem"><img src="images/gear/c2-belt-headhunter.jpg" loading="lazy" alt="配图 6"><span>06</span></a><a href="images/gear/c2-bow-theory.jpg" target="_blank" class="gitem"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="配图 7"><span>07</span></a><a href="images/gear/c2-chest-rare.jpg" target="_blank" class="gitem"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="配图 8"><span>08</span></a><a href="images/gear/c2-chest-siris.jpg" target="_blank" class="gitem"><img src="images/gear/c2-chest-siris.jpg" loading="lazy" alt="配图 9"><span>09</span></a><a href="images/gear/c2-freeze-support.jpg" target="_blank" class="gitem"><img src="images/gear/c2-freeze-support.jpg" loading="lazy" alt="配图 10"><span>10</span></a><a href="images/gear/c2-gem-breakpoint.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-breakpoint.jpg" loading="lazy" alt="配图 11"><span>11</span></a><a href="images/gear/c2-gem-critcap.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-critcap.jpg" loading="lazy" alt="配图 12"><span>12</span></a><a href="images/gear/c2-gem-ice-shot.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-ice-shot.jpg" loading="lazy" alt="配图 13"><span>13</span></a><a href="images/gear/c2-gem-levelcurve.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gem-levelcurve.jpg" loading="lazy" alt="配图 14"><span>14</span></a><a href="images/gear/c2-gloves-sine.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="配图 15"><span>15</span></a><a href="images/gear/c2-gloves-trade.jpg" target="_blank" class="gitem"><img src="images/gear/c2-gloves-trade.jpg" loading="lazy" alt="配图 16"><span>16</span></a><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank" class="gitem"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="配图 17"><span>17</span></a><a href="images/gear/c2-jewel-diamond.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="配图 18"><span>18</span></a><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="配图 19"><span>19</span></a><a href="images/gear/c2-jewel-green.jpg" target="_blank" class="gitem"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="配图 20"><span>20</span></a><a href="images/gear/c2-rune-arrow.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="配图 21"><span>21</span></a><a href="images/gear/c2-rune-element.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="配图 22"><span>22</span></a><a href="images/gear/c2-rune-list.jpg" target="_blank" class="gitem"><img src="images/gear/c2-rune-list.jpg" loading="lazy" alt="配图 23"><span>23</span></a><a href="images/gear/c2-widowhail.jpg" target="_blank" class="gitem"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="配图 24"><span>24</span></a><a href="images/gear/c3-helm-acuity.jpg" target="_blank" class="gitem"><img src="images/gear/c3-helm-acuity.jpg" loading="lazy" alt="配图 25"><span>25</span></a><a href="images/gear/c3-hunter-base.jpg" target="_blank" class="gitem"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="配图 26"><span>26</span></a><a href="images/gear/c3-hunter-final.jpg" target="_blank" class="gitem"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="配图 27"><span>27</span></a><a href="images/gear/c3-lioneye.jpg" target="_blank" class="gitem"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="配图 28"><span>28</span></a><a href="images/gear/c3-slivertongue.jpg" target="_blank" class="gitem"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="配图 29"><span>29</span></a><a href="images/gear/c4-amulet-fury.jpg" target="_blank" class="gitem"><img src="images/gear/c4-amulet-fury.jpg" loading="lazy" alt="配图 30"><span>30</span></a><a href="images/gear/c4-amulet.jpg" target="_blank" class="gitem"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="配图 31"><span>31</span></a><a href="images/gear/c4-ring-call.jpg" target="_blank" class="gitem"><img src="images/gear/c4-ring-call.jpg" loading="lazy" alt="配图 32"><span>32</span></a><a href="images/gear/c4-trade-filled.jpg" target="_blank" class="gitem"><img src="images/gear/c4-trade-filled.jpg" loading="lazy" alt="配图 33"><span>33</span></a><a href="images/gear/c4-trade-filter.jpg" target="_blank" class="gitem"><img src="images/gear/c4-trade-filter.jpg" loading="lazy" alt="配图 34"><span>34</span></a><a href="images/gear/c5-devastator-cheap.jpg" target="_blank" class="gitem"><img src="images/gear/c5-devastator-cheap.jpg" loading="lazy" alt="配图 35"><span>35</span></a><a href="images/gear/c5-devastator.jpg" target="_blank" class="gitem"><img src="images/gear/c5-devastator.jpg" loading="lazy" alt="配图 36"><span>36</span></a><a href="images/gear/c6-arrow-types.jpg" target="_blank" class="gitem"><img src="images/gear/c6-arrow-types.jpg" loading="lazy" alt="配图 37"><span>37</span></a><a href="images/gear/c9-boss.jpg" target="_blank" class="gitem"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="配图 38"><span>38</span></a><a href="images/gear/c9-currency-exchange.jpg" target="_blank" class="gitem"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="配图 39"><span>39</span></a><a href="images/gear/c9-money-log.jpg" target="_blank" class="gitem"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="配图 40"><span>40</span></a><a href="images/gear/c9-money-log2.jpg" target="_blank" class="gitem"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="配图 41"><span>41</span></a></div>
 
 <h3>📄 0.55 开荒文档配图（23 张）</h3>
 <div class="warn">
@@ -641,7 +703,7 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 
 <div class="danger">
  <b>两点说明：</b><br>
- · <b>我没法逐张给你标注"这张是什么"</b>——那需要看 79 张图，成本和收益不成比例。
+ · <b>我没法逐张给你标注"这张是什么"</b>——那需要看 64 张图，成本和收益不成比例。
    <b>编号就是文档里的原始顺序</b>，要定位某张图对应哪一节，回原文档看位置最快。<br>
  · 图片可能随他的文档更新而变化。<b>以原文档为准。</b>
 </div>
