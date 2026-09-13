@@ -1,0 +1,657 @@
+{
+  "name": "国服0.55 锐眼冰射 · 作者原版天赋树（第二天 暴击）",
+  "author": "网瘾老年人lowK（配置）",
+  "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
+  "ascendancy": "Ranger1",
+  "description": "【作者原版天赋树 · 第二天（暴击）· 151 点】\n\n来自作者本人的角色（poe.ninja 导出），天赋节点一个没动，只把标题改成国服叫法。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放：OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n",
+  "passives": [
+    {
+      "id": "AscendancyRanger1Notable3"
+    },
+    {
+      "id": "elemental27"
+    },
+    {
+      "id": "criticals45"
+    },
+    {
+      "id": "dexterity46"
+    },
+    {
+      "id": "evasion21"
+    },
+    {
+      "id": "dexterity51"
+    },
+    {
+      "id": "criticals57_"
+    },
+    {
+      "id": "evasion26"
+    },
+    {
+      "id": "movement_speed4"
+    },
+    {
+      "id": "AscendancyRanger1Small3"
+    },
+    {
+      "id": "criticals13"
+    },
+    {
+      "id": "criticals18"
+    },
+    {
+      "id": "movement_speed5"
+    },
+    {
+      "id": "AscendancyRanger1Notable4"
+    },
+    {
+      "id": "dexterity18"
+    },
+    {
+      "id": "criticals89"
+    },
+    {
+      "id": "criticals92"
+    },
+    {
+      "id": "criticals47"
+    },
+    {
+      "id": "evasion28"
+    },
+    {
+      "id": "cold_penetration24"
+    },
+    {
+      "id": "criticals44"
+    },
+    {
+      "id": "dexterity12_"
+    },
+    {
+      "id": "AscendancyRanger1Notable1"
+    },
+    {
+      "id": "elemental32"
+    },
+    {
+      "id": "criticals54_"
+    },
+    {
+      "id": "criticals50"
+    },
+    {
+      "id": "attributes27"
+    },
+    {
+      "id": "dexterity48"
+    },
+    {
+      "id": "dexterity47"
+    },
+    {
+      "id": "dexterity15"
+    },
+    {
+      "id": "intelligence66"
+    },
+    {
+      "id": "intelligence7"
+    },
+    {
+      "id": "criticals29"
+    },
+    {
+      "id": "daze_3"
+    },
+    {
+      "id": "criticals58"
+    },
+    {
+      "id": "dexterity82_"
+    },
+    {
+      "id": "attack2"
+    },
+    {
+      "id": "passive_keystone_resonance"
+    },
+    {
+      "id": "elemental25"
+    },
+    {
+      "id": "evasion_and_energy_shield5"
+    },
+    {
+      "id": "attack35"
+    },
+    {
+      "id": "attributes10"
+    },
+    {
+      "id": "heralds16_"
+    },
+    {
+      "id": "dexterity20"
+    },
+    {
+      "id": "cold_penetration6"
+    },
+    {
+      "id": "heralds10"
+    },
+    {
+      "id": "ranger_huntress_notable2"
+    },
+    {
+      "id": "criticals87"
+    },
+    {
+      "id": "attributes11"
+    },
+    {
+      "id": "elemental_attacks8"
+    },
+    {
+      "id": "dexterity7"
+    },
+    {
+      "id": "elemental18"
+    },
+    {
+      "id": "jewel_slot1976"
+    },
+    {
+      "id": "dexterity55"
+    },
+    {
+      "id": "evasion_and_energy_shield11"
+    },
+    {
+      "id": "criticals10"
+    },
+    {
+      "id": "dexterity34"
+    },
+    {
+      "id": "attack6"
+    },
+    {
+      "id": "dexterity17"
+    },
+    {
+      "id": "criticals52"
+    },
+    {
+      "id": "criticals53"
+    },
+    {
+      "id": "criticals17"
+    },
+    {
+      "id": "criticals55_"
+    },
+    {
+      "id": "criticals46"
+    },
+    {
+      "id": "AscendancyRanger1Small8"
+    },
+    {
+      "id": "elemental28"
+    },
+    {
+      "id": "attack5"
+    },
+    {
+      "id": "AscendancyRanger1Notable2_2"
+    },
+    {
+      "id": "attributes25"
+    },
+    {
+      "id": "AscendancyRanger1Notable2_Choice"
+    },
+    {
+      "id": "elemental_attacks6"
+    },
+    {
+      "id": "evasion_and_energy_shield8"
+    },
+    {
+      "id": "movement_speed9"
+    },
+    {
+      "id": "dexterity16"
+    },
+    {
+      "id": "evasion24_"
+    },
+    {
+      "id": "AscendancyRanger1Small1__"
+    },
+    {
+      "id": "AscendancyRanger1Start"
+    },
+    {
+      "id": "dexterity52"
+    },
+    {
+      "id": "dexterity50"
+    },
+    {
+      "id": "intelligence25"
+    },
+    {
+      "id": "bow19"
+    },
+    {
+      "id": "cold_penetration7"
+    },
+    {
+      "id": "criticals59"
+    },
+    {
+      "id": "dexterity54"
+    },
+    {
+      "id": "criticals56"
+    },
+    {
+      "id": "criticals90"
+    },
+    {
+      "id": "projectiles15"
+    },
+    {
+      "id": "DeliriumAnoint_ThaumaturgicGenerator"
+    },
+    {
+      "id": "criticals49"
+    },
+    {
+      "id": "evasion_and_energy_shield22"
+    },
+    {
+      "id": "heralds12_"
+    },
+    {
+      "id": "cold_penetration1"
+    },
+    {
+      "id": "dexterity9"
+    },
+    {
+      "id": "evasion33"
+    },
+    {
+      "id": "dexterity19"
+    },
+    {
+      "id": "jewel_slot1960"
+    },
+    {
+      "id": "elemental26"
+    },
+    {
+      "id": "AscendancyRanger1Small2"
+    },
+    {
+      "id": "criticals28"
+    },
+    {
+      "id": "daze_4"
+    },
+    {
+      "id": "jewel_slot1961"
+    },
+    {
+      "id": "attributes29"
+    },
+    {
+      "id": "elemental16"
+    },
+    {
+      "id": "dexterity110"
+    },
+    {
+      "id": "cold33"
+    },
+    {
+      "id": "intelligence68"
+    },
+    {
+      "id": "cold32"
+    },
+    {
+      "id": "cold_penetration3"
+    },
+    {
+      "id": "cold3"
+    },
+    {
+      "id": "daze_7"
+    },
+    {
+      "id": "elemental54"
+    },
+    {
+      "id": "criticals83"
+    },
+    {
+      "id": "bow21"
+    },
+    {
+      "id": "bow23"
+    },
+    {
+      "id": "elemental55"
+    },
+    {
+      "id": "attack36"
+    },
+    {
+      "id": "daze_2"
+    },
+    {
+      "id": "cold_penetration2"
+    },
+    {
+      "id": "criticals86"
+    },
+    {
+      "id": "criticals84"
+    },
+    {
+      "id": "daze_19"
+    },
+    {
+      "id": "attributes12"
+    },
+    {
+      "id": "elemental56"
+    },
+    {
+      "id": "cold_penetration23"
+    },
+    {
+      "id": "bow20"
+    },
+    {
+      "id": "dexterity102"
+    },
+    {
+      "id": "intelligence67"
+    },
+    {
+      "id": "dexterity58"
+    },
+    {
+      "id": "azmerianimals48"
+    },
+    {
+      "id": "azmerianimals43"
+    },
+    {
+      "id": "dexterity57"
+    },
+    {
+      "id": "marks15"
+    },
+    {
+      "id": "azmerianimals44"
+    },
+    {
+      "id": "marks29"
+    },
+    {
+      "id": "marks28"
+    },
+    {
+      "id": "dexterity81"
+    },
+    {
+      "id": "dexterity85_"
+    },
+    {
+      "id": "marks5_"
+    },
+    {
+      "id": "attributes9"
+    },
+    {
+      "id": "shock6"
+    },
+    {
+      "id": "marks32"
+    },
+    {
+      "id": "attributes74"
+    },
+    {
+      "id": "marks17"
+    },
+    {
+      "id": "marks13"
+    },
+    {
+      "id": "shock3"
+    },
+    {
+      "id": "azmerianimals47"
+    },
+    {
+      "id": "shock15"
+    },
+    {
+      "id": "shock4"
+    },
+    {
+      "id": "marks27"
+    },
+    {
+      "id": "marks16"
+    },
+    {
+      "id": "marks12"
+    }
+  ],
+  "skills": [
+    {
+      "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdExposure"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunity"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemTasaliosRhythm"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemBlindside"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemVerglas"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemSplinterThree"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemArmourExplosion"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemUruksSmelting"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemCastOnElementalAilment",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SkillGemFrostWall"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemGlacier"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemImpetusTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdMastery"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemEnergyRetention"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemInspirationTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOvercharge"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemCommiserate"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemPlayerDefaultBow",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdPenetration"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemGlaciation"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundance"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemInspirationTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDaressosPassion"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemGhostDance",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemEternalRage"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemChargeInfusion"
+    }
+  ]
+}
