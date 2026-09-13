@@ -1,15 +1,18 @@
 {
-  "name": "国服0.55 锐眼冰射 · 作者原版天赋树（第二天 暴击）",
+  "name": "国服0.55 锐眼冰射 · 作者原版天赋（WeGame 角色数据）",
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【作者原版天赋树 · 第二天（暴击）· 150 条】\n\n作者本人的角色导出，天赋节点未改动。\n说明：151 条里有 1 条是谵妄涂油节点（DeliriumAnoint_ThaumaturgicGenerator），它不消耗普通天赋点，已移出列表；其余 140 个普通节点 + 10 条升华记录原样保留。\n140 个普通节点是**两套武器天赋的并集**（单套实际用 116 点 = (93-1)+24）。\n若要严格复现，需要作者同一角色快照里的武器组归属信息，这份导出里没有。\n\n【导入】\n1. 文件放进：Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份）\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n",
+  "description": "【作者原版天赋 · 来自他 WeGame 分享的角色数据】\n\n角色：「老年人冰射」92 级，异界 T16。包含三部分：\n  · 共同天赋 101 点（两套武器组共用）\n  · 武器组一专属 23 点（含暴击系，如 Heartbreaking / Heartstopping / Cooked 等）\n  · 武器组二专属 23 点（含 Blur / Kite Runner / Escape Velocity / The Spring Hare 等）\n全部 147 个节点都在这份文件里。\n\n说明：这个游戏的「武器组」是两套天赋分配，切换武器时生效；\n导出文件里不含武器组归属标记，所以两套节点是合在一起给的。\n实际单套的点数 ≈ (92-1)+24 = 115 点。\n\n【导入】文件放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份），\n文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
   "passives": [
     {
       "id": "AscendancyRanger1Notable3"
     },
     {
       "id": "elemental27"
+    },
+    {
+      "id": "bow8"
     },
     {
       "id": "criticals45"
@@ -21,10 +24,10 @@
       "id": "evasion21"
     },
     {
-      "id": "dexterity51"
+      "id": "dexterity110"
     },
     {
-      "id": "criticals57_"
+      "id": "dexterity51"
     },
     {
       "id": "evasion26"
@@ -34,12 +37,6 @@
     },
     {
       "id": "AscendancyRanger1Small3"
-    },
-    {
-      "id": "criticals13"
-    },
-    {
-      "id": "criticals18"
     },
     {
       "id": "movement_speed5"
@@ -54,19 +51,13 @@
       "id": "criticals89"
     },
     {
-      "id": "criticals92"
-    },
-    {
-      "id": "criticals47"
-    },
-    {
       "id": "evasion28"
     },
     {
       "id": "cold_penetration24"
     },
     {
-      "id": "criticals44"
+      "id": "bow14"
     },
     {
       "id": "dexterity12_"
@@ -78,16 +69,13 @@
       "id": "elemental32"
     },
     {
-      "id": "criticals54_"
-    },
-    {
-      "id": "criticals50"
-    },
-    {
       "id": "attributes27"
     },
     {
       "id": "dexterity48"
+    },
+    {
+      "id": "intelligence68"
     },
     {
       "id": "dexterity47"
@@ -99,22 +87,31 @@
       "id": "intelligence66"
     },
     {
-      "id": "intelligence7"
+      "id": "cold32"
     },
     {
       "id": "criticals29"
     },
     {
+      "id": "cold_penetration3"
+    },
+    {
+      "id": "bow5"
+    },
+    {
       "id": "daze_3"
+    },
+    {
+      "id": "jewel_slot1979"
+    },
+    {
+      "id": "cold3"
     },
     {
       "id": "criticals58"
     },
     {
       "id": "dexterity82_"
-    },
-    {
-      "id": "attack2"
     },
     {
       "id": "passive_keystone_resonance"
@@ -126,22 +123,16 @@
       "id": "evasion_and_energy_shield5"
     },
     {
-      "id": "attack35"
+      "id": "daze_7"
     },
     {
       "id": "attributes10"
-    },
-    {
-      "id": "heralds16_"
     },
     {
       "id": "dexterity20"
     },
     {
       "id": "cold_penetration6"
-    },
-    {
-      "id": "heralds10"
     },
     {
       "id": "ranger_huntress_notable2"
@@ -153,7 +144,7 @@
       "id": "attributes11"
     },
     {
-      "id": "elemental_attacks8"
+      "id": "criticals83"
     },
     {
       "id": "dexterity7"
@@ -183,28 +174,22 @@
       "id": "dexterity17"
     },
     {
-      "id": "criticals52"
+      "id": "daze_2"
     },
     {
-      "id": "criticals53"
+      "id": "criticals52"
     },
     {
       "id": "criticals17"
     },
     {
-      "id": "criticals55_"
-    },
-    {
-      "id": "criticals46"
+      "id": "bow9"
     },
     {
       "id": "AscendancyRanger1Small8"
     },
     {
       "id": "elemental28"
-    },
-    {
-      "id": "attack5"
     },
     {
       "id": "AscendancyRanger1Notable2_2"
@@ -216,10 +201,10 @@
       "id": "AscendancyRanger1Notable2_Choice"
     },
     {
-      "id": "elemental_attacks6"
+      "id": "evasion_and_energy_shield8"
     },
     {
-      "id": "evasion_and_energy_shield8"
+      "id": "monkchakra9"
     },
     {
       "id": "movement_speed9"
@@ -231,10 +216,22 @@
       "id": "evasion24_"
     },
     {
+      "id": "cold_penetration2"
+    },
+    {
+      "id": "criticals86"
+    },
+    {
+      "id": "criticals84"
+    },
+    {
       "id": "AscendancyRanger1Small1__"
     },
     {
-      "id": "AscendancyRanger1Start"
+      "id": "daze_19"
+    },
+    {
+      "id": "attributes12"
     },
     {
       "id": "dexterity52"
@@ -246,19 +243,13 @@
       "id": "intelligence25"
     },
     {
-      "id": "bow19"
-    },
-    {
       "id": "cold_penetration7"
-    },
-    {
-      "id": "criticals59"
     },
     {
       "id": "dexterity54"
     },
     {
-      "id": "criticals56"
+      "id": "cold_penetration23"
     },
     {
       "id": "criticals90"
@@ -267,19 +258,19 @@
       "id": "projectiles15"
     },
     {
-      "id": "criticals49"
-    },
-    {
       "id": "evasion_and_energy_shield22"
-    },
-    {
-      "id": "heralds12_"
     },
     {
       "id": "cold_penetration1"
     },
     {
       "id": "dexterity9"
+    },
+    {
+      "id": "dexterity102"
+    },
+    {
+      "id": "intelligence67"
     },
     {
       "id": "evasion33"
@@ -291,7 +282,13 @@
       "id": "jewel_slot1960"
     },
     {
+      "id": "bow13"
+    },
+    {
       "id": "elemental26"
+    },
+    {
+      "id": "intelligence69"
     },
     {
       "id": "AscendancyRanger1Small2"
@@ -312,37 +309,37 @@
       "id": "elemental16"
     },
     {
-      "id": "dexterity110"
+      "id": "criticals57_"
     },
     {
-      "id": "cold33"
+      "id": "monkchakra8"
     },
     {
-      "id": "intelligence68"
+      "id": "criticals92"
     },
     {
-      "id": "cold32"
+      "id": "monkchakra7"
     },
     {
-      "id": "cold_penetration3"
+      "id": "criticals47"
     },
     {
-      "id": "cold3"
+      "id": "criticals54_"
     },
     {
-      "id": "daze_7"
+      "id": "attack2"
+    },
+    {
+      "id": "attack35"
+    },
+    {
+      "id": "heralds16_"
     },
     {
       "id": "elemental54"
     },
     {
-      "id": "criticals83"
-    },
-    {
-      "id": "bow21"
-    },
-    {
-      "id": "bow23"
+      "id": "heralds10"
     },
     {
       "id": "elemental55"
@@ -351,109 +348,103 @@
       "id": "attack36"
     },
     {
-      "id": "daze_2"
+      "id": "criticals53"
     },
     {
-      "id": "cold_penetration2"
+      "id": "criticals55_"
     },
     {
-      "id": "criticals86"
+      "id": "criticals46"
     },
     {
-      "id": "criticals84"
+      "id": "attack5"
     },
     {
-      "id": "daze_19"
-    },
-    {
-      "id": "attributes12"
+      "id": "monkchakra12"
     },
     {
       "id": "elemental56"
     },
     {
-      "id": "cold_penetration23"
+      "id": "criticals59"
     },
     {
-      "id": "bow20"
+      "id": "criticals56"
     },
     {
-      "id": "dexterity102"
+      "id": "criticals49"
     },
     {
-      "id": "intelligence67"
+      "id": "heralds12_"
     },
     {
-      "id": "dexterity58"
+      "id": "azmerianimals11"
     },
     {
-      "id": "azmerianimals48"
+      "id": "azmerianimals12"
     },
     {
-      "id": "azmerianimals43"
+      "id": "projectiles13"
     },
     {
-      "id": "dexterity57"
+      "id": "evasion11"
     },
     {
-      "id": "marks15"
+      "id": "evasion31"
     },
     {
-      "id": "azmerianimals44"
-    },
-    {
-      "id": "marks29"
-    },
-    {
-      "id": "marks28"
+      "id": "charms15"
     },
     {
       "id": "dexterity81"
     },
     {
-      "id": "dexterity85_"
+      "id": "dexterity44"
     },
     {
-      "id": "marks5_"
+      "id": "ranged30_"
+    },
+    {
+      "id": "charms13"
+    },
+    {
+      "id": "azmerianimals10"
     },
     {
       "id": "attributes9"
     },
     {
-      "id": "shock6"
+      "id": "projectiles9_"
     },
     {
-      "id": "marks32"
+      "id": "ranger_huntress_notable1"
     },
     {
-      "id": "attributes74"
+      "id": "dexterity80"
     },
     {
-      "id": "marks17"
+      "id": "dexterity43"
     },
     {
-      "id": "marks13"
+      "id": "evasion12"
     },
     {
-      "id": "shock3"
+      "id": "projectiles11"
     },
     {
-      "id": "azmerianimals47"
+      "id": "azmerianimals7"
     },
     {
-      "id": "shock15"
+      "id": "charms6"
     },
     {
-      "id": "shock4"
+      "id": "movement_speed3"
     },
     {
-      "id": "marks27"
+      "id": "movement_speed1"
     },
     {
-      "id": "marks16"
-    },
-    {
-      "id": "marks12"
+      "id": "evasion17_"
     }
   ],
   "skills": [
