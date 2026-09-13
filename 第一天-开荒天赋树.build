@@ -3,7 +3,7 @@
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【第一天开荒 · 70 级参考树（非作者原图）· 93 个普通天赋点】\n\n天赋树：93 个普通付费节点（升华另计、不在这份文件里）。\n这份**不是作者第一天的原图** —— 他第一天的树只在他文档的截图里，而截图里的过路小点无法清晰识别。\n这93个节点是从他第二天的树上按 70 级预算（(70-1)+24 = 93 点）整理出来的，剔掉了暴击/眩晕/感电系，补了命中（Eagle Eye）。已验证：只用已选节点即可从游侠职业起点全部连通。\n\n技能：第一天的配置（战斗狂怒供狂怒球 → 弹幕；冰冻印记 → 冻结齐射 → 狙击；冰霜射击主输出）\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放 OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n",
+  "description": "【第一天开荒 · 70 级参考树（非作者原图）· 93 个普通天赋点】\n\n本版按 GPT 的第二次核对做了 6 处替换：\n· 删：dexterity85_ / dexterity57 / attributes74 / dexterity58 / marks32 / marks29\n· 加：dexterity108（+8敏捷，把已点的 dexterity102 直连回印记支路，省下 5 点）\n       dexterity40 / dexterity39 / attack_speed57 / attack_speed58 / attack_speed60_\n       （三个攻速点合计 +12% 攻击速度，最后一点另有近期命中后 +30% 闪避）\n换掉的代价：失去 marks32/29 的印记速度与印记效果、以及几个属性点；换来直接攻速。\n\n已验证：93 个节点只用已选节点即可从游侠职业起点（50459）全部连通。\n这份不是作者第一天的原图（他第一天的树只在截图里，过路小点无法识别）。\n\n技能：第一天的配置（战斗狂怒供狂怒球 → 弹幕；冰冻印记 → 冻结齐射 → 狙击；冰霜射击主输出）\n\n【导入】文件放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份），\n文件夹自己建；游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中它。\n",
   "passives": [
     {
       "id": "projectiles15"
@@ -60,9 +60,6 @@
       "id": "elemental26"
     },
     {
-      "id": "dexterity85_"
-    },
-    {
       "id": "elemental25"
     },
     {
@@ -79,9 +76,6 @@
     },
     {
       "id": "elemental_attacks6"
-    },
-    {
-      "id": "dexterity57"
     },
     {
       "id": "elemental18"
@@ -102,12 +96,6 @@
       "id": "cold_penetration7"
     },
     {
-      "id": "dexterity58"
-    },
-    {
-      "id": "attributes74"
-    },
-    {
       "id": "dexterity55"
     },
     {
@@ -121,9 +109,6 @@
     },
     {
       "id": "jewel_slot1961"
-    },
-    {
-      "id": "marks32"
     },
     {
       "id": "dexterity82_"
@@ -148,9 +133,6 @@
     },
     {
       "id": "dexterity110"
-    },
-    {
-      "id": "marks29"
     },
     {
       "id": "intelligence66"
@@ -283,6 +265,24 @@
     },
     {
       "id": "accuracy18"
+    },
+    {
+      "id": "dexterity108"
+    },
+    {
+      "id": "dexterity40"
+    },
+    {
+      "id": "dexterity39"
+    },
+    {
+      "id": "attack_speed57"
+    },
+    {
+      "id": "attack_speed58"
+    },
+    {
+      "id": "attack_speed60_"
     }
   ],
   "skills": [
