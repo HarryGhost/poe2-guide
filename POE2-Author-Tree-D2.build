@@ -3,7 +3,7 @@
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【作者原版天赋 · 来自他 WeGame 分享的角色数据】\n\n角色：「老年人冰射」92 级，异界 T16。包含三部分：\n  · 共同天赋 101 点（两套武器组共用）\n  · 武器组一专属 23 点（含暴击系，如 Heartbreaking / Heartstopping / Cooked 等）\n  · 武器组二专属 23 点（含 Blur / Kite Runner / Escape Velocity / The Spring Hare 等）\n全部 147 个节点都在这份文件里。\n\n说明：这个游戏的「武器组」是两套天赋分配，切换武器时生效；\n导出文件里不含武器组归属标记，所以两套节点是合在一起给的。\n实际单套的点数 ≈ (92-1)+24 = 115 点。\n\n【导入】文件放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份），\n文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
+  "description": "【作者原版天赋 · 来自他 WeGame 分享的角色数据】\n\n角色：「老年人冰射」92 级，异界 T16。包含三部分：\n  · 共同天赋 101 点（两套武器组共用）\n  · 武器组一专属 23 点（含暴击系，如 Heartbreaking / Heartstopping / Cooked 等）\n  · 武器组二专属 23 点（含 Blur / Kite Runner / Escape Velocity / The Spring Hare 等）\n全部 147 个节点都在这份文件里。\n\n说明：这个游戏的「武器组」是两套天赋分配，切换武器时生效；\n导出文件里不含武器组归属标记，所以两套节点是合在一起给的。\n实际单套的点数 ≈ (92-1)+24 = 115 点。\n已验证：147 个节点里，除 9 个升华节点（它们挂在升华面板上、本来就不连普通树）之外的 138 个，\n都能从游侠职业起点（数值ID 50459）只经已选节点到达。\n\n【导入】文件放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份），\n文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
   "passives": [
     {
       "id": "AscendancyRanger1Notable3"
