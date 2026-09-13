@@ -3,7 +3,7 @@
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【开荒天赋树 · 第一天（非暴击）· 104 点】\n\n来源：从作者本人（网瘾老年人lowK）的后期天赋树里推出来 —— 去掉第二天转暴击后才点的\n暴击系 / 眩晕系节点，保留冰射核心，并保证从锐眼起点连通。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放：OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n\n【和第二天那份的区别】\n- 这份没有暴击圈（他视频里说 70 级左右才转暴击，转的时候要留 100 万金币洗点）\n- 冰霜穿透 / 冰冻积累 / 投射物 / 闪避 / 敏捷 这些两边都有\n",
+  "description": "【开荒天赋树 · 第一天（非暴击）· 93 点】\n\n来源：从作者本人的后期天赋树推出 —— 去掉第二天转暴击后才点的暴击系/眩晕系，\n并按 70 级点数预算（(70-1)+24 = 93 点）精修，补了命中（Eagle Eye 支路）。\n保证从锐眼起点连通（只用已选节点即可连通，不需未点亮节点搭桥）。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放 OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n\n【和第二天那份的区别】\n- 没有暴击圈（70 级左右才转暴击，转的时候要留 100 万金币洗点）\n- 没有共鸣（Resonance）：第一天靠战斗狂怒拿狂怒球供弹幕，共鸣会把它变成暴击球\n- 冰霜穿透保留 33%（Snowpiercer）+ 12% 元素穿透（Primal Sundering）\n- 补了命中：Eagle Eye（+30 命中、+10% 命中）\n",
   "passives": [
     {
       "id": "projectiles15"
@@ -108,12 +108,6 @@
       "id": "attributes74"
     },
     {
-      "id": "attributes27"
-    },
-    {
-      "id": "intelligence7"
-    },
-    {
       "id": "dexterity55"
     },
     {
@@ -124,9 +118,6 @@
     },
     {
       "id": "cold_penetration24"
-    },
-    {
-      "id": "azmerianimals47"
     },
     {
       "id": "jewel_slot1961"
@@ -168,9 +159,6 @@
       "id": "dexterity50"
     },
     {
-      "id": "azmerianimals43"
-    },
-    {
       "id": "movement_speed5"
     },
     {
@@ -201,12 +189,6 @@
       "id": "evasion26"
     },
     {
-      "id": "attributes25"
-    },
-    {
-      "id": "azmerianimals44"
-    },
-    {
       "id": "attributes9"
     },
     {
@@ -225,9 +207,6 @@
       "id": "marks27"
     },
     {
-      "id": "azmerianimals48"
-    },
-    {
       "id": "bow20"
     },
     {
@@ -243,9 +222,6 @@
       "id": "heralds10"
     },
     {
-      "id": "passive_keystone_resonance"
-    },
-    {
       "id": "evasion_and_energy_shield5"
     },
     {
@@ -259,9 +235,6 @@
     },
     {
       "id": "bow21"
-    },
-    {
-      "id": "cold_penetration2"
     },
     {
       "id": "marks5_"
@@ -282,28 +255,16 @@
       "id": "evasion_and_energy_shield22"
     },
     {
-      "id": "marks13"
-    },
-    {
       "id": "marks15"
     },
     {
       "id": "attributes12"
     },
     {
-      "id": "cold_penetration3"
-    },
-    {
       "id": "evasion_and_energy_shield11"
     },
     {
-      "id": "cold_penetration23"
-    },
-    {
       "id": "marks12"
-    },
-    {
-      "id": "marks17"
     },
     {
       "id": "intelligence68"
@@ -316,6 +277,12 @@
     },
     {
       "id": "cold33"
+    },
+    {
+      "id": "accuracy9"
+    },
+    {
+      "id": "accuracy18"
     }
   ],
   "skills": [
