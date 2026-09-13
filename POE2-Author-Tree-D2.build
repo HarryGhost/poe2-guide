@@ -3,7 +3,7 @@
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【作者原版天赋树 · 第二天（暴击）· 151 点】\n\n来自作者本人的角色（poe.ninja 导出），天赋节点一个没动，只把标题改成国服叫法。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放：OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n",
+  "description": "【作者原版天赋树 · 第二天（暴击）· 150 条】\n\n作者本人的角色导出，天赋节点未改动。\n说明：151 条里有 1 条是谵妄涂油节点（DeliriumAnoint_ThaumaturgicGenerator），它不消耗普通天赋点，已移出列表；其余 140 个普通节点 + 10 条升华记录原样保留。\n140 个普通节点是**两套武器天赋的并集**（单套实际用 116 点 = (93-1)+24）。\n若要严格复现，需要作者同一角色快照里的武器组归属信息，这份导出里没有。\n\n【导入】\n1. 文件放进：Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份）\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n",
   "passives": [
     {
       "id": "AscendancyRanger1Notable3"
@@ -265,9 +265,6 @@
     },
     {
       "id": "projectiles15"
-    },
-    {
-      "id": "DeliriumAnoint_ThaumaturgicGenerator"
     },
     {
       "id": "criticals49"

@@ -3,7 +3,7 @@
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【开荒天赋树 · 第一天（非暴击）· 93 点】\n\n来源：从作者本人的后期天赋树推出 —— 去掉第二天转暴击后才点的暴击系/眩晕系，\n并按 70 级点数预算（(70-1)+24 = 93 点）精修，补了命中（Eagle Eye 支路）。\n保证从锐眼起点连通（只用已选节点即可连通，不需未点亮节点搭桥）。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放 OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n\n【和第二天那份的区别】\n- 没有暴击圈（70 级左右才转暴击，转的时候要留 100 万金币洗点）\n- 没有共鸣（Resonance）：第一天靠战斗狂怒拿狂怒球供弹幕，共鸣会把它变成暴击球\n- 冰霜穿透保留 33%（Snowpiercer）+ 12% 元素穿透（Primal Sundering）\n- 补了命中：Eagle Eye（+30 命中、+10% 命中）\n",
+  "description": "【第一天开荒 · 70 级参考树（非作者原图）· 93 个普通天赋点】\n\n天赋树：93 个普通付费节点（升华另计、不在这份文件里）。\n这份**不是作者第一天的原图** —— 他第一天的树只在他文档的截图里，而截图里的过路小点无法清晰识别。\n这93个节点是从他第二天的树上按 70 级预算（(70-1)+24 = 93 点）整理出来的，剔掉了暴击/眩晕/感电系，补了命中（Eagle Eye）。已验证：只用已选节点即可从游侠职业起点全部连通。\n\n技能：第一天的配置（战斗狂怒供狂怒球 → 弹幕；冰冻印记 → 冻结齐射 → 狙击；冰霜射击主输出）\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放 OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n",
   "passives": [
     {
       "id": "projectiles15"
@@ -287,19 +287,29 @@
   ],
   "skills": [
     {
-      "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "additional_text": "战斗狂怒 | 拿狂怒球供弹幕（第一天的供球链）",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gem/SkillGemIceShot"
-        },
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "additional_text": "冰冻印记 | 连招第一步；挂上印记后 70% 就冻结",
+      "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
-        },
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "additional_text": "冻结齐射 | 冻 BOSS 用",
+      "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemBlindTwo"
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
         },
         {
           "id": "Metadata/Items/Gems/SupportGemColdExposure"
@@ -308,147 +318,75 @@
     },
     {
       "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "additional_text": "狙击 | 冻住后：先弹幕、再狙击",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
         },
         {
           "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunity"
-        },
-        {
           "id": "Metadata/Items/Gems/SupportGemElementalFocus"
-        },
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "additional_text": "弹幕 | 消耗狂怒球的爆发",
+      "support_skills": [
         {
-          "id": "Metadata/Items/Gem/SupportGemTasaliosRhythm"
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo"
         }
       ]
     },
     {
       "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "additional_text": "冰霜射击 | 31 级后的主输出（第一个 4 孔）",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo"
+          "id": "Metadata/Items/Gems/SupportGemIceBite"
         },
         {
-          "id": "Metadata/Items/Gem/SupportGemBlindside"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemVerglas"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo"
-        }
-      ]
-    },
-    {
-      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
-      "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemSplinterThree"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemArmourExplosion"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemUruksSmelting"
-        }
-      ]
-    },
-    {
-      "id": "Metadata/Items/Gems/SkillGemCastOnElementalAilment",
-      "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SkillGemFrostWall"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemGlacier"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemImpetusTwo"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemColdMastery"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemEnergyRetention"
-        }
-      ]
-    },
-    {
-      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
-      "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SupportGemPersistence"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemChargedMark"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemInspirationTwo"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemOvercharge"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemCommiserate"
-        }
-      ]
-    },
-    {
-      "id": "Metadata/Items/Gem/SkillGemPlayerDefaultBow",
-      "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SupportGemFork"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemColdPenetration"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemGlaciation"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemDeliberation"
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo"
         }
       ]
     },
     {
       "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "additional_text": "龙卷射击 | 打 BOSS 挂致盲",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemOverabundance"
-        },
-        {
           "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemEscapeShot",
+      "additional_text": "逃脱射击 | 位移"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "additional_text": "寒冰之捷 | 清怪光环（30 精魂）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
         },
         {
-          "id": "Metadata/Items/Gem/SupportGemDurability"
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemInspirationTwo"
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
         }
       ]
     },
     {
       "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "additional_text": "战旗 | 打 BOSS 时替换寒冰之捷（勾副手省 30 精魂）",
       "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
-        },
-        {
-          "id": "Metadata/Items/Gem/SupportGemDaressosPassion"
-        },
         {
           "id": "Metadata/Items/Gems/SupportGemPersistence"
         }
@@ -456,28 +394,21 @@
     },
     {
       "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "additional_text": "风舞者 | 保命（30 精魂）",
       "support_skills": [
         {
           "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemBlindTwo"
         }
       ]
     },
     {
-      "id": "Metadata/Items/Gems/SkillGemGhostDance",
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "additional_text": "幻影射手 | 勾 1 号武器（60 精魂）",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo"
+          "id": "Metadata/Items/Gems/SupportGemBlind"
         }
       ]
-    },
-    {
-      "id": "Metadata/Items/Gems/SkillGemEternalRage"
-    },
-    {
-      "id": "Metadata/Items/Gem/SkillGemChargeInfusion"
     }
   ]
 }
