@@ -1,0 +1,64 @@
+# 任务：核对 / 输出「第一天开荒天赋树」——Path of Exile 2（国服 0.5.5）锐眼冰射狙击
+
+## 一、背景
+国服《流放之路：降临》0.5.5，BD 是 B 站 UP 主「网瘾老年人lowK」的锐眼冰射狙击。他把这套 BD 分成两段：
+· 第一天：非暴击冰射开荒（1~70 级），练到能刷异界 T15
+· 第二天：转暴击后的后期（70 级起）
+现在要的是「第一天」那棵天赋树。
+
+## 二、先下载这三个文件
+1) 我推的第一天树（需要你核对）：https://harryghost.github.io/poe2-guide/POE2-Author-Tree-D1.build
+2) 他本人第二天原版（作对照）：https://harryghost.github.io/poe2-guide/POE2-Author-Tree-D2.build
+3) 完整任务说明（HTML 版）：https://harryghost.github.io/poe2-guide/gpt-task.html
+
+文件是 .build（JSON），关键是 passives 数组，每项形如 {"id": "cold_penetration24"}。
+id 用游戏 PassiveSkills 表的 string id。
+
+## 三、我推的第一天树是怎么做的
+以他第二天那 151 个节点为底，剔除：
+· 所有 criticals* 前缀节点（暴击系）
+· 所有 daze*（眩晕）、shock*（感电）、DeliriumAnoint（涂油）
+· 属性文本里含 critical 的大点
+保留：冰霜穿透 / 冰冻积累 / 投射物 / 弓（含额外箭矢几率）/ 属性点 / 珠宝孔 / 闪避+护盾 / 移速 / 印记 / 敏捷。
+结果：104 个天赋节点。用「全图最短路径」校验过，是 1 个完整连通块（合法）。
+（104 个节点的全表在任务说明页底部，可直接点击复制。）
+
+## 四、依据（他的原话）
+· 「70 级左右就可以转暴击」「转暴击需要留 100 万金币洗点」→ 第一天不点暴击系
+· 第一天输出：闪电箭矢 / 引雷针过渡 → 31 级转冰霜射击 → 狙击 → 冰冻印记 + 冻结齐射 + 弹幕
+· 讲第一天天赋时他说：「这里要加投射物速度跟攻击速度，还有石的敏捷是一个比较实惠的点」
+· 「因为我们暴击比较缺命中」（原文疑似，按语境是命中）
+
+## 五、请你做两件事
+1) 核算点数
+按「每级 1 点 + 任务/间章 24 点」算：104 点 ≈ 80 级。
+但按他的视频，第一天是 70 级左右打完 T15 → 应该是 90~95 点。
+问题：第一天合理点数到底是多少？我多了还是少了？
+
+2) 输出修订后的第一天节点表
+· 要删的节点：列 string id（或节点名）
+· 要加的节点：列 string id（或节点名）+ 为什么第一天就需要
+· 修订后总节点数
+要求：保持从锐眼起点连通（游戏规则）；至少覆盖他第一天要用的技能（冰霜射击 / 狙击 / 冰冻印记 / 冻结齐射 / 弹幕），也就是冰冷穿透、冰冻积累、投射物、命中这几个方向要够。
+
+## 六、数据源（权威）
+1) PoB2 仓库：https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2
+   · src/TreeData/0_5/tree.json —— 节点、连接、坐标、大点标记（stringId / isNotable / connections）
+   · 注意：groups[id].x / y 是「组中心」，不是节点真实坐标。真实坐标公式：
+     节点坐标 = group中心 + 轨道半径 × (sinθ, cosθ)
+     θ = constants.orbitAnglesByOrbit[orbit][orbitIndex]
+     orbitRadii = [0, 82, 162, 335, 493, 662, 846, 251, 1080, 1322]
+2) GGG 官方 .build 规范：https://www.pathofexile.com/developer/docs/game
+3) 真实可用的 .build 样本（对照格式）：
+   https://github.com/chesler410/poe2-build-forge/tree/main/fixtures
+4) 中文资料站：https://poe2db.tw/cn/
+
+## 七、输出格式（照这个回，别多写别的）
+① 第一天合理点数：___ 点（依据：___）
+② 要删的节点：- id（说明）
+③ 要加的节点：- id（说明）
+④ 修订后总节点数：___
+⑤ 你认为我哪里判断错了（如果有）
+
+## 八、协作说明
+你只需要给「节点级判断」（哪些留、哪些删、哪些加）。落地（重新生成 .build、部署、回读验证）由我来做。

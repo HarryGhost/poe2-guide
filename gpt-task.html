@@ -1,0 +1,229 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>给GPT的指令 · 核对第一天开荒天赋树</title>
+<style>
+:root{--bg:#0d1117;--panel:#161b22;--panel2:#1c2330;--line:#2b3542;--tx:#e6edf3;
+--tx2:#9aa7b4;--gold:#d4a24c;--cyan:#4ec9d0;--red:#e05252;--green:#4caf7d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--cyan)}
+header{position:sticky;top:0;z-index:9;background:rgba(13,17,23,.97);border-bottom:1px solid var(--line)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+.brand{display:flex;align-items:center;gap:10px;padding:12px 0 8px;flex-wrap:wrap}
+.brand h1{font-size:17px;margin:0}
+.ver{font-size:11px;color:var(--gold);border:1px solid var(--gold);border-radius:99px;padding:1px 9px}
+nav{display:flex;gap:3px;overflow-x:auto;padding-bottom:9px;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{background:transparent;color:var(--tx2);border:1px solid transparent;padding:6px 12px;border-radius:7px;cursor:pointer;font-size:13.5px;white-space:nowrap;font-family:inherit}
+nav button.on{background:var(--panel2);color:var(--gold);border-color:var(--line)}
+main{padding:20px 0 70px}
+section{display:none} section.on{display:block}
+h2{font-size:20px;margin:0 0 4px;color:var(--gold)}
+h3{font-size:15px;margin:22px 0 8px;padding-left:10px;border-left:3px solid var(--cyan)}
+h4{font-size:13.5px;margin:14px 0 6px;color:var(--cyan)}
+p{margin:8px 0;color:var(--tx2)}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:13.5px}
+th,td{text-align:left;padding:6px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--gold);font-weight:600;font-size:12.5px}
+td{color:var(--tx2)} td b{color:var(--tx)}
+code{background:var(--panel2);padding:1px 6px;border-radius:4px;font-size:12.5px;color:var(--cyan);font-family:ui-monospace,Menlo,monospace;word-break:break-all}
+ul{margin:6px 0;padding-left:20px;color:var(--tx2)} li{margin:4px 0}
+.warn{background:#2a1d12;border-left:3px solid var(--gold);padding:11px 15px;border-radius:0 8px 8px 0;margin:11px 0;color:#e8d5b0;font-size:14px}
+.warn b{color:var(--gold)}
+.ok{background:#12251c;border-left:3px solid var(--green);padding:11px 15px;border-radius:0 8px 8px 0;margin:11px 0;color:#b8e0cb;font-size:14px}
+.danger{background:#2b1618;border-left:3px solid var(--red);padding:11px 15px;border-radius:0 8px 8px 0;margin:11px 0;color:#f0c0c4;font-size:14px}
+.danger b{color:var(--red)}
+.sp{font-size:11px;color:var(--gold);border:1px solid var(--gold);border-radius:99px;padding:0 6px;margin-left:4px;white-space:nowrap}
+.stageblock{border:1px solid var(--line);border-radius:12px;padding:4px 18px 14px;margin:16px 0;background:var(--panel)}
+.stagehead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;border-left:5px solid var(--cyan);padding:10px 0 10px 12px;margin:0 -18px 8px;background:var(--panel2)}
+.stagename{font-size:16px;font-weight:700}
+.stagelv{font-size:12.5px;color:var(--gold)}
+.stagegoal{font-size:12.5px;color:var(--tx2)}
+.dl{display:block;background:linear-gradient(135deg,#1a2a1f,#161b22);border:1px solid var(--green);border-radius:11px;padding:14px 17px;margin:11px 0;text-decoration:none}
+.dl .t{font-size:15px;font-weight:700;color:var(--green)}
+.dl .d{font-size:12.5px;color:var(--tx2);margin-top:3px}
+.chk{display:flex;gap:10px;align-items:flex-start;padding:6px 10px;border-radius:7px;cursor:pointer}
+.chk:hover{background:var(--panel)}
+.chk input{margin-top:4px;width:16px;height:16px;accent-color:var(--green);flex:0 0 auto}
+.chk .txt{flex:1;font-size:13.5px;color:var(--tx2)}
+.chk.done .txt{color:#5b6674;text-decoration:line-through}
+.bar{height:8px;background:var(--panel2);border-radius:99px;overflow:hidden;margin:8px 0 3px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cyan),var(--green));width:0}
+.res{display:flex;align-items:center;gap:11px;padding:10px 13px;border-radius:9px;background:var(--panel2);margin:7px 0}
+.res .val{font-size:18px;font-weight:700}
+.res .st{font-size:11.5px;margin-left:auto;padding:2px 9px;border-radius:99px}
+.s-ok{background:#12251c;color:var(--green)}.s-warn{background:#2a1d12;color:var(--gold)}.s-bad{background:#3d1f1f;color:var(--red)}
+label{display:block;font-size:12.5px;color:var(--tx2);margin-bottom:4px}
+input[type=number]{width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:7px;padding:8px 11px;font-size:14px;font-family:inherit}
+.btn{background:var(--panel2);color:var(--tx);border:1px solid var(--line);border-radius:7px;padding:8px 16px;cursor:pointer;font-size:13.5px;font-family:inherit}
+.grid{display:grid;gap:10px}
+@media(min-width:700px){.grid.g3{grid-template-columns:1fr 1fr 1fr}.grid.g2{grid-template-columns:1fr 1fr}}
+footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:12px}
+
+.toc{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}
+.toc a{font-size:12.5px;background:var(--panel);border:1px solid var(--line);padding:4px 11px;border-radius:99px;text-decoration:none;color:var(--tx2)}
+.toc a:hover{border-color:var(--cyan);color:var(--cyan)}
+.stage{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);border-radius:11px;padding:11px 14px;margin:9px 0;background:var(--panel)}
+.stage .snum{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--panel2);border:1px solid var(--cyan);color:var(--cyan);font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.stage .sbody{flex:1;min-width:0}
+.stage .sL{font-size:12px;color:var(--gold);margin-left:8px;white-space:nowrap}
+.stage .sBuy{font-size:13.5px;color:var(--tx);margin-top:4px}
+.stage .sGoal{font-size:12.5px;color:var(--tx2);margin-top:3px;line-height:1.65}
+.stage .sGoal b{color:var(--gold)}
+.figrow{display:flex;flex-wrap:wrap;gap:11px;margin:12px 0}
+.figgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:11px;margin:12px 0}
+.figbox{flex:1 1 260px;min-width:180px;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.figbox img{display:block;width:100%;height:150px;object-fit:cover;background:#0b0f14}
+.figbox .fcap{font-size:12px;color:var(--tx2);padding:8px 10px;line-height:1.6}
+.figbox .fcap b{color:var(--tx)}
+.figbox:hover{border-color:var(--cyan)}
+.job{border:1px solid var(--line);border-radius:11px;overflow:hidden;margin:12px 0;background:var(--panel)}
+.job .jt{background:var(--panel2);padding:8px 13px;font-size:13px;font-weight:600;color:var(--gold);border-left:4px solid var(--cyan)}
+.job .jn{padding:9px 13px;font-size:13.5px;color:var(--tx2);line-height:1.7}
+.job .jn b{color:var(--tx)}
+
+.treegal{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin:12px 0}
+.treegal a{display:block;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.treegal a:hover{border-color:var(--cyan)}
+.treegal img{display:block;width:100%;height:190px;object-fit:cover;background:#0b0f14}
+.treegal span{display:block;font-size:12.5px;color:var(--tx2);padding:8px 10px;line-height:1.55}
+
+.stagetoc{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.stagetoc a{font-size:12.5px;background:var(--panel);border:1px solid var(--line);padding:5px 10px;border-radius:8px;text-decoration:none;color:var(--tx2);display:flex;gap:6px;align-items:baseline}
+.stagetoc a span{font-size:11px;color:var(--gold)}
+.stagetoc a:hover{border-color:var(--cyan);color:var(--cyan)}
+.navsep{font-size:11px;color:#5b6674;padding:0 4px 0 10px;border-left:1px solid var(--line);margin-left:6px;align-self:center;white-space:nowrap}
+.steplist{margin:6px 0;padding-left:18px}
+.steplist li{margin:3px 0;font-size:13.5px;color:var(--tx2)}
+.steplist li b{color:var(--tx)}
+h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
+</style></head>
+<body><main class="wrap"><section id="gpt">
+ <h2>🤖 给 GPT 的指令</h2>
+
+<div class="ok">
+ <b>这一页是给另一个 AI 的完整指令。</b>把下面整段复制过去（或者把
+ <code>GPT-Task-D1-Leveling-Tree.md</code> 发过去）就行，任务只有一件：
+ <b>核对 / 输出「第一天开荒天赋树」</b>。
+</div>
+
+<h3>① 一键复制指令</h3>
+<div style="position:relative;margin:10px 0">
+ <button class="btn" id="copyTask" style="margin-bottom:8px">📋 复制完整指令</button>
+ <textarea id="taskText" readonly
+  style="width:100%;height:420px;background:var(--panel);color:var(--tx2);border:1px solid var(--line);
+  border-radius:9px;padding:12px;font-size:12.5px;line-height:1.7;font-family:inherit;resize:vertical"># 任务：核对 / 输出「第一天开荒天赋树」——Path of Exile 2（国服 0.5.5）锐眼冰射狙击
+
+## 一、背景
+国服《流放之路：降临》0.5.5，BD 是 B 站 UP 主「网瘾老年人lowK」的锐眼冰射狙击。他把这套 BD 分成两段：
+· 第一天：非暴击冰射开荒（1~70 级），练到能刷异界 T15
+· 第二天：转暴击后的后期（70 级起）
+现在要的是「第一天」那棵天赋树。
+
+## 二、先下载这三个文件
+1) 我推的第一天树（需要你核对）：https://harryghost.github.io/poe2-guide/POE2-Author-Tree-D1.build
+2) 他本人第二天原版（作对照）：https://harryghost.github.io/poe2-guide/POE2-Author-Tree-D2.build
+3) 完整任务说明（HTML 版）：https://harryghost.github.io/poe2-guide/gpt-task.html
+
+文件是 .build（JSON），关键是 passives 数组，每项形如 {"id": "cold_penetration24"}。
+id 用游戏 PassiveSkills 表的 string id。
+
+## 三、我推的第一天树是怎么做的
+以他第二天那 151 个节点为底，剔除：
+· 所有 criticals* 前缀节点（暴击系）
+· 所有 daze*（眩晕）、shock*（感电）、DeliriumAnoint（涂油）
+· 属性文本里含 critical 的大点
+保留：冰霜穿透 / 冰冻积累 / 投射物 / 弓（含额外箭矢几率）/ 属性点 / 珠宝孔 / 闪避+护盾 / 移速 / 印记 / 敏捷。
+结果：104 个天赋节点。用「全图最短路径」校验过，是 1 个完整连通块（合法）。
+（104 个节点的全表在任务说明页底部，可直接点击复制。）
+
+## 四、依据（他的原话）
+· 「70 级左右就可以转暴击」「转暴击需要留 100 万金币洗点」→ 第一天不点暴击系
+· 第一天输出：闪电箭矢 / 引雷针过渡 → 31 级转冰霜射击 → 狙击 → 冰冻印记 + 冻结齐射 + 弹幕
+· 讲第一天天赋时他说：「这里要加投射物速度跟攻击速度，还有石的敏捷是一个比较实惠的点」
+· 「因为我们暴击比较缺命中」（原文疑似，按语境是命中）
+
+## 五、请你做两件事
+1) 核算点数
+按「每级 1 点 + 任务/间章 24 点」算：104 点 ≈ 80 级。
+但按他的视频，第一天是 70 级左右打完 T15 → 应该是 90~95 点。
+问题：第一天合理点数到底是多少？我多了还是少了？
+
+2) 输出修订后的第一天节点表
+· 要删的节点：列 string id（或节点名）
+· 要加的节点：列 string id（或节点名）+ 为什么第一天就需要
+· 修订后总节点数
+要求：保持从锐眼起点连通（游戏规则）；至少覆盖他第一天要用的技能（冰霜射击 / 狙击 / 冰冻印记 / 冻结齐射 / 弹幕），也就是冰冷穿透、冰冻积累、投射物、命中这几个方向要够。
+
+## 六、数据源（权威）
+1) PoB2 仓库：https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2
+   · src/TreeData/0_5/tree.json —— 节点、连接、坐标、大点标记（stringId / isNotable / connections）
+   · 注意：groups[id].x / y 是「组中心」，不是节点真实坐标。真实坐标公式：
+     节点坐标 = group中心 + 轨道半径 × (sinθ, cosθ)
+     θ = constants.orbitAnglesByOrbit[orbit][orbitIndex]
+     orbitRadii = [0, 82, 162, 335, 493, 662, 846, 251, 1080, 1322]
+2) GGG 官方 .build 规范：https://www.pathofexile.com/developer/docs/game
+3) 真实可用的 .build 样本（对照格式）：
+   https://github.com/chesler410/poe2-build-forge/tree/main/fixtures
+4) 中文资料站：https://poe2db.tw/cn/
+
+## 七、输出格式（照这个回，别多写别的）
+① 第一天合理点数：___ 点（依据：___）
+② 要删的节点：- id（说明）
+③ 要加的节点：- id（说明）
+④ 修订后总节点数：___
+⑤ 你认为我哪里判断错了（如果有）
+
+## 八、协作说明
+你只需要给「节点级判断」（哪些留、哪些删、哪些加）。落地（重新生成 .build、部署、回读验证）由我来做。
+</textarea>
+</div>
+<div class="warn">
+ <b>纯文本下载：</b>
+ <a href="GPT-Task-D1-Leveling-Tree.md" download>GPT-Task-D1-Leveling-Tree.md</a> ·
+ <a href="给GPT核对第一天开荒天赋树.md" download>给GPT核对第一天开荒天赋树.md（中文名）</a><br>
+ 这两个文件里的内容比上面的指令多了<b>附录：我现在 D1 的全部 104 个节点表</b>（逐行列出 id / 节点名 / 属性），
+ 对方核对时更方便。<b>建议发带附录的那份。</b>
+</div>
+
+<h3>② 对方要下载的两个数据文件</h3>
+<table>
+ <tr><th style="width:34%">文件</th><th>说明</th></tr>
+ <tr><td><a href="POE2-Author-Tree-D1.build" download>POE2-Author-Tree-D1.build</a></td>
+     <td>我推的第一天树，<b>104 个节点</b>（需要核对的就是它）</td></tr>
+ <tr><td><a href="POE2-Author-Tree-D2.build" download>POE2-Author-Tree-D2.build</a></td>
+     <td>他本人第二天原版，<b>151 个节点</b>（作对照）</td></tr>
+</table>
+
+<h3>③ 指令里已写明的东西（你不用再解释）</h3>
+<ul>
+ <li><b>背景</b>：BD 出处、两个阶段、要的是第一天那棵</li>
+ <li><b>我的做法</b>：怎么从第二天那 151 个节点推出第一天的 104 个（剔了哪些前缀）</li>
+ <li><b>依据</b>：他视频里的原话（70 级转暴击、第一天加投射物和攻速、暴击缺命中）</li>
+ <li><b>要核对的两个问题</b>：点数是否合理、要删/要加哪些节点</li>
+ <li><b>权威数据源</b>：PoB2 的 tree.json（含真实坐标公式，避免踩「组中心坐标」的坑）、GGG 官方 .build 规范、真实样本仓库、poe2db</li>
+ <li><b>输出格式</b>：五段固定结构，防止对方跑题</li>
+</ul>
+
+<h3>④ 他回复之后怎么办</h3>
+<div class="danger">
+ 把他回复的内容<b>原样贴回来给我</b>。我按他给的节点判断重新生成 .build、
+ 部署到网站、再做回读验证（每个节点 ID 合法性 + 从起点连通性 + 点数核对），然后给你确认。
+</div>
+
+<script>
+(function(){
+ var b=document.getElementById('copyTask'), t=document.getElementById('taskText');
+ if(!b||!t) return;
+ b.addEventListener('click', function(){
+  t.removeAttribute('readonly'); t.select(); t.setSelectionRange(0, t.value.length);
+  var ok=false;
+  try{ ok=document.execCommand('copy'); }catch(e){}
+  if(!ok && navigator.clipboard){ navigator.clipboard.writeText(t.value); ok=true; }
+  t.setAttribute('readonly','readonly');
+  b.textContent = ok ? '✅ 已复制' : '❌ 复制失败，请手动全选';
+  setTimeout(function(){ b.textContent='📋 复制完整指令'; }, 2000);
+ });
+})();
+</script>
+</section></main></body></html>
