@@ -3,7 +3,7 @@
   "author": "网瘾老年人lowK（配置）",
   "link": "https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites",
   "ascendancy": "Ranger1",
-  "description": "【开荒天赋树 · 第一天（非暴击）· 88 点】\n\n来源：从作者本人（网瘾老年人lowK）的后期天赋树里推出来 —— 去掉第二天转暴击后才点的\n暴击系 / 眩晕系节点，保留冰射核心，并保证从锐眼起点连通。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放：OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n\n【和第二天那份的区别】\n- 这份没有暴击圈（他视频里说 70 级左右才转暴击，转的时候要留 100 万金币洗点）\n- 冰霜穿透 / 冰冻积累 / 投射物 / 闪避 / 敏捷 这些两边都有\n",
+  "description": "【开荒天赋树 · 第一天（非暴击）· 104 点】\n\n来源：从作者本人（网瘾老年人lowK）的后期天赋树里推出来 —— 去掉第二天转暴击后才点的\n暴击系 / 眩晕系节点，保留冰射核心，并保证从锐眼起点连通。\n\n【导入】\n1. 文件放进：C:\\Users\\<用户名>\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n   有 OneDrive 的话优先放：OneDrive\\Documents\\My Games\\Path of Exile 2\\BuildPlanner\\\n2. BuildPlanner 文件夹要自己建。\n3. 游戏里按 P 打开天赋树 → 右上角 Build Planner 下拉框 → 选中这个文件。\n\n【和第二天那份的区别】\n- 这份没有暴击圈（他视频里说 70 级左右才转暴击，转的时候要留 100 万金币洗点）\n- 冰霜穿透 / 冰冻积累 / 投射物 / 闪避 / 敏捷 这些两边都有\n",
   "passives": [
     {
       "id": "projectiles15"
@@ -40,6 +40,9 @@
     },
     {
       "id": "attack36"
+    },
+    {
+      "id": "jewel_slot1960"
     },
     {
       "id": "elemental28"
@@ -102,6 +105,9 @@
       "id": "dexterity58"
     },
     {
+      "id": "attributes74"
+    },
+    {
       "id": "attributes27"
     },
     {
@@ -123,16 +129,22 @@
       "id": "azmerianimals47"
     },
     {
-      "id": "marks32"
+      "id": "jewel_slot1961"
     },
     {
-      "id": "attack2"
+      "id": "marks32"
     },
     {
       "id": "dexterity82_"
     },
     {
+      "id": "attack2"
+    },
+    {
       "id": "dexterity52"
+    },
+    {
+      "id": "jewel_slot1976"
     },
     {
       "id": "attack5"
@@ -141,13 +153,13 @@
       "id": "dexterity51"
     },
     {
+      "id": "intelligence25"
+    },
+    {
       "id": "dexterity110"
     },
     {
       "id": "marks29"
-    },
-    {
-      "id": "intelligence25"
     },
     {
       "id": "intelligence66"
@@ -171,6 +183,15 @@
       "id": "marks28"
     },
     {
+      "id": "heralds12_"
+    },
+    {
+      "id": "attributes10"
+    },
+    {
+      "id": "bow19"
+    },
+    {
       "id": "attributes11"
     },
     {
@@ -184,6 +205,9 @@
     },
     {
       "id": "azmerianimals44"
+    },
+    {
+      "id": "attributes9"
     },
     {
       "id": "dexterity9"
@@ -204,6 +228,9 @@
       "id": "azmerianimals48"
     },
     {
+      "id": "bow20"
+    },
+    {
       "id": "dexterity7"
     },
     {
@@ -213,16 +240,34 @@
       "id": "dexterity47"
     },
     {
+      "id": "heralds10"
+    },
+    {
+      "id": "passive_keystone_resonance"
+    },
+    {
+      "id": "evasion_and_energy_shield5"
+    },
+    {
       "id": "marks16"
     },
     {
       "id": "heralds16_"
     },
     {
+      "id": "evasion_and_energy_shield8"
+    },
+    {
+      "id": "bow21"
+    },
+    {
       "id": "cold_penetration2"
     },
     {
       "id": "marks5_"
+    },
+    {
+      "id": "intelligence67"
     },
     {
       "id": "evasion28"
@@ -232,6 +277,9 @@
     },
     {
       "id": "bow23"
+    },
+    {
+      "id": "evasion_and_energy_shield22"
     },
     {
       "id": "marks13"
