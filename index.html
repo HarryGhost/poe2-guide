@@ -98,14 +98,122 @@ footer{border-top:1px solid var(--line);padding:18px 0;color:#5b6674;font-size:1
 .steplist li{margin:3px 0;font-size:13.5px;color:var(--tx2)}
 .steplist li b{color:var(--tx)}
 h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
+
+/* ===== 优化补丁（GPT 方案）===== */
+main > section{display:none}
+main > section.on{display:block}
+html{color-scheme:dark;scroll-padding-top:calc(var(--header-h,120px) + 12px)}
+header nav{display:flex;gap:6px;flex-wrap:nowrap;max-width:100%;overflow-x:auto;
+ padding:4px 0 8px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+header nav::-webkit-scrollbar{display:block;height:4px}
+header nav::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+header nav > a{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;
+ min-width:44px;min-height:44px;padding:8px 14px;border:1px solid transparent;border-radius:7px;
+ background:transparent;color:var(--tx2);font-size:15px;line-height:1.4;white-space:nowrap;text-decoration:none}
+header nav > a.on{background:var(--panel2);color:var(--gold);border-color:var(--line)}
+a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+main > section,.grid > *,.gal > *,.figgrid > *,.treegal > *,.figrow > *,.figbox{min-width:0}
+.table-scroll{max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-x:contain;margin:12px 0;
+ border:1px solid var(--line);border-radius:8px}
+.table-scroll > table{width:100%;margin:0}
+.table-scroll > table.table-wide{min-width:640px}
+.table-scroll th,.table-scroll td{word-break:normal;overflow-wrap:anywhere}
+.table-hint{font-size:13px;color:var(--tx2)}
+.gal{display:grid;gap:12px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.figgrid{display:grid;gap:12px;grid-template-columns:repeat(3,minmax(0,1fr))}
+.treegal,.figrow{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.figbox img,.treegal img,.gitem img{display:block;width:100%;height:auto;aspect-ratio:16/9;
+ object-fit:contain;background:var(--bg)}
+.gitem > span{position:static;display:block;padding:8px 10px;color:var(--tx2);background:var(--panel);white-space:normal}
+.stagetoc a{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:10px;
+ background:var(--panel);text-decoration:none;color:var(--tx);font-size:14.5px}
+.stagetoc a span{display:block;font-size:12.5px;color:var(--gold);margin-top:4px}
+.stagetoc a:hover{border-color:var(--cyan)}
+.fold{margin:12px 0;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.fold > summary{min-height:48px;padding:12px 14px;color:var(--gold);font-size:16px;font-weight:600;
+ line-height:1.6;cursor:pointer}
+.fold[open] > summary{border-bottom:1px solid var(--line)}
+.fold-body{padding:12px 14px}
+.pager{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:20px 0}
+.pager a{display:flex;align-items:center;justify-content:center;min-width:0;min-height:44px;padding:10px;
+ border:1px solid var(--line);border-radius:8px;background:var(--panel2);text-align:center;text-decoration:none}
+@media (min-width:700px) and (max-width:1023px){
+ .gal{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .figgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:699px){
+ .gal{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .figgrid,.treegal,.figrow{grid-template-columns:minmax(0,1fr)}
+ body{font-size:16px;line-height:1.85}
+ .wrap{padding-inline:14px}
+ .brand h1{font-size:16px;line-height:1.4}
+ h2{font-size:21px;line-height:1.45}
+ h3{font-size:17px;line-height:1.6;margin:24px 0 12px}
+ h4{font-size:16px;line-height:1.6;margin:20px 0 10px}
+ p,ul,ol{margin-block:12px}
+ li{margin-block:8px}
+ .steplist li,.chk .txt,.job .jn{font-size:15.5px;line-height:1.8}
+ .warn,.ok,.danger{font-size:15px;line-height:1.8;padding:12px}
+ .table-scroll th,.table-scroll td,table th,table td{font-size:14px;line-height:1.75;padding:10px}
+ .btn,input[type=number],select{font-size:16px;min-height:44px;max-width:100%}
+}
 </style></head><body>
 <header><div class="wrap">
  <div class="brand"><h1>锐眼冰射狙击 · 开荒手册</h1>
   <span class="ver">0.5.5 国服</span>
   <span class="ver" style="color:var(--cyan);border-color:var(--cyan)">来源：网瘾老年人lowK</span></div>
- <nav><button class="on" data-t="stage_s1">1️⃣ 1–14级</button><button data-t="stage_s2">2️⃣ 造弓</button><button data-t="stage_s3">3️⃣ 转冰</button><button data-t="stage_s4">4️⃣ 第四章</button><button data-t="stage_s5">5️⃣ 异界</button><button data-t="stage_s6">6️⃣ 暴击</button><button data-t="stage_s7">7️⃣ 成型</button><button data-t="skill">⚔ 技能全表</button><button data-t="rot">🎯 输出手法</button><button data-t="end">🌌 异界后（成型）</button><button data-t="gear">🔨 装备全流程</button><button data-t="talent">🧭 加点与属性</button><button data-t="memo">📖 对照速查</button><button data-t="video">🎬 视频笔记</button><button data-t="pics">🖼 配图总览</button><button data-t="gpt">🤖 给GPT的指令</button><button data-t="lowk">🔗 他的链接</button></nav>
+ <nav class="primary-nav">
+  <a href="#start">跟着练</a>
+  <a href="#config">查配置</a>
+  <a href="#memo">速查</a>
+  <a href="#resources">资料下载</a>
+ </nav>
 </div></header><main class="wrap">
-<section id="stage_s1" class="on"><span id="s1"></span>
+
+<section id="start" data-main="start" class="on">
+ <h2>跟着练</h2>
+ <p><b>这个页面只做一件事：带你去当前该看的那一页。</b>攻略本身在下面各阶段页里，技能/装备/天赋的完整资料在「查配置」。</p>
+
+ <div style="display:flex;flex-wrap:wrap;gap:10px;margin:16px 0">
+  <a class="dl" href="#stage_s1" id="startBtn" style="flex:1 1 240px">
+   <div class="t">▶ 从第一章开始</div>
+   <div class="d">1–14 级：拿技能、练到 5 级、打完第一章</div>
+  </a>
+  <a class="dl" href="#stage_s1" id="resumeBtn" style="flex:1 1 240px;border-color:var(--gold);display:none">
+   <div class="t" style="color:var(--gold)">⏵ 继续上次：<span id="resumeName">—</span></div>
+   <div class="d">接着上次看的那一阶段</div>
+  </a>
+ </div>
+
+ <h3>我当前在哪个阶段？</h3>
+ <p style="font-size:13px">按<b>章节</b>或<b>是否已转暴击</b>自己选一页 —— 等级只是参考，各阶段有重叠。</p>
+ <div class="stagetoc" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))">
+  <a href="#stage_s1">1️⃣ 开局–第一章<span>1–14 级</span></a><a href="#stage_s2">2️⃣ 第二章 · 造弓<span>13–28 级</span></a><a href="#stage_s3">3️⃣ 第三章 · 转冰<span>28–40 级</span></a><a href="#stage_s4">4️⃣ 第四章<span>40 级进异界前</span></a><a href="#stage_s5">5️⃣ 进异界 · 买装<span>40–70 级</span></a><a href="#stage_s6">6️⃣ 转暴击 · 第二套<span>70–90 级</span></a><a href="#stage_s7">7️⃣ 成型后 · 赚 D<span>90 级+</span></a>
+ </div>
+
+ <div class="ok" style="margin-top:16px">
+  <b>下载 BD 文件</b>（游戏里导入天赋树）：在「资料下载」页，或者在阶段 1 / 阶段 5 页里也能拿到。
+  <br>先看「查配置」了解每个阶段具体点什么、买什么。
+ </div>
+</section>
+
+<section id="resources" data-main="resources">
+ <h2>资料下载</h2>
+ <p>要下载的 BD 文件、原作者内容、配图都集中在这一页。</p>
+ <div class="stagetoc">
+  <a href="#download">⬇ 下载与导入</a>
+  <a href="#video">🎬 视频笔记</a>
+  <a href="#pics">🖼 配图总览</a>
+  <a href="#lowk">🔗 他的链接</a>
+  <a href="#gpt">🤖 维护资料</a>
+ </div>
+</section>
+
+<section id="download" data-main="resources">
+ <h2>下载与导入</h2>
+
+</section>
+<section id="stage_s1" data-main="start" class="on"><span id="s1"></span>
  <h2>1️⃣ 开局–第一章</h2>
 
  <h2>照抄表</h2>
@@ -215,7 +323,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn"><b>墓园女 BOSS 那张图：清完怪再开宝箱！</b>开了宝箱死了就拿不到辅助宝石。</div>
 </div>
 </section>
-<section id="stage_s2"><span id="s2"></span>
+<section id="stage_s2" data-main="start"><span id="s2"></span>
  <h2>2️⃣ 第二章 · 造弓</h2>
 <div class="toc" style="margin:14px 0 4px">
  <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
@@ -246,7 +354,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn"><b>16 级弓的判断标准只有一条：1 个前缀就达到 23–46 点伤，就值得打造。</b><br>蓝装必定 1 前 1 后；有后缀时用增幅石必定出前缀。洗不出 23–46 就先用 20+ 的，别硬肝。</div>
 </div>
 </section>
-<section id="stage_s3"><span id="s3"></span>
+<section id="stage_s3" data-main="start"><span id="s3"></span>
  <h2>3️⃣ 第三章 · 转冰</h2>
 <div class="toc" style="margin:14px 0 4px">
  <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
@@ -280,7 +388,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn">转冰霜射击之后，<b>武器看的就是物理点伤</b>（80% 物理转冰冷），元素点伤是次要的。</div>
 </div>
 </section>
-<section id="stage_s4"><span id="s4"></span>
+<section id="stage_s4" data-main="start"><span id="s4"></span>
  <h2>4️⃣ 第四章</h2>
 <div class="toc" style="margin:14px 0 4px">
  <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
@@ -310,7 +418,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn">「最后一个图掉高级工匠石」——用来给冰霜射击开 4 孔。</div>
 </div>
 </section>
-<section id="stage_s5"><span id="s5"></span>
+<section id="stage_s5" data-main="start"><span id="s5"></span>
  <h2>5️⃣ 进异界 · 买装</h2>
 <div class="toc" style="margin:14px 0 4px">
  <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
@@ -342,7 +450,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn"><b>抗性优先级永远高于伤害</b>：项链 + 戒指 + 腰带 4 件里凑满火冰电 75%，再补 1–2 条混沌抗（混沌不是元素，元素抗性加不了）。</div>
 </div>
 </section>
-<section id="stage_s6"><span id="s6"></span>
+<section id="stage_s6" data-main="start"><span id="s6"></span>
  <h2>6️⃣ 转暴击 · 第二套</h2>
 <div class="toc" style="margin:14px 0 4px">
  <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
@@ -373,7 +481,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn"><b>转暴击要留 100 万金币洗点。</b></div>
 </div>
 </section>
-<section id="stage_s7"><span id="s7"></span>
+<section id="stage_s7" data-main="start"><span id="s7"></span>
  <h2>7️⃣ 成型后 · 赚 D</h2>
 <div class="toc" style="margin:14px 0 4px">
  <b style="font-size:12.5px;color:var(--tx2);width:100%">跳到某一阶段：</b>
@@ -404,7 +512,19 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <div class="warn">别急着打 200 迷雾——伤害和生存都不够的时候很便秘。</div>
 </div>
 </section>
-<section id="skill">
+
+<section id="config" data-main="config">
+ <h2>查配置</h2>
+ <p>四个阶段的详细资料都在这几页，按需要点进去。</p>
+ <div class="stagetoc" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))">
+  <a href="#skill">⚔ 技能全表<span>逐章配合辅助</span></a>
+  <a href="#rot">🎯 输出手法<span>连招与时机</span></a>
+  <a href="#gear">🔨 装备全流程<span>什么等级买什么</span></a>
+  <a href="#talent">🧭 加点与属性<span>天赋方向 + 属性门槛</span></a>
+  <a href="#end">🌌 异界后配置<span>成型后的技能与武器组</span></a>
+ </div>
+</section>
+<section id="skill" data-main="config">
  <h2>⚔ 技能配置（逐章照抄）</h2>
  <p>全部是<b>国服技能名</b>。左边游戏里切出来，中间那行就是辅助宝石怎么连。</p>
 
@@ -435,7 +555,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
   · 序言里「元素武装」是国际服叫法，国服是「<b>元素军械</b>」
  </div>
 </section>
-<section id="rot">
+<section id="rot" data-main="config">
  <h2>🎯 输出手法</h2>
 
  <div class="stageblock">
@@ -483,7 +603,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
   <div class="warn"><b>是否用狙击看你自己的冰冻效率。</b>冻不住就别勉强。</div>
  </div>
 </section>
-<section id="end">
+<section id="end" data-main="config">
  <h2>🌌 异界后（成型配置）</h2>
  <div class="warn">
   <b>这一页是"会开荒"到"会刷图"的关键，之前的版本完全没有。</b>
@@ -515,7 +635,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
   <a href="https://poe.ninja/poe2/profile/Kommmm-0462/forbiddenrites/character/%E7%BD%91%E7%98%BE%E8%80%81%E5%B9%B4%E4%BA%BA%E5%86%B0%E5%B0%84" target="_blank" style="font-weight:600">poe.ninja ↗</a>
  </div>
 </section>
-<section id="gear">
+<section id="gear" data-main="config">
  <h2>🔨 装备（前中后期全流程）</h2>
  <p>来自 <b>网瘾老年人lowK</b>《0.5冰射 前中后期的装备搭配》+《0.55锐眼开荒文档》。</p>
 
@@ -721,7 +841,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
 <div class="figgrid"><div class="figbox"><a href="images/gear/c4-trade-filter.jpg" target="_blank"><img src="images/gear/c4-trade-filter.jpg" loading="lazy" alt="交易筛选器：物理 DPS 300、暴击率 9.42、最低价上限 1000（等值崇高石）——这就是他挑弓的筛选条件"></a><div class="fcap">交易筛选器：物理 DPS <b>300</b>、暴击率 <b>9.42</b>、最低价上限 1000（等值崇高石）——这就是他挑弓的筛选条件</div></div><div class="figbox"><a href="images/gear/c5-devastator.jpg" target="_blank"><img src="images/gear/c5-devastator.jpg" loading="lazy" alt="毁灭者之弓：物理 151–280、暴击 9.90%、附加 81–111 火伤，已污染，40 崇高石"></a><div class="fcap"><b>毁灭者之弓</b>：物理 151–280、暴击 9.90%、附加 81–111 火伤，已污染，40 崇高石</div></div><div class="figbox"><a href="images/gear/c5-devastator-cheap.jpg" target="_blank"><img src="images/gear/c5-devastator-cheap.jpg" loading="lazy" alt="另一只毁灭者之弓（奇蹟真眼）：物理 196–364、闪电 1–117，1 神圣石——「1D」这档他挑的方向"></a><div class="fcap">另一只<b>毁灭者之弓</b>（奇蹟真眼）：物理 196–364、闪电 1–117，<b>1 神圣石</b>——「1D」这档他挑的方向</div></div><div class="figbox"><a href="images/gear/c2-bow-theory.jpg" target="_blank"><img src="images/gear/c2-bow-theory.jpg" loading="lazy" alt="他文档里「好弓长什么样」的截图：+127%（125–150）溢出几率发射一支额外箭矢、暴击几率 +3.7（3.11–3.…"></a><div class="fcap">他文档里「好弓长什么样」的截图：<b>+127%（125–150）溢出几率发射一支额外箭矢</b>、<b>暴击几率 +3.7（3.11–3.8）%</b>、<b>所有投射物技能等级 +1</b>——这就是「额外几率箭 / 暴击 / 等级」三条的实物样子</div></div><div class="figbox"><a href="images/gear/c3-hunter-base.jpg" target="_blank"><img src="images/gear/c3-hunter-base.jpg" loading="lazy" alt="猎心 反曲弓（未升级）：物理 35–73、投射物分裂至 +2 个目标，1 个富豪石"></a><div class="fcap"><b>猎心 反曲弓</b>（未升级）：物理 35–73、投射物分裂至 +2 个目标，<b>1 个富豪石</b></div></div><div class="figbox"><a href="images/gear/c3-hunter-final.jpg" target="_blank"><img src="images/gear/c3-hunter-final.jpg" loading="lazy" alt="猎心 符锻反曲弓（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，10 崇高石"></a><div class="fcap"><b>猎心 符锻反曲弓</b>（已升级）：需求 40 级 / 72 敏捷，物理 110–226，分裂 +2，<b>10 崇高石</b></div></div><div class="figbox"><a href="images/gear/c3-slivertongue.jpg" target="_blank"><img src="images/gear/c3-slivertongue.jpg" loading="lazy" alt="白银之舌符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档"></a><div class="fcap"><b>白银之舌</b>符锻狂热弓（国际服名 Slivertongue）：暴击 14.08%，1D / 2D 两档</div></div><div class="figbox"><a href="images/gear/c3-lioneye.jpg" target="_blank"><img src="images/gear/c3-lioneye.jpg" loading="lazy" alt="狮眼的战弓（重弓）：物理 171–284、+330 命中、+24 敏捷"></a><div class="fcap"><b>狮眼的战弓</b>（重弓）：物理 171–284、+330 命中、+24 敏捷</div></div><div class="figbox"><a href="images/gear/c2-widowhail.jpg" target="_blank"><img src="images/gear/c2-widowhail.jpg" loading="lazy" alt="遗孀之雹（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓"></a><div class="fcap"><b>遗孀之雹</b>（粗制弓）：「增加 235% 从已装备箭袋获得的加成」，1 个富豪石——练级弓</div></div><div class="figbox"><a href="images/gear/c2-rune-arrow.jpg" target="_blank"><img src="images/gear/c2-rune-arrow.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢（等级 50）"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b>（等级 50）</div></div><div class="figbox"><a href="images/gear/c2-rune-element.jpg" target="_blank"><img src="images/gear/c2-rune-element.jpg" loading="lazy" alt="符文：弓类攻击发射一支额外箭矢 + 萨奇沃的苍空符文（获得相当于伤害 5% 的所有元素额外伤害）——等级 50"></a><div class="fcap">符文：<b>弓类攻击发射一支额外箭矢</b> + <b>萨奇沃的苍空符文</b>（获得相当于伤害 5% 的所有元素额外伤害）——等级 50</div></div><div class="figbox"><a href="images/gear/c4-amulet.jpg" target="_blank"><img src="images/gear/c4-amulet.jpg" loading="lazy" alt="项链：全部投射物技能等级 +3 + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，1D"></a><div class="fcap">项链：<b>全部投射物技能等级 +3</b> + 冰冷 23% + 闪电 40% 抗性，总抗 +63%，<b>1D</b></div></div><div class="figbox"><a href="images/gear/c4-ring-call.jpg" target="_blank"><img src="images/gear/c4-ring-call.jpg" loading="lazy" alt="意志呼唤黄玉戒指：冻结积累 +30%、100% 闪电伤害转冰霜，1 崇高石"></a><div class="fcap"><b>意志呼唤</b>黄玉戒指：冻结积累 +30%、100% 闪电伤害转冰霜，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-hat-heatshiver.jpg" target="_blank"><img src="images/gear/c2-hat-heatshiver.jpg" loading="lazy" alt="寒焰丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，1 崇高石"></a><div class="fcap"><b>寒焰</b>丝绒帽：敌人每 1% 冰缓 → 额外火焰伤害，双抗 +80 最大魔力，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c3-helm-acuity.jpg" target="_blank"><img src="images/gear/c3-helm-acuity.jpg" loading="lazy" alt="敏锐法令远古面甲：护甲 732 + 闪避 667、+31 敏捷、26% 闪避转额外护甲"></a><div class="fcap"><b>敏锐法令</b>远古面甲：护甲 732 + 闪避 667、+31 敏捷、<b>26% 闪避转额外护甲</b></div></div><div class="figbox"><a href="images/gear/c2-chest-siris.jpg" target="_blank"><img src="images/gear/c2-chest-siris.jpg" loading="lazy" alt="西里的战衣铠装背心：闪避 1242、15% 额外冰霜伤害，已腐化，14D"></a><div class="fcap"><b>西里的战衣</b>铠装背心：闪避 1242、<b>15% 额外冰霜伤害</b>，已腐化，14D</div></div><div class="figbox"><a href="images/gear/c2-chest-rare.jpg" target="_blank"><img src="images/gear/c2-chest-rare.jpg" loading="lazy" alt="稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，1 崇高石"></a><div class="fcap">稀有衣服：闪避 1074、+10% 混沌抗、+28% 冰冷抗、减少 20% 能力值需求，<b>1 崇高石</b></div></div><div class="figbox"><a href="images/gear/c2-gloves-sine.jpg" target="_blank"><img src="images/gear/c2-gloves-sine.jpg" loading="lazy" alt="公理不存恢弘袖口：累积禁锢达 50% 时即禁锢敌人（而非 100%）、+35% 对被禁锢敌人的伤害，19 崇高石"></a><div class="fcap"><b>公理不存</b>恢弘袖口：<b>累积禁锢达 50% 时即禁锢敌人（而非 100%）</b>、+35% 对被禁锢敌人的伤害，<b>19 崇高石</b></div></div><div class="figbox"><a href="images/gear/c1-belt-nightfall.jpg" target="_blank"><img src="images/gear/c1-belt-nightfall.jpg" loading="lazy" alt="夜临精致腰带：3 个咒符位、此物品可作为手套获得镶嵌物加成，镶嵌物效果 93%（50–100%），攻速 +15%、非伤害…"></a><div class="fcap"><b>夜临</b>精致腰带：3 个咒符位、<b>此物品可作为手套获得镶嵌物加成</b>，镶嵌物效果 93%（50–100%），攻速 +15%、非伤害异常状态强度 +57%</div></div><div class="figbox"><a href="images/gear/c1-belt-runestatues.jpg" target="_blank"><img src="images/gear/c1-belt-runestatues.jpg" loading="lazy" alt="腰带可镶嵌的雕像：手套攻击速度 +8%、非伤害异常状态强度 +30%"></a><div class="fcap">腰带可镶嵌的<b>雕像</b>：手套攻击速度 +8%、非伤害异常状态强度 +30%</div></div><div class="figbox"><a href="images/gear/c1-belt-ingenuity.jpg" target="_blank"><img src="images/gear/c1-belt-ingenuity.jpg" loading="lazy" alt="独闯实用腰带：2 个护符栏位、+23% / +21% 戒指属性，1 崇高石"></a><div class="fcap"><b>独闯</b>实用腰带：2 个护符栏位、<b>+23% / +21% 戒指属性</b>，1 崇高石</div></div><div class="figbox"><a href="images/gear/c1-boots-atziri.jpg" target="_blank"><img src="images/gear/c1-boots-atziri.jpg" loading="lazy" alt="阿兹里的金履系带长靴：30% 移速、获得等同 56% 闪避值的偏斜值、−6% 偏斜抵御伤害量"></a><div class="fcap"><b>阿兹里的金履</b>系带长靴：30% 移速、<b>获得等同 56% 闪避值的偏斜值</b>、−6% 偏斜抵御伤害量</div></div><div class="figbox"><a href="images/gear/c2-belt-headhunter.jpg" target="_blank"><img src="images/gear/c2-belt-headhunter.jpg" loading="lazy" alt="猎首重革腰带：3 个护符栏位、+34 力量 / +38 敏捷、杀死稀有怪物获得其词缀持续 60 秒"></a><div class="fcap"><b>猎首</b>重革腰带：3 个护符栏位、+34 力量 / +38 敏捷、<b>杀死稀有怪物获得其词缀持续 60 秒</b></div></div><div class="figbox"><a href="images/gear/c4-amulet-fury.jpg" target="_blank"><img src="images/gear/c4-amulet-fury.jpg" loading="lazy" alt="无尽怒火增益：保留 100 精魂、每秒回复 4.25 盛怒（配怒火项链用）"></a><div class="fcap"><b>无尽怒火</b>增益：保留 100 精魂、每秒回复 4.25 盛怒（配怒火项链用）</div></div><div class="figbox"><a href="images/gear/c1-boots-evdodge.jpg" target="_blank"><img src="images/gear/c1-boots-evdodge.jpg" loading="lazy" alt="闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、获得等同 15% 闪避值的偏斜值，35 / 40 崇高石两档"></a><div class="fcap">闪避 + 偏斜的衣服：闪避 2164、冰冷抗 40%、<b>获得等同 15% 闪避值的偏斜值</b>，35 / 40 崇高石两档</div></div><div class="figbox"><a href="images/gear/c2-jewel-fromnothing.jpg" target="_blank"><img src="images/gear/c2-jewel-fromnothing.jpg" loading="lazy" alt="无根之源宝钻：范围共鸣内的天赋可以在没有连线的情况下配置"></a><div class="fcap"><b>无根之源</b>宝钻：范围共鸣内的天赋可以在没有连线的情况下配置</div></div><div class="figbox"><a href="images/gear/c2-jewel-green.jpg" target="_blank"><img src="images/gear/c2-jewel-green.jpg" loading="lazy" alt="时迭绿宝石（范围非常大）：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，200D"></a><div class="fcap"><b>时迭绿宝石（范围非常大）</b>：范围内核心天赋额外给 6% 攻击暴击率 / 攻击伤害 / 爆伤，<b>200D</b></div></div><div class="figbox"><a href="images/gear/c2-jewel-diamond.jpg" target="_blank"><img src="images/gear/c2-jewel-diamond.jpg" loading="lazy" alt="双额外钻石：3% 额外冰冷 + 4% 额外闪电，550D"></a><div class="fcap">双额外钻石：3% 额外冰冷 + 4% 额外闪电，<b>550D</b></div></div><div class="figbox"><a href="images/gear/c2-gem-ice-shot.jpg" target="_blank"><img src="images/gear/c2-gem-ice-shot.jpg" loading="lazy" alt="冰霜射击宝石面板：等级 23、消耗 50 魔力、攻击伤害 418%、80% 物理转冰冷、25% 更多冰冻积累"></a><div class="fcap"><b>冰霜射击</b>宝石面板：等级 23、消耗 50 魔力、攻击伤害 418%、80% 物理转冰冷、25% 更多冰冻积累</div></div><div class="figbox"><a href="images/gear/c2-gem-levelcurve.jpg" target="_blank"><img src="images/gear/c2-gem-levelcurve.jpg" loading="lazy" alt="冰霜射击的等级成长表（21–34 级：367% → 849% 攻击伤害，1 条 100% 的固定项）"></a><div class="fcap"><b>冰霜射击的等级成长表</b>（21–34 级：367% → 849% 攻击伤害，1 条 100% 的固定项）</div></div><div class="figbox"><a href="images/gear/c9-currency-exchange.jpg" target="_blank"><img src="images/gear/c9-currency-exchange.jpg" loading="lazy" alt="通货兑换界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 1:2.5 ~ 1:6.5 一档一档挂（他有 1:3、1:5、…"></a><div class="fcap"><b>通货兑换</b>界面：靠左是混沌石 → 崇高石那条，靠右是神圣石 <b>1:2.5 ~ 1:6.5</b> 一档一档挂（他有 1:3、1:5、1:6.31 等），底下显示「我拥有的：崇高石 1/10」</div></div><div class="figbox"><a href="images/gear/c9-money-log.jpg" target="_blank"><img src="images/gear/c9-money-log.jpg" loading="lazy" alt="攻坚 BOSS 的销售记录：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2…"></a><div class="fcap"><b>攻坚 BOSS 的销售记录</b>：毁灭者之弓 198D、时迭绿宝石 55D、潜能之戒 55D、魔杖 15–35D、野性标记 2–11D</div></div><div class="figbox"><a href="images/gear/c9-money-log2.jpg" target="_blank"><img src="images/gear/c9-money-log2.jpg" loading="lazy" alt="销售记录（续）：暗金弓 1–5D 一档也卖得掉——「卖出去才是 D」"></a><div class="fcap">销售记录（续）：暗金弓 1–5D 一档也卖得掉——<b>「卖出去才是 D」</b></div></div><div class="figbox"><a href="images/gear/c9-boss.jpg" target="_blank"><img src="images/gear/c9-boss.jpg" loading="lazy" alt="攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）"></a><div class="fcap">攻坚的神圣巅峰 / 迷雾 BOSS 场面（他录的第二段素材）</div></div><div class="figbox"><a href="images/gear/c2-gem-breakpoint.jpg" target="_blank"><img src="images/gear/c2-gem-breakpoint.jpg" loading="lazy" alt="冻结相关数据：冰霜射击 54,736 伤害 / 40,540 冰冻积累，印记持续 10.8 秒、增益持续 13.5 秒、…"></a><div class="fcap">冻结相关数据：冰霜射击 54,736 伤害 / 40,540 冰冻积累，印记持续 10.8 秒、增益持续 13.5 秒、目眩 25%</div></div><div class="figbox"><a href="images/gear/c2-freeze-support.jpg" target="_blank"><img src="images/gear/c2-freeze-support.jpg" loading="lazy" alt="冰冻辅助宝石：被辅助技能造成 50% 更多冰冻积累"></a><div class="fcap"><b>冰冻</b>辅助宝石：被辅助技能<b>造成 50% 更多冰冻积累</b></div></div><div class="figbox"><a href="images/gear/c6-arrow-types.jpg" target="_blank"><img src="images/gear/c6-arrow-types.jpg" loading="lazy" alt="箭袋的六种特殊箭矢文字说明：渐强（连 6 次，每次 +60% 伤害）、裂片（+6 目标）、回转、金刚（必暴 +60% 感…"></a><div class="fcap"><b>箭袋的六种特殊箭矢</b>文字说明：渐强（连 6 次，每次 +60% 伤害）、裂片（+6 目标）、回转、金刚（必暴 +60% 感电）、贪婪（掉落提高 600%）、钝击（积累 +600%）</div></div><div class="figbox"><a href="images/gear/c2-gem-critcap.jpg" target="_blank"><img src="images/gear/c2-gem-critcap.jpg" loading="lazy" alt="转暴击要用的辅助宝石：被辅助技能的暴击率上限为 50%（卡洛翰的决心）"></a><div class="fcap">转暴击要用的辅助宝石：<b>被辅助技能的暴击率上限为 50%</b>（卡洛翰的决心）</div></div><div class="figbox"><a href="images/gear/c2-rune-list.jpg" target="_blank"><img src="images/gear/c2-rune-list.jpg" loading="lazy" alt="符文一览（手套 / 弓 / 腰带可镶嵌的各种雕像与符文名）"></a><div class="fcap">符文一览（手套 / 弓 / 腰带可镶嵌的各种雕像与符文名）</div></div><div class="figbox"><a href="images/gear/c2-gloves-trade.jpg" target="_blank"><img src="images/gear/c2-gloves-trade.jpg" loading="lazy" alt="宏伟手套交易结果：10 崇高石那档「50% 即禁锢 + 42% 对被禁锢敌人伤害」"></a><div class="fcap">宏伟手套交易结果：<b>10 崇高石</b>那档「50% 即禁锢 + 42% 对被禁锢敌人伤害」</div></div><div class="figbox"><a href="images/gear/c4-trade-filled.jpg" target="_blank"><img src="images/gear/c4-trade-filled.jpg" loading="lazy" alt="交易筛选器填好数值的样子：300 / 9.42 / 1000 上限"></a><div class="fcap">交易筛选器填好数值的样子：300 / 9.42 / 1000 上限</div></div></div>
 <p style="font-size:12.5px">共 41 张（装备文档截图里去掉了重复的空白帧和纯图标帧）。</p>
 </section>
-<section id="talent">
+<section id="talent" data-main="config">
  <h2>🧭 天赋加点与属性</h2>
  <p>加点顺序、三个属性各要多少、升华用什么顺序。来源：他的视频口述 + 0.5 天赋树数据。</p>
 
@@ -784,7 +904,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  <tr><td><b>前期不用纠结</b></td><td><b>天赋点错了前期不用怕</b>——洗点用的是金币，不是通货。真正要留金币的地方是转暴击那一次。</td></tr><tr><td><b>转暴击要留 100 万金币</b></td><td>他原话：「转暴击需要留 100 万金币洗点。」约 70 级左右转。</td></tr><tr><td><b>双天赋</b></td><td>这套要用<b>两套天赋</b>：主天赋打图，副天赋（印记类）+ 招架/驳斥应付一直出招的 BOSS（比如火焰巅峰的神圣仲裁者）。不会点双天赋的看他视频「391 手把手点双天赋」。</td></tr>
 </table>
 </section>
-<section id="memo">
+<section id="memo" data-main="memo">
  <h2>📖 速查</h2>
 
  <h3>国服 vs 国际服 技能名对照</h3>
@@ -887,7 +1007,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
   · 文档里标"后续施工"的部分（天赋图、第二天转暴击流）只有图片/视频，没有文字
  </div>
 </section>
-<section id="video">
+<section id="video" data-main="resources">
  <h2>🎬 视频笔记</h2>
 
 <div class="warn">
@@ -988,7 +1108,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  </table>
 </div>
 </section>
-<section id="pics">
+<section id="pics" data-main="resources">
  <h2>🖼 配图总览</h2>
 
 <div class="ok">
@@ -1014,7 +1134,7 @@ h4{margin:14px 0 6px;font-size:14px;color:var(--gold)}
  所以存到本网站方便你看，内容没有改动。
 </div>
 </section>
-<section id="gpt">
+<section id="gpt" data-main="resources">
  <h2>🤖 给 GPT 的指令</h2>
 
 <div class="ok">
@@ -1143,7 +1263,7 @@ id 用游戏 PassiveSkills 表的 string id。
 })();
 </script>
 </section>
-<section id="lowk">
+<section id="lowk" data-main="resources">
  <h2>🔗 他的链接</h2>
  <p>全部指向 <b>网瘾老年人lowK</b> 的原始内容。</p>
 <style>
@@ -1215,73 +1335,78 @@ id 用游戏 PassiveSkills 表的 string id。
  内容来源：网瘾老年人lowK《0.55锐眼开荒文档》 · 数值以游戏内实际为准
 </div></footer>
 
+
+
 <script>
-document.querySelectorAll('nav button').forEach(function(b){
- b.onclick=function(){
-  document.querySelectorAll('nav button').forEach(function(x){x.classList.remove('on')});
-  document.querySelectorAll('section').forEach(function(x){x.classList.remove('on')});
-  b.classList.add('on'); document.getElementById(b.dataset.t).classList.add('on');
-  window.scrollTo(0,0);
- };
-});
+(function(){
+  var MAIN={'start':['start','stage_s1','stage_s2','stage_s3','stage_s4','stage_s5','stage_s6','stage_s7'],
+            'config':['config','skill','rot','gear','talent','end'],
+            'memo':['memo'],
+            'resources':['resources','download','video','pics','lowk','gpt']};
+  var ID2MAIN={}; for(var k in MAIN) MAIN[k].forEach(function(id){ID2MAIN[id]=k;});
+  var STAGE_NAMES={'stage_s1':'1–14 级','stage_s2':'造弓（13–28）','stage_s3':'转冰（28–40）',
+                   'stage_s4':'第四章','stage_s5':'进异界（40–70）','stage_s6':'转暴击（70–90）',
+                   'stage_s7':'成型后（90+）'};
+  var navLinks=Array.prototype.slice.call(document.querySelectorAll('nav.primary-nav a'));
+  function sections(){return Array.prototype.slice.call(document.querySelectorAll('main > section'));}
 
-var RES=['火','冰','电','混沌'], SL=['头盔','衣服','手套','鞋子','腰带','戒指','项链','其他'];
-function buildRes(){
- var box=document.getElementById('resInputs'), h='';
- SL.forEach(function(s){h+='<div><label>'+s+'</label><input type="number" class="rin" value="0" step="5"></div>'});
- box.innerHTML=h;
- box.addEventListener('input',calcRes);
- document.getElementById('penalty').addEventListener('input',calcRes);
- calcRes();
-}
-function calcRes(){
- var pen=parseFloat(document.getElementById('penalty').value)||0, tot=0;
- document.querySelectorAll('.rin').forEach(function(i){tot+=parseFloat(i.value)||0});
- var out=document.getElementById('resOut'); out.innerHTML='';
- RES.forEach(function(r){
-  var v=(r==='混沌')?tot:(tot-pen), st,cls,col;
-  if(r==='混沌'){ if(v>=0){st='可用';cls='s-ok';col='var(--green)'} else {st='负抗';cls='s-bad';col='var(--red)'} }
-  else { if(v>=75){st='已满';cls='s-ok';col='var(--green)'} else if(v>=0){st='未满';cls='s-warn';col='var(--gold)'} else {st='负抗';cls='s-bad';col='var(--red)'} }
-  out.innerHTML+='<div class="res"><span style="width:50px">'+r+'抗</span><span class="val" style="color:'+col+'">'+v.toFixed(0)+'%</span><span class="st '+cls+'">'+st+'</span></div>';
- });
- var need=[], net=tot-pen;
- RES.slice(0,3).forEach(function(r){ if(net<75) need.push(r+' 差 '+(75-net).toFixed(0)+'%') });
- out.innerHTML+='<p style="font-size:13px;margin-top:10px"><b>'+(need.length?'还需补充：'+need.join('　'):'三抗已满 75%')+'</b></p>';
-}
+  function show(id, anchorEl){
+    var target=document.getElementById(id);
+    if(!target) return;
+    var sec=target.closest('main > section') || target;
+    sections().forEach(function(s){ s.classList.toggle('on', s===sec); });
+    // 展开目标所在折叠块
+    if(anchorEl && anchorEl.closest('details')) anchorEl.closest('details').open=true;
+    // 主入口高亮
+    var m=ID2MAIN[sec.id]||ID2MAIN[id]||'start';
+    navLinks.forEach(function(a){
+      var on=a.getAttribute('href')==='#'+m;
+      a.classList.toggle('on',on);
+      if(on) a.setAttribute('aria-current','true'); else a.removeAttribute('aria-current');
+    });
+    // 记忆阶段
+    if(STAGE_NAMES[sec.id]){ try{ localStorage.setItem('poe2:last-stage', sec.id);}catch(e){} }
+    window.scrollTo({top:0,behavior:'instant'in document.documentElement.style?'instant':'auto'});
+    if(anchorEl && anchorEl!==target){ anchorEl.scrollIntoView({block:'start'}); }
+  }
 
-var STAGES=[{"name": "第一章 1–14 级", "items": ["皆伐营地：找铁匠领 1 级技能宝石 → 选 <b>引雷针</b>", "皆伐：途中营地拿 2 级技能石 → 学 <b>寒霜爆</b>；赛季玩法掉蜕变石", "第一个蜕变石用在<b>箭袋</b>上（5 级要换弓）", "森林：小屋拿药水；打完赤谷再回来打女巫拿辅助宝石", "赤谷：<b>练到 5 级</b>；赛季玩法掉 2 级技能宝石", "赤谷：多翻武器架，出短弓先用；回城看 5 级弓/手套/鞋子", "沼泽：赛季玩法 + BOSS → 共 2 个 3 级宝石 → 学 3 级闪电箭矢 / 3 级引雷针", "沼泽：辅助宝石选<b>范围集中</b>", "墓园：打 2 个任务 BOSS → 2 个辅助宝石", "<b>墓园女BOSS图：清完怪再开宝箱！开了宝箱死了就拿不到辅助宝石</b>", "墓园：棺材 → 戒指；赛季玩法 → 富豪石（留 16/33 级）", "墓园辅助宝石：① 快速攻击 → 闪电箭矢 ② 范围集中/元素军械 → 引雷针", "猎场：乌鸦 BOSS → <b>+2 天赋</b>", "猎场：树灵祭祀 → 辅助宝石，闪电箭矢学<b>连锁1</b>", "弗雷索恩：先开 3 个小祭坛，再去大祭坛打 BOSS → 精魂宝石学<b>战旗</b>", "弗雷索恩：战利品<b>选冰抗</b>（狼王是冰伤）", "农地：乌娜的琴 → 交乌娜 → <b>+2 天赋</b>", "农地：麦田怪圈精英 → 4 级技能宝石（引雷针等级保持比闪电箭高）", "村庄：<b>铁匠的锤子 → 解锁回收台</b>", "村庄：铁匠任务给 1 巧匠石 + 1 符文（选<b>闪电符文</b>）", "11 级：用掉 1 个巧匠石在弓上；<b>闪电符文留给 16 级武器</b>", "庄园：绞刑架 → 辅助宝石", "狼王：一楼 BOSS → 加生命的道具", "<b>狼王打法：拉到电梯旁，用墙的夹角放引雷针，再插战旗</b>", "狼王前回城找乌娜买<b>高级回血/回蓝药水</b>；装<b>冰抗护符</b>"]}, {"name": "第二章 13–28 级", "items": ["第二章武器 NPC：买白/蓝点伤弓，用蜕变石+增幅石洗", "16 级弓参考：1 个前缀就有 <b>23-46 点伤</b>就值得打造", "人马 → 2 级辅助宝石（学 <b>连锁2</b>，打 BOSS 给闪电箭矢装上）", "莫丹采石场/矿坑：怪多，练到 18 级左右；掉大量磨刀石/护甲片", "叛徒小径：打芭芭拉拿 22 级巨灵币过升华（武器不好建议先不打）", "哈拉尼之门：跟艾萨拉开 3 个门 → BOSS → 下楼看风墙回城", "长毛象荒原/骨坑：赛季玩法掉富豪石（留 33 级）；<b>20 级找 NPC 买更高级血药</b>", "凯斯城：蛇女 BOSS → <b>+2 天赋</b>；地图中蛇女掉任务物品", "失落之城/掩埋神殿：低阶级工匠石、<b>7 级精魂石（学冰冻之捷）</b>、天赋珠宝", "泰坦之谷/泰坦石窟：<b>护符栏位 +1（重要）</b>", "戴哈斯/悼念之路：<b>+2 天赋</b>；28 级巨灵币", "戴哈斯尖塔：<b>+10% 电抗</b>", "升华：选 <b>零点射击</b>"]}, {"name": "第三章 28–40 级", "items": ["水道放水后回城，楼梯可以下了", "淹没之城：熔岩宝库打完 BOSS → <b>解锁重铸台</b>（剧情用不到，可以到异界再来）", "污秽顶峰：任务道具可不拿（要凑 3 个颜色换 1 瓶药水，没必要，找 NPC 买）", "科佩克神庙：3 个角落找上楼的门 → 上 2 次楼 → 打 BOSS → 中间互动等自动回城", "回城看装备和药水；<b>进营地买药水 + 看 33 级弓（打造）</b>", "混沌试炼（升华2）：城内传送到混沌试炼（没开过要去龙蜥湿地开图）", "升华选<b>无限弹药</b>（投射物数量 +1）", "奥扎尔：胖子和下张图的怪掉<b>牺牲之心</b>；蛇女 BOSS 冻住一狙击送走", "阿戈拉：用匕首扎破牺牲之心 → <b>+2 天赋</b>", "漆黑密室：BOSS 房在进门后正对面最远端"]}, {"name": "第四章", "items": ["第一个 4 孔给<b>冰霜射击</b>（一个图 90% 时间用它刷怪）", "第二个 4 孔给<b>狙击</b>，5 孔同理", "尼加卡努（最后一个岛）：赛季玩法掉<b>高级工匠石</b>", "阿拉塔斯：开局直接坐船去买<b>饰品</b>，能买到好词条戒指", "45 级弓打造参考：70-166 点伤 / 18% 攻速，用到异界", "第一岛 凯吉湾：地图碎片交给开船的 → 2 天赋点", "第二岛 百舌岛：一路走到底打 BOSS；路上尸体有地图碎片", "第三岛 瓦卡帕努岛：大白鲨 BOSS；鲨鱼鳍等第四章打完去左边船交 NPC（道具二选一）", "第四岛 辛格拉之眼：<b>15% 抗性 + 2 天赋点</b>", "第五岛 金氏岛：低阶工匠石、高级符文", "第六岛 废弃监狱：药水 BUFF", "第七岛 阿拉塔斯：3 个崇高石"]}, {"name": "间章（第五章）", "items": ["间章2：沿着干涸的河流往右走 → 打 BOSS → 回城交任务 → 2 天赋点", "间章2：圣所打蛇女掉 2 个不同巨灵币（两个都要拿）", "间章2：奇玛找恩赐 → 选 5% 抗性", "回城找黑鬼切换间章1", "间章1：左边一路打到底，霍尔登先进狼之要塞 → 2 天赋点", "间章3：库莱娅山巅左上角找老头对话 → 选暗金", "三个间章尾王打完 → 回第四章君锋镇找黑鬼 → 最后 2 点天赋", "确认天赋点总数 = <b>24</b>", "继续对话进入终局 → 再 +2 天赋"]}];
-function allIds(){var a=[];STAGES.forEach(function(s,i){s.items.forEach(function(_,j){a.push('c'+i+'_'+j)})});return a}
-function load(){try{return JSON.parse(localStorage.getItem('poe2_v2')||'{}')}catch(e){return{}}}
-function save(o){try{localStorage.setItem('poe2_v2',JSON.stringify(o))}catch(e){}}
-function buildChk(){
- var box=document.getElementById('chkList'), h='';
- STAGES.forEach(function(s,i){
-  h+='<div style="margin:18px 0 5px;font-size:14px;color:var(--gold);font-weight:700;border-bottom:1px solid var(--line);padding-bottom:5px">'+s.name+' <span style="color:var(--tx2);font-weight:400">'+s.items.length+' 项</span></div>';
-  s.items.forEach(function(t,j){
-   h+='<label class="chk"><input type="checkbox" id="c'+i+'_'+j+'"><span class="txt">'+t+'</span></label>';
+  function fromHash(){
+    var id=location.hash.replace('#','');
+    if(!id){ return false; }
+    var el=document.getElementById(id);
+    if(!el) return false;
+    show(id, el);
+    return true;
+  }
+
+  // 恢复「继续上次」
+  try{
+    var last=localStorage.getItem('poe2:last-stage');
+    var rb=document.getElementById('resumeBtn'), rn=document.getElementById('resumeName');
+    if(last && STAGE_NAMES[last] && rb){
+      rb.setAttribute('href','#'+last);
+      if(rn) rn.textContent=STAGE_NAMES[last];
+      rb.style.display='';
+    }
+  }catch(e){}
+
+  window.addEventListener('hashchange', fromHash);
+  // 首次打开：有 hash 用它；没有就显示 #start
+  if(!fromHash()) show('start');
+  // 点主入口时，跟着练 = 回上次的阶段
+  navLinks.forEach(function(a){
+    a.addEventListener('click', function(ev){
+      var href=a.getAttribute('href');
+      if(href==='#start'){
+        var last=null; try{ last=localStorage.getItem('poe2:last-stage'); }catch(e){}
+        if(last && STAGE_NAMES[last] && document.getElementById(last)){
+          ev.preventDefault();
+          location.hash='#'+last;
+          if(location.hash==='#'+last) show(last);
+        }
+      }
+    });
   });
- });
- box.innerHTML=h;
- box.addEventListener('change',function(e){
-  if(e.target.type!=='checkbox')return;
-  var st=load(); st[e.target.id]=e.target.checked; save(st);
-  e.target.closest('.chk').classList.toggle('done',e.target.checked); bar();
- });
-}
-function bar(){
- var ids=allIds(), st=load(), n=0;
- ids.forEach(function(id){
-  var el=document.getElementById(id);
-  if(el){ el.checked=!!st[id]; el.closest('.chk').classList.toggle('done',!!st[id]); }
-  if(st[id])n++;
- });
- var p=ids.length?Math.round(n/ids.length*100):0;
- document.getElementById('barIn').style.width=p+'%';
- document.getElementById('barTx').textContent=n+' / '+ids.length+'　完成度 '+p+'%';
-}
-document.getElementById('resetChk').onclick=function(){
- if(!confirm('清空全部勾选？'))return; save({}); bar();
-};
-buildRes(); buildChk(); bar();
+})();
 </script>
 </body></html>
