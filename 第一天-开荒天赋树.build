@@ -410,5 +410,95 @@
         }
       ]
     }
+  ],
+  "inventory_slots": [
+    {
+      "inventory_id": "Weapon1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【弓】猎心/高伤弓"
+    },
+    {
+      "inventory_id": "Offhand1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【箭袋】最好的非武器位：找 +技能等级 和 高点伤，基底本身不重要"
+    },
+    {
+      "inventory_id": "Gloves1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【手套】每个等级都去杂货商看一次点伤手套，1-2 章每点都算数"
+    },
+    {
+      "inventory_id": "Boots1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【鞋】移速 或 不穿。一旦有移速鞋，永远别换成没移速的"
+    },
+    {
+      "inventory_id": "BodyArmour1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【衣服】闪避 或 闪避+护盾基底；前期穿属性最高的那件"
+    },
+    {
+      "inventory_id": "Helm1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【头】属性位：敏捷或智力（31 级换技能时属性会咬人，在这里补）"
+    },
+    {
+      "inventory_id": "Belt1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【腰带】属性位：力量"
+    },
+    {
+      "inventory_id": "Amulet1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【项链】随便，开荒阶段搞不到好的"
+    },
+    {
+      "inventory_id": "Ring1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【戒指】点伤 > 属性 / 抗性 / 生命"
+    },
+    {
+      "inventory_id": "Ring2",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【戒指2】同上"
+    },
+    {
+      "inventory_id": "Flask1",
+      "level_interval": [
+        40,
+        100
+      ],
+      "additional_text": "【药水/护符】生命药水；后期解冻 / 猛攻 / 免疫点燃"
+    }
   ]
 }
