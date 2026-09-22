@@ -1,0 +1,450 @@
+{
+  "name": "国服0.55 锐眼冰射 · 练级BD（1–70 级 · 93 点）",
+  "author": "网瘾老年人lowK（原作）· 参考国际服 0.5.5 Ice Shot Deadeye 指南 · WeGame 角色数据推导",
+  "link": "https://www.wegame.com.cn/helper/poe2/#/share/aeMJfH4M15AK8bn69wwXhF45DbOLmGhBsdKHJ7HBPbIc7nQUOVJEdNMlWFOSGnb-",
+  "ascendancy": "Ranger1",
+  "description": "【练级BD · 1–70 级 · 93 个普通天赋点】\n\n■ 这份文件包含什么\n  · 技能：1–30 级用闪电箭矢 + 引雷针（+ 寒霜爆 + 闪电之捷）；31 级解锁冰霜射击后换成\n    冰霜射击 + 狙击 + 冻结齐射 + 弹幕 + 寒冰之捷。辅助宝石全部列在技能上。\n  · 天赋：93 个普通付费节点（升华另计，不写进 passives）。\n  · 已验证：93 个节点只用已选节点即可从游侠职业起点（数值ID 50459）全部到达。\n\n■ 31 级是质变点（这条是国际服共识，不只他一个人这么写）\n  冰霜射击是 Tier 9 弓箭技能宝石，需要角色 31 级。1–30 级你其实在玩闪电箭矢那一套，\n  31 级一次性换掉：闪电箭矢 → 冰霜射击，闪电之捷 → 寒冰之捷。\n  输出链：冰冻印记 → 冻住 BOSS → 弹幕 → 狙击（狙击炸开＝完美时机）。\n\n■ 弓的四个节点\n  11 级 守望者弓（不要投通货，只是过渡）\n  16 级 反曲弓（重点打造，1 个前缀到 23–46 点伤就值得）\n  33 级 双弦弓 / 邪教徒弓（双弦弓：弓的攻击额外发射 1 支箭矢）\n  45 级 炮击弓（优先「增加物理伤害%」）\n\n■ 独狼提示\n  · 优先堆「附加点伤」——箭袋 / 手套 / 戒指上的点伤比弓的百分比更值钱\n  · 有品质的武器分解（换铁匠磨石）、有孔的分解（换巧匠石）\n  · 鞋子一旦有移速，永远别换成没移速的\n\n■ 导入\n  放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份），\n  文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
+  "passives": [
+    {
+      "id": "evasion17_"
+    },
+    {
+      "id": "evasion11"
+    },
+    {
+      "id": "evasion_and_energy_shield22"
+    },
+    {
+      "id": "azmerianimals11"
+    },
+    {
+      "id": "evasion_and_energy_shield11"
+    },
+    {
+      "id": "dexterity7"
+    },
+    {
+      "id": "dexterity51"
+    },
+    {
+      "id": "evasion12"
+    },
+    {
+      "id": "cold_penetration23"
+    },
+    {
+      "id": "dexterity102"
+    },
+    {
+      "id": "intelligence25"
+    },
+    {
+      "id": "dexterity12_"
+    },
+    {
+      "id": "attributes10"
+    },
+    {
+      "id": "dexterity34"
+    },
+    {
+      "id": "dexterity80"
+    },
+    {
+      "id": "movement_speed9"
+    },
+    {
+      "id": "dexterity15"
+    },
+    {
+      "id": "bow9"
+    },
+    {
+      "id": "attributes11"
+    },
+    {
+      "id": "dexterity19"
+    },
+    {
+      "id": "elemental25"
+    },
+    {
+      "id": "azmerianimals10"
+    },
+    {
+      "id": "intelligence68"
+    },
+    {
+      "id": "dexterity18"
+    },
+    {
+      "id": "projectiles11"
+    },
+    {
+      "id": "charms15"
+    },
+    {
+      "id": "bow5"
+    },
+    {
+      "id": "dexterity50"
+    },
+    {
+      "id": "elemental28"
+    },
+    {
+      "id": "evasion26"
+    },
+    {
+      "id": "elemental27"
+    },
+    {
+      "id": "azmerianimals7"
+    },
+    {
+      "id": "intelligence67"
+    },
+    {
+      "id": "ranger_huntress_notable1"
+    },
+    {
+      "id": "charms13"
+    },
+    {
+      "id": "movement_speed1"
+    },
+    {
+      "id": "movement_speed5"
+    },
+    {
+      "id": "cold3"
+    },
+    {
+      "id": "evasion28"
+    },
+    {
+      "id": "dexterity54"
+    },
+    {
+      "id": "cold_penetration24"
+    },
+    {
+      "id": "dexterity81"
+    },
+    {
+      "id": "dexterity46"
+    },
+    {
+      "id": "elemental16"
+    },
+    {
+      "id": "dexterity55"
+    },
+    {
+      "id": "attack6"
+    },
+    {
+      "id": "dexterity82_"
+    },
+    {
+      "id": "dexterity16"
+    },
+    {
+      "id": "evasion24_"
+    },
+    {
+      "id": "dexterity17"
+    },
+    {
+      "id": "cold_penetration1"
+    },
+    {
+      "id": "movement_speed3"
+    },
+    {
+      "id": "bow14"
+    },
+    {
+      "id": "cold32"
+    },
+    {
+      "id": "ranged30_"
+    },
+    {
+      "id": "cold_penetration7"
+    },
+    {
+      "id": "dexterity110"
+    },
+    {
+      "id": "projectiles13"
+    },
+    {
+      "id": "evasion21"
+    },
+    {
+      "id": "evasion_and_energy_shield8"
+    },
+    {
+      "id": "elemental26"
+    },
+    {
+      "id": "jewel_slot1960"
+    },
+    {
+      "id": "ranger_huntress_notable2"
+    },
+    {
+      "id": "intelligence66"
+    },
+    {
+      "id": "elemental32"
+    },
+    {
+      "id": "bow8"
+    },
+    {
+      "id": "evasion33"
+    },
+    {
+      "id": "projectiles15"
+    },
+    {
+      "id": "cold_penetration2"
+    },
+    {
+      "id": "bow13"
+    },
+    {
+      "id": "movement_speed4"
+    },
+    {
+      "id": "attributes12"
+    },
+    {
+      "id": "dexterity44"
+    },
+    {
+      "id": "jewel_slot1961"
+    },
+    {
+      "id": "attributes29"
+    },
+    {
+      "id": "dexterity20"
+    },
+    {
+      "id": "dexterity43"
+    },
+    {
+      "id": "elemental18"
+    },
+    {
+      "id": "dexterity47"
+    },
+    {
+      "id": "charms6"
+    },
+    {
+      "id": "cold_penetration3"
+    },
+    {
+      "id": "projectiles9_"
+    },
+    {
+      "id": "evasion_and_energy_shield5"
+    },
+    {
+      "id": "cold_penetration6"
+    },
+    {
+      "id": "attributes27"
+    },
+    {
+      "id": "dexterity48"
+    },
+    {
+      "id": "evasion31"
+    },
+    {
+      "id": "attributes9"
+    },
+    {
+      "id": "dexterity9"
+    },
+    {
+      "id": "monkchakra9"
+    },
+    {
+      "id": "dexterity52"
+    },
+    {
+      "id": "jewel_slot1976"
+    },
+    {
+      "id": "azmerianimals12"
+    }
+  ],
+  "skills": [
+    {
+      "id": "Metadata/Items/Gems/SkillGemLightningArrow",
+      "additional_text": "闪电箭矢 | 1-30 级清图主力。打 BOSS 时可把元素军械换成连锁",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemLightningRod",
+      "additional_text": "引雷针 | 1-30 级打 BOSS。只对不乱跑的 BOSS 有效",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemFrostBomb",
+      "additional_text": "寒霜爆 | 前期辅助清图"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfThunder",
+      "additional_text": "闪电之捷 | 1-30 级清怪光环（31 级后换成寒冰之捷）"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "additional_text": "冰冻印记 | 7 级宝石，只要 24 智慧。有它冻 BOSS 只要 70% 进度",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "additional_text": "冰霜射击 | 31 级解锁（冰系 Tier 9 宝石）。第一个 4 孔给它",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "additional_text": "冻结齐射 | 冻 BOSS 用",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdExposure"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "additional_text": "狙击 | 冻住后：先弹幕、再狙击（狙击会炸开就是完美时机）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "additional_text": "弹幕 | 消耗狂怒球的爆发",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "additional_text": "战斗狂怒 | 拿狂怒球供弹幕（注意：不能点共鸣，否则会变暴击球）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "additional_text": "寒冰之捷 | 31 级后清怪光环（30 精魂）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "additional_text": "龙卷射击 | 打 BOSS 挂致盲",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "additional_text": "幻影射手 | 勾 1 号武器（60 精魂）；致盲可联动盲点",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemSecondWind"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "additional_text": "战旗 | 打 BOSS 时替换寒冰之捷；勾副手省 30 精魂",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "additional_text": "风舞者 | 保命（30 精魂）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemEscapeShot",
+      "additional_text": "逃脱射击 | 位移"
+    }
+  ],
+  "inventory_slots": []
+}
