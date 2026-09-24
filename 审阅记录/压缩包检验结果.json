@@ -1,0 +1,12 @@
+{
+  "version": "六分支进阶版 v2.0",
+  "date": "2026-09-24",
+  "file_count_including_manifest_and_report": 38,
+  "zip_crc_check": "通过",
+  "zip_readback_bytes_match": "通过",
+  "sha256_manifest_check": "通过",
+  "unsafe_or_duplicate_paths": "无",
+  "font_files_included": false,
+  "scope": "校验压缩容器、全部文件字节与哈希；不代表国服游戏验证",
+  "method": "最终ZIP生成后对全部成员CRC、路径、字节和SHA-256逐项回读；任何失败都会中止交付。报告不含ZIP自身哈希，避免循环。"
+}
