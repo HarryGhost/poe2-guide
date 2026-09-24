@@ -1,0 +1,205 @@
+{
+  "说明": "列出本清单之外的全部文件；清单自身不递归校验。",
+  "files": [
+    {
+      "path": "00_先读我.txt",
+      "bytes": 2149,
+      "sha256": "4a06cc27bdda5962f93a6650dd5b9b35bf822829d98146beb57ea1df559965af"
+    },
+    {
+      "path": "原件备份/Fubgun六分支原件.zip",
+      "bytes": 13527,
+      "sha256": "438057ea793aafa4e9d3933c7fc78c371938f6fd7eea70e984785cf0224432ff"
+    },
+    {
+      "path": "检查与说明/本次修订与来源覆盖.json",
+      "bytes": 861,
+      "sha256": "d92b4523720e323e786aba34069fb5d59c4c9c503729db76ca189a026aa93663"
+    },
+    {
+      "path": "检查与说明/来源索引.json",
+      "bytes": 8978,
+      "sha256": "d5143a09ee2285285d044319957207116be83581726682429829f635a46ef99b"
+    },
+    {
+      "path": "检查与说明/程序检查结果.json",
+      "bytes": 50311,
+      "sha256": "20bcac3648d2ee4e97bee85ede8d148fcab974e758541bff24d575881922c815"
+    },
+    {
+      "path": "检查与说明/给DSH_修订与检查说明.md",
+      "bytes": 2792,
+      "sha256": "41acd8ae358dc2e9b68ff58c455b4d0e6dde8db24035b613d07de99bcf57b00f"
+    },
+    {
+      "path": "检查与说明/运行检查.py",
+      "bytes": 13605,
+      "sha256": "f695db032f1c21e93d1ad0d7b032dab97b423ea4b3892fff36e10842b45a4adc"
+    },
+    {
+      "path": "检查与说明/页面截图/1440_04技能_紧凑.png",
+      "bytes": 238402,
+      "sha256": "1ab7fb3d09ac7ba84e0362b8bdcac7bac0e1ef3c5a0779bcb1544c9659db19e7"
+    },
+    {
+      "path": "检查与说明/页面截图/1440_24到31差异.png",
+      "bytes": 273895,
+      "sha256": "78050237b572fb8e7197f17f2b91beeaa5ec8e9a105c44312853c51c3e433f53"
+    },
+    {
+      "path": "检查与说明/页面截图/1440_31级练级技能.png",
+      "bytes": 225929,
+      "sha256": "dc98d9c75d31ff7155214d8676e4b03454d62f9d105d9ae680bff8e044ed8971"
+    },
+    {
+      "path": "检查与说明/页面截图/390_04技能_紧凑.png",
+      "bytes": 168174,
+      "sha256": "459bef18e6657211f86523f74f051f6a11e71970b6ff3e38fab38c02a9b3d0d4"
+    },
+    {
+      "path": "检查与说明/页面截图/390_24到31差异.png",
+      "bytes": 170344,
+      "sha256": "41dbe09fdad1984bdd6e66d6e56cad5336b882d05c66d083f900adb96eda996a"
+    },
+    {
+      "path": "检查与说明/页面截图/390_31级练级技能.png",
+      "bytes": 134945,
+      "sha256": "e339d10602c3191e790a740196911b3ba183b92dbe37b80fa850bed95a9e06f8"
+    },
+    {
+      "path": "网站/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "网站/Build-Fubgun/01_Early.build",
+      "bytes": 10526,
+      "sha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07"
+    },
+    {
+      "path": "网站/Build-Fubgun/02_noncrit_Midgame.build",
+      "bytes": 11056,
+      "sha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b"
+    },
+    {
+      "path": "网站/Build-Fubgun/03_noncrit_Hybrid.build",
+      "bytes": 11322,
+      "sha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f"
+    },
+    {
+      "path": "网站/Build-Fubgun/04_Crit_Hybrid.build",
+      "bytes": 11469,
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d"
+    },
+    {
+      "path": "网站/Build-Fubgun/05_Uber_Endgame.build",
+      "bytes": 11384,
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c"
+    },
+    {
+      "path": "网站/Build-Fubgun/06_Live_Gear_冲突勿导入.build.txt",
+      "bytes": 12880,
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5"
+    },
+    {
+      "path": "网站/README.md",
+      "bytes": 3003,
+      "sha256": "7fd2efb388ffda2f197e1ae13457186a72115feff6825a2a123690f473f9343a"
+    },
+    {
+      "path": "网站/_source/app.js",
+      "bytes": 59012,
+      "sha256": "36136d26194859ad533fae6cc683069751cc5509e1f154e72148e41cf4d7ba4b"
+    },
+    {
+      "path": "网站/_source/build.py",
+      "bytes": 11770,
+      "sha256": "50fa98674b2796f8e82ae4046ac5dbbc6a1eee1d4244f57e3ab595ebf276bf0d"
+    },
+    {
+      "path": "网站/_source/content.html",
+      "bytes": 28645,
+      "sha256": "5dfd5cb33629d9ea937e6e30c89942a20896ac3f3317a57cdb67c80f7f1aecc7"
+    },
+    {
+      "path": "网站/_source/data.json",
+      "bytes": 1649398,
+      "sha256": "12fb58bc43edc6e0ac5e8179695b0c6cf7beaf00ccfdeaa851de641d7cc53881"
+    },
+    {
+      "path": "网站/_source/leveling.js",
+      "bytes": 17625,
+      "sha256": "8f0b3611fa22d0137a7e067df424736de9c2a37a70e5285137932da9649f2a0a"
+    },
+    {
+      "path": "网站/_source/leveling_static.py",
+      "bytes": 5578,
+      "sha256": "85ddbecd9e354d63f63ab0d7ee9350bfaf0d5c661ff2a3ad46608e2eedb7f909"
+    },
+    {
+      "path": "网站/_source/style.css",
+      "bytes": 27112,
+      "sha256": "8dab85e2ade5ab2e75b8b4d15278effe1df4bde315c13a9fc95272795485ba04"
+    },
+    {
+      "path": "网站/index.html",
+      "bytes": 1087653,
+      "sha256": "d026344120c79793b2eaca0d2d5b5817846d7f5a094e2157d3fb29cfa12cdeb8"
+    },
+    {
+      "path": "网站/中文提示导出/01_中文提示.build",
+      "bytes": 39435,
+      "sha256": "a25089087b04354d103b379cd20a802156813c9d4c50f0e5befb0e86b1cde526"
+    },
+    {
+      "path": "网站/中文提示导出/02_中文提示.build",
+      "bytes": 42643,
+      "sha256": "90da17a00db0fa58a6239ae338205853fbc8cd79f4c6ad0916a797fc33059595"
+    },
+    {
+      "path": "网站/中文提示导出/03_中文提示.build",
+      "bytes": 44502,
+      "sha256": "63fd84adf1eeba7a3f1e5152f64c29c6ecfc2840e0d52fa65c6c28f1cc09a85e"
+    },
+    {
+      "path": "网站/中文提示导出/04_中文提示.build",
+      "bytes": 46588,
+      "sha256": "f639d5fe1d75f46583e03b212be3cb5fc4dee4119c4a23996a695f733c9bee64"
+    },
+    {
+      "path": "网站/中文提示导出/05_中文提示.build",
+      "bytes": 47199,
+      "sha256": "d570ca952ee4dfe26f3232c194dc660f31da656f3b191e68a9129cc87f4423c2"
+    },
+    {
+      "path": "网站/中文提示导出/06_中文提示.build.txt",
+      "bytes": 50601,
+      "sha256": "3641ca2a469c1ed017d0f5959b2ffb62b68dc68a4c7b9db75ef9c93853b9bb60"
+    },
+    {
+      "path": "网站/六分支完整资料.html",
+      "bytes": 296163,
+      "sha256": "a664f180d31099aedd8543dcc021f377d782e5f0c7b209ea46829e704f3ee298"
+    },
+    {
+      "path": "网站/剧情练级速查.html",
+      "bytes": 75714,
+      "sha256": "a982587d4341315fd08137d7ce125cda9c2c6e392ce87bf374e5ff7d4963f21b"
+    },
+    {
+      "path": "网站/数据/全部分支逐项差异.json",
+      "bytes": 919850,
+      "sha256": "719e7dee203fc877ca5822967c4cd4e438c84038559459f2ff8a96221ca7d8f8"
+    },
+    {
+      "path": "网站/数据/六分支原始及中文映射.json",
+      "bytes": 1649398,
+      "sha256": "12fb58bc43edc6e0ac5e8179695b0c6cf7beaf00ccfdeaa851de641d7cc53881"
+    },
+    {
+      "path": "网站/数据/剧情练级结构数据.json",
+      "bytes": 46018,
+      "sha256": "9c9da21b05684eb57d2c2f47de19a900a58ed80352e38013f201d619276eb45f"
+    }
+  ]
+}

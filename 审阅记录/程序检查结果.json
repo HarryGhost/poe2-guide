@@ -1,0 +1,2427 @@
+{
+  "date": "2026-09-24",
+  "tested_html_sha256": "d026344120c79793b2eaca0d2d5b5817846d7f5a094e2157d3fb29cfa12cdeb8",
+  "tested_data_sha256": "12fb58bc43edc6e0ac5e8179695b0c6cf7beaf00ccfdeaa851de641d7cc53881",
+  "method": "Chromium set_content rendering of actual built HTML; external/file navigation blocked by runtime policy. Storage roundtrip uses an explicit in-memory fixture. No game-client or hosting test.",
+  "pass": true,
+  "checks": 445,
+  "failed": [],
+  "measurements": {
+    "390": {
+      "skills_list": {
+        "x": 10,
+        "y": 550.546875,
+        "width": 370,
+        "height": 709.53125
+      },
+      "full_document_height": 1664
+    },
+    "1440": {
+      "skills_list": {
+        "x": 226,
+        "y": 485.484375,
+        "width": 1192,
+        "height": 490
+      },
+      "full_document_height": 1341
+    },
+    "before_1440": {
+      "skills_list": {
+        "x": 259,
+        "y": 592,
+        "width": 1146,
+        "height": 2787.046875
+      },
+      "full_document_height": 4554
+    },
+    "list_reduction_fraction": 0.8241866671151701
+  },
+  "results": [
+    {
+      "name": "Six original branches present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Original hash Early",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw JSON preserved Early",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Node order preserved Early",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Original hash non-crit Midgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw JSON preserved non-crit Midgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Node order preserved non-crit Midgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Original hash non-crit Hybrid swap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw JSON preserved non-crit Hybrid swap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Node order preserved non-crit Hybrid swap",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Original hash Crit Hybrid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw JSON preserved Crit Hybrid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Node order preserved Crit Hybrid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Original hash Uber Endgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw JSON preserved Uber Endgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Node order preserved Uber Endgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Original hash Live Gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw JSON preserved Live Gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Node order preserved Live Gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Raw totals",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "06 isolated readonly",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Author stage1 full connection fixture",
+      "pass": true,
+      "detail": [
+        [
+          "la",
+          "ra1 ea1"
+        ],
+        [
+          "lr",
+          "con ea1"
+        ],
+        [
+          "fb",
+          ""
+        ],
+        [
+          "ht",
+          "con"
+        ],
+        [
+          "bar",
+          ""
+        ],
+        [
+          "ita",
+          ""
+        ],
+        [
+          "pounce",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Author stage2 full connection fixture",
+      "pass": true,
+      "detail": [
+        [
+          "la",
+          "ra1 ea1"
+        ],
+        [
+          "lr",
+          "con ea1"
+        ],
+        [
+          "fb",
+          ""
+        ],
+        [
+          "ht",
+          "con ea1"
+        ],
+        [
+          "bar",
+          ""
+        ],
+        [
+          "ita",
+          "mag1"
+        ],
+        [
+          "pounce",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Author stage3 full connection fixture",
+      "pass": true,
+      "detail": [
+        [
+          "la",
+          "ra1 ea1"
+        ],
+        [
+          "snipe",
+          "con win1 ea2"
+        ],
+        [
+          "mark",
+          "dur1"
+        ],
+        [
+          "ht",
+          "con ea1"
+        ],
+        [
+          "bar",
+          ""
+        ],
+        [
+          "ita",
+          "mag1 ea1"
+        ],
+        [
+          "salvo",
+          "freeze con"
+        ],
+        [
+          "fb",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Author stage4 full connection fixture",
+      "pass": true,
+      "detail": [
+        [
+          "ice",
+          "ra1 ea2 bite1"
+        ],
+        [
+          "snipe",
+          "con win1 ea2"
+        ],
+        [
+          "mark",
+          "dur1 siphon eternal"
+        ],
+        [
+          "hi",
+          "mag1 ea2 focus"
+        ],
+        [
+          "bar",
+          "cdr1"
+        ],
+        [
+          "ita",
+          "mag1 ea2"
+        ],
+        [
+          "salvo",
+          "freeze con"
+        ],
+        [
+          "cf",
+          ""
+        ]
+      ]
+    },
+    {
+      "name": "Author stage5 full connection fixture",
+      "pass": true,
+      "detail": [
+        [
+          "ice",
+          "ra1 ea2 bite2 fork"
+        ],
+        [
+          "snipe",
+          "con win1 ea2 focus"
+        ],
+        [
+          "mark",
+          "charged dur2 eternal"
+        ],
+        [
+          "hi",
+          "mag1 ea2 focus"
+        ],
+        [
+          "bar",
+          "cdr1 cast2"
+        ],
+        [
+          "ita",
+          "short1 ea2 mag1"
+        ],
+        [
+          "cf",
+          "prof1"
+        ],
+        [
+          "wd",
+          "knock"
+        ],
+        [
+          "tornado",
+          "dur2 over2 ra2"
+        ]
+      ]
+    },
+    {
+      "name": "60+ explicitly editorial",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "60+ carry-forward matches42–59",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All campaign terms defined 1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All campaign terms defined 2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All campaign terms defined 3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All campaign terms defined 4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All campaign terms defined 5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All campaign terms defined 6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign priority differs from endgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No fabricated leveling build download",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Unique HTML ids index.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No external scripts index.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Local links exist index.html",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Unique HTML ids 剧情练级速查.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No external scripts 剧情练级速查.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Local links exist 剧情练级速查.html",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Unique HTML ids 六分支完整资料.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No external scripts 六分支完整资料.html",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Local links exist 六分支完整资料.html",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Static campaign has48 groups",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Static endgame has60 groups",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Static endgame has969 nodes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Fresh default campaign 320",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/start",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/upgrade",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/craft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/pitfalls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/glossary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/downloads",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b1/sources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 320/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 320/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 320/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b2/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b2/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b2/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 320/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 320/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 320/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b3/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b3/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b3/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 320/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 320/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 320/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 320/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 320/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 320/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b5/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b5/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b5/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 320/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 320/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 320/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b6/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b6/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 320/b6/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 320/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 320/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 320/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 320/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 320/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 320/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 320/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 320/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 320/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 320/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 320/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 320/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 320/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 320/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 320/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 320/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 320/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Fresh default campaign 390",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/start",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/upgrade",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/craft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/pitfalls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/glossary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/downloads",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b1/sources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 390/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 390/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 390/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b2/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b2/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b2/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 390/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 390/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 390/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b3/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b3/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b3/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 390/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 390/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 390/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 390/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 390/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 390/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b5/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b5/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b5/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 390/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 390/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 390/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b6/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b6/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 390/b6/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 390/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 390/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 390/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 390/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 390/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 390/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 390/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 390/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 390/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 390/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 390/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 390/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 390/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 390/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 390/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 390/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 390/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Fresh default campaign 768",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/start",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/upgrade",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/craft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/pitfalls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/glossary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/downloads",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b1/sources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 768/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 768/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 768/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b2/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b2/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b2/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 768/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 768/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 768/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b3/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b3/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b3/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 768/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 768/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 768/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 768/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 768/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 768/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b5/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b5/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b5/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 768/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 768/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 768/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b6/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b6/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 768/b6/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 768/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 768/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 768/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 768/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 768/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 768/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 768/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 768/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 768/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 768/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 768/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 768/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 768/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 768/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 768/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 768/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 768/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Fresh default campaign 1440",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/start",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/upgrade",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/craft",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/pitfalls",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/glossary",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/downloads",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b1/sources",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 1440/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 1440/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 1440/b1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b2/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b2/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b2/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 1440/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 1440/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 1440/b2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b3/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b3/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b3/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 1440/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 1440/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 1440/b3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 1440/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 1440/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 1440/b4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b5/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b5/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b5/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 1440/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 1440/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 1440/b5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b6/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b6/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No wholepage overflow 1440/b6/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All10 skill rows 1440/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "All supports visible summaries 1440/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Summaries collapsed 1440/b6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv1/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv1/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 1440/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 1440/lv1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv2/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv2/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 1440/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 1440/lv2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv3/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv3/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 1440/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 1440/lv3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv4/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv4/gear",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv4/combat",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv4/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv4/tree",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv4/rewards",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 1440/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 1440/lv4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv5/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv5/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 1440/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 1440/lv5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv6/skills",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign tab display 1440/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign no overflow 1440/lv6/transition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete rows 1440/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign complete supports 1440/lv6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Level input selects31–41 without replacing endgame",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign filter finds mark",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Expand all campaign rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Collapse all campaign rows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Copy fallback complete stage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Empty spirit not silentlyzero",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign spirit exact balance",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign spirit detects shortage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign inactive reserve excluded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Tabs keyboard switches equipment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "60 remainscampaign until explicit switch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Campaign toEarly explicit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Endgame skill filter",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Endgame allcopy includes10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Density increases space without losingrows",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Theme toggle works",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "State serialization called",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Persistence roundtrip viaexplicit fixture",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Initial campaign deep-link notoverwritten",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Initial endgame deep-link notoverwritten",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "No runtime JS errors",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}
