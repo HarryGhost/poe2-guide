@@ -1,0 +1,1115 @@
+{
+  "method": "Chromium + Playwright：直接加载实际生成HTML到浏览器内存文档；没有修改被测页面来跳过业务逻辑。",
+  "environment_limit": "运行环境阻止file://和localhost导航，因此未宣称完成双击文件/真实HTTP部署的浏览器集成验收。本地下载逐项做路径/字节检查；本地存储做禁用降级及内存适配器测试。",
+  "date": "2026-09-24",
+  "total": 157,
+  "passed": 157,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "HTML静态ID无重复",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "无外部脚本CSS字体",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "文档简体语言及viewport",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01原件字节和哈希一致",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01技能/装备/天赋未修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01天赋范围行序完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02原件字节和哈希一致",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02技能/装备/天赋未修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02天赋范围行序完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03原件字节和哈希一致",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03技能/装备/天赋未修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03天赋范围行序完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04原件字节和哈希一致",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04技能/装备/天赋未修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04天赋范围行序完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05原件字节和哈希一致",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05技能/装备/天赋未修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05天赋范围行序完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06原件字节和哈希一致",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06技能/装备/天赋未修改",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06天赋范围行序完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06下载隔离为文本",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04保留狙击且无06升华冲突",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备1词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备2词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备3词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备4词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备5词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备6词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备7词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备8词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备9词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备10词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备11词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备12词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备13词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备14词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "01装备15词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备1词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备2词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备3词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备4词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备5词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备6词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备7词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备8词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备9词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备10词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备11词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备13词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备14词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "02装备15词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备1词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备2词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备3词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备4词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备5词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备6词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备7词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备8词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备9词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备10词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备11词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "03装备15词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备1词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备3词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备4词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备5词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备6词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备7词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备8词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备9词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备10词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备11词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04装备15词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备1词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备3词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备4词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备5词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备6词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备7词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备9词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备10词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "05装备11词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备1词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备4词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备5词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备6词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备7词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备8词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备10词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备11词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备12词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "06装备15词条数值保持",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04准确10组40条内嵌连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "所有54技能ID均有字典",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "所有265节点ID均有状态",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "初始JS成功/六分支数据可读",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "初始只显示首页",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-route",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-skills",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-build",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-tree",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-combat",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-craft",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-solo",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-trap",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-faq",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-glossary",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-dl",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "路由-sources",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "从其他章节可靠返回首页",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "阶段切换三项任务",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "进度勾选即更新",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "同次会话切阶段勾选保留",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "交易模式全局同步",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "技能表01逐条及全部连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "技能表02逐条及全部连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "技能表03逐条及全部连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "技能表04逐条及全部连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "技能表05逐条及全部连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "技能表06逐条及全部连接",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04没有战斗狂怒/魔力残片/冰尖箭矢",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "旧ID能搜索技能",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "空搜索结果可读",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "复制按钮有成功或手动降级反馈",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "精魂147与基础150提示缺3",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "取消常驻立即重新计算",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "负精魂输入被拒绝",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "全站搜索中文有结果",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Esc关闭搜索并恢复操作",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "全站搜索旧ID跳到中文术语",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "深锚点进入正确章节",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "折叠深链接自动打开",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "浏览器后退恢复上一章节",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "04节点记录171条且都有范围",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "武器组Ⅱ筛选24条",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "节点ID定位心悸",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "Live冲突页面明显警示",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "装备表01完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "装备表02完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "装备表03完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "装备表04完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "装备表05完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "装备表06完整",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "药剂咒符不是稀有黄装提示",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "全部运行时本地文件链接存在",
+      "passed": true,
+      "details": {
+        "linksChecked": 18,
+        "missing": []
+      }
+    },
+    {
+      "name": "全部运行时锚点有效",
+      "passed": true,
+      "details": {
+        "missing": []
+      }
+    },
+    {
+      "name": "JS生成后仍无重复ID",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "主页面无外部请求",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "深浅色主题切换",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "手机目录可展开",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "手机选择章节后目录关闭",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "4种宽度x13章节无整页横向溢出",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "全部测试过程无JS未捕获异常",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "本地存储不可用仍可初始化",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "存储适配器测试：重初始化偏好与勾选恢复",
+      "passed": true,
+      "details": "内存Storage适配器；并非file/HTTP真实浏览器存储集成验收"
+    }
+  ],
+  "widthChecks": [
+    {
+      "width": 320,
+      "section": "start",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "route",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "skills",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "build",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "tree",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "combat",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "craft",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "solo",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "trap",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "faq",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "glossary",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "dl",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 320,
+      "section": "sources",
+      "w": 320,
+      "doc": 320
+    },
+    {
+      "width": 390,
+      "section": "start",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "route",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "skills",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "build",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "tree",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "combat",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "craft",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "solo",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "trap",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "faq",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "glossary",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "dl",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 390,
+      "section": "sources",
+      "w": 390,
+      "doc": 390
+    },
+    {
+      "width": 768,
+      "section": "start",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "route",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "skills",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "build",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "tree",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "combat",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "craft",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "solo",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "trap",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "faq",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "glossary",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "dl",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 768,
+      "section": "sources",
+      "w": 768,
+      "doc": 768
+    },
+    {
+      "width": 1440,
+      "section": "start",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "route",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "skills",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "build",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "tree",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "combat",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "craft",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "solo",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "trap",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "faq",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "glossary",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "dl",
+      "w": 1440,
+      "doc": 1440
+    },
+    {
+      "width": 1440,
+      "section": "sources",
+      "w": 1440,
+      "doc": 1440
+    }
+  ],
+  "pageErrors": []
+}

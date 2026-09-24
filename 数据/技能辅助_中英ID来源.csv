@@ -1,0 +1,55 @@
+﻿id,zh,en,url,note
+Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye,蜃影神射,Mirage Deadeye,https://poe2db.tw/cn/Mirage_Deadeye,升华给予的元技能；其中的冰霜射击是被镶嵌的主动技能，不是辅助宝石。
+Metadata/Items/Gem/SkillGemCombatFrenzy,战斗狂怒,Combat Frenzy,https://poe2db.tw/cn/Combat_Frenzy,
+Metadata/Items/Gem/SkillGemFreezingMark,冰冻印记,Freezing Mark,https://poe2db.tw/cn/Freezing_Mark,冻结时激活；基础规则会消耗印记。
+Metadata/Items/Gem/SkillGemIceShot,冰霜射击,Ice Shot,https://poe2db.tw/cn/Ice_Shot,
+Metadata/Items/Gem/SkillGemIceTippedArrows,冰尖箭矢,Ice-Tipped Arrows,https://poe2db.tw/cn/Ice-Tipped_Arrows,
+Metadata/Items/Gem/SkillGemManaRemnants,魔力残片,Mana Remnants,https://poe2db.tw/cn/Mana_Remnants,
+Metadata/Items/Gem/SkillGemMirageArcher,幻影射手,Mirage Archer,https://poe2db.tw/cn/Mirage_Archer,元技能；内嵌冰霜射击是主动宝石。
+Metadata/Items/Gem/SkillGemSnipe,狙击,Snipe,https://poe2db.tw/cn/Snipe,主动技能；不要与升华里的 Far Shot（中文也叫狙击）混淆。
+Metadata/Items/Gem/SkillGemTornadoShot,龙卷射击,Tornado Shot,https://poe2db.tw/cn/Tornado_Shot,
+Metadata/Items/Gem/SkillGemWindDancer,风舞者,Wind Dancer,https://poe2db.tw/cn/Wind_Dancer,
+Metadata/Items/Gem/SupportGemAtzirisCommunion,阿兹里的圣礼,Atziri's Communion,https://poe2db.tw/cn/Atziris_Communion,
+Metadata/Items/Gem/SupportGemBlindside,盲点,Blindside,https://poe2db.tw/cn/Blindside,依赖敌人已经被致盲；自身不能致盲。
+Metadata/Items/Gem/SupportGemDeliberation,从容不迫,Deliberation,https://poe2db.tw/cn/Deliberation,
+Metadata/Items/Gem/SupportGemDiallasDesire,达拉的渴望,Dialla's Desire,https://poe2db.tw/cn/Diallas_Desire,
+Metadata/Items/Gem/SupportGemDissipateTwo,和谐残迹 II,Harmonic Remnants II,https://poe2db.tw/cn/Harmonic_Remnants_II,
+Metadata/Items/Gem/SupportGemDurability,耐久度,Durability,https://poe2db.tw/cn/Durability,
+Metadata/Items/Gem/SupportGemExpedite,短暂引信 I,Short Fuse I,https://poe2db.tw/cn/Short_Fuse_I,
+Metadata/Items/Gem/SupportGemGarukhansResolve,格鲁坎的决心,Garukhan's Resolve,https://poe2db.tw/cn/Garukhans_Resolve,最高配辅助；暴击率上限相关机制与主方案不同。
+Metadata/Items/Gem/SupportGemInterludeThree,残片效能 III,Remnant Potency III,https://poe2db.tw/cn/Remnant_Potency_III,
+Metadata/Items/Gem/SupportGemKhatalsRejuvenation,卡哈塔的复苏,Khatal's Rejuvenation,https://poe2db.tw/cn/Khatals_Rejuvenation,
+Metadata/Items/Gem/SupportGemRakiatasFlow,拉其塔之流,Rakiata's Flow,https://poe2db.tw/cn/Rakiatas_Flow,元素抗性反转；不能把普通减抗、穿透收益直接相加。
+Metadata/Items/Gems/SkillGemBarrage,弹幕,Barrage,https://poe2db.tw/cn/Barrage,
+Metadata/Items/Gems/SkillGemGhostDance,幽灵舞步,Ghost Dance,https://poe2db.tw/cn/Ghost_Dance,近期失去幽魂缠身后按闪避值的一部分每秒回复能量护盾；不是旧版受击瞬回公式。
+Metadata/Items/Gems/SkillGemHeraldOfIce,寒冰之捷,Herald of Ice,https://poe2db.tw/cn/Herald_of_Ice,
+Metadata/Items/Gems/SkillGemWolfPounce,巨狼猛扑,Pounce,https://poe2db.tw/cn/Pounce,仅作者实装分支；元技能，关联变形体系，不属于主方案。
+Metadata/Items/Gems/SupportGemArcaneTempoTwo,快速施法 II,Rapid Casting II,https://poe2db.tw/cn/Rapid_Casting_II,
+Metadata/Items/Gems/SupportGemBlindTwo,致盲 II,Blind II,https://poe2db.tw/cn/Blind_II,
+Metadata/Items/Gems/SupportGemBludgeon,击退,Knockback,https://poe2db.tw/cn/Knockback,
+Metadata/Items/Gems/SupportGemChargedMark,充能印记,Charged Mark,https://poe2db.tw/cn/Charged_Mark,印记激活时产生感电地面；不是凭名字推断的产狂怒球辅助。
+Metadata/Items/Gems/SupportGemCloseCombatTwo,近战 II,Close Combat II,https://poe2db.tw/cn/Close_Combat_II,
+Metadata/Items/Gems/SupportGemColdInfusion,冰霜协调,Cold Attunement,https://poe2db.tw/cn/Cold_Attunement,
+Metadata/Items/Gems/SupportGemColdPenetration,冰霜穿透,Cold Penetration,https://poe2db.tw/cn/Cold_Penetration,
+Metadata/Items/Gems/SupportGemConcentratedEffect,范围集中,Concentrated Effect,https://poe2db.tw/cn/Concentrated_Effect,
+Metadata/Items/Gems/SupportGemElementalFocus,元素集中,Elemental Focus,https://poe2db.tw/cn/Elemental_Focus,被辅助技能不能造成元素异常；不能塞给承担冻结的主冰射。
+Metadata/Items/Gems/SupportGemEternalMark,永恒印记,Eternal Mark,https://poe2db.tw/cn/Eternal_Mark,第一次激活不消耗，不是永远不消耗。
+Metadata/Items/Gems/SupportGemFork,分叉,Fork,https://poe2db.tw/cn/Fork,
+Metadata/Items/Gems/SupportGemGlaciation,冻结,Freeze,https://poe2db.tw/cn/Freeze,内部 ID 仍叫 Glaciation；当前辅助显示名为冻结，不是名为冰河世纪的天赋。
+Metadata/Items/Gems/SupportGemIceBiteTwo,霜咬 II,Ice Bite II,https://poe2db.tw/cn/Ice_Bite_II,
+Metadata/Items/Gems/SupportGemInevitableCritical,命定绝杀 I,Inexorable Critical I,https://poe2db.tw/cn/Inexorable_Critical_I,不要按内部旧名 Inevitable Critical 寻找；也不代表必定暴击。
+Metadata/Items/Gems/SupportGemIngenuityTwo,冷却回复 II,Cooldown Recovery II,https://poe2db.tw/cn/Cooldown_Recovery_II,
+Metadata/Items/Gems/SupportGemLongshotTwo,远射 II,Longshot II,https://poe2db.tw/cn/Longshot_II,
+Metadata/Items/Gems/SupportGemMagnifiedEffectTwo,范围扩大 II,Magnified Area II,https://poe2db.tw/cn/Magnified_Area_II,
+Metadata/Items/Gems/SupportGemMaim,瘫痪,Maim,https://poe2db.tw/cn/Maim,
+Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo,虹吸印记 II,Mark of Siphoning II,https://poe2db.tw/cn/Mark_of_Siphoning_II,0.5.0后的条目按对被印记目标造成的物理攻击击中伤害偷取生命和魔力；不能按全部冰伤计算。
+Metadata/Items/Gems/SupportGemMartialTempoThree,快速攻击 III,Rapid Attacks III,https://poe2db.tw/cn/Rapid_Attacks_III,
+Metadata/Items/Gems/SupportGemMartialTempoTwo,快速攻击 II,Rapid Attacks II,https://poe2db.tw/cn/Rapid_Attacks_II,
+Metadata/Items/Gems/SupportGemNovaProjectiles,新星投射物 I,Nova Projectiles I,https://poe2db.tw/cn/Nova_Projectiles_I,
+Metadata/Items/Gems/SupportGemOverabundanceTwo,冗余 II,Overabundance II,https://poe2db.tw/cn/Overabundance_II,
+Metadata/Items/Gems/SupportGemPerpetualCharge,永续充能,Perpetual Charge,https://poe2db.tw/cn/Perpetual_Charge,只影响能量球的消耗，不负责产球。弹幕本身不需要有球才产生基础重复。
+Metadata/Items/Gems/SupportGemPersistenceTwo,持续时间延长 II,Prolonged Duration II,https://poe2db.tw/cn/Prolonged_Duration_II,
+Metadata/Items/Gems/SupportGemPrimalArmamentTwo,元素军械 II,Elemental Armament II,https://poe2db.tw/cn/Elemental_Armament_II,保留 II；III 会改变元素异常能力。
+Metadata/Items/Gems/SupportGemProfusionTwo,能量球激增 II,Charge Profusion II,https://poe2db.tw/cn/Charge_Profusion_II,
+Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo,大好时机 II,Window of Opportunity II,https://poe2db.tw/cn/Window_of_Opportunity_II,提高完美释放伤害但缩短完美释放窗口。
+Metadata/Items/Gems/SupportOlrothsConviction,欧罗什的信念,Olroth's Conviction,https://poe2db.tw/cn/Olroths_Conviction,

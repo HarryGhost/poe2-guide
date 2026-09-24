@@ -1,0 +1,287 @@
+[
+  {
+    "branch": "Early",
+    "sourceSha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07",
+    "dsh_source_content_equal": true,
+    "equipment": 15,
+    "skills": 10,
+    "nested": 36,
+    "passiveRecords": 133,
+    "scopes": {
+      "公共": {
+        "rows": 75,
+        "distinct": 75,
+        "duplicates": {}
+      },
+      "武器组1": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "武器组2": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "升华": {
+        "rows": 10,
+        "distinct": 10,
+        "duplicates": {}
+      }
+    },
+    "overlap": {
+      "公共与武器组1": [],
+      "公共与武器组2": []
+    },
+    "ascendancyConflict": []
+  },
+  {
+    "branch": "non-crit Midgame",
+    "sourceSha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b",
+    "dsh_source_content_equal": true,
+    "equipment": 15,
+    "skills": 10,
+    "nested": 40,
+    "passiveRecords": 148,
+    "scopes": {
+      "公共": {
+        "rows": 90,
+        "distinct": 90,
+        "duplicates": {}
+      },
+      "武器组1": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "武器组2": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "升华": {
+        "rows": 10,
+        "distinct": 10,
+        "duplicates": {}
+      }
+    },
+    "overlap": {
+      "公共与武器组1": [],
+      "公共与武器组2": []
+    },
+    "ascendancyConflict": []
+  },
+  {
+    "branch": "non-crit Hybrid swap",
+    "sourceSha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f",
+    "dsh_source_content_equal": true,
+    "equipment": 15,
+    "skills": 10,
+    "nested": 41,
+    "passiveRecords": 156,
+    "scopes": {
+      "公共": {
+        "rows": 98,
+        "distinct": 98,
+        "duplicates": {}
+      },
+      "武器组1": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "武器组2": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "升华": {
+        "rows": 10,
+        "distinct": 10,
+        "duplicates": {}
+      }
+    },
+    "overlap": {
+      "公共与武器组1": [],
+      "公共与武器组2": [
+        "attributes74",
+        "dexterity57",
+        "dexterity85_"
+      ]
+    },
+    "ascendancyConflict": []
+  },
+  {
+    "branch": "Crit Hybrid",
+    "sourceSha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d",
+    "dsh_source_content_equal": true,
+    "equipment": 15,
+    "skills": 10,
+    "nested": 40,
+    "passiveRecords": 171,
+    "scopes": {
+      "公共": {
+        "rows": 113,
+        "distinct": 105,
+        "duplicates": {
+          "intelligence10": 2,
+          "dexterity5": 2,
+          "dexterity10": 2,
+          "dexterity36": 2,
+          "dexterity38": 2,
+          "dexterity39": 2,
+          "dexterity11": 2,
+          "dexterity40": 2
+        }
+      },
+      "武器组1": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "武器组2": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "升华": {
+        "rows": 10,
+        "distinct": 10,
+        "duplicates": {}
+      }
+    },
+    "overlap": {
+      "公共与武器组1": [],
+      "公共与武器组2": [
+        "attributes74",
+        "dexterity57",
+        "dexterity85_"
+      ]
+    },
+    "ascendancyConflict": []
+  },
+  {
+    "branch": "Uber Endgame",
+    "sourceSha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c",
+    "dsh_source_content_equal": true,
+    "equipment": 15,
+    "skills": 10,
+    "nested": 39,
+    "passiveRecords": 176,
+    "scopes": {
+      "公共": {
+        "rows": 118,
+        "distinct": 108,
+        "duplicates": {
+          "intelligence10": 2,
+          "dexterity5": 2,
+          "dexterity10": 2,
+          "dexterity39": 2,
+          "dexterity11": 2,
+          "dexterity40": 2,
+          "dexterity23_": 2,
+          "dexterity22": 2,
+          "dexterity21": 2,
+          "dexterity38": 2
+        }
+      },
+      "武器组1": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "武器组2": {
+        "rows": 24,
+        "distinct": 24,
+        "duplicates": {}
+      },
+      "升华": {
+        "rows": 10,
+        "distinct": 10,
+        "duplicates": {}
+      }
+    },
+    "overlap": {
+      "公共与武器组1": [],
+      "公共与武器组2": [
+        "attributes74",
+        "dexterity57",
+        "dexterity85_"
+      ]
+    },
+    "ascendancyConflict": []
+  },
+  {
+    "branch": "Live Gear",
+    "sourceSha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5",
+    "dsh_source_content_equal": true,
+    "equipment": 16,
+    "skills": 10,
+    "nested": 42,
+    "passiveRecords": 185,
+    "scopes": {
+      "公共": {
+        "rows": 115,
+        "distinct": 107,
+        "duplicates": {
+          "dexterity34": 2,
+          "attributes27": 2,
+          "dexterity9": 2,
+          "intelligence25": 2,
+          "intelligence7": 2,
+          "attributes28": 2,
+          "dexterity6": 2,
+          "intelligence10": 2
+        }
+      },
+      "武器组1": {
+        "rows": 32,
+        "distinct": 32,
+        "duplicates": {}
+      },
+      "武器组2": {
+        "rows": 28,
+        "distinct": 28,
+        "duplicates": {}
+      },
+      "升华": {
+        "rows": 10,
+        "distinct": 10,
+        "duplicates": {}
+      }
+    },
+    "overlap": {
+      "公共与武器组1": [
+        "attack2",
+        "attributes27",
+        "criticals29",
+        "dexterity12_",
+        "dexterity47",
+        "dexterity50",
+        "dexterity51",
+        "intelligence10"
+      ],
+      "公共与武器组2": [
+        "attributes27",
+        "attributes74",
+        "attributes9",
+        "dexterity54",
+        "dexterity57",
+        "dexterity85_",
+        "jewel_slot1960"
+      ]
+    },
+    "ascendancyConflict": [
+      "AscendancyRanger3Small4",
+      "AscendancyRanger3Notable2",
+      "AscendancyRanger3Small3",
+      "AscendancyRanger3Notable1_",
+      "AscendancyRanger3Start",
+      "AscendancyRanger3Small8",
+      "AscendancyRanger3Notable8_Choice_",
+      "AscendancyRanger3Notable8_1",
+      "AscendancyRanger3Small9",
+      "AscendancyRanger3Notable9"
+    ]
+  }
+]
