@@ -1,511 +1,516 @@
 {
-  "name": "锐眼冰射 · Fubgun 版（唯一一套 · 1–70 级 93 点）",
-  "author": "Fubgun（国际服）· 技能与装备按他的 0.5.5 冰射锐眼；天赋取自作者 WeGame 真实角色数据",
+  "name": "锐眼冰射 · Fubgun 版 · 唯一一套",
+  "author": "Fubgun (Mobalytics) / 中文整理：Harry",
   "link": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
   "ascendancy": "Ranger1",
-  "description": "【锐眼冰射 · Fubgun 版 · 唯一一套】\n\n■ 一套到底，不换流派\n  1–30 级：闪电箭矢 + 引雷针（冰霜射击 31 级才解锁）\n  31 级：换冰霜射击 + 寒冰之捷 → 定型，之后只换装备\n\n■ 武器组（他的原话，很重要）\n  输出技能全放【武器组 1】：冰霜射击 / 狙击 / 龙卷射击 / 冰尖箭矢 / 弹幕 / 寒冰之捷\n  冰冻印记必须放【武器组 2】—— 持续 20 秒，全程保持\n\n■ 首领连招\n  先放龙卷射击 → 冰尖箭矢 → 冰霜射击打到冻住 → 弹幕 → 狙击\n\n■ 6 连优先级：狙击 > 冰霜射击 > 寒冰之捷 > 冰冻印记\n■ 品质优先级：冰冻印记 > 寒冰之捷 > 狙击 > 冰霜射击\n■ 别用元素军械 III，只用 II\n■ 升华：零点射击 → 无限弹药 → 疾风 → 蜃影神射\n\n■ 装备要点（堆【物理/元素点伤】方向）\n  戒指/手套：扁平点伤（优先冰冷或物理）\n  弓：能拿到的最高 DPS，首选毁灭者之弓；符文用【大铁符文】\n  箭袋：点伤 + 弓技能伤害 / 投射物速度 + 攻速，凑 3~4 条\n  项链：投射物技能等级；至少 30 精魂\n  抗性：火冰电 75%，混沌 30~50% 就行；稀有度堆到 100%\n\n■ 天赋\n  每个节点标了【第 1/2/3 优先】，先点第 1 优先；★ 是大点。93 点取自真实数据、已验连通。\n\n■ 导入\n  放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份）\n  文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
+  "description": "【锐眼冰射 · Fubgun 版 · 唯一一套】\n\n■ 一套到底，不换流派\n  1–30 级：闪电箭矢 + 引雷针（冰霜射击 31 级才解锁）\n  31 级：换冰霜射击 + 寒冰之捷 → 定型，之后只换装备\n\n■ 武器组（他的原话，很重要）\n  输出技能全放【武器组 1】：冰霜射击 / 狙击 / 龙卷射击 / 冰尖箭矢 / 弹幕 / 寒冰之捷\n  冰冻印记必须放【武器组 2】—— 持续 20 秒，全程保持\n\n■ 首领连招\n  先放龙卷射击 → 冰尖箭矢 → 冰霜射击打到冻住 → 弹幕 → 狙击\n\n■ 6 连优先级：狙击 > 冰霜射击 > 寒冰之捷 > 冰冻印记\n■ 品质优先级：冰冻印记 > 寒冰之捷 > 狙击 > 冰霜射击\n■ 别用元素军械 III，只用 II\n■ 升华：零点射击 → 无限弹药 → 聚风 → 蜃影神射\n\n■ 装备要点（堆【点伤】方向）\n  戒指/手套：扁平点伤（优先冰霜或物理）\n  弓：能拿到的最高 DPS，首选毁灭者之弓；符文用【高级钢铁符文】\n  箭袋：点伤 + 弓技能伤害 / 投射物速度 + 攻速，凑 3~4 条\n  项链：+投射物技能等级；至少 30 精魂\n  抗性：火冰电 75%，混沌 30~50% 就行；稀有度堆到 100%\n\n■ 天赋（93 点）\n  每点标了【第 1/2/3 优先】= 离起点由近到远，按顺序点即可；括号里是国服中文名。\n  数据来自一位国服实况锐眼角色的公开配置，不是 Fubgun 本人那份图的逐点复刻。\n  ⚠ 里面含【共鸣】：它会把「获得的狂怒球」改成暴击球，用弹幕 + 战斗狂怒的连招时请避开这一点。\n\n■ 导入\n  放进 文档\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 时优先放 OneDrive 那份）\n  文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
   "passives": [
     {
       "id": "criticals58",
-      "additional_text": "【第 2 优先】 Critical Damage"
+      "additional_text": "【第 2 优先】暴击伤害（Critical Damage）"
     },
     {
       "id": "evasion_and_energy_shield22",
-      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+      "additional_text": "【第 3 优先】闪避和能量护盾（Evasion and Energy Shield）"
     },
     {
       "id": "bow23",
-      "additional_text": "【第 2 优先】★大点 Quick Fingers"
+      "additional_text": "【第 2 优先】巧手连射（Quick Fingers）"
     },
     {
       "id": "criticals87",
-      "additional_text": "【第 3 优先】 Critical Damage"
+      "additional_text": "【第 3 优先】暴击伤害（Critical Damage）"
     },
     {
       "id": "cold32",
-      "additional_text": "【第 3 优先】★大点 Thin Ice"
+      "additional_text": "【第 3 优先】如履薄冰（Thin Ice）"
     },
     {
       "id": "bow20",
-      "additional_text": "【第 2 优先】 Surpassing Arrow Chance"
+      "additional_text": "【第 2 优先】额外箭矢几率（Surpassing Arrow Chance）"
     },
     {
       "id": "evasion_and_energy_shield11",
-      "additional_text": "【第 3 优先】★大点 Spectral Ward"
+      "additional_text": "【第 3 优先】魂灵结界（Spectral Ward）"
     },
     {
       "id": "dexterity7",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "dexterity51",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "criticals45",
-      "additional_text": "【第 3 优先】 Critical Damage"
+      "additional_text": "【第 3 优先】暴击伤害（Critical Damage）"
     },
     {
       "id": "daze_4",
-      "additional_text": "【第 2 优先】 Damage vs Dazed Enemies"
+      "additional_text": "【第 2 优先】对恍惚敌人的伤害（Damage vs Dazed Enemies）"
     },
     {
       "id": "intelligence25",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "elemental_attacks6",
-      "additional_text": "【第 2 优先】 Elemental Attack Damage"
+      "additional_text": "【第 2 优先】元素攻击伤害（Elemental Attack Damage）"
     },
     {
       "id": "projectiles13",
-      "additional_text": "【第 3 优先】 Projectile Damage"
+      "additional_text": "【第 3 优先】投射物伤害（Projectile Damage）"
     },
     {
       "id": "dexterity12_",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "evasion21",
-      "additional_text": "【第 2 优先】 Evasion"
+      "additional_text": "【第 2 优先】闪避（Evasion）"
     },
     {
       "id": "evasion_and_energy_shield8",
-      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+      "additional_text": "【第 3 优先】闪避和能量护盾（Evasion and Energy Shield）"
     },
     {
       "id": "attributes10",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "attack24",
-      "additional_text": "【第 3 优先】 Attack Damage"
+      "additional_text": "【第 3 优先】攻击伤害（Attack Damage）"
     },
     {
       "id": "deflect52_",
-      "additional_text": "【第 2 优先】 Deflection"
+      "additional_text": "【第 2 优先】偏转（Deflection）"
     },
     {
       "id": "dexterity34",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "criticals10",
-      "additional_text": "【第 3 优先】 Critical Damage"
+      "additional_text": "【第 3 优先】暴击伤害（Critical Damage）"
     },
     {
       "id": "deflect51",
-      "additional_text": "【第 2 优先】 Deflection"
+      "additional_text": "【第 2 优先】偏转（Deflection）"
     },
     {
       "id": "bow19",
-      "additional_text": "【第 2 优先】 Surpassing Arrow Chance"
+      "additional_text": "【第 2 优先】额外箭矢几率（Surpassing Arrow Chance）"
     },
     {
       "id": "bow21",
-      "additional_text": "【第 2 优先】 Surpassing Arrow Chance"
+      "additional_text": "【第 2 优先】额外箭矢几率（Surpassing Arrow Chance）"
     },
     {
       "id": "jewel_slot1960",
-      "additional_text": "【第 1 优先】 Jewel Socket"
+      "additional_text": "【第 1 优先】[Jewel|珠宝]插槽（Jewel Socket）"
     },
     {
       "id": "intelligence66",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "evasion33",
-      "additional_text": "【第 2 优先】★大点 Beastial Skin"
+      "additional_text": "【第 2 优先】猛兽之肤（Beastial Skin）"
     },
     {
       "id": "movement_speed9",
-      "additional_text": "【第 2 优先】★大点 Acceleration"
+      "additional_text": "【第 2 优先】加速（Acceleration）"
     },
     {
       "id": "projectiles15",
-      "additional_text": "【第 1 优先】 Projectile Damage"
+      "additional_text": "【第 1 优先】投射物伤害（Projectile Damage）"
     },
     {
       "id": "dexterity15",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "evasion_and_energy_shield32",
-      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+      "additional_text": "【第 3 优先】闪避和能量护盾（Evasion and Energy Shield）"
     },
     {
       "id": "attributes11",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "dexterity19",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "deflect53",
-      "additional_text": "【第 2 优先】★大点 Staunch Deflection"
+      "additional_text": "【第 2 优先】坚定偏转（Staunch Deflection）"
     },
     {
       "id": "criticals52",
-      "additional_text": "【第 2 优先】 Critical Damage"
+      "additional_text": "【第 2 优先】暴击伤害（Critical Damage）"
     },
     {
       "id": "movement_speed4",
-      "additional_text": "【第 2 优先】 Skill Speed"
+      "additional_text": "【第 2 优先】技能速度（Skill Speed）"
     },
     {
       "id": "attributes12",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "intelligence68",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "dexterity18",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "criticals84",
-      "additional_text": "【第 3 优先】★大点 Careful Assassin"
+      "additional_text": "【第 3 优先】谨慎的刺客（Careful Assassin）"
     },
     {
       "id": "projectiles11",
-      "additional_text": "【第 3 优先】 Projectile Speed"
+      "additional_text": "【第 3 优先】投射物速度（Projectile Speed）"
     },
     {
       "id": "dexterity44",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "criticals16",
-      "additional_text": "【第 3 优先】 Critical Chance"
+      "additional_text": "【第 3 优先】暴击率（Critical Chance）"
     },
     {
       "id": "dexterity50",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "criticals86",
-      "additional_text": "【第 3 优先】 Critical Chance"
+      "additional_text": "【第 3 优先】暴击率（Critical Chance）"
     },
     {
       "id": "evasion_and_energy_shield36",
-      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+      "additional_text": "【第 3 优先】闪避和能量护盾（Evasion and Energy Shield）"
     },
     {
       "id": "jewel_slot1961",
-      "additional_text": "【第 3 优先】 Jewel Socket"
+      "additional_text": "【第 3 优先】[Jewel|珠宝]插槽（Jewel Socket）"
     },
     {
       "id": "attributes25",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "criticals17",
-      "additional_text": "【第 3 优先】 Critical Chance"
+      "additional_text": "【第 3 优先】暴击率（Critical Chance）"
     },
     {
       "id": "attributes29",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "intelligence67",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "dexterity20",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "intelligence60",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "dexterity43",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "deflect49",
-      "additional_text": "【第 2 优先】 Deflection"
+      "additional_text": "【第 2 优先】偏转（Deflection）"
     },
     {
       "id": "daze_19",
-      "additional_text": "【第 3 优先】★大点 Dizzying Hits"
+      "additional_text": "【第 3 优先】晕眩击中（Dizzying Hits）"
     },
     {
       "id": "dexterity47",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "criticals28",
-      "additional_text": "【第 3 优先】★大点 True Strike"
+      "additional_text": "【第 3 优先】真实之击（True Strike）"
     },
     {
       "id": "passive_keystone_resonance",
-      "additional_text": "【第 3 优先】 Resonance"
+      "additional_text": "【第 3 优先】共鸣（Resonance）"
     },
     {
       "id": "projectiles9_",
-      "additional_text": "【第 3 优先】 Projectile Speed"
+      "additional_text": "【第 3 优先】投射物速度（Projectile Speed）"
     },
     {
       "id": "evasion_and_energy_shield5",
-      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+      "additional_text": "【第 3 优先】闪避和能量护盾（Evasion and Energy Shield）"
     },
     {
       "id": "attributes1",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "attributes27",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "movement_speed5",
-      "additional_text": "【第 2 优先】 Skill Speed"
+      "additional_text": "【第 2 优先】技能速度（Skill Speed）"
     },
     {
       "id": "cold3",
-      "additional_text": "【第 3 优先】 Cold Damage"
+      "additional_text": "【第 3 优先】冰霜伤害（Cold Damage）"
     },
     {
       "id": "daze_3",
-      "additional_text": "【第 2 优先】 Damage and Criticals vs Dazed Enemies"
+      "additional_text": "【第 2 优先】对恍惚敌人的伤害和暴击（Damage and Criticals vs Dazed Enemies）"
     },
     {
       "id": "dexterity48",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "evasion28",
-      "additional_text": "【第 2 优先】 Evasion"
+      "additional_text": "【第 2 优先】闪避（Evasion）"
     },
     {
       "id": "intelligence7",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "criticals29",
-      "additional_text": "【第 3 优先】★大点 For the Jugular"
+      "additional_text": "【第 3 优先】直取咽喉（For the Jugular）"
     },
     {
       "id": "daze_2",
-      "additional_text": "【第 3 优先】★大点 Stupefy"
+      "additional_text": "【第 3 优先】茫然无措（Stupefy）"
     },
     {
       "id": "dexterity54",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "elemental_attacks8",
-      "additional_text": "【第 2 优先】★大点 Catalysis"
+      "additional_text": "【第 2 优先】催化反应（Catalysis）"
     },
     {
       "id": "criticals90",
-      "additional_text": "【第 3 优先】★大点 Throatseeker"
+      "additional_text": "【第 3 优先】割战者（Throatseeker）"
     },
     {
       "id": "evasion_and_energy_shield31",
-      "additional_text": "【第 3 优先】★大点 First Principle of the Hollow"
+      "additional_text": "【第 3 优先】闪避和能量护盾（First Principle of the Hollow）"
     },
     {
       "id": "daze_7",
-      "additional_text": "【第 2 优先】 Criticals vs Dazed Enemies"
+      "additional_text": "【第 2 优先】对恍惚敌人的暴击（Criticals vs Dazed Enemies）"
     },
     {
       "id": "criticals83",
-      "additional_text": "【第 3 优先】 Critical Chance"
+      "additional_text": "【第 3 优先】暴击率（Critical Chance）"
     },
     {
       "id": "dexterity46",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "intelligence69",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "dexterity9",
-      "additional_text": "【第 3 优先】 Attribute"
+      "additional_text": "【第 3 优先】属性（Attribute）"
     },
     {
       "id": "dexterity55",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "dexterity82_",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "jewel_slot1979",
-      "additional_text": "【第 3 优先】 Jewel Socket"
+      "additional_text": "【第 3 优先】[Jewel|珠宝]插槽（Jewel Socket）"
     },
     {
       "id": "dexterity16",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     },
     {
       "id": "jewel_slot1976",
-      "additional_text": "【第 2 优先】 Jewel Socket"
+      "additional_text": "【第 2 优先】[Jewel|珠宝]插槽（Jewel Socket）"
     },
     {
       "id": "evasion24_",
-      "additional_text": "【第 2 优先】 Evasion"
+      "additional_text": "【第 2 优先】闪避（Evasion）"
     },
     {
       "id": "criticals89",
-      "additional_text": "【第 3 优先】 Critical Damage"
+      "additional_text": "【第 3 优先】暴击伤害（Critical Damage）"
     },
     {
       "id": "evasion_and_energy_shield33",
-      "additional_text": "【第 3 优先】 Deflection and Energy Shield Delay"
+      "additional_text": "【第 3 优先】偏转和能量护盾延迟（Deflection and Energy Shield Delay）"
     },
     {
       "id": "dexterity52",
-      "additional_text": "【第 2 优先】 Attribute"
+      "additional_text": "【第 2 优先】属性（Attribute）"
     },
     {
       "id": "ranged30_",
-      "additional_text": "【第 3 优先】★大点 Kite Runner"
+      "additional_text": "【第 3 优先】追风筝的人（Kite Runner）"
     },
     {
       "id": "attack22",
-      "additional_text": "【第 3 优先】 Attack Damage"
+      "additional_text": "【第 3 优先】攻击伤害（Attack Damage）"
     },
     {
       "id": "dexterity17",
-      "additional_text": "【第 1 优先】 Attribute"
+      "additional_text": "【第 1 优先】属性（Attribute）"
     }
   ],
   "skills": [
     {
-      "id": "Metadata/Items/Gem/SkillGemIceShot",
-      "additional_text": "冰霜射击 | 主力清图（武器组 1）",
+      "id": "Metadata/Items/Gems/SkillGemIceShot",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+          "id": "Metadata/Items/Gem/SkillGemElementalArmamentSupportTwo"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo"
+          "id": "Metadata/Items/Gem/SkillGemIceBiteSupportTwo"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo"
+          "id": "Metadata/Items/Gem/SkillGemRapidAttacksSupport"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemColdExposure"
+          "id": "Metadata/Items/Gem/SkillGemColdExposureSupport"
         },
         {
-          "id": "Metadata/Items/Gem/SupportGemVerglas"
+          "id": "Metadata/Items/Gem/SkillGemVerglasSupport"
         }
-      ]
+      ],
+      "weapon_set": 1
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemSnipe",
-      "additional_text": "狙击 | 只打地图首领（武器组 1）。6 连优先级第 1",
+      "id": "Metadata/Items/Gems/SkillGemSnipe",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo"
+          "id": "Metadata/Items/Gem/SkillGemElementalArmamentSupportTwo"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+          "id": "Metadata/Items/Gem/SkillGemConcentratedAreaSupport"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunity"
+          "id": "Metadata/Items/Gem/SkillGemWindowOfOpportunitySupport"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+          "id": "Metadata/Items/Gem/SkillGemElementalFocusSupport"
         },
         {
-          "id": "Metadata/Items/Gem/SupportGemTasaliosRhythm"
+          "id": "Metadata/Items/Gem/SkillGemTasaliosRhythmSupport"
         }
-      ]
+      ],
+      "weapon_set": 1
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
-      "additional_text": "龙卷射击 | 事先放好；弹幕/狙击前确认它还在场上（武器组 1）",
+      "id": "Metadata/Items/Gems/SkillGemTornadoShot",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+          "id": "Metadata/Items/Gem/SkillGemConcentratedAreaSupport"
         }
-      ]
+      ],
+      "weapon_set": 1
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
-      "additional_text": "冰尖箭矢 | 按需使用，冻首领时先放（武器组 1）"
-    },
-    {
-      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
-      "additional_text": "冰冻印记 | ★必须放【武器组 2】！持续 20 秒，全程保持",
-      "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SupportGemPersistence"
-        },
-        {
-          "id": "Metadata/Items/Gems/SupportGemSecondWind"
-        }
-      ]
+      "id": "Metadata/Items/Gems/SkillGemIceTippedArrows",
+      "support_skills": [],
+      "weapon_set": 1
     },
     {
       "id": "Metadata/Items/Gems/SkillGemBarrage",
-      "additional_text": "弹幕 | 冻住后接狙击（武器组 1）",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemProfusion"
+          "id": "Metadata/Items/Gem/SkillGemChargeProfusionSupportTwo"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemHourglass"
+          "id": "Metadata/Items/Gem/SkillGemHourglassSupport"
         }
-      ]
+      ],
+      "weapon_set": 1
     },
     {
       "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
-      "additional_text": "寒冰之捷 | 清图光环（30 精魂）",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+          "id": "Metadata/Items/Gem/SkillGemElementalArmamentSupport"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+          "id": "Metadata/Items/Gem/SkillGemMagnifiedAreaSupportTwo"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+          "id": "Metadata/Items/Gem/SkillGemElementalFocusSupport"
         }
-      ]
+      ],
+      "weapon_set": 1
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
-      "additional_text": "战斗狂怒 | 拿狂怒球",
+      "id": "Metadata/Items/Gems/SkillGemFreezingMark",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemProfusionTwo"
-        }
-      ]
-    },
-    {
-      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
-      "additional_text": "幻影射手（60 精魂）| 没精魂时可换成风舞者（连致盲2）",
-      "support_skills": [
-        {
-          "id": "Metadata/Items/Gems/SupportGemSecondWind"
+          "id": "Metadata/Items/Gem/SkillGemProlongedDurationSupportTwo"
         },
         {
-          "id": "Metadata/Items/Gems/SupportGemBlindTwo"
+          "id": "Metadata/Items/Gem/SkillGemSecondWindSupportTwo"
         }
-      ]
+      ],
+      "weapon_set": 2
     },
     {
-      "id": "Metadata/Items/Gem/SkillGemWindDancer",
-      "additional_text": "风舞者（30 精魂）| 换下幻影射手时用",
+      "id": "Metadata/Items/Gems/SkillGemCombatFrenzy",
       "support_skills": [
         {
-          "id": "Metadata/Items/Gems/SupportGemBlindTwo"
+          "id": "Metadata/Items/Gem/SkillGemChargeProfusionSupportTwo"
         }
-      ]
+      ],
+      "weapon_set": 1
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemMirageArcher",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemSecondWindSupportTwo"
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemBlindSupportTwo"
+        }
+      ],
+      "weapon_set": 1
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemWindDancer",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemBlindSupportTwo"
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemKnockbackSupport"
+        }
+      ],
+      "weapon_set": 1
     },
     {
       "id": "Metadata/Items/Gems/SkillGemEscapeShot",
-      "additional_text": "逃脱射击 | 位移"
+      "support_skills": [],
+      "weapon_set": 1
     }
   ],
   "inventory_slots": [
