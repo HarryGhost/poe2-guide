@@ -1,0 +1,1074 @@
+{
+  "author": "Fubgun",
+  "link": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+  "ascendancy": "Ranger1",
+  "inventory_slots": [
+    {
+      "additional_text": "Obliterator Bow\n1. +3.1% to Critical Hit Chance\n2. Adds 16 to 28 Physical Damage\n3. Adds 40 to 62 Cold Damage\n4. 135% increased Physical Damage\n5. +2 to Level of all Projectile Skills",
+      "inventory_id": "Weapon1",
+      "level_interval": [
+        78,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "inventory_id": "Offhand1",
+      "slot_x": 0,
+      "slot_y": 0,
+      "unique_name": "Cadiro's Gambit"
+    },
+    {
+      "additional_text": "Ancestral Tiara\n1. +48 to maximum Energy Shield\n2. 92% increased Energy Shield",
+      "inventory_id": "Helm1",
+      "level_interval": [
+        80,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Corsair Coat\n1. +333 to Evasion Rating\n2. 140% increased Evasion Rating\n3. Gain Deflection Rating equal to 21% of Evasion Rating",
+      "inventory_id": "BodyArmour1",
+      "level_interval": [
+        80,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Grand Bracers\n1. +120 to maximum Life\n2. Adds 7 to 14 Physical Damage to Attacks\n3. Adds 14 to 22 Cold damage to Attacks\n4. 30% increased Critical Damage Bonus",
+      "inventory_id": "Gloves1",
+      "level_interval": [
+        70,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Bladed Shoes\n1. 92% increased Evasion and Energy Shield\n2. 35% increased Movement Speed\n3. Gain Deflection Rating equal to 21% of Evasion Rating",
+      "inventory_id": "Boots1",
+      "level_interval": [
+        65,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Stellar Amulet\n1. +3 to Level of all Projectile Skills\n2. +47 to Spirit",
+      "inventory_id": "Amulet1",
+      "level_interval": [
+        24,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Rawhide Belt\n1. +150 to maximum Life\n2. +31 to Strength",
+      "inventory_id": "Belt1",
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Prismatic Ring\n1. +120 to maximum Life\n2. Adds 10 to 18 Physical Damage to Attacks\n3. Adds 16 to 25 Cold damage to Attacks",
+      "inventory_id": "Ring1",
+      "level_interval": [
+        35,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Prismatic Ring\n1. +120 to maximum Life\n2. Adds 10 to 18 Physical Damage to Attacks\n3. Adds 16 to 25 Cold damage to Attacks",
+      "inventory_id": "Ring2",
+      "level_interval": [
+        35,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "Ultimate Life Flask\n1. 28% of Recovery applied Instantly",
+      "inventory_id": "Flask1",
+      "level_interval": [
+        60,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "inventory_id": "Flask1",
+      "slot_x": 1,
+      "slot_y": 0,
+      "unique_name": "Lavianga's Spirits"
+    },
+    {
+      "inventory_id": "Charm1",
+      "slot_x": 0,
+      "slot_y": 0,
+      "unique_name": "Nascent Hope"
+    },
+    {
+      "inventory_id": "Charm1",
+      "slot_x": 1,
+      "slot_y": 0,
+      "unique_name": "The Fall of the Axe"
+    },
+    {
+      "additional_text": "Dousing Charm\n1. 55% increased Charges gained",
+      "inventory_id": "Charm1",
+      "level_interval": [
+        32,
+        100
+      ],
+      "slot_x": 2,
+      "slot_y": 0
+    }
+  ],
+  "name": "Crit Hybrid - 0.5.5 Fubgun Ice Shot Dead",
+  "passives": [
+    {
+      "id": "projectiles15"
+    },
+    {
+      "id": "projectiles22"
+    },
+    {
+      "id": "projectiles8"
+    },
+    {
+      "id": "projectiles14"
+    },
+    {
+      "id": "ranger_huntress_notable2"
+    },
+    {
+      "id": "dexterity19"
+    },
+    {
+      "id": "dexterity20"
+    },
+    {
+      "id": "attributes29"
+    },
+    {
+      "id": "dexterity34"
+    },
+    {
+      "id": "dexterity6"
+    },
+    {
+      "id": "shadow_monk_notable2"
+    },
+    {
+      "id": "evasion_and_energy_shield27"
+    },
+    {
+      "id": "evasion_and_energy_shield35_"
+    },
+    {
+      "id": "evasion_and_energy_shield26"
+    },
+    {
+      "id": "shadow_monk_notable1"
+    },
+    {
+      "id": "evasion17_"
+    },
+    {
+      "id": "evasion31"
+    },
+    {
+      "id": "jewel_slot1960"
+    },
+    {
+      "id": "dexterity12_"
+    },
+    {
+      "id": "elemental_attacks6"
+    },
+    {
+      "id": "elemental_attacks8"
+    },
+    {
+      "id": "dexterity54"
+    },
+    {
+      "id": "attack6"
+    },
+    {
+      "id": "attack2"
+    },
+    {
+      "id": "dexterity55"
+    },
+    {
+      "id": "dexterity82_"
+    },
+    {
+      "id": "movement_speed5"
+    },
+    {
+      "id": "movement_speed4"
+    },
+    {
+      "id": "movement_speed9"
+    },
+    {
+      "id": "dexterity52"
+    },
+    {
+      "id": "dexterity51"
+    },
+    {
+      "id": "attributes10"
+    },
+    {
+      "id": "dexterity50"
+    },
+    {
+      "id": "jewel_slot1976"
+    },
+    {
+      "id": "evasion_and_energy_shield17"
+    },
+    {
+      "id": "evasion_and_energy_shield15"
+    },
+    {
+      "id": "attributes28"
+    },
+    {
+      "id": "intelligence7"
+    },
+    {
+      "id": "jewel_slot1961"
+    },
+    {
+      "id": "azmerianimals38"
+    },
+    {
+      "id": "azmerianimals40"
+    },
+    {
+      "id": "azmerianimals41"
+    },
+    {
+      "id": "azmerianimals42"
+    },
+    {
+      "id": "criticals11"
+    },
+    {
+      "id": "criticals3"
+    },
+    {
+      "id": "criticals12"
+    },
+    {
+      "id": "intelligence10"
+    },
+    {
+      "id": "intelligence66"
+    },
+    {
+      "id": "criticals10"
+    },
+    {
+      "id": "criticals17"
+    },
+    {
+      "id": "criticals28"
+    },
+    {
+      "id": "criticals45"
+    },
+    {
+      "id": "criticals29"
+    },
+    {
+      "id": "criticals52"
+    },
+    {
+      "id": "criticals54_"
+    },
+    {
+      "id": "criticals57_"
+    },
+    {
+      "id": "criticals55_"
+    },
+    {
+      "id": "criticals59"
+    },
+    {
+      "id": "criticals53"
+    },
+    {
+      "id": "attributes27"
+    },
+    {
+      "id": "daze_3"
+    },
+    {
+      "id": "daze_7"
+    },
+    {
+      "id": "daze_19"
+    },
+    {
+      "id": "daze_4"
+    },
+    {
+      "id": "daze_2"
+    },
+    {
+      "id": "bow5"
+    },
+    {
+      "id": "exploiting_elemental_ailments8"
+    },
+    {
+      "id": "exploiting_elemental_ailments10"
+    },
+    {
+      "id": "exploiting_elemental_ailments9_"
+    },
+    {
+      "id": "dexterity5"
+    },
+    {
+      "id": "dexterity10"
+    },
+    {
+      "id": "dexterity36"
+    },
+    {
+      "id": "dexterity38"
+    },
+    {
+      "id": "dexterity39"
+    },
+    {
+      "id": "dexterity11"
+    },
+    {
+      "id": "dexterity40"
+    },
+    {
+      "id": "evasion_and_energy_shield24"
+    },
+    {
+      "id": "evasion_and_energy_shield23"
+    },
+    {
+      "id": "evasion_and_energy_shield25"
+    },
+    {
+      "id": "attack13_"
+    },
+    {
+      "id": "attack14"
+    },
+    {
+      "id": "attack51"
+    },
+    {
+      "id": "attack50"
+    },
+    {
+      "id": "attack46"
+    },
+    {
+      "id": "criticals56"
+    },
+    {
+      "id": "intelligence25"
+    },
+    {
+      "id": "dexterity9"
+    },
+    {
+      "id": "evasion_and_energy_shield5"
+    },
+    {
+      "id": "evasion_and_energy_shield8"
+    },
+    {
+      "id": "evasion_and_energy_shield22"
+    },
+    {
+      "id": "evasion_and_energy_shield11"
+    },
+    {
+      "id": "cold28"
+    },
+    {
+      "id": "cold39__"
+    },
+    {
+      "id": "attack5",
+      "weapon_set": 1
+    },
+    {
+      "id": "heralds12_",
+      "weapon_set": 1
+    },
+    {
+      "id": "heralds10",
+      "weapon_set": 1
+    },
+    {
+      "id": "heralds16_",
+      "weapon_set": 1
+    },
+    {
+      "id": "criticals43_",
+      "weapon_set": 1
+    },
+    {
+      "id": "criticals41",
+      "weapon_set": 1
+    },
+    {
+      "id": "criticals38_",
+      "weapon_set": 1
+    },
+    {
+      "id": "criticals13",
+      "weapon_set": 1
+    },
+    {
+      "id": "criticals18",
+      "weapon_set": 1
+    },
+    {
+      "id": "criticals50",
+      "weapon_set": 1
+    },
+    {
+      "id": "attack22",
+      "weapon_set": 1
+    },
+    {
+      "id": "attack24",
+      "weapon_set": 1
+    },
+    {
+      "id": "attack27",
+      "weapon_set": 1
+    },
+    {
+      "id": "elemental27",
+      "weapon_set": 1
+    },
+    {
+      "id": "elemental26",
+      "weapon_set": 1
+    },
+    {
+      "id": "elemental16",
+      "weapon_set": 1
+    },
+    {
+      "id": "elemental32",
+      "weapon_set": 1
+    },
+    {
+      "id": "bow9",
+      "weapon_set": 1
+    },
+    {
+      "id": "bow14",
+      "weapon_set": 1
+    },
+    {
+      "id": "cold_penetration6",
+      "weapon_set": 1
+    },
+    {
+      "id": "cold_penetration1",
+      "weapon_set": 1
+    },
+    {
+      "id": "cold_penetration7",
+      "weapon_set": 1
+    },
+    {
+      "id": "cold_penetration24",
+      "weapon_set": 1
+    },
+    {
+      "id": "attack16",
+      "weapon_set": 1
+    },
+    {
+      "id": "dexterity81",
+      "weapon_set": 2
+    },
+    {
+      "id": "attributes9",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks16",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks5_",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks15",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks12",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks8",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks13",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks17",
+      "weapon_set": 2
+    },
+    {
+      "id": "shock3",
+      "weapon_set": 2
+    },
+    {
+      "id": "shock4",
+      "weapon_set": 2
+    },
+    {
+      "id": "shock15",
+      "weapon_set": 2
+    },
+    {
+      "id": "shock6",
+      "weapon_set": 2
+    },
+    {
+      "id": "dexterity85_",
+      "weapon_set": 2
+    },
+    {
+      "id": "dexterity57",
+      "weapon_set": 2
+    },
+    {
+      "id": "attributes74",
+      "weapon_set": 2
+    },
+    {
+      "id": "dexterity58",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks32",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks29",
+      "weapon_set": 2
+    },
+    {
+      "id": "marks30",
+      "weapon_set": 2
+    },
+    {
+      "id": "azmerianimals47",
+      "weapon_set": 2
+    },
+    {
+      "id": "azmerianimals43",
+      "weapon_set": 2
+    },
+    {
+      "id": "azmerianimals44",
+      "weapon_set": 2
+    },
+    {
+      "id": "azmerianimals48",
+      "weapon_set": 2
+    },
+    {
+      "id": "AscendancyRanger1Start"
+    },
+    {
+      "id": "AscendancyRanger1Small2"
+    },
+    {
+      "id": "AscendancyRanger1Notable2_Choice"
+    },
+    {
+      "id": "AscendancyRanger1Small1__"
+    },
+    {
+      "id": "AscendancyRanger1Notable1"
+    },
+    {
+      "id": "AscendancyRanger1Notable2_2"
+    },
+    {
+      "id": "AscendancyRanger1Small3"
+    },
+    {
+      "id": "AscendancyRanger1Notable3"
+    },
+    {
+      "id": "AscendancyRanger1Small8"
+    },
+    {
+      "id": "AscendancyRanger1Notable4"
+    },
+    {
+      "id": "dexterity85_"
+    },
+    {
+      "id": "dexterity57"
+    },
+    {
+      "id": "attributes74"
+    },
+    {
+      "id": "dexterity15"
+    },
+    {
+      "id": "dexterity14"
+    },
+    {
+      "id": "dexterity87"
+    },
+    {
+      "id": "dexterity8"
+    },
+    {
+      "id": "dexterity3"
+    },
+    {
+      "id": "dexterity16"
+    },
+    {
+      "id": "dexterity18"
+    },
+    {
+      "id": "intelligence10"
+    },
+    {
+      "id": "attributes11"
+    },
+    {
+      "id": "dexterity48"
+    },
+    {
+      "id": "dexterity5"
+    },
+    {
+      "id": "dexterity10"
+    },
+    {
+      "id": "dexterity36"
+    },
+    {
+      "id": "dexterity38"
+    },
+    {
+      "id": "dexterity39"
+    },
+    {
+      "id": "dexterity11"
+    },
+    {
+      "id": "dexterity40"
+    }
+  ],
+  "skills": [
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemGlaciation",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "level_interval": [
+        6,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemBlindside",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "level_interval": [
+        41,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "level_interval": [
+        22,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "level_interval": [
+        14,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemGhostDance",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemBludgeon",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMaim",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "level_interval": [
+        26,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "level_interval": [
+            31,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+      "level_interval": [
+        1,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "level_interval": [
+            31,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "level_interval": [
+            1,
+            100
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "【说明】本文件是 Fubgun 官方导出原始文件（作者字段：Fubgun）。中文攻略与加点顺序见 https://HarryGhost.github.io/poe2-guide/ 的「天赋」「技能」页。"
+}
