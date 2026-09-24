@@ -1,0 +1,632 @@
+{
+  "name": "锐眼冰射 · 唯一一套（1–70 级 · 93 点）",
+  "author": "网瘾老年人lowK（原作）· 参考国际服 0.5.5 Ice Shot Deadeye 指南 · WeGame 角色数据推导",
+  "link": "https://www.wegame.com.cn/helper/poe2/#/share/aeMJfH4M15AK8bn69wwXhF45DbOLmGhBsdKHJ7HBPbIc7nQUOVJEdNMlWFOSGnb-",
+  "ascendancy": "Ranger1",
+  "description": "【锐眼冰射 · 唯一一套 BD · 93 个天赋点】\n\n■ 这份就是全部，不用再选\n  · 1–30 级：闪电箭矢 + 引雷针（冰霜射击 31 级才解锁）\n  · 31 级：换成冰霜射击 + 寒冰之捷 —— 之后就定型\n  · 31 级以后只换装备，天赋不再变\n\n■ 天赋怎么点\n  每个节点都标了【第 1/2/3 优先】：先点第 1 优先（离起点最近）的，再往后点。\n  带 ★ 的是大点，优先点。共 93 点，全部取自作者本人真实角色数据。\n  已验证：93 个节点只用已选节点即可从游侠职业起点全部连通。\n\n■ 升华顺序（4 个点）\n  零点射击 → 无限弹药 → 蜃影神射 → 疾风\n\n■ 装备只看一件事\n  弓和箭袋堆「附加点伤」（物理或闪电都行，哪个高用哪个）；\n  鞋子要有移速；弓的四个节点：11 守望者弓 → 16 反曲弓 → 33 双弦弓 → 45 炮击弓。\n\n■ 导入\n  放进 Documents\\My Games\\Path of Exile 2\\BuildPlanner\\（有 OneDrive 优先放 OneDrive 那份），\n  文件夹自己建；游戏里按 P → 右上角 Build Planner 下拉框 → 选中它。\n",
+  "passives": [
+    {
+      "id": "criticals58",
+      "additional_text": "【第 2 优先】 Critical Damage"
+    },
+    {
+      "id": "evasion_and_energy_shield22",
+      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+    },
+    {
+      "id": "bow23",
+      "additional_text": "【第 2 优先】★大点 Quick Fingers"
+    },
+    {
+      "id": "criticals87",
+      "additional_text": "【第 3 优先】 Critical Damage"
+    },
+    {
+      "id": "cold32",
+      "additional_text": "【第 3 优先】★大点 Thin Ice"
+    },
+    {
+      "id": "bow20",
+      "additional_text": "【第 2 优先】 Surpassing Arrow Chance"
+    },
+    {
+      "id": "evasion_and_energy_shield11",
+      "additional_text": "【第 3 优先】★大点 Spectral Ward"
+    },
+    {
+      "id": "dexterity7",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "dexterity51",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "criticals45",
+      "additional_text": "【第 3 优先】 Critical Damage"
+    },
+    {
+      "id": "daze_4",
+      "additional_text": "【第 2 优先】 Damage vs Dazed Enemies"
+    },
+    {
+      "id": "intelligence25",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "elemental_attacks6",
+      "additional_text": "【第 2 优先】 Elemental Attack Damage"
+    },
+    {
+      "id": "projectiles13",
+      "additional_text": "【第 3 优先】 Projectile Damage"
+    },
+    {
+      "id": "dexterity12_",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "evasion21",
+      "additional_text": "【第 2 优先】 Evasion"
+    },
+    {
+      "id": "evasion_and_energy_shield8",
+      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+    },
+    {
+      "id": "attributes10",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "attack24",
+      "additional_text": "【第 3 优先】 Attack Damage"
+    },
+    {
+      "id": "deflect52_",
+      "additional_text": "【第 2 优先】 Deflection"
+    },
+    {
+      "id": "dexterity34",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "criticals10",
+      "additional_text": "【第 3 优先】 Critical Damage"
+    },
+    {
+      "id": "deflect51",
+      "additional_text": "【第 2 优先】 Deflection"
+    },
+    {
+      "id": "bow19",
+      "additional_text": "【第 2 优先】 Surpassing Arrow Chance"
+    },
+    {
+      "id": "bow21",
+      "additional_text": "【第 2 优先】 Surpassing Arrow Chance"
+    },
+    {
+      "id": "jewel_slot1960",
+      "additional_text": "【第 1 优先】 Jewel Socket"
+    },
+    {
+      "id": "intelligence66",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "evasion33",
+      "additional_text": "【第 2 优先】★大点 Beastial Skin"
+    },
+    {
+      "id": "movement_speed9",
+      "additional_text": "【第 2 优先】★大点 Acceleration"
+    },
+    {
+      "id": "projectiles15",
+      "additional_text": "【第 1 优先】 Projectile Damage"
+    },
+    {
+      "id": "dexterity15",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "evasion_and_energy_shield32",
+      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+    },
+    {
+      "id": "attributes11",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "dexterity19",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "deflect53",
+      "additional_text": "【第 2 优先】★大点 Staunch Deflection"
+    },
+    {
+      "id": "criticals52",
+      "additional_text": "【第 2 优先】 Critical Damage"
+    },
+    {
+      "id": "movement_speed4",
+      "additional_text": "【第 2 优先】 Skill Speed"
+    },
+    {
+      "id": "attributes12",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "intelligence68",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "dexterity18",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "criticals84",
+      "additional_text": "【第 3 优先】★大点 Careful Assassin"
+    },
+    {
+      "id": "projectiles11",
+      "additional_text": "【第 3 优先】 Projectile Speed"
+    },
+    {
+      "id": "dexterity44",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "criticals16",
+      "additional_text": "【第 3 优先】 Critical Chance"
+    },
+    {
+      "id": "dexterity50",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "criticals86",
+      "additional_text": "【第 3 优先】 Critical Chance"
+    },
+    {
+      "id": "evasion_and_energy_shield36",
+      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+    },
+    {
+      "id": "jewel_slot1961",
+      "additional_text": "【第 3 优先】 Jewel Socket"
+    },
+    {
+      "id": "attributes25",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "criticals17",
+      "additional_text": "【第 3 优先】 Critical Chance"
+    },
+    {
+      "id": "attributes29",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "intelligence67",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "dexterity20",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "intelligence60",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "dexterity43",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "deflect49",
+      "additional_text": "【第 2 优先】 Deflection"
+    },
+    {
+      "id": "daze_19",
+      "additional_text": "【第 3 优先】★大点 Dizzying Hits"
+    },
+    {
+      "id": "dexterity47",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "criticals28",
+      "additional_text": "【第 3 优先】★大点 True Strike"
+    },
+    {
+      "id": "passive_keystone_resonance",
+      "additional_text": "【第 3 优先】 Resonance"
+    },
+    {
+      "id": "projectiles9_",
+      "additional_text": "【第 3 优先】 Projectile Speed"
+    },
+    {
+      "id": "evasion_and_energy_shield5",
+      "additional_text": "【第 3 优先】 Evasion and Energy Shield"
+    },
+    {
+      "id": "attributes1",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "attributes27",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "movement_speed5",
+      "additional_text": "【第 2 优先】 Skill Speed"
+    },
+    {
+      "id": "cold3",
+      "additional_text": "【第 3 优先】 Cold Damage"
+    },
+    {
+      "id": "daze_3",
+      "additional_text": "【第 2 优先】 Damage and Criticals vs Dazed Enemies"
+    },
+    {
+      "id": "dexterity48",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "evasion28",
+      "additional_text": "【第 2 优先】 Evasion"
+    },
+    {
+      "id": "intelligence7",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "criticals29",
+      "additional_text": "【第 3 优先】★大点 For the Jugular"
+    },
+    {
+      "id": "daze_2",
+      "additional_text": "【第 3 优先】★大点 Stupefy"
+    },
+    {
+      "id": "dexterity54",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "elemental_attacks8",
+      "additional_text": "【第 2 优先】★大点 Catalysis"
+    },
+    {
+      "id": "criticals90",
+      "additional_text": "【第 3 优先】★大点 Throatseeker"
+    },
+    {
+      "id": "evasion_and_energy_shield31",
+      "additional_text": "【第 3 优先】★大点 First Principle of the Hollow"
+    },
+    {
+      "id": "daze_7",
+      "additional_text": "【第 2 优先】 Criticals vs Dazed Enemies"
+    },
+    {
+      "id": "criticals83",
+      "additional_text": "【第 3 优先】 Critical Chance"
+    },
+    {
+      "id": "dexterity46",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "intelligence69",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "dexterity9",
+      "additional_text": "【第 3 优先】 Attribute"
+    },
+    {
+      "id": "dexterity55",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "dexterity82_",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "jewel_slot1979",
+      "additional_text": "【第 3 优先】 Jewel Socket"
+    },
+    {
+      "id": "dexterity16",
+      "additional_text": "【第 1 优先】 Attribute"
+    },
+    {
+      "id": "jewel_slot1976",
+      "additional_text": "【第 2 优先】 Jewel Socket"
+    },
+    {
+      "id": "evasion24_",
+      "additional_text": "【第 2 优先】 Evasion"
+    },
+    {
+      "id": "criticals89",
+      "additional_text": "【第 3 优先】 Critical Damage"
+    },
+    {
+      "id": "evasion_and_energy_shield33",
+      "additional_text": "【第 3 优先】 Deflection and Energy Shield Delay"
+    },
+    {
+      "id": "dexterity52",
+      "additional_text": "【第 2 优先】 Attribute"
+    },
+    {
+      "id": "ranged30_",
+      "additional_text": "【第 3 优先】★大点 Kite Runner"
+    },
+    {
+      "id": "attack22",
+      "additional_text": "【第 3 优先】 Attack Damage"
+    },
+    {
+      "id": "dexterity17",
+      "additional_text": "【第 1 优先】 Attribute"
+    }
+  ],
+  "skills": [
+    {
+      "id": "Metadata/Items/Gems/SkillGemLightningArrow",
+      "additional_text": "闪电箭矢 | 1-30 级清图主力。打 BOSS 时可把元素军械换成连锁",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemLightningRod",
+      "additional_text": "引雷针 | 1-30 级打 BOSS。只对不乱跑的 BOSS 有效",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemFrostBomb",
+      "additional_text": "寒霜爆 | 前期辅助清图"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfThunder",
+      "additional_text": "闪电之捷 | 1-30 级清怪光环（31 级后换成寒冰之捷）"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "additional_text": "冰冻印记 | 7 级宝石，只要 24 智慧。有它冻 BOSS 只要 70% 进度",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "additional_text": "冰霜射击 | 31 级解锁（冰系 Tier 9 宝石）。第一个 4 孔给它",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingSalvo",
+      "additional_text": "冻结齐射 | 冻 BOSS 用",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdExposure"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "additional_text": "狙击 | 冻住后：先弹幕、再狙击（狙击会炸开就是完美时机）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "additional_text": "弹幕 | 消耗狂怒球的爆发",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusion"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "additional_text": "战斗狂怒 | 拿狂怒球供弹幕（注意：不能点共鸣，否则会变暴击球）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "additional_text": "寒冰之捷 | 31 级后清怪光环（30 精魂）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmament"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "additional_text": "龙卷射击 | 打 BOSS 挂致盲",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "additional_text": "幻影射手 | 勾 1 号武器（60 精魂）；致盲可联动盲点",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemSecondWind"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlind"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWarBanner",
+      "additional_text": "战旗 | 打 BOSS 时替换寒冰之捷；勾副手省 30 精魂",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistence"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "additional_text": "风舞者 | 保命（30 精魂）",
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffect"
+        }
+      ]
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemEscapeShot",
+      "additional_text": "逃脱射击 | 位移"
+    }
+  ],
+  "inventory_slots": [
+    {
+      "inventory_id": "Weapon1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【弓】11 级守望者弓（别投通货）→ 16 级反曲弓（重点打造）→ 33 级双弦弓 → 45 级炮击弓"
+    },
+    {
+      "inventory_id": "Offhand1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【箭袋】最好的非武器位：找 +技能等级 和 高点伤，基底本身不重要"
+    },
+    {
+      "inventory_id": "Gloves1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【手套】每个等级都去杂货商看一次点伤手套，1-2 章每点都算数"
+    },
+    {
+      "inventory_id": "Boots1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【鞋】移速 或 不穿。一旦有移速鞋，永远别换成没移速的"
+    },
+    {
+      "inventory_id": "BodyArmour1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【衣服】闪避 或 闪避+护盾基底；前期穿属性最高的那件"
+    },
+    {
+      "inventory_id": "Helm1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【头】属性位：敏捷或智力（31 级换技能时属性会咬人，在这里补）"
+    },
+    {
+      "inventory_id": "Belt1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【腰带】属性位：力量"
+    },
+    {
+      "inventory_id": "Amulet1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【项链】随便，开荒阶段搞不到好的"
+    },
+    {
+      "inventory_id": "Ring1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【戒指】点伤 > 属性 / 抗性 / 生命"
+    },
+    {
+      "inventory_id": "Ring2",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【戒指2】同上"
+    },
+    {
+      "inventory_id": "Flask1",
+      "level_interval": [
+        1,
+        100
+      ],
+      "additional_text": "【药水/护符】生命药水；后期解冻 / 猛攻 / 免疫点燃"
+    }
+  ]
+}
