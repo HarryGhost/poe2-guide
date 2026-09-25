@@ -1,0 +1,554 @@
+{
+  "edition": "第二章新手作业样页 R1",
+  "date": "2026-09-25",
+  "skills": [
+    {
+      "id": "la",
+      "zh": "闪电箭矢",
+      "en": "Lightning Arrow",
+      "url": "https://poe2db.tw/cn/Lightning_Arrow",
+      "supports": [
+        {
+          "key": "ra1",
+          "zh": "快速攻击 I",
+          "en": "Rapid Attacks I",
+          "url": "https://poe2db.tw/cn/Rapid_Attacks_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        },
+        {
+          "key": "ea1",
+          "zh": "元素军械 I",
+          "en": "Elemental Armament I",
+          "url": "https://poe2db.tw/cn/Elemental_Armament_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        }
+      ],
+      "role": "清怪主攻",
+      "key": "鼠标右键",
+      "note": "向怪物射击。这个阶段它仍是清怪主力；不要因为人物31级就卸掉。要建立冰冻印记增益，先用冰尖箭矢，再给目标挂印记。",
+      "optional": false
+    },
+    {
+      "id": "snipe",
+      "zh": "狙击",
+      "en": "Snipe",
+      "url": "https://poe2db.tw/cn/Snipe",
+      "supports": [
+        {
+          "key": "con",
+          "zh": "范围集中",
+          "en": "Concentrated Area",
+          "url": "https://poe2db.tw/cn/Concentrated_Area",
+          "note": "与异界原导出SupportGemConcentratedEffect所对应的范围集中是同一辅助；显示英文现名可能与内部旧名不同。",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        },
+        {
+          "key": "win1",
+          "zh": "大好时机 I",
+          "en": "Window of Opportunity I",
+          "url": "https://poe2db.tw/cn/Window_of_Opportunity_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        },
+        {
+          "key": "ea2",
+          "zh": "元素军械 II",
+          "en": "Elemental Armament II",
+          "url": "https://poe2db.tw/cn/Elemental_Armament_II",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        }
+      ],
+      "role": "冻结后爆发",
+      "key": "T",
+      "note": "按住技能键蓄力，按技能的完美时机提示松开。先确认目标真的冻结；蓄得更久不等于更好。这里给的是作者三辅助连接，不是自动连招。",
+      "optional": false
+    },
+    {
+      "id": "mark",
+      "zh": "冰冻印记",
+      "en": "Freezing Mark",
+      "url": "https://poe2db.tw/cn/Freezing_Mark",
+      "supports": [
+        {
+          "key": "dur1",
+          "zh": "持续时间延长 I",
+          "en": "Prolonged Duration I",
+          "url": "https://poe2db.tw/cn/Prolonged_Duration_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        }
+      ],
+      "role": "帮助冻结",
+      "key": "W",
+      "note": "先对敌人施加印记，再建立冻结。印记是一种目标状态，不是需要一直按住的攻击，也不是套上就已经冻结。",
+      "optional": false
+    },
+    {
+      "id": "ht",
+      "zh": "闪电之捷",
+      "en": "Herald of Thunder",
+      "url": "https://poe2db.tw/cn/Herald_of_Thunder",
+      "supports": [
+        {
+          "key": "con",
+          "zh": "范围集中",
+          "en": "Concentrated Area",
+          "url": "https://poe2db.tw/cn/Concentrated_Area",
+          "note": "与异界原导出SupportGemConcentratedEffect所对应的范围集中是同一辅助；显示英文现名可能与内部旧名不同。",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        },
+        {
+          "key": "ea1",
+          "zh": "元素军械 I",
+          "en": "Elemental Armament I",
+          "url": "https://poe2db.tw/cn/Elemental_Armament_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        }
+      ],
+      "role": "常驻增益",
+      "key": "常驻",
+      "note": "拿到并启用后持续占用精魂；不需要每遇到一群怪重新按一次。换装备或辅助后，确认它仍然启用。",
+      "optional": false
+    },
+    {
+      "id": "bar",
+      "zh": "弹幕",
+      "en": "Barrage",
+      "url": "https://poe2db.tw/cn/Barrage",
+      "supports": [],
+      "role": "强化下一次攻击",
+      "key": "R",
+      "note": "准备爆发时使用，然后紧接狙击。中间不要补一发闪电箭矢，以免把强化用错技能。",
+      "optional": false
+    },
+    {
+      "id": "ita",
+      "zh": "冰尖箭矢",
+      "en": "Ice-Tipped Arrows",
+      "url": "https://poe2db.tw/cn/Ice-Tipped_Arrows",
+      "supports": [
+        {
+          "key": "mag1",
+          "zh": "范围扩大 I",
+          "en": "Magnified Area I",
+          "url": "https://poe2db.tw/cn/Magnified_Area_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        },
+        {
+          "key": "ea1",
+          "zh": "元素军械 I",
+          "en": "Elemental Armament I",
+          "url": "https://poe2db.tw/cn/Elemental_Armament_I",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        }
+      ],
+      "role": "准备冰箭",
+      "key": "Q",
+      "note": "在开始建立冻结前使用，为接下来的箭矢安排冰霜配套；不是可以替换成冰霜射击的同名技能。",
+      "optional": false
+    },
+    {
+      "id": "salvo",
+      "zh": "冻结齐射",
+      "en": "Freezing Salvo",
+      "url": "https://poe2db.tw/cn/Freezing_Salvo",
+      "supports": [
+        {
+          "key": "freeze",
+          "zh": "冻结",
+          "en": "Freeze",
+          "url": "https://poe2db.tw/cn/Freeze",
+          "note": "",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        },
+        {
+          "key": "con",
+          "zh": "范围集中",
+          "en": "Concentrated Area",
+          "url": "https://poe2db.tw/cn/Concentrated_Area",
+          "note": "与异界原导出SupportGemConcentratedEffect所对应的范围集中是同一辅助；显示英文现名可能与内部旧名不同。",
+          "status": "简体资料对照；国服客户端未逐项核验"
+        }
+      ],
+      "role": "补足冻结",
+      "key": "E",
+      "note": "对目标释放并观察是否冻结。没冻住先继续建立冻结，不要跳到弹幕＋狙击。",
+      "optional": false
+    },
+    {
+      "id": "fb",
+      "zh": "寒霜爆",
+      "en": "Frost Bomb",
+      "url": "https://poe2db.tw/cn/Frost_Bomb",
+      "supports": [],
+      "role": "可选冰霜工具",
+      "key": "鼠标中键",
+      "note": "作者允许在转狙击、按键负担较大时省掉它。移除会失去它的伤害与冰霜相关辅助作用，不能称为同伤害。保留时要注意技能对目标等级的限制。",
+      "optional": true
+    }
+  ],
+  "profile": {
+    "id": "act2-31",
+    "label": "第二章31级 · 未取得9级宝石",
+    "scope": "level",
+    "choice": 3,
+    "level": 31,
+    "notes": [
+      "继续使用剧情03的闪电＋冻结狙击配置，不因人物到31级自动换冰射。",
+      "本参考全部主动/常驻宝石按7级计算，包括可选寒霜爆；武器与防具选下表能在31级佩戴的明确底材。",
+      "这些数值包含整套装备需求。不同底材、额外技能或更高宝石会改变结果；不要为了凑表换掉更好的现用装备。"
+    ],
+    "rows": [
+      {
+        "label": "反曲弓",
+        "category": "装备 · 弓",
+        "str": 0,
+        "dex": 31,
+        "int": 0,
+        "level": 16,
+        "url": "https://poe2db.tw/cn/Bows",
+        "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+      },
+      {
+        "label": "嵌饰背心",
+        "category": "装备 · 衣服",
+        "str": 0,
+        "dex": 43,
+        "int": 0,
+        "level": 26,
+        "url": "https://poe2db.tw/cn/Body_Armours",
+        "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+      },
+      {
+        "label": "缠丝帽",
+        "category": "装备 · 头盔",
+        "str": 0,
+        "dex": 38,
+        "int": 0,
+        "level": 26,
+        "url": "https://poe2db.tw/cn/Helmets",
+        "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+      },
+      {
+        "label": "截片护腕",
+        "category": "装备 · 手套",
+        "str": 0,
+        "dex": 36,
+        "int": 0,
+        "level": 28,
+        "url": "https://poe2db.tw/cn/Gloves",
+        "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+      },
+      {
+        "label": "钢趾靴",
+        "category": "装备 · 鞋",
+        "str": 0,
+        "dex": 39,
+        "int": 0,
+        "level": 28,
+        "url": "https://poe2db.tw/cn/Boots",
+        "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+      },
+      {
+        "label": "箭袋：不另带三维需求的普通底材黄装",
+        "category": "装备 · 箭袋",
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "level": null,
+        "url": "https://poe2db.tw/cn/Quivers",
+        "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+      },
+      {
+        "label": "项链：不另带三维需求的普通底材黄装",
+        "category": "装备 · 项链",
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "level": null,
+        "url": "https://poe2db.tw/cn/Amulets",
+        "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+      },
+      {
+        "label": "腰带：不另带三维需求的普通底材黄装",
+        "category": "装备 · 腰带",
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "level": null,
+        "url": "https://poe2db.tw/cn/Belts",
+        "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+      },
+      {
+        "label": "戒指Ⅰ：不另带三维需求的普通底材黄装",
+        "category": "装备 · 戒指Ⅰ",
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "level": null,
+        "url": "https://poe2db.tw/cn/Rings",
+        "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+      },
+      {
+        "label": "戒指Ⅱ：不另带三维需求的普通底材黄装",
+        "category": "装备 · 戒指Ⅱ",
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "level": null,
+        "url": "https://poe2db.tw/cn/Rings",
+        "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+      },
+      {
+        "label": "生命药剂、魔力药剂与当前可用咒符",
+        "category": "药剂 / 咒符",
+        "str": 0,
+        "dex": 0,
+        "int": 0,
+        "level": null,
+        "url": "https://poe2db.tw/cn/Flasks",
+        "note": "选人物等级允许的常规版本，不额外施加三维需求；咒符槽数按已完成任务。"
+      },
+      {
+        "label": "闪电箭矢 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 41,
+        "int": 0,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Lightning_Arrow",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "狙击 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 41,
+        "int": 0,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Snipe",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "冰冻印记 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 24,
+        "int": 24,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Freezing_Mark",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "闪电之捷 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 41,
+        "int": 0,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Herald_of_Thunder",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "弹幕 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 41,
+        "int": 0,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Barrage",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "冰尖箭矢 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 41,
+        "int": 0,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Ice-Tipped_Arrows",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "冻结齐射 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 41,
+        "int": 0,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Freezing_Salvo",
+        "note": "本参考指定的宝石基础等级。"
+      },
+      {
+        "label": "寒霜爆 · 宝石7级",
+        "category": "主动 / 常驻",
+        "str": 0,
+        "dex": 0,
+        "int": 41,
+        "level": 7,
+        "url": "https://poe2db.tw/cn/Frost_Bomb",
+        "note": "本参考指定的宝石基础等级。可选工具在本计算中也计入，未暗中剔除。"
+      },
+      {
+        "label": "本阶段整套辅助宝石累计需求",
+        "category": "辅助累计",
+        "str": 25,
+        "dex": 10,
+        "int": 25,
+        "level": null,
+        "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?weaponSet=set2&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C2",
+        "note": "来自作者对应分支；只作为整套总需求的一项，绝不是整套结论。"
+      }
+    ],
+    "totals": {
+      "str": 25,
+      "dex": 43,
+      "int": 41
+    },
+    "kind": "本站明确指定配置后的计算，不是作者角色面板或你的装备实测"
+  },
+  "stage": {
+    "number": 3,
+    "range": [
+      24,
+      30
+    ],
+    "label": "24–30级",
+    "title": "建立冻结＋狙击",
+    "intro": "作者在24级做小转型：加入狙击、冰冻印记、冻结齐射。清图暂时仍用闪电箭矢。",
+    "source": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?weaponSet=set2&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C2",
+    "sourceId": "L3",
+    "provenance": "author_page_verified",
+    "sourceNote": "按作者当前页面所选等级分支记录；不是已取得原始.build。",
+    "skills": [
+      {
+        "skill": "la",
+        "supports": [
+          "ra1",
+          "ea1"
+        ],
+        "weaponSet": null,
+        "note": "暂留到31级换冰射；不要把所有储备耗在继续抬高闪电箭矢。",
+        "optional": false
+      },
+      {
+        "skill": "snipe",
+        "supports": [
+          "con",
+          "win1",
+          "ea2"
+        ],
+        "weaponSet": null,
+        "note": "首领冻结后完美释放。24级是作者转型节点，不是狙击解锁等级。",
+        "optional": false
+      },
+      {
+        "skill": "mark",
+        "supports": [
+          "dur1"
+        ],
+        "weaponSet": null,
+        "note": "7级未切割技能宝石优先用于它。",
+        "optional": false
+      },
+      {
+        "skill": "ht",
+        "supports": [
+          "con",
+          "ea1"
+        ],
+        "weaponSet": null,
+        "note": "到31级再替换为寒冰之捷。",
+        "optional": false
+      },
+      {
+        "skill": "bar",
+        "supports": [],
+        "weaponSet": null,
+        "note": "准备好冻结后再开；紧接狙击，别夹其他攻击。",
+        "optional": false
+      },
+      {
+        "skill": "ita",
+        "supports": [
+          "mag1",
+          "ea1"
+        ],
+        "weaponSet": null,
+        "note": "",
+        "optional": false
+      },
+      {
+        "skill": "salvo",
+        "supports": [
+          "freeze",
+          "con"
+        ],
+        "weaponSet": null,
+        "note": "这一阶段建立冻结的关键工具。",
+        "optional": false
+      },
+      {
+        "skill": "fb",
+        "supports": [],
+        "weaponSet": null,
+        "note": "原页面仍列出；属性、等级和按钮负担不合适可省。",
+        "optional": true
+      }
+    ],
+    "tasks": [
+      "准备至少3颗技能宝石：1颗7级、2颗5/6级；另留4–5颗辅助用于新连接。",
+      "7级技能宝石优先冰冻印记，多的再给狙击；先确认技能可用再移除旧单体工具。",
+      "练会先冻结→弹幕→完美狙击；闪电箭矢继续清怪到31级。"
+    ],
+    "combat": [
+      [
+        "预备",
+        "先冰尖箭矢，再冰冻印记。"
+      ],
+      [
+        "冻结",
+        "闪电箭矢配合冻结齐射，观察目标确实冻结。"
+      ],
+      [
+        "爆发",
+        "弹幕后直接蓄力狙击，在完美窗口释放；别夹其他符合条件的攻击。"
+      ],
+      [
+        "节奏",
+        "回到清怪技能，重新建立冻结。一直错过窗口，可先练基础狙击；改辅助属于个人过渡，不冒充原表。"
+      ]
+    ],
+    "gear": [
+      [
+        "弓",
+        "现用反曲弓可继续使用，先看伤害是否满足冻结与狙击。",
+        "不要为24级技能转型误以为必须同时重做所有装备。"
+      ],
+      [
+        "宝石/属性",
+        "新连接先检查力量、智慧与当前魔力消耗。",
+        "缺属性用合适装备/通路属性解决；网页辅助需求不是整角色综合需求。"
+      ],
+      [
+        "下一把弓",
+        "准备物品等级33的双弦弓或教徒弓，优先有效点伤/物理提高。",
+        "这里33是作者打造目标物品等级，不是声称底材必须33级才出现。"
+      ]
+    ],
+    "mana": "蓝量不够先检查实际消耗与药剂；不能把元素伤害当物理偷取。不要为降低消耗无条件停升主要输出宝石。",
+    "tree": "本地没有这一等级分支的完整节点/连线。打开对应作者原树核对；通路属性按当下需求选，不把原站123/20等总框架数字当本级可用点数。",
+    "reserve": [
+      "ht"
+    ]
+  },
+  "scope": "仅第二章未转冰射阶段完成新排版；其他全部阶段仍链接随包保留的v4，未声称全站重做。",
+  "defaultOmitFrostBomb": true,
+  "authorKeybindsVerified": false
+}

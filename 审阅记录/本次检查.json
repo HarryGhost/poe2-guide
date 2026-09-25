@@ -1,0 +1,380 @@
+{
+  "scope": "C配色与既有内容保留检查；非游戏机制或国服实测验收",
+  "browserMethod": "Chromium set_content内存渲染交付HTML；浏览器策略阻止file和HTTP导航，因此未做真实file://跳转或线上部署测试。存储为测试夹具，跨文件路径另做静态存在性检查。",
+  "date": "2026-09-25",
+  "checks": [
+    {
+      "name": "数据保留 本页数据.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/_source/data.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/中文提示导出/03_中文提示.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/中文提示导出/06_中文提示.build.txt",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/中文提示导出/05_中文提示.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/中文提示导出/04_中文提示.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/中文提示导出/01_中文提示.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/中文提示导出/02_中文提示.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/_source/data.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/数据/剧情练级结构数据.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/数据/全部分支逐项差异.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/数据/六分支原始及中文映射.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/数据/整套属性参考_明确底材与宝石等级.json",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/Build-Fubgun/01_Early.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/Build-Fubgun/03_noncrit_Hybrid.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/Build-Fubgun/04_Crit_Hybrid.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/Build-Fubgun/06_Live_Gear_冲突勿导入.build.txt",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/Build-Fubgun/05_Uber_Endgame.build",
+      "pass_": true
+    },
+    {
+      "name": "数据保留 既有完整攻略/Build-Fubgun/02_noncrit_Midgame.build",
+      "pass_": true
+    },
+    {
+      "name": "本地链接 index.html",
+      "pass_": true,
+      "broken": []
+    },
+    {
+      "name": "本地链接 既有完整攻略/index.html",
+      "pass_": true,
+      "broken": []
+    },
+    {
+      "name": "本地链接 既有完整攻略/剧情练级速查.html",
+      "pass_": true,
+      "broken": []
+    },
+    {
+      "name": "本地链接 既有完整攻略/六分支完整资料.html",
+      "pass_": true,
+      "broken": []
+    },
+    {
+      "name": "首页配置对象原样保留",
+      "pass_": true
+    },
+    {
+      "name": "已移除配色对比入口",
+      "pass_": true
+    },
+    {
+      "name": "六份异界和六段剧情均保留",
+      "pass_": true
+    },
+    {
+      "name": "资料库嵌入数据原样保留",
+      "pass_": true
+    },
+    {
+      "name": "06保留冲突只读",
+      "pass_": true
+    },
+    {
+      "name": "首页固定C",
+      "pass_": true
+    },
+    {
+      "name": "首页深石板侧栏",
+      "pass_": true
+    },
+    {
+      "name": "完整技能八组保留",
+      "pass_": true
+    },
+    {
+      "name": "初始属性与原页一致",
+      "pass_": true,
+      "actual": {
+        "str": 25,
+        "dex": 43,
+        "int": 25
+      }
+    },
+    {
+      "name": "旧缓存和URL不再切回A或B",
+      "pass_": true
+    },
+    {
+      "name": "寒霜爆切换继续计算属性",
+      "pass_": true,
+      "actual": {
+        "str": 25,
+        "dex": 43,
+        "int": 41
+      }
+    },
+    {
+      "name": "键位在连接和操作中同步",
+      "pass_": true,
+      "actual": [
+        "鼠标4",
+        "鼠标4",
+        "鼠标4"
+      ]
+    },
+    {
+      "name": "完整属性核算可打开",
+      "pass_": true
+    },
+    {
+      "name": "八组技能说明可展开",
+      "pass_": true
+    },
+    {
+      "name": "复制手法有可见响应",
+      "pass_": true
+    },
+    {
+      "name": "资料页C深石板侧栏",
+      "pass_": true
+    },
+    {
+      "name": "资料页C雪白面板",
+      "pass_": true
+    },
+    {
+      "name": "资料页无旧明暗开关",
+      "pass_": true
+    },
+    {
+      "name": "异界01切换到对应BD",
+      "pass_": true
+    },
+    {
+      "name": "异界01技能无丢失",
+      "pass_": true,
+      "count": 10,
+      "expected": 10
+    },
+    {
+      "name": "异界02切换到对应BD",
+      "pass_": true
+    },
+    {
+      "name": "异界02技能无丢失",
+      "pass_": true,
+      "count": 10,
+      "expected": 10
+    },
+    {
+      "name": "异界03切换到对应BD",
+      "pass_": true
+    },
+    {
+      "name": "异界03技能无丢失",
+      "pass_": true,
+      "count": 10,
+      "expected": 10
+    },
+    {
+      "name": "异界04切换到对应BD",
+      "pass_": true
+    },
+    {
+      "name": "异界04技能无丢失",
+      "pass_": true,
+      "count": 10,
+      "expected": 10
+    },
+    {
+      "name": "异界05切换到对应BD",
+      "pass_": true
+    },
+    {
+      "name": "异界05技能无丢失",
+      "pass_": true,
+      "count": 10,
+      "expected": 10
+    },
+    {
+      "name": "异界06切换到对应BD",
+      "pass_": true
+    },
+    {
+      "name": "异界06技能无丢失",
+      "pass_": true,
+      "count": 10,
+      "expected": 10
+    },
+    {
+      "name": "剧情1全部可访问",
+      "pass_": true
+    },
+    {
+      "name": "剧情1有对应技能",
+      "pass_": true
+    },
+    {
+      "name": "剧情2全部可访问",
+      "pass_": true
+    },
+    {
+      "name": "剧情2有对应技能",
+      "pass_": true
+    },
+    {
+      "name": "剧情3全部可访问",
+      "pass_": true
+    },
+    {
+      "name": "剧情3有对应技能",
+      "pass_": true
+    },
+    {
+      "name": "剧情4全部可访问",
+      "pass_": true
+    },
+    {
+      "name": "剧情4有对应技能",
+      "pass_": true
+    },
+    {
+      "name": "剧情5全部可访问",
+      "pass_": true
+    },
+    {
+      "name": "剧情5有对应技能",
+      "pass_": true
+    },
+    {
+      "name": "剧情6全部可访问",
+      "pass_": true
+    },
+    {
+      "name": "剧情6有对应技能",
+      "pass_": true
+    },
+    {
+      "name": "1366px 阶段作业无横向溢出",
+      "pass_": true,
+      "doc": 1366,
+      "screen": 1366
+    },
+    {
+      "name": "1366px 异界技能无横向溢出",
+      "pass_": true,
+      "doc": 1366,
+      "screen": 1366
+    },
+    {
+      "name": "1366px 剧情技能无横向溢出",
+      "pass_": true,
+      "doc": 1366,
+      "screen": 1366
+    },
+    {
+      "name": "1920px 阶段作业无横向溢出",
+      "pass_": true,
+      "doc": 1920,
+      "screen": 1920
+    },
+    {
+      "name": "1920px 异界技能无横向溢出",
+      "pass_": true,
+      "doc": 1920,
+      "screen": 1920
+    },
+    {
+      "name": "1920px 剧情技能无横向溢出",
+      "pass_": true,
+      "doc": 1920,
+      "screen": 1920
+    },
+    {
+      "name": "900px 阶段作业无横向溢出",
+      "pass_": true,
+      "doc": 900,
+      "screen": 900
+    },
+    {
+      "name": "900px 异界技能无横向溢出",
+      "pass_": true,
+      "doc": 900,
+      "screen": 900
+    },
+    {
+      "name": "900px 剧情技能无横向溢出",
+      "pass_": true,
+      "doc": 900,
+      "screen": 900
+    },
+    {
+      "name": "390px 阶段作业无横向溢出",
+      "pass_": true,
+      "doc": 390,
+      "screen": 390
+    },
+    {
+      "name": "390px 异界技能无横向溢出",
+      "pass_": true,
+      "doc": 390,
+      "screen": 390
+    },
+    {
+      "name": "390px 剧情技能无横向溢出",
+      "pass_": true,
+      "doc": 390,
+      "screen": 390
+    },
+    {
+      "name": "无JavaScript运行错误",
+      "pass_": true,
+      "errors": []
+    }
+  ],
+  "passed": 78,
+  "total": 78,
+  "failed": [],
+  "rebuild_idempotent": true,
+  "homepage_style_sync_idempotent": true
+}

@@ -1,0 +1,939 @@
+{
+  "edition": "v4",
+  "defaultScope": "level",
+  "defaultLevelStage": 3,
+  "profiles": [
+    {
+      "id": "act2-31",
+      "label": "第二章31级 · 未取得9级宝石",
+      "scope": "level",
+      "choice": 3,
+      "level": 31,
+      "notes": [
+        "继续使用剧情03的闪电＋冻结狙击配置，不因人物到31级自动换冰射。",
+        "本参考全部主动/常驻宝石按7级计算，包括可选寒霜爆；武器与防具选下表能在31级佩戴的明确底材。",
+        "这些数值包含整套装备需求。不同底材、额外技能或更高宝石会改变结果；不要为了凑表换掉更好的现用装备。"
+      ],
+      "rows": [
+        {
+          "label": "反曲弓",
+          "category": "装备 · 弓",
+          "str": 0,
+          "dex": 31,
+          "int": 0,
+          "level": 16,
+          "url": "https://poe2db.tw/cn/Bows",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "嵌饰背心",
+          "category": "装备 · 衣服",
+          "str": 0,
+          "dex": 43,
+          "int": 0,
+          "level": 26,
+          "url": "https://poe2db.tw/cn/Body_Armours",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "缠丝帽",
+          "category": "装备 · 头盔",
+          "str": 0,
+          "dex": 38,
+          "int": 0,
+          "level": 26,
+          "url": "https://poe2db.tw/cn/Helmets",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "截片护腕",
+          "category": "装备 · 手套",
+          "str": 0,
+          "dex": 36,
+          "int": 0,
+          "level": 28,
+          "url": "https://poe2db.tw/cn/Gloves",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "钢趾靴",
+          "category": "装备 · 鞋",
+          "str": 0,
+          "dex": 39,
+          "int": 0,
+          "level": 28,
+          "url": "https://poe2db.tw/cn/Boots",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "箭袋：不另带三维需求的普通底材黄装",
+          "category": "装备 · 箭袋",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Quivers",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "项链：不另带三维需求的普通底材黄装",
+          "category": "装备 · 项链",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Amulets",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "腰带：不另带三维需求的普通底材黄装",
+          "category": "装备 · 腰带",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Belts",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "戒指Ⅰ：不另带三维需求的普通底材黄装",
+          "category": "装备 · 戒指Ⅰ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "戒指Ⅱ：不另带三维需求的普通底材黄装",
+          "category": "装备 · 戒指Ⅱ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "生命药剂、魔力药剂与当前可用咒符",
+          "category": "药剂 / 咒符",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Flasks",
+          "note": "选人物等级允许的常规版本，不额外施加三维需求；咒符槽数按已完成任务。"
+        },
+        {
+          "label": "闪电箭矢 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 0,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Lightning_Arrow",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "狙击 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 0,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Snipe",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冰冻印记 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 24,
+          "int": 24,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Freezing_Mark",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "闪电之捷 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 0,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Herald_of_Thunder",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "弹幕 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 0,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Barrage",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冰尖箭矢 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 0,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Ice-Tipped_Arrows",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冻结齐射 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 0,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Freezing_Salvo",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "寒霜爆 · 宝石7级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 0,
+          "int": 41,
+          "level": 7,
+          "url": "https://poe2db.tw/cn/Frost_Bomb",
+          "note": "本参考指定的宝石基础等级。可选工具在本计算中也计入，未暗中剔除。"
+        },
+        {
+          "label": "本阶段整套辅助宝石累计需求",
+          "category": "辅助累计",
+          "str": 25,
+          "dex": 10,
+          "int": 25,
+          "level": null,
+          "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?weaponSet=set2&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C2",
+          "note": "来自作者对应分支；只作为整套总需求的一项，绝不是整套结论。"
+        }
+      ],
+      "totals": {
+        "str": 25,
+        "dex": 43,
+        "int": 41
+      },
+      "kind": "本站明确指定配置后的计算，不是作者角色面板或你的装备实测"
+    },
+    {
+      "id": "ice-31",
+      "label": "取得9级宝石后 · 刚转冰射",
+      "scope": "level",
+      "choice": 4,
+      "level": 31,
+      "notes": [
+        "以剧情04连接为准；所有主动/常驻宝石在本参考中按9级计算，包括可选冻结齐射。",
+        "沿用31级参考防具。弓可继续用有效伤害更好的现用品；本计算列出的反曲弓只作为明确底材，不是强制长期武器。",
+        "满足人物等级还不够：先取得9级未切割技能宝石。没有宝石可以自由查看本页，但继续使用上一配置。"
+      ],
+      "rows": [
+        {
+          "label": "反曲弓",
+          "category": "装备 · 弓",
+          "str": 0,
+          "dex": 31,
+          "int": 0,
+          "level": 16,
+          "url": "https://poe2db.tw/cn/Bows",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "嵌饰背心",
+          "category": "装备 · 衣服",
+          "str": 0,
+          "dex": 43,
+          "int": 0,
+          "level": 26,
+          "url": "https://poe2db.tw/cn/Body_Armours",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "缠丝帽",
+          "category": "装备 · 头盔",
+          "str": 0,
+          "dex": 38,
+          "int": 0,
+          "level": 26,
+          "url": "https://poe2db.tw/cn/Helmets",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "截片护腕",
+          "category": "装备 · 手套",
+          "str": 0,
+          "dex": 36,
+          "int": 0,
+          "level": 28,
+          "url": "https://poe2db.tw/cn/Gloves",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "钢趾靴",
+          "category": "装备 · 鞋",
+          "str": 0,
+          "dex": 39,
+          "int": 0,
+          "level": 28,
+          "url": "https://poe2db.tw/cn/Boots",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "箭袋：不另带三维需求的普通底材黄装",
+          "category": "装备 · 箭袋",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Quivers",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "项链：不另带三维需求的普通底材黄装",
+          "category": "装备 · 项链",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Amulets",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "腰带：不另带三维需求的普通底材黄装",
+          "category": "装备 · 腰带",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Belts",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "戒指Ⅰ：不另带三维需求的普通底材黄装",
+          "category": "装备 · 戒指Ⅰ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "戒指Ⅱ：不另带三维需求的普通底材黄装",
+          "category": "装备 · 戒指Ⅱ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "生命药剂、魔力药剂与当前可用咒符",
+          "category": "药剂 / 咒符",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Flasks",
+          "note": "选人物等级允许的常规版本，不额外施加三维需求；咒符槽数按已完成任务。"
+        },
+        {
+          "label": "冰霜射击 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Ice_Shot",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "狙击 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Snipe",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冰冻印记 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 32,
+          "int": 32,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Freezing_Mark",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "寒冰之捷 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Herald_of_Ice",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "弹幕 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Barrage",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冰尖箭矢 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Ice-Tipped_Arrows",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冻结齐射 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Freezing_Salvo",
+          "note": "本参考指定的宝石基础等级。可选工具在本计算中也计入，未暗中剔除。"
+        },
+        {
+          "label": "战斗狂怒 · 宝石9级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 57,
+          "int": 0,
+          "level": 9,
+          "url": "https://poe2db.tw/cn/Combat_Frenzy",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "本阶段整套辅助宝石累计需求",
+          "category": "辅助累计",
+          "str": 25,
+          "dex": 15,
+          "int": 45,
+          "level": null,
+          "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+          "note": "来自作者对应分支；只作为整套总需求的一项，绝不是整套结论。"
+        }
+      ],
+      "totals": {
+        "str": 25,
+        "dex": 57,
+        "int": 45
+      },
+      "kind": "本站明确指定配置后的计算，不是作者角色面板或你的装备实测"
+    },
+    {
+      "id": "ice-42",
+      "label": "42级 · 龙卷与风舞者阶段",
+      "scope": "level",
+      "choice": 5,
+      "level": 42,
+      "notes": [
+        "本参考主动与常驻宝石全部按11级计算，装备采用下表42级可穿底材。",
+        "阶段后半继续升宝石时，应重新计算需求；不能把这一行当42–59级永久不变的三维。"
+      ],
+      "rows": [
+        {
+          "label": "狂热弓",
+          "category": "装备 · 弓",
+          "str": 0,
+          "dex": 70,
+          "int": 0,
+          "level": 39,
+          "url": "https://poe2db.tw/cn/Bows",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "蛇鳞外套",
+          "category": "装备 · 衣服",
+          "str": 0,
+          "dex": 59,
+          "int": 0,
+          "level": 36,
+          "url": "https://poe2db.tw/cn/Body_Armours",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "毒蝰帽",
+          "category": "装备 · 头盔",
+          "str": 0,
+          "dex": 54,
+          "int": 0,
+          "level": 38,
+          "url": "https://poe2db.tw/cn/Helmets",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "精纺护腕",
+          "category": "装备 · 手套",
+          "str": 0,
+          "dex": 42,
+          "int": 0,
+          "level": 33,
+          "url": "https://poe2db.tw/cn/Gloves",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "蜥鳞靴",
+          "category": "装备 · 鞋",
+          "str": 0,
+          "dex": 45,
+          "int": 0,
+          "level": 33,
+          "url": "https://poe2db.tw/cn/Boots",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "箭袋：不另带三维需求的普通底材黄装",
+          "category": "装备 · 箭袋",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Quivers",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "项链：不另带三维需求的普通底材黄装",
+          "category": "装备 · 项链",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Amulets",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "腰带：不另带三维需求的普通底材黄装",
+          "category": "装备 · 腰带",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Belts",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "戒指Ⅰ：不另带三维需求的普通底材黄装",
+          "category": "装备 · 戒指Ⅰ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "戒指Ⅱ：不另带三维需求的普通底材黄装",
+          "category": "装备 · 戒指Ⅱ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "完整套装中的参考选择；要求物品需求栏无额外力量/敏捷/智慧。生命、抗性、点伤与属性词条按正文补。不是省略该部位。"
+        },
+        {
+          "label": "生命药剂、魔力药剂与当前可用咒符",
+          "category": "药剂 / 咒符",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Flasks",
+          "note": "选人物等级允许的常规版本，不额外施加三维需求；咒符槽数按已完成任务。"
+        },
+        {
+          "label": "冰霜射击 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Ice_Shot",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "狙击 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Snipe",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冰冻印记 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 41,
+          "int": 41,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Freezing_Mark",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "寒冰之捷 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Herald_of_Ice",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "弹幕 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Barrage",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "冰尖箭矢 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Ice-Tipped_Arrows",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "战斗狂怒 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Combat_Frenzy",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "风舞者 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Wind_Dancer",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "龙卷射击 · 宝石11级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 74,
+          "int": 0,
+          "level": 11,
+          "url": "https://poe2db.tw/cn/Tornado_Shot",
+          "note": "本参考指定的宝石基础等级。"
+        },
+        {
+          "label": "本阶段整套辅助宝石累计需求",
+          "category": "辅助累计",
+          "str": 40,
+          "dex": 40,
+          "int": 40,
+          "level": null,
+          "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?weaponSet=set2&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+          "note": "来自作者对应分支；只作为整套总需求的一项，绝不是整套结论。"
+        }
+      ],
+      "totals": {
+        "str": 40,
+        "dex": 74,
+        "int": 41
+      },
+      "kind": "本站明确指定配置后的计算，不是作者角色面板或你的装备实测"
+    },
+    {
+      "id": "early-target",
+      "label": "Early展示装备目标 · 80级后",
+      "scope": "endgame",
+      "choice": 1,
+      "level": 80,
+      "notes": [
+        "这不是刚进异界的门槛：原导出含80级衣服、78级弓。本行计算的是以后穿到这些展示底材时的整套目标。",
+        "全部可升级主动宝石明确按18级、辅助按Early全部连接计入；珠宝实装未导出，不虚构额外要求。",
+        "刚通关不要为了达到163敏捷停工，也不要等80级才玩Early；先用当前可穿的低阶同功能装备。"
+      ],
+      "rows": [
+        {
+          "label": "毁灭者之弓",
+          "category": "装备 · 弓",
+          "str": 0,
+          "dex": 163,
+          "int": 0,
+          "level": 78,
+          "url": "https://poe2db.tw/cn/Bows",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "海盗外套",
+          "category": "装备 · 衣服",
+          "str": 0,
+          "dex": 121,
+          "int": 0,
+          "level": 80,
+          "url": "https://poe2db.tw/cn/Body_Armours",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "沙漠帽",
+          "category": "装备 · 头盔",
+          "str": 0,
+          "dex": 99,
+          "int": 0,
+          "level": 70,
+          "url": "https://poe2db.tw/cn/Helmets",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "宏伟护腕",
+          "category": "装备 · 手套",
+          "str": 0,
+          "dex": 87,
+          "int": 0,
+          "level": 70,
+          "url": "https://poe2db.tw/cn/Gloves",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "骑兵长靴",
+          "category": "装备 · 鞋",
+          "str": 0,
+          "dex": 93,
+          "int": 0,
+          "level": 70,
+          "url": "https://poe2db.tw/cn/Boots",
+          "note": "指定普通底材的佩戴需求；不是随机词条目标。"
+        },
+        {
+          "label": "飞矢箭袋",
+          "category": "装备 · 箭袋",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Quivers",
+          "note": "Early原导出底材；三维需求由弓、防具与技能决定，装备提供的属性可用于满足总需求。"
+        },
+        {
+          "label": "星辉项链",
+          "category": "装备 · 项链",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Amulets",
+          "note": "Early原导出底材；三维需求由弓、防具与技能决定，装备提供的属性可用于满足总需求。"
+        },
+        {
+          "label": "生皮腰带",
+          "category": "装备 · 腰带",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Belts",
+          "note": "Early原导出底材；三维需求由弓、防具与技能决定，装备提供的属性可用于满足总需求。"
+        },
+        {
+          "label": "三相戒指",
+          "category": "装备 · 戒指Ⅰ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "Early原导出底材；三维需求由弓、防具与技能决定，装备提供的属性可用于满足总需求。"
+        },
+        {
+          "label": "三相戒指",
+          "category": "装备 · 戒指Ⅱ",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Rings",
+          "note": "Early原导出底材；三维需求由弓、防具与技能决定，装备提供的属性可用于满足总需求。"
+        },
+        {
+          "label": "生命药剂、魔力药剂与当前可用咒符",
+          "category": "药剂 / 咒符",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Flasks",
+          "note": "选人物等级允许的常规版本，不额外施加三维需求；咒符槽数按已完成任务。"
+        },
+        {
+          "label": "冰霜射击 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Ice_Shot",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "狙击 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Snipe",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "龙卷射击 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Tornado_Shot",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "冰尖箭矢 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Ice-Tipped_Arrows",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "冰冻印记 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 75,
+          "int": 75,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Freezing_Mark",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "弹幕 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Barrage",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "寒冰之捷 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Herald_of_Ice",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "战斗狂怒 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Combat_Frenzy",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "幻影射手 · 宝石18级",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Mirage_Archer",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "蜃影神射 · 升华给予",
+          "category": "主动 / 常驻",
+          "str": 0,
+          "dex": 0,
+          "int": 0,
+          "level": null,
+          "url": "https://poe2db.tw/cn/Mirage_Deadeye",
+          "note": "原导出没有实际宝石等级，本参考显式选18级，不冒充作者实装。"
+        },
+        {
+          "label": "幻影射手内嵌冰霜射击 · 宝石18级",
+          "category": "内嵌主动",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Ice_Shot",
+          "note": "计入元技能内嵌主动；没有当成辅助计算。"
+        },
+        {
+          "label": "蜃影神射内嵌冰霜射击 · 宝石18级",
+          "category": "内嵌主动",
+          "str": 0,
+          "dex": 137,
+          "int": 0,
+          "level": 18,
+          "url": "https://poe2db.tw/cn/Ice_Shot",
+          "note": "计入元技能内嵌主动；没有当成辅助计算。"
+        },
+        {
+          "label": "本阶段整套辅助宝石累计需求",
+          "category": "辅助累计",
+          "str": 45,
+          "dex": 75,
+          "int": 50,
+          "level": null,
+          "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+          "note": "来自作者对应分支；只作为整套总需求的一项，绝不是整套结论。"
+        }
+      ],
+      "totals": {
+        "str": 45,
+        "dex": 163,
+        "int": 75
+      },
+      "kind": "本站明确指定配置后的计算，不是作者角色面板或你的装备实测"
+    }
+  ],
+  "rule": "三项面板总属性分别取整套装备最高需求、已装主动/常驻/元技能内嵌主动最高需求、全部辅助累计需求的最大值；不把每件装备要求相加。",
+  "ruleSource": "https://poe2db.tw/cn/Support_Gem_Requirements",
+  "scopeNote": "参考表明确包含所有列出的装备与技能；不是裸属性或只有辅助。原作者练级装备允许自由选底材，且导出不保存实际宝石等级，因此先固定这里的参考配置才能给出确定数字。各阶段/BD的正文全部仍可访问；未建立整套属性参考的分支不冒填三维。"
+}

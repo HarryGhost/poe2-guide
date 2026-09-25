@@ -1,0 +1,197 @@
+{
+  "edition": "C 雪白深栏 · 配色整合版",
+  "date": "2026-09-25",
+  "note": "清单不包含自身；不包含字体文件。",
+  "files": [
+    {
+      "path": "00_先读我.txt",
+      "size": 1852,
+      "sha256": "b62e35dc8dbed1a97d56e24956783bd380775a6e5ccae6f2462a284f3183a428"
+    },
+    {
+      "path": "index.html",
+      "size": 67166,
+      "sha256": "7116a4b18b3716e30ad112cdcb525d948e5a4b0498dd8158404edce9ed23d80e"
+    },
+    {
+      "path": "工具/同步首页配色.py",
+      "size": 611,
+      "sha256": "c00afc649fafa0e1421ede3e861eeeab7ffab41a5f1a806eb49f4f0c883e08f3"
+    },
+    {
+      "path": "既有完整攻略/.nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "既有完整攻略/Build-Fubgun/01_Early.build",
+      "size": 10526,
+      "sha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07"
+    },
+    {
+      "path": "既有完整攻略/Build-Fubgun/02_noncrit_Midgame.build",
+      "size": 11056,
+      "sha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b"
+    },
+    {
+      "path": "既有完整攻略/Build-Fubgun/03_noncrit_Hybrid.build",
+      "size": 11322,
+      "sha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f"
+    },
+    {
+      "path": "既有完整攻略/Build-Fubgun/04_Crit_Hybrid.build",
+      "size": 11469,
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d"
+    },
+    {
+      "path": "既有完整攻略/Build-Fubgun/05_Uber_Endgame.build",
+      "size": 11384,
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c"
+    },
+    {
+      "path": "既有完整攻略/Build-Fubgun/06_Live_Gear_冲突勿导入.build.txt",
+      "size": 12880,
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5"
+    },
+    {
+      "path": "既有完整攻略/README.md",
+      "size": 1355,
+      "sha256": "397b06235045ba93029cf4a5138c41a615e26a65a4b5d4d424addad4cda9cf74"
+    },
+    {
+      "path": "既有完整攻略/_source/app.js",
+      "size": 58861,
+      "sha256": "a001d1c645929deb8cff9fa50f6e6ad6ef910daac17584864433793698f7125f"
+    },
+    {
+      "path": "既有完整攻略/_source/build.py",
+      "size": 12000,
+      "sha256": "eee3e267350329e0214f81190a6536fda652f75e486405225f9e416d01eb8e92"
+    },
+    {
+      "path": "既有完整攻略/_source/content.html",
+      "size": 31796,
+      "sha256": "9c57509f9118059c39c037c0b6e7a2a2dc13628c4316fffcf8886a2926e26f3d"
+    },
+    {
+      "path": "既有完整攻略/_source/data.json",
+      "size": 1685458,
+      "sha256": "8c0a80756f01d8df65664e916ca52c9332622e76af587c82ddbe83c43803abcc"
+    },
+    {
+      "path": "既有完整攻略/_source/desktop.js",
+      "size": 8062,
+      "sha256": "13a94456f8c2f4fa23e05c59ccfec07d162671fc4645325e6424e88a63e4a324"
+    },
+    {
+      "path": "既有完整攻略/_source/leveling.js",
+      "size": 17999,
+      "sha256": "2cb88c37f2255a7ee7ed721484bf358163c2875720420861655ccb29d1a34ef6"
+    },
+    {
+      "path": "既有完整攻略/_source/leveling_static.py",
+      "size": 5578,
+      "sha256": "85ddbecd9e354d63f63ab0d7ee9350bfaf0d5c661ff2a3ad46608e2eedb7f909"
+    },
+    {
+      "path": "既有完整攻略/_source/style.css",
+      "size": 34048,
+      "sha256": "045fb72b7fe5677032df95bd0cbce07d7030aa41609013090833889f79c70694"
+    },
+    {
+      "path": "既有完整攻略/index.html",
+      "size": 1130121,
+      "sha256": "38343126d8a8939115e1c75a9c29f7809f7e57770c21aea5d10637d4e13683f8"
+    },
+    {
+      "path": "既有完整攻略/中文提示导出/01_中文提示.build",
+      "size": 39435,
+      "sha256": "a25089087b04354d103b379cd20a802156813c9d4c50f0e5befb0e86b1cde526"
+    },
+    {
+      "path": "既有完整攻略/中文提示导出/02_中文提示.build",
+      "size": 42643,
+      "sha256": "90da17a00db0fa58a6239ae338205853fbc8cd79f4c6ad0916a797fc33059595"
+    },
+    {
+      "path": "既有完整攻略/中文提示导出/03_中文提示.build",
+      "size": 44502,
+      "sha256": "63fd84adf1eeba7a3f1e5152f64c29c6ecfc2840e0d52fa65c6c28f1cc09a85e"
+    },
+    {
+      "path": "既有完整攻略/中文提示导出/04_中文提示.build",
+      "size": 46588,
+      "sha256": "f639d5fe1d75f46583e03b212be3cb5fc4dee4119c4a23996a695f733c9bee64"
+    },
+    {
+      "path": "既有完整攻略/中文提示导出/05_中文提示.build",
+      "size": 47199,
+      "sha256": "d570ca952ee4dfe26f3232c194dc660f31da656f3b191e68a9129cc87f4423c2"
+    },
+    {
+      "path": "既有完整攻略/中文提示导出/06_中文提示.build.txt",
+      "size": 50601,
+      "sha256": "3641ca2a469c1ed017d0f5959b2ffb62b68dc68a4c7b9db75ef9c93853b9bb60"
+    },
+    {
+      "path": "既有完整攻略/六分支完整资料.html",
+      "size": 303099,
+      "sha256": "35dcf0dda9363f0888261046e2a0bf5aef905c4e795808b5a75d25ee4ad4dcfa"
+    },
+    {
+      "path": "既有完整攻略/剧情练级速查.html",
+      "size": 82650,
+      "sha256": "10f47953f247fb191033b33728b25d7ee25b7c6cefe8d0b1adf4273a2c57ce56"
+    },
+    {
+      "path": "既有完整攻略/数据/全部分支逐项差异.json",
+      "size": 919850,
+      "sha256": "719e7dee203fc877ca5822967c4cd4e438c84038559459f2ff8a96221ca7d8f8"
+    },
+    {
+      "path": "既有完整攻略/数据/六分支原始及中文映射.json",
+      "size": 1685458,
+      "sha256": "8c0a80756f01d8df65664e916ca52c9332622e76af587c82ddbe83c43803abcc"
+    },
+    {
+      "path": "既有完整攻略/数据/剧情练级结构数据.json",
+      "size": 46018,
+      "sha256": "9c9da21b05684eb57d2c2f47de19a900a58ed80352e38013f201d619276eb45f"
+    },
+    {
+      "path": "既有完整攻略/数据/整套属性参考_明确底材与宝石等级.json",
+      "size": 34156,
+      "sha256": "73535d51184637452f1aaa2841bc79e5db59d32694d9367489c3835cd33e70a0"
+    },
+    {
+      "path": "本页数据.json",
+      "size": 19124,
+      "sha256": "8997a556cf719b4d44469dd9cde81ed2f8197a71de955612fced3a2f585d12f1"
+    },
+    {
+      "path": "样式源码/C_雪白深栏.css",
+      "size": 6224,
+      "sha256": "8d2aacbc37fa721fc6239dd81f03311b5bc1b915aadc75cf43bfb74aae8c4539"
+    },
+    {
+      "path": "样式源码/资料页_C配色.css",
+      "size": 2059,
+      "sha256": "72766c571bdd0491ce3fcecf2d2f8342ccaa8d414f3bade4b8eb7fe219984b36"
+    },
+    {
+      "path": "检查与预览/01_C雪白深栏_首页1366.png",
+      "size": 304871,
+      "sha256": "140b572382e030b1aaeb57046032eb9039417135a890311a0882ae2ac148b667"
+    },
+    {
+      "path": "检查与预览/02_C雪白深栏_异界04技能1366.png",
+      "size": 185648,
+      "sha256": "271324d237a115df9f93cff0013c5ecce5f354ee522729d337d0098934dc8cbb"
+    },
+    {
+      "path": "检查与预览/本次检查.json",
+      "size": 8452,
+      "sha256": "da1d699d6c78f3aecde182bc614045b2f03faa6e1f941dc9a46ba9b3416145f6"
+    }
+  ]
+}

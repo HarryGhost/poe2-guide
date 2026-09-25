@@ -1,0 +1,64 @@
+/* User-selected C: snow white main canvas, slate navigation, multi-colour roles. */
+:root[data-look="c"]{
+ --bg:#ECEFF4;--panel:#FCFDFE;--soft:#E5E9F0;--ink:#2E3440;--muted:#4C566A;--line:#C3CDD9;--rule:#DEE4ED;
+ --accent:#355F88;--accentBg:#E0EBF4;--head:#2E465F;--sidebar:#2E3440;--keyBg:#E9EEF4;--controlLine:#76889B;
+ --tagBg:#EAF0F6;--tagText:#44556B;--warn:#885017;--warnBg:#FCF0D9;--success:#49672F;--successBg:#EDF4E5;
+ --infoText:#33536A;--infoBg:#E4EEF3;--hover:#E8EDF4;--rowHover:#F0F4F8;--focus:#396F9F;
+ --navText:#E5E9F0;--navMuted:#B5C0D0;--navLine:#4C566A;--navSelected:#3F6375;--navSelectedText:#FFFFFF;--navHover:#3B4252;
+ --skillBand:#E1EBF0;--skillBandText:#36596D;--skillBar:#5D8FA0;--combatBand:#F0E7EF;--combatBandText:#6D466C;--combatBar:#90688A;
+ --attack:#984D3D;--attackBg:#F7E8E2;--attackLine:#BE8B7D;
+ --prep:#276571;--prepBg:#E5F0F1;--prepLine:#739EA4;
+ --burst:#7D487D;--burstBg:#F2E8F2;--burstLine:#AD87AD;
+ --aura:#51608F;--auraBg:#E8ECF7;--auraLine:#8D9CBC;
+ --strText:#94414B;--strBg:#F7EAED;--dexText:#4C6C35;--dexBg:#EEF3E8;--intText:#355F88;--intBg:#EAF1F8;--spText:#7D4E7A;--spBg:#F3EBF4;
+ --clearLabelBg:#EAF2E0;--clearLabel:#4C682F;--bossLabelBg:#F9EDD8;--bossLabel:#865B1E;
+ --sectionTwo:#376F75;--sectionThree:#795172;--sectionFour:#92533C;--cardShadow:none;
+}
+/* Apply secondary and tertiary colors to meaningful groups, never random words. */
+html[data-look="c"] .sidebar{background:var(--sidebar);color:var(--navText);border-color:var(--navLine)}
+html[data-look="c"] .sidebar .brand strong{color:var(--navText)}
+html[data-look="c"] .sidebar .brand small,html[data-look="c"] .sidebar .nav-label,html[data-look="c"] .sidebar .side-bottom{color:var(--navMuted)}
+html[data-look="c"] .sidebar .brand,html[data-look="c"] .sidebar .side-bottom{border-color:var(--navLine)}
+html[data-look="c"] .stage-link,html[data-look="c"] .sidebar .side-bottom a{color:var(--navText)}
+html[data-look="c"] .stage-link small{color:var(--navMuted)}
+html[data-look="c"] .stage-link:hover{background:var(--navHover);color:var(--navText)}
+html[data-look="c"] .stage-link.active,html[data-look="c"] .stage-link.active:hover{background:var(--navSelected);color:var(--navSelectedText);border-left-color:var(--navSelectedText)}
+html[data-look="c"] .stage-link.active small{color:var(--navSelectedText)}
+html[data-look="c"] .brand{box-shadow:inset 0 3px 0 var(--accent)}
+html[data-look="c"] .card{box-shadow:var(--cardShadow)}
+html[data-look="c"] .metrics{overflow:hidden}
+html[data-look="c"] .metric{box-shadow:inset 0 3px 0 var(--mColor);background:var(--mBg)}
+html[data-look="c"] .metric strong{color:var(--mColor)}
+html[data-look="c"] .metric:nth-child(1){--mColor:var(--strText);--mBg:var(--strBg)}
+html[data-look="c"] .metric:nth-child(2){--mColor:var(--dexText);--mBg:var(--dexBg)}
+html[data-look="c"] .metric:nth-child(3){--mColor:var(--intText);--mBg:var(--intBg)}
+html[data-look="c"] .metric:nth-child(4){--mColor:var(--spText);--mBg:var(--spBg)}
+html[data-look="c"] .workspace>.card:first-child>.card-head{background:var(--skillBand);box-shadow:inset 0 3px 0 var(--skillBar)}
+html[data-look="c"] .workspace>.card:first-child>.card-head h2{color:var(--skillBandText)}
+html[data-look="c"] .workspace>.card:last-child>.card-head{background:var(--combatBand);box-shadow:inset 0 3px 0 var(--combatBar)}
+html[data-look="c"] .workspace>.card:last-child>.card-head h2{color:var(--combatBandText)}
+html[data-look="c"] .card-head .button{background:var(--panel)}
+html[data-look="c"] .keypill{box-shadow:0 1px 0 var(--controlLine)}
+html[data-look="c"] .skill[data-skill="la"],html[data-look="c"] [data-key-display="la"]{--rText:var(--attack);--rBg:var(--attackBg);--rLine:var(--attackLine)}
+html[data-look="c"] .skill[data-skill="snipe"],html[data-look="c"] .skill[data-skill="bar"],html[data-look="c"] [data-key-display="snipe"],html[data-look="c"] [data-key-display="bar"]{--rText:var(--burst);--rBg:var(--burstBg);--rLine:var(--burstLine)}
+html[data-look="c"] .skill[data-skill="mark"],html[data-look="c"] .skill[data-skill="ita"],html[data-look="c"] .skill[data-skill="salvo"],html[data-look="c"] .skill[data-skill="fb"],html[data-look="c"] [data-key-display="mark"],html[data-look="c"] [data-key-display="ita"],html[data-look="c"] [data-key-display="salvo"],html[data-look="c"] [data-key-display="fb"]{--rText:var(--prep);--rBg:var(--prepBg);--rLine:var(--prepLine)}
+html[data-look="c"] .skill[data-skill="ht"],html[data-look="c"] [data-key-display="ht"]{--rText:var(--aura);--rBg:var(--auraBg);--rLine:var(--auraLine)}
+html[data-look="c"] .skill-name{color:var(--rText)}
+html[data-look="c"] .keypill[data-key-display]{color:var(--rText);background:var(--rBg);border-color:var(--rLine);box-shadow:0 1px 0 var(--rLine)}
+html[data-look="c"] .skill.inactive .skill-name{color:var(--muted)}
+html[data-look="c"] .skill.inactive .keypill{background:var(--soft);color:var(--muted);border-color:var(--controlLine);box-shadow:none}
+html[data-look="c"] .combat-group h3 .badge.green{color:var(--clearLabel);background:var(--clearLabelBg);border-color:transparent}
+html[data-look="c"] .combat-group h3 .badge.amber{color:var(--bossLabel);background:var(--bossLabelBg);border-color:transparent}
+html[data-look="c"] .freeze-check{box-shadow:inset 3px 0 var(--success)}
+html[data-look="c"] .essential-warning{box-shadow:inset 3px 0 var(--warn)}
+html[data-look="c"] #gear h2{color:var(--sectionTwo)}
+html[data-look="c"] #passives h2{color:var(--sectionThree)}
+html[data-look="c"] #transition h2{color:var(--sectionFour)}
+html[data-look="c"] .toc a{background:transparent;box-shadow:inset 0 -2px 0 var(--line)}
+html[data-look="c"] .toc a[href="#skills-combat"]{color:var(--accent);box-shadow:inset 0 -2px 0 var(--skillBar)}
+html[data-look="c"] .toc a[href="#gear"]{color:var(--sectionTwo);box-shadow:inset 0 -2px 0 var(--sectionTwo)}
+html[data-look="c"] .toc a[href="#passives"]{color:var(--sectionThree);box-shadow:inset 0 -2px 0 var(--sectionThree)}
+html[data-look="c"] .toc a[href="#transition"]{color:var(--sectionFour);box-shadow:inset 0 -2px 0 var(--sectionFour)}
+html[data-look="c"] .optional-control{background:var(--soft)}
+
+@media print{.sidebar,.topbar{display:none!important}.layout{margin-left:0!important}}

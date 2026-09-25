@@ -1,0 +1,23 @@
+
+/* C palette applied across retained complete guide and printable references. */
+:root,:root[data-theme="light"],:root[data-theme="dark"]{
+ --bg:#ECEFF4;--panel:#FCFDFE;--panel2:#E5E9F0;--text:#2E3440;--muted:#4C566A;--line:#C3CDD9;
+ --accent:#355F88;--accent2:#E0EBF4;--side:#2E3440;--sideText:#E5E9F0;
+ --warn:#885017;--warnbg:#FCF0D9;--bad:#923D4B;--badbg:#F7E8EC;--shadow:none;
+ --skill-band:#E1EBF0;--skill-bar:#5D8FA0;--combat-band:#F0E7EF;--combat-text:#6D466C;--combat-bar:#90688A;
+ color-scheme:light;
+}
+.sidebar{background:#2E3440;color:#E5E9F0;border-right:1px solid #4C566A}
+.sidebar .brand,.sidebar .brand strong{color:#E5E9F0}.sidebar .brand small,.sidebar .nav-label,.sidebar .side-foot{color:#B5C0D0}
+.sidebar .brand-mark{color:#A9CFDA}.sidebar .nav-link{color:#E5E9F0}.sidebar .nav-link:hover{background:#3B4252;color:#FFFFFF}
+.sidebar .nav-link[aria-current="page"]{background:#3F6375;color:#FFFFFF}.sidebar .btn,.sidebar .icon-btn{color:#E5E9F0;border-color:#77869A;background:transparent}
+.compact-head,.desk-skill-table thead th{background:var(--skill-band);color:#36596D}
+.compact-head{box-shadow:inset 0 2px 0 var(--skill-bar)}.compact-list .skill-name{color:#36596D}
+.gem-chip,.support-inline{background:#EAF0F6;color:#44556B}.gem-chip.active-gem{background:#FCF0D9;color:#885017}
+.desk-rotation,.combat-compact{background:var(--panel);border-top:3px solid var(--combat-bar)}
+.desk-rotation b,.combat-compact b{color:var(--combat-text)}.combat-step h3,.rotation-step h3{color:var(--combat-text)}
+.desk-triple>div:nth-child(1){background:#F7EAED;border-top:3px solid #94414B}.desk-triple>div:nth-child(1) strong{color:#94414B}
+.desk-triple>div:nth-child(2){background:#EEF3E8;border-top:3px solid #4C6C35}.desk-triple>div:nth-child(2) strong{color:#4C6C35}
+.desk-triple>div:nth-child(3){background:#EAF1F8;border-top:3px solid #355F88}.desk-triple>div:nth-child(3) strong{color:#355F88}
+body .primary,body[data-theme="dark"] .primary{background:#355F88;color:#FFFFFF}
+@media print{body{background:#fff!important;color:#111!important}}
