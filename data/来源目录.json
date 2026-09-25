@@ -1,0 +1,260 @@
+[
+  {
+    "id": "S1",
+    "title": "作者主攻略",
+    "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+    "note": "国际服作者原文；页面会更新。使用正文，不将评论区建议归给作者。"
+  },
+  {
+    "id": "S2",
+    "title": "作者练级攻略",
+    "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide",
+    "note": "页面标题为0.5，作为练级方向参考，不冒充完整0.5.5国服实测。"
+  },
+  {
+    "id": "S3",
+    "title": "官方构筑文件格式",
+    "url": "https://www.pathofexile.com/developer/docs/game",
+    "note": "国际服官方JSON说明；不等于国服导入已验证，元宝石当前有限制。"
+  },
+  {
+    "id": "S4",
+    "title": "0.5.5官方补丁说明",
+    "url": "https://www.pathofexile.com/forum/view-thread/4000864",
+    "note": "国际服官方；国服同步细节以客户端及国服公告为准。"
+  },
+  {
+    "id": "S5",
+    "title": "冰霜射击",
+    "url": "https://poe2db.tw/cn/Ice_Shot",
+    "note": "简体游戏数据条目。"
+  },
+  {
+    "id": "S6",
+    "title": "狙击",
+    "url": "https://poe2db.tw/cn/Snipe",
+    "note": "简体游戏数据条目；不要与升华Far Shot混淆。"
+  },
+  {
+    "id": "S7",
+    "title": "弹幕",
+    "url": "https://poe2db.tw/cn/Barrage",
+    "note": "基础额外重复、能量球及重复伤害惩罚。"
+  },
+  {
+    "id": "S8",
+    "title": "冰冻印记",
+    "url": "https://poe2db.tw/cn/Freezing_Mark",
+    "note": "印记与自身增益的持续时间、激活和消耗。"
+  },
+  {
+    "id": "S9",
+    "title": "龙卷射击",
+    "url": "https://poe2db.tw/cn/Tornado_Shot",
+    "note": "箭矢复制及伤害限制；不是只有持续伤害。"
+  },
+  {
+    "id": "S10",
+    "title": "虹吸印记II：英文数据核对",
+    "url": "https://poe2db.tw/us/Mark_of_Siphoning_II",
+    "note": "明确按物理攻击击中伤害偷取，版本历史标注0.5.0变更。"
+  },
+  {
+    "id": "S11",
+    "title": "永恒印记",
+    "url": "https://poe2db.tw/cn/Eternal_Mark",
+    "note": "第一次激活不消耗；不是永久免消耗。"
+  },
+  {
+    "id": "S12",
+    "title": "充能印记",
+    "url": "https://poe2db.tw/cn/Charged_Mark",
+    "note": "产生感电地面，不是狂怒球来源。"
+  },
+  {
+    "id": "S13",
+    "title": "永续充能",
+    "url": "https://poe2db.tw/cn/Perpetual_Charge",
+    "note": "不产球。"
+  },
+  {
+    "id": "S14",
+    "title": "幽灵舞步",
+    "url": "https://poe2db.tw/cn/Ghost_Dance",
+    "note": "当前恢复机制及基础保留参考。"
+  },
+  {
+    "id": "S15",
+    "title": "幻影射手",
+    "url": "https://poe2db.tw/cn/Mirage_Archer",
+    "note": "元技能与基础保留参考。"
+  },
+  {
+    "id": "S16",
+    "title": "风舞者",
+    "url": "https://poe2db.tw/cn/Wind_Dancer",
+    "note": "常驻防御。"
+  },
+  {
+    "id": "S17",
+    "title": "寒冰之捷",
+    "url": "https://poe2db.tw/cn/Herald_of_Ice",
+    "note": "常驻清图技能。"
+  },
+  {
+    "id": "S18",
+    "title": "元素军械II",
+    "url": "https://poe2db.tw/cn/Elemental_Armament_II",
+    "note": "内部ID PrimalArmamentTwo，当前显示名不是按旧ID直译。"
+  },
+  {
+    "id": "S19",
+    "title": "元素军械III",
+    "url": "https://poe2db.tw/cn/Elemental_Armament_III",
+    "note": "禁止被辅助技能造成元素异常，不能无脑替换主冰射的II。"
+  },
+  {
+    "id": "S20",
+    "title": "强效寻觅精华",
+    "url": "https://poe2db.tw/cn/Greater_Essence_of_Seeking",
+    "note": "作者暴击弓路线使用这一阶；不是普通寻觅精华。"
+  },
+  {
+    "id": "S21",
+    "title": "强效磨蚀精华",
+    "url": "https://poe2db.tw/cn/Greater_Essence_of_Abrasion",
+    "note": "物理点伤路线。"
+  },
+  {
+    "id": "S22",
+    "title": "完美蜕变石",
+    "url": "https://poe2db.tw/cn/Perfect_Orb_of_Transmutation",
+    "note": "不是完美点金石。"
+  },
+  {
+    "id": "S23",
+    "title": "高级崇高石",
+    "url": "https://poe2db.tw/cn/Greater_Exalted_Orb",
+    "note": "Greater Exalted Orb的简体数据名称。"
+  },
+  {
+    "id": "S24",
+    "title": "锯齿锋缘",
+    "url": "https://poe2db.tw/cn/Serrated_Edges",
+    "note": "项链涂膏目标；液化偏执、液化憎恶、稀释的液化贪婪。"
+  },
+  {
+    "id": "S25",
+    "title": "高级钢铁符文",
+    "url": "https://poe2db.tw/cn/Greater_Iron_Rune",
+    "note": "作者对弓和衣服的符文方向；实际效果看所在部位。"
+  },
+  {
+    "id": "S26",
+    "title": "诡计面纱",
+    "url": "https://poe2db.tw/cn/Subterfuge_Mask",
+    "note": "以头盔物品能量护盾为基础，不是角色总护盾。"
+  },
+  {
+    "id": "S27",
+    "title": "无尽追踪",
+    "url": "https://poe2db.tw/cn/Relentless_Pursuit",
+    "note": "Ranger3节点归属，用于标出Live内部冲突。"
+  },
+  {
+    "id": "S28",
+    "title": "穿透规则",
+    "url": "https://poe2db.tw/cn/Resistance_Penetration",
+    "note": "普通穿透的0抗下限，特殊机制另论。"
+  },
+  {
+    "id": "S29",
+    "title": "拉其塔之流",
+    "url": "https://poe2db.tw/cn/Rakiatas_Flow",
+    "note": "抗性反转；不在固定Crit连接中。"
+  },
+  {
+    "id": "S30",
+    "title": "盲点",
+    "url": "https://poe2db.tw/cn/Blindside",
+    "note": "条件伤害要求目标已经被致盲。"
+  },
+  {
+    "id": "S31",
+    "title": "闪电箭矢（练级名称）",
+    "url": "https://poe2db.tw/cn/Lightning_Arrow",
+    "note": "现简体对应名为闪电箭矢，不只沿用简称闪电箭。"
+  },
+  {
+    "id": "S32",
+    "title": "引雷针（练级名称）",
+    "url": "https://poe2db.tw/cn/Lightning_Rod",
+    "note": "Lightning Rod的现简体对应名为引雷针；不是把俗称避雷针当正式名。"
+  },
+  {
+    "id": "S33",
+    "title": "格鲁坎的决心",
+    "url": "https://poe2db.tw/cn/Garukhans_Resolve",
+    "note": "05/06使用；暴击特殊规则不是普通快速攻击的等效替代。"
+  },
+  {
+    "id": "S34",
+    "title": "魔力残片",
+    "url": "https://poe2db.tw/cn/Mana_Remnants",
+    "note": "05/06常驻与残片机制；最终保留录入实际面板，不硬写通用门槛。"
+  },
+  {
+    "id": "S35",
+    "title": "战斗狂怒",
+    "url": "https://poe2db.tw/cn/Combat_Frenzy",
+    "note": "01/02有，03以后原件已移除；产球条件必须按当服面板核对。"
+  },
+  {
+    "id": "L0",
+    "title": "Fubgun 剧情练级总说明与任务奖励（国际服）",
+    "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide",
+    "note": "页面标注0.5.5 FR、2026-09-12更新。通关后转异界；60+页签完整配置本次未读取。"
+  },
+  {
+    "id": "L1",
+    "title": "Fubgun 1–14级 原版配置（国际服）",
+    "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide",
+    "note": "本次逐项核对页面技能与辅助顺序；装备为正文方向，不是完整物品导出。"
+  },
+  {
+    "id": "L2",
+    "title": "Fubgun 15–23级 原版配置（国际服）",
+    "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1",
+    "note": "本次逐项核对页面技能与辅助顺序；装备为正文方向，不是完整物品导出。"
+  },
+  {
+    "id": "L3",
+    "title": "Fubgun 24–30级 原版配置（国际服）",
+    "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?weaponSet=set2&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C2",
+    "note": "本次逐项核对页面技能与辅助顺序；装备为正文方向，不是完整物品导出。"
+  },
+  {
+    "id": "L4",
+    "title": "Fubgun 31–41级 原版配置（国际服）",
+    "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+    "note": "本次逐项核对页面技能与辅助顺序；装备为正文方向，不是完整物品导出。"
+  },
+  {
+    "id": "L5",
+    "title": "Fubgun 42–59级 原版配置（国际服）",
+    "url": "https://mobalytics.gg/poe-2/profile/fubgun/builds/0-5-ice-shot-deadeye-leveling-guide?weaponSet=set2&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+    "note": "本次逐项核对页面技能与辅助顺序；装备为正文方向，不是完整物品导出。"
+  },
+  {
+    "id": "L6",
+    "title": "低等工匠石 / Lesser Jeweller’s Orb（国际服简体数据）",
+    "url": "https://poe2db.tw/cn/Lesser_Jewellers_Orb",
+    "note": "简体名称为低等，不是低阶。只核实名，不把随机掉落当24级必得。"
+  },
+  {
+    "id": "L7",
+    "title": "高等工匠石 / Greater Jeweller’s Orb（国际服简体数据）",
+    "url": "https://poe2db.tw/cn/Greater_Jewellers_Orb",
+    "note": "用于区分开孔通货等阶；不把普通/高等/完美混用。"
+  }
+]

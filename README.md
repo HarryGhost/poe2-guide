@@ -126,3 +126,52 @@ gear / passives / transition / explain / sources）不受影响。不带 hash �
 门户 14 个指向资料站的链接全部指向存在的文件；资源（资料站 index、剧情练级速查、六分支完整资料、Build-Fubgun/*.build）全部 200；
 旧 hash 别名 5 项在根路径与资料站内均正确跳转；无控制台错误。
 **未做**：GitHub Pages 推送后的现场复验、游戏内导入实测、A/B 配色以外的真机观感。
+
+---
+
+## 2026-09-25 第五次上线：R5「全站紧凑作业 · C 雪白深栏」
+
+线上换成 R5（上一版存档：`归档-lowK版/发布前存档-v4C门户版/`，回退点分支 `发布前备份-v4-C门户版`）。
+
+### 新结构（多页静态站，不再是单文件）
+
+```
+index.html / l01–l06.html / e01–e06.html        ← 12 份阶段作业 + 首页（index 与 l03 同内容）
+roadmap / compare / mechanics / craft / rewards / glossary / reader / sources.html  ← 8 个资料工具页
+all.html                                        ← 全部展开
+assets/  (style.css, app.js, catalog.js, compare.js, search-index.js)
+data/    (9 个 JSON：全站阶段与核算、六分支原始及中文映射、当前词典、来源目录 …)
+构筑文件/ (6 份原件 + 6 份中文提示，06 两份都是 .build.txt 隔离)
+源码/    (build.py + content.py + app.js + compare.js + style.css)
+```
+
+### 这一版的内容变化
+
+- 6 个剧情阶段 + 6 个异界分支**全部换成同一套紧凑作业模板**（不再是只有第二章那一页）。
+- 阶段页数据自洽：05 不再复用 04 的狙击操作；前两个闪电阶段不再把后期狙击/冰射的开孔次序当任务。
+- 生命保留与精魂分开核算，空值不再当 0；可选寒霜爆与属性需求联动；改键位会同步连接与操作，拒绝空键位/重复键位。
+- 06 原始与中文提示文件都用 `.build.txt` 隔离，不擅自"修好"。
+
+### 我在交付版上做的改动
+
+1. `index.html` 加旧链接映射（`id="legacy-hash-shim"`）：`#leveling?lv=1..6`→`l0N.html`、
+   `#skills|#gear|#tree?bd=1..6`→`e0N.html`、`#upgrade|#build`→`compare.html`、`#route|#faq`→`roadmap.html`、
+   `#combat|#trap|#pitfalls`→`mechanics.html`、`#craft`→`craft.html`、`#glossary`→`glossary.html`、`#dl|#sources`→`sources.html`。
+   实测 9 组全部跳对。
+2. 仓库里的 `源码/build.py` 改成可跑：加 UTF-8 编码声明、把交付机绝对路径 `OUT` 改成仓库根目录、
+   修掉两处 Python 3.9 不接受的 f-string 写法。
+
+### 一个必须说明的问题（重建不逐字节一致）
+
+在仓库里跑 `python3 源码/build.py` 能生成 22 个页面，但**产物与交付的 HTML 不一致**：
+交付版侧栏只显示当前阶段所属的那一组链接，重建版会渲染全部链接。说明生成器还依赖交付时的状态/条件，
+我没有改动业务逻辑去"对齐"。因此**线上用的是交付版 HTML（加了我的 shim）**，重建脚本只作为参考。
+要改内容请以 `源码/content.py` 为准并先本地比对差异，不要直接覆盖上线。
+
+### 上线前验证
+
+- 22 页全部有内容；9 组旧链接映射全部正确跳转
+- 390 / 768 / 1366 / 1920 四种宽度：首页与 e04 均无横向溢出
+- 资源全 200：22 个 HTML、assets/*、data/*、构筑文件/*
+- 无控制台错误、无失败请求
+- **未做**：GitHub Pages 推送后的现场复验；游戏内导入实测；真机存储/剪贴板权限

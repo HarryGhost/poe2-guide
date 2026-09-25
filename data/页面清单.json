@@ -1,0 +1,43 @@
+{
+  "version": "C全站阶段作业 · R5",
+  "pages": [
+    "l01.html",
+    "l02.html",
+    "l03.html",
+    "l04.html",
+    "l05.html",
+    "l06.html",
+    "e01.html",
+    "e02.html",
+    "e03.html",
+    "e04.html",
+    "e05.html",
+    "e06.html",
+    "index.html",
+    "roadmap.html",
+    "compare.html",
+    "mechanics.html",
+    "craft.html",
+    "rewards.html",
+    "glossary.html",
+    "reader.html",
+    "sources.html",
+    "all.html"
+  ],
+  "stage_pages": [
+    "l01.html",
+    "l02.html",
+    "l03.html",
+    "l04.html",
+    "l05.html",
+    "l06.html",
+    "e01.html",
+    "e02.html",
+    "e03.html",
+    "e04.html",
+    "e05.html",
+    "e06.html"
+  ],
+  "layout": "stage-workbook-r5",
+  "date": "2026-09-25"
+}

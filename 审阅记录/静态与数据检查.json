@@ -1,0 +1,1079 @@
+{
+  "date": "2026-09-25",
+  "method": "file and parsed HTML/source records; no game testing",
+  "checks": [
+    {
+      "name": "l02.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "roadmap.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "roadmap.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "roadmap.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html::unique_ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html::C_layout",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html::all_12_stages",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html::no_old_interface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html::local_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html::anchor_targets",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::l1-14::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::l2-23::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::l3-31::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::l3-24::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::l4-31::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::l5-42::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::l6-60::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::e1-60::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::e1-80::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::original_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::raw_json_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::all_node_ids_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::full_page_nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::translated_numeric_tokens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::e2-80::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::original_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::raw_json_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::all_node_ids_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::full_page_nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::translated_numeric_tokens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::e3-80::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::original_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::raw_json_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::all_node_ids_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::full_page_nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::translated_numeric_tokens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::e4-80::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::original_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::raw_json_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::all_node_ids_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::full_page_nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::translated_numeric_tokens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::e5-80::all_main_gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::original_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::raw_json_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::all_node_ids_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::full_page_nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::translated_numeric_tokens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06::all_skills_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::skill_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::all_supports_original_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::original_sha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::raw_json_equal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::all_node_ids_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::full_page_nodes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::translated_numeric_tokens",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all::six_build_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all::readonly_06_extension",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all::original_prose",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "total": 214,
+  "passed": 214,
+  "failures": []
+}

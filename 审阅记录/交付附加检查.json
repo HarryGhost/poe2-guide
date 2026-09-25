@@ -1,0 +1,299 @@
+{
+  "date": "2026-09-25",
+  "method": "Original copy comparison, token contrast math, clean rebuild using delivered sources. Not a full accessibility or game-client certification.",
+  "total": 58,
+  "passed": 58,
+  "failures": [],
+  "checks": [
+    {
+      "name": "copy_unchanged::02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::01_Early.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::05_Uber_Endgame.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::05_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::04_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::03_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::02_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::06_中文提示.build.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy_unchanged::01_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "text_contrast::ink/panel",
+      "passed": true,
+      "detail": 12.264
+    },
+    {
+      "name": "text_contrast::muted/panel",
+      "passed": true,
+      "detail": 7.244
+    },
+    {
+      "name": "text_contrast::navText/sidebar",
+      "passed": true,
+      "detail": 10.257
+    },
+    {
+      "name": "text_contrast::navMuted/sidebar",
+      "passed": true,
+      "detail": 6.789
+    },
+    {
+      "name": "text_contrast::skillText/skillBand",
+      "passed": true,
+      "detail": 6.179
+    },
+    {
+      "name": "text_contrast::combatText/combatBand",
+      "passed": true,
+      "detail": 6.337
+    },
+    {
+      "name": "text_contrast::attack/attackBg",
+      "passed": true,
+      "detail": 5.08
+    },
+    {
+      "name": "text_contrast::prep/prepBg",
+      "passed": true,
+      "detail": 5.67
+    },
+    {
+      "name": "text_contrast::burst/burstBg",
+      "passed": true,
+      "detail": 5.687
+    },
+    {
+      "name": "text_contrast::aura/auraBg",
+      "passed": true,
+      "detail": 5.197
+    },
+    {
+      "name": "text_contrast::str/strBg",
+      "passed": true,
+      "detail": 5.758
+    },
+    {
+      "name": "text_contrast::dex/dexBg",
+      "passed": true,
+      "detail": 5.315
+    },
+    {
+      "name": "text_contrast::int/intBg",
+      "passed": true,
+      "detail": 5.864
+    },
+    {
+      "name": "text_contrast::spirit/spiritBg",
+      "passed": true,
+      "detail": 5.551
+    },
+    {
+      "name": "text_contrast::warn/warnBg",
+      "passed": true,
+      "detail": 5.802
+    },
+    {
+      "name": "text_contrast::ok/okBg",
+      "passed": true,
+      "detail": 5.72
+    },
+    {
+      "name": "text_contrast::danger/dangerBg",
+      "passed": true,
+      "detail": 5.895
+    },
+    {
+      "name": "no_font_files",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "portable_rebuild_exits_ok",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rebuilt_identical::l02.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::rewards.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::roadmap.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::mechanics.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::e05.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::l01.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::l06.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::all.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::compare.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::e04.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::l05.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::e01.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::l03.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::e03.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::glossary.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::e06.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::sources.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::l04.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::reader.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::e02.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::craft.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::assets/app.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::assets/style.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::assets/catalog.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::assets/compare.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rebuilt_identical::assets/search-index.js",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}
