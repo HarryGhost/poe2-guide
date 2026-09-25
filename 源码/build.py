@@ -45,13 +45,15 @@ def nav(current):
   for s in STAGES:
    if s['kind']!=kind:continue
    short={'l01':'1–14级 · 闪电起步','l02':'15–23级 · 闪电补强','l03':'24–30级 / 31级未转','l04':'取得宝石 · 转冰射','l05':'42–59级 · 剧情后段','l06':'60级＋ · 通关衔接','e01':'Early · 刚进异界','e02':'非暴击 · 中期补强','e03':'非暴击 · 混合防御','e04':'暴击 · 保留狙击','e05':'高配 · 冰射主输出','e06':'实装快照 · 只读核对'}[s['id']]
- cls = "active" if current==s["id"] else ""
- aria = ' aria-current="page"' if current==s["id"] else ''
- o+=f'<a class="stage-link {cls}" href="{s["file"]}"{aria}><span class="n">{s["number"]:02}</span><span>{short}</span></a>' 
+   if current==s['id']:
+    o+=f'<a class="stage-link active" href="{s["file"]}" aria-current="page"><span class="n">{s["number"]:02}</span><span>{short}</span></a>'
+   else:
+    o+=f'<a class="stage-link " href="{s["file"]}" ><span class="n">{s["number"]:02}</span><span>{short}</span></a>'
  o+='<div class="nav-label">资料与工具</div>'
  for rid,title in RES:o+=f'<a class="stage-link {"active" if current==rid else ""}" href="{rid}.html">{title}</a>'
  o+='<div class="side-foot">不按进度解锁 · 全部随时查看<br>自刷通货，预算内购买/打造<br>资料核对：2026-09-25<br><a href="all.html">全部作业展开阅读</a></div>'
  return o
+
 COMMON_DIALOG='''<dialog id="search-dialog"><div class="dialoghead"><h2>全站搜索</h2><button type="button" data-close="search-dialog" aria-label="关闭搜索">关闭</button></div><label for="site-search" class="small">阶段、技能、装备、机制、中文或英文名称</label><input id="site-search" type="search" placeholder="例如：感电、31级、卡迪罗、精魂" style="width:100%;margin-top:6px"><p id="search-count" class="small muted"></p><div class="search-results" id="search-results"></div></dialog><dialog id="key-dialog"><div class="dialoghead"><h2>设置网页显示的按键</h2><button type="button" data-close="key-dialog">关闭</button></div><p class="small muted">以下为建议键位，不是已核实的作者键位。只改网页提示，不改变游戏设置；同一技能的提示会同步。</p><div id="key-editor" class="keyeditor"></div><p id="key-error" class="small"></p><div class="controlrow"><button class="primary" id="key-save">保存网页键位</button><button id="key-reset">恢复建议</button></div></dialog><dialog id="copy-dialog"><div class="dialoghead"><h2>复制内容</h2><button data-close="copy-dialog">关闭</button></div><p class="small muted">浏览器未允许自动复制；选中文本后按 Ctrl+C。</p><textarea id="copy-text" rows="13" style="width:100%"></textarea></dialog><div id="toast" class="toast" role="status" aria-live="polite" hidden></div>'''
 def shell(current,title,body,stage=None):
  data={'id':current,'version':VERSION,'stage':stage}
