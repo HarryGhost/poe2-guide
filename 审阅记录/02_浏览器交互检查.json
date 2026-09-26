@@ -1,0 +1,825 @@
+{
+  "mode": "Chromium memory rendering of original HTML with same local CSS/JS inlined; file URL is blocked in this environment. Not deployment/game testing.",
+  "checks": [
+    {
+      "test": "1366 default Early/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 no body horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 stage early",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 stage mid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 stage hybrid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 stage crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 stage uber",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 item jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 fit jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 readable density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 search includes lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 print exposes all lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1366 print returns to selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 default Early/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 no body horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 stage early",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 stage mid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 stage hybrid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 stage crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 stage uber",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 item jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 fit jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 readable density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 search includes lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 print exposes all lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1920 print returns to selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 default Early/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 no body horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 stage early",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 stage mid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 stage hybrid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 stage crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 stage uber",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 item jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 fit jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 readable density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 search includes lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 print exposes all lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "1024 print returns to selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 default Early/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 no body horizontal overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 stage early",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 stage mid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 stage hybrid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 stage crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 stage uber",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 item jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 fit jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 readable density",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 search includes lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 print exposes all lessons",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "390 print returns to selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft-advanced.html no body overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "8 advanced recipes remain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "advanced emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "material search",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft-all.html no body overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "all advanced visible without gating",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft-early-all.html no body overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "all Early lessons visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "e01.html no body overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Early direct beginner craft entry",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "Early skills unchanged in rendered page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft.html without JS full content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft-early-all.html without JS full content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft-advanced.html without JS full content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "craft-all.html without JS full content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "no page JS errors",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "checks": 163,
+    "failures": 0
+  }
+}

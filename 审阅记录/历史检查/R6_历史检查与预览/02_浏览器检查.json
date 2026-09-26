@@ -1,0 +1,718 @@
+{
+  "mode": "Chromium内存载入：原HTML＋逐个本地CSS/JS内联；file://与本地HTTP均被环境策略阻止，未冒充部署测试",
+  "checks": [
+    {
+      "check": "脚本 all.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 all.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 compare.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 compare.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 craft-all.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft-all.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 craft.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 e01.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e01.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 e02.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e02.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 e03.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e03.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 e04.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e04.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 e05.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e05.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 e06.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e06.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 glossary.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 glossary.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 index.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 index.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 l01.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l01.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 l02.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l02.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 l03.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l03.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 l04.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l04.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 l05.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l05.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 l06.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l06.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 mechanics.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 mechanics.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 reader.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 reader.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 rewards.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 rewards.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 roadmap.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 roadmap.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 sources.html 1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 sources.html 1366",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "doc": 1366,
+        "body": 1366
+      }
+    },
+    {
+      "check": "脚本 craft.html 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft.html 390",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "脚本 craft-all.html 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft-all.html 390",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "脚本 e04.html 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e04.html 390",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "脚本 l03.html 390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l03.html 390",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "doc": 390,
+        "body": 390
+      }
+    },
+    {
+      "check": "脚本 craft.html 1100",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft.html 1100",
+      "passed": true,
+      "detail": {
+        "w": 1100,
+        "doc": 1100,
+        "body": 1100
+      }
+    },
+    {
+      "check": "脚本 craft-all.html 1100",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft-all.html 1100",
+      "passed": true,
+      "detail": {
+        "w": 1100,
+        "doc": 1100,
+        "body": 1100
+      }
+    },
+    {
+      "check": "脚本 e04.html 1100",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e04.html 1100",
+      "passed": true,
+      "detail": {
+        "w": 1100,
+        "doc": 1100,
+        "body": 1100
+      }
+    },
+    {
+      "check": "脚本 l03.html 1100",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l03.html 1100",
+      "passed": true,
+      "detail": {
+        "w": 1100,
+        "doc": 1100,
+        "body": 1100
+      }
+    },
+    {
+      "check": "脚本 craft.html 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft.html 1920",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "doc": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "check": "脚本 craft-all.html 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 craft-all.html 1920",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "doc": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "check": "脚本 e04.html 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 e04.html 1920",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "doc": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "check": "脚本 l03.html 1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "横向宽度 l03.html 1920",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "doc": 1920,
+        "body": 1920
+      }
+    },
+    {
+      "check": "可自由选工艺 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "可自由选工艺 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "仅当前工艺展开 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "该工艺步骤完整 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "英文原文保留 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "光明链接展开解释",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "材料英名可筛选",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "材料链接清除旧过滤",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "舒适字号按钮",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "全站搜索包含打造材料",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "直达暴击工艺",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "打印展示全部8条",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "打印后恢复当前工艺",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "独立全部展开页8条",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "04原技能仍10组",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "原技能说明仍展开",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "禁用JS后8条正文仍可读",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "total": 114,
+  "passed": 114,
+  "pageErrors": []
+}

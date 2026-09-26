@@ -1,0 +1,8642 @@
+{
+  "date": "2026-09-25",
+  "engine": "Chromium via Playwright",
+  "method": "Original local HTML with exact external CSS/JS inlined into page.set_content. File/localhost navigation blocked by environment. Local links tested separately via filesystem. Simulated storage used ONLY for persistence logic; not real browser persistence certification. No game/client test.",
+  "total": 1209,
+  "passed": 1209,
+  "failures": [],
+  "checks": [
+    {
+      "name": "l01.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l01.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l01.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l02.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l02.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l02.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l03.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l03.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l03.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l04.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l04.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l04.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l05.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l05.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l05.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l06.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l06.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "e01.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e01.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e01.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e02.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e02.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e02.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e03.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e03.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e03.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e04.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e04.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e05.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e05.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e05.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e06.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e06.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e06.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1280::readonly_no_false_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "index.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "index.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1280::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1280::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1280::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "roadmap.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "roadmap.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "roadmap.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "compare.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "compare.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "mechanics.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "mechanics.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "craft.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "craft.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "rewards.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "rewards.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "glossary.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "glossary.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "reader.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "reader.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "sources.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "sources.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html@1280::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html@1280::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1280,
+        "scroll": 1280,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "all.html@1280::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "all.html@1280::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l01.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l01.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l02.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l02.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l02.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l03.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l03.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l03.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l04.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l04.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l04.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l05.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l05.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l05.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l06.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l06.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "e01.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e01.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e01.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e02.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e02.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e02.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e03.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e03.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e03.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e04.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e04.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e05.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e05.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e05.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e06.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e06.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e06.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1366::readonly_no_false_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "index.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "index.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1366::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1366::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1366::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "roadmap.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "roadmap.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "roadmap.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "compare.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "compare.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "mechanics.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "mechanics.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "craft.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "craft.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "rewards.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "rewards.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "glossary.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "glossary.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "reader.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "reader.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "sources.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "sources.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html@1366::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html@1366::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1366,
+        "scroll": 1366,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "all.html@1366::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "all.html@1366::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l01.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l01.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l02.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l02.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l02.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l03.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l03.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l03.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l04.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l04.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l04.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l05.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l05.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l05.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l06.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l06.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "e01.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e01.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e01.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e02.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e02.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e02.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e03.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e03.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e03.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e04.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e04.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e05.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e05.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e05.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e06.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e06.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e06.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1440::readonly_no_false_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "index.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "index.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1440::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1440::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1440::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "roadmap.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "roadmap.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "roadmap.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "compare.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "compare.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "mechanics.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "mechanics.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "craft.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "craft.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "rewards.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "rewards.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "glossary.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "glossary.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "reader.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "reader.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "sources.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "sources.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html@1440::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html@1440::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1440,
+        "scroll": 1440,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "all.html@1440::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "all.html@1440::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l01.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l01.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l02.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l02.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l02.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l03.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l03.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l03.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l04.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l04.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l04.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l05.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l05.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l05.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l06.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l06.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "e01.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e01.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e01.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e02.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e02.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e02.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e03.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e03.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e03.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e04.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e04.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e05.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e05.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e05.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e06.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e06.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e06.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@1920::readonly_no_false_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "index.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "index.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1920::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1920::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@1920::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "roadmap.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "roadmap.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "roadmap.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "compare.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "compare.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "mechanics.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "mechanics.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "craft.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "craft.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "rewards.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "rewards.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "glossary.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "glossary.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "reader.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "reader.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "sources.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "sources.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html@1920::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html@1920::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 1920,
+        "scroll": 1920,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "all.html@1920::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "all.html@1920::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l01.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l01.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l02.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l02.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l02.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l03.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l03.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l03.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l04.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l04.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l04.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l05.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l05.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l05.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l06.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l06.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "e01.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e01.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e01.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e02.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e02.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e02.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e03.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e03.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e03.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e04.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e04.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e05.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e05.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e05.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e06.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e06.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e06.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@768::readonly_no_false_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "index.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "index.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@768::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@768::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@768::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "roadmap.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "roadmap.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "roadmap.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "compare.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "compare.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "mechanics.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "mechanics.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "craft.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "craft.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "rewards.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "rewards.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "glossary.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "glossary.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "reader.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "reader.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "sources.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "sources.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html@768::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html@768::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 768,
+        "scroll": 768,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "all.html@768::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "all.html@768::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l01.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l01.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l02.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l02.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l02.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l03.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l03.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l03.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l04.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l04.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l04.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l05.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l05.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l05.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "l06.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "l06.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "e01.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e01.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e01.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e02.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e02.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e02.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e03.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e03.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e03.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e04.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e04.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e05.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e05.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e05.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e06.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "e06.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "e06.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html@390::readonly_no_false_attributes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "index.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "index.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@390::every_skill_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@390::all_support_names_visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html@390::full_attribute_formula",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "roadmap.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "roadmap.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "roadmap.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "compare.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "compare.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "mechanics.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "mechanics.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "craft.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "craft.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "rewards.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "rewards.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "glossary.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "glossary.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "reader.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "reader.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "sources.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "sources.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html@390::no_js_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html@390::no_document_overflow",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "scroll": 390,
+        "bg": "rgb(46, 52, 64)"
+      }
+    },
+    {
+      "name": "all.html@390::C_slate_sidebar",
+      "passed": true,
+      "detail": "rgb(46, 52, 64)"
+    },
+    {
+      "name": "all.html@390::12_stage_links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_expands::detail-l01-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::detail_closes::detail-l01-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01::profile::l1-14",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 10,
+          "dex": 28,
+          "int": 28,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石5级",
+              "引雷针 · 基础宝石5级",
+              "闪电之捷 · 基础宝石5级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石5级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 10,
+          "dex": 28,
+          "int": 28
+        }
+      }
+    },
+    {
+      "name": "l01::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_expands::detail-l02-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::detail_closes::detail-l02-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02::profile::l2-23",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 15,
+          "dex": 41,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "引雷针 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "寒霜爆 · 基础宝石7级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 15,
+          "dex": 41,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l02::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_expands::detail-l03-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::detail_closes::detail-l03-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03::profile::l3-31",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 43,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "嵌饰背心"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 43,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l03::profile::l3-24",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 41,
+          "int": 25,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "闪电箭矢 · 基础宝石7级",
+              "狙击 · 基础宝石7级",
+              "闪电之捷 · 基础宝石7级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 41,
+          "int": 25
+        }
+      }
+    },
+    {
+      "name": "l03::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_expands::detail-l04-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::detail_closes::detail-l04-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04::profile::l4-31",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 25,
+          "dex": 57,
+          "int": 45,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石9级",
+              "狙击 · 基础宝石9级",
+              "寒冰之捷 · 基础宝石9级"
+            ],
+            "int": [
+              "当前整套辅助的累计需求"
+            ]
+          }
+        },
+        "expected": {
+          "str": 25,
+          "dex": 57,
+          "int": 45
+        }
+      }
+    },
+    {
+      "name": "l04::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_expands::detail-l05-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::detail_closes::detail-l05-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05::profile::l5-42",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l05::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_expands::detail-l06-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::detail_closes::detail-l06-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06::profile::l6-60",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 74,
+          "int": 41,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石11级",
+              "狙击 · 基础宝石11级",
+              "寒冰之捷 · 基础宝石11级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石11级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 74,
+          "int": 41
+        }
+      }
+    },
+    {
+      "name": "l06::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_expands::detail-e01-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::detail_closes::detail-e01-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::profile::e1-60",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 103,
+          "int": 57,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "冰霜射击 · 基础宝石14级",
+              "狙击 · 基础宝石14级",
+              "龙卷射击 · 基础宝石14级"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石14级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 103,
+          "int": 57
+        }
+      }
+    },
+    {
+      "name": "e01::profile::e1-80",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e01::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_expands::detail-e02-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::detail_closes::detail-e02-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02::profile::e2-80",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 75,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "冰冻印记 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 75
+        }
+      }
+    },
+    {
+      "name": "e02::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_expands::detail-e03-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::detail_closes::detail-e03-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03::profile::e3-80",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 45,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 45,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e03::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_expands::detail-e04-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::detail_closes::detail-e04-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::profile::e4-80",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 115,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "毁灭者之弓"
+            ],
+            "int": [
+              "先祖冠冕"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 115
+        }
+      }
+    },
+    {
+      "name": "e04::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_expands::detail-e05-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::detail_closes::detail-e05-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::profile::e5-80",
+      "passed": true,
+      "detail": {
+        "actual": {
+          "str": 40,
+          "dex": 163,
+          "int": 137,
+          "valid": true,
+          "drivers": {
+            "str": [
+              "当前整套辅助的累计需求"
+            ],
+            "dex": [
+              "寻战之弓"
+            ],
+            "int": [
+              "魔力残片 · 基础宝石18级"
+            ]
+          }
+        },
+        "expected": {
+          "str": 40,
+          "dex": 163,
+          "int": 137
+        }
+      }
+    },
+    {
+      "name": "e05::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_expands::detail-e06-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::detail_closes::detail-e06-9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06::interactions_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "optional::default_int25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional::fb_int41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional::fb_back25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional::chain_not_deleted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional::unbudgeted_pounce_not_false_total",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional::pounce_off_valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::invalid_''",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::invalid_'-1'",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::invalid_'1.5'",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::changed_row_is_max",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::restore_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::extra_blank_invalid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::extra_included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "attr::remove_extra_on_restore",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::focus_first_input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::reject_empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::reject_duplicate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::save_and_close",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::left_and_rotation_sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::simulated_storage_restore",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy::fallback_or_success",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy::all_skills_names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy::current_key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "copy::rotation_names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "keys::reset_original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::budget_initial_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::resource_math",
+      "passed": true,
+      "detail": {
+        "valid": true,
+        "spirit": 120,
+        "life": 0,
+        "total": 200,
+        "confirmed": false
+      }
+    },
+    {
+      "name": "e01::final_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01::deficit_warning",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::budget_initial_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::resource_math",
+      "passed": true,
+      "detail": {
+        "valid": true,
+        "spirit": 150,
+        "life": 0,
+        "total": 200,
+        "confirmed": false
+      }
+    },
+    {
+      "name": "e04::final_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04::deficit_warning",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::budget_initial_unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::blank_life_still_invalid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::resource_math",
+      "passed": true,
+      "detail": {
+        "valid": true,
+        "spirit": 150,
+        "life": 20,
+        "total": 200,
+        "confirmed": false
+      }
+    },
+    {
+      "name": "e05::final_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05::life100_warning",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "search::focus_query",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "search::mechanic_result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "search::empty_result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "search::slash_shortcut",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary::idfilter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary::empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tree::filter_shock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tree::scope2_24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l01->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l02->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l03->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l04->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l05->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::l06->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e01->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e02->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e03->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e04->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e05->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->l01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->l02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->l03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->l04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->l05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->l06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::e06->e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare::all_pairs_no_exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare::crit_uber_exact",
+      "passed": true,
+      "detail": "\n\n原：冷却回复 II → 永续充能 → 快速施法 II\n\n新：冷却回复 II → 快速施法 II\n\n风舞者 辅助变化\n\n原：击退 → 致盲 II → 瘫痪\n\n新：击退 → 致盲 II → 瘫痪 → 阿兹里的圣礼\n\n魔力残片 新增\n\n原：本配置没有\n\n新：残片效能 III → 和谐残迹 II → 卡哈塔的复苏 → 达拉的渴望\n\n装备已导出词条变化\nWeapon1:0:0\n\n原：\n毁灭者之弓\n1. 暴击率 +3.1%（武器本地加值）\n2. 附加 16 至 28 点物理伤害（武器本地）\n3. 附加 40 至 62 点冰霜伤害（武器本地）\n4. 物理伤害提高 135%\n5. 所有投射物技能等级 +2\n\n新：\n寻战之弓\n1. 暴击率 +3.1%（武器本地加值）\n2. 附加 16 至 28 点物理伤害（武器本地）\n3. 附加 40 至 62 点冰霜伤害（武器本地）\n4. 物理伤害提高 135%\n5. 所有投射物技能等级 +2\n6. 暴击伤害加成提高 20%\n\nBelt1:0:0\n\n原：\n生皮腰带\n1. 最大生命 +150\n2. 力量 +31\n\n新：\n猎首（暗金；原文件没有完整词条）\n\nRing1:0:0\n\n原：\n三相戒指\n1. 最大生命 +120\n2. 附加 10 至 18 点物理伤害（攻击）\n3. 附加 16 至 25 点冰霜伤害（攻击）\n\n新：\n三相戒指\n1. 附加 1 至 48 点闪电伤害（攻击）\n2. 附加 10 至 18 点物理伤害（攻击）\n3. 附加 16 至 25 点冰霜伤害（攻击）\n\nRing2:0:0\n\n原：\n三相戒指\n1. 最大生命 +120\n2. 附加 10 至 18 点物理伤害（攻击）\n3. 附加 16 至 25 点冰霜伤害（攻击）\n\n新：\n三相戒指\n1. 附加 1 至 48 点闪电伤害（攻击）\n2. 附加 10 至 18 点物理伤害（攻击）\n3. 附加 16 至 25 点冰霜伤害（攻击）\n\nCharm1:2:0\n\n原：\n浸润咒符\n1. 充能获取提高 55%\n\n新：\n仪式通道（暗金；原文件没有完整词条）\n\n天赋分组差异\n\n集合比较去重仅用于差异显示，原件没有删除重复项。节点换组会一边移出一边移入，不能相加当洗点费用。\n\n公共：移出 19 / 移入 22\n武器组1：移出 12 / 移入 12\n武器组2：移出 0 / 移入 0\n升华：移出 0 / 移入 0"
+    },
+    {
+      "name": "compare::swap",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile::open_sidebar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mobile::close_sidebar",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "density::comfortable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "density::compact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "storage::corrupted_{broken",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage::corrupted_[]",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage::corrupted_null",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage::corrupted_{\"stages\": [], \"keys\": []}",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage::corrupted_{\"stages\": {\"l03\": {\"enabled\": [], \"profiles\": [],",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "storage::not_available_still_works",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "nojs::all12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "nojs::all_skill_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "nojs::all_attribute_references",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

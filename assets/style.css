@@ -8,3 +8,39 @@
 /* Compact desktop first view: spend height on complete skill links, not repeated banners. */
 @media(min-width:1121px){main{padding-top:12px}.page-head{margin-bottom:6px}.page-head h1{font-size:23px}.notice{margin:6px 0;padding:7px 10px}.profilebar{margin:7px 0 6px}.metrics{margin:6px 0}.local-nav{padding:3px 0 8px;gap:3px 12px}.skill-row{padding-top:6px;padding-bottom:6px}.rotation-section{padding-top:8px}.steps{gap:6px}.step p{line-height:1.5}}
 #profile-caption{font-size:11px;margin:4px 0 7px;line-height:1.45}#attribute-ledger .detail{padding-left:0;padding-right:0}
+/* R6: Fubgun's endgame crafting workbench. Existing C palette and stage layouts retained. */
+.craft-scope{display:flex;flex-wrap:wrap;gap:6px 14px;background:var(--skillBand);padding:10px 12px;border-left:3px solid var(--accent);border-radius:5px;font-size:12px;margin-bottom:12px}
+.craft-scope a{margin-left:auto;font-weight:700}.craft-choices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin-bottom:10px}.craft-choices a{display:flex;align-items:flex-start;gap:9px;padding:9px;border:1px solid var(--line);border-radius:7px;background:var(--panel);text-decoration:none;color:var(--ink);min-width:0}.craft-choices a b{font-size:12px}.craft-choices small{display:block;font-size:10.5px;color:var(--muted);line-height:1.5;margin-top:3px}.craft-choices a.active{background:var(--skillBand);border-color:var(--accent);box-shadow:inset 3px 0 var(--accent)}.craft-choice-num{font-size:11px;white-space:nowrap;line-height:1.8;font-weight:700;color:var(--accent)}
+.craft-title{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin:14px 0 10px}.craft-title h2{font-size:20px;margin:4px 0}.craft-title p{font-size:12px;margin:5px 0;max-width:760px}.craft-title>.badge{max-width:220px;flex-shrink:0;font-size:10px}.craft-workspace{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:12px;align-items:start}.craft-main,.craft-aside{min-width:0}.craft-aside .card-body{font-size:12px}.craft-material-links{margin:0;padding-left:17px;display:grid;grid-template-columns:1fr;gap:3px}.craft-material-links a{font-size:12px}.craft-steps{padding:2px 12px}.craft-step{padding:10px 0;border-bottom:1px solid var(--rule)}.craft-step:last-child{border-bottom:0}.craft-step-top{display:flex;gap:8px;align-items:flex-start}.craft-step-number{background:var(--accentBg);color:var(--accent);font-size:12px;font-weight:700;border-radius:4px;min-width:23px;height:23px;text-align:center;line-height:23px}.craft-step-top h3{font-size:14px;margin:1px 0 0}.craft-step-body{padding-left:31px}.craft-step-body p{font-size:12px;line-height:1.65;margin:5px 0}.craft-result{color:var(--ink)}.craft-risk{border-left:2px solid #B68A43;padding-left:8px;color:#71411E}.craft-refs{display:block;font-size:10.5px;line-height:1.6;color:var(--muted)}.craft-refs a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}.craft-glossary{display:grid;grid-template-columns:1fr 1fr;gap:7px;align-items:start}.craft-material{margin:0}.craft-material[hidden],.craft-recipe[hidden]{display:none!important}.craft-original{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;max-height:520px;overflow:auto}body[data-page="craft-all"] .craft-original{max-height:none}.craft-display-note{margin:3px 0}
+body[data-density="comfortable"] .craft-step-body p,body[data-density="comfortable"] .craft-aside .card-body{font-size:14px}
+@media(min-width:1550px){.craft-workspace{grid-template-columns:minmax(0,1fr) 330px}}
+@media(max-width:1150px){.craft-choices{grid-template-columns:repeat(2,minmax(0,1fr))}.craft-workspace{grid-template-columns:minmax(0,1fr) 255px}}
+@media(max-width:850px){.craft-workspace{grid-template-columns:1fr}.craft-aside{display:grid;grid-template-columns:1fr 1fr;gap:9px}.craft-title{flex-direction:column}.craft-title>.badge{max-width:none}.craft-material-links{grid-template-columns:1fr}}
+@media(max-width:550px){.craft-aside,.craft-glossary{grid-template-columns:1fr}.craft-choices a{gap:6px;padding:7px}.craft-choices a b{font-size:11px}.craft-choices small{font-size:10px}.craft-scope a{margin-left:0}.craft-step-body{padding-left:0}.craft-title h2{font-size:19px}}
+@media print{.craft-choices,.craft-display-note,.craft-scope a{display:none}.craft-recipe[hidden]{display:block!important}.craft-workspace{display:block}.craft-aside{display:block}.craft-recipe{break-before:page}.craft-step{break-inside:avoid}.craft-original{max-height:none;overflow:visible}.craft-risk{color:#583720}}
+
+/* R7: Early-first workbench, same C palette, desktop-focused compact rows. */
+.early-stage-nav{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px;margin:8px 0 13px}
+.early-stage-nav a{display:flex;align-items:center;padding:8px;border:1px solid var(--line);background:var(--panel);border-radius:5px;color:var(--ink);font-size:12px;line-height:1.4}
+.early-stage-nav a.active{background:var(--skillBand);border-color:var(--accent);box-shadow:inset 0 -3px var(--accent)}
+.early-overview{display:grid;grid-template-columns:1fr 340px;gap:16px;align-items:start;margin:9px 0}.early-overview h2{font-size:19px;margin:3px 0}.early-overview p{font-size:12px;margin:5px 0}
+.early-priority{border-left:3px solid var(--combatText);padding-left:10px;font-size:12px}
+.early-distinction{font-size:12px;background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:8px 10px;margin:9px 0}
+.early-item-nav{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 6px}
+.early-item-nav a{border:1px solid var(--line);padding:5px 11px;background:var(--panel);border-radius:5px;color:var(--ink);font-size:12px}
+.early-item-nav a.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.early-item-head{display:flex;align-items:center;gap:9px;margin:13px 0 9px}.early-item-head h2{font-size:17px}
+.early-workspace{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,1fr);gap:12px;align-items:start}
+.early-workspace>*,.early-panel{min-width:0}.early-readout .card-body{font-size:12px;line-height:1.6}
+.early-step{padding:7px 0;border-bottom:1px solid var(--rule)}.early-step:last-child{border:0}.early-step h3{font-size:14px;display:flex;align-items:center;gap:7px}
+.early-step h3 span{min-width:22px;line-height:22px;text-align:center;border-radius:4px;background:var(--accentBg);color:var(--accent);font-size:12px}
+.early-step p{font-size:12px;line-height:1.65;margin:5px 0 5px 29px}
+.early-caution{color:#71411E}
+.early-recipe-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:10px 0}
+.early-recipe-grid .mini-card{min-width:0;padding:10px}.early-recipe-grid .mini-card small{display:block;font-size:11px;color:var(--muted);margin-top:4px}.early-recipe-grid p{font-size:12px}
+.early-panel[hidden],.early-item[hidden]{display:none!important}
+body[data-density="comfortable"] .early-step p,body[data-density="comfortable"] .early-readout .card-body{font-size:14px}
+@media(max-width:1100px){.early-stage-nav{grid-template-columns:repeat(3,minmax(0,1fr))}.early-overview{grid-template-columns:1fr}.early-recipe-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:850px){.early-workspace{grid-template-columns:1fr}.early-readout{display:grid;grid-template-columns:1fr 1fr;gap:8px}.early-readout>details{grid-column:1/-1}}
+@media(max-width:550px){.early-stage-nav{grid-template-columns:repeat(2,minmax(0,1fr))}.early-readout{grid-template-columns:1fr}.early-step p{margin-left:0}.early-recipe-grid{grid-template-columns:1fr}.early-item-nav a{padding:6px 9px}.early-item-head{flex-wrap:wrap}}
+@media print{.early-stage-nav,.early-item-nav{display:none!important}.early-panel[hidden],.early-item[hidden]{display:block!important}.early-workspace,.early-overview{display:block}.early-item{break-before:page}.early-step{break-inside:avoid}.early-recipe-grid{display:block}}

@@ -1,0 +1,13 @@
+{
+  "file_failure": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_Early%E8%B5%B7%E6%AD%A5%E6%89%93%E9%80%A0_C_R7/craft.html\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_Early%E8%B5%B7%E6%AD%A5%E6%89%93%E9%80%A0_C_R7/craft.html\", waiting until \"load\"\n",
+  "mode": "inline_same_html_css_js",
+  "state": {
+    "stage": "early",
+    "item": "bow"
+  },
+  "errors": [],
+  "dimensions": {
+    "scroll": 1366,
+    "viewport": 1366
+  }
+}

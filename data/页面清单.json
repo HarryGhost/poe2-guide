@@ -1,5 +1,5 @@
 {
-  "version": "C全站阶段作业 · R5",
+  "version": "C全站阶段作业 · R7 / Fubgun Early起步打造",
   "pages": [
     "l01.html",
     "l02.html",
@@ -18,6 +18,9 @@
     "compare.html",
     "mechanics.html",
     "craft.html",
+    "craft-early-all.html",
+    "craft-advanced.html",
+    "craft-all.html",
     "rewards.html",
     "glossary.html",
     "reader.html",
@@ -38,6 +41,7 @@
     "e05.html",
     "e06.html"
   ],
-  "layout": "stage-workbook-r5",
-  "date": "2026-09-25"
+  "layout": "stage-workbook-r7",
+  "date": "2026-09-26",
+  "crafting": "Early 12 equipment lessons + 5 stages + preserved 8 advanced routes"
 }

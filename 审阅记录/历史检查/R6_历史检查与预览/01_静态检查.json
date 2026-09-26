@@ -1,0 +1,9196 @@
+{
+  "checks": [
+    {
+      "check": "保留原件 data/保留奖励记录.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/全站阶段与核算.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/全部分支逐项差异.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/六分支原始及中文映射.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/剧情练级结构数据.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/已核对辅助属性归类.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/当前词典.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 data/来源目录.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 原文资料/冰射锐眼-练级篇原文.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 原文资料/冰射锐眼-英文原文-Fubgun.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/01_Early.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/01_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/02_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/03_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/04_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/05_Uber_Endgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/05_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "保留原件 构筑文件/06_中文提示.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID all.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 all.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 all.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID compare.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 compare.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 compare.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 compare.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 compare.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → assets/catalog.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 compare.html → assets/compare.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID craft-all.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 craft-all.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #craft-basics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #craft-basics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #craft-materials",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #craft-materials",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #craft-other",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #craft-other",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #craft-extras",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #craft-extras",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #craft-coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #craft-coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-abrasion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-abrasion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-seeking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-seeking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-regal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-regal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-hysteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-hysteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-crystal-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-crystal-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-crystal-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-crystal-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-enhance-perfect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-enhance-perfect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-catalyst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-catalyst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-catalysing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-catalysing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-collar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-collar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-enhance-greater",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-enhance-greater",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-contempt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-contempt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-cranium",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-cranium",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-annul-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-annul-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #mat-ferocity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #mat-ferocity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → 原文资料/Fubgun_Crafting_Guide_中文操作版.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → 原文资料/Fubgun_Crafting_Guide_原文完整节选.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → data/Fubgun_异界后期打造.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft-all.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft-all.html → assets/crafting.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID craft.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 craft.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #craft-basics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #craft-basics",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #craft-materials",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #craft-materials",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #craft-other",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #craft-other",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #craft-extras",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #craft-extras",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #craft-coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #craft-coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-abrasion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-abrasion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-seeking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-seeking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-regal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-regal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-hysteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-hysteria",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-crystal-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-crystal-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-jaw",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-crystal-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-crystal-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-enhance-perfect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-enhance-perfect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-catalyst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-catalyst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-catalysing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-catalysing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-collar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-collar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-right",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-enhance-greater",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-enhance-greater",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-trans",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-aug",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-necro-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-rib",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-double",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-infuser",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-fracture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-chaos",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-contempt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-contempt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-cranium",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-cranium",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-echoes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-light",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-annul",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-annul-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-annul-left",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-exalt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #mat-ferocity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #mat-ferocity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e01.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e03.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e04.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → e05.html#gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → 原文资料/Fubgun_Crafting_Guide_中文操作版.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → 原文资料/Fubgun_Crafting_Guide_原文完整节选.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → data/Fubgun_异界后期打造.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 craft.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 craft.html → assets/crafting.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID e01.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 e01.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → craft.html#bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → craft.html#bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → craft.html#quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → craft.html#quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → compare.html?from=e01&to=e02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → all.html#e01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → all.html#e01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → 构筑文件/01_Early.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e01.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID e02.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 e02.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → craft.html#bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → craft.html#bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → craft.html#quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → craft.html#quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → compare.html?from=e02&to=e03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → all.html#e02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → all.html#e02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → 构筑文件/02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e02.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID e03.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 e03.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → craft.html#helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → craft.html#helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → compare.html?from=e03&to=e04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → all.html#e03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → all.html#e03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → 构筑文件/03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e03.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID e04.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 e04.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → craft.html#bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → craft.html#bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → craft.html#quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → craft.html#quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → craft.html#emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → craft.html#emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → compare.html?from=e04&to=e05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → all.html#e04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → all.html#e04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → 构筑文件/04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e04.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID e05.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 e05.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → craft.html#bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → craft.html#bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → craft.html#quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → craft.html#quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → craft.html#emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → craft.html#emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → compare.html?from=e04&to=e05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → all.html#e05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → all.html#e05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → 构筑文件/05_Uber_Endgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e05.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID e06.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 e06.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → craft.html#bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → craft.html#bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → craft.html#quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → craft.html#quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → craft.html#amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → craft.html#emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → craft.html#emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → sources.html#conflict",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → sources.html#conflict",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → all.html#e06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → all.html#e06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → 构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → sources.html#builds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 e06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 e06.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID glossary.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 glossary.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 glossary.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 glossary.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 glossary.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 glossary.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID index.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 index.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → compare.html?from=l03&to=l04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → all.html#l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → all.html#l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 index.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 index.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID l01.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 l01.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → compare.html?from=l01&to=l02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → all.html#l01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → all.html#l01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l01.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l01.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID l02.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 l02.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → compare.html?from=l02&to=l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → all.html#l02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → all.html#l02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l02.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l02.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID l03.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 l03.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → compare.html?from=l03&to=l04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → all.html#l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → all.html#l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l03.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l03.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID l04.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 l04.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → compare.html?from=l04&to=l05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → all.html#l04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → all.html#l04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l04.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l04.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID l05.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 l05.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → compare.html?from=l05&to=l06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → all.html#l05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → all.html#l05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l05.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l05.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID l06.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 l06.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #skills",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #gear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #attributes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #original",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → e01.html#tree",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → compare.html?from=l06&to=e01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → all.html#l06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → all.html#l06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 l06.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 l06.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID mechanics.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 mechanics.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #freeze",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #freeze",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #shock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #shock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #mana",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #mana",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #mark",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #mark",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #barrage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #barrage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #thorns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #thorns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #critical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #critical",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #gems",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #gems",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #meta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #meta",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #hybrid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #hybrid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #resist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #resist",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #reserve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #reserve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 mechanics.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 mechanics.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID reader.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 reader.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #r11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #r11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → 原文资料/Fubgun_Crafting_Guide_原文完整节选.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → 原文资料/冰射锐眼-练级篇原文.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → 原文资料/冰射锐眼-英文原文-Fubgun.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 reader.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 reader.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID rewards.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 rewards.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 rewards.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 rewards.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 rewards.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 rewards.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID roadmap.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 roadmap.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#l01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#l01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#l02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#l02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#l03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#l04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#l04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#l05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#l05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#l06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#l06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#e01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#e01",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#e02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#e02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#e03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#e03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#e04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#e04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#e05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#e05",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → all.html#e06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → all.html#e06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 roadmap.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 roadmap.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTML不重复ID sources.html",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "本地目标 sources.html → assets/style.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 sources.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/01_Early.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/01_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/02_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/03_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/04_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/05_Uber_Endgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/05_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → 构筑文件/06_中文提示.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/Fubgun_异界后期打造.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/保留奖励记录.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/全站阶段与核算.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/全部分支逐项差异.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/六分支原始及中文映射.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/剧情练级结构数据.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/已核对辅助属性归类.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/当前词典.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/来源目录.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → data/页面清单.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 sources.html → sources.html#limits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "锚点 sources.html → #main",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "本地目标 sources.html → assets/app.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "8个作者打造小节",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "42条操作分解",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "30个材料条目",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 bow-noncrit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-noncrit0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-noncrit1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-noncrit2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-noncrit3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 bow-crit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-crit0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-crit1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-crit2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 bow-crit3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 quiver-standard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-standard0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-standard1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-standard2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-standard3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-standard4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 quiver-advanced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-advanced0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-advanced1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-advanced2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-advanced3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 quiver-advanced4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 amulet6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 helmet-stable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-stable0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-stable1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-stable2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-stable3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-stable4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 helmet-random",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-random0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-random1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-random2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-random3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 helmet-random4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "对应原文片段 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "小节要素齐全 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "中文操作版覆盖 emerald",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "每步动作/结果/风险 emerald6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "源码可复现所有生成文件",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "total": 1838,
+  "passed": 1838
+}
