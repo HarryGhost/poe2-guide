@@ -1,3 +1,10 @@
+# R9当前维护入口
+
+全站重建：`python 源码/build.py`。R9按步操作数据：`generate_guided_data.py`；对应测试：`check_guided_r9.py`与`check_stage_regression_r9.py`。详见根目录“给DSH_更新说明.md”。
+
+---
+以下为继承的R8生成器说明，历史脚本的选择器断言不直接作为R9新打造页测试。
+
 # R8 可维护源码
 
 在完整解压目录中运行：`python 源码/build.py`。要求Python 3.12或更新版本；生成器仅依赖Python标准库，不需要联网。

@@ -1,0 +1,1703 @@
+{
+  "environment": "Chromium; original HTML and unchanged local CSS/JS bytes inlined in memory. Browser policy blocks localhost network. Real file/HTTP deployment and genuine localStorage persistence NOT tested. Unavailable-storage and clipboard fallbacks tested.",
+  "total": 339,
+  "passed": 339,
+  "failed": [],
+  "checks": [
+    {
+      "name": "l01/l1-14 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01/l1-14 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01/l1-14 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 监守弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 寻路者外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 毛毡帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 牢固护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 花边靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02/l2-23 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02/l2-23 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02/l2-23 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 反曲弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 蔽影背心",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 花边兜帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 缚革护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 浮雕靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03/l3-31 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03/l3-31 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03/l3-31 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 反曲弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 嵌饰背心",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 缠丝帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 截片护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 钢趾靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03/l3-24 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03/l3-24 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03/l3-24 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 反曲弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 蔽影背心",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 花边兜帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 缚革护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 浮雕靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04/l4-31 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04/l4-31 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04/l4-31 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 反曲弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 嵌饰背心",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 缠丝帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 截片护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 钢趾靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05/l5-42 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05/l5-42 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05/l5-42 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 狂热弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 蛇鳞外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 毒蝰帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 精纺护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 蜥鳞靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06/l6-60 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06/l6-60 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06/l6-60 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 狂热弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 蛇鳞外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 毒蝰帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 精纺护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 蜥鳞靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01/e1-60 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01/e1-60 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01/e1-60 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 狂热弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 蛇鳞外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 毒蝰帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 精纺护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 蜥鳞靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 箭袋：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 项链：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 腰带：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 戒指Ⅰ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 visible gear 戒指Ⅱ：不另带三维需求的普通底材黄装",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01/e1-80 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01/e1-80 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01/e1-80 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 毁灭者之弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 海盗外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 沙漠帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 宏伟护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 骑兵长靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 飞矢箭袋",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 星辉项链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 生皮腰带",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02/e2-80 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02/e2-80 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02/e2-80 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 毁灭者之弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 海盗外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 沙漠帽",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 宏伟护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 骑兵长靴",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 卡迪罗的赌局（原件箭袋）",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 星辉项链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 生皮腰带",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03/e3-80 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03/e3-80 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03/e3-80 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 毁灭者之弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 海盗外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 先祖冠冕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 宏伟护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 嵌刃便鞋",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 卡迪罗的赌局（原件箭袋）",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 星辉项链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 生皮腰带",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04/e4-80 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04/e4-80 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04/e4-80 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 毁灭者之弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 海盗外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 先祖冠冕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 宏伟护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 嵌刃便鞋",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 卡迪罗的赌局（原件箭袋）",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 星辉项链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 生皮腰带",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05/e5-80 displayed str",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05/e5-80 displayed dex",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05/e5-80 displayed int",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 two selectors synchronized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 one matching gear visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 gem summary follows profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 寻战之弓",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 海盗外套",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 先祖冠冕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 宏伟护腕",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 嵌刃便鞋",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 卡迪罗的赌局（原件箭袋）",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 星辉项链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 猎首（原件腰带）",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 visible gear 三相戒指",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 original samples initially collapsed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 gear selector drives hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 blank invalid, never zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 edits visibly marked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 blank reflected in gear",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 edited requirement applied",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 edited gear sync",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 reset edit marker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 all 12 stages linked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Early edge keeps noncrit, does not require ES",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "verified node jump opens records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "verified node jump filters exact id",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "remap key in skills and rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "clipboard unavailable has manual copy fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "manual copy contains actual remapped key",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "search includes worked examples",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "budget marks insufficient",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final-value confirmation required",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no storage permissions handled without crashing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional FrostBomb off by default",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "optional FrostBomb raises full int to41",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blank life reservation not counted as0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue-bow selected without gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "regal-or-essence selected without gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rare-bow selected without gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "armour-choice selected without gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "es-helmet selected without gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amulet-fracture selected without gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "physical arithmetic example 180 and196",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rate comparison does not assert winner",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "inverted range blocked",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "empty arithmetic stays incomplete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "printing shows all cases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "printing restores current case",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "later crafting always accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Early example entry exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "comparison works",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no JavaScript page errors",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

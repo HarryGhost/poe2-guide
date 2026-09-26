@@ -1,0 +1,4407 @@
+{
+  "version": "R9 / 打造照做版",
+  "date": "2026-09-26",
+  "default": "early-bow",
+  "phases": [
+    {
+      "id": "early",
+      "name": "01 Early起步"
+    },
+    {
+      "id": "mid",
+      "name": "02 非暴击补强"
+    },
+    {
+      "id": "hybrid",
+      "name": "03 混合防御"
+    },
+    {
+      "id": "crit",
+      "name": "04 暴击装备"
+    },
+    {
+      "id": "high",
+      "name": "05 高投入"
+    },
+    {
+      "id": "all",
+      "name": "全部路线"
+    }
+  ],
+  "materials": {
+    "trans": {
+      "id": "trans",
+      "zh": "高级／完美蜕变石",
+      "en": "Greater / Perfect Orb of Transmutation",
+      "effect": "白装变成带1条随机词缀的蓝装。高级/完美限定最低词缀等级44/70。",
+      "check": "最低词缀等级不是人物需求等级，也不等于必出T1；底材本身必须允许目标词条。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "aug": {
+      "id": "aug",
+      "zh": "高级／完美增幅石",
+      "en": "Greater / Perfect Orb of Augmentation",
+      "effect": "给未满词缀的蓝装增加1条随机词缀。高级/完美也有最低词缀等级限制。",
+      "check": "目标已是两词缀蓝装时不要继续增幅；魔法装备的前后缀空位分别核对。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "regal": {
+      "id": "regal",
+      "zh": "完美富豪石",
+      "en": "Perfect Regal Orb",
+      "effect": "把蓝装升级为黄装并加1条随机词缀；最低词缀等级50。",
+      "check": "不是保证T1、也不是加满6条。选强效精华升黄的路线，不先富豪。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "chaos": {
+      "id": "chaos",
+      "zh": "混沌石／高级混沌石",
+      "en": "Chaos Orb / Greater Chaos Orb",
+      "effect": "对黄装随机移除1条词缀，再增加1条；高级版本有新增词缀等级限制。",
+      "check": "不是只改最差词条，也不是PoE1那种整件全洗。先列出所有可能被移除的好词缀。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "exalt": {
+      "id": "exalt",
+      "zh": "高级／完美崇高石",
+      "en": "Greater / Perfect Exalted Orb",
+      "effect": "给黄装增加1条随机词缀；对应最低词缀等级35/50。",
+      "check": "先看剩余前缀、后缀与总空位；完美不等于完美成品。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "annul": {
+      "id": "annul",
+      "zh": "剥离石",
+      "en": "Orb of Annulment",
+      "effect": "随机移除一条可移除的词缀。",
+      "check": "无定向时可能删掉好词缀；破溃固定与其他特殊状态要先确认。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "abrasion": {
+      "id": "abrasion",
+      "zh": "强效磨蚀精华",
+      "en": "Greater Essence of Abrasion",
+      "effect": "将蓝装升黄；弓上获得物理点伤前缀。",
+      "check": "不是暴击精华；装备升黄后不能再按同一步骤使用另一颗强效精华。",
+      "source": "abrasion",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Abrasion"
+    },
+    "seeking": {
+      "id": "seeking",
+      "zh": "强效寻觅精华",
+      "en": "Greater Essence of Seeking",
+      "effect": "将蓝装升黄；弓上获得本地暴击率后缀。",
+      "check": "旧后缀若已占用相同词缀组，先核对是否还能添加，不要硬点。",
+      "source": "seeking",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Seeking"
+    },
+    "enhance-greater": {
+      "id": "enhance-greater",
+      "zh": "强效增强精华",
+      "en": "Greater Essence of Enhancement",
+      "effect": "头盔路线使用；魔法装备升稀有，并取得对应部位防御词缀。",
+      "check": "本中文名按数据库条目；不要与项链的完美强化精华混用。",
+      "source": "enhance-greater",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Enhancement"
+    },
+    "enhance-perfect": {
+      "id": "enhance-perfect",
+      "zh": "完美强化精华",
+      "en": "Perfect Essence of Enhancement",
+      "effect": "对稀有装备移除1条并加指定词缀；项链上为全局护甲、闪避、能量护盾提高20%–30%的前缀。",
+      "check": "原作者只简写enhancement；本稿根据项链与右旋结晶的操作规则消歧，仍须确认客户端物品提示。",
+      "source": "enhance-perfect",
+      "url": "https://poe2db.tw/cn/Perfect_Essence_of_Enhancement"
+    },
+    "hysteria": {
+      "id": "hysteria",
+      "zh": "浮夸精华",
+      "en": "Essence of Hysteria",
+      "effect": "对黄装随机移除并加入指定词缀；箭袋对应弓技能伤害前缀。",
+      "check": "不是任何部位都给弓伤害；左旋结晶仅约束移除侧，不保证其他好词缀永不丢失。",
+      "source": "hysteria",
+      "url": "https://poe2db.tw/cn/Essence_of_Hysteria"
+    },
+    "necro-left": {
+      "id": "necro-left",
+      "zh": "左旋死灵预兆",
+      "en": "Omen of Sinistral Necromancy",
+      "effect": "在背包激活后，下一次渎灵只添加前缀。",
+      "check": "先有可用前缀空间；它不保证出现冰伤、物理伤害或高阶词条。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "necro-right": {
+      "id": "necro-right",
+      "zh": "右旋死灵预兆",
+      "en": "Omen of Dextral Necromancy",
+      "effect": "在背包激活后，下一次渎灵只添加后缀。",
+      "check": "不要把左旋/右旋当成鼠标按键；这里是限制词缀种类。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "jaw": {
+      "id": "jaw",
+      "zh": "遗存颚骨／远古颚骨",
+      "en": "Preserved / Ancient Jawbone",
+      "effect": "武器或箭袋的渎灵材料。远古版本另有最低词缀等级限制。",
+      "check": "被啃噬的低阶版本有物品等级上限，不能默认为适用于作者ilvl75底材。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "rib": {
+      "id": "rib",
+      "zh": "遗存肋骨",
+      "en": "Preserved Rib",
+      "effect": "用于护甲的渎灵，例如护盾头。",
+      "check": "不要拿颚骨替代肋骨；是否有空位、能否再次渎灵按物品当前状态检查。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "collar": {
+      "id": "collar",
+      "zh": "遗存锁骨",
+      "en": "Preserved Collarbone",
+      "effect": "用于项链、戒指、腰带的渎灵。",
+      "check": "只能作用于对应部位；添加侧还受空位与已激活预兆影响。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "cranium": {
+      "id": "cranium",
+      "zh": "遗存头骨",
+      "en": "Preserved Cranium",
+      "effect": "用于珠宝的渎灵。",
+      "check": "该路线是基本珠宝，不是把同样工艺套给任意暗金或失落时空珠宝。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "echoes": {
+      "id": "echoes",
+      "zh": "深渊回响预兆",
+      "en": "Omen of Abyssal Echoes",
+      "effect": "在下一次显现渎灵词缀时，提供一次候选重掷机会。",
+      "check": "应在这次显现前安排；不是对已经确认的词条提高数值，也不是无限重掷。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "light": {
+      "id": "light",
+      "zh": "光明预兆",
+      "en": "Omen of Light",
+      "effect": "使下一颗剥离石只移除渎灵词缀。",
+      "check": "还要实际使用剥离石；目标没有渎灵词缀时，不能拿它安全删除任意普通坏词缀。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "double": {
+      "id": "double",
+      "zh": "强效崇高预兆",
+      "en": "Omen of Greater Exaltation",
+      "effect": "下一次崇高操作增加两条随机词缀。",
+      "check": "先确认两条词缀都有合法空位；不能解释成两条都是目标属性。",
+      "source": "double-exalt",
+      "url": "https://poe2db.tw/cn/Omen_of_Greater_Exaltation"
+    },
+    "exalt-right": {
+      "id": "exalt-right",
+      "zh": "右旋崇高预兆",
+      "en": "Omen of Dextral Exaltation",
+      "effect": "使下一次崇高操作只增加后缀。",
+      "check": "后缀已满不能继续；新增是什么仍受词缀池决定。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "annul-left": {
+      "id": "annul-left",
+      "zh": "左旋剥离预兆",
+      "en": "Omen of Sinistral Annulment",
+      "effect": "使下一次剥离只移除前缀。",
+      "check": "有多条可移除前缀就仍可能删错；不等于“选中某条删除”。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "crystal-left": {
+      "id": "crystal-left",
+      "zh": "左旋结晶预兆",
+      "en": "Omen of Sinistral Crystallisation",
+      "effect": "下一颗完美或腐化精华只移除前缀。",
+      "check": "作者“essence of sinistral crystal”是简写混称，这件是预兆，不是另一颗精华。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "crystal-right": {
+      "id": "crystal-right",
+      "zh": "右旋结晶预兆",
+      "en": "Omen of Dextral Crystallisation",
+      "effect": "下一颗完美或腐化精华只移除后缀。",
+      "check": "不要配普通/强效蓝装升黄精华；移除侧与新增词缀所在侧可以不同。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "catalyst": {
+      "id": "catalyst",
+      "zh": "Tul／Xoph／Esh对应元素催化剂",
+      "en": "Tul’s / Xoph’s / Esh’s Catalyst",
+      "effect": "作者项链路线先补到20%对应催化品质，再利用催化崇高提高相应词缀机会。",
+      "check": "这里保留原文三种英文消歧；不是随便一种品质材料。国服显示名与目标元素以物品提示核对。",
+      "source": "currency",
+      "url": "https://poe2db.tw/cn/Stackable_Currency"
+    },
+    "catalysing": {
+      "id": "catalysing",
+      "zh": "催化崇高预兆",
+      "en": "Omen of Catalysing Exaltation",
+      "effect": "下一次崇高消耗全部催化剂品质，提高对应类型词缀出现机会。",
+      "check": "每次消耗后要重新补品质；不是上一轮20%能供后两轮一直用，也不保证抗性。",
+      "source": "omens",
+      "url": "https://poe2db.tw/cn/Omen"
+    },
+    "fracture": {
+      "id": "fracture",
+      "zh": "破溃宝珠",
+      "en": "Fracturing Orb",
+      "effect": "在至少4词缀的黄装上随机锁定一条词缀，之后它不能被普通方式改动。",
+      "check": "作者“1/3破溃”不能脱离物品词缀数直接套用；可改为购买已锁好关键属性的底材。",
+      "source": "fracture",
+      "url": "https://poe2db.tw/cn/Fracturing_Orb"
+    },
+    "infuser": {
+      "id": "infuser",
+      "zh": "瓦尔护甲师注能装置",
+      "en": "Vaal Armourer’s Infuser",
+      "effect": "用于护甲品质收尾，可超过通常品质上限，存在腐化可能。",
+      "check": "本稿按头盔语境对应此物品；不是普通腐化宝珠。先完成可做的孔位和词缀，腐化可能限制后续修改。",
+      "source": "infuser",
+      "url": "https://poe2db.tw/cn/Vaal_Armourers_Infuser"
+    },
+    "contempt": {
+      "id": "contempt",
+      "zh": "强效的液化轻蔑",
+      "en": "Potent Liquid Contempt",
+      "effect": "对稀有基本珠宝随机移除一条，增加“允许的后缀+1”或“允许的前缀+1”等对应工艺词缀。",
+      "check": "加什么侧、删除什么，必须看当前状态；不要把普通4词缀珠宝直接当作5词缀珠宝。",
+      "source": "delirium",
+      "url": "https://poe2db.tw/cn/Delirium_Stash_Tab"
+    },
+    "ferocity": {
+      "id": "ferocity",
+      "zh": "强效的液化凶残",
+      "en": "Potent Liquid Ferocity",
+      "effect": "对稀有基本珠宝随机移除一条，增加提高另一侧词缀效果的对应工艺词缀。",
+      "check": "可能删除刚洗出的好词缀；作者50/50表述不是本稿已模拟的通用成功率。",
+      "source": "delirium",
+      "url": "https://poe2db.tw/cn/Delirium_Stash_Tab"
+    },
+    "normal-trans": {
+      "id": "normal-trans",
+      "zh": "蜕变石",
+      "en": "Orb of Transmutation",
+      "effect": "白色普通装备变为蓝色，并加1条随机词缀。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Orb_of_Transmutation",
+      "source": "currency"
+    },
+    "normal-aug": {
+      "id": "normal-aug",
+      "zh": "增幅石",
+      "en": "Orb of Augmentation",
+      "effect": "给有空位的蓝装加1条随机词缀；不重掷已有词缀。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Orb_of_Augmentation",
+      "source": "currency"
+    },
+    "normal-regal": {
+      "id": "normal-regal",
+      "zh": "富豪石",
+      "en": "Regal Orb",
+      "effect": "蓝装变黄装，并增加1条随机词缀。不是补满全部。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Regal_Orb",
+      "source": "currency"
+    },
+    "normal-exalt": {
+      "id": "normal-exalt",
+      "zh": "崇高石",
+      "en": "Exalted Orb",
+      "effect": "给有合法空位的黄装增加1条随机词缀，不保证类别。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Exalted_Orb",
+      "source": "currency"
+    },
+    "wisdom": {
+      "id": "wisdom",
+      "zh": "知识卷轴",
+      "en": "Scroll of Wisdom",
+      "effect": "鉴定未鉴定的物品；先看清词缀，才决定是否加工。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Scroll_of_Wisdom",
+      "source": "currency"
+    },
+    "perfect-regal": {
+      "id": "perfect-regal",
+      "zh": "完美富豪石",
+      "en": "Perfect Regal Orb",
+      "effect": "蓝装升黄并加1条随机词缀；最低词缀等级不等于必出顶级。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Perfect_Regal_Orb",
+      "source": "currency"
+    },
+    "perfect-exalt": {
+      "id": "perfect-exalt",
+      "zh": "完美崇高石",
+      "en": "Perfect Exalted Orb",
+      "effect": "给黄装加1条随机词缀；不是完美成品保证。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Perfect_Exalted_Orb",
+      "source": "currency"
+    },
+    "greater-exalt": {
+      "id": "greater-exalt",
+      "zh": "高级崇高石",
+      "en": "Greater Exalted Orb",
+      "effect": "给黄装加1条随机词缀；最低词缀等级限制另看材料提示。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Greater_Exalted_Orb",
+      "source": "currency"
+    },
+    "greater-chaos": {
+      "id": "greater-chaos",
+      "zh": "高级混沌石",
+      "en": "Greater Chaos Orb",
+      "effect": "随机删1条再加1条。也会删掉你想保留的未固定好属性。",
+      "check": "读取完整物品提示；普通、强效/高级、完美不能只按图标互换。",
+      "url": "https://poe2db.tw/cn/Greater_Chaos_Orb",
+      "source": "currency"
+    },
+    "tul": {
+      "id": "tul",
+      "zh": "托沃催化剂",
+      "en": "Tul's Catalyst",
+      "effect": "给戒指或项链添加冰霜类别催化品质；会取代其他催化品质。",
+      "check": "要配合催化崇高时，按该步骤先补到20%，每次消耗后需重新补。提高该类出现机会不保证抗性。",
+      "url": "https://poe2db.tw/cn/Tuls_Catalyst",
+      "source": "currency"
+    },
+    "xoph": {
+      "id": "xoph",
+      "zh": "索伏催化剂",
+      "en": "Xoph's Catalyst",
+      "effect": "给戒指或项链添加火焰类别催化品质；会取代其他催化品质。",
+      "check": "要配合催化崇高时，按该步骤先补到20%，每次消耗后需重新补。提高该类出现机会不保证抗性。",
+      "url": "https://poe2db.tw/cn/Xophs_Catalyst",
+      "source": "currency"
+    },
+    "esh": {
+      "id": "esh",
+      "zh": "艾许催化剂",
+      "en": "Esh's Catalyst",
+      "effect": "给戒指或项链添加闪电类别催化品质；会取代其他催化品质。",
+      "check": "要配合催化崇高时，按该步骤先补到20%，每次消耗后需重新补。提高该类出现机会不保证抗性。",
+      "url": "https://poe2db.tw/cn/Eshs_Catalyst",
+      "source": "currency"
+    },
+    "normal-chaos": {
+      "id": "normal-chaos",
+      "zh": "混沌石",
+      "en": "Chaos Orb",
+      "effect": "随机删除稀有装备1条可修改词缀，再增加1条随机词缀。",
+      "check": "不是只删除坏属性；只有明确只剩一个可修改词缀时，才能限定被替换的对象。",
+      "url": "https://poe2db.tw/cn/Chaos_Orb",
+      "source": "currency"
+    },
+    "preserved-jaw": {
+      "id": "preserved-jaw",
+      "zh": "遗存颚骨",
+      "en": "Preserved Jawbone",
+      "effect": "给符合条件的稀有武器或箭袋增加未显现的渎灵词缀。",
+      "check": "需合法词缀空位；不要把其他部位的骸骨、低阶啃噬颚骨或已显现词缀当作相同状态。",
+      "url": "https://poe2db.tw/cn/Preserved_Jawbone",
+      "source": "currency"
+    }
+  },
+  "routes": [
+    {
+      "id": "early-bow",
+      "title": "弓",
+      "phases": [
+        "early"
+      ],
+      "goal": "本地物理伤害提高 / 附加物理伤害 / 附加冰霜伤害；再看攻击速度",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-bow",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是弓。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看弓的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：本地物理伤害提高 / 附加物理伤害 / 附加冰霜伤害；再看攻击速度。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "法术伤害、荆棘不是弓攻击点伤",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色弓，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用弓一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“物理伤害提高”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色弓，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用弓一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“物理伤害提高”，新增“攻击速度提高”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色弓，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用弓一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用弓一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "同时比较弓上方物理/冰伤范围与每秒攻击次数；同一技能、同一组辅助试同档地图，检查冻结与耗蓝。不是只比＋等级。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "物理伤害提高",
+        "攻击速度提高"
+      ],
+      "avoid": "法术伤害、荆棘不是弓攻击点伤",
+      "alternative": "bow-noncrit"
+    },
+    {
+      "id": "early-quiver",
+      "title": "箭袋",
+      "phases": [
+        "early"
+      ],
+      "goal": "攻击附加物理/冰霜伤害、弓技能伤害；后缀看攻速或投射物等级",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-quiver",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是箭袋。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看箭袋的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：攻击附加物理/冰霜伤害、弓技能伤害；后缀看攻速或投射物等级。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "Early尚未转暴击时，不只为暴击伤害数字投入材料",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色箭袋，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用箭袋一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“攻击附加冰霜伤害”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色箭袋，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用箭袋一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“攻击附加冰霜伤害”，新增“攻击速度提高”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色箭袋，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用箭袋一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用箭袋一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "换上前后查看同一主技能；点伤、攻速、等级都要看。投射物速度不自动等于伤害，需对应天赋。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "攻击附加冰霜伤害",
+        "攻击速度提高"
+      ],
+      "avoid": "Early尚未转暴击时，不只为暴击伤害数字投入材料",
+      "alternative": "quiver-standard"
+    },
+    {
+      "id": "early-body",
+      "title": "衣服",
+      "phases": [
+        "early"
+      ],
+      "goal": "先最终物品闪避，再保住生命和实际缺少的抗性",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-body",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是衣服。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看衣服的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：先最终物品闪避，再保住生命和实际缺少的抗性。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "荆棘不增加冰射伤害；不要把所有防御换成一条输出",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色衣服，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用衣服一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“最大生命”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色衣服，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用衣服一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“最大生命”，新增“火焰/冰霜/闪电抗性中你缺的那项”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色衣服，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用衣服一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用衣服一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "先记下人物生命和三抗。换上后重新检查，再比较衣服上方最终闪避；不为多一点闪避损失必需抗性。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "最大生命",
+        "火焰/冰霜/闪电抗性中你缺的那项"
+      ],
+      "avoid": "荆棘不增加冰射伤害；不要把所有防御换成一条输出"
+    },
+    {
+      "id": "early-helmet",
+      "title": "Early头盔",
+      "phases": [
+        "early"
+      ],
+      "goal": "生命、抗性、合适闪避；03转型才另做高护盾头",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-helmet",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是Early头盔。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看Early头盔的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：生命、抗性、合适闪避；03转型才另做高护盾头。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "不用因为后面要护盾，就在Early先穿低防御的护盾底材",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色Early头盔，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用Early头盔一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“最大生命”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色Early头盔，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用Early头盔一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“最大生命”，新增“你目前缺少的抗性”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色Early头盔，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用Early头盔一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用Early头盔一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "比较人物生命、三抗和最终物品防御；保持技能需求满足，别把03的护盾目标作为Early入场门槛。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "最大生命",
+        "你目前缺少的抗性"
+      ],
+      "avoid": "不用因为后面要护盾，就在Early先穿低防御的护盾底材",
+      "alternative": "helmet-stable"
+    },
+    {
+      "id": "early-gloves",
+      "title": "手套",
+      "phases": [
+        "early"
+      ],
+      "goal": "攻击附加物理/冰伤、生命、抗性；再看攻速",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-gloves",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是手套。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看手套的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：攻击附加物理/冰伤、生命、抗性；再看攻速。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "法术附加伤害不是攻击附加伤害",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色手套，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用手套一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“攻击附加物理或冰霜伤害”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色手套，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用手套一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“攻击附加物理或冰霜伤害”，新增“攻击速度提高或你缺的抗性”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色手套，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用手套一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用手套一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "输出改善但缺力量/智慧使辅助失效，不算升级；换装后看技能是否仍可用。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "攻击附加物理或冰霜伤害",
+        "攻击速度提高或你缺的抗性"
+      ],
+      "avoid": "法术附加伤害不是攻击附加伤害"
+    },
+    {
+      "id": "early-boots",
+      "title": "鞋子",
+      "phases": [
+        "early"
+      ],
+      "goal": "先移动速度，再生命与抗性",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-boots",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是鞋子。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看鞋子的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：先移动速度，再生命与抗性。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "不要丢掉跑动能力，只为多一条用不到的词缀",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色鞋子，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用鞋子一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“移动速度提高”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色鞋子，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用鞋子一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“移动速度提高”，新增“当前缺少的抗性”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色鞋子，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用鞋子一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用鞋子一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "换上后比较人物移动速度、生命、三抗；先解决跑动，再补齐防御。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "移动速度提高",
+        "当前缺少的抗性"
+      ],
+      "avoid": "不要丢掉跑动能力，只为多一条用不到的词缀"
+    },
+    {
+      "id": "early-amulet",
+      "title": "Early项链",
+      "phases": [
+        "early"
+      ],
+      "goal": "先满足精魂和缺少的属性，再追投射物技能等级",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-amulet",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是Early项链。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看Early项链的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：先满足精魂和缺少的属性，再追投射物技能等级。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "不是所有Early项链都要先做＋3破溃",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色Early项链，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用Early项链一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“精魂”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色Early项链，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用Early项链一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“精魂”，新增“缺少的力量/敏捷/智慧”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色Early项链，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用Early项链一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用Early项链一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "以装好辅助后的最终保留为准；检查常驻、技能需求与抗性，不因为多＋1级就丢失必需精魂。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "精魂",
+        "缺少的力量/敏捷/智慧"
+      ],
+      "avoid": "不是所有Early项链都要先做＋3破溃",
+      "alternative": "amulet"
+    },
+    {
+      "id": "early-belt",
+      "title": "腰带",
+      "phases": [
+        "early"
+      ],
+      "goal": "生命、力量、缺少的抗性",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-belt",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是腰带。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看腰带的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：生命、力量、缺少的抗性。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "先用黄腰带；猎首不是启动条件",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色腰带，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用腰带一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“最大生命”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色腰带，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用腰带一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“最大生命”，新增“力量或缺少的抗性”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色腰带，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用腰带一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用腰带一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "换装后看力量是否还能撑住装备和辅助，再看生命与抗性。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "最大生命",
+        "力量或缺少的抗性"
+      ],
+      "avoid": "先用黄腰带；猎首不是启动条件"
+    },
+    {
+      "id": "early-rings",
+      "title": "戒指",
+      "phases": [
+        "early"
+      ],
+      "goal": "缺少的抗性/属性优先，同时寻找生命和攻击附加物理/冰伤",
+      "start": "挑当前能穿的备用装备；可自己捡，也可用自刷通货买合适蓝底。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-rings",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先拿备用装备，不点材料",
+          "before": "当前想改善的是戒指。现用装备留着；备用物品已鉴定、能装备，未腐化、未镜像，没有未弄清的特殊词缀。",
+          "action": [
+            "在背包看戒指的名称颜色。蓝装看词缀分组，黄装先看是否已有升级。",
+            "保留目标：缺少的抗性/属性优先，同时寻找生命和攻击附加物理/冰伤。",
+            "在“手里是什么状态”里跳到对应一步。已有合适黄装可以直接看最后验收。"
+          ],
+          "expect": "你知道现在是白装、蓝装1条、蓝装2条，还是有空位的黄装。",
+          "good": "当前颜色和词缀状态能确认，才看对应材料。",
+          "bad": "看不清前后缀时先展开“怎么认装备”；未鉴定先鉴定。别拿唯一能用的装备练手。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "两枚戒指可以分工，不必同样输出词条",
+          "next": "white"
+        },
+        {
+          "id": "white",
+          "title": "只有白装：蜕变一次",
+          "before": "普通白色戒指，有意保留该底材；没有要保住的蓝/黄词缀。",
+          "action": [
+            "右键【蜕变石】→左键备用戒指一次。不要按住Shift连续使用。"
+          ],
+          "expect": "装备变蓝，增加1条随机词缀。",
+          "good": "出现“最大生命或攻击附加冰霜伤害”等本路线目标词缀：看下一步增幅。",
+          "bad": "没出现当前需要的词缀：这次先停，另找合适底材或直接买蓝装。不要继续点蜕变试图重洗。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "白装起步是可选的。已有好蓝装不必退回白装。",
+          "next": "augment"
+        },
+        {
+          "id": "augment",
+          "title": "蓝装只有1条：增幅一次",
+          "before": "普通蓝色戒指，只有1条你准备保留的随机词缀；另一侧有空位。",
+          "action": [
+            "右键【增幅石】→左键备用戒指一次；点完把鼠标移回装备，读新属性。"
+          ],
+          "expect": "仍是蓝装，变成两条随机词缀（普通情况下一前一后）。",
+          "good": "例如保留“最大生命或攻击附加冰霜伤害”，新增“当前缺少的抗性”，且对当前配置有帮助：看下一步。",
+          "bad": "新增属性不合用，或者材料不能使用：停止追加；检查是否已有两条、腐化/镜像或词缀组限制。不要用贵材料试错。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [
+            [
+              "已有随机词缀",
+              "要保住的一条"
+            ],
+            [
+              "另一侧",
+              "空"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "已有随机词缀",
+              "保留"
+            ],
+            [
+              "新增随机词缀",
+              "看实际结果"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "前后缀按高级说明分组看，不是数屏幕文字行。",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "蓝装两条都满意：富豪一次",
+          "before": "蓝色戒指，恰好两条随机词缀都对当前配置有用；你决定走普通加词缀路线。",
+          "action": [
+            "先决定升黄方式：若准备使用适用的蓝装升黄精华，就不要在此点富豪。",
+            "决定走普通路线后：右键【富豪石】→左键备用戒指一次。"
+          ],
+          "expect": "装备变黄，在原有两条外增加1条随机词缀。",
+          "good": "不要求第三条必定好。只要整件已经能改善当前配置，可以直接停在这里验收。",
+          "bad": "第三条不满意：保留原来的好属性，不立刻混沌/剥离。后两种材料会随机删除好词缀。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [
+            [
+              "前缀",
+              "1条"
+            ],
+            [
+              "后缀",
+              "1条"
+            ]
+          ],
+          "stateAfter": [
+            [
+              "随机词缀合计",
+              "3条"
+            ],
+            [
+              "前后缀分配",
+              "以结果为准"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "富豪与“将魔法升级为稀有”的精华是分岔，不是先后连招。",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "黄装还想补一条：崇高一次（可跳过）",
+          "before": "普通黄装，有合法空位；现有词缀已值得保留，预算允许随机补1条。不是要求所有装备都做满。",
+          "action": [
+            "先核对剩余前缀/后缀；需要的属性必须还能在空位侧生成。",
+            "没有误开的双加或定向预兆时：右键普通【崇高石】→左键备用戒指一次。"
+          ],
+          "expect": "随机词缀增加1条；不是把已有数值提高。",
+          "good": "当前需求得到改善就停止；仍有空位不代表必须继续投入。",
+          "bad": "目标侧已满就不要点。结果一般也不紧接混沌“修一下”；在这件上停手，再比较旧装。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "普通装备通常最多3前缀＋3后缀；不适用于珠宝、药剂或特殊扩容物品。",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "换上试用；不用凑满六条",
+          "before": "暂时停止加工，先确认新装备没有让属性需求或技能失效。",
+          "action": [
+            "换一枚就复查一次人物三抗和属性；若输出提升却让关键技能失效，先不换。",
+            "在当前能稳定完成的地图比较；确认改善后，旧装备继续保留一段时间。"
+          ],
+          "expect": "输出/生存/资源中至少解决实际缺口，其他关键条件仍满足。",
+          "good": "这轮结束。以后想进阶，再读对应作者工艺，不必现在全做。",
+          "bad": "没有改善就换回原装；不是“材料已经花了，所以必须穿新装”。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "这是一套基础加工教学，不是作者对每个部位给出的确定性成品配方。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选好装备",
+          "step": "ready"
+        },
+        {
+          "label": "白装，想试一次",
+          "step": "white"
+        },
+        {
+          "label": "蓝装只有1条",
+          "step": "augment"
+        },
+        {
+          "label": "蓝装已有2条",
+          "step": "regal"
+        },
+        {
+          "label": "黄装，还有空位",
+          "step": "exalt"
+        },
+        {
+          "label": "已有成品，先比较",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "helpful": [
+        "最大生命或攻击附加冰霜伤害",
+        "当前缺少的抗性"
+      ],
+      "avoid": "两枚戒指可以分工，不必同样输出词条"
+    },
+    {
+      "id": "early-flasks",
+      "title": "生命／魔力药剂",
+      "phases": [
+        "early"
+      ],
+      "goal": "选当前等级可用的基础药剂；核对回复量、持续时间、充能消耗。先解决实战回复。",
+      "start": "自己掉落或预算内购买功能正确的底材/成品。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-flasks",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先选功能，不先花钱升级颜色",
+          "before": "保留现用品，确认新物品的需求与类型。暗金/特殊珠宝不走这条。",
+          "action": [
+            "选当前等级可用的基础药剂；核对回复量、持续时间、充能消耗。先解决实战回复。",
+            "未鉴定先用知识卷轴；白色可选蜕变，蓝色有空位才考虑增幅。"
+          ],
+          "expect": "物品功能能解决自己的缺口，能装备/镶嵌。",
+          "good": "再选择下一步。",
+          "bad": "用途不对就换底材，不为颜色投入材料。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "trans"
+        },
+        {
+          "id": "trans",
+          "title": "白色普通物品：蜕变一次",
+          "before": "物品是普通白色，材料明确允许使用。",
+          "action": [
+            "右键【蜕变石】→左键这件备用物品一次。"
+          ],
+          "expect": "变蓝并新增1条随机词缀。",
+          "good": "看是否符合功能目标；有价值再补另一条。",
+          "bad": "新增不合用就停，不继续重复蜕变。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "aug"
+        },
+        {
+          "id": "aug",
+          "title": "蓝色还有空位：增幅一次",
+          "before": "普通蓝色物品仅有1条随机词缀，材料可用。",
+          "action": [
+            "右键【增幅石】→左键备用物品一次。"
+          ],
+          "expect": "新增1条随机词缀，读完整说明确认用途。",
+          "good": "功能更好就先用，不要求和作者数值一模一样。",
+          "bad": "已有2条或被限制使用就停。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "功能正常就结束",
+          "before": "先不再加工，检查是否可以实际使用。",
+          "action": [
+            "换到正确位置，检查实际功能和需求。",
+            "记得原物品保留；新物品没解决问题就换回。"
+          ],
+          "expect": "当前功能更可靠，而不是单纯颜色变化。",
+          "good": "这一轮可以结束。",
+          "bad": "不要把与功能无关的高数值当成升级。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "finish",
+          "note": "药剂、咒符通常停留在魔法品质；不要照防具流程用富豪/崇高升黄。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "先核对类型",
+          "step": "ready"
+        },
+        {
+          "label": "白色物品",
+          "step": "trans"
+        },
+        {
+          "label": "蓝色1条",
+          "step": "aug"
+        },
+        {
+          "label": "直接验收",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "不套用普通装备的三前缀三后缀规则。",
+      "helpful": []
+    },
+    {
+      "id": "early-charms",
+      "title": "咒符",
+      "phases": [
+        "early"
+      ],
+      "goal": "选需要防的异常：冻结看融冰咒符，减速看真银咒符，点燃看浸润咒符；以物品说明为准。",
+      "start": "自己掉落或预算内购买功能正确的底材/成品。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-charms",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先选功能，不先花钱升级颜色",
+          "before": "保留现用品，确认新物品的需求与类型。暗金/特殊珠宝不走这条。",
+          "action": [
+            "选需要防的异常：冻结看融冰咒符，减速看真银咒符，点燃看浸润咒符；以物品说明为准。",
+            "未鉴定先用知识卷轴；白色可选蜕变，蓝色有空位才考虑增幅。"
+          ],
+          "expect": "物品功能能解决自己的缺口，能装备/镶嵌。",
+          "good": "再选择下一步。",
+          "bad": "用途不对就换底材，不为颜色投入材料。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "trans"
+        },
+        {
+          "id": "trans",
+          "title": "白色普通物品：蜕变一次",
+          "before": "物品是普通白色，材料明确允许使用。",
+          "action": [
+            "右键【蜕变石】→左键这件备用物品一次。"
+          ],
+          "expect": "变蓝并新增1条随机词缀。",
+          "good": "看是否符合功能目标；有价值再补另一条。",
+          "bad": "新增不合用就停，不继续重复蜕变。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "aug"
+        },
+        {
+          "id": "aug",
+          "title": "蓝色还有空位：增幅一次",
+          "before": "普通蓝色物品仅有1条随机词缀，材料可用。",
+          "action": [
+            "右键【增幅石】→左键备用物品一次。"
+          ],
+          "expect": "新增1条随机词缀，读完整说明确认用途。",
+          "good": "功能更好就先用，不要求和作者数值一模一样。",
+          "bad": "已有2条或被限制使用就停。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "功能正常就结束",
+          "before": "先不再加工，检查是否可以实际使用。",
+          "action": [
+            "换到正确位置，检查实际功能和需求。",
+            "记得原物品保留；新物品没解决问题就换回。"
+          ],
+          "expect": "当前功能更可靠，而不是单纯颜色变化。",
+          "good": "这一轮可以结束。",
+          "bad": "不要把与功能无关的高数值当成升级。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "finish",
+          "note": "药剂、咒符通常停留在魔法品质；不要照防具流程用富豪/崇高升黄。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "先核对类型",
+          "step": "ready"
+        },
+        {
+          "label": "白色物品",
+          "step": "trans"
+        },
+        {
+          "label": "蓝色1条",
+          "step": "aug"
+        },
+        {
+          "label": "直接验收",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "不套用普通装备的三前缀三后缀规则。",
+      "helpful": []
+    },
+    {
+      "id": "early-jewels",
+      "title": "普通珠宝",
+      "phases": [
+        "early"
+      ],
+      "goal": "Early先找当前攻击可用的伤害、攻速或击杀回蓝等功能；并非所有词条都出现在所有珠宝底材。",
+      "start": "自己掉落或预算内购买功能正确的底材/成品。",
+      "sourceLabel": "Fubgun装备目标＋本站基础操作说明",
+      "reference": "craft-reference.html#early-jewels",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先选功能，不先花钱升级颜色",
+          "before": "保留现用品，确认新物品的需求与类型。暗金/特殊珠宝不走这条。",
+          "action": [
+            "Early先找当前攻击可用的伤害、攻速或击杀回蓝等功能；并非所有词条都出现在所有珠宝底材。",
+            "未鉴定先用知识卷轴；白色可选蜕变，蓝色有空位才考虑增幅。"
+          ],
+          "expect": "物品功能能解决自己的缺口，能装备/镶嵌。",
+          "good": "再选择下一步。",
+          "bad": "用途不对就换底材，不为颜色投入材料。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "trans"
+        },
+        {
+          "id": "trans",
+          "title": "白色普通物品：蜕变一次",
+          "before": "物品是普通白色，材料明确允许使用。",
+          "action": [
+            "右键【蜕变石】→左键这件备用物品一次。"
+          ],
+          "expect": "变蓝并新增1条随机词缀。",
+          "good": "看是否符合功能目标；有价值再补另一条。",
+          "bad": "新增不合用就停，不继续重复蜕变。",
+          "materials": [
+            "normal-trans"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "aug"
+        },
+        {
+          "id": "aug",
+          "title": "蓝色还有空位：增幅一次",
+          "before": "普通蓝色物品仅有1条随机词缀，材料可用。",
+          "action": [
+            "右键【增幅石】→左键备用物品一次。"
+          ],
+          "expect": "新增1条随机词缀，读完整说明确认用途。",
+          "good": "功能更好就先用，不要求和作者数值一模一样。",
+          "bad": "已有2条或被限制使用就停。",
+          "materials": [
+            "normal-aug"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "两条都值得保留：富豪一次",
+          "before": "普通蓝色基本珠宝；不是暗金/失落时空珠宝；当前两条都有用。",
+          "action": [
+            "右键【富豪石】→左键珠宝一次。"
+          ],
+          "expect": "变黄并增加1条随机词缀。",
+          "good": "三个有效词缀已可先用。",
+          "bad": "一般的结果不立刻混沌，避免删掉已有好属性。",
+          "materials": [
+            "normal-regal"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "exalt"
+        },
+        {
+          "id": "exalt",
+          "title": "普通黄珠宝3条：可补第4条",
+          "before": "普通稀有基本珠宝，当前3条，仍有合法一侧空位。普通上限4，不套防具的6条。",
+          "action": [
+            "右键普通【崇高石】→左键珠宝一次。"
+          ],
+          "expect": "增加第4条随机词缀。",
+          "good": "适用词条够用就结束。",
+          "bad": "已4条或目标侧满了就不点；特殊扩容属于另一条高风险工艺。",
+          "materials": [
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "check"
+        },
+        {
+          "id": "check",
+          "title": "功能正常就结束",
+          "before": "先不再加工，检查是否可以实际使用。",
+          "action": [
+            "换到正确位置，检查实际功能和需求。",
+            "记得原物品保留；新物品没解决问题就换回。"
+          ],
+          "expect": "当前功能更可靠，而不是单纯颜色变化。",
+          "good": "这一轮可以结束。",
+          "bad": "不要把与功能无关的高数值当成升级。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "finish",
+          "note": "五词缀珠宝工艺未完成机制验证，完整原文仍可查，但不是本路线下一步。",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "先核对类型",
+          "step": "ready"
+        },
+        {
+          "label": "白色物品",
+          "step": "trans"
+        },
+        {
+          "label": "蓝色1条",
+          "step": "aug"
+        },
+        {
+          "label": "直接验收",
+          "step": "check"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "不套用普通装备的三前缀三后缀规则。",
+      "helpful": []
+    },
+    {
+      "id": "bow-noncrit",
+      "title": "非暴击弓｜Early之后的进阶",
+      "phases": [
+        "mid",
+        "early"
+      ],
+      "goal": "物理提高＋物理点伤＋冰伤等伤害前缀；不是Early必备高配。",
+      "start": "作者使用物品等级75的弓；毁灭者之弓/寻战之弓按人物实际等级和敏捷能装备再选。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#bow-noncrit",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "找对蓝底；这一步不花精华",
+          "before": "作者使用物品等级75的弓；毁灭者之弓/寻战之弓按人物实际等级和敏捷能装备再选。",
+          "action": [
+            "先保留现用弓。买或拾取一把未腐化、未镜像的备用蓝弓，已有“物理伤害提高”前缀。",
+            "若只有这一条，先用增幅石补成一前一后；这里不先富豪。"
+          ],
+          "expect": "蓝弓有2条随机词缀：物理提高前缀＋1条后缀。",
+          "good": "确认尚无物理点伤词缀，预留其合法前缀位置。",
+          "bad": "没有这种蓝底：先按Early普通路线做能用的装备；不在唯一现用弓上洗。",
+          "materials": [],
+          "stateBefore": [
+            [
+              "前缀1",
+              "物理伤害提高"
+            ],
+            [
+              "后缀1",
+              "现有后缀（暴击路线不能已占同组）"
+            ]
+          ],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Essence"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "essence"
+        },
+        {
+          "id": "essence",
+          "title": "用强效磨蚀精华一次",
+          "before": "蓝弓恰好一前一后：前缀是物理伤害提高，后缀不占将添加的词缀组。人物能穿，且材料提示为魔法升稀有。",
+          "action": [
+            "右键【强效磨蚀精华】→左键这把蓝弓一次。",
+            "点完先核对新增词缀和名称颜色，不连续用第二种精华。"
+          ],
+          "expect": "变黄，并新增物理点伤前缀。",
+          "good": "预期为2前缀＋1后缀，仍留一条前缀空位。",
+          "bad": "已经被你富豪升黄，或后缀/前缀同组冲突：不要用这一步；返回核对状态。",
+          "materials": [
+            "abrasion"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "前缀",
+              "物理提高＋物理点伤"
+            ],
+            [
+              "后缀",
+              "原有后缀"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Greater_Essence_of_Abrasion",
+            "https://poe2db.tw/cn/Essence"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用左旋死灵＋遗存颚骨，先加未显现词缀",
+          "before": "黄装仍有前缀空位，尚无已有渎灵词缀，部位与骸骨对应；会使用已解锁的灵魂之井。",
+          "action": [
+            "把【左旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存颚骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在前缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-left",
+            "preserved-jaw"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "优先选附加冰霜伤害；作者也接受高阶其他元素点伤。不要把法术伤害或不适用的附加伤害当作同一效果。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "finish-mods"
+        },
+        {
+          "id": "finish-mods",
+          "title": "可选收尾：一次补两条",
+          "before": "显现已完成；暴击弓典型为2前2后，非暴击弓典型为3前1后。先数实际占位，不按模板强推。",
+          "action": [
+            "先确认至少有两个合法空位；把【强效崇高预兆】放背包并右键激活。",
+            "确认没有会改动添加侧的其他预兆；默认选作者允许的【高级崇高石】，右键它，再左键装备一次。高预算可以改用【完美崇高石】，不是两种都点。"
+          ],
+          "expect": "预兆使这一次崇高尝试添加两条随机词缀。",
+          "good": "有用就保留；可不做这一步直接试用。",
+          "bad": "空位不足、目标侧已经满，或不能接受随机结果：不做。点后没中目标也不自动接混沌。",
+          "materials": [
+            "double",
+            "greater-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "成品",
+              "以实际新增词缀为准，不保证目标后缀"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“强效崇高预兆”和“高级崇高石”是两个不同物品，前者不直接点在装备上。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选蓝底",
+          "step": "ready"
+        },
+        {
+          "label": "已是合格2词缀蓝弓",
+          "step": "essence"
+        },
+        {
+          "label": "已精华升黄",
+          "step": "desecrate"
+        },
+        {
+          "label": "已有未显现词缀",
+          "step": "reveal"
+        },
+        {
+          "label": "已显现，考虑收尾",
+          "step": "finish-mods"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "bow-crit",
+      "title": "暴击弓｜准备04/05",
+      "phases": [
+        "crit",
+        "high"
+      ],
+      "goal": "保留物理提高，加入本地暴击和伤害前缀。",
+      "start": "作者使用物品等级75的弓；毁灭者之弓/寻战之弓按人物实际等级和敏捷能装备再选。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#bow-crit",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "找对蓝底；这一步不花精华",
+          "before": "作者使用物品等级75的弓；毁灭者之弓/寻战之弓按人物实际等级和敏捷能装备再选。",
+          "action": [
+            "先保留现用弓。买或拾取一把未腐化、未镜像的备用蓝弓，已有“物理伤害提高”前缀。",
+            "若只有这一条，先用增幅石补成一前一后；这里不先富豪。"
+          ],
+          "expect": "蓝弓有2条随机词缀：物理提高前缀＋1条后缀。",
+          "good": "确认是本地物理提高，不是已有物理点伤。后缀与即将添加的暴击率不冲突。",
+          "bad": "没有这种蓝底：先按Early普通路线做能用的装备；不在唯一现用弓上洗。",
+          "materials": [],
+          "stateBefore": [
+            [
+              "前缀1",
+              "物理伤害提高"
+            ],
+            [
+              "后缀1",
+              "现有后缀（暴击路线不能已占同组）"
+            ]
+          ],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Essence"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "essence"
+        },
+        {
+          "id": "essence",
+          "title": "用强效寻觅精华一次",
+          "before": "蓝弓恰好一前一后：前缀是物理伤害提高，后缀不占将添加的词缀组。人物能穿，且材料提示为魔法升稀有。",
+          "action": [
+            "右键【强效寻觅精华】→左键这把蓝弓一次。",
+            "点完先核对新增词缀和名称颜色，不连续用第二种精华。"
+          ],
+          "expect": "变黄，并新增本地暴击率后缀。",
+          "good": "预期为1前缀＋2后缀，仍有伤害前缀空位。",
+          "bad": "已经被你富豪升黄，或后缀/前缀同组冲突：不要用这一步；返回核对状态。",
+          "materials": [
+            "seeking"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "前缀",
+              "物理提高"
+            ],
+            [
+              "后缀",
+              "原有后缀＋本地暴击"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Greater_Essence_of_Seeking",
+            "https://poe2db.tw/cn/Essence"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用左旋死灵＋遗存颚骨，先加未显现词缀",
+          "before": "黄装仍有前缀空位，尚无已有渎灵词缀，部位与骸骨对应；会使用已解锁的灵魂之井。",
+          "action": [
+            "把【左旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存颚骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在前缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-left",
+            "preserved-jaw"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "优先选高物理点伤；作者也接受高阶元素点伤。没有物理点伤不是自动判定报废。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "finish-mods"
+        },
+        {
+          "id": "finish-mods",
+          "title": "可选收尾：一次补两条",
+          "before": "显现已完成；暴击弓典型为2前2后，非暴击弓典型为3前1后。先数实际占位，不按模板强推。",
+          "action": [
+            "先确认至少有两个合法空位；把【强效崇高预兆】放背包并右键激活。",
+            "确认没有会改动添加侧的其他预兆；默认选作者允许的【高级崇高石】，右键它，再左键装备一次。高预算可以改用【完美崇高石】，不是两种都点。"
+          ],
+          "expect": "预兆使这一次崇高尝试添加两条随机词缀。",
+          "good": "有用就保留；可不做这一步直接试用。",
+          "bad": "空位不足、目标侧已经满，或不能接受随机结果：不做。点后没中目标也不自动接混沌。",
+          "materials": [
+            "double",
+            "greater-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "成品",
+              "以实际新增词缀为准，不保证目标后缀"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“强效崇高预兆”和“高级崇高石”是两个不同物品，前者不直接点在装备上。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "还没选蓝底",
+          "step": "ready"
+        },
+        {
+          "label": "已是合格2词缀蓝弓",
+          "step": "essence"
+        },
+        {
+          "label": "已精华升黄",
+          "step": "desecrate"
+        },
+        {
+          "label": "已有未显现词缀",
+          "step": "reveal"
+        },
+        {
+          "label": "已显现，考虑收尾",
+          "step": "finish-mods"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "quiver-standard",
+      "title": "黄箭袋｜常规进阶",
+      "phases": [
+        "mid",
+        "crit",
+        "high"
+      ],
+      "goal": "点伤/弓伤害＋攻速/等级等词缀。已经有好箭袋就不必重做。",
+      "start": "作者起点物品等级75；蓝箭袋一前一后都适合当前阶段。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#quiver-standard",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "找两条已经满意的蓝箭袋",
+          "before": "作者起点物品等级75；蓝箭袋一前一后都适合当前阶段。",
+          "action": [
+            "前缀目标：攻击附加物理/冰霜伤害，或弓技能伤害。后缀目标：攻速、投射物等级；转暴击后再重视暴击。",
+            "可直接买这样的蓝底。自己从白底找时，作者用高级/完美蜕变和增幅；没有命中目标就换底材，不在同一蓝装反复点蜕变。"
+          ],
+          "expect": "1条好前缀＋1条好后缀。",
+          "good": "符合才用下一步完美富豪。",
+          "bad": "只有一条适用，另一条完全无用：先停，不靠后续昂贵材料救底材。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "regal"
+        },
+        {
+          "id": "regal",
+          "title": "完美富豪一次；先看第三条",
+          "before": "未腐化两词缀蓝箭袋；明确要做作者这条较高投入路线。",
+          "action": [
+            "右键【完美富豪石】→左键箭袋一次。"
+          ],
+          "expect": "变黄，新增1条随机词缀。作者希望是好后缀，但不保证。",
+          "good": "第三条有用且仍有后缀位，再看渎灵。",
+          "bad": "第三条差：新手默认保留半成品先比较，不用高级混沌盲赌。作者的随机替换分支在原文保留，可能删掉前两条好属性。",
+          "materials": [
+            "perfect-regal"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用右旋死灵＋遗存颚骨，先加未显现词缀",
+          "before": "黄装仍有后缀空位，尚无已有渎灵词缀，部位与骸骨对应；会使用已解锁的灵魂之井。",
+          "action": [
+            "把【右旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存颚骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在后缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-right",
+            "preserved-jaw"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "优先找未重复词缀组、当前真正需要的攻速/等级/暴击后缀；不是每个候选都一定包含这些。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "finish-mods"
+        },
+        {
+          "id": "finish-mods",
+          "title": "可选收尾：一次补两条",
+          "before": "已显现，至少有两个合法总空位；某侧空位决定新增落点，不能只按“还差两条”判断。",
+          "action": [
+            "先确认至少有两个合法空位；把【强效崇高预兆】放背包并右键激活。",
+            "确认没有会改动添加侧的其他预兆；默认选作者允许的【高级崇高石】，右键它，再左键装备一次。高预算可以改用【完美崇高石】，不是两种都点。"
+          ],
+          "expect": "预兆使这一次崇高尝试添加两条随机词缀。",
+          "good": "有用就保留；可不做这一步直接试用。",
+          "bad": "空位不足、目标侧已经满，或不能接受随机结果：不做。点后没中目标也不自动接混沌。",
+          "materials": [
+            "double",
+            "greater-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "新增",
+              "2条随机属性，实际前后缀依状态"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“强效崇高预兆”和“高级崇高石”是两个不同物品，前者不直接点在装备上。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "从好蓝底开始",
+          "step": "ready"
+        },
+        {
+          "label": "两条已满意",
+          "step": "regal"
+        },
+        {
+          "label": "富豪后仍有后缀位",
+          "step": "desecrate"
+        },
+        {
+          "label": "已有未显现词缀",
+          "step": "reveal"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "helmet-stable",
+      "title": "护盾头｜03转型开始",
+      "phases": [
+        "hybrid",
+        "crit",
+        "high"
+      ],
+      "goal": "平铺护盾＋百分比护盾＋复合护盾，再补后缀。",
+      "start": "作者起点物品等级78；选择纯护盾底材并核对智慧与人物等级。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#helmet-stable",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先找高平铺护盾蓝头",
+          "before": "作者起点物品等级78；选择纯护盾底材并核对智慧与人物等级。",
+          "action": [
+            "找本地“最大能量护盾＋数字”的高阶前缀，不是只找百分比；作者以T1为起点。",
+            "蓝头已增幅为两词缀，另一条是可保留的后缀。可直接购买蓝底，不要求自己无限蜕变。"
+          ],
+          "expect": "1条平铺护盾前缀＋1条后缀。",
+          "good": "已有好平铺，才进入强效增强路线。",
+          "bad": "只有百分比没有平铺：不直接照这条；原文另一路线可以看，但别混成同一件。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "essence"
+        },
+        {
+          "id": "essence",
+          "title": "强效增强精华一次",
+          "before": "蓝色纯护盾头，两词缀；无同组防御提高词缀冲突。",
+          "action": [
+            "右键【强效增强精华 / Greater Essence of Enhancement】→左键头盔一次。"
+          ],
+          "expect": "变黄并加对应本地防御提高前缀；保留原平铺护盾。",
+          "good": "核对头盔上方最终护盾与词缀占位，再渎灵。",
+          "bad": "不要换成项链使用的完美强化精华；材料效果或名字不一致先停。",
+          "materials": [
+            "enhance-greater"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "前缀",
+              "平铺护盾＋本地防御提高"
+            ],
+            [
+              "后缀",
+              "原有1条"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Greater_Essence_of_Enhancement",
+            "https://poe2db.tw/cn/Essence"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用左旋死灵＋遗存肋骨，先加未显现词缀",
+          "before": "黄装仍有前缀空位，尚无已有渎灵词缀，部位与骸骨对应；会使用已解锁的灵魂之井。",
+          "action": [
+            "把【左旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存肋骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在前缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-left",
+            "rib"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "选复合百分比护盾词缀；一条复合词缀可能显示两行。最终物品护盾改善即可考虑先用，不要求三条全T1。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "suffix"
+        },
+        {
+          "id": "suffix",
+          "title": "后缀补强：先决定投入",
+          "before": "显现已完成，读实际前后缀。作者按前缀质量决定用多少材料。",
+          "action": [
+            "复合护盾一般：有空位时可用【高级崇高石】一次，再观察。",
+            "复合护盾很好且有两个合法空位：作者允许【强效崇高预兆】＋【完美崇高石】一次；不能两种方案都不看结果接着用。"
+          ],
+          "expect": "增加随机后缀/词缀，未必是抗性。",
+          "good": "当前护盾与抗性够用就停；作者约450物品护盾的转型建议不是保过线。",
+          "bad": "剩余空间不符、预算不足或继续做会超支：保持半成品先用，不拿混沌“修好”。",
+          "materials": [
+            "greater-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "quality"
+        },
+        {
+          "id": "quality",
+          "title": "可选最后一步：品质收尾",
+          "before": "普通词缀与所需插槽均已处理，且接受可能腐化造成的后续加工限制。",
+          "action": [
+            "按材料完整提示，右键【瓦尔护甲师注能装置】→左键头盔一次；每次后先观察，不无限连点。"
+          ],
+          "expect": "品质可能提高，也可能腐化。",
+          "good": "只在不再需要常规返工时考虑；这一步可以不做。",
+          "bad": "还想修改词缀或不愿承担腐化，就跳过。普通瓦尔宝珠不是替代品。",
+          "materials": [
+            "infuser"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "optional",
+          "note": "",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "找平铺护盾蓝头",
+          "step": "ready"
+        },
+        {
+          "label": "好蓝头已准备",
+          "step": "essence"
+        },
+        {
+          "label": "已精华升黄",
+          "step": "desecrate"
+        },
+        {
+          "label": "准备显现",
+          "step": "reveal"
+        },
+        {
+          "label": "只看品质收尾",
+          "step": "quality"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "amulet",
+      "title": "＋3与精魂项链｜高投入",
+      "phases": [
+        "crit",
+        "high"
+      ],
+      "goal": "＋3真正破溃固定，再做精魂与防御；不是普通＋3就能清理。",
+      "start": "作者使用物品等级80；追顶阶抗性时用82。必须是已锁定＋3投射物等级的稀有项链。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#amulet",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "确认“＋3已经锁定”",
+          "before": "物品可加工，＋3投射物技能等级明确为破溃固定词缀，不是普通随机词缀。",
+          "action": [
+            "在高级说明确认“破溃/固定”的标记，不能只凭文字是金色。",
+            "不想自己赌破溃，可买已锁好的底材；仅有普通＋3的项链不要进入下一步。"
+          ],
+          "expect": "后续普通随机移除不会把固定的＋3当成一般可变词缀。",
+          "good": "确认固定后，才允许清理。",
+          "bad": "无法确认破溃：保留原项链不动。不要用剥离试验它会不会掉。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "annul"
+        },
+        {
+          "id": "annul",
+          "title": "只留下固定＋3和另一条",
+          "before": "明确已固定＋3；能够接受其余所有非固定词缀丢失，且不是唯一现用项链。",
+          "action": [
+            "右键【剥离石】→左键项链一次，读剩余随机词缀数。",
+            "仍多于2条才考虑再做一次；到“固定＋3＋另一条”立刻停止。"
+          ],
+          "expect": "总共2条词缀，其中1条是固定＋3。",
+          "good": "到2条就去下一步，不要再剥。",
+          "bad": "原有精魂/抗性很值钱而不想丢：不清理，换另一件底材。不要按文字行数剥。",
+          "materials": [
+            "annul"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "这里允许删除其他词缀，是因为明确从重做底材开始，不是让你清掉现用品。",
+          "next": "spirit"
+        },
+        {
+          "id": "spirit",
+          "title": "混沌一次一次找精魂",
+          "before": "稀有项链恰好2条：固定＋3＋唯一可变词缀；预算已决定。",
+          "action": [
+            "右键普通【混沌石】→左键项链一次，读那条可变词缀。每次后先看结果。"
+          ],
+          "expect": "只剩一个非固定词缀可被替换，但新词缀类别仍随机。",
+          "good": "出现你准备接受的精魂（作者目标T1/T2），就停止混沌。",
+          "bad": "没出精魂可在事先预算内再试；预算耗尽就停。若不止一个可变词缀，不能认为只换某条。",
+          "materials": [
+            "normal-chaos"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "前缀",
+              "精魂"
+            ],
+            [
+              "后缀",
+              "固定＋3投射物"
+            ]
+          ],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "filler"
+        },
+        {
+          "id": "filler",
+          "title": "加一条准备牺牲的后缀",
+          "before": "恰好固定＋3后缀＋精魂前缀；另一后缀位空着。",
+          "action": [
+            "背包右键激活【右旋崇高预兆】，先停用其他崇高效果预兆。",
+            "右键普通【崇高石】→左键项链一次。"
+          ],
+          "expect": "增加1条非固定后缀。它下一步要被移除，不需要很好。",
+          "good": "现在为1前缀＋2后缀，其中＋3固定。",
+          "bad": "不是这个状态就不继续。不要先补满后缀或贪图留下新后缀。",
+          "materials": [
+            "exalt-right",
+            "normal-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "defence"
+        },
+        {
+          "id": "defence",
+          "title": "只移除填充后缀，补防御前缀",
+          "before": "前缀只有精魂；后缀为固定＋3和唯一可删除填充词缀。材料提示必须匹配本操作。",
+          "action": [
+            "背包右键激活【右旋结晶预兆】。",
+            "右键【完美强化精华 / Perfect Essence of Enhancement】→左键项链一次。"
+          ],
+          "expect": "填充后缀被替换，加入项链全局防御提高前缀；固定＋3与精魂保留。",
+          "good": "现在2前缀＋1后缀，才看抗性。",
+          "bad": "若有多条可删后缀、已有同组前缀或材料提示不同，停止；普通/强效同系列精华不能替代。",
+          "materials": [
+            "crystal-right",
+            "enhance-perfect"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Perfect_Essence_of_Enhancement"
+          ],
+          "kind": "action",
+          "note": "作者简写未给等阶；此处按稀有替换机制消歧为Perfect，国服提示不一致时不要执行。",
+          "next": "quality"
+        },
+        {
+          "id": "quality",
+          "title": "先补对应催化品质到20%",
+          "before": "要用催化崇高提高某类词缀机会；当前没有该轮消耗过的品质。",
+          "action": [
+            "本轮选一种：托沃催化剂（冰霜）、索伏催化剂（火焰）、艾许催化剂（闪电）。按你希望偏向的类别选，不是三种混用。",
+            "右键所选催化剂→左键项链，每次后查看品质；到20%停止。"
+          ],
+          "expect": "项链有20%对应类别催化品质。",
+          "good": "再做下一步一次崇高；不是品质本身保证抗性。",
+          "bad": "不是任意品质材料都能替代。换另一种催化剂会取代原品质类型，别混着点。",
+          "materials": [
+            "tul",
+            "xoph",
+            "esh"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Stackable_Currency",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Tuls_Catalyst",
+            "https://poe2db.tw/cn/Xophs_Catalyst",
+            "https://poe2db.tw/cn/Eshs_Catalyst"
+          ],
+          "kind": "action",
+          "note": "三种材料为三选一；中文来自当前国际服数据的简体展示，实际国服提示不匹配时停止。",
+          "next": "resist"
+        },
+        {
+          "id": "resist",
+          "title": "一次定向后缀；品质会耗尽",
+          "before": "后缀有位，催化品质20%；精魂与防御前缀保持。",
+          "action": [
+            "背包激活【右旋崇高预兆】和【催化崇高预兆】，逐一确认本次效果。",
+            "右键【完美崇高石】→左键项链一次。"
+          ],
+          "expect": "加一个随机后缀，同时消耗催化品质；不保证抗性。",
+          "good": "该后缀满意且还有位：第二次要先回“补品质”，每轮重新准备两种预兆。",
+          "bad": "普通坏后缀不能用光明预兆安全定向删除；接受结果/暂停/买半成品。不要用剥离赌删坏词。",
+          "materials": [
+            "exalt-right",
+            "catalysing",
+            "perfect-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "最多做实际后缀空位允许的次数；网页不读取你的词缀。",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用左旋死灵＋遗存锁骨，先加未显现词缀",
+          "before": "前缀仍有最后1个位，其余属性已满意；当前没有渎灵词缀。不是把普通坏后缀改成渎灵。",
+          "action": [
+            "把【左旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存锁骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在前缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-left",
+            "collar"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "只选当前能改善生命/防御/资源的适用前缀。Fubgun未指定唯一最终前缀，不强造一个词条。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "先核对破溃底材",
+          "step": "ready"
+        },
+        {
+          "label": "固定＋3，其他可以清掉",
+          "step": "annul"
+        },
+        {
+          "label": "已是固定＋3＋1条",
+          "step": "spirit"
+        },
+        {
+          "label": "已有精魂和固定＋3",
+          "step": "filler"
+        },
+        {
+          "label": "防御前缀已完成",
+          "step": "quality"
+        },
+        {
+          "label": "后缀满意，留1前缀",
+          "step": "desecrate"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "quiver-advanced",
+      "title": "破溃箭袋｜接合格半成品",
+      "phases": [
+        "crit",
+        "high"
+      ],
+      "goal": "已有锁定点伤后再做弓伤，避免把不明“1/3”直接当概率。",
+      "start": "作者ilvl75路线的自制破溃起点有省略。可从已破溃高点伤的合格半成品开始。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#quiver-advanced",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先确认到底锁了哪一条",
+          "before": "高点伤前缀已破溃；不是仅有＋2等级或任意破溃箭袋。",
+          "action": [
+            "直接检查固定词缀身份。原文“1/3”不能代替破溃宝珠至少4词缀的使用条件。",
+            "购买符合状态的半成品，是避开不明起步环节的一种方法；不要把普通高点伤箭袋当作已锁。"
+          ],
+          "expect": "点伤前缀固定，其他词缀状态已逐条记录。",
+          "good": "还需核对下一步唯一可删前缀。",
+          "bad": "锁错词或不确定就停止；本页不补造破溃成功率。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "filler"
+        },
+        {
+          "id": "filler",
+          "title": "准备唯一可删除的填充前缀",
+          "before": "固定点伤之外，恰好还有1条可删除前缀；目标弓伤害词缀组尚未占用。",
+          "action": [
+            "已有该状态就不加材料。",
+            "没有填充前缀时，只有确认下一颗崇高的合法新增侧为前缀，才讨论补1条；不确定则选状态已经匹配的半成品。"
+          ],
+          "expect": "前缀侧：固定点伤＋1条可删填充；另留合法位置。",
+          "good": "与示意完全一致，再看浮夸步骤。",
+          "bad": "有两条可删好前缀：无法保证删的是哪条；不要赌。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "不是用鼠标点中某一条词缀就会指定它。",
+          "next": "hysteria"
+        },
+        {
+          "id": "hysteria",
+          "title": "浮夸精华替换填充前缀",
+          "before": "固定点伤＋唯一可删填充前缀；弓伤害组不冲突；稀有箭袋可加工。",
+          "action": [
+            "背包右键激活【左旋结晶预兆】。",
+            "右键【浮夸精华】→左键箭袋一次。"
+          ],
+          "expect": "在这个明确状态下，移除填充前缀并加入箭袋指定弓伤害前缀。",
+          "good": "核对固定点伤仍在、弓伤已加，再准备收尾。",
+          "bad": "前置状态不同，不执行；不是整件装备必成或任意黄箭袋都可做。",
+          "materials": [
+            "crystal-left",
+            "hysteria"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Essence_of_Hysteria"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "prefix"
+        },
+        {
+          "id": "prefix",
+          "title": "只剩最后前缀可加时，再崇高一次",
+          "before": "后缀已满或已经确认定向前缀；还有1个目标前缀空位。",
+          "action": [
+            "右键【完美崇高石】→左键箭袋一次。"
+          ],
+          "expect": "增加随机前缀；可能是你不想要的命中。",
+          "good": "结果合用就保存；不满意也不要盲目移除其他普通好属性。",
+          "bad": "两侧都有空位又没确认定向时，不能称为“只加前缀”。",
+          "materials": [
+            "perfect-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "redo"
+        },
+        {
+          "id": "redo",
+          "title": "只重做“已经显现的渎灵后缀”",
+          "before": "你要改的那1条明确是渎灵后缀；没有其他渎灵/特殊状态；其余属性满意。",
+          "action": [
+            "在背包激活【光明预兆】；再右键【剥离石】→左键箭袋一次。",
+            "确认只移除了该渎灵词缀，并重新读后缀空位；下一步才是重新右旋死灵＋颚骨。"
+          ],
+          "expect": "移除原渎灵后缀，留出再渎灵的位置。",
+          "good": "按后面渎灵和显现步骤逐轮做；每轮重新花材料。",
+          "bad": "目标是普通后缀而非渎灵：不要点剥离。光明不能保护式删除任意垃圾词缀。",
+          "materials": [
+            "light",
+            "annul"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用右旋死灵＋遗存颚骨，先加未显现词缀",
+          "before": "黄装仍有后缀空位，尚无已有渎灵词缀，部位与骸骨对应；会使用已解锁的灵魂之井。",
+          "action": [
+            "把【右旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存颚骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在后缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-right",
+            "preserved-jaw"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "目标为适用的攻速/暴击等后缀；每轮先定预算，不把回响理解为无限重掷。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "核对半成品",
+          "step": "ready"
+        },
+        {
+          "label": "已满足唯一可删前缀",
+          "step": "hysteria"
+        },
+        {
+          "label": "只剩1前缀空位",
+          "step": "prefix"
+        },
+        {
+          "label": "只想重做渎灵后缀",
+          "step": "redo"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "helmet-random",
+      "title": "护盾头｜另一条随机路线",
+      "phases": [
+        "hybrid",
+        "crit",
+        "high"
+      ],
+      "goal": "保留好蓝底，把另一护盾前缀的随机机会留给渎灵/崇高。",
+      "start": "原文未指明每个抗性/稀有度精华的等阶；这不是同前一条混着做。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#helmet-random",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "起点可为高平铺或高百分比",
+          "before": "物品等级78的好蓝头；一条高阶本地护盾前缀，另一条后缀也值得保留。",
+          "action": [
+            "先分清是平铺＋护盾、百分比护盾还是复合护盾。",
+            "准备两词缀蓝底；没有好蓝底就用前一条较清楚的路线。"
+          ],
+          "expect": "1条好护盾前缀＋1条好后缀。",
+          "good": "下一步需自行核对确切材料。",
+          "bad": "底材和防御差，不因一个T1就投入。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "essence"
+        },
+        {
+          "id": "essence",
+          "title": "先确定精华版本；不能把简称直接照点",
+          "before": "原文只说抗性或稀有度精华，未明确等阶。",
+          "action": [
+            "只考虑提示为“魔法升稀有”的精华，且它在护甲上指定的词缀是你需要的属性。",
+            "核对已有后缀与目标组不冲突、人物能满足升黄后需求，再按这颗材料提示使用一次。"
+          ],
+          "expect": "保留好护盾蓝底，变黄并加你预先核对的实用属性。",
+          "good": "已确认材料并得到预期状态，才读后续。",
+          "bad": "不会判断材料等阶/词缀组：不执行这一环；改用“护盾头较可控路线”或买对应半成品。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Essence"
+          ],
+          "kind": "boundary",
+          "note": "不是默认每种精华均可互换。本路线保留完整说明，但不能称为无前提照抄。",
+          "next": "desecrate"
+        },
+        {
+          "id": "desecrate",
+          "title": "用左旋死灵＋遗存肋骨，先加未显现词缀",
+          "before": "黄装仍有前缀空位，尚无已有渎灵词缀，部位与骸骨对应；会使用已解锁的灵魂之井。",
+          "action": [
+            "把【左旋死灵预兆】放在人物背包，右键激活；其他可能影响此操作的预兆先停用。",
+            "右键【遗存肋骨】→左键备用装备一次。不是先点光明、剥离或腐烂预兆。"
+          ],
+          "expect": "出现未显现的渎灵词缀，预期落在前缀；现在还没选到最终属性。",
+          "good": "去下一步显现；不要在未看候选前继续崇高补满。",
+          "bad": "没有空位、已有渎灵、材料不适用或界面和预期不同：停止，不换成其他骨头乱试。",
+          "materials": [
+            "necro-left",
+            "rib"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“左/右旋”指前缀/后缀，不是鼠标左右键。",
+          "next": "reveal"
+        },
+        {
+          "id": "reveal",
+          "title": "到灵魂之井看候选，再选一条",
+          "before": "装备带有未显现渎灵词缀；已经可以进入渎灵显现界面。",
+          "action": [
+            "可选：准备使用【深渊回响预兆】时，在开始本次显现前放进背包并右键激活；不用就跳过。",
+            "打开【灵魂之井 / Well of Souls】的显现功能，放入这件装备并查看候选。",
+            "读完所有候选后，再选择并确认；不要仅凭颜色或T数字。"
+          ],
+          "expect": "未显现词缀变成你选定的具体词缀。",
+          "good": "找好阶级的复合护盾；回响在开始显现前准备，不能先确认词缀再用回响抬数值。",
+          "bad": "没有目标时：有本次回响机会才重掷；否则接受确实有用的次选，或先不确认停下来核对。已经确认后不能用回响改数值。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://poe2db.tw/cn/Abyss",
+            "https://poe2db.tw/cn/Omen"
+          ],
+          "kind": "action",
+          "note": "回响是可选材料，且每次消耗；不是永久重掷。中文菜单逐屏未做国服验收，以“显现渎灵词缀”的功能识别。",
+          "next": "finish-mods"
+        },
+        {
+          "id": "finish-mods",
+          "title": "可选收尾：一次补两条",
+          "before": "显现后实际还有至少两个合法空位，并愿意接受两条随机属性。",
+          "action": [
+            "先确认至少有两个合法空位；把【强效崇高预兆】放背包并右键激活。",
+            "确认没有会改动添加侧的其他预兆；默认选作者允许的【高级崇高石】，右键它，再左键装备一次。高预算可以改用【完美崇高石】，不是两种都点。"
+          ],
+          "expect": "预兆使这一次崇高尝试添加两条随机词缀。",
+          "good": "有用就保留；可不做这一步直接试用。",
+          "bad": "空位不足、目标侧已经满，或不能接受随机结果：不做。点后没中目标也不自动接混沌。",
+          "materials": [
+            "double",
+            "greater-exalt"
+          ],
+          "stateBefore": [],
+          "stateAfter": [
+            [
+              "新增",
+              "按前后缀空位随机决定"
+            ]
+          ],
+          "refs": [
+            "https://poe2db.tw/cn/Omen",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "“强效崇高预兆”和“高级崇高石”是两个不同物品，前者不直接点在装备上。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "对比旧装备，合用就停",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "从准备开始",
+          "step": "ready"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    },
+    {
+      "id": "emerald",
+      "title": "翡翠珠宝｜高投入原文解释",
+      "phases": [
+        "high"
+      ],
+      "goal": "作者的扩容珠宝工艺有未验证环节，不拿普通4条珠宝硬点到5条。",
+      "start": "攻击暴击伤害加成已破溃固定的普通类型翡翠珠宝；不是暗金或失落时空珠宝。",
+      "sourceLabel": "Fubgun原工艺＋逐步操作解释；国服未实测",
+      "reference": "craft-advanced.html#emerald",
+      "steps": [
+        {
+          "id": "ready",
+          "title": "先认起点与固定词缀",
+          "before": "攻击暴击伤害加成已破溃固定的普通类型翡翠珠宝；不是暗金或失落时空珠宝。",
+          "action": [
+            "作者目标20%攻击暴击伤害加成，注意不是法术暴伤。",
+            "普通3–4条适用珠宝就能先用；后面的扩容工艺不是进入04/05的前置条件。"
+          ],
+          "expect": "锁定词缀身份明确。",
+          "good": "阅读下一步了解成本；不是要求现在动手重做好珠宝。",
+          "bad": "固定的不是攻击暴伤，或仍需要这颗现用品，就停止。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "prepare",
+          "note": "",
+          "next": "crit"
+        },
+        {
+          "id": "crit",
+          "title": "混沌找暴击率；其他词缀也可能丢",
+          "before": "固定暴伤已经确认，剩余可变词缀允许损失且有预算。",
+          "action": [
+            "每次只使用1颗混沌石，出现需要的暴击率后立即停下来。"
+          ],
+          "expect": "固定词缀之外的属性仍被随机替换。",
+          "good": "保留暴击率后再核对原文要求的4词缀状态。",
+          "bad": "不是只改某条垃圾；有不愿丢的未固定好属性时不要做。",
+          "materials": [
+            "normal-chaos"
+          ],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "action",
+          "note": "",
+          "next": "capacity"
+        },
+        {
+          "id": "capacity",
+          "title": "扩容与后续：仅作原文解释，先不要照做",
+          "before": "作者要求4词缀珠宝，再用强效的液化轻蔑添加允许额外词缀的工艺。",
+          "action": [
+            "原文后面还有渎灵攻速、左旋剥离、移除扩容工艺后再加到5条及凶残收尾。",
+            "“删除扩容后仍可维持5词缀”的当前国服机制未验证；完整原文可以查看，但此处不提供执行指令。"
+          ],
+          "expect": "需要先有同版本容量规则与可复现状态，才能安全解释余下工艺。",
+          "good": "当前替代：用适用的3–4词缀珠宝，或核查后购买已经做好的成品。",
+          "bad": "不要为了网页写“5条”，就在普通满4条珠宝上试点液化/剥离。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+            "https://poe2db.tw/cn/Stackable_Currency"
+          ],
+          "kind": "boundary",
+          "note": "未确认的是后续容量机制，不是隐藏后期内容。原文8步在同页链接完整保留。",
+          "next": "finish"
+        },
+        {
+          "id": "finish",
+          "title": "先用普通有效珠宝，不被未验证步骤卡住",
+          "before": "当前加工先结束，所有需要的技能与装备需求仍满足。",
+          "action": [
+            "装备后复查三抗、生命/护盾、力量/敏捷/智慧和精魂。",
+            "输出件用同一技能、同一地图难度比较；防御件同时看全身防御，不只看装备一条数值。"
+          ],
+          "expect": "改善原本的缺口，且没有使核心技能失效。",
+          "good": "保存旧装备后使用新装备。并非必须六条都好或全是T1。",
+          "bad": "没有改善就换回；不要因为投入过材料就继续无上限返工。",
+          "materials": [],
+          "stateBefore": [],
+          "stateAfter": [],
+          "refs": [
+            "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          ],
+          "kind": "finish",
+          "note": "",
+          "next": null
+        }
+      ],
+      "entries": [
+        {
+          "label": "从准备开始",
+          "step": "ready"
+        }
+      ],
+      "scope": "按你核对的装备状态阅读，不读取游戏、不模拟掉落、不保证出目标词缀。",
+      "avoid": "每一步只在实际装备与“操作前”完全匹配时执行；随机结果不符合就停，不连点补救。",
+      "helpful": []
+    }
+  ],
+  "evidence": [
+    {
+      "label": "原始依据",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+      "note": "Fubgun 0.5.5原文工艺；已上传原文完整保留，未引入其他作者配方。"
+    },
+    {
+      "label": "材料机制",
+      "url": "https://poe2db.tw/cn/Stackable_Currency",
+      "note": "国际服游戏数据中文展示；不是国服逐屏实测。"
+    },
+    {
+      "label": "精华类型",
+      "url": "https://poe2db.tw/cn/Essence",
+      "note": "区分魔法升稀有与稀有移除再增加。"
+    },
+    {
+      "label": "预兆与激活",
+      "url": "https://poe2db.tw/cn/Omen",
+      "note": "右键在背包激活；本次效果触发时消耗。"
+    },
+    {
+      "label": "渎灵与灵魂之井",
+      "url": "https://poe2db.tw/cn/Abyss",
+      "note": "未显现→候选→确认的不同阶段；具体国服菜单位置未逐屏核验。"
+    }
+  ],
+  "limitations": [
+    "按装备状态给操作，不扫描游戏，不模拟随机词缀或保证成品。",
+    "护盾头随机路线精华简称、珠宝扩容等未知点保留警示；不能把阅读按钮当作游戏验证。",
+    "只有打造页改为按步操作，其他R8阶段数据保持；已有天赋与国服核验缺口不因此补齐。"
+  ]
+}

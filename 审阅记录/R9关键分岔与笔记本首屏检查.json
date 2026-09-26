@@ -1,0 +1,22 @@
+[
+  {
+    "name": "催化品质重复入口可见",
+    "passed": true
+  },
+  {
+    "name": "重复加后缀先回补品质",
+    "passed": true
+  },
+  {
+    "name": "三种元素催化剂有明确名称",
+    "passed": true
+  },
+  {
+    "name": "未富豪时的精华分岔可见",
+    "passed": true
+  },
+  {
+    "name": "1366x768关键增幅指令位于首屏",
+    "passed": true
+  }
+]

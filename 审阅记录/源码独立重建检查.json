@@ -1,0 +1,163 @@
+{
+  "files": 39,
+  "all_identical": true,
+  "method": "Copy site to independent working directory, run source/build.py, byte-compare generated HTML/assets/manifest",
+  "results": [
+    {
+      "file": "sources.html",
+      "identical": true
+    },
+    {
+      "file": "e04.html",
+      "identical": true
+    },
+    {
+      "file": "craft-all.html",
+      "identical": true
+    },
+    {
+      "file": "e01.html",
+      "identical": true
+    },
+    {
+      "file": "e03.html",
+      "identical": true
+    },
+    {
+      "file": "reader.html",
+      "identical": true
+    },
+    {
+      "file": "craft-advanced.html",
+      "identical": true
+    },
+    {
+      "file": "craft-steps-all.html",
+      "identical": true
+    },
+    {
+      "file": "mechanics.html",
+      "identical": true
+    },
+    {
+      "file": "craft-reference.html",
+      "identical": true
+    },
+    {
+      "file": "all.html",
+      "identical": true
+    },
+    {
+      "file": "rewards.html",
+      "identical": true
+    },
+    {
+      "file": "l05.html",
+      "identical": true
+    },
+    {
+      "file": "e06.html",
+      "identical": true
+    },
+    {
+      "file": "l01.html",
+      "identical": true
+    },
+    {
+      "file": "e02.html",
+      "identical": true
+    },
+    {
+      "file": "roadmap.html",
+      "identical": true
+    },
+    {
+      "file": "index.html",
+      "identical": true
+    },
+    {
+      "file": "l06.html",
+      "identical": true
+    },
+    {
+      "file": "l03.html",
+      "identical": true
+    },
+    {
+      "file": "e05.html",
+      "identical": true
+    },
+    {
+      "file": "compare.html",
+      "identical": true
+    },
+    {
+      "file": "craft.html",
+      "identical": true
+    },
+    {
+      "file": "craft-examples.html",
+      "identical": true
+    },
+    {
+      "file": "l04.html",
+      "identical": true
+    },
+    {
+      "file": "glossary.html",
+      "identical": true
+    },
+    {
+      "file": "craft-early-all.html",
+      "identical": true
+    },
+    {
+      "file": "l02.html",
+      "identical": true
+    },
+    {
+      "file": "assets/examples.js",
+      "identical": true
+    },
+    {
+      "file": "assets/crafting.js",
+      "identical": true
+    },
+    {
+      "file": "assets/guided-crafting.css",
+      "identical": true
+    },
+    {
+      "file": "assets/catalog.js",
+      "identical": true
+    },
+    {
+      "file": "assets/compare.js",
+      "identical": true
+    },
+    {
+      "file": "assets/style.css",
+      "identical": true
+    },
+    {
+      "file": "assets/guided-crafting.js",
+      "identical": true
+    },
+    {
+      "file": "assets/app.js",
+      "identical": true
+    },
+    {
+      "file": "assets/early-crafting.js",
+      "identical": true
+    },
+    {
+      "file": "assets/search-index.js",
+      "identical": true
+    },
+    {
+      "file": "data/页面清单.json",
+      "identical": true
+    }
+  ]
+}

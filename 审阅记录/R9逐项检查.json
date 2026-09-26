@@ -1,0 +1,5892 @@
+{
+  "version": "R9",
+  "date": "2026-09-26",
+  "method": "Generated local HTML, local scripts/styles inlined in Chromium; browser policy prevents direct file/hosted origin test. No game client test.",
+  "routes": 20,
+  "steps": 121,
+  "checks": [
+    {
+      "name": "sources.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e04.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e04.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-all.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-all.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-all.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e01.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e01.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e03.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e03.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reader.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reader.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-advanced.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-advanced.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-advanced.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-steps-all.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-steps-all.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-steps-all.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanics.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanics.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-reference.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-reference.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-reference.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rewards.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rewards.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l05.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l05.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e06.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e06.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l01.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l01.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e02.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e02.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l06.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l06.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l03.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l03.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e05.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e05.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compare.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compare.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-examples.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-examples.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-examples.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l04.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l04.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "glossary.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "glossary.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-early-all.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-early-all.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-early-all.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html HTML language",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l02.html duplicate IDs absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l02.html local files and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "early-bow unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/check complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/check material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/check valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/check offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/filler complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/filler material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/filler valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/filler offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/reveal complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/reveal material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/reveal valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/reveal offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald unique steps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald valid state entry links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/ready complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/ready material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/ready valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/ready offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/finish complete action fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/finish material lookup",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/finish valid next",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/finish offline full-copy preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks no rare gear promotion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms no rare gear promotion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "advanced 8 routes retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fresh load defaults Early bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all 20 routes selectable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-bow print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-quiver print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-body print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-helmet print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-gloves print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-boots print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-amulet print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-belt print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/white material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/augment material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-rings print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/trans material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/aug material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-flasks print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/trans material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/aug material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-charms print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/trans material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/aug material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/exalt material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/check displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels/check visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "early-jewels print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/essence material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish-mods material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-noncrit print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/essence material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish-mods material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow-crit print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/regal material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish-mods material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-standard print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/essence material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/suffix material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/quality material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-stable print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/annul material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/spirit material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/filler material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/defence material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/quality material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/resist material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/filler displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/filler visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/hysteria material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/prefix material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/redo material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quiver-advanced print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/essence explicit non-executable notice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/desecrate material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/reveal displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/reveal visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish-mods material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "helmet-random print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald navigation lists every step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/ready displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/ready visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/crit material help",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/capacity explicit non-executable notice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/finish displayed correct action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald/finish visible stop instructions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald full selected route available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "emerald print selected route complete",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unexpected result does not advance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "manual copy fallback displays selected step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "copy full route contains last step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "existing blue item skips white operation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "URL route and step deep-link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid route safe fallback",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid percent encoding handled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "legacy Early links supported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "stage bookmarks supported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global search includes guided worksheets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "print active route visible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-bow no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-quiver no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-body no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-helmet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-gloves no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-boots no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-belt no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-rings no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-flasks no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-charms no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 early-jewels no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 bow-noncrit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 bow-crit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 quiver-standard no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 helmet-stable no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 quiver-advanced no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 helmet-random no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320 emerald no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-bow no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-quiver no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-body no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-helmet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-gloves no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-boots no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-belt no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-rings no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-flasks no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-charms no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 early-jewels no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 bow-noncrit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 bow-crit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 quiver-standard no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 helmet-stable no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 quiver-advanced no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 helmet-random no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390 emerald no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-bow no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-quiver no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-body no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-helmet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-gloves no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-boots no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-belt no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-rings no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-flasks no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-charms no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 early-jewels no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 bow-noncrit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 bow-crit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 quiver-standard no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 helmet-stable no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 quiver-advanced no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 helmet-random no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768 emerald no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-bow no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-quiver no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-body no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-helmet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-gloves no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-boots no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-belt no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-rings no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-flasks no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-charms no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 early-jewels no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 bow-noncrit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 bow-crit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 quiver-standard no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 helmet-stable no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 quiver-advanced no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 helmet-random no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1024 emerald no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-bow no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-quiver no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-body no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-helmet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-gloves no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-boots no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-belt no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-rings no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-flasks no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-charms no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 early-jewels no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 bow-noncrit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 bow-crit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 quiver-standard no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 helmet-stable no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 quiver-advanced no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 helmet-random no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1366 emerald no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-bow no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-quiver no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-body no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-helmet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-gloves no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-boots no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-belt no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-rings no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-flasks no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-charms no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 early-jewels no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 bow-noncrit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 bow-crit no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 quiver-standard no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 helmet-stable no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 amulet no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 quiver-advanced no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 helmet-random no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1920 emerald no page overflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sources.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e04.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e04.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-all.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-all.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e01.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e01.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e03.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e03.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reader.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reader.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-advanced.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-advanced.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-steps-all.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-steps-all.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanics.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mechanics.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-reference.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-reference.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rewards.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "rewards.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l05.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l05.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e06.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e06.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l01.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l01.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e02.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e02.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "roadmap.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "index.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l06.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l06.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l03.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l03.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e05.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "e05.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compare.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compare.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-examples.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-examples.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l04.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l04.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "glossary.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "glossary.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-early-all.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft-early-all.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l02.html sidebar all12stages",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "l02.html current footer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "total": 1176,
+  "failed": 0,
+  "runtime_errors": []
+}

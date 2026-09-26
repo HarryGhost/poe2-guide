@@ -1,5 +1,5 @@
 {
-  "version": "C全站阶段作业 · R8 / 阶段纠错与整套参考联动",
+  "version": "C全站阶段作业 · R9 / 打造按步操作",
   "pages": [
     "l01.html",
     "l02.html",
@@ -18,6 +18,8 @@
     "compare.html",
     "mechanics.html",
     "craft.html",
+    "craft-reference.html",
+    "craft-steps-all.html",
     "craft-examples.html",
     "craft-early-all.html",
     "craft-advanced.html",
@@ -42,9 +44,9 @@
     "e05.html",
     "e06.html"
   ],
-  "layout": "stage-workbook-r8",
+  "layout": "stage-workbook-r9",
   "date": "2026-09-26",
-  "crafting": "12 Early lessons + 8 advanced routes + 6 teaching cases",
+  "crafting": "20 routes / 121 guided steps; original 12 Early lessons + 8 advanced routes + 6 cases retained",
   "transitions": 10,
   "reference_binding": "metrics, gear, gems and ledger synchronized"
 }

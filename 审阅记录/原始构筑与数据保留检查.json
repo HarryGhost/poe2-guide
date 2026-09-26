@@ -1,0 +1,157 @@
+{
+  "compared_to": "poe2_Fubgun_Early进阶修订_C_R8整合包.zip",
+  "count": 30,
+  "all_byte_identical": true,
+  "files": [
+    {
+      "file": "data/Early起步打造教学.json",
+      "byte_identical": true,
+      "sha256": "6500f9851888738bde3c5000b681514389815ea72947e3eb5d3b8f326c905ac2"
+    },
+    {
+      "file": "data/Fubgun_异界后期打造.json",
+      "byte_identical": true,
+      "sha256": "bc31370d4fdcbb8b9436a117c245dd707ceb817d03f77c482fb7cae2c85fddc5"
+    },
+    {
+      "file": "data/保留奖励记录.json",
+      "byte_identical": true,
+      "sha256": "9036550cef50b95f4e0b3c041ba657e43ba5504ad2bca7c095c342856887f38f"
+    },
+    {
+      "file": "data/全站阶段与核算.json",
+      "byte_identical": true,
+      "sha256": "d811eea197c45d1ca4233f0ebe50b091a08a51f8357b70b00d20748186542819"
+    },
+    {
+      "file": "data/全部分支逐项差异.json",
+      "byte_identical": true,
+      "sha256": "719e7dee203fc877ca5822967c4cd4e438c84038559459f2ff8a96221ca7d8f8"
+    },
+    {
+      "file": "data/六分支原始及中文映射.json",
+      "byte_identical": true,
+      "sha256": "4cbfb34a27d9149e9e1e6120f5cbe9738a6914acc271e87acee6b5aee7abfbb4"
+    },
+    {
+      "file": "data/关键天赋点位核对.json",
+      "byte_identical": true,
+      "sha256": "cf61105b8b8e055dfdf694377b245447801fffe0118b8bba773b7fefa270bc1d"
+    },
+    {
+      "file": "data/剧情练级结构数据.json",
+      "byte_identical": true,
+      "sha256": "9c9da21b05684eb57d2c2f47de19a900a58ed80352e38013f201d619276eb45f"
+    },
+    {
+      "file": "data/已核对辅助属性归类.json",
+      "byte_identical": true,
+      "sha256": "9d390d64721b6413396a7fcebabb58dd5c029566c88b3acc2ccf8cd430975c78"
+    },
+    {
+      "file": "data/当前词典.json",
+      "byte_identical": true,
+      "sha256": "445b2d66c89297b15327ecc881e61f1d6f217c14abc1bab181da2f1b072145fd"
+    },
+    {
+      "file": "data/打造教学实例.json",
+      "byte_identical": true,
+      "sha256": "b5d5fe948536970eb2f21b0f990507e3447e3d7a4db5387fdef09114a819bb5d"
+    },
+    {
+      "file": "data/来源目录.json",
+      "byte_identical": true,
+      "sha256": "d5143a09ee2285285d044319957207116be83581726682429829f635a46ef99b"
+    },
+    {
+      "file": "data/转换检查清单.json",
+      "byte_identical": true,
+      "sha256": "df6789159e37c83ba61fac4ddf5dba2409d854bc1996649eec614bc1ed968b1f"
+    },
+    {
+      "file": "原文资料/Early起步打造_中文操作说明.md",
+      "byte_identical": true,
+      "sha256": "3db4f4480560c03bc0d96873a678541e738b9a0a4d231d92875d89778d3d6d5c"
+    },
+    {
+      "file": "原文资料/Fubgun_Crafting_Guide_中文操作版.md",
+      "byte_identical": true,
+      "sha256": "025bd1db9e82fbc649da3d69fb2692d48e0bf36d6afe7c1bb7cec7519343bc67"
+    },
+    {
+      "file": "原文资料/Fubgun_Crafting_Guide_原文完整节选.txt",
+      "byte_identical": true,
+      "sha256": "666d9b58e946b863d25e87d80fc5300b2e04d1b5c4ed1999d6cb07e268f7a31a"
+    },
+    {
+      "file": "原文资料/冰射锐眼-练级篇原文.txt",
+      "byte_identical": true,
+      "sha256": "fbd633ac5d2211c8d2a0cb52754f370dc475a9e6c96682d4e91785fed1ab00eb"
+    },
+    {
+      "file": "原文资料/冰射锐眼-英文原文-Fubgun.txt",
+      "byte_identical": true,
+      "sha256": "9776b4f3e6b26d89ab37359f5de51186349449f787ee998d631cc768c002cd35"
+    },
+    {
+      "file": "构筑文件/01_Early.build",
+      "byte_identical": true,
+      "sha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07"
+    },
+    {
+      "file": "构筑文件/01_中文提示.build",
+      "byte_identical": true,
+      "sha256": "a25089087b04354d103b379cd20a802156813c9d4c50f0e5befb0e86b1cde526"
+    },
+    {
+      "file": "构筑文件/02_noncrit_Midgame.build",
+      "byte_identical": true,
+      "sha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b"
+    },
+    {
+      "file": "构筑文件/02_中文提示.build",
+      "byte_identical": true,
+      "sha256": "90da17a00db0fa58a6239ae338205853fbc8cd79f4c6ad0916a797fc33059595"
+    },
+    {
+      "file": "构筑文件/03_noncrit_Hybrid.build",
+      "byte_identical": true,
+      "sha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f"
+    },
+    {
+      "file": "构筑文件/03_中文提示.build",
+      "byte_identical": true,
+      "sha256": "63fd84adf1eeba7a3f1e5152f64c29c6ecfc2840e0d52fa65c6c28f1cc09a85e"
+    },
+    {
+      "file": "构筑文件/04_Crit_Hybrid.build",
+      "byte_identical": true,
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d"
+    },
+    {
+      "file": "构筑文件/04_中文提示.build",
+      "byte_identical": true,
+      "sha256": "f639d5fe1d75f46583e03b212be3cb5fc4dee4119c4a23996a695f733c9bee64"
+    },
+    {
+      "file": "构筑文件/05_Uber_Endgame.build",
+      "byte_identical": true,
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c"
+    },
+    {
+      "file": "构筑文件/05_中文提示.build",
+      "byte_identical": true,
+      "sha256": "d570ca952ee4dfe26f3232c194dc660f31da656f3b191e68a9129cc87f4423c2"
+    },
+    {
+      "file": "构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "byte_identical": true,
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5"
+    },
+    {
+      "file": "构筑文件/06_中文提示.build.txt",
+      "byte_identical": true,
+      "sha256": "3641ca2a469c1ed017d0f5959b2ffb62b68dc68a4c7b9db75ef9c93853b9bb60"
+    }
+  ]
+}
