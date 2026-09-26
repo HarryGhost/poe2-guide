@@ -5,16 +5,17 @@ import json,html,copy,re,hashlib,shutil,collections
 from content import *
 import crafting
 import early_crafting
+import review_r8
 BASE=Path(__file__).resolve().parent
-OUT=Path(__file__).resolve().parent.parent  # 仓库根目录（哈利改：原为交付机绝对路径）
+OUT=Path(__file__).resolve().parent.parent  # 仓库根目录（哈利改）
 if (BASE.parent/'data/全站阶段与核算.json').exists():OUT=BASE.parent
 D=json.loads((OUT/'data/六分支原始及中文映射.json').read_text())
 STAGES=json.loads((OUT/'data/全站阶段与核算.json').read_text())
 DICT=json.loads((OUT/'data/当前词典.json').read_text())
 SOURCES=json.loads((OUT/'data/来源目录.json').read_text())
 M={s['id']:s for s in STAGES}
-VERSION='C全站阶段作业 · R7 / Fubgun Early起步打造'
-RES=[('roadmap','全部阶段与路线'),('compare','阶段变化对比'),('mechanics','机制与排障'),('craft','打造 · 从Early开始'),('rewards','永久奖励核对'),('glossary','中英名称查询'),('reader','作者说明读本'),('sources','来源、下载与检查')]
+VERSION='C全站阶段作业 · R8 / 阶段纠错与整套参考联动'
+RES=[('roadmap','全部阶段与路线'),('compare','阶段变化对比'),('mechanics','机制与排障'),('craft','打造 · 从Early开始'),('craft-examples','打造实例 · 怎样判断'),('rewards','永久奖励核对'),('glossary','中英名称查询'),('reader','作者说明读本'),('sources','来源、下载与检查')]
 PAGES={}
 def h(v):return html.escape(str(v if v is not None else ''),quote=True)
 def js(v):return json.dumps(v,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
@@ -47,19 +48,17 @@ def nav(current):
   for s in STAGES:
    if s['kind']!=kind:continue
    short={'l01':'1–14级 · 闪电起步','l02':'15–23级 · 闪电补强','l03':'24–30级 / 31级未转','l04':'取得宝石 · 转冰射','l05':'42–59级 · 剧情后段','l06':'60级＋ · 通关衔接','e01':'Early · 刚进异界','e02':'非暴击 · 中期补强','e03':'非暴击 · 混合防御','e04':'暴击 · 保留狙击','e05':'高配 · 冰射主输出','e06':'实装快照 · 只读核对'}[s['id']]
-   if current==s['id']:
-    o+=f'<a class="stage-link active" href="{s["file"]}" aria-current="page"><span class="n">{s["number"]:02}</span><span>{short}</span></a>'
-   else:
-    o+=f'<a class="stage-link " href="{s["file"]}" ><span class="n">{s["number"]:02}</span><span>{short}</span></a>'
+   cls = "active" if current==s["id"] else ""
+   aria = ' aria-current="page"' if current==s["id"] else ''
+   o+=f'<a class="stage-link {cls}" href="{s["file"]}"{aria}><span class="n">{s["number"]:02}</span><span>{short}</span></a>' if aria else f'<a class="stage-link " href="{s["file"]}" ><span class="n">{s["number"]:02}</span><span>{short}</span></a>' 
  o+='<div class="nav-label">资料与工具</div>'
  for rid,title in RES:o+=f'<a class="stage-link {"active" if current==rid else ""}" href="{rid}.html">{title}</a>'
  o+='<div class="side-foot">不按进度解锁 · 全部随时查看<br>自刷通货，预算内购买/打造<br>资料核对：2026-09-26<br><a href="all.html">全部作业展开阅读</a></div>'
  return o
-
 COMMON_DIALOG='''<dialog id="search-dialog"><div class="dialoghead"><h2>全站搜索</h2><button type="button" data-close="search-dialog" aria-label="关闭搜索">关闭</button></div><label for="site-search" class="small">阶段、技能、装备、机制、中文或英文名称</label><input id="site-search" type="search" placeholder="例如：感电、31级、卡迪罗、精魂" style="width:100%;margin-top:6px"><p id="search-count" class="small muted"></p><div class="search-results" id="search-results"></div></dialog><dialog id="key-dialog"><div class="dialoghead"><h2>设置网页显示的按键</h2><button type="button" data-close="key-dialog">关闭</button></div><p class="small muted">以下为建议键位，不是已核实的作者键位。只改网页提示，不改变游戏设置；同一技能的提示会同步。</p><div id="key-editor" class="keyeditor"></div><p id="key-error" class="small"></p><div class="controlrow"><button class="primary" id="key-save">保存网页键位</button><button id="key-reset">恢复建议</button></div></dialog><dialog id="copy-dialog"><div class="dialoghead"><h2>复制内容</h2><button data-close="copy-dialog">关闭</button></div><p class="small muted">浏览器未允许自动复制；选中文本后按 Ctrl+C。</p><textarea id="copy-text" rows="13" style="width:100%"></textarea></dialog><div id="toast" class="toast" role="status" aria-live="polite" hidden></div>'''
 def shell(current,title,body,stage=None):
  data={'id':current,'version':VERSION,'stage':stage}
- return '<!doctype html><html lang="zh-CN" data-look="c"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="完整阶段作业与来源核对。全部阶段可自由访问，键位、属性与操作同页展示。"><title>'+h(title)+' · 锐眼冰射作业</title><link rel="stylesheet" href="assets/style.css"></head><body data-page="'+current+'" data-layout="stage-workbook-r7" data-density="compact"><a class="skip" href="#main">跳到正文</a><aside class="sidebar" id="sidebar" aria-label="全部阶段与资料">'+nav('craft' if current in ('craft-advanced','craft-all','craft-early-all') else current)+'</aside><div class="page"><header class="topbar"><div class="top-actions"><button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="sidebar">目录</button><div class="crumb">'+h(title)+'</div></div><div class="top-actions"><button id="search-open">搜索 /</button><button id="density-toggle">舒适字号</button>'+(('<button id="keys-open">改键位</button>') if stage and not stage['readonly'] else '')+'<button id="print-btn">打印</button></div></header><main id="main" tabindex="-1"><noscript><div class="notice warn">JavaScript未启用：阶段与技能正文仍可读；完整属性表和全部原件请打开<a href="all.html">全部作业展开页</a>。</div></noscript>'+body+'<footer class="page-footer"><span>'+VERSION+' · 全站统一布局 · 2026-09-26<br>原始快照与中文资料对照；不等于国服实测毕业。</span><span><a href="roadmap.html">所有阶段</a> · <a href="sources.html#limits">核对边界</a> · <a href="#main">回顶部 ↑</a></span></footer></main></div>'+COMMON_DIALOG+'<script id="page-data" type="application/json">'+js(data)+'</script><script src="assets/search-index.js"></script><script src="assets/app.js"></script>'+('<script src="assets/catalog.js"></script><script src="assets/compare.js"></script>' if current=='compare' else '')+('<script src="assets/crafting.js"></script>' if current in ('craft-advanced','craft-all') else '')+('<script src="assets/early-crafting.js"></script>' if current in ('craft','craft-early-all') else '')+'</body></html>'
+ return '<!doctype html><html lang="zh-CN" data-look="c"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="完整阶段作业与来源核对。全部阶段可自由访问，键位、属性与操作同页展示。"><title>'+h(title)+' · 锐眼冰射作业</title><link rel="stylesheet" href="assets/style.css?v=r8"></head><body data-page="'+current+'" data-layout="stage-workbook-r8" data-density="compact"><a class="skip" href="#main">跳到正文</a><aside class="sidebar" id="sidebar" aria-label="全部阶段与资料">'+nav('craft' if current in ('craft-advanced','craft-all','craft-early-all') else current)+'</aside><div class="page"><header class="topbar"><div class="top-actions"><button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="sidebar">目录</button><div class="crumb">'+h(title)+'</div></div><div class="top-actions"><button id="search-open">搜索 /</button><button id="density-toggle">舒适字号</button>'+(('<button id="keys-open">改键位</button>') if stage and not stage['readonly'] else '')+'<button id="print-btn">打印</button></div></header><main id="main" tabindex="-1"><noscript><div class="notice warn">JavaScript未启用：阶段与技能正文仍可读；完整属性表和全部原件请打开<a href="all.html">全部作业展开页</a>。</div></noscript>'+body+'<footer class="page-footer"><span>'+VERSION+' · 全站统一布局 · 2026-09-26<br>原始快照与中文资料对照；不等于国服实测毕业。</span><span><a href="roadmap.html">所有阶段</a> · <a href="sources.html#limits">核对边界</a> · <a href="#main">回顶部 ↑</a></span></footer></main></div>'+COMMON_DIALOG+'<script id="page-data" type="application/json">'+js(data)+'</script><script src="assets/search-index.js?v=r8"></script><script src="assets/app.js?v=r8"></script>'+('<script src="assets/catalog.js?v=r8"></script><script src="assets/compare.js?v=r8"></script>' if current=='compare' else '')+('<script src="assets/crafting.js?v=r8"></script>' if current in ('craft-advanced','craft-all') else '')+('<script src="assets/early-crafting.js?v=r8"></script>' if current in ('craft','craft-early-all') else '')+('<script src="assets/examples.js?v=r8"></script>' if current=='craft-examples' else '')+'</body></html>'
 def overview_attrs(st):
  if st['readonly']:
   return '<div class="notice danger">此快照含升华冲突，不提供伪装成可用配置的三维/资源门槛。装备与技能原始记录全部保留；没有把未知值填成0。</div>'
@@ -70,7 +69,7 @@ def overview_attrs(st):
  for k,v,zh in zip(['str','dex','int'],values,['力量','敏捷','智慧']):html+=f'<div class="metric"><strong id="total-{k}">{v}</strong><div>{zh}<small>整套面板需求</small></div></div>'
  html+=f'<div class="metric"><strong>{base}</strong><div><a href="#budget">精魂基础起算</a><small>{"另有生命保留，需核对" if st["id"]=="e05" else "非最终保留 · 展开核算"}</small></div></div></div>'
  html+='<p class="small muted" id="profile-caption">明确底材和基础宝石等级下的参考，不是你的实装扫描；数字已包含装备，不要求全从天赋获得。</p>'
- return html
+ return html+review_r8.profile_snapshot(st)
 
 def skills_html(st,full=False):
  o=''
@@ -79,7 +78,7 @@ def skills_html(st,full=False):
  for n,s in enumerate(st['skills']):
   ch=''.join('<span class="support '+('active' if sp.get('active') else '')+'" data-support="'+h(sp.get('id',sp.get('key','')))+'">'+('〔主动〕' if sp.get('active') else '')+h(sp['zh'])+'</span>' for sp in s['supports']) or '<span class="muted">此快照未配置辅助</span>'
   inactive=s['key'] in st['defaultDisabled'];pre='已停用 · 可选' if inactive else '元技能内槽另配' if s['key'] in ['mirage','deadeye'] else ''
-  o+=f'<div class="skill-row {"disabled" if inactive else ""}" data-skill="{h(s["key"])}" data-original-id="{h(s["id"])}"><div>{keyel(st,s["key"])}</div><div class="skill-name">{h(s["zh"])}<small data-skill-state="{h(s["key"])}">{pre}</small></div><div class="support-chain">{ch}</div>'
+  o+=f'<div class="skill-row {"disabled" if inactive else ""}" data-skill="{h(s["key"])}" data-original-id="{h(s["id"])}"><div>{keyel(st,s["key"])}</div><div class="skill-name">{h(s["zh"])}<small data-skill-state="{h(s["key"])}">{pre}</small><small class="gem-level" data-gem-key="{h(s["key"])}"></small></div><div class="support-chain">{ch}</div>'
   if not full:o+=f'<button class="skill-detail-btn" data-skill-detail="detail-{st["id"]}-{n}" aria-expanded="false" aria-controls="detail-{st["id"]}-{n}" aria-label="展开{h(s["zh"])}说明">＋</button>'
   o+='</div>'
   extra=f'<p>{h(s["note"])}</p><p>{ext(s["url"],s["en"])} <code>{h(s["id"])}</code></p>'
@@ -116,7 +115,7 @@ def upgrades(st):
  if st['id']=='e05':slots='本配置没有狙击；优先检查冰射，再处理寒冰之捷、冰冻印记。';quality='本配置没有狙击；按当前技能实际收益选择。原文通用优先级不强套。'
  return details('孔位与品质：先把材料花在哪里',f'<p><b>辅助孔：</b>{slots}。</p><p><b>品质：</b>{quality}。</p><p>已有并正在使用的技能才进入顺序。作者通常从原连接末端减配；如果删除冻结导致冻不住，需要明确放回并接受伤害/清图取舍。高阶辅助不是无条件替换低阶。</p><p>六连在此指1个主动配5个辅助；元技能内嵌主动不是辅助。'+src(st['source'],'原作者说明')+'</p>')
 
-def equipment_html(st):
+def original_equipment_html(st):
  if st['kind']=='level':
   base=st['original']['gear'];rows=[]
   for item,a,b in base:rows.append([h(item),h(a),h(b)])
@@ -134,6 +133,13 @@ def equipment_html(st):
   if slot=='Flask1' or slot=='Charm1':status='原件暗金 · 普通/魔法替代' if unique else '普通/魔法功能件 · 不是黄装'
   rows.append([h(slotname)+'<br><b>'+h(eq['zh'])+'</b><br>'+tag(status),h(tips[1]),h(tips[2])+info])
  return table(['原件部位与名称','优先词条 / 作用','自己刷、购买或打造'],rows)
+
+def equipment_html(st):
+ if st['readonly']:
+  return '<div class="card-body"><p class="notice danger">06只读：以下是冲突快照的原件，不绑定可用属性门槛。</p></div>'+original_equipment_html(st)
+ title='作者原始展示装备（另看，不等于上方参考）' if st['kind']=='end' else '本阶段通用换装建议（不替换当前参考）'
+ intro='<p class="notice">下面保留作者原始词条与名称；它与上方“当前参考”是两种数据。只有明确选定对应底材与宝石等级，才能使用同一组属性数字。</p>' if st['kind']=='end' else ''
+ return review_r8.profile_gear(st)+details(title,intro+original_equipment_html(st),id='author-gear-records')
 
 def attributes_html(st):
  if st['readonly']:return '<div class="card-body">06未提供可用整套需求结论，不能把不明武器/升华的快照作为有效面板目标。前五个异界页面均有完整参考计算；此页只保留数据。</div>'
@@ -168,6 +174,7 @@ def tree_section(st):
  body='<div class="card-body"><div class="rulelist">'+''.join('<div class="ruleitem"><b>'+h(str(i+1)+'．'+x)+'</b></div>' for i,x in enumerate(priorities))+'</div><p class="small muted">这些是当前需求优先级，不是已验证的节点连通顺序。'+src(st['source'],'作者阶段依据')+'</p></div>'
  asc='<p><b>零点射击 → 无限弹药 → 聚风 → 蜃影神射</b>是本套锐眼的升华安排；达到对应试炼与点数条件再取得，不按普通等级自动获得。</p><p>主动“狙击”和升华里同名的Far Shot不是同一个对象；原件选Point Blank / 零点射击。</p>'
  if st['readonly']:asc='<p>06所有升华节点属于Ranger3系列，与文件头Ranger1冲突；不得据此确认正常锐眼升华。保留原始记录，不猜测修复。</p>'
+ body+=review_r8.key_nodes(st)
  body+=details('升华与武器组：怎么避免点错组',asc+'<p>作者主输出用Ⅰ，冰冻印记用Ⅱ；技能绑定与装备共用需要在游戏面板核对。剧情尚未取得足够武器专精点时，不按后期整套强配。原件未保存逐技能武器绑定。</p><p>施放印记后检查回到Ⅰ输出，技能失效先查武器与属性要求；跨组地面效果的快照时点没有国服实测，不填固定最终倍率。</p>')
  if st['nodes']:
   stats=st['original']['counts'];body+=details('完整原始节点清单：按范围查询，不把行号当点序',nodes_html(st),id='node-records')
@@ -175,11 +182,7 @@ def tree_section(st):
  return body
 
 def next_html(st):
- idx=STAGES.index(st);nextst=STAGES[idx+1] if idx<10 else None
- if st['readonly']:return '<div class="card-body"><p>06是只读快照，不接到05之后当必经阶段。</p><a class="btn" href="e05.html">返回05</a> <a class="btn" href="sources.html#conflict">查看冲突证据</a></div>'
- if st['id']=='e05':return '<div class="card-body"><p>05之后没有“必须转06”的任务。保留现有可用配置，逐项验证具体首领和难度。</p><p>继续升级实际短板，不因作者实装改变就再次换树。</p><a class="btn" href="compare.html?from=e04&to=e05">查看04→05完整差异</a></div>'
- gates=TASKS.get(nextst['id'],nextst['original'].get('profile',{}).get('gate',[]))
- return '<div class="card-body"><p><b>下一阶段：</b>'+h(nextst['label']+' / '+nextst['title'])+'</p><p>'+h(GATES[nextst['id']])+'</p>'+checks(st['id'],gates,'next')+'<div class="controlrow"><a class="btn primary" href="'+nextst['file']+'">查看下一阶段 →</a><a class="btn" href="compare.html?from='+st['id']+'&to='+nextst['id']+'">只看要改什么</a></div><p class="small muted">勾选仅记录自己的检查，不解锁或隐藏任何页面。装备和技能未齐，可以继续当前阶段。</p></div>'
+ return review_r8.transition_html(st,M,checks)
 
 def stage_body(st):
  tagstr=tag('只读 · 冲突隔离','danger') if st['readonly'] else tag('60+延续方案，非作者原版','warn') if st['fallback'] else tag('全部连接同页可见','ok')
@@ -193,9 +196,12 @@ def stage_body(st):
  if not st['readonly']:o+=card('现在只做这三件事','<div class="card-body">'+checks(st['id'],tasks)+'</div>',extra='<button class="tiny no-print" data-copy="skills">复制全部连接</button>')
  o+='<div class="section" id="gear">'+card('装备 · 先补真实缺口，再决定买还是做',equipment_html(st))+'</div>'
  if st['kind']=='end':
-  targets=['bow-noncrit','quiver-standard'] if st['number']<=2 else ['helmet-stable','amulet'] if st['number']==3 else ['bow-crit','quiver-advanced','amulet','emerald']
-  o+='<div class="notice"><b>这一阶段的后期打造：</b>'+ ' · '.join('<a href="craft.html#'+x+'">'+h(next(r['title'] for r in crafting.DATA['recipes'] if r['id']==x))+'</a>' for x in targets)+'。<a href="craft.html">全部8条路线始终可看</a>；阶段对应是整理指引，不是必须依次制作。</div>'
- o+='<div class="twocol section"><div id="tree">'+card('天赋 · 先后顺序与原始记录',tree_section(st))+'</div><div id="next">'+card('下一阶段 · 准备好再转',next_html(st))
+  if st['number']<=2:
+   o+='<div class="notice"><b>先从能用的一套开始：</b><a href="craft.html">Early逐部位做法</a> · <a href="craft-examples.html#blue-bow">一把蓝弓值不值得继续？看具体实例</a>。作者ilvl75完整工艺属于可选进阶，不是进异界的门票。</div>'
+  elif st['number']<=5:
+   case='es-helmet' if st['number']==3 else 'amulet-fracture'
+   o+='<div class="notice"><b>对应的装备准备：</b><a href="craft-examples.html#'+case+'">先看状态判断实例</a> · <a href="craft-advanced.html">作者8条进阶工艺</a>。按当前阶段条件选择，不强制全做。</div>'
+ o+='<div class="twocol section"><div id="tree">'+card('天赋 · 条件优先级与已核对点位',tree_section(st))+'</div><div id="next">'+card('下一阶段 · 准备好再转',next_html(st))
  has_snipe=any(sk['key']=='snipe' for sk in st['skills'])
  output_check='分清命中、冻结、完美释放和弹幕强化对象；不要只堆狙击面板。' if has_snipe else '先检查武器实际伤害、命中和当前辅助的触发条件；不要套用别的阶段的狙击手法。'
  o+=card('卡住时，先查这四件事','<div class="card-body"><div class="rulelist"><div class="ruleitem"><b>技能变灰</b><p>核对人物等级、属性、武器类型与当前武器组，不先整树洗点。</p></div><div class="ruleitem"><b>伤害不稳定</b><p>'+h(output_check)+'</p></div><div class="ruleitem"><b>没有蓝</b><p>检查消耗、药剂和恢复条件；击杀回蓝不等于首领供蓝，印记偷取还要有对应物理击中。</p></div><div class="ruleitem"><b>总是死亡</b><p>先看生命、抗性、受击后防御与恢复，危险动作先躲。</p></div></div><p class="small"><a href="mechanics.html">打开完整机制与排障 →</a></p></div>')+'</div></div>'
@@ -222,6 +228,7 @@ def roadmap():
    if st['kind']!=kind:continue
    o+='<article class="mini-card"><div class="eyebrow">'+h(st['label'])+'</div><h3>'+h(st['title'])+'</h3><p>'+h(GATES[st['id']])+'</p><div class="controlrow"><a class="btn" href="'+st['file']+'">整套作业</a><a href="all.html#'+st['id']+'">全部记录</a></div></article>'
   o+='</div>'
+ o+=card('转换检查清单 · 按当前→目标明确配对',table(['从当前进入','这一轮只检查','没准备好'],[[h(M[t['fromStage']]['label'])+' → '+h(M[t['toStage']]['label']),'<a href="'+M[t['fromStage']]['file']+'#next">'+h(t['title'])+'</a>',h(t['hold'])] for t in review_r8.TRANSITIONS]))
  o+=card('这份网站的阅读方式','<div class="card-body"><p>每阶段顶部先判断能不能用，再看完整属性参考，技能和手法并排。长解释可以展开，但技能辅助名称默认全部显示。</p><p>你不需要汇报等级才能查看下一阶段。当前页仅是书签；没有注册、服务器进度或自动改游戏配置。</p><p>05不是只换几件装备的04；06有原件冲突，不是线性第六阶段。01 Early也不是1级剧情天赋脚本。</p></div>')
  return o
 
@@ -293,7 +300,7 @@ def sources():
  o+='<div class="section" id="builds">'+card('六份原始构筑 · 逐份选择，禁止混抄',table(['分支','原始文件','中文提示','完整性'],[[h(s['label']),'<a download href="构筑文件/'+h(Path(s['original']['download']).name)+'">'+('只读文本' if s['readonly'] else '原始 .build')+'</a>','<a download href="构筑文件/'+h(Path(s['original']['annotatedDownload']).name)+'">中文提示'+('（只读）' if s['readonly'] else '')+'</a>','<code>'+h(s['original']['sha256'])+'</code>'] for s in STAGES if s['kind']=='end']))+'</div>'
  o+='<div class="notice">.build是构筑提示JSON，不是游戏自动洗点/自动穿装备脚本。国际服默认BuildPlanner目录不当作WeGame国服已实测目录；使用客户端提供的导入入口。元技能内槽手工核对。</div>'
  o+='<div id="conflict" class="section">'+card('06冲突：保留数据，不伪造修复','<div class="card-body"><p>Live Gear文件头为 <code>Ranger1</code>，但其升华节点为 <code>AscendancyRanger3*</code>。这只能证明导出内部不一致，不能据此断言作者实际转职，也不能只改头部就认为修好。</p><p>06文件改用 <code>.build.txt</code>隔离，内容与源文件字节相同。01–05未发现同样升华前缀冲突。</p></div>')+'</div>'
- limits=[('完整原始记录','六份装备、主技能/内槽、天赋与武器组全量保留；不可用名字覆盖原始ID。'),('页面范围','六个剧情作业、六个异界作业以及全部资料工具统一C配色和紧凑结构，不跳回旧版页面。'),('整套属性','提供明确装备底材、基础宝石等级和辅助的参考核算；不是原作者实装面板，也不是玩家当前装备扫描。06冲突不造数。'),('60+剧情','作者独立60+配置未成功取得；采用已核对42–59配置延续完成剧情，显著标明，不冒充作者原版。'),('天赋连线/点序','原文件只有节点ID，缺完整静态连线及合法逐级点序。本地保留记录和条件优先级，不以数组行序编造加点。'),('国服名称','简体资料与DSH待核对映射分别标注；不是全部客户端名称已验证。'),('国服导入/游戏机制','未登录国服做导入、实际计点、战斗或全部首领实测；浏览器检查不等于这些验证。'),('掉落与价格','未确认国服确切掉落池的不指定刷取首领；没有编造实时价格、打造成功率、保过最高难度结论。')]
+ limits=[('完整原始记录','六份装备、主技能/内槽、天赋与武器组全量保留；不可用名字覆盖原始ID。'),('页面范围','六个剧情作业、六个异界作业以及全部资料工具统一C配色和紧凑结构，不跳回旧版页面。'),('整套属性','参考选择同步更新属性、全身底材与基础宝石等级；编辑值单独标记。作者展示词条另外展开，不等于同一参考。06冲突不造数。'),('60+剧情','作者独立60+配置未成功取得；采用已核对42–59配置延续完成剧情，显著标明，不冒充作者原版。'),('天赋连线/点序','原文件只有节点ID，缺完整静态连线及合法逐级点序。本地保留记录和条件优先级，不以数组行序编造加点。'),('国服名称','简体资料与DSH待核对映射分别标注；不是全部客户端名称已验证。'),('国服导入/游戏机制','未登录国服做导入、实际计点、战斗或全部首领实测；浏览器检查不等于这些验证。'),('掉落与价格','未确认国服确切掉落池的不指定刷取首领；没有编造实时价格、打造成功率、保过最高难度结论。')]
  o+='<div class="section" id="limits">'+card('已完成什么 / 哪些仍是资料边界',table(['项目','状态与边界'],[[h(a),h(b)] for a,b in limits]))+'</div>'
  o+=card('原始数据与本轮核算', '<div class="card-body"><div class="link-grid">'+''.join('<a class="mini-card" download href="data/'+h(f.name)+'">'+h(f.name)+'</a>' for f in sorted((OUT/'data').glob('*.json')))+'</div><p class="small">可维护源码位于“源码”目录。检查与预览目录含实际测试结果和截图，SHA256清单用于核验文件。</p></div>')
  o+=card('资料来源（国际服作者 / 数据中文展示）',table(['标记','来源','类型'],[[h(x['id']),ext(x['url'],x.get('title',x['id'])),'国际服作者' if 'mobalytics' in x['url'] else '国际服官方' if 'pathofexile.com' in x['url'] else '国际服数据简体展示'] for x in SOURCES]))
@@ -308,7 +315,7 @@ def compare():
 def all_body():
  o=reshead('全部作业展开 · 无需脚本也能阅读','所有阶段连接、装备、天赋、操作与参考需求一次收录。为了全文搜索，此页会很长；日常看左侧单阶段作业。')
  for st in STAGES:
-  o+='<article class="fullblock section" id="'+st['id']+'"><h2>'+h(st['label']+' / '+st['title'])+'</h2><p>'+h(GATES[st['id']])+'</p><p><a class="btn" href="'+st['file']+'">回紧凑作业页</a> '+src(st['source'],'作者页面')+'</p>'+card('全部技能连接与说明',skills_html(st,True),'skill')+card('操作说明',rotation(st),'combat')+card('装备原件/阶段方向',equipment_html(st))+card('天赋记录',nodes_html(st,True))
+  o+='<article class="fullblock section" id="'+st['id']+'"><h2>'+h(st['label']+' / '+st['title'])+'</h2><p>'+h(GATES[st['id']])+'</p><p><a class="btn" href="'+st['file']+'">回紧凑作业页</a> '+src(st['source'],'作者页面')+'</p>'+card('全部技能连接与说明',skills_html(st,True),'skill')+card('操作说明',rotation(st),'combat')+card('装备原件/阶段方向',original_equipment_html(st))+card('天赋记录',nodes_html(st,True))
   for p in st['profiles']:
    rows=[[h(r['label']),h(r['category']),str(r['str']),str(r['dex']),str(r['int']),h(r['note'])+' '+ext(r['url'],'依据')] for r in p['rows']]
    o+=card('完整属性参考：'+h(p['label']),table(['条目','类别','力量','敏捷','智慧','前提'],rows))
@@ -323,14 +330,14 @@ for st in STAGES:
   body='<div class="notice"><b>第一次从Early开始配装备？</b> <a href="craft.html">打开逐部位起步打造作业</a>。这里先做非暴击、生命/闪避，不把ilvl75完整工艺当入场要求。</div>'+body
  PAGES[st['file']]=shell(st['id'],st['label']+' · '+st['title'],body,st)
 PAGES['index.html']=PAGES['e01.html']
-for rid,func in [('roadmap',roadmap),('compare',compare),('mechanics',mechanics),('craft',craft),('craft-early-all',craft_early_all),('craft-advanced',craft_advanced),('craft-all',craft_all),('rewards',rewards),('glossary',glossary),('reader',reader),('sources',sources),('all',all_body)]:PAGES[rid+'.html']=shell(rid,dict(RES).get(rid,{'craft-advanced':'8条进阶工艺','craft-early-all':'Early打造全部展开','craft-all':'全部进阶工艺展开'}.get(rid,'全部作业展开')),func())
+for rid,func in [('roadmap',roadmap),('compare',compare),('mechanics',mechanics),('craft',craft),('craft-examples',review_r8.examples_page),('craft-early-all',craft_early_all),('craft-advanced',craft_advanced),('craft-all',craft_all),('rewards',rewards),('glossary',glossary),('reader',reader),('sources',sources),('all',all_body)]:PAGES[rid+'.html']=shell(rid,dict(RES).get(rid,{'craft-advanced':'8条进阶工艺','craft-early-all':'Early打造全部展开','craft-all':'全部进阶工艺展开'}.get(rid,'全部作业展开')),func())
 legacy_craft_anchors=[r['id'] for r in crafting.DATA['recipes']]+['craft-basics','craft-materials','craft-other','craft-extras','craft-coverage']+['mat-'+m['id'] for m in crafting.DATA['materials']]
 for f,content in PAGES.items():
  for anchor in legacy_craft_anchors:
   content=content.replace('href="craft.html#'+anchor+'"','href="craft-advanced.html#'+anchor+'"')
  PAGES[f]=content
  (OUT/f).write_text(content,encoding='utf-8')
-for name in ['style.css','app.js','compare.js','crafting.js','early-crafting.js']:
+for name in ['style.css','app.js','compare.js','crafting.js','early-crafting.js','examples.js']:
  if (BASE/name).exists():shutil.copy2(BASE/name,OUT/'assets'/name)
 # Broad search includes every stage, mechanic, original equipment and all vocab; no network.
 index=[]
@@ -348,7 +355,11 @@ for m in crafting.DATA['materials']:
  index.append(dict(title='打造材料 / '+m['zh'],text=m['en']+' '+m['effect']+' '+m['check'],url='craft-advanced.html#mat-'+m['id']))
 for item in early_crafting.DATA['items']:
  index.append(dict(title='Early起步打造 / '+item['title'],text=item['target']+' '+item['start']+' '+' '.join(' '.join(step) for step in item['steps']),url='craft.html#early-'+item['id']))
+for c in review_r8.CASES:
+ index.append(dict(title='打造实例 / '+c['title'],text=c['stage']+' '+c['state']+' '+c['action'],url='craft-examples.html#'+c['id']))
+for t in review_r8.TRANSITIONS:
+ index.append(dict(title='阶段转换 / '+t['title'],text=' '.join(t['checks']),url=M[t['fromStage']]['file']+'#next'))
 (OUT/'assets/search-index.js').write_text('window.SEARCH_INDEX='+js(index)+';\n')
 (OUT/'assets/catalog.js').write_text('window.CATALOG='+js(STAGES)+';\n')
-(OUT/'data/页面清单.json').write_text(json.dumps({'version':VERSION,'pages':list(PAGES),'stage_pages':[s['file'] for s in STAGES],'layout':'stage-workbook-r7','date':'2026-09-26','crafting':'Early 12 equipment lessons + 5 stages + preserved 8 advanced routes'},ensure_ascii=False,indent=2))
+(OUT/'data/页面清单.json').write_text(json.dumps({'version':VERSION,'pages':list(PAGES),'stage_pages':[s['file'] for s in STAGES],'layout':'stage-workbook-r8','date':'2026-09-26','crafting':'12 Early lessons + 8 advanced routes + 6 teaching cases','transitions':10,'reference_binding':'metrics, gear, gems and ledger synchronized'},ensure_ascii=False,indent=2))
 print('Built',len(PAGES),'HTML pages')

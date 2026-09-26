@@ -1,0 +1,1284 @@
+{
+  "test": "static source + preserved data regression",
+  "environment": "local bytes, no game client",
+  "total": 255,
+  "passed": 255,
+  "failed": [],
+  "checks": [
+    {
+      "name": "26 standalone HTML pages",
+      "passed": true,
+      "detail": 26
+    },
+    {
+      "name": "JSON valid: 全部分支逐项差异.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 剧情练级结构数据.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 六分支原始及中文映射.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 页面清单.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 关键天赋点位核对.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 已核对辅助属性归类.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 转换检查清单.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 保留奖励记录.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: Early起步打造教学.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 打造教学实例.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: Fubgun_异界后期打造.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 全站阶段与核算.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 来源目录.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "JSON valid: 当前词典.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e06.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sources.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "sources.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l05.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "roadmap.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "roadmap.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "roadmap.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rewards.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "rewards.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "mechanics.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "mechanics.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l04.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-all.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-all.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-all.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-all.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-advanced.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-advanced.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-advanced.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-advanced.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "compare.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "compare.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l03.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e03.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e05.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l06.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l02.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e01.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "glossary.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "glossary.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "all.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "reader.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "reader.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-examples.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-examples.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-examples.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-examples.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-early-all.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-early-all.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "craft-early-all.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "craft-early-all.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e02.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "e04.html sources/footer exposes scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html unique DOM ids",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "index.html C palette common shell",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index.html local references and anchors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "l01 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l1-14 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l2-23 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-31 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l3-24 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l4-31 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l5-42 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l6-60 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-60 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e1-80 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e2-80 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e3-80 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e4-80 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e5-80 reference values unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 visible default gear one panel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 author gear separated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 raw original immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 skills links immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 node record scope+id+order retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 all original skill rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 05_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 04_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 02_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 01_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 06_中文提示.build.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 05_Uber_Endgame.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 03_中文提示.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 01_Early.build",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "raw/annotated file bytes: 06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all eight advanced recipes unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01--l02 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01--l02 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l01--l02 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02--l03 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02--l03 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l02--l03 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03--l04 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03--l04 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l03--l04 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04--l05 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04--l05 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l04--l05 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05--l06 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05--l06 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l05--l06 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06--e01 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06--e01 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "l06--e01 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01--e02 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01--e02 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01--e02 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02--e03 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02--e03 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02--e03 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03--e04 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03--e04 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03--e04 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04--e05 correct explicit edge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04--e05 exact intended checks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04--e05 corrected check keys versioned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 not forced to next stage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 not forced to next stage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "index exactly aliases e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all profile tables readable without script",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six complete case articles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue-bow state/action/outcome/stop present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "regal-or-essence state/action/outcome/stop present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rare-bow state/action/outcome/stop present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "armour-choice state/action/outcome/stop present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "es-helmet state/action/outcome/stop present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "amulet-fracture state/action/outcome/stop present",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

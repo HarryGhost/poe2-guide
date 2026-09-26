@@ -1,0 +1,42 @@
+{
+  "scope": "只补充已核对的节点名称、效果与原件分组，不含拓扑坐标/逐级路径；不是国服客户端实测。",
+  "verified_date": "2026-09-26",
+  "nodes": [
+    {
+      "id": "evasion33",
+      "zh": "猛兽之肤",
+      "en": "Beastial Skin",
+      "hash": 59720,
+      "effect": "来自身体护甲的闪避值提高100%。",
+      "condition": "检查衣服上实际物品闪避；并非所有阶段都分配了此点。",
+      "url": "https://poe2db.tw/cn/Beastial_Skin"
+    },
+    {
+      "id": "evasion_and_energy_shield25",
+      "zh": "诡计面纱",
+      "en": "Subterfuge Mask",
+      "hash": 55193,
+      "effect": "装备头盔每有1点物品能量护盾，获得1点闪避值。",
+      "condition": "护盾头和防御转型配套；不是按角色总护盾计算。",
+      "url": "https://poe2db.tw/cn/Subterfuge_Mask"
+    },
+    {
+      "id": "shock6",
+      "zh": "疲乏",
+      "en": "Frazzled",
+      "hash": 32301,
+      "effect": "魔力再生率提高15%；你造成的感电强度提高30%。",
+      "condition": "按原件所在武器组核对。冰冻印记＋充能印记是本套地面感电来源；不要把强度当成附加闪电伤害。切组快照时点仍未国服实测。",
+      "url": "https://poe2db.tw/cn/Frazzled"
+    },
+    {
+      "id": "elemental32",
+      "zh": "驾驭元素",
+      "en": "Harness the Elements",
+      "hash": 12611,
+      "effect": "敌人每受到一种元素异常影响，伤害提高20%。",
+      "condition": "按敌人真正存在的异常计算；“提高”不是每种异常独立一个“更多”乘区。",
+      "url": "https://poe2db.tw/cn/Harness_the_Elements"
+    }
+  ]
+}

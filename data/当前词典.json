@@ -802,9 +802,10 @@
     "elemental32": {
       "id": "elemental32",
       "zh": "驾驭元素",
-      "status": "DSH词典待复核",
-      "url": "",
-      "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+      "status": "简体资料有来源 · R8复核",
+      "url": "https://poe2db.tw/cn/Harness_the_Elements",
+      "note": "不等于连线及国服客户端验收。",
+      "en": "Harness the Elements"
     },
     "elemental16": {
       "id": "elemental16",
@@ -1098,9 +1099,9 @@
     "evasion33": {
       "id": "evasion33",
       "zh": "猛兽之肤",
-      "status": "简体资料有来源",
+      "status": "简体资料有来源 · R8复核",
       "url": "https://poe2db.tw/cn/Beastial_Skin",
-      "note": "不在Crit原始树内；不能把Uber节点计入Crit收益。",
+      "note": "不等于连线及国服客户端验收。",
       "en": "Beastial Skin"
     },
     "evasion27": {
@@ -1471,9 +1472,10 @@
     "shock6": {
       "id": "shock6",
       "zh": "疲乏",
-      "status": "DSH词典待复核",
-      "url": "",
-      "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+      "status": "简体资料有来源 · R8复核",
+      "url": "https://poe2db.tw/cn/Frazzled",
+      "note": "不等于连线及国服客户端验收。",
+      "en": "Frazzled"
     },
     "dexterity85_": {
       "id": "dexterity85_",
@@ -1814,9 +1816,9 @@
     "evasion_and_energy_shield25": {
       "id": "evasion_and_energy_shield25",
       "zh": "诡计面纱",
-      "status": "简体资料有来源",
+      "status": "简体资料有来源 · R8复核",
       "url": "https://poe2db.tw/cn/Subterfuge_Mask",
-      "note": "根据头盔的物品能量护盾获得闪避。",
+      "note": "不等于连线及国服客户端验收。",
       "en": "Subterfuge Mask"
     },
     "intelligence25": {

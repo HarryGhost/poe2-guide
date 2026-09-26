@@ -1,0 +1,1049 @@
+{
+  "environment": "original HTML and resource bytes in memory, Chromium rendering; no actual hosted navigation",
+  "total": 104,
+  "passed": 104,
+  "failed": [],
+  "js_errors": [],
+  "checks": [
+    {
+      "page": "all.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "all.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "all.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "all.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "compare.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "compare.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "compare.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "compare.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "craft-advanced.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "craft-advanced.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "craft-advanced.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "craft-advanced.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "craft-all.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "craft-all.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "craft-all.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "craft-all.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "craft-early-all.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "craft-early-all.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "craft-early-all.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "craft-early-all.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "craft-examples.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "craft-examples.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "craft-examples.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "craft-examples.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "craft.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "craft.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "craft.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "craft.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "e01.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "e01.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "e01.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "e01.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "e02.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "e02.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "e02.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "e02.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "e03.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "e03.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "e03.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "e03.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "e04.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "e04.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "e04.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "e04.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "e05.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "e05.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "e05.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "e05.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "e06.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "e06.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "e06.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "e06.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "glossary.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "glossary.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "glossary.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "glossary.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "index.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "l01.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "l01.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "l01.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "l01.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "l02.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "l02.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "l02.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "l02.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "l03.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "l03.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "l03.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "l03.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "l04.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "l04.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "l04.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "l04.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "l05.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "l05.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "l05.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "l05.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "l06.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "l06.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "l06.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "l06.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "mechanics.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "mechanics.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "mechanics.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "mechanics.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "reader.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "reader.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "reader.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "reader.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "rewards.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "rewards.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "rewards.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "rewards.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "roadmap.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "roadmap.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "roadmap.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "roadmap.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    },
+    {
+      "page": "sources.html",
+      "width": 1366,
+      "passed": true,
+      "observed": {
+        "vw": 1366,
+        "body": 1366,
+        "doc": 1366
+      }
+    },
+    {
+      "page": "sources.html",
+      "width": 1920,
+      "passed": true,
+      "observed": {
+        "vw": 1920,
+        "body": 1920,
+        "doc": 1920
+      }
+    },
+    {
+      "page": "sources.html",
+      "width": 960,
+      "passed": true,
+      "observed": {
+        "vw": 960,
+        "body": 960,
+        "doc": 960
+      }
+    },
+    {
+      "page": "sources.html",
+      "width": 390,
+      "passed": true,
+      "observed": {
+        "vw": 390,
+        "body": 390,
+        "doc": 390
+      }
+    }
+  ]
+}

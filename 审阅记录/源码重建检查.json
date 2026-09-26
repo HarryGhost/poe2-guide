@@ -1,0 +1,159 @@
+{
+  "method": "copy complete source/data to independent temp directory and rebuild; byte compare generated outputs",
+  "returncode": 0,
+  "stdout": "Built 26 HTML pages\n",
+  "stderr": "",
+  "total": 37,
+  "passed": 37,
+  "failed": [],
+  "checks": [
+    {
+      "file": "all.html",
+      "passed": true
+    },
+    {
+      "file": "assets/app.js",
+      "passed": true
+    },
+    {
+      "file": "assets/catalog.js",
+      "passed": true
+    },
+    {
+      "file": "assets/compare.js",
+      "passed": true
+    },
+    {
+      "file": "assets/crafting.js",
+      "passed": true
+    },
+    {
+      "file": "assets/early-crafting.js",
+      "passed": true
+    },
+    {
+      "file": "assets/examples.js",
+      "passed": true
+    },
+    {
+      "file": "assets/search-index.js",
+      "passed": true
+    },
+    {
+      "file": "assets/style.css",
+      "passed": true
+    },
+    {
+      "file": "compare.html",
+      "passed": true
+    },
+    {
+      "file": "craft-advanced.html",
+      "passed": true
+    },
+    {
+      "file": "craft-all.html",
+      "passed": true
+    },
+    {
+      "file": "craft-early-all.html",
+      "passed": true
+    },
+    {
+      "file": "craft-examples.html",
+      "passed": true
+    },
+    {
+      "file": "craft.html",
+      "passed": true
+    },
+    {
+      "file": "data/页面清单.json",
+      "passed": true
+    },
+    {
+      "file": "e01.html",
+      "passed": true
+    },
+    {
+      "file": "e02.html",
+      "passed": true
+    },
+    {
+      "file": "e03.html",
+      "passed": true
+    },
+    {
+      "file": "e04.html",
+      "passed": true
+    },
+    {
+      "file": "e05.html",
+      "passed": true
+    },
+    {
+      "file": "e06.html",
+      "passed": true
+    },
+    {
+      "file": "glossary.html",
+      "passed": true
+    },
+    {
+      "file": "index.html",
+      "passed": true
+    },
+    {
+      "file": "l01.html",
+      "passed": true
+    },
+    {
+      "file": "l02.html",
+      "passed": true
+    },
+    {
+      "file": "l03.html",
+      "passed": true
+    },
+    {
+      "file": "l04.html",
+      "passed": true
+    },
+    {
+      "file": "l05.html",
+      "passed": true
+    },
+    {
+      "file": "l06.html",
+      "passed": true
+    },
+    {
+      "file": "mechanics.html",
+      "passed": true
+    },
+    {
+      "file": "reader.html",
+      "passed": true
+    },
+    {
+      "file": "rewards.html",
+      "passed": true
+    },
+    {
+      "file": "roadmap.html",
+      "passed": true
+    },
+    {
+      "file": "sources.html",
+      "passed": true
+    },
+    {
+      "file": "原文资料/Early起步打造_中文操作说明.md",
+      "passed": true
+    },
+    {
+      "file": "原文资料/Fubgun_Crafting_Guide_中文操作版.md",
+      "passed": true
+    }
+  ]
+}

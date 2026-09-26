@@ -22,7 +22,11 @@ def stage_links():
 def item_html(it):
  o='<article id="early-'+it['id']+'" data-early-item="'+it['id']+'" class="early-item"><div class="early-item-head"><h2>'+h(it['title'])+' · '+h(it['priority'])+'</h2><span class="badge">01 Early</span></div>'
  o+='<div class="early-workspace"><div class="early-instructions">'
+ examples={'bow':('blue-bow','两词缀前后：蓝弓何时继续、何时停'),'body':('armour-choice','生命抗性与荆棘：两件衣服怎么比'),'helmet':('es-helmet','护盾头是准备03，不是进入02的前提'),'amulet':('amulet-fracture','普通＋3与破溃＋3：不能混用工艺'),'quiver':('rare-bow','先认词缀空位（以弓为例，不照搬配方）')}
  stepbody=''
+ if it['id'] in examples:
+  eid,title=examples[it['id']]
+  stepbody+='<p class="notice"><b>先看实例：</b>'+link('craft-examples.html#'+eid,title)+'</p>'
  for i,(title,action,result,risk) in enumerate(it['steps']):
   stepbody+='<section class="early-step"><h3><span>'+str(i+1)+'</span>'+h(title)+'</h3><p>'+h(action)+'</p><p class="small"><b>结果判断：</b>'+h(result)+'</p><p class="small early-caution"><b>别踩坑：</b>'+h(risk)+'</p></section>'
  o+=card('现在怎么做',stepbody,'skill')+'</div><aside class="early-readout">'
@@ -81,14 +85,15 @@ def footer():
   '<p>主BD：Fubgun 0.5.5 Early（国际服作者）；装备原件：用户上传的01_Early.build。基础材料：游戏数据简体展示，不等于腾讯客户端逐项核验。</p><p>新增的是Early起步的教学层和明确进阶入口，没有改动原始天赋、装备或技能数据。历史缺少的完整天赋连线、合法逐级点序、国服导入与高级工艺实测仍未完成。</p><p>'+link('sources.html#limits','完整边界')+' · '+link('data/Early起步打造教学.json','本页完整数据')+'</p>')
  return o
 def render(expanded=False):
- o='<header class="page-head"><div><div class="eyebrow">FUBGUN / EARLY-FIRST CRAFTING · R7</div><h1>从Early开始：装备怎么拿、怎么做、做到哪停</h1><p>仍按第一次玩的新手讲解。先把非暴击、生命/闪避这一套做能用，再按条件进入后面的工艺。</p></div></header>'
+ o='<header class="page-head"><div><div class="eyebrow">FUBGUN / EARLY-FIRST CRAFTING · R8</div><h1>从Early开始：装备怎么拿、怎么做、做到哪停</h1><p>仍按第一次玩的新手讲解。先把非暴击、生命/闪避这一套做能用，再按条件进入后面的工艺。</p></div></header>'
  o+='<div class="craft-scope"><b>不是31级剧情教程，也不是一上来做最高配。</b><span>Fubgun路线；自己刷通货，预算内购买/打造。</span><a href="'+('craft.html' if expanded else 'craft-early-all.html')+'">'+('返回紧凑版' if expanded else 'Early全部展开')+'</a></div>'
+ o+='<p class="notice"><b>看不懂“有效词条”？</b> '+link('craft-examples.html','打开6个具体判断实例')+'：现有状态、材料操作、好坏结果和停手条件都写在一起。</p>'
  o+=stage_links()
  o+='<div id="early-workbook" data-expanded="'+str(expanded).lower()+'">'+early_panel(expanded)+later_panels()+'</div>'
  o+='<nav class="local-nav"><a href="#early-basics">基础材料与三种等级</a><a href="#craft-stage-map">全部阶段顺序</a><a href="#craft-library">8条进阶工艺</a></nav>'
  return o+footer()
 def write_markdown():
- lines=['# 从Early开始的Fubgun装备打造 · R7','','这是异界起步，不是31级剧情；按第一次玩的新手讲解。作者目标与编辑普通加工建议分开。','']
+ lines=['# 从Early开始的Fubgun装备打造 · R8','','这是异界起步，不是31级剧情；按第一次玩的新手讲解。作者目标与编辑普通加工建议分开。','']
  for p in DATA['plans']:lines+=['## '+p['label'],p['summary'],'优先：'+p['focus'],'不当门槛：'+p['wait'],'']
  for it in DATA['items']:
   lines+=['## Early｜'+it['title'],'目标：'+it['target'],'起点：'+it['start'],'']

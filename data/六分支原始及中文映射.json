@@ -1346,9 +1346,10 @@
           "scope": "公共",
           "id": "elemental32",
           "zh": "驾驭元素",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Harness_the_Elements",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Harness the Elements"
         },
         {
           "row": 18,
@@ -1726,7 +1727,7 @@
           "scope": "公共",
           "id": "evasion33",
           "zh": "猛兽之肤",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Beastial_Skin",
           "note": "不在Crit原始树内；不能把Uber节点计入Crit收益。",
           "en": "Beastial Skin"
@@ -2205,9 +2206,10 @@
           "scope": "武器组2",
           "id": "shock6",
           "zh": "疲乏",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Frazzled",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Frazzled"
         },
         {
           "row": 113,
@@ -3865,9 +3867,10 @@
           "scope": "公共",
           "id": "elemental32",
           "zh": "驾驭元素",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Harness_the_Elements",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Harness the Elements"
         },
         {
           "row": 15,
@@ -4290,7 +4293,7 @@
           "scope": "公共",
           "id": "evasion33",
           "zh": "猛兽之肤",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Beastial_Skin",
           "note": "不在Crit原始树内；不能把Uber节点计入Crit收益。",
           "en": "Beastial Skin"
@@ -4886,9 +4889,10 @@
           "scope": "武器组2",
           "id": "shock6",
           "zh": "疲乏",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Frazzled",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Frazzled"
         },
         {
           "row": 128,
@@ -6561,9 +6565,10 @@
           "scope": "公共",
           "id": "elemental32",
           "zh": "驾驭元素",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Harness_the_Elements",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Harness the Elements"
         },
         {
           "row": 15,
@@ -6941,7 +6946,7 @@
           "scope": "公共",
           "id": "evasion33",
           "zh": "猛兽之肤",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Beastial_Skin",
           "note": "不在Crit原始树内；不能把Uber节点计入Crit收益。",
           "en": "Beastial Skin"
@@ -7248,7 +7253,7 @@
           "scope": "公共",
           "id": "evasion_and_energy_shield25",
           "zh": "诡计面纱",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Subterfuge_Mask",
           "note": "根据头盔的物品能量护盾获得闪避。",
           "en": "Subterfuge Mask"
@@ -7628,9 +7633,10 @@
           "scope": "武器组2",
           "id": "shock6",
           "zh": "疲乏",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Frazzled",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Frazzled"
         },
         {
           "row": 133,
@@ -9954,7 +9960,7 @@
           "scope": "公共",
           "id": "evasion_and_energy_shield25",
           "zh": "诡计面纱",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Subterfuge_Mask",
           "note": "根据头盔的物品能量护盾获得闪避。",
           "en": "Subterfuge Mask"
@@ -10234,9 +10240,10 @@
           "scope": "武器组1",
           "id": "elemental32",
           "zh": "驾驭元素",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Harness_the_Elements",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Harness the Elements"
         },
         {
           "row": 111,
@@ -10414,9 +10421,10 @@
           "scope": "武器组2",
           "id": "shock6",
           "zh": "疲乏",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Frazzled",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Frazzled"
         },
         {
           "row": 131,
@@ -12748,7 +12756,7 @@
           "scope": "公共",
           "id": "evasion_and_energy_shield25",
           "zh": "诡计面纱",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Subterfuge_Mask",
           "note": "根据头盔的物品能量护盾获得闪避。",
           "en": "Subterfuge Mask"
@@ -12812,9 +12820,10 @@
           "scope": "公共",
           "id": "elemental32",
           "zh": "驾驭元素",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Harness_the_Elements",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Harness the Elements"
         },
         {
           "row": 70,
@@ -12920,7 +12929,7 @@
           "scope": "公共",
           "id": "evasion33",
           "zh": "猛兽之肤",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Beastial_Skin",
           "note": "不在Crit原始树内；不能把Uber节点计入Crit收益。",
           "en": "Beastial Skin"
@@ -13381,9 +13390,10 @@
           "scope": "武器组2",
           "id": "shock6",
           "zh": "疲乏",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Frazzled",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Frazzled"
         },
         {
           "row": 133,
@@ -16161,7 +16171,7 @@
           "scope": "公共",
           "id": "evasion33",
           "zh": "猛兽之肤",
-          "status": "简体资料有来源",
+          "status": "简体资料有来源 · R8复核",
           "url": "https://poe2db.tw/cn/Beastial_Skin",
           "note": "不在Crit原始树内；不能把Uber节点计入Crit收益。",
           "en": "Beastial Skin"
@@ -16216,9 +16226,10 @@
           "scope": "公共",
           "id": "elemental32",
           "zh": "驾驭元素",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Harness_the_Elements",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Harness the Elements"
         },
         {
           "row": 105,
@@ -16568,9 +16579,10 @@
           "scope": "武器组2",
           "id": "shock6",
           "zh": "疲乏",
-          "status": "DSH词典待复核",
-          "url": "",
-          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。"
+          "status": "简体资料有来源 · R8复核",
+          "url": "https://poe2db.tw/cn/Frazzled",
+          "note": "沿用本次附件的中文映射，未逐项在国服客户端核验。",
+          "en": "Frazzled"
         },
         {
           "row": 144,
