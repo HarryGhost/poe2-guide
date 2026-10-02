@@ -1,0 +1,290 @@
+{
+  "version": "R27",
+  "date": "2026-09-29",
+  "scope": "本轮重新执行；不沿用历史检查结论",
+  "html_pages": 62,
+  "local_file_reference_checks": 7577,
+  "static_errors": [],
+  "resolved_static_fragments": 1294,
+  "unresolved_non_dynamic_fragments": [],
+  "dynamic_route_reference_count": 628,
+  "dynamic_route_scope": "craft/equipment/prepare的状态hash不是静态id；保留并通过相关功能抽样，未将每条状态路由声称为实测通过",
+  "protected_file_checks": [
+    {
+      "file": "构筑文件/02_noncrit_Midgame.build",
+      "sha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/04_Crit_Hybrid.build",
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/01_中文提示.build",
+      "sha256": "a25089087b04354d103b379cd20a802156813c9d4c50f0e5befb0e86b1cde526",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/04_中文提示.build",
+      "sha256": "f639d5fe1d75f46583e03b212be3cb5fc4dee4119c4a23996a695f733c9bee64",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/03_noncrit_Hybrid.build",
+      "sha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/05_Uber_Endgame.build",
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/06_中文提示.build.txt",
+      "sha256": "3641ca2a469c1ed017d0f5959b2ffb62b68dc68a4c7b9db75ef9c93853b9bb60",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/01_Early.build",
+      "sha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/03_中文提示.build",
+      "sha256": "63fd84adf1eeba7a3f1e5152f64c29c6ecfc2840e0d52fa65c6c28f1cc09a85e",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/05_中文提示.build",
+      "sha256": "d570ca952ee4dfe26f3232c194dc660f31da656f3b191e68a9129cc87f4423c2",
+      "unchanged": true
+    },
+    {
+      "file": "构筑文件/02_中文提示.build",
+      "sha256": "90da17a00db0fa58a6239ae338205853fbc8cd79f4c6ad0916a797fc33059595",
+      "unchanged": true
+    },
+    {
+      "file": "filters/01_Fubgun_Early_Mapping.filter",
+      "sha256": "f7e83ae7bc4291b17c914c99ea809772237c257edf9b44622372cf91f626f845",
+      "unchanged": true
+    },
+    {
+      "file": "filters/03_Fubgun_Endgame_Mapping.filter",
+      "sha256": "c36afdbda5032ef3f6cbf086877fbfc42c1c734e739c8a46412c98d00862abea",
+      "unchanged": true
+    },
+    {
+      "file": "filters/02_Fubgun_Bow_Campaign.filter",
+      "sha256": "23e1373068275195002b8399be5682a9d20780f899a2aa053c6ad8bbc3cb4959",
+      "unchanged": true
+    },
+    {
+      "file": "filters/04_Fubgun_Uber_Strict.filter",
+      "sha256": "d45d0a69858a25944478ba2e21211b72a0c9e9fb856e8c713e1fa5bb129a99ec",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/06_lineage-gems.png",
+      "sha256": "4dc7f6ace19c0d7244195f519905d23f0371a3fe7086abaf4b4b7fafa8894c72",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/02_ritual-belts.png",
+      "sha256": "79972e037b7fccea9da1914c832cd1299a635bc45188ab1028e4f45bdf4ca7e3",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/07_deli-rush.png",
+      "sha256": "4b3a426331ac9b84cfa22b9fab6afd69389cf4a5211bf0cefcaccb896b1a646d",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/05_abyss-rares.png",
+      "sha256": "afa7a8a49b2259d5377f1a7d16d7891877318a60f03a7dabe0d75f70e2703121",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/03_currency-abyss.png",
+      "sha256": "de3e83a6adf7aaf8ae6499b2dabf8d73e502fff623b5e28a45487e82db804443",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/01_expedition.png",
+      "sha256": "c4d6072ff744af47ebda0dcfeaed208baecfbc69b8bb814e8f7c3460e2cdb8f1",
+      "unchanged": true
+    },
+    {
+      "file": "assets/fubgun-atlas/04_breach-rares.png",
+      "sha256": "11f106f356c925f77091e1dd50a4507ae6659ab08a6fb54c5d9581be4e514c56",
+      "unchanged": true
+    }
+  ],
+  "protected_all_unchanged": true,
+  "rebuild_outputs": 101,
+  "rebuild_differences": [],
+  "standalone_embedded_images": 7,
+  "standalone_bad_anchors": [],
+  "javascript_syntax_checks": [
+    {
+      "file": "assets/after-quests.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/app.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/atlas-gallery.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/atlas-workspace-data-r26.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/atlas-workspace-r26.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/atlas.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/bow-metrics-data.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/bow-metrics.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/catalog.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/compare.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/crafting.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/early-crafting.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/equipment-bridge.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/equipment-data.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/equipment.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/examples.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/filter-legend.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/finishing.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/fubgun-atlas-data.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/fubgun-atlas.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/guided-crafting.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/novice-r27.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/preparation.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/search-index.js",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "assets/workbench.js",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "content_audit": "R27来源与内容审计.json",
+  "actual_edits": "R27实际修改记录.json",
+  "not_verified": [
+    "其余六套异界完整刷法正文",
+    "互动树节点ID与隐藏选择项",
+    "所有历史Fubgun视频字幕",
+    "高阶工艺逐项实战",
+    "国服导入和逐项译名",
+    "实际file或HTTP部署导航"
+  ],
+  "browser": {
+    "functional_tests": 32,
+    "passed": 32,
+    "failed": [],
+    "viewport_cases": 32,
+    "horizontal_overflow_cases": [],
+    "javascript_runtime_errors": [],
+    "render_method": "inline memory rendering; local assets injected; not actual URL navigation",
+    "actual_navigation": {
+      "file": {
+        "success": false,
+        "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r27_work/poe2_Fubgun_C_R27/beginner-guide.html"
+      },
+      "http": {
+        "success": false,
+        "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:41443/beginner-guide.html"
+      }
+    }
+  }
+}

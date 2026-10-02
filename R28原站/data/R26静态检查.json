@@ -1,0 +1,111 @@
+{
+  "pages": 57,
+  "missing_files": [],
+  "missing_anchors": [],
+  "duplicate_ids": [],
+  "remote_autoloads": [],
+  "preserved": {
+    "build_and_filter": [
+      {
+        "file": "filters/01_Fubgun_Early_Mapping.filter",
+        "unchanged": true
+      },
+      {
+        "file": "filters/02_Fubgun_Bow_Campaign.filter",
+        "unchanged": true
+      },
+      {
+        "file": "filters/03_Fubgun_Endgame_Mapping.filter",
+        "unchanged": true
+      },
+      {
+        "file": "filters/04_Fubgun_Uber_Strict.filter",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/01_Early.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/01_中文提示.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/02_noncrit_Midgame.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/02_中文提示.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/03_noncrit_Hybrid.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/03_中文提示.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/04_Crit_Hybrid.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/04_中文提示.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/05_Uber_Endgame.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/05_中文提示.build",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+        "unchanged": true
+      },
+      {
+        "file": "构筑文件/06_中文提示.build.txt",
+        "unchanged": true
+      }
+    ],
+    "seven_pngs": [
+      {
+        "file": "assets/fubgun-atlas/01_expedition.png",
+        "unchanged": true
+      },
+      {
+        "file": "assets/fubgun-atlas/02_ritual-belts.png",
+        "unchanged": true
+      },
+      {
+        "file": "assets/fubgun-atlas/03_currency-abyss.png",
+        "unchanged": true
+      },
+      {
+        "file": "assets/fubgun-atlas/04_breach-rares.png",
+        "unchanged": true
+      },
+      {
+        "file": "assets/fubgun-atlas/05_abyss-rares.png",
+        "unchanged": true
+      },
+      {
+        "file": "assets/fubgun-atlas/06_lineage-gems.png",
+        "unchanged": true
+      },
+      {
+        "file": "assets/fubgun-atlas/07_deli-rush.png",
+        "unchanged": true
+      }
+    ]
+  },
+  "rebuild": {
+    "html_equal": true,
+    "count": 57,
+    "changed": []
+  },
+  "valid_dynamic_craft_routes": 310
+}

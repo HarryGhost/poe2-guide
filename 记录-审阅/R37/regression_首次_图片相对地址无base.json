@@ -1,0 +1,749 @@
+{
+  "mode": "regression",
+  "checks": [
+    {
+      "check": "主页有装备目标",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备总览 e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e01/jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "人物技能 e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备总览 e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e02/jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "人物技能 e02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备总览 e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e03/jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "人物技能 e03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备总览 e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e04/jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "人物技能 e04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备总览 e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e05/jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "人物技能 e05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备总览 e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 bow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 quiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 helmet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 gloves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 boots",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 amulet",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 ring1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 ring2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 belt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 weapon2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 quiver2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 life_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 mana_flask",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 charm1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 charm2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 charm3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "装备详情 e06/jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "06仍只读 jewels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "人物技能 e06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "异界原图 expedition",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "异界原图 ritual-belts",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "异界原图 currency-abyss",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "异界原图 breach-rares",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "异界原图 abyss-rares",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "异界原图 lineage-gems",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "异界原图 deli-rush",
+      "passed": false,
+      "detail": null
+    },
+    {
+      "check": "中文升华保留",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无JS运行错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": 141,
+  "failed": 7,
+  "method": "Chromium about:blank; exact generated HTML with local CSS/JS inlined. HTTP/file browser blocked, recorded separately."
+}

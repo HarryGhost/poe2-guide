@@ -1,0 +1,133 @@
+{
+  "version": "C R24",
+  "checked_at": "2026-09-28",
+  "scope": "Fubgun-only strategy + separately labelled GGG rules",
+  "sources": {
+    "fubgun-atlas": {
+      "title": "Fubgun · Atlas Tree and Strats for 0.5",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+      "scope": "原页更新 2026-09-10；已核对七个变体名称与当前展示的 Expedition 文字。互动树未导出。"
+    },
+    "fubgun-build": {
+      "title": "Fubgun · 0.5.5 Ice Shot Deadeye",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+      "scope": "原页更新 2026-09-12；与上传六分支对照，不能把人物树当异界树。"
+    },
+    "ggg050": {
+      "title": "GGG · 0.5.0 终局规则",
+      "url": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff",
+      "scope": "只用于解锁、拿点和系统分类，不作为刷法推荐。"
+    },
+    "ggg054": {
+      "title": "GGG · 0.5.4 先祖秘藏天赋",
+      "url": "https://www.pathofexile.com/forum/view-thread/3975218/filter-account-type/staff",
+      "scope": "宏大先祖秘藏任务首领奖励专用点。"
+    },
+    "ggg055": {
+      "title": "GGG · 0.5.5 规则修正",
+      "url": "https://www.pathofexile.com/forum/view-thread/4000864/filter-account-type/staff",
+      "scope": "覆盖旧要塞自动完成规则，并核对赛季限制。"
+    }
+  },
+  "variants": [
+    {
+      "id": "expedition",
+      "name": "Expedition",
+      "zh": "先祖秘藏",
+      "page": "atlas-expedition",
+      "target": "先祖秘藏方案",
+      "status": "当前展示文字已核对；树仍看原站"
+    },
+    {
+      "id": "ritual-belts",
+      "name": "Ritual Belts",
+      "zh": "仪式 · 腰带",
+      "page": "atlas-ritual",
+      "target": "腰带目标方案",
+      "status": "名称已核对；参数与树需原站查看"
+    },
+    {
+      "id": "currency-abyss",
+      "name": "Currency Abyss",
+      "zh": "深渊 · 通货",
+      "page": "atlas-abyss",
+      "target": "通货目标方案",
+      "status": "名称已核对；参数与树需原站查看"
+    },
+    {
+      "id": "breach-rares",
+      "name": "Breach Rares",
+      "zh": "裂隙 · 稀有怪",
+      "page": "atlas-breach",
+      "target": "稀有怪目标方案",
+      "status": "名称已核对；参数与树需原站查看"
+    },
+    {
+      "id": "abyss-rares",
+      "name": "Abyss Rares",
+      "zh": "深渊 · 稀有怪",
+      "page": "atlas-abyss",
+      "target": "另一套深渊方案",
+      "status": "名称已核对；参数与树需原站查看"
+    },
+    {
+      "id": "lineage-gems",
+      "name": "Lineage Gems",
+      "zh": "Lineage Gems",
+      "page": "atlas-activities",
+      "target": "独立命名方案；未核实详细参数",
+      "status": "名称已核对；不凭标题补造方法"
+    },
+    {
+      "id": "deli-rush",
+      "name": "Deli Rush",
+      "zh": "迷雾 · 速刷",
+      "page": "atlas-delirium",
+      "target": "速刷目标方案",
+      "status": "名称已核对；参数与树需原站查看"
+    }
+  ],
+  "stages": [
+    {
+      "id": "e01",
+      "name": "01 Early",
+      "readonly": false,
+      "has_snipe": true
+    },
+    {
+      "id": "e02",
+      "name": "02 non-crit Midgame",
+      "readonly": false,
+      "has_snipe": true
+    },
+    {
+      "id": "e03",
+      "name": "03 non-crit Hybrid swap",
+      "readonly": false,
+      "has_snipe": true
+    },
+    {
+      "id": "e04",
+      "name": "04 Crit Hybrid",
+      "readonly": false,
+      "has_snipe": true
+    },
+    {
+      "id": "e05",
+      "name": "05 Uber Endgame",
+      "readonly": false,
+      "has_snipe": false
+    },
+    {
+      "id": "e06",
+      "name": "06 Live Gear",
+      "readonly": true,
+      "has_snipe": false
+    }
+  ],
+  "verified_stage_to_strategy_mapping": null,
+  "interactive_tree_exported": false,
+  "offline_author_tree_images": false,
+  "client_tested": false,
+  "retired": "R22/R23 third-party screenshots and assistant-authored Atlas priorities, default farming and masters"
+}

@@ -1,0 +1,248 @@
+{
+  "method": "只在Expedition已命名的8个图标中核对预先人工匹配结果；不自动为未知图标命名。像素相关性允许平移2px。",
+  "rows": [
+    {
+      "scheme": "expedition",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Jado",
+      "position": 2,
+      "assigned": "eastern",
+      "best_known_icon": "eastern",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Jado",
+      "position": 3,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Jado",
+      "position": 4,
+      "assigned": "keen",
+      "best_known_icon": "keen",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Doryani",
+      "position": 1,
+      "assigned": "stitch",
+      "best_known_icon": "stitch",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Doryani",
+      "position": 2,
+      "assigned": "evolution",
+      "best_known_icon": "evolution",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Doryani",
+      "position": 3,
+      "assigned": "calibration",
+      "best_known_icon": "calibration",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "expedition",
+      "master": "Doryani",
+      "position": 4,
+      "assigned": "volatile",
+      "best_known_icon": "volatile",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "ritual-belts",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "ritual-belts",
+      "master": "Jado",
+      "position": 3,
+      "assigned": "eastern",
+      "best_known_icon": "eastern",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "ritual-belts",
+      "master": "Jado",
+      "position": 4,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "currency-abyss",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "currency-abyss",
+      "master": "Jado",
+      "position": 3,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "breach-rares",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "breach-rares",
+      "master": "Jado",
+      "position": 3,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "breach-rares",
+      "master": "Jado",
+      "position": 4,
+      "assigned": "keen",
+      "best_known_icon": "keen",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "master": "Jado",
+      "position": 3,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "master": "Jado",
+      "position": 4,
+      "assigned": "keen",
+      "best_known_icon": "keen",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "master": "Doryani",
+      "position": 1,
+      "assigned": "evolution",
+      "best_known_icon": "evolution",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "master": "Doryani",
+      "position": 2,
+      "assigned": "calibration",
+      "best_known_icon": "calibration",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "master": "Doryani",
+      "position": 4,
+      "assigned": "volatile",
+      "best_known_icon": "volatile",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "lineage-gems",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "lineage-gems",
+      "master": "Jado",
+      "position": 2,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "deli-rush",
+      "master": "Jado",
+      "position": 1,
+      "assigned": "unexpected",
+      "best_known_icon": "unexpected",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "deli-rush",
+      "master": "Jado",
+      "position": 3,
+      "assigned": "eastern",
+      "best_known_icon": "eastern",
+      "correlation": 1.0,
+      "matches": true
+    },
+    {
+      "scheme": "deli-rush",
+      "master": "Jado",
+      "position": 4,
+      "assigned": "partial",
+      "best_known_icon": "partial",
+      "correlation": 1.0,
+      "matches": true
+    }
+  ]
+}

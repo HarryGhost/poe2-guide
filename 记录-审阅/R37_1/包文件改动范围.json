@@ -1,0 +1,15 @@
+{
+  "unchanged_preexisting_files": 667,
+  "R28_unchanged": 492,
+  "changed_or_superseded_paths": [
+    "00_先读我.md",
+    "README_上线.md",
+    "SHA256SUMS_R37.txt",
+    "assets/app.c63405d9c376.js",
+    "assets/content.f50a9aa0520c.js",
+    "data/R37-assets.json",
+    "data/R37-filter-catalog.json",
+    "index.html"
+  ],
+  "only_game_filter_changed": "new 01 supplemental Gold-specific rule; all original filter files preserved"
+}

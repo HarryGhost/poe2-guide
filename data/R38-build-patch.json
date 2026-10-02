@@ -1,0 +1,24 @@
+{
+  "baselineVersion": "R37.1",
+  "release": "R38",
+  "patchPoints": [
+    "function recipeTable(r,entry='ready'){",
+    "${esc(s.bad)}</div><details class=\"row-detail\">",
+    "let block=select+routeEndState(selected,slot,isUnique||independent);",
+    "else if(page==='character'){body=character();group='character';crumb='人物配置与技能'}",
+    "character:[['character','当前阶段配置'],",
+    "['character','gear','item/bow'].includes(r)",
+    "function searchData(q){let data=[",
+    "main+=sec('char-skills','02','技能与辅助组合',`",
+    "R37.1 金币显示修正与全量提示 · 攻略与工具",
+    "document.title=crumb+' · Fubgun 冰射攻略 · R37.1'",
+    "window.scrollTo(0,0);closeNav();",
+    "step:e.target.value,...(p.get('alternate')"
+  ],
+  "generatedAssets": [
+    "assets/content.34993314c865.js",
+    "assets/app.c88cc3463cb5.js",
+    "assets/site.7504000cc647.css"
+  ],
+  "originalConnectionsUnchanged": true
+}

@@ -1,0 +1,24 @@
+{
+  "navigation": [
+    {
+      "url": "http://127.0.0.1:8765/index.html#/gems?stage=e01",
+      "ok": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8765/index.html#/gems?stage=e01\nCall log:\n  - navigating to \"http://127.0.0.1:8765/index.html#/gems?stage=e01\", waiting until \"load\"\n"
+    },
+    {
+      "url": "file:///mnt/data/poe2_Fubgun_C_R38/index.html#/gems?stage=e01",
+      "ok": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R38/index.html#/gems?stage=e01\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_C_R38/index.html#/gems?stage=e01\", waiting until \"load\"\n"
+    }
+  ],
+  "mode": "about:blank with actual generated HTML/CSS/JS inlined",
+  "errors": [],
+  "title": "本阶段宝石准备清单 · Fubgun 冰射攻略 · R38",
+  "h1": "这一阶段，需要哪些宝石？",
+  "rows": 33,
+  "navCount": 5,
+  "overflow": {
+    "window": 1440,
+    "body": 1440
+  }
+}

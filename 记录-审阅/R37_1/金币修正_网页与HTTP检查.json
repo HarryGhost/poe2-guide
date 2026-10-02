@@ -1,0 +1,203 @@
+{
+  "checks": [
+    {
+      "check": "HTTP exact file index.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP exact file data/R37-filter-catalog.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP exact file assets/site.9ca8a734f268.css",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP exact file assets/app.3528d4568ee3.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP exact file assets/content.e171faf3ce1c.js",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "HTTP exact file filters/01_Fubgun_Early_Mapping_GoldFix_R37_1.filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Initial equipment page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Gold actual thresholds explained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Does not claim to change03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same 6 primary downloads",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Download points to corrected file",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "金币1000 in area79 01",
+      "passed": true,
+      "detail": "Hide"
+    },
+    {
+      "check": "Result shown to reader 01",
+      "passed": true,
+      "detail": "此条件下：隐藏\n01 · 异界起步原版\n金币\n隐藏规则的样式，不代表平时可见\n文字\n浅灰 · RGB 180/180/180 · 透明度 255/255\n底色\n近黑 · RGB 20/20/0 · 透明度 180/255\n边框\n黑 · RGB 0/0/0 · 透明度 255/255\n字号\n本条未设\n"
+    },
+    {
+      "check": "金币1000 in area79 01b",
+      "passed": true,
+      "detail": "Show"
+    },
+    {
+      "check": "Result shown to reader 01b",
+      "passed": true,
+      "detail": "此条件下：显示\n01 · 底材与碎片补充版（金币显示修正）\n金币\n文字\n浅灰 · RGB 180/180/180 · 透明度 255/255\n底色\n近黑 · RGB 20/20/0 · 透明度 180/255\n边框\n黑 · RGB 0/0/0 · 透明度 255/255\n字号\n本条未设\n声音\n本条未"
+    },
+    {
+      "check": "金币1000 in area79 03",
+      "passed": true,
+      "detail": "Hide"
+    },
+    {
+      "check": "Result shown to reader 03",
+      "passed": true,
+      "detail": "此条件下：隐藏\n03 · 后期刷图原版\n金币\n隐藏规则的样式，不代表平时可见\n文字\n浅灰 · RGB 180/180/180 · 透明度 255/255\n底色\n近黑 · RGB 20/20/0 · 透明度 180/255\n边框\n黑 · RGB 0/0/0 · 透明度 255/255\n字号\n本条未设\n"
+    },
+    {
+      "check": "金币1000 in area79 03m",
+      "passed": true,
+      "detail": "Hide"
+    },
+    {
+      "check": "Result shown to reader 03m",
+      "passed": true,
+      "detail": "此条件下：隐藏\n03 · 补材料版（可选）\n金币\n隐藏规则的样式，不代表平时可见\n文字\n浅灰 · RGB 180/180/180 · 透明度 255/255\n底色\n近黑 · RGB 20/20/0 · 透明度 180/255\n边框\n黑 · RGB 0/0/0 · 透明度 255/255\n字号\n本条未"
+    },
+    {
+      "check": "金币1000 in area79 04",
+      "passed": true,
+      "detail": "Hide"
+    },
+    {
+      "check": "Result shown to reader 04",
+      "passed": true,
+      "detail": "此条件下：隐藏\n04 · 超严格原版\n金币\n隐藏规则的样式，不代表平时可见\n文字\n浅灰 · RGB 180/180/180 · 透明度 255/255\n底色\n近黑 · RGB 20/20/0 · 透明度 180/255\n边框\n黑 · RGB 0/0/0 · 透明度 255/255\n字号\n本条未设\n声"
+    },
+    {
+      "check": "5000 gold still first original rule",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Campaign 1 gold stays original hide",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Gold supplemental rule searchable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Rule count427",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Full fixture set JS vs Python",
+      "passed": true,
+      "detail": {
+        "n": 1362,
+        "bad": []
+      }
+    },
+    {
+      "check": "No overflow tools/filters1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow filter-check1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow filter-guide1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow gear1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow learn/ascendancy1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow tools/filters390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow filter-check390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow filter-guide390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow gear390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No overflow learn/ascendancy390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No JS runtime errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passed": 37,
+  "failed": 0,
+  "method": "about:blank + inlined original generated HTML/CSS/JS; local asset response handler",
+  "navigation_attempts": [
+    {
+      "url": "http://127.0.0.1:46505/",
+      "result": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:46505/\nCall log:\n  - navigating to \"http://127.0.0.1:46505/\", waiting until \"domcontentloaded\"\n"
+    }
+  ],
+  "runtime_errors": [],
+  "game_client_tested": false
+}

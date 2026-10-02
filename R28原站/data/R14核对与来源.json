@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-27",
+  "scope": "Fubgun 0.5.5 / 用户六份静态导出为配置依据；名称与底材条件使用国际服数据简体展示。",
+  "notes": [
+    "原件展示不是绝对最优或最低入场线。",
+    "物品等级起点按作者特定工艺标示；不是所有底材相同门槛。",
+    "飞矢箭袋佩戴采用Quivers总表的61级；单词缀Effective 60不代替整件佩戴要求。",
+    "02/03属性参考误标卡迪罗已更正为原件飞矢箭袋；原件与技能/天赋ID不改。"
+  ],
+  "sources": [
+    {
+      "label": "Fubgun原文（国际服）",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+      "purpose": "阶段原则、装备方向、弓/箭袋ilvl75、护盾头ilvl78、项链ilvl80/82；并无高物理固定下限。"
+    },
+    {
+      "label": "箭袋总表（国际服简体数据）",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "purpose": "飞矢61、精工51、贯心65；卡迪罗66；卡迪罗不能由普通黄箭袋工艺保证做出。"
+    },
+    {
+      "label": "弓总表",
+      "url": "https://poe2db.tw/cn/Bows",
+      "purpose": "毁灭者之弓78 / 寻战之弓77及佩戴属性；不能直接以DropLevel等同所有词缀生成等级。"
+    },
+    {
+      "label": "星辉项链",
+      "url": "https://poe2db.tw/cn/Stellar_Amulet",
+      "purpose": "基础佩戴24；随机词缀可能抬高成品要求。"
+    },
+    {
+      "label": "三相戒指",
+      "url": "https://poe2db.tw/cn/Prismatic_Ring",
+      "purpose": "基础佩戴35；固有全元素抗性。"
+    },
+    {
+      "label": "生皮腰带",
+      "url": "https://poe2db.tw/cn/Rawhide_Belt",
+      "purpose": "基础佩戴1；不把稀有高阶词缀成品写成1级可用。"
+    },
+    {
+      "label": "卡迪罗的赌局",
+      "url": "https://poe2db.tw/cn/Cadiros_Gambit",
+      "purpose": "暗金精工箭袋，佩戴66；确切国服掉落仍未核实。"
+    },
+    {
+      "label": "猎首",
+      "url": "https://poe2db.tw/cn/Headhunter",
+      "purpose": "暗金重革腰带，佩戴50；50不是通用打造ilvl。"
+    },
+    {
+      "label": "海盗外套",
+      "url": "https://poe2db.tw/cn/Body_Armours",
+      "purpose": "普通底材佩戴需求；与符文结界改造区别。"
+    },
+    {
+      "label": "头盔",
+      "url": "https://poe2db.tw/cn/Helmets",
+      "purpose": "沙漠帽与先祖冠冕基础佩戴；不可凭词缀＋48判断成品最终护盾。"
+    },
+    {
+      "label": "手套",
+      "url": "https://poe2db.tw/cn/Gloves",
+      "purpose": "宏伟护腕基础佩戴。"
+    },
+    {
+      "label": "鞋子",
+      "url": "https://poe2db.tw/cn/Boots",
+      "purpose": "骑兵长靴/嵌刃便鞋基础佩戴。"
+    }
+  ],
+  "corrections": [
+    {
+      "stage": "e02",
+      "field": "profiles.rows.装备 · 箭袋.label",
+      "before": "卡迪罗的赌局（原件箭袋）",
+      "after": "飞矢箭袋",
+      "basis": "本阶段原始.build的Offhand1为Volant Quiver，不是Cadiro"
+    },
+    {
+      "stage": "e03",
+      "field": "profiles.rows.装备 · 箭袋.label",
+      "before": "卡迪罗的赌局（原件箭袋）",
+      "after": "飞矢箭袋",
+      "basis": "本阶段原始.build的Offhand1为Volant Quiver，不是Cadiro"
+    },
+    {
+      "stage": "e03",
+      "field": "goals.e03 / 03箭袋备料与02下一步描述",
+      "before": "仍是非暴击，黄箭袋可用；不因03展示暗金就停止推进。",
+      "after": "03仍是非暴击，原件继续用飞矢黄箭袋；卡迪罗到04才出现在原件，不必提前等待。",
+      "affected_data": [
+        "装备一页操作单_R11.json",
+        "装备一页操作单_R13.json",
+        "刷图备料与底材_R10.json",
+        "装备一页操作单_R12.json"
+      ],
+      "basis": "03源文件Offhand1仍为Volant Quiver，所有活动说明同步修正"
+    }
+  ],
+  "remaining": [
+    "未进行国服客户端导入和打造实测",
+    "原始天赋完整连线、合法逐级点序仍有缺口",
+    "特殊工艺的既有未确认边界保留只读",
+    "原件未给珠宝实装与抗性完整词缀，不填假数"
+  ]
+}

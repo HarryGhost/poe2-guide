@@ -1,0 +1,1585 @@
+{
+  "version": "R28",
+  "navigation": {
+    "file": {
+      "success": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r28_work/poe2_Fubgun_C_R28/runes.html"
+    },
+    "http": {
+      "success": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:37377/runes.html"
+    }
+  },
+  "tests": [
+    {
+      "name": "12 stages / 18 sidebar slots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow bar below header",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "material tool before long procedure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l01/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l02/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l03/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l04/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l05/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render l06/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e01/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e02/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e03/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e04/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e05/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/quiver2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/life_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/mana_flask",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/charm1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/charm2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/charm3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "render e06/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow note excludes irrelevant armour example",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bow same-slot correct effects",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "open only missing socket",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "same core gloves not spirit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "head-only idol filtered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "body accepts defensive core",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "duplicate limited item warning",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "duplicate clears after removal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ancient category warning",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ring2 independent initial",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ring2 linked workflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ring1 choice preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "jewels refined label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "amulet anoint materials",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "shared offhand no duplicate sockets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "independent offhand two sockets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "sharing suppresses material tally",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "life flask quality",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "third charm not forced",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "readonly no augment inputs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "program state keeps process",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export per-ring records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "records persist on rerender",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "equipment still first",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "equipment ring2 dedicated finishing",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "workflow not reset to Early",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "search includes new missing topic",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "craft direct finishing target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "old crafting quality stays",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "checklist workflow keeps stage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "original 13chapters retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "new per-slot table integrated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quality calculator regression",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gem lesson regression",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression expedition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression ritual-belts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression currency-abyss",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression breach-rares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression abyss-rares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression lineage-gems",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Atlas original7 regression deli-rush",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "legacy craft hash bow",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash quiver",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash helmet",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash body",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash gloves",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash boots",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash amulet",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash belt",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash rings",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash flasks",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash charms",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy craft hash jewels",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy equipment hash e01",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy equipment hash e02",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy equipment hash e03",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy equipment hash e04",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "legacy equipment hash e05",
+      "passed": true,
+      "detail": "Fresh document; native hashchange handler"
+    },
+    {
+      "name": "singlefile keeps seven images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "singlefile new enhancement chapter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no JS errors",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "32 viewport checks no page overflow",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "page_errors": [],
+  "viewports": [
+    {
+      "page": "runes.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "render_method": "memory rendering, original local JS/CSS/images inlined; not deployment testing",
+  "passed": true
+}
