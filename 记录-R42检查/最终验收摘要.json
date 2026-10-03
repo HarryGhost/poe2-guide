@@ -1,0 +1,57 @@
+{
+  "release": "R42",
+  "date": "2026-10-03",
+  "nativeTaskChecks": {
+    "passed": 23,
+    "failed": 0
+  },
+  "renderedViews": {
+    "passed": 1877,
+    "failed": 0
+  },
+  "itemStateViews": {
+    "passed": 500,
+    "failed": 0
+  },
+  "widthViews": {
+    "passed": 50,
+    "failed": 0
+  },
+  "mobileMenuChecks": {
+    "passed": 3,
+    "failed": 0
+  },
+  "rebuildFiles": 814,
+  "originalArchive": {
+    "files": 492,
+    "different": []
+  },
+  "historicalFilters": {
+    "files": 7,
+    "different": []
+  },
+  "originalFilters": {
+    "files": 4,
+    "different": []
+  },
+  "entryAssets": {
+    "assets/style.4a5ca8ef8361.css": {
+      "exists": true,
+      "sha256": "4a5ca8ef836109e8056bd49f9383c2ed625b4fd4da0a2b0ab71c52f14f165bf1"
+    },
+    "assets/content.e69d3567dd9c.js": {
+      "exists": true,
+      "sha256": "e69d3567dd9c28e99c9b9c337719826f228748e0a24384193c1961ed70bdf26a"
+    },
+    "assets/app.e6b3f5c187d0.js": {
+      "exists": true,
+      "sha256": "e6b3f5c187d01d4833383169d62cb4b4722456161b37f76c824246f1e434c4c5"
+    }
+  },
+  "referenceAsset": {
+    "assets/references.4d695b29f980.js": "4d695b29f980cc81c0794ebb95b115284b00369d861a2934ad63021b0b24882c"
+  },
+  "navigation": "HTTP/file blocked; actual generated HTML/CSS/JS loaded into Chromium memory document; native hash clicks checked separately from render matrix",
+  "gameClientTest": false,
+  "userDomainDeployment": false
+}

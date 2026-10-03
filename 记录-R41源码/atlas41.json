@@ -1,0 +1,651 @@
+{
+  "version": "R41",
+  "checked": "2026-10-03",
+  "scope": "30个与当前主树、备料和七套玩法直接相关的多选节点；不是全游戏节点导出。",
+  "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+  "official": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff",
+  "nodes": [
+    {
+      "id": "journey",
+      "name": "前方旅途",
+      "group": "common",
+      "options": [
+        "怪物群落规模提高6%",
+        "怪物效能提高15%",
+        "物品稀有度提高10%"
+      ],
+      "pick": 0,
+      "why": "先增加可处理的怪物数量，不把效能加成当成无代价收益。",
+      "change": "遇到密集怪群难处理，改物品稀有度；成熟刷怪且能承受难度时再比较效能。",
+      "gate": "完成东方或西方通道；仅对70级及以上区域生效。",
+      "profiles": {
+        "breach-rares": 1,
+        "abyss-rares": 1,
+        "currency-abyss": 1
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "chosen",
+      "name": "选中之路",
+      "group": "common",
+      "options": [
+        "精华出现几率提高100%",
+        "盗贼流放者出现几率提高100%",
+        "召唤法阵出现几率提高100%",
+        "神龛出现几率提高100%",
+        "保险箱出现几率提高100%",
+        "阿兹莫里之灵出现几率提高100%"
+      ],
+      "pick": 0,
+      "why": "正在给冰射装备备料时，优先增加精华遭遇；不是保证每图都有，也不是定向掉一颗。",
+      "change": "当前精华怪打不过，改神龛；不需要备料时按正在刷的额外内容改选。",
+      "gate": "完成东方或西方通道；仅对70级及以上区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "nemesis",
+      "name": "宿敌崛起",
+      "group": "common",
+      "options": [
+        "稀有怪物效能提高15%",
+        "稀有怪物带怪物词缀的几率提高30%",
+        "稀有怪物群落多一个稀有怪物的几率提高50%",
+        "稀有怪物掉落物品稀有度提高10%"
+      ],
+      "pick": 3,
+      "why": "起步先选掉落稀有度，不主动叠更多稀有怪或额外词缀。",
+      "change": "专刷稀有怪且能稳定击杀，比较效能；不把“几率提高50%”读成每群固定50%多一只。",
+      "gate": "完成东方或西方通道；仅对70级及以上区域生效。",
+      "profiles": {
+        "breach-rares": 0,
+        "abyss-rares": 0
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "magic",
+      "name": "演化蜂群",
+      "group": "common",
+      "options": [
+        "魔法怪物群落有15%几率多一个词缀",
+        "魔法怪物群落规模提高10%"
+      ],
+      "pick": 1,
+      "why": "起步先不增加魔法怪物的额外词缀；仍需确认能处理更密集怪群。",
+      "change": "围绕怪物词缀收益搭配、且能承受时再换额外词缀。",
+      "gate": "完成东方或西方通道；仅对70级及以上区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "essence",
+      "name": "精华探源",
+      "group": "material",
+      "options": [
+        "身躯精华组",
+        "心智精华组",
+        "强化／增强精华组",
+        "磨蚀精华组",
+        "火焰／绝缘精华组",
+        "冰霜／熔解精华组",
+        "电光／接地精华组",
+        "摧灭精华组"
+      ],
+      "pick": 3,
+      "why": "准备非暴击物理弓时选磨蚀组。该选项提高对应强效／完美精华的出现几率，不是提高所有低阶精华产量。",
+      "change": "准备护盾头改强化／增强组；补生命改身躯组；补某一抗性改对应元素组。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {
+        "hybrid": 2,
+        "life": 0,
+        "crit": 0
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "crystal",
+      "name": "水晶纹样",
+      "group": "material",
+      "options": [
+        "战斗精华组",
+        "巫术精华组",
+        "急速／敏捷精华组",
+        "永恒精华组",
+        "寻觅精华组",
+        "富裕精华组",
+        "统御精华组"
+      ],
+      "pick": 2,
+      "why": "非暴击过渡先备急速组用于弓攻速；并不是鞋子移速材料。对应强效／完美精华的出现几率提高100%。",
+      "change": "已经准备作者暴击弓工艺时，明确换寻觅组；不是人物到了某级就强制换。",
+      "gate": "完成东方或西方通道；仅对70级及以上区域生效。",
+      "profiles": {
+        "crit": 4
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exile",
+      "name": "精良对手",
+      "group": "material",
+      "options": [
+        "力量需求装备出现几率提高100%",
+        "敏捷需求装备出现几率提高100%",
+        "智慧需求装备出现几率提高100%"
+      ],
+      "pick": 1,
+      "why": "日常给闪避装备备底材，选择敏捷需求装备。影响流放者装备，不是给角色加敏捷。",
+      "change": "专找护盾头等智慧需求底材时改智慧；不保证掉出指定底材或词缀。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {
+        "hybrid": 2
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "grass",
+      "name": "草原专精",
+      "group": "biome",
+      "options": [
+        "基础通货有10%几率升级为高级通货",
+        "高级通货有5%几率升级为完美通货",
+        "怪物效能提高15%"
+      ],
+      "pick": 0,
+      "why": "普通装备仍在补强时先扩充高级通货供给。",
+      "change": "明确要完美通货且高级储备足够改第二项；成熟效能刷法才用第三项。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {
+        "breach-rares": 2,
+        "abyss-rares": 2,
+        "currency-abyss": 2
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "desert",
+      "name": "沙漠专精",
+      "group": "biome",
+      "options": [
+        "基础富豪石有15%几率改为掉落点金石",
+        "点金石有15%几率改为掉落基础富豪石",
+        "怪物效能提高15%"
+      ],
+      "pick": 0,
+      "why": "需要点金准备地图时，选富豪转点金。这里只改变相应掉落，不是背包通货转换。",
+      "change": "正在蓝装升黄且缺富豪，反向选点金转富豪；成熟效能刷法再比较第三项。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {
+        "breach-rares": 2,
+        "abyss-rares": 2,
+        "currency-abyss": 2
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "mountain",
+      "name": "山地专精",
+      "group": "biome",
+      "options": [
+        "石板掉落数量提高50%",
+        "符文掉落数量提高50%",
+        "物品稀有度提高6%"
+      ],
+      "pick": 0,
+      "why": "使用碑牌／石板刷图时先补供给。",
+      "change": "还缺装备镶嵌符文则改符文；两者储备足够可比较稀有度。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "water",
+      "name": "水域专精",
+      "group": "biome",
+      "options": [
+        "宝箱内含通货数量提高15%",
+        "宝箱内含饰品数量提高15%",
+        "金币掉落数量提高50%"
+      ],
+      "pick": 0,
+      "why": "需要加工通货时选宝箱通货。这个加成针对宝箱，不是所有怪物掉落。",
+      "change": "缺金币改第三项；找饰品底材可改第二项。原版过滤器仍按其规则隐藏部分金币，不改过滤器。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "swamp",
+      "name": "沼泽专精",
+      "group": "biome",
+      "options": [
+        "混沌石有25%几率改为掉落崇高石",
+        "崇高石有10%几率改为掉落混沌石",
+        "怪物群落规模提高6%"
+      ],
+      "pick": 0,
+      "why": "普通黄装逐条补词时先备崇高；不把混沌随机删改作为新手补词默认。",
+      "change": "已备足崇高且正在有前提的混沌工艺时才反向；刷怪量可改规模。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {
+        "breach-rares": 2,
+        "abyss-rares": 2
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "forest",
+      "name": "森林专精",
+      "group": "biome",
+      "options": [
+        "未切割宝石掉落几率提高50%",
+        "血脉辅助宝石掉落几率提高50%",
+        "稀有怪物数量提高15%"
+      ],
+      "pick": 0,
+      "why": "当前技能宝石尚未准备齐，先补未切割宝石。不是人物天赋珠宝。",
+      "change": "明确刷血脉辅助改第二项；稀有怪策略改第三项。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {
+        "lineage-gems": 1,
+        "breach-rares": 2,
+        "abyss-rares": 2,
+        "currency-abyss": 2
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "vaal",
+      "name": "瓦尔历史",
+      "group": "biome",
+      "options": [
+        "瓦尔城市同时视作森林",
+        "瓦尔城市同时视作水域"
+      ],
+      "pick": 0,
+      "why": "先配合森林专精的技能宝石方向。",
+      "change": "要宝箱通货或金币时改水域，并同步核对水域专精选项。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "ezomyte",
+      "name": "艾兹麦历史",
+      "group": "biome",
+      "options": [
+        "艾兹麦城市同时视作草原",
+        "艾兹麦城市同时视作沼泽"
+      ],
+      "pick": 0,
+      "why": "先配合草原的通货升阶。",
+      "change": "更需要崇高或怪群规模时改沼泽；不是全地图都因此获得两种地貌。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "faridun",
+      "name": "法里顿历史",
+      "group": "biome",
+      "options": [
+        "法里顿城市同时视作沙漠",
+        "法里顿城市同时视作高山"
+      ],
+      "pick": 1,
+      "why": "先配合山地的碑牌／石板供给。",
+      "change": "要富豪／点金转换或已配置沙漠刷法，再改沙漠。",
+      "gate": "完成燃石巨塔；仅对75级及以上、对应地貌的区域生效。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "abyss-pits",
+      "name": "深坑主宰",
+      "group": "abyss",
+      "options": [
+        "巨坑散布于整个含深渊区域",
+        "每关闭一坑，深渊怪物效能提高10%，最多100%",
+        "20%几率额外包含一个深渊"
+      ],
+      "pick": 2,
+      "why": "备料起步先比较额外深渊，不默认采用层层叠效能。",
+      "change": "成熟效能刷法且能完整清理巨坑时再选第二项；分散巨坑改变清图走法。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {
+        "currency-abyss": 1,
+        "abyss-rares": 1,
+        "lineage-gems": 1
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "abyss-treasure",
+      "name": "污秽宝藏",
+      "group": "abyss",
+      "options": [
+        "深渊之眼掉落几率提高50%",
+        "预兆掉落几率提高50%",
+        "血脉辅助掉落几率提高50%"
+      ],
+      "pick": 1,
+      "why": "正在准备渎灵等后续工艺，先选预兆；不表示一定掉出所需的左／右旋预兆。",
+      "change": "刷血脉辅助改第三项；确实需要深渊之眼时才改第一项。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {
+        "lineage-gems": 2
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "abyss-faction",
+      "name": "力量平衡",
+      "group": "abyss",
+      "options": [
+        "阿曼娜姆",
+        "古加尔",
+        "乌拉曼",
+        "任意派系"
+      ],
+      "pick": 2,
+      "why": "刷深渊通货且已配合“派系领土”时选乌拉曼；该派系可有通货宝箱。",
+      "change": "找护甲可改阿曼娜姆，武器可改古加尔；只作用于非裂隙深渊。没有派系领土时不承诺同样箱型定向。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "ritual-type",
+      "name": "旅者之灾",
+      "group": "ritual",
+      "options": [
+        "玷污的",
+        "被感染",
+        "污秽的",
+        "窒息的",
+        "削弱的"
+      ],
+      "pick": 2,
+      "why": "仪式腰带方向选“污秽的”。配合已解锁并点亮的“弥漫黑暗”，其对应腰带／咒符／药剂类别。",
+      "change": "缺“弥漫黑暗”时，只能说增加该祭坛类型几率，不能保证腰带定向，更不是保证猎首。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "ritual-cost",
+      "name": "活力献祭",
+      "group": "ritual",
+      "options": [
+        "复活怪物的贡品惩罚降低5%",
+        "祭坛技能伤害提高50%，恩典数量提高10%",
+        "复活怪物每次增加20%韧性与10%伤害，贡品惩罚降低50%"
+      ],
+      "pick": 0,
+      "why": "先用不额外增加祭坛或复活怪伤害的一项。",
+      "change": "成熟仪式刷法且能应付祭坛技能时，可比较第二项；第三项不作为起步默认。",
+      "gate": "需要击败驱灵仪式巅峰首领并点亮节点。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "breach-shape",
+      "name": "塑造锁链",
+      "group": "breach",
+      "options": [
+        "稀有裂隙怪物效能提高30%",
+        "裂隙怪群规模降低20%，裂隙怪物效能提高20%",
+        "裂隙怪群规模提高15%"
+      ],
+      "pick": 2,
+      "why": "先处理正常强度怪物，按清怪能力比较规模。",
+      "change": "明确采用稀有怪裂隙刷法且能稳定击杀时，改第一项；三项不是同时生效。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {
+        "breach-rares": 0
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "breach-decode",
+      "name": "撕开裂隙",
+      "group": "breach",
+      "options": [
+        "额外消耗一个裂隙石，为全部已破解地图增加词缀",
+        "为一张已破解地图增加一个词缀"
+      ],
+      "pick": 1,
+      "why": "不默认消耗额外裂隙石。",
+      "change": "明确准备整域投入、接受更高地图难度时才用第一项。",
+      "gate": "需要击败裂隙巅峰首领并点亮节点。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "delirium-cycle",
+      "name": "噩梦循环",
+      "group": "delirium",
+      "options": [
+        "迷雾中的地图额外+30%亢奋度",
+        "迷雾额外扩散到4张地图"
+      ],
+      "pick": 1,
+      "why": "推进或低投入先不直接加30%亢奋度。只影响恢宏之镜的迷雾扩散，不给所有地图免费迷雾。",
+      "change": "已经准备好高亢奋度配套且以奖励为目标时，再比较第一项。",
+      "gate": "需要击败惊悸迷雾巅峰首领并点亮节点。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exp-expand",
+      "name": "领土扩张",
+      "group": "expedition",
+      "options": [
+        "10%几率增加一个维金残片遭遇",
+        "先祖秘藏遭遇出现几率提高25%"
+      ],
+      "pick": 1,
+      "why": "没有保证遭遇来源时，先补先祖秘藏出现率。",
+      "change": "已有碑牌保证相应遭遇时，比较额外维金残片；不要把这当精华遭遇。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {
+        "expedition": 0
+      },
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exp-adv",
+      "name": "战略优势",
+      "group": "expedition",
+      "options": [
+        "击杀50%怪物后炸药即可继续",
+        "生成的符文怪物额外失去20%生命"
+      ],
+      "pick": 1,
+      "why": "伤害不足时，优先减轻符文怪物的生命负担。",
+      "change": "能很快清理怪物、追求爆破连贯性时再换第一项。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exp-steady",
+      "name": "稳步发展",
+      "group": "expedition",
+      "options": [
+        "增加一个维金残片",
+        "增加一个炸药"
+      ],
+      "pick": 1,
+      "why": "覆盖不到目标时，先要额外炸药。",
+      "change": "当前范围已经足够，准备更多残片收益时换第一项。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exp-invest",
+      "name": "精算投资",
+      "group": "expedition",
+      "options": [
+        "残片25%几率视作受到力量符文影响",
+        "每个符文词缀增加5%怪物经验",
+        "每个符文词缀增加1%怪物物品数量"
+      ],
+      "pick": 2,
+      "why": "刷装备和材料时选按词缀增加物品数量。",
+      "change": "以练级为目标时换经验；不清楚力量符文后果时不默认选它。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exp-allin",
+      "name": "孤注一掷",
+      "group": "expedition",
+      "options": [
+        "25%几率添加额外符文词缀",
+        "不添加符文词缀",
+        "添加一个符文词缀（保持原方式）"
+      ],
+      "pick": 2,
+      "why": "先保持原方式，不默认增加额外词缀。",
+      "change": "当前难度承受不了改不添加；明确高投入且能完成时才选额外词缀几率。",
+      "gate": "先点亮该节点；其他任务与区域要求以游戏节点说明为准。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    },
+    {
+      "id": "exp-ocean",
+      "name": "耕耘海洋",
+      "group": "expedition",
+      "options": [
+        "水域",
+        "高山",
+        "草原",
+        "森林",
+        "沼泽",
+        "沙漠"
+      ],
+      "pick": 1,
+      "why": "探索时先配合山地专精补碑牌／石板。",
+      "change": "刷血脉辅助改森林并同步森林专精；要通货升阶改草原。",
+      "gate": "已点亮节点；将海洋及岛屿视作额外地貌，相应地貌加成仍需各自解锁与等级条件。",
+      "profiles": {},
+      "source": "https://poe2db.tw/cn/Atlas_passive_skill",
+      "status": "来源可核对的选项＋本站按目标整理的选择建议；非作者截图已确认的选值"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "starter",
+      "name": "刚入异界／日常补装"
+    },
+    {
+      "id": "phys",
+      "name": "备非暴击物理弓材料"
+    },
+    {
+      "id": "crit",
+      "name": "备暴击弓材料"
+    },
+    {
+      "id": "hybrid",
+      "name": "备护盾头与混合防御"
+    },
+    {
+      "id": "expedition",
+      "name": "先祖秘藏"
+    },
+    {
+      "id": "ritual-belts",
+      "name": "仪式 · 腰带"
+    },
+    {
+      "id": "currency-abyss",
+      "name": "深渊 · 通货"
+    },
+    {
+      "id": "breach-rares",
+      "name": "裂隙 · 稀有怪"
+    },
+    {
+      "id": "abyss-rares",
+      "name": "深渊 · 稀有怪"
+    },
+    {
+      "id": "lineage-gems",
+      "name": "血脉辅助"
+    },
+    {
+      "id": "deli-rush",
+      "name": "迷雾速刷"
+    }
+  ],
+  "groups": [
+    {
+      "id": "common",
+      "name": "主树常用"
+    },
+    {
+      "id": "material",
+      "name": "精华与底材"
+    },
+    {
+      "id": "biome",
+      "name": "地貌与城市"
+    },
+    {
+      "id": "abyss",
+      "name": "深渊"
+    },
+    {
+      "id": "ritual",
+      "name": "仪式"
+    },
+    {
+      "id": "breach",
+      "name": "裂隙"
+    },
+    {
+      "id": "delirium",
+      "name": "迷雾"
+    },
+    {
+      "id": "expedition",
+      "name": "先祖秘藏"
+    }
+  ],
+  "boundary": "已保存的作者加点截图没有展开这些选择框，不能据此证明作者逐项选值。下面明确给出本站按冰射备料／玩法目标整理的选择建议；效果与解锁条件取自数据。没有改作者原图、大师或人物天赋。"
+}

@@ -1,0 +1,466 @@
+{
+  "ascendancy": {
+    "id": "ascendancy",
+    "title": "升华点：从 0 点拿到 8 点",
+    "description": "先确认已获得的总点数，再选足够层数的试炼。人物升华点与异界天赋点不是同一种奖励。",
+    "group": "character",
+    "sections": [
+      {
+        "title": "先看最短可执行路线",
+        "html": "<p><strong>剧情巴尔巴拉试炼拿第1组 → 查看第三章任务混沌票能否拿第2组 → 第3组用三层丝克玛或合格十房混沌 → 第4组通关四层丝克玛，或开门击败试炼大师。</strong>两条试炼路线可按条件选择，不必把两边都重复打一遍。</p><p>下面是<strong>累计获得点数</strong>，不是每次额外送2/4/6/8点。已经有4点，再通关只能提供4点的试炼不会变成8点。</p>",
+        "sources": [
+          "SEK",
+          "CHAOS",
+          "G020F"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "各组点数与门票",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>目标累计</th><th>丝克玛路线</th><th>混沌路线</th><th>容易看错的地方</th></tr></thead><tbody><tr><td data-label=\"目标累计\">2 点</td><td data-label=\"丝克玛路线\">第二章 Balbala’s Barya（任务巴尔巴拉硬币），完成1层并使用升华祭坛。</td><td data-label=\"混沌路线\">尚未升华时，可用符合票面资格的4房试炼完成首次升华。</td><td data-label=\"容易看错的地方\">1层不是1个房间；任务票与普通随机票要分清。</td></tr><tr><td data-label=\"目标累计\">4 点</td><td data-label=\"丝克玛路线\">普通 Djinn Barya：至少2层；常见对应区域45级以上。</td><td data-label=\"混沌路线\">先检查第三章 Chimeral 任务票的资格提示；普通路线为7房、区域55级以上。</td><td data-label=\"容易看错的地方\">剧情任务4房票有独立资格规则，不把所有普通4房票都算成第2次升华。</td></tr><tr><td data-label=\"目标累计\">6 点</td><td data-label=\"丝克玛路线\">至少3层、区域60级以上的 Djinn Barya，完成第3层。</td><td data-label=\"混沌路线\">至少10房、区域65级以上的 Inscribed Ultimatum，完成该轮。</td><td data-label=\"容易看错的地方\">门票合格不等于只打前一两层就领奖；要完成对应深度。</td></tr><tr><td data-label=\"目标累计\">8 点</td><td data-label=\"丝克玛路线\">至少4层、区域75级以上的 Djinn Barya，击败 Zarokh 后使用祭坛。</td><td data-label=\"混沌路线\">完成可到试炼大师门口的一轮，提交三种命运碎片，击败 Trialmaster 后领取。</td><td data-label=\"容易看错的地方\">第4组不是随便再跑10房；三种碎片不是3份同名碎片。</td></tr></tbody></table></div><p><strong>表里的45／55／60／65／75是试炼区域／门票的条件，不是“人物升到这级自动发点”。</strong>开始或购买前同时核对票面区域等级、层数／房数和“可获得升华点”提示；特殊任务票以其资格说明为准。</p>",
+        "sources": [
+          "SEK",
+          "G020F",
+          "CHAOS"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "第一次的票在哪里拿",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>具体做法</th><th>完成条件／风险</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"具体做法\">第二章 Traitor’s Passage：击败 Balbala，取得任务硬币。到 Trial of the Sekhemas 的遗物祭坛放票并配置遗物。</td><td data-label=\"完成条件／风险\">先完成1层，不需要等异界；任务硬币失败可重试，不把普通可交易票也当成无限票。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"具体做法\">第三章 Chimeral Wetlands：击败 Xyclucian，取得任务 Ultimatum；进入同区域的 Temple of Chaos。</td><td data-label=\"完成条件／风险\">开局检查该任务票是否可再给你的角色升华点。若已超过奖励上限，改用更高房数普通票。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"具体做法\">缺第3组的门票：尚未取得第3组时，前往 Sel Khari Sanctuary 击败 Elzarah, the Cobra Lord。</td><td data-label=\"完成条件／风险\">GGG0.3.1加入一次性保证掉落合格 Djinn Barya；已经取得第3组不要再把它当可重复刷的保底。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"具体做法\">打通满足资格的最终层／轮后，进入奖励区，使用 Ascension Altar／升华装置。</td><td data-label=\"完成条件／风险\">检查升华面板的已用点＋未分配点；捡完箱子直接离开，可能只是漏了领点。</td></tr></tbody></table></div>",
+        "sources": [
+          "SEK",
+          "CHAOS",
+          "G031"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "拿到点后，Fubgun 冰射怎么衔接",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>本路线</th><th>配点目标</th><th>来源与使用范围</th></tr></thead><tbody><tr><td data-label=\"本路线\">第1组</td><td data-label=\"配点目标\">投射物近距离专精 → 选择零点射击（Point Blank）</td><td data-label=\"来源与使用范围\">Fubgun练级正文明确的第1组方向。</td></tr><tr><td data-label=\"本路线\">第2组</td><td data-label=\"配点目标\">无限弹药（Endless Munitions）</td><td data-label=\"来源与使用范围\">Fubgun练级正文明确。</td></tr><tr><td data-label=\"本路线\">第3组</td><td data-label=\"配点目标\">聚风（Gathering Winds）</td><td data-label=\"来源与使用范围\">Fubgun练级正文明确。</td></tr><tr><td data-label=\"本路线\">后续终局</td><td data-label=\"配点目标\">对照当前01–05原件中的蜃影神射等配置</td><td data-label=\"来源与使用范围\">第4组按既有终局快照核对；不声称练级正文给出了未写的第四项。06冲突快照仍只读。</td></tr></tbody></table></div><p>每组点数仍按树的实际通路消耗。拿点并不会自动替你安装元技能内部的主动宝石与辅助；打开<a class=\"text-link\" href=\"#/character\">人物与技能 →</a>检查当前阶段的完整连接。</p>",
+        "sources": [
+          "FLEV"
+        ],
+        "kind": "作者原文＋原上传快照"
+      },
+      {
+        "title": "为什么打完没加点／能不能重选升华",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>现象</th><th>先检查</th><th>下一步</th></tr></thead><tbody><tr><td data-label=\"现象\">打完没有多2点</td><td data-label=\"先检查\">该票上限是否已经达到；是否完成对应楼层而非其中一房；是否用了奖励区祭坛。</td><td data-label=\"下一步\">不要先反复消耗同级门票。保留票面与祭坛提示后再判断。</td></tr><tr><td data-label=\"现象\">想换升华职业</td><td data-label=\"先检查\">GGG已支持重选：完成可提供至少当前已获得点数的合格试炼，并在装置处清空原升华分配。</td><td data-label=\"下一步\">普通退点与重选升华不是同一动作；先准备退款所需资源，不把旧“永远不能改”当规则。</td></tr><tr><td data-label=\"现象\">票写3层，人物已6点</td><td data-label=\"先检查\">重复该深度主要是奖励或重选资格，不会解锁第4组。</td><td data-label=\"下一步\">升到4层或挑战混沌试炼大师。</td></tr><tr><td data-label=\"现象\">8点已齐还要继续试炼吗</td><td data-label=\"先检查\">升华已经完成，继续属于刷遗物、珠宝、灵核、通货或首领奖励。</td><td data-label=\"下一步\">不是必须日常；按需要玩，不能继续拿到第10点。</td></tr></tbody></table></div>",
+        "sources": [
+          "G020F",
+          "SEK",
+          "G055"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "出发前检查",
+        "html": "<p>先确认当前累计点数与目标，带合格门票；技能无红色需求，能持续对单；药剂与咒符可用。丝克玛另配荣誉抗性遗物，混沌先看负面词缀组合。</p><p><a class=\"text-link\" href=\"#/learn/sekhemas\">丝克玛完整跑法 →</a>　<a class=\"text-link\" href=\"#/learn/chaos\">混沌完整跑法 →</a>　<a class=\"text-link\" href=\"#/learn/readiness\">角色与门票验收 →</a></p>",
+        "sources": [],
+        "kind": "本次整理的操作检查"
+      }
+    ],
+    "search": "升华 升华点 2 4 6 8 55 65 Balbala Chimeral Djinn Barya Ultimatum 试炼 转职 祭坛 点数 获取",
+    "summary": "按已获得点数选择门票，入口、领奖和下一组条件都列清楚。"
+  },
+  "sekhemas": {
+    "id": "sekhemas",
+    "title": "丝克玛试炼：门票、遗物与跑法",
+    "description": "拿升华与刷奖励共用入口，但投入目标不同。首次通关优先保住荣誉，不追特殊遗物挑战。",
+    "group": "character",
+    "sections": [
+      {
+        "title": "一轮怎么开始、什么时候算完成",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>具体做法</th><th>完成条件／风险</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"具体做法\">到第二章 Trial of the Sekhemas：检查硬币区域等级、可走层数和升华资格；在遗物祭坛放票。</td><td data-label=\"完成条件／风险\">想拿6点需要走完第3层；不是完成3个小房。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"具体做法\">开局前摆好遗物，再确认开始。</td><td data-label=\"完成条件／风险\">只放在背包里的遗物不生效；开跑后不能把刚掉的遗物立即换进这一轮祭坛。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"具体做法\">逐房看目标、负面效果与下一步路线。完成房间后再选下一房；圣水、荣誉、祝福和负面状态跨房／层保留。</td><td data-label=\"完成条件／风险\">先躲掉失败条件，再取收益；不为一把钥匙走必失败的房间。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"具体做法\">击败对应楼层首领，进入奖励区：确认升华祭坛、商人／恢复和钥匙箱；要继续再进下一层。</td><td data-label=\"完成条件／风险\">达到目标点数资格才会增加升华；继续下一层前把当前层需要办的事做完。</td></tr></tbody></table></div>",
+        "sources": [
+          "SEK"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "荣誉与遗物：不是生命药剂能解决的第二条血",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>项目</th><th>作用</th><th>实用安排</th></tr></thead><tbody><tr><td data-label=\"项目\">荣誉</td><td data-label=\"作用\">降至0即试炼失败，即使人物生命没有归零。基础由最大生命、护盾和符文结界等决定，特定天赋另影响。</td><td data-label=\"实用安排\">低血高护盾要看实际总荣誉；不能只看生命值判断可否进入。</td></tr><tr><td data-label=\"项目\">荣誉抗性</td><td data-label=\"作用\">减少荣誉损失；默认上限75%。</td><td data-label=\"实用安排\">优先在普通遗物上积累，长层挑战尽量靠近75%；不用第一场就强制买齐毕业遗物。</td></tr><tr><td data-label=\"项目\">荣誉恢复</td><td data-label=\"作用\">靠试炼提供的恢复、商人／祝福等；普通生命药剂不是荣誉药剂。</td><td data-label=\"实用安排\">低荣誉时路线优先恢复；保留圣水，不全部换掉或买掉。</td></tr><tr><td data-label=\"项目\">遗物效果</td><td data-label=\"作用\">祭坛里已放置的才对本轮生效。</td><td data-label=\"实用安排\">先抗性与荣誉容量，再按实际难点加移动、可见路线、商人等；不必照搬刷收益遗物。</td></tr><tr><td data-label=\"项目\">特殊暗金遗物</td><td data-label=\"作用\">可能限制荣誉为1、禁止恢复、附带最低试炼等级并在使用时消耗。</td><td data-label=\"实用安排\">属于特殊首领奖励挑战，不是第一次拿8点的必需材料。</td></tr></tbody></table></div>",
+        "sources": [
+          "HON",
+          "SEK"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "房间目标速查",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>界面目标</th><th>直接做什么</th><th>避免的错误</th></tr></thead><tbody><tr><td data-label=\"界面目标\">Chalice · 圣杯</td><td data-label=\"直接做什么\">击败指定稀有怪，按目标指引收尾。</td><td data-label=\"避免的错误\">普通怪清空不等于目标完成。</td></tr><tr><td data-label=\"界面目标\">Escape · 逃脱水晶</td><td data-label=\"直接做什么\">按计时顺序激活／关闭水晶，延长计时并跟下一处指引。</td><td data-label=\"避免的错误\">别停下来捡不重要的掉落或清所有怪。</td></tr><tr><td data-label=\"界面目标\">Ritual · 仪式</td><td data-label=\"直接做什么\">击败维持传送门的施法者。</td><td data-label=\"避免的错误\">不是异界仪式的Tribute购物；不要只刷不断出现的援军。</td></tr><tr><td data-label=\"界面目标\">Gauntlet · 机关</td><td data-label=\"直接做什么\">读机关节奏，操作相应开关，找到出口。</td><td data-label=\"避免的错误\">盲目冲刺连续吃陷阱；需要经过的机关不靠清怪解除。</td></tr><tr><td data-label=\"界面目标\">Hourglass · 生存</td><td data-label=\"直接做什么\">活到计时结束；处理威胁，稀有怪可帮助缩短等待。</td><td data-label=\"避免的错误\">追远处小怪反而离开安全位置。</td></tr><tr><td data-label=\"界面目标\">Boss · 楼层首领</td><td data-label=\"直接做什么\">击败守关首领后进入奖励区。</td><td data-label=\"避免的错误\">第一层结束后直接离开，误以为完成了整张多层硬币。</td></tr></tbody></table></div>",
+        "sources": [
+          "SEK"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "祝福、苦痛与路线怎么选",
+        "html": "<p><strong>首次拿点的排序：</strong>能活着完成的路线 → 恢复／商人／有用祝福 → 遗物积累 → 钥匙收益。下表是针对本冰射路线的风险判断，不是Fubgun公布的房间排名。</p><div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>遇到的效果</th><th>你要判断什么</th></tr></thead><tbody><tr><td data-label=\"遇到的效果\">降低防御、回复或最大荣誉</td><td data-label=\"你要判断什么\">它削弱的是你现在依赖的那层防御吗？混合护盾阶段尤其检查护盾代价。</td></tr><tr><td data-label=\"遇到的效果\">看不清后续路线／奖励</td><td data-label=\"你要判断什么\">连续多层更难规划；有别的可完成选择时优先保持信息可见。</td></tr><tr><td data-label=\"遇到的效果\">限制移动、加快陷阱、增加承伤</td><td data-label=\"你要判断什么\">不要与自己已不擅长的机关或限时目标叠加。</td></tr><tr><td data-label=\"遇到的效果\">买祝福还是买收益</td><td data-label=\"你要判断什么\">先修当前荣誉与生存短板；低荣誉不要只因奖励看起来贵就放弃恢复。</td></tr></tbody></table></div><p>不要把某篇攻略的“免费负面”当通用规则；装备、楼层和已有负面会改变风险。</p>",
+        "sources": [
+          "SEK"
+        ],
+        "kind": "机制资料＋本次条件建议"
+      },
+      {
+        "title": "四层首领与第一次通关重点",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>层</th><th>首领</th><th>关注点</th></tr></thead><tbody><tr><td data-label=\"层\">1</td><td data-label=\"首领\">Rattlecage, the Earthbreaker</td><td data-label=\"关注点\">保持移动，先避开大范围爆发与场地危险，再站定输出。</td></tr><tr><td data-label=\"层\">2</td><td data-label=\"首领\">Hadi 与 Rafiq</td><td data-label=\"关注点\">同时注意两名首领与重叠攻击，不只盯锁定目标。</td></tr><tr><td data-label=\"层\">3</td><td data-label=\"首领\">Ashar, the Sand Mother</td><td data-label=\"关注点\">按阶段处理场地与额外目标；别为了蓄满狙击吃明显的范围攻击。</td></tr><tr><td data-label=\"层\">4</td><td data-label=\"首领\">Zarokh, the Temporal</td><td data-label=\"关注点\">提前留出移动与反应空间；按时沙／沙漏阶段目标完成机制，避开时间泡和旋转光束，不靠面板高血硬扛。</td></tr></tbody></table></div><p>这是入门识别与操作重点，不是逐帧招式图。旧攻略把时沙失误写成固定秒杀；本页不沿用该旧断言，也不保证失误可安全承受。首次练习不使用“仅1荣誉”遗物。</p>",
+        "sources": [
+          "SEK",
+          "HON"
+        ],
+        "kind": "首领资料＋实用提醒"
+      },
+      {
+        "title": "失败以后改什么；8点以后还刷什么",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>情况</th><th>下一轮改法</th></tr></thead><tbody><tr><td data-label=\"情况\">荣誉很快见底但没死</td><td data-label=\"下一轮改法\">先查遗物是否摆进祭坛、荣誉抗性和选房，不是只升级生命药剂。</td></tr><tr><td data-label=\"情况\">首领打很久、蓝耗尽</td><td data-label=\"下一轮改法\">回人物页验证单体组合、冻结／完美狙击和无击杀情况下的供蓝。</td></tr><tr><td data-label=\"情况\">机关或计时反复失败</td><td data-label=\"下一轮改法\">先熟悉同类低成本路线，补移动与生存；别连续烧更高等级硬币。</td></tr><tr><td data-label=\"情况\">只想积累普通遗物</td><td data-label=\"下一轮改法\">不必每次用能给下一组升华的最高票。按能稳定完成的成本练习和留遗物。</td></tr><tr><td data-label=\"情况\">已拿8点</td><td data-label=\"下一轮改法\">按需要选遗物、钥匙箱、珠宝与特定首领奖励；高收益特殊遗物是另一套风险，不是必做毕业步骤。</td></tr></tbody></table></div><p><a class=\"text-link\" href=\"#/learn/ascendancy\">回升华获取表 →</a>　<a class=\"text-link\" href=\"#/learn/chaos\">改查混沌路线 →</a></p>",
+        "sources": [
+          "SEK"
+        ],
+        "kind": "规则补充"
+      }
+    ],
+    "search": "丝克玛 塞克玛 Sekhemas 荣誉 Honour Honor Relic 遗物 圣水 沙漏 水晶 Zarokh 巴尔巴拉",
+    "summary": "开局装遗物，逐房控荣誉，完成目标楼层后领点。"
+  },
+  "chaos": {
+    "id": "chaos",
+    "title": "混沌试炼：0.5.5 的完整入门流程",
+    "description": "入口、房型、负面选择、逐房奖励、10／20／30轮次与试炼大师分开讲。别用旧“第10房才领奖”的流程。",
+    "group": "character",
+    "sections": [
+      {
+        "title": "入口与升华门槛",
+        "html": "<p>第三章 Chimeral Wetlands 击败 Xyclucian，取得任务票；到 Temple of Chaos 的供奉装置放入 Inscribed Ultimatum。任务票先看升华资格提示；普通进阶票按<strong>7房／区域55级提供至4点，10房／区域65级提供至6点</strong>选择。</p><p>“区域等级”不是人物等级。拿第4组要挑战试炼大师，不能把再跑一轮普通10房当成自动给8点。<a class=\"text-link\" href=\"#/learn/ascendancy\">完整门票与领奖表 →</a></p>",
+        "sources": [
+          "CHAOS",
+          "G020F"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "0.5.5 改了什么",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>环节</th><th>这版怎么处理</th></tr></thead><tbody><tr><td data-label=\"环节\">离开与继续</td><td data-label=\"这版怎么处理\">可在试炼中离开，之后从同一房间继续；这不是死亡复活，也不等于可免费洗掉不利词缀。</td></tr><tr><td data-label=\"环节\">领奖</td><td data-label=\"这版怎么处理\">每房结束有奖励箱；已领取与尚未完成的奖励分开，不再说死亡会让整轮所有收益消失。</td></tr><tr><td data-label=\"环节\">最终奖励</td><td data-label=\"这版怎么处理\">完成一轮的奖励池为通货与灵核，不再按旧攻略追腐化装备奖励。</td></tr><tr><td data-label=\"环节\">连续挑战</td><td data-label=\"这版怎么处理\">完成10房可再续两轮，无需额外交门票；难度词缀和奖励质量延续，成功后取得不同命运碎片。</td></tr><tr><td data-label=\"环节\">下注</td><td data-label=\"这版怎么处理\">续跑时的翻倍／全失通货下注是可选项；本入门路线不要求下注。</td></tr><tr><td data-label=\"环节\">异界加点</td><td data-label=\"这版怎么处理\">普通异界树不在试炼里生效；本版有随区域等级变化的固有补偿，不要套七套农图碑牌。</td></tr></tbody></table></div>",
+        "sources": [
+          "G055"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "每轮直接按这个顺序",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>具体做法</th><th>完成条件／风险</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"具体做法\">确认门票资格与房数 → 进入 → 每房开始时选一个能承受的难度选项。</td><td data-label=\"完成条件／风险\">选项会在本轮保留并可升阶；不能只看眼前一房。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"具体做法\">看清这房是清怪、护送、搬核心、圈内献祭、生存还是首领，按目标完成。</td><td data-label=\"完成条件／风险\">完成后领该房奖励箱，再决定后续操作。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"具体做法\">完成本轮要求的最终房／首领后，领取可得的奖励与升华资格。</td><td data-label=\"完成条件／风险\">只来拿点：达到目标就停；没有义务追到30房。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"具体做法\">需要命运碎片且能承受累积难度时，再选择第2、3轮。</td><td data-label=\"完成条件／风险\">三轮都成功才是10→20→30的完整连续路线；不是第一张票直接送三碎片。</td></tr><tr><td data-label=\"顺序\">05</td><td data-label=\"具体做法\">已备齐 Cowardly Fate、Deadly Fate、Victorious Fate 各一份，在末端门口提交并挑战 Trialmaster。</td><td data-label=\"完成条件／风险\">可以此前分别积累或交易取得；不必为了最后2点强行同一次连跑30房。</td></tr></tbody></table></div>",
+        "sources": [
+          "G055",
+          "CHAOS"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "六种房型：看目标，不乱清全图",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>目标</th><th>操作</th><th>风险控制</th></tr></thead><tbody><tr><td data-label=\"目标\">Slay all Monsters</td><td data-label=\"操作\">击败房内要求的全部怪物。</td><td data-label=\"风险控制\">清完先看完成提示，不被最后残怪拖住。</td></tr><tr><td data-label=\"目标\">Escort</td><td data-label=\"操作\">保持在护送目标附近推动它到终点。</td><td data-label=\"风险控制\">先给移动路线留空间；离圈暂停推进时不误认为卡住。</td></tr><tr><td data-label=\"目标\">Place Soul Cores</td><td data-label=\"操作\">拾取房间任务核心，带到指定装置安装。</td><td data-label=\"风险控制\">这是任务物件，不是让你消耗背包里用来镶嵌的灵核。</td></tr><tr><td data-label=\"目标\">Sacrifice</td><td data-label=\"操作\">把怪物引入目标圈内再击杀。</td><td data-label=\"风险控制\">在圈外远程秒光可能不推进；先让怪进入有效区域。</td></tr><tr><td data-label=\"目标\">Survive</td><td data-label=\"操作\">活过计时；合理击杀稀有怪可缩短计时。</td><td data-label=\"风险控制\">不是越追怪越快；持续地面伤害和控制要先处理。</td></tr><tr><td data-label=\"目标\">Boss</td><td data-label=\"操作\">完成当前首领战。</td><td data-label=\"风险控制\">负面词缀会影响首领战；别把短房间能扛住当作首领也能扛。</td></tr></tbody></table></div>",
+        "sources": [
+          "CHAOS",
+          "G055"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "冰射选负面：先避开功能损坏",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>词缀方向</th><th>为什么要谨慎</th><th>当场怎么判断</th></tr></thead><tbody><tr><td data-label=\"词缀方向\">Lessened Reach · 范围／投射物速度下降</td><td data-label=\"为什么要谨慎\">清怪覆盖和打击手感可能明显变差。</td><td data-label=\"当场怎么判断\">先读当前阶数的数值，不因为第一阶勉强能打就连续升级。</td></tr><tr><td data-label=\"词缀方向\">Damaged Defences · 防御下降</td><td data-label=\"为什么要谨慎\">直接削弱闪避／护盾等现有防御。</td><td data-label=\"当场怎么判断\">03/04混合阶段尤其检查；不要与承伤上升叠满。</td></tr><tr><td data-label=\"词缀方向\">Reduced Recovery／Drought</td><td data-label=\"为什么要谨慎\">降低恢复或药剂咒符充能，可能令长单体断蓝。</td><td data-label=\"当场怎么判断\">先确认无击杀续航；不能按地图里击杀回满的表现估算。</td></tr><tr><td data-label=\"词缀方向\">抗性下降＋额外元素／混沌伤害</td><td data-label=\"为什么要谨慎\">两项叠加比单独看危险；低混抗不是免疫。</td><td data-label=\"当场怎么判断\">与当前面板和其他选项一起算，不抄其他职业的“无影响”。</td></tr><tr><td data-label=\"词缀方向\">控制／石化＋追踪地面危险</td><td data-label=\"为什么要谨慎\">既逼你走又阻止移动，风险相互放大。</td><td data-label=\"当场怎么判断\">有替代时减少冲突组合；只想拿点不追收益倍率。</td></tr><tr><td data-label=\"词缀方向\">稀有怪增加／首领强化</td><td data-label=\"为什么要谨慎\">对清不动黄怪或单体不足的角色并非免费。</td><td data-label=\"当场怎么判断\">以现在能否处理判断，不把作者高配表现当最低要求。</td></tr></tbody></table></div><p>以上是<strong>针对冰射功能的条件建议</strong>，不是新的Fubgun试炼专属加点。词缀具体数值以当次界面为准。</p>",
+        "sources": [
+          "CHAOS",
+          "G055"
+        ],
+        "kind": "本次依据词缀作用整理"
+      },
+      {
+        "title": "三种命运、最后两点与停手",
+        "html": "<p><strong>已有6点，目标只是8点：</strong>准备门口所需的三种命运，选你能完成的一轮后开门打试炼大师；别把“可以续到30房”误读成“必须一次30房”。进入前先确认角色、门票和门口条件。</p><p>第一次挑战重点是保留移动空间、识别首领蓄力和阶段动作，不在危险提示内贪完整狙击。拿点成功后再决定要不要刷更多灵核和通货；本页不承诺任意装等、低抗性可过。</p><p>失败后先区分：选项组合伤到人物功能、房间目标没做对、还是单体和回复不足。下轮只针对原因调整，不盲目抬高门票等级。</p><p><a class=\"text-link\" href=\"#/learn/sekhemas\">查看另一条升华路线 →</a>　<a class=\"text-link\" href=\"#/learn/readiness\">出发前验收 →</a></p>",
+        "sources": [
+          "CHAOS",
+          "G055"
+        ],
+        "kind": "规则补充"
+      }
+    ],
+    "search": "混沌 试炼 Chaos Trialmaster Inscribed Ultimatum 命运 灵核 10 20 30 55 65 升华 续跑 奖励箱",
+    "summary": "入门先拿点，不强制30房；逐房领箱，三命运开门挑战试炼大师。"
+  },
+  "permanent": {
+    "id": "permanent",
+    "title": "永久奖励与功能解锁：一次查完",
+    "description": "原版已有30项奖励位置；这次把它接回成长流程，并加入升华门票、工作台和易重复计算的检查。",
+    "group": "guide",
+    "sections": [
+      {
+        "title": "先查这四种永久进度",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>进度</th><th>漏了会怎样</th><th>现在怎么查</th></tr></thead><tbody><tr><td data-label=\"进度\">人物升华</td><td data-label=\"漏了会怎样\">有技能名但核心机制没拿到；装备再好也替代不了未分配的节点。</td><td data-label=\"现在怎么查\"><a class=\"text-link\" href=\"#/learn/ascendancy\">按2／4／6／8点检查 →</a></td></tr><tr><td data-label=\"进度\">精魂奖励</td><td data-label=\"漏了会怎样\">常驻技能和元技能开不齐，容易误以为一定要买昂贵精魂装。</td><td data-label=\"现在怎么查\">Fubgun所列三处是Freythorn +30、Azak Bog +30、Kriar Village +40；这些一次性奖励相加为100，不等同全套需求。</td></tr><tr><td data-label=\"进度\">人物／武器组天赋奖励</td><td data-label=\"漏了会怎样\">漏任务书，人物配置点数不够；或把武器组两边当成能同时叠加。</td><td data-label=\"现在怎么查\">下表按位置逐项查，领取物品后仍需按任务完成／使用；不要用网页勾选代替人物面板。</td></tr><tr><td data-label=\"进度\">选择奖励与功能</td><td data-label=\"漏了会怎样\">重复合计同一任务的不同描述，或任务完成但未使用奖励。</td><td data-label=\"现在怎么查\">防御药物、抗性／属性选择按实际选的一项记；工作台是功能解锁，不是数值奖励。</td></tr></tbody></table></div>",
+        "sources": [
+          "FLEV"
+        ],
+        "kind": "作者奖励表＋本次核算说明"
+      },
+      {
+        "title": "按章节核对30项原有奖励",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>章节</th><th>地点／目标</th><th>本路线记录的奖励或选择</th></tr></thead><tbody><tr><td data-label=\"章节\">第一章</td><td data-label=\"地点／目标\">Clearfell / Beira</td><td data-label=\"本路线记录的奖励或选择\">冰霜抗性 +10%</td></tr><tr><td data-label=\"章节\">第一章</td><td data-label=\"地点／目标\">Hunting Grounds / Crowbell</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第一章</td><td data-label=\"地点／目标\">Freythorn / King in the Mists</td><td data-label=\"本路线记录的奖励或选择\">精魂 +30</td></tr><tr><td data-label=\"章节\">第一章</td><td data-label=\"地点／目标\">Ogham Farmlands / Una’s Hut</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第一章</td><td data-label=\"地点／目标\">Ogham Manor / Candlemass</td><td data-label=\"本路线记录的奖励或选择\">最大生命 +20</td></tr><tr><td data-label=\"章节\">第二章</td><td data-label=\"地点／目标\">Keth / Kabala</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第二章</td><td data-label=\"地点／目标\">Valley of the Titans / Medallion</td><td data-label=\"本路线记录的奖励或选择\">作者列出咒符充能与咒符槽奖励；选择项按游戏预览，不在本地合计</td></tr><tr><td data-label=\"章节\">第二章</td><td data-label=\"地点／目标\">Deshar / Final Letter</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第二章</td><td data-label=\"地点／目标\">Spires of Deshar / Sisters of Garukhan</td><td data-label=\"本路线记录的奖励或选择\">闪电抗性 +10%</td></tr><tr><td data-label=\"章节\">第三章</td><td data-label=\"地点／目标\">Jungle Ruins / Mighty Silverfist</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第三章</td><td data-label=\"地点／目标\">The Venom Crypts / Venom Draught</td><td data-label=\"本路线记录的奖励或选择\">作者选择晕眩门槛提高25%；不是领取全部选项</td></tr><tr><td data-label=\"章节\">第三章</td><td data-label=\"地点／目标\">Jiquani’s Machinarium / Blackjaw</td><td data-label=\"本路线记录的奖励或选择\">火焰抗性 +10%</td></tr><tr><td data-label=\"章节\">第三章</td><td data-label=\"地点／目标\">The Azak Bog / Ignagduk</td><td data-label=\"本路线记录的奖励或选择\">精魂 +30</td></tr><tr><td data-label=\"章节\">第三章</td><td data-label=\"地点／目标\">The Molten Vault</td><td data-label=\"本路线记录的奖励或选择\">重铸台</td></tr><tr><td data-label=\"章节\">第三章</td><td data-label=\"地点／目标\">Aggorat / Blood Sacrifice</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Journey’s End / Captain Hartlin</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2；作者还列13级技能宝石等</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Whakapanu Island / Great White One</td><td data-label=\"本路线记录的奖励或选择\">防御选择奖励：按任务预览；不要与下方部族药物重复合计</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Eye of Hinekora / Navali’s Rest</td><td data-label=\"本路线记录的奖励或选择\">最大魔力提高5%</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Halls of the Dead / Yama</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Halls of the Dead / Tawhoa’s Test</td><td data-label=\"本路线记录的奖励或选择\">敏捷 +5</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Abandoned Prison / Goddess of Justice</td><td data-label=\"本路线记录的奖励或选择\">药剂生命回复提高30%</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Halls of the Dead / Tasalio’s Test</td><td data-label=\"本路线记录的奖励或选择\">冰霜抗性 +5%</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Halls of the Dead / Ngamahu’s Test</td><td data-label=\"本路线记录的奖励或选择\">火焰抗性 +5%</td></tr><tr><td data-label=\"章节\">第四章</td><td data-label=\"地点／目标\">Halls of the Dead / Tribal Medicine</td><td data-label=\"本路线记录的奖励或选择\">作者偏向全局防御；可能涉及同一任务选择，不重复计算</td></tr><tr><td data-label=\"章节\">幕间</td><td data-label=\"地点／目标\">Wolvenhold / Oswin</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">幕间</td><td data-label=\"地点／目标\">The Khari Crossing / Akthi and Anundr</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr><tr><td data-label=\"章节\">幕间</td><td data-label=\"地点／目标\">The Khari Crossing / Molten Shrine</td><td data-label=\"本路线记录的奖励或选择\">最大生命提高5%</td></tr><tr><td data-label=\"章节\">幕间</td><td data-label=\"地点／目标\">Qimah / Tabana’s Pillar</td><td data-label=\"本路线记录的奖励或选择\">移动速度提高3%</td></tr><tr><td data-label=\"章节\">幕间</td><td data-label=\"地点／目标\">Kriar Village / Lythara</td><td data-label=\"本路线记录的奖励或选择\">精魂 +40</td></tr><tr><td data-label=\"章节\">幕间</td><td data-label=\"地点／目标\">Howling Caves / Abominable Yeti</td><td data-label=\"本路线记录的奖励或选择\">武器组天赋点 ×2</td></tr></tbody></table></div><p>本表沿用既有作者奖励记录，保留英文定位。Great White One 与 Tribal Medicine 可能指同一奖励链的不同环节，<strong>不据两行计算双倍防御</strong>；可选奖励没有同时累加。国服地图名未逐条客户端核定。</p>",
+        "sources": [
+          "FLEV"
+        ],
+        "kind": "原R28奖励记录保留"
+      },
+      {
+        "title": "别漏掉功能与第三组门票",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>什么时候</th><th>查哪里</th><th>做什么</th></tr></thead><tbody><tr><td data-label=\"什么时候\">剧情第一次需要升华</td><td data-label=\"查哪里\">第二章 Balbala／Traitor’s Passage</td><td data-label=\"做什么\">取任务硬币，完成丝克玛并领点。</td></tr><tr><td data-label=\"什么时候\">想用另一种升华试炼</td><td data-label=\"查哪里\">第三章 Xyclucian／Chimeral Wetlands</td><td data-label=\"做什么\">取任务Ultimatum，解锁混沌试炼入口。</td></tr><tr><td data-label=\"什么时候\">准备加工与回收</td><td data-label=\"查哪里\">剧情任务、营地可用工作台；The Molten Vault；幕间Khari Bazaar</td><td data-label=\"做什么\">确认分解、重铸功能；按实际预览回收，不把“炼金重洗”当保词缀追加。</td></tr><tr><td data-label=\"什么时候\">缺第3组升华门票</td><td data-label=\"查哪里\">Sel Khari Sanctuary／Elzarah</td><td data-label=\"做什么\">尚未取得第3组时，一次性保证掉落合格Djinn Barya。</td></tr><tr><td data-label=\"什么时候\">刚进异界</td><td data-label=\"查哪里\">地图装置、藏身处及首塔任务</td><td data-label=\"做什么\">继续现有开荒页，不等待人物升级发异界天赋点。</td></tr><tr><td data-label=\"什么时候\">大师与玩法点</td><td data-label=\"查哪里\">大师任务、各机制引导区域</td><td data-label=\"做什么\">它们不是升华点；只做准备玩的分支，不必先清所有可重复内容。</td></tr></tbody></table></div>",
+        "sources": [
+          "G031",
+          "FLEV",
+          "G050",
+          "SEK",
+          "CHAOS"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "第四章的“试炼”别认错",
+        "html": "<p>Halls of the Dead 的 Tawhoa／Tasalio／Ngamahu 测试属于剧情奖励检查。Fubgun奖励表分别列出了敏捷与抗性方向；本页将它们放在永久奖励中，<strong>不当成丝克玛、混沌之外的第三条8点升华路线</strong>。也不从数据站的未开放任务记录推断当前可以游玩的新试炼。</p><p>做过仍缺数值时：核对任务状态 → 看奖励物品是否还在背包 → 完成对话／使用 → 看人物实际数值。选择奖励只记真实领取项。</p>",
+        "sources": [
+          "FLEV"
+        ],
+        "kind": "原攻略定位＋范围纠错"
+      },
+      {
+        "title": "回到成长流程",
+        "html": "<p><a class=\"text-link\" href=\"#/guide\">成长路线 →</a>　<a class=\"text-link\" href=\"#/learn/readiness\">阶段出发检查 →</a>　<a class=\"text-link\" href=\"#/atlas-starter\">新手异界开荒 →</a></p>",
+        "sources": [],
+        "kind": "规则补充"
+      }
+    ],
+    "search": "永久 奖励 精魂100 30 40 天赋点 任务书 重铸台 分解台 Elzarah 幕间 Halls of the Dead 祖灵 升华",
+    "summary": "30项既有永久奖励保留，补功能解锁、升华门票和领取检查。"
+  },
+  "activities": {
+    "id": "activities",
+    "title": "其他试炼与玩法：入口、循环、奖励",
+    "description": "先分清一次性人物成长、异界机制成长和可重复刷取。这里是规则入门，不替Fubgun编造新的专属天赋树。",
+    "group": "atlas",
+    "sections": [
+      {
+        "title": "先分清四种“加点”",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>类别</th><th>点数／进度从哪里来</th><th>不能混成什么</th></tr></thead><tbody><tr><td data-label=\"类别\">人物天赋与升华</td><td data-label=\"点数／进度从哪里来\">人物升级／任务书，以及合格升华试炼。</td><td data-label=\"不能混成什么\">不是刷碑牌给人物技能点。</td></tr><tr><td data-label=\"类别\">异界主树</td><td data-label=\"点数／进度从哪里来\">完成要塞地图；当前主树与多选节点规则见开荒页。</td><td data-label=\"不能混成什么\">不是0.1旧“固定数量某阶地图领点”。</td></tr><tr><td data-label=\"类别\">机制专用树</td><td data-label=\"点数／进度从哪里来\">各玩法任务区域或对应任务首领；点数分别取得。</td><td data-label=\"不能混成什么\">不是从人物或另一玩法树挪点。</td></tr><tr><td data-label=\"类别\">大师</td><td data-label=\"点数／进度从哪里来\">做大师任务逐行解锁，开图前选择一位的配置。</td><td data-label=\"不能混成什么\">不是图上三位大师所有效果同时叠加。</td></tr></tbody></table></div>",
+        "sources": [
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "两条升华试炼：完整说明已独立补入",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>试炼</th><th>核心目标</th><th>继续查</th></tr></thead><tbody><tr><td data-label=\"试炼\">丝克玛</td><td data-label=\"核心目标\">荣誉管理、遗物、选房、楼层首领；首次拿点与特殊遗物刷奖励分开。</td><td data-label=\"继续查\"><a class=\"text-link\" href=\"#/learn/sekhemas\">完整跑法 →</a></td></tr><tr><td data-label=\"试炼\">混沌</td><td data-label=\"核心目标\">每房选负面并做目标，逐房领奖；续10/20/30与三命运开门分开。</td><td data-label=\"继续查\"><a class=\"text-link\" href=\"#/learn/chaos\">0.5.5完整跑法 →</a></td></tr></tbody></table></div><p>普通地图的异界天赋不直接带入两类试炼。丝克玛0.5.5在区域65级起有固有奖励加成；混沌也按区域等级提供固有加成。</p>",
+        "sources": [
+          "G055"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "疯狂试炼／拟像：不是第三条人物升华路线",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>具体做法</th><th>完成条件／风险</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"具体做法\">完成迷雾遭遇，有机会在附近地图出现 Grand Mirror。它会复制该地图首领。</td><td data-label=\"完成条件／风险\">击败两名首领，才进入Trial of Madness的解锁链；不是看到镜子就已经拿到升华点。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"具体做法\">触发后，以所选地图向周边扩散迷雾，范围内包含锁定的Simulacrum。</td><td data-label=\"完成条件／风险\">从10%迷雾强度起，杀稀有怪和地图首领提高范围内迷雾强度。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"具体做法\">提升至100%使Simulacrum可进入；继续推进可提高至200%。</td><td data-label=\"完成条件／风险\">200%是更高难度选择，不是每个新手必须先堆满才能做。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"具体做法\">完成Simulacrum的7波挑战，取得后续巅峰挑战所需钥匙。</td><td data-label=\"完成条件／风险\">这是0.5重做后的终局链；不要照旧攻略固定20波，也不要因此给人物记2点升华。</td></tr></tbody></table></div><p>新手先确保地图与首领稳定，读每波变化并处理额外首领。不把本流程当作Fubgun的Deli Rush：后者是独立速刷配套。</p>",
+        "sources": [
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "其余机制怎么开始、打完做什么",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>玩法／入口</th><th>一轮核心操作</th><th>奖励／下一步</th></tr></thead><tbody><tr><td data-label=\"玩法／入口\">裂隙 · Monastery of the Keepers</td><td data-label=\"一轮核心操作\">沿引导地图推进；地图裂隙按稳定／战斗目标完成，取得相关材料。</td><td data-label=\"奖励／下一步\">继续裂隙自己的点数与任务；Genesis Tree用其界面生成物品，不是人物树。</td></tr><tr><td data-label=\"玩法／入口\">深渊 · Well of Souls</td><td data-label=\"一轮核心操作\">做任务区域拿玩法进度；地图里处理裂口／坑与出现的怪，按提示去深处或领奖。</td><td data-label=\"奖励／下一步\">骨头、预兆和普通掉落按用途归类；“奖励概率提高”不是每坑固定翻倍。</td></tr><tr><td data-label=\"玩法／入口\">仪式 · Caer Tarth</td><td data-label=\"一轮核心操作\">完成地图祭坛获取Tribute，比较Favours、刷新和递延的实际消耗。</td><td data-label=\"奖励／下一步\">有价值而暂时买不起可按界面条件递延；奖励处理与“仪式·腰带”专门碑牌方案分开。</td></tr><tr><td data-label=\"玩法／入口\">迷雾 · Withered Willow</td><td data-label=\"一轮核心操作\">推进任务拿树点；按雾方向和奖励点到地图首领，确认结束条件。</td><td data-label=\"奖励／下一步\">情感用于相应灌注／加工，后续Grand Mirror通往疯狂试炼；不是只用旧碎片故事解释。</td></tr><tr><td data-label=\"玩法／入口\">先祖秘藏 · Ruins of Kingsmarch</td><td data-label=\"一轮核心操作\">先走Farrow任务；普通炸药遭遇先读会使角色打不动的词条，再安排覆盖；Grand Expedition另看符文与传闻。</td><td data-label=\"奖励／下一步\">日志／任务线与专用树进度分开；转入Fubgun完整先祖配套看投资与路线取舍。</td></tr><tr><td data-label=\"玩法／入口\">瓦尔神庙 · Lira Vaal</td><td data-label=\"一轮核心操作\">先做引导区域；进入后按当前房间／通路目标推进，使用建筑和加工服务前先读结果预览。</td><td data-label=\"奖励／下一步\">神庙自己的成长与服务；不存在已经取得的Fubgun独立神庙树，不能拿别人的满收益布局冒充。</td></tr></tbody></table></div><p>以上是入口与使用方向，不是每种机制的最优收益表。对应作者已给的刷法见<a class=\"text-link\" href=\"#/atlas-choose\">七套方案与材料条件 →</a>。</p><p><strong>拿到材料之后怎么继续：</strong><a class=\"text-link\" href=\"#/learn/mechanisms\">创世之树、神庙、仪式终局与先祖秘藏操作链 →</a></p>",
+        "sources": [
+          "G050",
+          "FATLAS"
+        ],
+        "kind": "官方系统＋已收录配套的入门整理"
+      },
+      {
+        "title": "0.5.5 赛季活动、普通遭遇与停手",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>内容</th><th>怎么处理</th><th>别混淆</th></tr></thead><tbody><tr><td data-label=\"内容\">Forbidden Rites 荒林／精灵</td><td data-label=\"怎么处理\">只有参与相应活动的角色，才按任务与Sacred Bloom进入当前荒林活动；增加精灵前考虑敌人变强。</td><td data-label=\"别混淆\">同一补丁仍能保留旧角色／旧联赛；不能要求所有0.5.5角色都看到同样活动入口。</td></tr><tr><td data-label=\"内容\">精华／保险箱／神殿</td><td data-label=\"怎么处理\">先读增强怪物或箱子的词条，清理周围再触发；临时增益用于当前地图。</td><td data-label=\"别混淆\">精华是装备工艺材料；神殿增益不是永久升华，也不是技能宝石。</td></tr><tr><td data-label=\"内容\">灵魂／召唤圈等地图内容</td><td data-label=\"怎么处理\">跟界面目标处理，完成后分清直接掉落与需要回系统消费的材料。</td><td data-label=\"别混淆\">不为“图上看见了”就强行全清；专刷方案和本轮练级目的可不同。</td></tr><tr><td data-label=\"内容\">任务版／重复首领</td><td data-label=\"怎么处理\">先完成任务版学习；重复票据、领域、奖励和难度条件另查实际道具。</td><td data-label=\"别混淆\">首杀或网页勾选不等于已验证最高难度。</td></tr><tr><td data-label=\"内容\">何时暂停加难度</td><td data-label=\"怎么处理\">连续死亡、单体卡住或材料供应中断就先修角色／降低叠加。</td><td data-label=\"别混淆\">不把失败次数换成“这套BD没用”，也不盲目切另一套更高投入玩法。</td></tr></tbody></table></div>",
+        "sources": [
+          "G055"
+        ],
+        "kind": "当前活动规则＋本次操作建议"
+      }
+    ],
+    "search": "疯狂试炼 Madness 拟像 Simulacrum 7波 200% 祖灵 Halls Dead 神庙 Temple Genesis 创世之树 仪式 裂隙 深渊 先祖秘藏 荒林 Forbidden Rites",
+    "summary": "把两类升华、疯狂试炼、剧情测试和地图机制分开，给入口与下一步。"
+  },
+  "readiness": {
+    "id": "readiness",
+    "title": "从剧情到异界：出发前一次验收",
+    "description": "不要求面板照抄最高配。每个阶段先满足当前目标，再增加难度和投入。",
+    "group": "guide",
+    "sections": [
+      {
+        "title": "把成长流程接起来",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>阶段</th><th>本轮完成什么</th><th>直接入口</th></tr></thead><tbody><tr><td data-label=\"阶段\">剧情前段</td><td data-label=\"本轮完成什么\">按Fubgun过渡技能；留换技能需要的未切割宝石，装备先补能用的伤害、防御和属性。</td><td data-label=\"直接入口\"><a class=\"text-link\" href=\"#/reference?doc=l01.html\">剧情阶段 →</a></td></tr><tr><td data-label=\"阶段\">第一次升华</td><td data-label=\"本轮完成什么\">取任务票、配遗物／读房型，完成试炼并用祭坛。</td><td data-label=\"直接入口\"><a class=\"text-link\" href=\"#/learn/ascendancy\">0→8点路线 →</a></td></tr><tr><td data-label=\"阶段\">剧情后段／幕间</td><td data-label=\"本轮完成什么\">查永久奖励、缺的下一组升华票；技能转换不要漏辅助与资源。</td><td data-label=\"直接入口\"><a class=\"text-link\" href=\"#/learn/permanent\">永久奖励与功能 →</a></td></tr><tr><td data-label=\"阶段\">准备进异界</td><td data-label=\"本轮完成什么\">能使用当前技能、抗性与恢复不过度缺失；先低投入看图词缀。</td><td data-label=\"直接入口\"><a class=\"text-link\" href=\"#/atlas-starter\">异界开荒 →</a></td></tr><tr><td data-label=\"阶段\">固定玩法</td><td data-label=\"本轮完成什么\">先核对该方案需要的点数、碑牌、大师和角色能力，再试小批量。</td><td data-label=\"直接入口\"><a class=\"text-link\" href=\"#/atlas-choose\">七套方案条件 →</a></td></tr><tr><td data-label=\"阶段\">高配或重复首领</td><td data-label=\"本轮完成什么\">具体哪项不足就补哪项；角色换分支、试炼刷收益和最高难度各自验收。</td><td data-label=\"直接入口\"><a class=\"text-link\" href=\"#/character\">人物阶段与门槛 →</a></td></tr></tbody></table></div>",
+        "sources": [],
+        "kind": "本次结构与执行顺序整理"
+      },
+      {
+        "title": "先排除让配置不工作的六类问题",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>检查</th><th>通过条件</th><th>不通过先改什么</th></tr></thead><tbody><tr><td data-label=\"检查\">需求／武器组</td><td data-label=\"通过条件\">装备和宝石均可用，切到印记或副组后也没有红色需求。</td><td data-label=\"不通过先改什么\">属性、共享武器设置和各技能绑定；不是先买高阶宝石。</td></tr><tr><td data-label=\"检查\">技能等级／品质／孔</td><td data-label=\"通过条件\">本体等级、有效等级、品质、辅助孔分别检查。</td><td data-label=\"不通过先改什么\">等级提升带来的消耗能承担；元素军械II/III的限制不混换。</td></tr><tr><td data-label=\"检查\">精魂／保留</td><td data-label=\"通过条件\">开齐当前阶段的实际常驻／元技能后仍合法。</td><td data-label=\"不通过先改什么\">先查任务精魂、装备与辅助保留，别用魔力药剂补精魂。</td></tr><tr><td data-label=\"检查\">首领输出</td><td data-label=\"通过条件\">能按冻结／印记／弹幕／狙击条件完成，不把所有条件默认常驻。</td><td data-label=\"不通过先改什么\">核对本阶段操作和内嵌宝石；05没有狙击就按05自己的单体方法。</td></tr><tr><td data-label=\"检查\">生命／护盾／抗性</td><td data-label=\"通过条件\">角色面板符合本阶段防御，换装后没有突然失去关键抗性与恢复。</td><td data-label=\"不通过先改什么\">看实际当前上限，不写一个所有场景必须达到的固定血量保证。</td></tr><tr><td data-label=\"检查\">供蓝／药剂／咒符</td><td data-label=\"通过条件\">无小怪时仍能连续操作；药剂等级、品质、耗充与咒符触发正确。</td><td data-label=\"不通过先改什么\">区分击杀回蓝、物理偷取和总元素伤害；装备了咒符不等于永远免疫。</td></tr></tbody></table></div><p><a class=\"text-link\" href=\"#/reference?doc=mechanics.html\">机制排障 →</a>　<a class=\"text-link\" href=\"#/reference?doc=gem-upgrades.html\">宝石升级 →</a>　<a class=\"text-link\" href=\"#/reference?doc=finish-check.html\">详细换装检查 →</a></p>",
+        "sources": [
+          "FEND"
+        ],
+        "kind": "原有机制保留＋检查组织"
+      },
+      {
+        "title": "工艺不能漏，但也不是越做越好",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>动作</th><th>必须看清的条件</th></tr></thead><tbody><tr><td data-label=\"动作\">炼金石</td><td data-label=\"必须看清的条件\">当前规则可用于蓝装，但会丢失原词缀；想保留好蓝装词缀时，不把炼金当成追加两条。</td></tr><tr><td data-label=\"动作\">普通追加／升稀有度</td><td data-label=\"必须看清的条件\">按当前白／蓝／黄状态与前后缀空间选道具；材料只能做到写明的行为，不保证指定结果。</td></tr><tr><td data-label=\"动作\">品质</td><td data-label=\"必须看清的条件\">磨刀石、护甲片、玻璃弹珠、棱镜和催化剂用途不同；不是每个部位都用同一种。</td></tr><tr><td data-label=\"动作\">孔与镶嵌</td><td data-label=\"必须看清的条件\">装备增幅孔与技能辅助孔分开；逐孔材料效果按该部位读，查看覆盖／绑定／取回代价。</td></tr><tr><td data-label=\"动作\">腐化／注能／特殊工艺</td><td data-label=\"必须看清的条件\">先读适用状态、品质前提和摧毁风险。唯一正在用的主力装备不为“最后一步”强制冒险。</td></tr><tr><td data-label=\"动作\">停手</td><td data-label=\"必须看清的条件\">四条／五条合用的装备可以直接强化使用；目标是改善角色，不是把每件凑成六条。</td></tr></tbody></table></div><p><a class=\"text-link\" href=\"#/gear\">全身目标与单件工艺 →</a>　<a class=\"text-link\" href=\"#/reference?doc=runes.html\">18栏位强化准备 →</a>　<a class=\"text-link\" href=\"#/reference?doc=quality-workshop.html\">品质与数值 →</a></p><p>另外检查<a class=\"text-link\" href=\"#/learn/mechanisms\">神庙全部注能的20%品质前提、炼图预兆触发 →</a>；不要从作者简写步骤猜掉一个必须使用的道具。</p>",
+        "sources": [
+          "G031",
+          "FEND"
+        ],
+        "kind": "官方纠错＋现有工具连接"
+      },
+      {
+        "title": "交易、独狼与材料预算",
+        "html": "<p>交易模式：先以装备目标筛候选，比较成品价与继续工艺的不确定消耗；确认联盟、词缀实际数值、需求、品质、腐化和孔位。独狼模式：过滤器别过早隐藏过渡底材、门票和正在缺的材料。两种模式都先保留旧装备，换上实测有改善后再处理。</p><p>这里不提供固定“多少神圣必成”和市场报价。材料准备清单是手动规划，不会扫描游戏背包，也不保证市场可以买到。<a class=\"text-link\" href=\"#/reference?doc=filters.html\">四份过滤器 →</a>　<a class=\"text-link\" href=\"#/reference?doc=prepare.html\">底材与回收 →</a></p>",
+        "sources": [],
+        "kind": "本次通用使用建议"
+      },
+      {
+        "title": "遇到失败，先定位而不是换整套",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>失败类型</th><th>先回哪一项</th></tr></thead><tbody><tr><td data-label=\"失败类型\">丝克玛荣誉归零</td><td data-label=\"先回哪一项\">荣誉抗性／遗物是否生效、选房与恢复；不是普通地图异界树。</td></tr><tr><td data-label=\"失败类型\">混沌续跑突然变难</td><td data-label=\"先回哪一项\">累积负面阶数、回复与控制组合；10到20不是难度重置。</td></tr><tr><td data-label=\"失败类型\">普通地图稳定、叠玩法就死亡</td><td data-label=\"先回哪一项\">地图词缀＋碑牌＋大师＋机制强度合计过高；一次只减少一项确认原因。</td></tr><tr><td data-label=\"失败类型\">进新阶段反而弱</td><td data-label=\"先回哪一项\">新暗金或防御转换的前提未凑齐，或技能／武器组断掉；允许先用原阶段。</td></tr><tr><td data-label=\"失败类型\">清单全部勾完但没奖励</td><td data-label=\"先回哪一项\">网页备忘不是游戏任务状态；回任务、票面和祭坛检查。</td></tr></tbody></table></div>",
+        "sources": [
+          "G055"
+        ],
+        "kind": "机制区分＋排障建议"
+      }
+    ],
+    "search": "检查 验收 缺蓝 精魂 抗性 换装 过滤器 独狼 交易 炼金 蓝装 原词缀 被洗掉 永久 升华",
+    "summary": "一次检查人物功能、试炼准备和地图叠加，不再重复基础教程。"
+  },
+  "audit": {
+    "id": "audit",
+    "title": "内容审核：覆盖范围与纠错记录",
+    "description": "按“入口—条件—操作—领奖—后续—风险”检查，不再把存在一个标题当作攻略完整。",
+    "group": "tools",
+    "sections": [
+      {
+        "title": "本轮审核结论",
+        "html": "<p><strong>R32在升华与两类试炼上确有实质缺项。</strong>已有装备、宝石、永久奖励与七套配套并非全部缺失，因此这次保留已有内容，重点补全人物成长与试炼流程，并连接到可直接执行的页面。</p><p>本轮以0.5.5为使用基线，记录实际读到的官方规则、原作者内容和社区机制资料。新规则页不是Fubgun新增发表的专属攻略；人物和七套刷法仍保持原出处。</p><div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>审核动作</th><th>实际范围</th></tr></thead><tbody><tr><td data-label=\"审核动作\">页面盘点</td><td data-label=\"实际范围\">读取62个原站页面的正文与标题，盘点新版数据和入口；抽取只是发现缺口的手段，不代表所有数值已实测。</td></tr><tr><td data-label=\"审核动作\">内容复核</td><td data-label=\"实际范围\">重点核查试炼获取点数、当前奖励循环、人物永久进度和误用旧攻略的风险。</td></tr><tr><td data-label=\"审核动作\">补写与接入</td><td data-label=\"实际范围\">新页面有具体表格和流程；人物、成长、异界及旧参考页均能进入，不只加“去查看”链接。</td></tr><tr><td data-label=\"审核动作\">检查边界</td><td data-label=\"实际范围\">程序检查验证文件与网页功能；不作为客户端和最高难度游戏验证。</td></tr></tbody></table></div>",
+        "sources": [],
+        "kind": "本轮实际审核"
+      },
+      {
+        "title": "旧文冲突与使用规则校正",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>来源冲突</th><th>本轮处理</th><th>依据</th></tr></thead><tbody><tr><td data-label=\"来源冲突\">混沌“只有第10房才领奖”／“失败丢整轮全部奖励”</td><td data-label=\"本轮处理\">不采用；改成0.5.5每房奖励箱，完成一轮奖励与下注另算。</td><td data-label=\"依据\">GGG0.5.5</td></tr><tr><td data-label=\"来源冲突\">普通混沌第二／三组仍写60／75级</td><td data-label=\"本轮处理\">不采用；普通7房55与10房65以官方0.2.0f为准。</td><td data-label=\"依据\">GGG0.2.0f</td></tr><tr><td data-label=\"来源冲突\">不能重选升华；或只按数据站混杂旧表38／80记门槛</td><td data-label=\"本轮处理\">不采用旧不可重选结论；用楼层、区域等级和角色票面资格共同核对。</td><td data-label=\"依据\">GGG重选规则＋试炼资料</td></tr><tr><td data-label=\"来源冲突\">Zarokh时沙失误一律立即秒杀</td><td data-label=\"本轮处理\">不继续传播旧固定秒杀说法；提醒及时完成目标并避免荣誉损失。</td><td data-label=\"依据\">资料页版本记录与旧正文不一致，未据此承诺可硬扛</td></tr><tr><td data-label=\"来源冲突\">数据库有祖灵或后续章节记录＝当前已开放第三种升华</td><td data-label=\"本轮处理\">不这样推断；第四章已有奖励测试照任务表解释。</td><td data-label=\"依据\">Fubgun已显示任务与资料范围</td></tr></tbody></table></div><p>另发现<strong>Fubgun裂隙正文的基础+3档位已经过时</strong>，以及制图预兆不能直接靠腐化触发。方案页分别添加当前规则，见<a class=\"text-link\" href=\"#/learn/mechanisms\">词缀与工艺校注 →</a>。来源快照不被偷偷替换。</p>",
+        "sources": [
+          "G055",
+          "G020F",
+          "SEK",
+          "ASCDB",
+          "FLEV"
+        ],
+        "kind": "新核对的外部资料冲突"
+      },
+      {
+        "title": "40项内容覆盖记录",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>内容</th><th>审核前状态</th><th>本轮处理</th><th>状态／入口</th></tr></thead><tbody><tr><td data-label=\"内容\">0→8升华点获取</td><td data-label=\"审核前状态\">练级页只有节点顺序；beginner-guide只提示按任务；没有票据与累计上限。</td><td data-label=\"本轮处理\">补累计表、任务票例外、普通门票、领点、重选与没拿到点排障。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/ascendancy\">查看 →</a></td></tr><tr><td data-label=\"内容\">丝克玛完整入门</td><td data-label=\"审核前状态\">atlas-other只有“不继承异界树”的一句说明。</td><td data-label=\"本轮处理\">新增票据、祭坛遗物、荣誉抗性、六房型、路线、四层首领识别、失败与奖励。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/sekhemas\">查看 →</a></td></tr><tr><td data-label=\"内容\">混沌试炼完整入门</td><td data-label=\"审核前状态\">没有房型、55/65门槛、三命运或0.5.5连跑流程。</td><td data-label=\"本轮处理\">补入口、累计点数、每房奖励、续跑、六房型、负面功能风险与试炼大师。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/chaos\">查看 →</a></td></tr><tr><td data-label=\"内容\">第三组升华保证门票</td><td data-label=\"审核前状态\">原成长首页没有稳定衔接入口。</td><td data-label=\"本轮处理\">加入Elzarah未获第三组时的一次性合格硬币。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/ascendancy\">查看 →</a></td></tr><tr><td data-label=\"内容\">换升华／退点</td><td data-label=\"审核前状态\">原站未形成流程；外部旧文有“不能换”的错误风险。</td><td data-label=\"本轮处理\">按官方0.2.0f标明足够试炼深度和清空旧点条件。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/ascendancy\">查看 →</a></td></tr><tr><td data-label=\"内容\">疯狂试炼与拟像</td><td data-label=\"审核前状态\">新手无法区分地图迷雾与升华试炼。</td><td data-label=\"本轮处理\">补Grand Mirror双首领、10→100/200%地图雾与7波Simulacrum链。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/activities\">查看 →</a></td></tr><tr><td data-label=\"内容\">第四章祖灵测试分类</td><td data-label=\"审核前状态\">rewards表有奖励条目，但与升华关系不清。</td><td data-label=\"本轮处理\">区分Halls测试的任务奖励，不凭数据表宣布第三条升华路线。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/permanent\">查看 →</a></td></tr><tr><td data-label=\"内容\">活动／联赛适用范围</td><td data-label=\"审核前状态\">有荒林名词，但不是所有角色都参与活动。</td><td data-label=\"本轮处理\">补Forbidden Rites适用范围，旧联盟与活动不强行混用。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/activities\">查看 →</a></td></tr><tr><td data-label=\"内容\">永久奖励位置</td><td data-label=\"审核前状态\">rewards已有30项位置与选择提醒，未集中接回人物成长。</td><td data-label=\"本轮处理\">原表保留，补领取流程、功能和精魂核对；防御药物不重复相加。</td><td data-label=\"状态／入口\">原有内容重接＋补充<br><a class=\"text-link\" href=\"#/learn/permanent\">查看 →</a></td></tr><tr><td data-label=\"内容\">成长跨页连续性</td><td data-label=\"审核前状态\">主页从基础直接跳异界，缺剧情升华与任务收尾。</td><td data-label=\"本轮处理\">成长页按剧情→升华→永久→开荒→成型接入，人物页有直接获取入口。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/guide\">查看 →</a></td></tr><tr><td data-label=\"内容\">普通玩法入口与循环</td><td data-label=\"审核前状态\">多处只回Fubgun农图工作台；神庙只有状态说明。</td><td data-label=\"本轮处理\">补六机制入口与一轮做什么／奖励去向；不冒充最优天赋。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/activities\">查看 →</a></td></tr><tr><td data-label=\"内容\">炼金蓝装与保词缀</td><td data-label=\"审核前状态\">现有工艺庞大，材料选择易误用。</td><td data-label=\"本轮处理\">新验收页醒目标出官方蓝装炼金会抹去原词缀，链接原工艺。</td><td data-label=\"状态／入口\">已补入<br><a class=\"text-link\" href=\"#/learn/readiness\">查看 →</a></td></tr><tr><td data-label=\"内容\">人物六分支与06冲突</td><td data-label=\"审核前状态\">已有原件、技能和阶段配置；06只读。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/character\">查看 →</a></td></tr><tr><td data-label=\"内容\">剧情六阶段</td><td data-label=\"审核前状态\">原有1–60＋剧情详稿。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/reference?doc=l01.html\">查看 →</a></td></tr><tr><td data-label=\"内容\">18栏位逐件强化</td><td data-label=\"审核前状态\">已有216条阶段×栏位数据。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/reference?doc=runes.html\">查看 →</a></td></tr><tr><td data-label=\"内容\">全身装备与单件工艺</td><td data-label=\"审核前状态\">已有紧凑总览与成品→步骤→强化→验收。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/gear\">查看 →</a></td></tr><tr><td data-label=\"内容\">品质与孔位材料</td><td data-label=\"审核前状态\">已有磨刀石、防具品质、药剂品质和孔位区分。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/reference?doc=quality-workshop.html\">查看 →</a></td></tr><tr><td data-label=\"内容\">宝石等级／品质／辅助</td><td data-label=\"审核前状态\">已有对应材料与资源要求。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/reference?doc=gem-upgrades.html\">查看 →</a></td></tr><tr><td data-label=\"内容\">首饰／珠宝／两枚戒指</td><td data-label=\"审核前状态\">逐件记录与普通/精炼催化区分已有。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/reference?doc=runes.html\">查看 →</a></td></tr><tr><td data-label=\"内容\">副武器组与元技能</td><td data-label=\"审核前状态\">原件已保留内嵌技能与共享装备边界。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/character\">查看 →</a></td></tr><tr><td data-label=\"内容\">防御与无小怪续航</td><td data-label=\"审核前状态\">已有冻结、命中、暴击、供蓝、混合防御等解释。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/reference?doc=mechanics.html\">查看 →</a></td></tr><tr><td data-label=\"内容\">角色换阶段门槛</td><td data-label=\"审核前状态\">原profile.gate与收尾工具已有，补集中入口。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/learn/readiness\">查看 →</a></td></tr><tr><td data-label=\"内容\">Fubgun七套原图与配套</td><td data-label=\"审核前状态\">R31七原页说明与同名截图已对应。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/atlas-choose\">查看 →</a></td></tr><tr><td data-label=\"内容\">Lazy异界开荒</td><td data-label=\"审核前状态\">R32独立署名与三阶段联网原图已有。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/atlas-starter\">查看 →</a></td></tr><tr><td data-label=\"内容\">普通异界主树与大师</td><td data-label=\"审核前状态\">原要塞与大师任务规则已有；不混入人物升华。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/atlas-starter\">查看 →</a></td></tr><tr><td data-label=\"内容\">四份过滤器与回收</td><td data-label=\"审核前状态\">原文件保留，02剧情→01开荒。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/tools/filters\">查看 →</a></td></tr><tr><td data-label=\"内容\">材料词典与数值</td><td data-label=\"审核前状态\">原有词典、数值和工艺工具。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/tools/dictionary\">查看 →</a></td></tr><tr><td data-label=\"内容\">来源与版本记录</td><td data-label=\"审核前状态\">原说明与审计文件保留，不把程序测试当游戏验证。</td><td data-label=\"本轮处理\">检查展示与入口保留，本轮不改写原构筑／工艺参数。</td><td data-label=\"状态／入口\">保留并回归<br><a class=\"text-link\" href=\"#/tools/sources\">查看 →</a></td></tr><tr><td data-label=\"内容\">完整人物连线与合法逐级点序</td><td data-label=\"审核前状态\">原快照只有节点等数据，未有全量已验证连线。</td><td data-label=\"本轮处理\">仍提供原件与节点清单；未补画假图，也不写已完成。</td><td data-label=\"状态／入口\">明确保留边界<br><a class=\"text-link\" href=\"#/character\">查看 →</a></td></tr><tr><td data-label=\"内容\">Fubgun原文未定义项目</td><td data-label=\"审核前状态\">Lineage首轮数量、Hilda门槛等本身未明确。</td><td data-label=\"本轮处理\">保留各方案原文范围，不拿其他作者填入。</td><td data-label=\"状态／入口\">明确保留边界<br><a class=\"text-link\" href=\"#/atlas-choose\">查看 →</a></td></tr><tr><td data-label=\"内容\">国服名称与游戏实装</td><td data-label=\"审核前状态\">官方国际服、第三方译名及用户快照存在不同来源。</td><td data-label=\"本轮处理\">展示检索用中英名称；不声称客户端导入与全部译名验收。</td><td data-label=\"状态／入口\">明确保留边界<br><a class=\"text-link\" href=\"#/tools/sources\">查看 →</a></td></tr><tr><td data-label=\"内容\">特殊高阶工艺与首领实战</td><td data-label=\"审核前状态\">无逐装备／逐难度的客户端实测。</td><td data-label=\"本轮处理\">风险与前提保留；基础流程不因此留白，但不保证必成／必过。</td><td data-label=\"状态／入口\">明确保留边界<br><a class=\"text-link\" href=\"#/learn/readiness\">查看 →</a></td></tr><tr><td data-label=\"内容\">三张Lazy图片的离线资源</td><td data-label=\"审核前状态\">R32保留在线原图入口，未下载本地。</td><td data-label=\"本轮处理\">如无网络继续显示说明与直链；不称三图已离线。</td><td data-label=\"状态／入口\">明确保留边界<br><a class=\"text-link\" href=\"#/atlas-starter\">查看 →</a></td></tr><tr><td data-label=\"内容\">材料奖励闭环</td><td data-label=\"审核前状态\">创世树／神庙旧页以入口和状态为主，缺材料怎么用。</td><td data-label=\"本轮处理\">补材料来源→消费→下一挑战；催化剂与裂隙石改版流程单列。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/learn/mechanisms\">查看 →</a></td></tr><tr><td data-label=\"内容\">仪式首领连续链</td><td data-label=\"审核前状态\">原七套专刷记录不负责解释普通玩法完整循环。</td><td data-label=\"本轮处理\">补供奉、国王之首、5图连续仪式；与腰带刷法分开。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/learn/mechanisms\">查看 →</a></td></tr><tr><td data-label=\"内容\">神庙布局与四类注能</td><td data-label=\"审核前状态\">旧收尾只突出护盾头的20%前提，未统一全部注能。</td><td data-label=\"本轮处理\">补全部注能≥20%、水晶／勋章／T4／失效保房方法。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/learn/mechanisms\">查看 →</a></td></tr><tr><td data-label=\"内容\">裂隙碑牌基础档位冲突</td><td data-label=\"审核前状态\">Fubgun旧正文写额外1–3目标3，与0.5.5基础1–2冲突。</td><td data-label=\"本轮处理\">原文不改写；方案头部、制图栏目与选型表附当前规则，停止按旧档位采购。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/atlas/breach-rares\">查看 →</a></td></tr><tr><td data-label=\"内容\">制图预兆触发动作</td><td data-label=\"审核前状态\">原作者简写材料步骤，可能误读成激活后直接腐化。</td><td data-label=\"本轮处理\">加Chaos Orb触发与排除类型解释；可选预兆不改成强制。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/atlas/abyss-rares\">查看 →</a></td></tr><tr><td data-label=\"内容\">联赛／产出门槛</td><td data-label=\"审核前状态\">规则变化使旧核心/赛季文与产出条件容易混用。</td><td data-label=\"本轮处理\">补先祖秘藏核心回归、Aldur Saga范围及深渊预兆区域65下不掉。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/learn/mechanisms\">查看 →</a></td></tr><tr><td data-label=\"内容\">相关灵核数值抽核</td><td data-label=\"审核前状态\">旧词典已包含0.5.5新值，并非都要推翻。</td><td data-label=\"本轮处理\">核对Tacati13混抗、Citaqualotl40/6、Zalatl4/5、Ticaba50、Tzamoto60/2及限量，与0.5.5一致；保留数据。</td><td data-label=\"状态／入口\">已复核并补入<br><a class=\"text-link\" href=\"#/tools/dictionary\">查看 →</a></td></tr></tbody></table></div>",
+        "sources": [],
+        "kind": "实际内容清单"
+      },
+      {
+        "title": "来源与“完整”的定义",
+        "html": "<p>本轮目标是让冰射新手从剧情、升华、永久奖励一路进入异界，并能区分和开始当前主要试炼／玩法。它不是全游戏所有职业、暗金、收益路线和首领招式帧数的百科。</p><p><strong>不能用“完美完整”掩盖证据边界。</strong>原站没给的参数、未展开节点、尚无客户端结果仍明确保留；但已经公开、能核对的基础流程不再用一句“任务里看”代替。</p>",
+        "sources": [
+          "G055",
+          "G020F",
+          "G031",
+          "G050",
+          "FLEV",
+          "FEND",
+          "FATLAS",
+          "LAZY",
+          "HON",
+          "SEK",
+          "CHAOS",
+          "ASCDB"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "下一轮不再等用户逐条指出",
+        "html": "<p>新增或修改页面继续按六项检查：<strong>从哪里进入、要什么资格、按什么顺序、怎么拿奖励、之后去哪、有什么损失风险。</strong>版本更新时先核对官方变更，再校正作者操作；链接可点与脚本不报错只是基本要求。</p>",
+        "sources": [],
+        "kind": "后续内容维护准则"
+      }
+    ],
+    "search": "审核 完整性 缺漏 覆盖 升华 试炼 版本 0.5.5 纠错 资料 边界",
+    "summary": "40项覆盖与明确冲突记录，区分内容补全和程序测试。"
+  },
+  "mechanisms": {
+    "id": "mechanisms",
+    "title": "玩法材料怎么用：从入口到奖励收尾",
+    "description": "基础机制补充，不是另找一位作者替换Fubgun刷法。读完知道材料送到哪里、下一轮怎么开始。",
+    "group": "atlas",
+    "search": "创世之树 Genesis Wombgift Hiveblood 催化剂 裂隙石 神庙 勋章 Energised Crystals 注能 Infuser 瓦尔 仪式 国王 先祖秘藏 铁砧 Runeseeker Omen 炼图 基础词缀",
+    "summary": "补全创世之树、神庙、仪式终局、先祖秘藏与掉落条件，并检查旧词缀。",
+    "sections": [
+      {
+        "title": "裂隙 → 创世之树 → 首饰、通货与催化剂",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>怎么做</th><th>结果／注意</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"怎么做\">从 Monastery of the Keepers 的任务开始；在裂隙里击杀怪物维持进度，达到稳定状态后回起始点处理后续敌人。</td><td data-label=\"结果／注意\">第一次先学会完整结束一次裂隙，别把Breach Rares的城市200%配法当基础入口。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"怎么做\">收集 Hiveblood 与 Wombgifts，回 Genesis Tree；按要的首饰或通货类别选可用节点，再消费材料。</td><td data-label=\"结果／注意\">使用Wombgifts解锁更多树节点。树的点位影响产物，不给人物增加升华点。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"怎么做\">需要首饰／珠宝催化剂时，查看创世之树的对应产物，再决定培育或交易。</td><td data-label=\"结果／注意\">0.5后的催化剂来源转到Genesis Tree，不再按旧版“裂隙怪直接掉催化剂”去找。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"怎么做\">裂隙碎片堆满后得到特殊Wombgift，再由创世之树制造Breachstone。</td><td data-label=\"结果／注意\">不是旧版满碎片自动直接拿到最终可用石头的流程。</td></tr><tr><td data-label=\"顺序\">05</td><td data-label=\"怎么做\">用Breachstone显露领域 → 清理巢穴、天空巢穴／堡垒 → 击败Tul、Esh取得进一步挑战钥匙。</td><td data-label=\"结果／注意\">这是裂隙后续奖励链；不要求刚进异界就打完整个链条。</td></tr></tbody></table></div>",
+        "sources": [
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "仪式：普通祭坛与五图连续仪式分开",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>怎么做</th><th>结果／注意</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"怎么做\">Caer Tarth周边任务地图拿仪式树点；普通地图逐个完成祭坛，跟完成后的蝗群指引找下一处。</td><td data-label=\"结果／注意\">本轮可用贡品先与实际奖励比较；剧情第一章仪式和终局奖励池不同。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"怎么做\">普通祭坛结束后，查看奖励、刷新、递延的成本；没准备专项碑牌时不照抄Ritual Belts的刷新次数。</td><td data-label=\"结果／注意\">界面显示的贡品不够就不要反复刷新；递延不是立刻拿到物品。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"怎么做\">不使用的贡品可供奉换取觐见国王的机会；击败King in the Mists，取得The Head of the King。</td><td data-label=\"结果／注意\">供奉、买奖励和递延是不同用途；0.5.5特定节点才允许已供奉贡品用于递延，且有额外成本。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"怎么做\">把Head带回Caer Tarth，开始Rite of the Nameless的5张连续地图。</td><td data-label=\"结果／注意\">前面祭坛的怪物和首领会带到后续，后续地图还增加难度词缀；不是5张独立低压仪式。</td></tr><tr><td data-label=\"顺序\">05</td><td data-label=\"怎么做\">每张获得一份终局钥匙组成材料；按任务／物品说明完成后续挑战。</td><td data-label=\"结果／注意\">先把角色与负面词缀验收通过再继续。对应专刷配置见同名Fubgun方案，不把这个规则流程当成收益最优解。</td></tr></tbody></table></div><p><a class=\"text-link\" href=\"#/atlas/ritual-belts\">仪式腰带的独立碑牌配套 →</a></p>",
+        "sources": [
+          "G050",
+          "G055"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "瓦尔神庙：能量水晶 → 布局 → 房间与首领",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>顺序</th><th>怎么做</th><th>结果／注意</th></tr></thead><tbody><tr><td data-label=\"顺序\">01</td><td data-label=\"怎么做\">第三章遇到6个Ancient Beacons：激活完成以取得Energised Crystals，打开通往Vaal Ruins的入口。</td><td data-label=\"结果／注意\">幕间还会遇到第二组；这是神庙引导，不是丝克玛或混沌升华。</td></tr><tr><td data-label=\"顺序\">02</td><td data-label=\"怎么做\">进入异界后寻找Lira Vaal；完成内部地图拿水晶和神庙专用点。</td><td data-label=\"结果／注意\">Temple碑牌可以向地图添加Beacon；普通异界碑牌不是神庙内部的全局增益。</td></tr><tr><td data-label=\"顺序\">03</td><td data-label=\"怎么做\">在开本轮神庙前，通过神庙界面选择可连接的房间和路线，按目标使用房间勋章。</td><td data-label=\"结果／注意\">房间类勋章不能在已开启的活动神庙内部使用。先有连通路线，再考虑高阶房间。</td></tr><tr><td data-label=\"顺序\">04</td><td data-label=\"怎么做\">进入后按已规划路径拿房间奖励、推进建筑师／Atziri；回来后检查哪些房间仍可用，再准备下轮。</td><td data-label=\"结果／注意\">不要用已失效的“蛇形保房”教程：房间不能再锁定免删除，必要连接可能变为普通道路。</td></tr><tr><td data-label=\"顺序\">05</td><td data-label=\"怎么做\">想升级到T4房间，先解锁神庙树对应能力。</td><td data-label=\"结果／注意\">默认储存上限为60水晶、6勋章；神庙怪物等级受这轮消耗水晶的来源区域等级影响。</td></tr></tbody></table></div>",
+        "sources": [
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "神庙工艺：四种注能与品质前提",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>材料类别</th><th>适用装备</th><th>先检查</th></tr></thead><tbody><tr><td data-label=\"材料类别\">Vaal Armourer’s Infuser</td><td data-label=\"适用装备\">防具</td><td data-label=\"先检查\">品质至少20%；查看当前物品状态和具体工艺风险。</td></tr><tr><td data-label=\"材料类别\">Vaal Blacksmith’s Infuser</td><td data-label=\"适用装备\">武技武器，例如弓</td><td data-label=\"先检查\">品质至少20%；不是用施法武器注能代替。</td></tr><tr><td data-label=\"材料类别\">Vaal Arcanist’s Infuser</td><td data-label=\"适用装备\">法杖、长杖、权杖</td><td data-label=\"先检查\">本冰射武器主线一般不用这一类；不要因为名称接近买错。</td></tr><tr><td data-label=\"材料类别\">Vaal Catalysing Infuser</td><td data-label=\"适用装备\">首饰</td><td data-label=\"先检查\">品质至少20%；普通首饰催化与珠宝精炼催化对象分开。</td></tr></tbody></table></div><p>四种都受<strong>至少20%品质</strong>的规则限制，不只护盾头有此条件。它们是高阶加工工具，不是第一次拿到黄色装备就必须做的收尾。<a class=\"text-link\" href=\"#/reference?doc=runes.html\">逐件材料与风险 →</a>　<a class=\"text-link\" href=\"#/gear\">回当前装备目标 →</a></p>",
+        "sources": [
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "先祖秘藏、深渊：奖励入口不要用错联赛",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>内容</th><th>入口到下一步</th><th>版本／产出条件</th></tr></thead><tbody><tr><td data-label=\"内容\">先祖秘藏</td><td data-label=\"入口到下一步\">第四章The Runeseeker任务 → 解锁Verisium Anvil → 异界Farrow／Dannig、日志与Grand Expedition → 按需要加工与选择奖励。</td><td data-label=\"版本／产出条件\">0.5.5已回归核心，包括Standard与Forbidden Rites；不能继续说标准服没有该玩法。</td></tr><tr><td data-label=\"内容\">Aldur’s Saga／碑牌</td><td data-label=\"入口到下一步\">在实际角色所在联盟检查可得物品，地图玩法与宏大日志分别看。</td><td data-label=\"版本／产出条件\">Aldur’s Saga本体不能在Runes of Aldur之外取得；特殊词缀可在Standard／Forbidden Rites的宏大日志出现。Expedition Tablets在这两者可得，但Runes of Aldur不可得。</td></tr><tr><td data-label=\"内容\">地图先祖秘藏</td><td data-label=\"入口到下一步\">碑牌1张添加遭遇，2张增加Verisium Remnant及密度，3张再加遭遇，4张再加Remnant与密度。</td><td data-label=\"版本／产出条件\">这是普通地图机制；别拿这组碑牌数量替换Fubgun Grand Expedition里的3张辐照碑牌。</td></tr><tr><td data-label=\"内容\">深渊</td><td data-label=\"入口到下一步\">从Well of Souls任务拿专用点 → 地图坑洞／大裂谷 → 完成后检查奖励与深处首领 → 按当前阶段选骨头／预兆等材料用途。</td><td data-label=\"版本／产出条件\">0.5起深渊预兆不在区域等级65以下掉落；低级区域没出预兆不是过滤器或任务必然坏了。</td></tr></tbody></table></div>",
+        "sources": [
+          "G055",
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "制图预兆：激活后还需要使用触发道具",
+        "html": "<p><strong>Omen of Chaotic Effectiveness：</strong>激活预兆 → 对寻路石使用下一颗Chaos Orb → 检查整组重掷结果 → 接受后才做腐化等后续。这颗预兆让重掷后的词缀<strong>不提供怪物效果</strong>，不是保证增加怪物效果。</p><p>Chaotic Rarity／Quantity／Monsters在0.5的行为也改为排除对应类型，而不是保证对应类型。可同时使用的相关预兆最多3个；这是上限，不是要求凑3个。</p><p>Fubgun原文把材料步骤写得较短；这里补的是触发规则，不改他的方案目标。<strong>仅带着预兆再用瓦尔石，不会代替它要求的Chaos Orb动作。</strong><a class=\"text-link\" href=\"#/atlas/abyss-rares\">查看深渊稀有怪原配法 →</a></p>",
+        "sources": [
+          "G050"
+        ],
+        "kind": "规则补充"
+      },
+      {
+        "title": "0.5.5 词缀校注：不要按过期档位采购",
+        "html": "<div class=\"panel audit-table-wrap\"><table class=\"audit-table\"><thead><tr><th>项目</th><th>本轮核对</th><th>怎样使用旧作者记录</th></tr></thead><tbody><tr><td data-label=\"项目\">裂隙碑牌of the Invasion</td><td data-label=\"本轮核对\">基础数值已从额外1–3稀有怪改为1–2。</td><td data-label=\"怎样使用旧作者记录\">旧Fubgun正文的“每张+3”作为历史原配保留；新采购看当前基础范围和碑牌效果，不追不存在的新制基础3档。</td></tr><tr><td data-label=\"项目\">深渊碑牌of Champions</td><td data-label=\"本轮核对\">基础额外稀有怪从1–2改为2–3。</td><td data-label=\"怎样使用旧作者记录\">不要因旧表只有2就认定当前3非法。</td></tr><tr><td data-label=\"项目\">200%迷雾</td><td data-label=\"本轮核对\">100%以上不再继续增加迷雾怪群数量；Grand Mirror现在向10张地图扩散。</td><td data-label=\"怎样使用旧作者记录\">200%不是“把100%的怪群再翻倍”。保持作者方案的难度说明，不自行编收益保证。</td></tr><tr><td data-label=\"项目\">Doryani旧Refined Formula</td><td data-label=\"本轮核对\">已被Archaic Corruption替换。</td><td data-label=\"怎样使用旧作者记录\">未取得新作者树时，不在旧截图里自行补图标；以当前选项文字核对。</td></tr></tbody></table></div><p>这些是官方规则校注，与作者旧快照分层保存。原图亮暗、原始文字记录和真实时间都不被回写。</p>",
+        "sources": [
+          "G055"
+        ],
+        "kind": "规则补充"
+      }
+    ]
+  }
+}

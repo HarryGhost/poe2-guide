@@ -1,0 +1,25 @@
+{
+  "baseline_files_unchanged": 763,
+  "baseline_files_modified": [
+    "00_先读我.md",
+    "index.html",
+    "README_上线.md"
+  ],
+  "protected_folders": {
+    "R28原站": {
+      "files": 492,
+      "changed": []
+    },
+    "filters": {
+      "files": 7,
+      "changed": []
+    }
+  },
+  "current_entry_missing_local_refs": [],
+  "current_assets": {
+    "output": "/mnt/data/poe2_Fubgun_C_R41",
+    "app": "assets/app.e09b92da74d8.js",
+    "content": "assets/content.13a470512fff.js",
+    "css": "assets/style.e0c79ab9085a.css"
+  }
+}

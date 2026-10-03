@@ -1,0 +1,11 @@
+# BEGIN R37_1_GOLD_VISIBILITY_FIX
+# 仅补异界金币显示：区域65及以上，不设数量门槛；前面的原金币高亮优先。
+# 沿用原金币兜底配色，不加声音/图标/光柱；剧情及非金币规则不变。
+Show # R37_1_GOLD_MAPS
+    BaseType == "Gold"
+    AreaLevel >= 65
+    SetTextColor 180 180 180
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 20 20 0 180
+# END R37_1_GOLD_VISIBILITY_FIX
+

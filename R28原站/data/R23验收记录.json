@@ -1,0 +1,1944 @@
+{
+  "version": "C R23",
+  "date": "2026-09-28",
+  "page_count": 55,
+  "new_pages": [
+    "atlas-unlock.html",
+    "atlas-images.html"
+  ],
+  "image_refs": 6,
+  "offline_original_images": 0,
+  "original_images_verified_by": "web browsing image opens; not runtime downloading",
+  "browser_mode": "real local HTML/CSS/JS in memory",
+  "actual_navigation": {
+    "file_url": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_r23/poe2_Fubgun_C_R23/atlas-images.html"
+  },
+  "total_checks": 382,
+  "passed": 382,
+  "failed": [],
+  "test_disclosures": [
+    "Source image loading tests use request abort + synthetic PNG fixture, not live source screenshots",
+    "Preview screenshots are actual pre-load UI, not game-tree images",
+    "Original images are not cached in this zip",
+    "Fubgun interactive trees not exported or inspected node by node",
+    "Game client / Chinese server import / deployment not tested"
+  ],
+  "screenshots": [
+    "检查截图/R23_前期解锁_1366.png",
+    "检查截图/R23_加点原图入口_1366.png",
+    "检查截图/R23_深渊任务与方案_1366.png",
+    "检查截图/R23_加点原图入口_手机.png"
+  ],
+  "checks": [
+    {
+      "name": "unique IDs after-quests.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation after-quests.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image after-quests.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-abyss.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-activities.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-breach.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-delirium.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-delirium.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-delirium.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-expedition.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-expedition.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-expedition.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-images.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-masters.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-other.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-other.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-other.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-passives.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-ritual.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-ritual.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-ritual.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-sources.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-start.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-temple.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-temple.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-temple.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-unlock.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs compare.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs coverage.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation coverage.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image coverage.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-advanced.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-advanced.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-advanced.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-early-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-early-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-early-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-examples.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-examples.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-examples.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-reference.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-reference.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-reference.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-steps-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-steps-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-steps-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e01.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e02.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e03.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e04.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e05.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e06.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs equipment-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation equipment-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image equipment-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs equipment-goals-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation equipment-goals-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image equipment-goals-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs equipment.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation equipment.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image equipment.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs filter-legend.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation filter-legend.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image filter-legend.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs filters.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation filters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image filters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs finish-check.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation finish-check.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image finish-check.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs glossary.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs index.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l01.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l02.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l03.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l04.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l05.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l06.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs mechanics.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs numeric-targets.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation numeric-targets.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image numeric-targets.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs prepare-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation prepare-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image prepare-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs prepare.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation prepare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image prepare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs reader.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs rewards.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs roadmap.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs runes-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation runes-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image runes-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs runes.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation runes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image runes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs sources.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all local targets exist",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Atlas fragment targets exist",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "immutable 构筑文件/01_Early.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/01_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/02_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/03_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/04_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/05_Uber_Endgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/05_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/06_中文提示.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/01_Fubgun_Early_Mapping.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/02_Fubgun_Bow_Campaign.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/03_Fubgun_Endgame_Mapping.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/04_Fubgun_Uber_Strict.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "55 HTML pages",
+      "passed": true,
+      "detail": "55"
+    },
+    {
+      "name": "online-image disclosure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source rebuild",
+      "passed": true,
+      "detail": "Built 55 HTML pages\n"
+    },
+    {
+      "name": "reproducible after-quests.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-delirium.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-expedition.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-other.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-ritual.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-temple.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible coverage.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft-advanced.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft-early-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft-examples.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft-reference.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft-steps-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible equipment-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible equipment-goals-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible equipment.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible filter-legend.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible filters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible finish-check.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible numeric-targets.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible prepare-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible prepare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible runes-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible runes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible assets/atlas-images.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible assets/atlas-images.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible assets/search-index.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reproducible data/R23图片与攻略来源.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "search target 异界入门 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-start.html"
+    },
+    {
+      "name": "search target 异界主树加点 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-passives.html"
+    },
+    {
+      "name": "search target 各玩法与专用天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-activities.html"
+    },
+    {
+      "name": "search target 大师选择 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-masters.html"
+    },
+    {
+      "name": "search target 其他玩法与养成 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-other.html"
+    },
+    {
+      "name": "search target 异界来源与检查边界 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-sources.html"
+    },
+    {
+      "name": "search target 裂隙玩法与天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-breach.html"
+    },
+    {
+      "name": "search target 驱灵仪式玩法与天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-ritual.html"
+    },
+    {
+      "name": "search target 惊悸迷雾玩法与天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-delirium.html"
+    },
+    {
+      "name": "search target 深渊玩法与天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-abyss.html"
+    },
+    {
+      "name": "search target 先祖秘藏玩法与天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-expedition.html"
+    },
+    {
+      "name": "search target 瓦尔神庙玩法与天赋 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-temple.html"
+    },
+    {
+      "name": "search target 前期解锁与主刷建议 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-unlock.html"
+    },
+    {
+      "name": "search target 异界加点原图与方案入口 / R23异界工作区",
+      "passed": true,
+      "detail": "atlas-images.html"
+    },
+    {
+      "name": "search target 异界主树 / 道途守护 / Pathkeepers",
+      "passed": true,
+      "detail": "atlas-passives.html#pathkeepers"
+    },
+    {
+      "name": "search target 异界主树 / 蔓生晶体",
+      "passed": true,
+      "detail": "atlas-passives.html#crystal"
+    },
+    {
+      "name": "search target 异界主树 / 考古兴趣",
+      "passed": true,
+      "detail": "atlas-passives.html#archaeology"
+    },
+    {
+      "name": "search target 异界主树 / 世界之巅",
+      "passed": true,
+      "detail": "atlas-passives.html#world"
+    },
+    {
+      "name": "search target 异界主树 / 珍贵路径",
+      "passed": true,
+      "detail": "atlas-passives.html#paths"
+    },
+    {
+      "name": "search target 异界主树 / 选中之路",
+      "passed": true,
+      "detail": "atlas-passives.html#chosen"
+    },
+    {
+      "name": "search target 异界主树 / 前方旅途",
+      "passed": true,
+      "detail": "atlas-passives.html#journey"
+    },
+    {
+      "name": "search target 异界主树 / 万古统治 / 万古污染",
+      "passed": true,
+      "detail": "atlas-passives.html#tablets"
+    },
+    {
+      "name": "search target 异界主树 / 卓越军备 / 卓越法衣 / 卓越装饰",
+      "passed": true,
+      "detail": "atlas-passives.html#exceptional"
+    },
+    {
+      "name": "search target 裂隙天赋 / 孕育赠礼数量 / 虫巢之血数量",
+      "passed": true,
+      "detail": "atlas-breach.html#node-1"
+    },
+    {
+      "name": "search target 裂隙天赋 / 繁育计划",
+      "passed": true,
+      "detail": "atlas-breach.html#node-2"
+    },
+    {
+      "name": "search target 裂隙天赋 / 塑造锁链",
+      "passed": true,
+      "detail": "atlas-breach.html#node-3"
+    },
+    {
+      "name": "search target 裂隙天赋 / 现实创伤",
+      "passed": true,
+      "detail": "atlas-breach.html#node-4"
+    },
+    {
+      "name": "search target 裂隙天赋 / 增长财富 / 精致设计",
+      "passed": true,
+      "detail": "atlas-breach.html#node-5"
+    },
+    {
+      "name": "search target 裂隙天赋 / 反应蜂籽",
+      "passed": true,
+      "detail": "atlas-breach.html#node-6"
+    },
+    {
+      "name": "search target 驱灵仪式天赋 / 耐心的奉献",
+      "passed": true,
+      "detail": "atlas-ritual.html#node-1"
+    },
+    {
+      "name": "search target 驱灵仪式天赋 / 诱惑供奉",
+      "passed": true,
+      "detail": "atlas-ritual.html#node-2"
+    },
+    {
+      "name": "search target 驱灵仪式天赋 / 贡品增加",
+      "passed": true,
+      "detail": "atlas-ritual.html#node-3"
+    },
+    {
+      "name": "search target 驱灵仪式天赋 / 祈祷与誓约 / 皇家什一税",
+      "passed": true,
+      "detail": "atlas-ritual.html#node-4"
+    },
+    {
+      "name": "search target 驱灵仪式天赋 / 慷慨奉献 / 神秘仪式",
+      "passed": true,
+      "detail": "atlas-ritual.html#node-5"
+    },
+    {
+      "name": "search target 惊悸迷雾天赋 / 苏醒也无法逃离这梦魇。",
+      "passed": true,
+      "detail": "atlas-delirium.html#node-1"
+    },
+    {
+      "name": "search target 惊悸迷雾天赋 / 我知道你儿时的恐惧……",
+      "passed": true,
+      "detail": "atlas-delirium.html#node-2"
+    },
+    {
+      "name": "search target 惊悸迷雾天赋 / 镜子……那些镜子！",
+      "passed": true,
+      "detail": "atlas-delirium.html#node-3"
+    },
+    {
+      "name": "search target 惊悸迷雾天赋 / 我现在看清了你的真面目！",
+      "passed": true,
+      "detail": "atlas-delirium.html#node-4"
+    },
+    {
+      "name": "search target 惊悸迷雾天赋 / 这关于我……还是你？",
+      "passed": true,
+      "detail": "atlas-delirium.html#node-5"
+    },
+    {
+      "name": "search target 惊悸迷雾天赋 / 噩梦循环",
+      "passed": true,
+      "detail": "atlas-delirium.html#node-6"
+    },
+    {
+      "name": "search target 深渊天赋 / 腐烂骸骨",
+      "passed": true,
+      "detail": "atlas-abyss.html#node-1"
+    },
+    {
+      "name": "search target 深渊天赋 / 力量平衡 → 异样憎恶",
+      "passed": true,
+      "detail": "atlas-abyss.html#node-2"
+    },
+    {
+      "name": "search target 深渊天赋 / 来自深渊",
+      "passed": true,
+      "detail": "atlas-abyss.html#node-3"
+    },
+    {
+      "name": "search target 深渊天赋 / 蔓生裂隙",
+      "passed": true,
+      "detail": "atlas-abyss.html#node-4"
+    },
+    {
+      "name": "search target 深渊天赋 / 恐怖遗物",
+      "passed": true,
+      "detail": "atlas-abyss.html#node-5"
+    },
+    {
+      "name": "search target 深渊天赋 / 惊扰虫群 / 无尽战争",
+      "passed": true,
+      "detail": "atlas-abyss.html#node-6"
+    },
+    {
+      "name": "search target 先祖秘藏天赋 / 战略优势",
+      "passed": true,
+      "detail": "atlas-expedition.html#node-1"
+    },
+    {
+      "name": "search target 先祖秘藏天赋 / 稳步发展",
+      "passed": true,
+      "detail": "atlas-expedition.html#node-2"
+    },
+    {
+      "name": "search target 先祖秘藏天赋 / 孤注一掷",
+      "passed": true,
+      "detail": "atlas-expedition.html#node-3"
+    },
+    {
+      "name": "search target 先祖秘藏天赋 / 领土扩张",
+      "passed": true,
+      "detail": "atlas-expedition.html#node-4"
+    },
+    {
+      "name": "search target 先祖秘藏天赋 / 日志几率 → 播撒种子",
+      "passed": true,
+      "detail": "atlas-expedition.html#node-5"
+    },
+    {
+      "name": "search target 瓦尔神庙天赋 / 受护宝藏",
+      "passed": true,
+      "detail": "atlas-temple.html#node-1"
+    },
+    {
+      "name": "search target 瓦尔神庙天赋 / 窃取权威",
+      "passed": true,
+      "detail": "atlas-temple.html#node-2"
+    },
+    {
+      "name": "search target 瓦尔神庙天赋 / 扩展设计 → 王权特权",
+      "passed": true,
+      "detail": "atlas-temple.html#node-3"
+    },
+    {
+      "name": "search target 瓦尔神庙天赋 / 超凡进展",
+      "passed": true,
+      "detail": "atlas-temple.html#node-4"
+    },
+    {
+      "name": "search target 瓦尔神庙天赋 / 帝国财富 → 阿兹里资产",
+      "passed": true,
+      "detail": "atlas-temple.html#node-5"
+    },
+    {
+      "name": "search target 加点图片 / ① 主树开荒 · 先看这一张",
+      "passed": true,
+      "detail": "atlas-images.html#main-early"
+    },
+    {
+      "name": "search target 加点图片 / ② 主树推进 · 点数增加后再看",
+      "passed": true,
+      "detail": "atlas-images.html#main-progress"
+    },
+    {
+      "name": "search target 加点图片 / ③ 主树成型 · 作者保留未点的示例",
+      "passed": true,
+      "detail": "atlas-images.html#main-late"
+    },
+    {
+      "name": "search target 加点图片 / 大师识别 · 希尔达 Mighty Prey",
+      "passed": true,
+      "detail": "atlas-images.html#hilda-first"
+    },
+    {
+      "name": "search target 加点图片 / 深渊解锁 · 异界灵魂之井",
+      "passed": true,
+      "detail": "atlas-abyss.html#abyss-entry"
+    },
+    {
+      "name": "search target 加点图片 / 裂隙解锁 · 据点任务地图",
+      "passed": true,
+      "detail": "atlas-breach.html#breach-entry"
+    },
+    {
+      "name": "no overflow 1366 atlas-unlock.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-images.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-start.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-passives.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-activities.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-abyss.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-breach.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-masters.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1366 atlas-sources.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "visible heading 1366 atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-unlock.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-images.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-start.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-passives.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-activities.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-abyss.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-breach.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-masters.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 1920 atlas-sources.html",
+      "passed": true,
+      "detail": "{'w': 1920, 's': 1920}"
+    },
+    {
+      "name": "visible heading 1920 atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-unlock.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-images.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-start.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-passives.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-activities.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-abyss.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-breach.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-masters.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no overflow 390 atlas-sources.html",
+      "passed": true,
+      "detail": "{'w': 390, 's': 390}"
+    },
+    {
+      "name": "visible heading 390 atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "legacy page index.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "legacy page craft.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "legacy page e01.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "legacy page e06.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "legacy page filters.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "legacy page runes.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "legacy page finish-check.html",
+      "passed": true,
+      "detail": "{'w': 1366, 's': 1366}"
+    },
+    {
+      "name": "no network requests before user action",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "unlock checklist interaction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unlock checklist reset",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "search finds source images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "failed image is clearly disclosed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "failure leaves retry enabled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "failure retains original link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fixture success reveals image",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fixture viewer opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fixture zoom changes width",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "viewer closes with Escape",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "load all fixture success",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "mobile navigation opens",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no uncaught browser exceptions",
+      "passed": true,
+      "detail": "[]"
+    }
+  ]
+}

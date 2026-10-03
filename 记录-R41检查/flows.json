@@ -1,0 +1,500 @@
+{
+  "checks": [
+    {
+      "name": "e01 target action is link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 target opens craft preserving context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e01 craft no old materials tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 target action is link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 target opens craft preserving context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e02 craft no old materials tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 target action is link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 target opens craft preserving context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e03 craft no old materials tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 target action is link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 target opens craft preserving context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e04 craft no old materials tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 target action is link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 target opens craft preserving context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e05 craft no old materials tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 target action is link",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 target opens craft preserving context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 craft no old materials tab",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "e06 no consumable controls",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "01 explicit link exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "01 explicit href not history",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "01 click stage is e01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "boots lower tier present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "boots uses selected tool only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "blue1 yields explicit rare2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rare2 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "third affix explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rare3 context preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "stop no hidden followup",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "white only transmute",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "aug optional branch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crit default route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crit no generic essence chooser",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ready names optional augmentation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crit exact essence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crit persists route and stage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "explicit alternative changes recipe without stage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "explicit generic now has matching options",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "part change clears selected essence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ring1 only lesser/normal body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ring2 only lesser/normal body",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "early elemental candidate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rare6 no add seventh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "unique no ordinary craft default",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "secondary no automatic duplication",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "starter opens true selection section",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fubgun view selection integrated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crit selected seeking profile",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "crit dowsing not mislabeled noncrit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "biome main six present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "ritual belts specific correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "lineage not jewel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route expedition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves expedition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route ritual-belts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves ritual-belts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route currency-abyss",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves currency-abyss",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route breach-rares",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves breach-rares",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route abyss-rares",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves abyss-rares",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route lineage-gems",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves lineage-gems",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source link route deli-rush",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source click preserves deli-rush",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "four original downloads only",
+      "passed": true,
+      "detail": [
+        {
+          "name": "02_Fubgun_Bow_Campaign.filter",
+          "href": "原版过滤器_从这里选/02_Fubgun_Bow_Campaign.filter"
+        },
+        {
+          "name": "01_Fubgun_Early_Mapping.filter",
+          "href": "原版过滤器_从这里选/01_Fubgun_Early_Mapping.filter"
+        },
+        {
+          "name": "03_Fubgun_Endgame_Mapping.filter",
+          "href": "原版过滤器_从这里选/03_Fubgun_Endgame_Mapping.filter"
+        },
+        {
+          "name": "04_Fubgun_Uber_Strict.filter",
+          "href": "原版过滤器_从这里选/04_Fubgun_Uber_Strict.filter"
+        }
+      ]
+    },
+    {
+      "name": "old derivative deep link clearly original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "selector only original IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "layout 390 early-craft?slot=boots&kind=magic1",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 390 item/bow?stage=e05&tab=craft&route=bow-crit&step=essence",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 390 atlas-choices?profile=starter&group=biome",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 768 early-craft?slot=boots&kind=magic1",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 768 item/bow?stage=e05&tab=craft&route=bow-crit&step=essence",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 768 atlas-choices?profile=starter&group=biome",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1024 early-craft?slot=boots&kind=magic1",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1024 item/bow?stage=e05&tab=craft&route=bow-crit&step=essence",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1024 atlas-choices?profile=starter&group=biome",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1440 early-craft?slot=boots&kind=magic1",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1440 item/bow?stage=e05&tab=craft&route=bow-crit&step=essence",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1440 atlas-choices?profile=starter&group=biome",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1920 early-craft?slot=boots&kind=magic1",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1920 item/bow?stage=e05&tab=craft&route=bow-crit&step=essence",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "layout 1920 atlas-choices?profile=starter&group=biome",
+      "passed": true,
+      "detail": {
+        "overflow": false,
+        "dupes": []
+      }
+    },
+    {
+      "name": "no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "no swallowed render errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passed": 86,
+  "failed": 0,
+  "pageerrors": [],
+  "console": []
+}

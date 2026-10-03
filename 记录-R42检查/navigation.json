@@ -1,0 +1,12 @@
+[
+  {
+    "url": "http://127.0.0.1:8764/index.html",
+    "ok": false,
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8764/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:8764/index.html\", waiting until \"load\"\n"
+  },
+  {
+    "url": "file:///mnt/data/poe2_Fubgun_C_R42/index.html",
+    "ok": false,
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R42/index.html\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_C_R42/index.html\", waiting until \"load\"\n"
+  }
+]

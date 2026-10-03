@@ -1,0 +1,668 @@
+{
+  "records": {
+    "expedition": {
+      "id": "expedition",
+      "name": "Expedition",
+      "zh": "先祖秘藏",
+      "filename": "01_Expedition.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+      "read_time": "2026-09-29 20:07:28 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Expedition\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:07:28 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：初始已选中；实际点击后确认名称与正文，建立 Expedition 基准。\n\n识别本套正文的特征：3 个辐照碑牌；Grand Expedition 符文选择、Opulent 与终段 7+ 符文组合。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- 场景为 Grand Expedition。作者认为 **8 词缀 Waystone** 的收益最好，优先较高的怪物效果（monster effect）；怪物稀有度也较好，物品稀有度可用，怪群规模（pack size）在此策略中评价较差。\n- T16 也可用，但作者认为成本较高且已非必需：T15 在 Grand Expedition 中能达到区域等级 81，仍可掉落物品等级 82 的 exceptional bases。\n- 以上是本页作者的配置与收益判断，不是本次独立实测结果。\n\n## 碑牌种类与数量\n\n- **3×Irradiated tablets（辐照碑牌）**。\n- 主配法追求每张带“额外 2 条随机地图词缀”，并搭配怪物效果或稀有怪数量增加。\n\n## 关键词缀\n\n| 用途 | 作者条件 |\n| --- | --- |\n| 主配法重点 | 额外 2 条随机地图词缀 + 怪物效果／稀有怪数量 |\n| 可接受次选 | 物品稀有度；作者认为弱于上述两种搭配属性 |\n| 廉价碑牌 | 稀有怪数量、怪物效果、怪物稀有度，三选二 |\n| 地图优先级 | 高怪物效果；怪物稀有度也好；物品稀有度尚可；pack size 评价差 |\n\n## 大师选项\n\n- **Jado**：Unexpected Missions、Eastern Knowledhe、Partial Translations、KJeen appraisal。\n- 上述拼写按正文保留；其中 Eastern Knowledhe、KJeen appraisal 疑似有拼写问题，本记录未擅自改成其他选项。\n- Doryani 也可行，但作者称自己使用 Jado 的结果更好；未列 Doryani 的具体选项。\n\n## 实际刷法\n\n1. 开局优先收集好符文，不必过分在意组合只有 4–6 个；接近结束时，多保留 **7+ 符文组合**。\n2. **Opulent** 是作者最重视的符文，地图出现时通常优先前往。终段若已有含 Opulent 的 8–9 符文组合、又没有作者所称的 prolif 符文，也可以就此结束。\n3. 符文不叠加，因此各取一种。作者分级为：SS＝Opulent；S＝Power、Death、Bond；A＝Time、Oath、rebirth（本名单中唯一蓝色符文）；B＝其他紫色符文；C＝其他蓝色符文。\n4. 开局的 5 符文组合若没有好紫色符文，通常重投；B 档组合只有 3–5 个符文时可以重投；接近终段一般保留 7+。\n5. 作者还要求在其所称的“全为 5、6 或 7 的地图”积极重投，理由是基础结果不会差；原文没有进一步定义这类地图，本记录保留这一适用条件。\n6. 通常保留价值 **至少 3 Divine** 的好奖励。低于此数由地图情况决定；如果地图有很多差符文，作者也会保留 1–2 Divine 的奖励。\n\n与路线选择相关的传闻分类：\n\n| 分类 | 正文列出的名称／条件 |\n| --- | --- |\n| Boss 遭遇 | Stardrinker、Origin of the fall、The last to fall、End of the Circle |\n| 独特地图 | All that glitters、reflective waters、almost paradise、a good fellow、Fallen skies |\n| Fallen Skies | 作者认为值得做，理由是保证得到 Perfect flux |\n| Stardrinker | 生成 Uthred；其掉落用于 Runeseeker's Call 的任务物品，每个角色只能掉落一次 |\n\n## 作者提供的减配办法\n\n- 碑牌改为“稀有怪数量／怪物效果／怪物稀有度”三选二。作者明确说收益更低，但地图更容易、碑牌便宜很多，**用于非 Aldur Saga 地图**。\n- 最便宜的地图准备方式：自制 **70% effect、6 词缀**的 Waystone，然后腐化；此处保留作者的 effect 表述。\n- 可以使用 T15；作者没有要求为 T16 额外付出成本。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "95f952656d6a8789731ee8581f6167cbb2395f4832b428e13e7e063c0b1ea9d9",
+      "cases": [
+        {
+          "id": "main",
+          "label": "Expedition",
+          "sections": {
+            "map": {
+              "markdown": "- 场景为 Grand Expedition。作者认为 **8 词缀 Waystone** 的收益最好，优先较高的怪物效果（monster effect）；怪物稀有度也较好，物品稀有度可用，怪群规模（pack size）在此策略中评价较差。\n- T16 也可用，但作者认为成本较高且已非必需：T15 在 Grand Expedition 中能达到区域等级 81，仍可掉落物品等级 82 的 exceptional bases。\n- 以上是本页作者的配置与收益判断，不是本次独立实测结果。",
+              "html": "<ul>\n<li>场景为 Grand Expedition。作者认为 <strong>8 词缀 Waystone</strong> 的收益最好，优先较高的怪物效果（monster effect）；怪物稀有度也较好，物品稀有度可用，怪群规模（pack size）在此策略中评价较差。</li>\n<li>T16 也可用，但作者认为成本较高且已非必需：T15 在 Grand Expedition 中能达到区域等级 81，仍可掉落物品等级 82 的 exceptional bases。</li>\n<li>以上是本页作者的配置与收益判断，不是本次独立实测结果。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "- **3×Irradiated tablets（辐照碑牌）**。\n- 主配法追求每张带“额外 2 条随机地图词缀”，并搭配怪物效果或稀有怪数量增加。",
+              "html": "<ul>\n<li><strong>3×Irradiated tablets（辐照碑牌）</strong>。</li>\n<li>主配法追求每张带“额外 2 条随机地图词缀”，并搭配怪物效果或稀有怪数量增加。</li>\n</ul>\n"
+            },
+            "mods": {
+              "markdown": "| 用途 | 作者条件 |\n| --- | --- |\n| 主配法重点 | 额外 2 条随机地图词缀 + 怪物效果／稀有怪数量 |\n| 可接受次选 | 物品稀有度；作者认为弱于上述两种搭配属性 |\n| 廉价碑牌 | 稀有怪数量、怪物效果、怪物稀有度，三选二 |\n| 地图优先级 | 高怪物效果；怪物稀有度也好；物品稀有度尚可；pack size 评价差 |",
+              "html": "<table>\n<thead>\n<tr>\n  <th>用途</th>\n  <th>作者条件</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>主配法重点</td>\n  <td>额外 2 条随机地图词缀 + 怪物效果／稀有怪数量</td>\n</tr>\n<tr>\n  <td>可接受次选</td>\n  <td>物品稀有度；作者认为弱于上述两种搭配属性</td>\n</tr>\n<tr>\n  <td>廉价碑牌</td>\n  <td>稀有怪数量、怪物效果、怪物稀有度，三选二</td>\n</tr>\n<tr>\n  <td>地图优先级</td>\n  <td>高怪物效果；怪物稀有度也好；物品稀有度尚可；pack size 评价差</td>\n</tr>\n</tbody>\n</table>\n"
+            },
+            "masters": {
+              "markdown": "- **Jado**：Unexpected Missions、Eastern Knowledhe、Partial Translations、KJeen appraisal。\n- 上述拼写按正文保留；其中 Eastern Knowledhe、KJeen appraisal 疑似有拼写问题，本记录未擅自改成其他选项。\n- Doryani 也可行，但作者称自己使用 Jado 的结果更好；未列 Doryani 的具体选项。",
+              "html": "<ul>\n<li><strong>Jado</strong>：Unexpected Missions、Eastern Knowledhe、Partial Translations、KJeen appraisal。</li>\n<li>上述拼写按正文保留；其中 Eastern Knowledhe、KJeen appraisal 疑似有拼写问题，本记录未擅自改成其他选项。</li>\n<li>Doryani 也可行，但作者称自己使用 Jado 的结果更好；未列 Doryani 的具体选项。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "1. 开局优先收集好符文，不必过分在意组合只有 4–6 个；接近结束时，多保留 **7+ 符文组合**。\n2. **Opulent** 是作者最重视的符文，地图出现时通常优先前往。终段若已有含 Opulent 的 8–9 符文组合、又没有作者所称的 prolif 符文，也可以就此结束。\n3. 符文不叠加，因此各取一种。作者分级为：SS＝Opulent；S＝Power、Death、Bond；A＝Time、Oath、rebirth（本名单中唯一蓝色符文）；B＝其他紫色符文；C＝其他蓝色符文。\n4. 开局的 5 符文组合若没有好紫色符文，通常重投；B 档组合只有 3–5 个符文时可以重投；接近终段一般保留 7+。\n5. 作者还要求在其所称的“全为 5、6 或 7 的地图”积极重投，理由是基础结果不会差；原文没有进一步定义这类地图，本记录保留这一适用条件。\n6. 通常保留价值 **至少 3 Divine** 的好奖励。低于此数由地图情况决定；如果地图有很多差符文，作者也会保留 1–2 Divine 的奖励。\n\n与路线选择相关的传闻分类：\n\n| 分类 | 正文列出的名称／条件 |\n| --- | --- |\n| Boss 遭遇 | Stardrinker、Origin of the fall、The last to fall、End of the Circle |\n| 独特地图 | All that glitters、reflective waters、almost paradise、a good fellow、Fallen skies |\n| Fallen Skies | 作者认为值得做，理由是保证得到 Perfect flux |\n| Stardrinker | 生成 Uthred；其掉落用于 Runeseeker's Call 的任务物品，每个角色只能掉落一次 |",
+              "html": "<ol>\n<li>开局优先收集好符文，不必过分在意组合只有 4–6 个；接近结束时，多保留 <strong>7+ 符文组合</strong>。</li>\n<li><strong>Opulent</strong> 是作者最重视的符文，地图出现时通常优先前往。终段若已有含 Opulent 的 8–9 符文组合、又没有作者所称的 prolif 符文，也可以就此结束。</li>\n<li>符文不叠加，因此各取一种。作者分级为：SS＝Opulent；S＝Power、Death、Bond；A＝Time、Oath、rebirth（本名单中唯一蓝色符文）；B＝其他紫色符文；C＝其他蓝色符文。</li>\n<li>开局的 5 符文组合若没有好紫色符文，通常重投；B 档组合只有 3–5 个符文时可以重投；接近终段一般保留 7+。</li>\n<li>作者还要求在其所称的“全为 5、6 或 7 的地图”积极重投，理由是基础结果不会差；原文没有进一步定义这类地图，本记录保留这一适用条件。</li>\n<li>通常保留价值 <strong>至少 3 Divine</strong> 的好奖励。低于此数由地图情况决定；如果地图有很多差符文，作者也会保留 1–2 Divine 的奖励。</li>\n</ol>\n<p>与路线选择相关的传闻分类：</p>\n<table>\n<thead>\n<tr>\n  <th>分类</th>\n  <th>正文列出的名称／条件</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Boss 遭遇</td>\n  <td>Stardrinker、Origin of the fall、The last to fall、End of the Circle</td>\n</tr>\n<tr>\n  <td>独特地图</td>\n  <td>All that glitters、reflective waters、almost paradise、a good fellow、Fallen skies</td>\n</tr>\n<tr>\n  <td>Fallen Skies</td>\n  <td>作者认为值得做，理由是保证得到 Perfect flux</td>\n</tr>\n<tr>\n  <td>Stardrinker</td>\n  <td>生成 Uthred；其掉落用于 Runeseeker's Call 的任务物品，每个角色只能掉落一次</td>\n</tr>\n</tbody>\n</table>\n"
+            },
+            "budget": {
+              "markdown": "- 碑牌改为“稀有怪数量／怪物效果／怪物稀有度”三选二。作者明确说收益更低，但地图更容易、碑牌便宜很多，**用于非 Aldur Saga 地图**。\n- 最便宜的地图准备方式：自制 **70% effect、6 词缀**的 Waystone，然后腐化；此处保留作者的 effect 表述。\n- 可以使用 T15；作者没有要求为 T16 额外付出成本。",
+              "html": "<ul>\n<li>碑牌改为“稀有怪数量／怪物效果／怪物稀有度”三选二。作者明确说收益更低，但地图更容易、碑牌便宜很多，<strong>用于非 Aldur Saga 地图</strong>。</li>\n<li>最便宜的地图准备方式：自制 <strong>70% effect、6 词缀</strong>的 Waystone，然后腐化；此处保留作者的 effect 表述。</li>\n<li>可以使用 T15；作者没有要求为 T16 额外付出成本。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "宏大先祖秘藏 · 符文组合与奖励取舍",
+        "map": "Grand Expedition；偏好 8 词缀；T15 可用",
+        "tablets": "3 × Irradiated（辐照）",
+        "masters": "Jado 四项；Doryani 仅说明可用",
+        "condition": "准备宏大先祖秘藏和 3 张辐照碑牌，愿意研究符文组合与终段取舍。",
+        "selection": "想研究宏大先祖秘藏的符文与奖励经营时查看；非 Aldur Saga 才适用文中廉价碑牌配法。",
+        "warning": "奖励的 1–3 Divine、T15／区域等级与符文评价均是读取记录中的作者表述，不是当前价格或本轮机制实测。",
+        "blockers": "便宜碑牌只用于非 Aldur Saga；未解释的 prolif 和“全为5/6/7的地图”保留原称。"
+      },
+      "search_text": "# Expedition\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:07:28 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：初始已选中；实际点击后确认名称与正文，建立 Expedition 基准。\n\n识别本套正文的特征：3 个辐照碑牌；Grand Expedition 符文选择、Opulent 与终段 7+ 符文组合。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- 场景为 Grand Expedition。作者认为 **8 词缀 Waystone** 的收益最好，优先较高的怪物效果（monster effect）；怪物稀有度也较好，物品稀有度可用，怪群规模（pack size）在此策略中评价较差。\n- T16 也可用，但作者认为成本较高且已非必需：T15 在 Grand Expedition 中能达到区域等级 81，仍可掉落物品等级 82 的 exceptional bases。\n- 以上是本页作者的配置与收益判断，不是本次独立实测结果。\n\n## 碑牌种类与数量\n\n- **3×Irradiated tablets（辐照碑牌）**。\n- 主配法追求每张带“额外 2 条随机地图词缀”，并搭配怪物效果或稀有怪数量增加。\n\n## 关键词缀\n\n| 用途 | 作者条件 |\n| --- | --- |\n| 主配法重点 | 额外 2 条随机地图词缀 + 怪物效果／稀有怪数量 |\n| 可接受次选 | 物品稀有度；作者认为弱于上述两种搭配属性 |\n| 廉价碑牌 | 稀有怪数量、怪物效果、怪物稀有度，三选二 |\n| 地图优先级 | 高怪物效果；怪物稀有度也好；物品稀有度尚可；pack size 评价差 |\n\n## 大师选项\n\n- **Jado**：Unexpected Missions、Eastern Knowledhe、Partial Translations、KJeen appraisal。\n- 上述拼写按正文保留；其中 Eastern Knowledhe、KJeen appraisal 疑似有拼写问题，本记录未擅自改成其他选项。\n- Doryani 也可行，但作者称自己使用 Jado 的结果更好；未列 Doryani 的具体选项。\n\n## 实际刷法\n\n1. 开局优先收集好符文，不必过分在意组合只有 4–6 个；接近结束时，多保留 **7+ 符文组合**。\n2. **Opulent** 是作者最重视的符文，地图出现时通常优先前往。终段若已有含 Opulent 的 8–9 符文组合、又没有作者所称的 prolif 符文，也可以就此结束。\n3. 符文不叠加，因此各取一种。作者分级为：SS＝Opulent；S＝Power、Death、Bond；A＝Time、Oath、rebirth（本名单中唯一蓝色符文）；B＝其他紫色符文；C＝其他蓝色符文。\n4. 开局的 5 符文组合若没有好紫色符文，通常重投；B 档组合只有 3–5 个符文时可以重投；接近终段一般保留 7+。\n5. 作者还要求在其所称的“全为 5、6 或 7 的地图”积极重投，理由是基础结果不会差；原文没有进一步定义这类地图，本记录保留这一适用条件。\n6. 通常保留价值 **至少 3 Divine** 的好奖励。低于此数由地图情况决定；如果地图有很多差符文，作者也会保留 1–2 Divine 的奖励。\n\n与路线选择相关的传闻分类：\n\n| 分类 | 正文列出的名称／条件 |\n| --- | --- |\n| Boss 遭遇 | Stardrinker、Origin of the fall、The last to fall、End of the Circle |\n| 独特地图 | All that glitters、reflective waters、almost paradise、a good fellow、Fallen skies |\n| Fallen Skies | 作者认为值得做，理由是保证得到 Perfect flux |\n| Stardrinker | 生成 Uthred；其掉落用于 Runeseeker's Call 的任务物品，每个角色只能掉落一次 |\n\n## 作者提供的减配办法\n\n- 碑牌改为“稀有怪数量／怪物效果／怪物稀有度”三选二。作者明确说收益更低，但地图更容易、碑牌便宜很多，**用于非 Aldur Saga 地图**。\n- 最便宜的地图准备方式：自制 **70% effect、6 词缀**的 Waystone，然后腐化；此处保留作者的 effect 表述。\n- 可以使用 T15；作者没有要求为 T16 额外付出成本。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 1,
+        "name": "Expedition",
+        "previous": null,
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+        "observed_at_utc": "2026-09-29T12:07:28.542Z",
+        "observed_at_local": "2026-09-29 20:07:28 CST",
+        "body_changed_from_previous": null,
+        "body_differs_from_expedition": null,
+        "body_snapshot_characters": 3397,
+        "body_snapshot_fnv1a32_utf16": "edfa9dc5",
+        "distinctive_content_summary": "3 个辐照碑牌；Grand Expedition 符文选择、Opulent 与终段 7+ 符文组合。",
+        "record_file": "01_Expedition.md"
+      }
+    },
+    "ritual-belts": {
+      "id": "ritual-belts",
+      "name": "Ritual Belts",
+      "zh": "仪式 · 腰带",
+      "filename": "02_Ritual_Belts.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant",
+      "read_time": "2026-09-29 20:07:54 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Ritual Belts\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:07:54 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Expedition 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：Freedom of Faith + 3 个祭祀碑牌；T15、6 词缀、区域等级 79；刷新 Tribute 减耗必需。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **必需：T15、6 词缀地图，达到区域等级 79。**\n- 作者给出的理由是：低于区域等级 79，拿不到好的 Omens。\n- 正文没有单列城市地图要求、迷雾强度或其他地图词缀优先级；不从其他方案补入。\n\n## 碑牌种类与数量\n\n共 **4 个**，按正文拆分如下：\n\n| 数量 | 碑牌 | 要求 |\n| --- | --- | --- |\n| 1 | Freedom of Faith，独特 Ritual 碑牌 | 使用该独特碑牌 |\n| 2 | 普通 Ritual 碑牌 | 各带祭坛 Favours 额外刷新 3 次；尽量再带 1 条词缀 |\n| 1 | 普通 Ritual 碑牌 | 争取带 2 条词缀；此张不追求额外刷新 3 次，因此作者称较便宜 |\n\n## 关键词缀\n\n以下属性分布在 **3 个普通 Ritual 碑牌**上。作者允许同一种属性取两份，只有第 1 项明确为必需。\n\n| 序号 | 属性与数值 | 必需程度 |\n| --- | --- | --- |\n| 1 | 祭坛刷新 Favours 的 Tribute 消耗降低 **20–30%** | 必需；若只使用一份，要求 **28–30%** 的数值 |\n| 2 | 献祭给地图祭坛的怪物提供的 Tribute 增加 **18–30%** | 推荐，非强制 |\n| 3 | 地图 Ritual Favours 成为 Omens 的概率增加 **35–70%** | 推荐，非强制 |\n| 4 | 祭坛递延 Favours 的 Tribute 消耗降低 **20–30%** | 推荐，非强制 |\n\n原文小标题说有 3 种目标属性，实际列出 4 项；本记录完整保留这 4 项，未将标题当作删去第 4 项的依据。\n\n## 大师选项\n\n- **Jado**：Partial translation、unforeseen threats。\n- unexpected mission 也被作者评价为好选项。\n- 英文名称、单复数按本方案正文记录。\n\n## 实际刷法\n\n- 正文说明了祭坛刷新次数、刷新／递延成本、Tribute 与 Omen 概率的配置。\n- **没有提供完整跑图路线、祭坛操作顺序、兑换与递延的判断标准，也未说明腰带筛选或定价条件。**不能仅根据 Ritual Belts 的名称补写这些步骤。\n\n## 作者提供的减配办法\n\n- 第 3 个普通 Ritual 碑牌不买额外刷新 3 次，改找带 2 条属性的版本。\n- 属性允许重复搭配；4 项中只有刷新 Tribute 减耗是硬要求。\n- 若只放一份刷新减耗，仍须保留 **28–30%** 的条件；地图等级与 6 词缀要求没有被作者放宽。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "297e518fe34e475f9e509a545815bba673473ebe3745c40a78b0a0362d5c1ce4",
+      "cases": [
+        {
+          "id": "main",
+          "label": "Ritual Belts",
+          "sections": {
+            "map": {
+              "markdown": "- **必需：T15、6 词缀地图，达到区域等级 79。**\n- 作者给出的理由是：低于区域等级 79，拿不到好的 Omens。\n- 正文没有单列城市地图要求、迷雾强度或其他地图词缀优先级；不从其他方案补入。",
+              "html": "<ul>\n<li><strong>必需：T15、6 词缀地图，达到区域等级 79。</strong></li>\n<li>作者给出的理由是：低于区域等级 79，拿不到好的 Omens。</li>\n<li>正文没有单列城市地图要求、迷雾强度或其他地图词缀优先级；不从其他方案补入。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "共 **4 个**，按正文拆分如下：\n\n| 数量 | 碑牌 | 要求 |\n| --- | --- | --- |\n| 1 | Freedom of Faith，独特 Ritual 碑牌 | 使用该独特碑牌 |\n| 2 | 普通 Ritual 碑牌 | 各带祭坛 Favours 额外刷新 3 次；尽量再带 1 条词缀 |\n| 1 | 普通 Ritual 碑牌 | 争取带 2 条词缀；此张不追求额外刷新 3 次，因此作者称较便宜 |",
+              "html": "<p>共 <strong>4 个</strong>，按正文拆分如下：</p>\n<table>\n<thead>\n<tr>\n  <th>数量</th>\n  <th>碑牌</th>\n  <th>要求</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>1</td>\n  <td>Freedom of Faith，独特 Ritual 碑牌</td>\n  <td>使用该独特碑牌</td>\n</tr>\n<tr>\n  <td>2</td>\n  <td>普通 Ritual 碑牌</td>\n  <td>各带祭坛 Favours 额外刷新 3 次；尽量再带 1 条词缀</td>\n</tr>\n<tr>\n  <td>1</td>\n  <td>普通 Ritual 碑牌</td>\n  <td>争取带 2 条词缀；此张不追求额外刷新 3 次，因此作者称较便宜</td>\n</tr>\n</tbody>\n</table>\n"
+            },
+            "mods": {
+              "markdown": "以下属性分布在 **3 个普通 Ritual 碑牌**上。作者允许同一种属性取两份，只有第 1 项明确为必需。\n\n| 序号 | 属性与数值 | 必需程度 |\n| --- | --- | --- |\n| 1 | 祭坛刷新 Favours 的 Tribute 消耗降低 **20–30%** | 必需；若只使用一份，要求 **28–30%** 的数值 |\n| 2 | 献祭给地图祭坛的怪物提供的 Tribute 增加 **18–30%** | 推荐，非强制 |\n| 3 | 地图 Ritual Favours 成为 Omens 的概率增加 **35–70%** | 推荐，非强制 |\n| 4 | 祭坛递延 Favours 的 Tribute 消耗降低 **20–30%** | 推荐，非强制 |\n\n原文小标题说有 3 种目标属性，实际列出 4 项；本记录完整保留这 4 项，未将标题当作删去第 4 项的依据。",
+              "html": "<p>以下属性分布在 <strong>3 个普通 Ritual 碑牌</strong>上。作者允许同一种属性取两份，只有第 1 项明确为必需。</p>\n<table>\n<thead>\n<tr>\n  <th>序号</th>\n  <th>属性与数值</th>\n  <th>必需程度</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>1</td>\n  <td>祭坛刷新 Favours 的 Tribute 消耗降低 <strong>20–30%</strong></td>\n  <td>必需；若只使用一份，要求 <strong>28–30%</strong> 的数值</td>\n</tr>\n<tr>\n  <td>2</td>\n  <td>献祭给地图祭坛的怪物提供的 Tribute 增加 <strong>18–30%</strong></td>\n  <td>推荐，非强制</td>\n</tr>\n<tr>\n  <td>3</td>\n  <td>地图 Ritual Favours 成为 Omens 的概率增加 <strong>35–70%</strong></td>\n  <td>推荐，非强制</td>\n</tr>\n<tr>\n  <td>4</td>\n  <td>祭坛递延 Favours 的 Tribute 消耗降低 <strong>20–30%</strong></td>\n  <td>推荐，非强制</td>\n</tr>\n</tbody>\n</table>\n<p>原文小标题说有 3 种目标属性，实际列出 4 项；本记录完整保留这 4 项，未将标题当作删去第 4 项的依据。</p>\n"
+            },
+            "masters": {
+              "markdown": "- **Jado**：Partial translation、unforeseen threats。\n- unexpected mission 也被作者评价为好选项。\n- 英文名称、单复数按本方案正文记录。",
+              "html": "<ul>\n<li><strong>Jado</strong>：Partial translation、unforeseen threats。</li>\n<li>unexpected mission 也被作者评价为好选项。</li>\n<li>英文名称、单复数按本方案正文记录。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "- 正文说明了祭坛刷新次数、刷新／递延成本、Tribute 与 Omen 概率的配置。\n- **没有提供完整跑图路线、祭坛操作顺序、兑换与递延的判断标准，也未说明腰带筛选或定价条件。**不能仅根据 Ritual Belts 的名称补写这些步骤。",
+              "html": "<ul>\n<li>正文说明了祭坛刷新次数、刷新／递延成本、Tribute 与 Omen 概率的配置。</li>\n<li><strong>没有提供完整跑图路线、祭坛操作顺序、兑换与递延的判断标准，也未说明腰带筛选或定价条件。</strong>不能仅根据 Ritual Belts 的名称补写这些步骤。</li>\n</ul>\n"
+            },
+            "budget": {
+              "markdown": "- 第 3 个普通 Ritual 碑牌不买额外刷新 3 次，改找带 2 条属性的版本。\n- 属性允许重复搭配；4 项中只有刷新 Tribute 减耗是硬要求。\n- 若只放一份刷新减耗，仍须保留 **28–30%** 的条件；地图等级与 6 词缀要求没有被作者放宽。",
+              "html": "<ul>\n<li>第 3 个普通 Ritual 碑牌不买额外刷新 3 次，改找带 2 条属性的版本。</li>\n<li>属性允许重复搭配；4 项中只有刷新 Tribute 减耗是硬要求。</li>\n<li>若只放一份刷新减耗，仍须保留 <strong>28–30%</strong> 的条件；地图等级与 6 词缀要求没有被作者放宽。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "仪式 · 腰带目标与祭坛刷新配置",
+        "map": "T15 · 6 词缀 · 区域等级79（正文硬条件）",
+        "tablets": "1 × Freedom of Faith + 3 × Ritual",
+        "masters": "Jado 两项；Unexpected Mission 另列为好选项",
+        "condition": "能提供 T15 六词图、独特碑牌，并满足刷新 Tribute 减耗。",
+        "selection": "围绕仪式腰带目标研究；先核对固定独特碑牌和刷新减耗，而不是先追满全部属性。",
+        "warning": "只有一份刷新 Tribute 减耗时，数值必须为 28–30%。作者没有写腰带筛选、定价和完整祭坛操作顺序。",
+        "blockers": "正文只有配置，没有腰带筛选与兑换流程；不能按方案名称补造。"
+      },
+      "search_text": "# Ritual Belts\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:07:54 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Expedition 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：Freedom of Faith + 3 个祭祀碑牌；T15、6 词缀、区域等级 79；刷新 Tribute 减耗必需。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **必需：T15、6 词缀地图，达到区域等级 79。**\n- 作者给出的理由是：低于区域等级 79，拿不到好的 Omens。\n- 正文没有单列城市地图要求、迷雾强度或其他地图词缀优先级；不从其他方案补入。\n\n## 碑牌种类与数量\n\n共 **4 个**，按正文拆分如下：\n\n| 数量 | 碑牌 | 要求 |\n| --- | --- | --- |\n| 1 | Freedom of Faith，独特 Ritual 碑牌 | 使用该独特碑牌 |\n| 2 | 普通 Ritual 碑牌 | 各带祭坛 Favours 额外刷新 3 次；尽量再带 1 条词缀 |\n| 1 | 普通 Ritual 碑牌 | 争取带 2 条词缀；此张不追求额外刷新 3 次，因此作者称较便宜 |\n\n## 关键词缀\n\n以下属性分布在 **3 个普通 Ritual 碑牌**上。作者允许同一种属性取两份，只有第 1 项明确为必需。\n\n| 序号 | 属性与数值 | 必需程度 |\n| --- | --- | --- |\n| 1 | 祭坛刷新 Favours 的 Tribute 消耗降低 **20–30%** | 必需；若只使用一份，要求 **28–30%** 的数值 |\n| 2 | 献祭给地图祭坛的怪物提供的 Tribute 增加 **18–30%** | 推荐，非强制 |\n| 3 | 地图 Ritual Favours 成为 Omens 的概率增加 **35–70%** | 推荐，非强制 |\n| 4 | 祭坛递延 Favours 的 Tribute 消耗降低 **20–30%** | 推荐，非强制 |\n\n原文小标题说有 3 种目标属性，实际列出 4 项；本记录完整保留这 4 项，未将标题当作删去第 4 项的依据。\n\n## 大师选项\n\n- **Jado**：Partial translation、unforeseen threats。\n- unexpected mission 也被作者评价为好选项。\n- 英文名称、单复数按本方案正文记录。\n\n## 实际刷法\n\n- 正文说明了祭坛刷新次数、刷新／递延成本、Tribute 与 Omen 概率的配置。\n- **没有提供完整跑图路线、祭坛操作顺序、兑换与递延的判断标准，也未说明腰带筛选或定价条件。**不能仅根据 Ritual Belts 的名称补写这些步骤。\n\n## 作者提供的减配办法\n\n- 第 3 个普通 Ritual 碑牌不买额外刷新 3 次，改找带 2 条属性的版本。\n- 属性允许重复搭配；4 项中只有刷新 Tribute 减耗是硬要求。\n- 若只放一份刷新减耗，仍须保留 **28–30%** 的条件；地图等级与 6 词缀要求没有被作者放宽。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 2,
+        "name": "Ritual Belts",
+        "previous": "Expedition",
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant",
+        "observed_at_utc": "2026-09-29T12:07:54.414Z",
+        "observed_at_local": "2026-09-29 20:07:54 CST",
+        "body_changed_from_previous": true,
+        "body_differs_from_expedition": true,
+        "body_snapshot_characters": 1224,
+        "body_snapshot_fnv1a32_utf16": "6d04b949",
+        "distinctive_content_summary": "Freedom of Faith + 3 个祭祀碑牌；T15、6 词缀、区域等级 79；刷新 Tribute 减耗必需。",
+        "record_file": "02_Ritual_Belts.md"
+      }
+    },
+    "currency-abyss": {
+      "id": "currency-abyss",
+      "name": "Currency Abyss",
+      "zh": "深渊 · 通货",
+      "filename": "03_Currency_Abyss.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1",
+      "read_time": "2026-09-29 20:08:02 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Currency Abyss\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:02 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Ritual Belts 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：深渊坑出现奖励的可能性加倍；额外 4 个 abyss pits；第三张可换 +1 Rogue Exile 的 Overseer。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **正文未说明**地图阶级、地图词缀数量、区域等级、地形或迷雾强度。\n- 本方案没有采用 Expedition、Ritual Belts 或 Abyss Rares 的地图条件来填补缺项。\n\n## 碑牌种类与数量\n\n共 **3 个**：\n\n| 数量 | 配置 |\n| --- | --- |\n| 1×Abyss | 深渊坑出现奖励的可能性为原来的两倍 |\n| 1×Abyss | 地图有概率包含额外 4 个 abyss pits |\n| 1×Abyss | 词缀任意；或换成带额外 1 个 Rogue Exile 的 Overseer 碑牌 |\n\n## 关键词缀\n\n- 前两张的重点分别是**奖励可能性加倍**、**有概率额外出现 4 个深渊坑**。\n- 作者说物品稀有度增加也是好属性。\n- 额外深渊坑的概率数值、物品稀有度的数值，正文没有给出。\n- 奖励“可能性加倍”不等同于奖励数量翻倍，也不是保证每个坑都有奖励。\n\n## 大师选项\n\n- **Jado**：Partial translation、unforeseen threats。\n- unexpected mission 也被作者评价为好选项。\n\n## 实际刷法\n\n- 正文只列碑牌配置和大师选择，**没有说明完整跑图路线、深渊处理顺序、地图结束时机或收益结算方法**。\n- 从所选属性可知配置关注深渊坑与奖励概率，但这不构成作者未写出的操作步骤。\n\n## 作者提供的减配办法\n\n- 第 3 张 Abyss 允许任意词缀，要求较宽松。\n- 第 3 张也可替换为额外 1 个 Rogue Exile 的 Overseer；这是作者提供的**替代配置**，正文并未说它更便宜。\n- 除此之外，正文未另列预算档位或低配刷法。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "e384652d2229dc3621f8e603ae44fb04d6e4949d85a63a8130daeeeb174e50be",
+      "cases": [
+        {
+          "id": "main",
+          "label": "Currency Abyss",
+          "sections": {
+            "map": {
+              "markdown": "- **正文未说明**地图阶级、地图词缀数量、区域等级、地形或迷雾强度。\n- 本方案没有采用 Expedition、Ritual Belts 或 Abyss Rares 的地图条件来填补缺项。",
+              "html": "<ul>\n<li><strong>正文未说明</strong>地图阶级、地图词缀数量、区域等级、地形或迷雾强度。</li>\n<li>本方案没有采用 Expedition、Ritual Belts 或 Abyss Rares 的地图条件来填补缺项。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "共 **3 个**：\n\n| 数量 | 配置 |\n| --- | --- |\n| 1×Abyss | 深渊坑出现奖励的可能性为原来的两倍 |\n| 1×Abyss | 地图有概率包含额外 4 个 abyss pits |\n| 1×Abyss | 词缀任意；或换成带额外 1 个 Rogue Exile 的 Overseer 碑牌 |",
+              "html": "<p>共 <strong>3 个</strong>：</p>\n<table>\n<thead>\n<tr>\n  <th>数量</th>\n  <th>配置</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>1×Abyss</td>\n  <td>深渊坑出现奖励的可能性为原来的两倍</td>\n</tr>\n<tr>\n  <td>1×Abyss</td>\n  <td>地图有概率包含额外 4 个 abyss pits</td>\n</tr>\n<tr>\n  <td>1×Abyss</td>\n  <td>词缀任意；或换成带额外 1 个 Rogue Exile 的 Overseer 碑牌</td>\n</tr>\n</tbody>\n</table>\n"
+            },
+            "mods": {
+              "markdown": "- 前两张的重点分别是**奖励可能性加倍**、**有概率额外出现 4 个深渊坑**。\n- 作者说物品稀有度增加也是好属性。\n- 额外深渊坑的概率数值、物品稀有度的数值，正文没有给出。\n- 奖励“可能性加倍”不等同于奖励数量翻倍，也不是保证每个坑都有奖励。",
+              "html": "<ul>\n<li>前两张的重点分别是<strong>奖励可能性加倍</strong>、<strong>有概率额外出现 4 个深渊坑</strong>。</li>\n<li>作者说物品稀有度增加也是好属性。</li>\n<li>额外深渊坑的概率数值、物品稀有度的数值，正文没有给出。</li>\n<li>奖励“可能性加倍”不等同于奖励数量翻倍，也不是保证每个坑都有奖励。</li>\n</ul>\n"
+            },
+            "masters": {
+              "markdown": "- **Jado**：Partial translation、unforeseen threats。\n- unexpected mission 也被作者评价为好选项。",
+              "html": "<ul>\n<li><strong>Jado</strong>：Partial translation、unforeseen threats。</li>\n<li>unexpected mission 也被作者评价为好选项。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "- 正文只列碑牌配置和大师选择，**没有说明完整跑图路线、深渊处理顺序、地图结束时机或收益结算方法**。\n- 从所选属性可知配置关注深渊坑与奖励概率，但这不构成作者未写出的操作步骤。",
+              "html": "<ul>\n<li>正文只列碑牌配置和大师选择，<strong>没有说明完整跑图路线、深渊处理顺序、地图结束时机或收益结算方法</strong>。</li>\n<li>从所选属性可知配置关注深渊坑与奖励概率，但这不构成作者未写出的操作步骤。</li>\n</ul>\n"
+            },
+            "budget": {
+              "markdown": "- 第 3 张 Abyss 允许任意词缀，要求较宽松。\n- 第 3 张也可替换为额外 1 个 Rogue Exile 的 Overseer；这是作者提供的**替代配置**，正文并未说它更便宜。\n- 除此之外，正文未另列预算档位或低配刷法。",
+              "html": "<ul>\n<li>第 3 张 Abyss 允许任意词缀，要求较宽松。</li>\n<li>第 3 张也可替换为额外 1 个 Rogue Exile 的 Overseer；这是作者提供的<strong>替代配置</strong>，正文并未说它更便宜。</li>\n<li>除此之外，正文未另列预算档位或低配刷法。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "深渊坑奖励 · 第三张碑牌可替换",
+        "map": "正文未指定阶级、词缀数、地形或迷雾强度",
+        "tablets": "3 × Abyss；或 2 × Abyss + 1 × Overseer",
+        "masters": "Jado 两项；Unexpected Mission 另列为好选项",
+        "condition": "有奖励可能性加倍和概率额外4坑的两张重点碑牌；第三张允许宽松处理。",
+        "selection": "想刷深渊坑奖励时核对这套；地图门槛与完整跑法没有写，不能因此称它为最容易的新手方案。",
+        "warning": "“奖励可能性加倍”不是奖励数量翻倍；“有概率额外4坑”不是保证每张都有4个。",
+        "blockers": "地图门槛与完整操作原文未写。Overseer 是替代配置，不等于更便宜。"
+      },
+      "search_text": "# Currency Abyss\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:02 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Ritual Belts 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：深渊坑出现奖励的可能性加倍；额外 4 个 abyss pits；第三张可换 +1 Rogue Exile 的 Overseer。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **正文未说明**地图阶级、地图词缀数量、区域等级、地形或迷雾强度。\n- 本方案没有采用 Expedition、Ritual Belts 或 Abyss Rares 的地图条件来填补缺项。\n\n## 碑牌种类与数量\n\n共 **3 个**：\n\n| 数量 | 配置 |\n| --- | --- |\n| 1×Abyss | 深渊坑出现奖励的可能性为原来的两倍 |\n| 1×Abyss | 地图有概率包含额外 4 个 abyss pits |\n| 1×Abyss | 词缀任意；或换成带额外 1 个 Rogue Exile 的 Overseer 碑牌 |\n\n## 关键词缀\n\n- 前两张的重点分别是**奖励可能性加倍**、**有概率额外出现 4 个深渊坑**。\n- 作者说物品稀有度增加也是好属性。\n- 额外深渊坑的概率数值、物品稀有度的数值，正文没有给出。\n- 奖励“可能性加倍”不等同于奖励数量翻倍，也不是保证每个坑都有奖励。\n\n## 大师选项\n\n- **Jado**：Partial translation、unforeseen threats。\n- unexpected mission 也被作者评价为好选项。\n\n## 实际刷法\n\n- 正文只列碑牌配置和大师选择，**没有说明完整跑图路线、深渊处理顺序、地图结束时机或收益结算方法**。\n- 从所选属性可知配置关注深渊坑与奖励概率，但这不构成作者未写出的操作步骤。\n\n## 作者提供的减配办法\n\n- 第 3 张 Abyss 允许任意词缀，要求较宽松。\n- 第 3 张也可替换为额外 1 个 Rogue Exile 的 Overseer；这是作者提供的**替代配置**，正文并未说它更便宜。\n- 除此之外，正文未另列预算档位或低配刷法。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 3,
+        "name": "Currency Abyss",
+        "previous": "Ritual Belts",
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1",
+        "observed_at_utc": "2026-09-29T12:08:02.391Z",
+        "observed_at_local": "2026-09-29 20:08:02 CST",
+        "body_changed_from_previous": true,
+        "body_differs_from_expedition": true,
+        "body_snapshot_characters": 495,
+        "body_snapshot_fnv1a32_utf16": "1bb825c2",
+        "distinctive_content_summary": "深渊坑出现奖励的可能性加倍；额外 4 个 abyss pits；第三张可换 +1 Rogue Exile 的 Overseer。",
+        "record_file": "03_Currency_Abyss.md"
+      }
+    },
+    "breach-rares": {
+      "id": "breach-rares",
+      "name": "Breach Rares",
+      "zh": "裂隙 · 稀有怪",
+      "filename": "04_Breach_Rares.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+      "read_time": "2026-09-29 20:08:19 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Breach Rares\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:19 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Currency Abyss 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：3 个普通裂隙碑牌 + 1 个独特裂隙碑牌；城市、Grand Mirror、200% 迷雾。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **必须跑城市地图**，以使用 4 个碑牌。\n- 使用 **Grand Mirror**，将地图设为 **200% Delirium**。\n- **T15、6–8 词缀 Waystone**，追求较高的物品稀有度和怪物效果。\n\n## 碑牌种类与数量\n\n共 **4×Breach**：\n\n| 数量 | 配置 |\n| --- | --- |\n| 3×普通 Breach | 不稳定裂隙稳定后，额外产生 **3 个稀有怪** |\n| 1×独特 Breach | 追求 **额外 5 个稀有怪**，并最好没有负面 pack size；正文未提供该独特碑牌的具体名称 |\n\n## 关键词缀\n\n- 普通碑牌的额外稀有怪词缀可掷出 **1–3**，目标为 3。\n- 其余好属性希望三选二；若只能取一条，作者选择 **monster effectiveness（怪物效果）**：\n\n| 属性 | 数值 |\n| --- | --- |\n| 怪物效果增加 | **10–15%** |\n| 地图中稀有裂隙怪物的效果增加 | **5–20%** |\n| 地图中找到物品的稀有度增加 | **8–12%** |\n\n## 大师选项\n\n- **Jado**：Partial translation、unforeseen threats、unexpected mission。\n\n## 实际刷法\n\n- 作者明确的准备条件是城市地图、4 个裂隙碑牌与 200% 迷雾，再使用上述 T15 Waystone。\n- 词缀重点在于稳定裂隙后生成的稀有怪数量与怪物效果。\n- **正文未给出额外的走图路线、裂隙处理先后或结束迷雾的时机**；不移入 Deli Rush 的结束规则。\n\n## 作者提供的减配办法\n\n- 对 1–3 个额外稀有怪的数值，**如果自己使用 Divine 调整更便宜**，可以自己调整；便宜是条件，作者没有给定价格阈值。\n- 其他好属性无法凑到两条时，保留怪物效果这一条。\n- “最好无负面 pack size”是偏好，正文并未写为绝对门槛；城市地图、4 碑牌、Grand Mirror 与 200% 迷雾仍是原配法条件。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "e97337647e11bc56e3bf0300b24d0b053e37259ef6426450372c0d4c53e1441e",
+      "cases": [
+        {
+          "id": "main",
+          "label": "Breach Rares",
+          "sections": {
+            "map": {
+              "markdown": "- **必须跑城市地图**，以使用 4 个碑牌。\n- 使用 **Grand Mirror**，将地图设为 **200% Delirium**。\n- **T15、6–8 词缀 Waystone**，追求较高的物品稀有度和怪物效果。",
+              "html": "<ul>\n<li><strong>必须跑城市地图</strong>，以使用 4 个碑牌。</li>\n<li>使用 <strong>Grand Mirror</strong>，将地图设为 <strong>200% Delirium</strong>。</li>\n<li><strong>T15、6–8 词缀 Waystone</strong>，追求较高的物品稀有度和怪物效果。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "共 **4×Breach**：\n\n| 数量 | 配置 |\n| --- | --- |\n| 3×普通 Breach | 不稳定裂隙稳定后，额外产生 **3 个稀有怪** |\n| 1×独特 Breach | 追求 **额外 5 个稀有怪**，并最好没有负面 pack size；正文未提供该独特碑牌的具体名称 |",
+              "html": "<p>共 <strong>4×Breach</strong>：</p>\n<table>\n<thead>\n<tr>\n  <th>数量</th>\n  <th>配置</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>3×普通 Breach</td>\n  <td>不稳定裂隙稳定后，额外产生 <strong>3 个稀有怪</strong></td>\n</tr>\n<tr>\n  <td>1×独特 Breach</td>\n  <td>追求 <strong>额外 5 个稀有怪</strong>，并最好没有负面 pack size；正文未提供该独特碑牌的具体名称</td>\n</tr>\n</tbody>\n</table>\n"
+            },
+            "mods": {
+              "markdown": "- 普通碑牌的额外稀有怪词缀可掷出 **1–3**，目标为 3。\n- 其余好属性希望三选二；若只能取一条，作者选择 **monster effectiveness（怪物效果）**：\n\n| 属性 | 数值 |\n| --- | --- |\n| 怪物效果增加 | **10–15%** |\n| 地图中稀有裂隙怪物的效果增加 | **5–20%** |\n| 地图中找到物品的稀有度增加 | **8–12%** |",
+              "html": "<ul>\n<li>普通碑牌的额外稀有怪词缀可掷出 <strong>1–3</strong>，目标为 3。</li>\n<li>其余好属性希望三选二；若只能取一条，作者选择 <strong>monster effectiveness（怪物效果）</strong>：</li>\n</ul>\n<table>\n<thead>\n<tr>\n  <th>属性</th>\n  <th>数值</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>怪物效果增加</td>\n  <td><strong>10–15%</strong></td>\n</tr>\n<tr>\n  <td>地图中稀有裂隙怪物的效果增加</td>\n  <td><strong>5–20%</strong></td>\n</tr>\n<tr>\n  <td>地图中找到物品的稀有度增加</td>\n  <td><strong>8–12%</strong></td>\n</tr>\n</tbody>\n</table>\n"
+            },
+            "masters": {
+              "markdown": "- **Jado**：Partial translation、unforeseen threats、unexpected mission。",
+              "html": "<ul>\n<li><strong>Jado</strong>：Partial translation、unforeseen threats、unexpected mission。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "- 作者明确的准备条件是城市地图、4 个裂隙碑牌与 200% 迷雾，再使用上述 T15 Waystone。\n- 词缀重点在于稳定裂隙后生成的稀有怪数量与怪物效果。\n- **正文未给出额外的走图路线、裂隙处理先后或结束迷雾的时机**；不移入 Deli Rush 的结束规则。",
+              "html": "<ul>\n<li>作者明确的准备条件是城市地图、4 个裂隙碑牌与 200% 迷雾，再使用上述 T15 Waystone。</li>\n<li>词缀重点在于稳定裂隙后生成的稀有怪数量与怪物效果。</li>\n<li><strong>正文未给出额外的走图路线、裂隙处理先后或结束迷雾的时机</strong>；不移入 Deli Rush 的结束规则。</li>\n</ul>\n"
+            },
+            "budget": {
+              "markdown": "- 对 1–3 个额外稀有怪的数值，**如果自己使用 Divine 调整更便宜**，可以自己调整；便宜是条件，作者没有给定价格阈值。\n- 其他好属性无法凑到两条时，保留怪物效果这一条。\n- “最好无负面 pack size”是偏好，正文并未写为绝对门槛；城市地图、4 碑牌、Grand Mirror 与 200% 迷雾仍是原配法条件。",
+              "html": "<ul>\n<li>对 1–3 个额外稀有怪的数值，<strong>如果自己使用 Divine 调整更便宜</strong>，可以自己调整；便宜是条件，作者没有给定价格阈值。</li>\n<li>其他好属性无法凑到两条时，保留怪物效果这一条。</li>\n<li>“最好无负面 pack size”是偏好，正文并未写为绝对门槛；城市地图、4 碑牌、Grand Mirror 与 200% 迷雾仍是原配法条件。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "裂隙稀有怪 · 城市四碑牌与200%迷雾",
+        "map": "城市 · Grand Mirror · 200%迷雾 · T15六至八词",
+        "tablets": "3 × 普通 Breach + 1 × 独特 Breach",
+        "masters": "Jado 三项",
+        "condition": "能准备城市4碑牌与200%迷雾配置，并承担它的实际难度。",
+        "selection": "明确想刷裂隙稀有怪、能满足城市和200%迷雾条件时查看；不是低投入配法的默认下一阶。",
+        "warning": "独特裂隙碑牌名称未写；Divine 调数值仅在自行调整确实更便宜时适用。",
+        "blockers": "城市、四碑牌、Grand Mirror 和200%迷雾不可从原配法中悄悄删掉。"
+      },
+      "search_text": "# Breach Rares\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:19 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Currency Abyss 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：3 个普通裂隙碑牌 + 1 个独特裂隙碑牌；城市、Grand Mirror、200% 迷雾。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **必须跑城市地图**，以使用 4 个碑牌。\n- 使用 **Grand Mirror**，将地图设为 **200% Delirium**。\n- **T15、6–8 词缀 Waystone**，追求较高的物品稀有度和怪物效果。\n\n## 碑牌种类与数量\n\n共 **4×Breach**：\n\n| 数量 | 配置 |\n| --- | --- |\n| 3×普通 Breach | 不稳定裂隙稳定后，额外产生 **3 个稀有怪** |\n| 1×独特 Breach | 追求 **额外 5 个稀有怪**，并最好没有负面 pack size；正文未提供该独特碑牌的具体名称 |\n\n## 关键词缀\n\n- 普通碑牌的额外稀有怪词缀可掷出 **1–3**，目标为 3。\n- 其余好属性希望三选二；若只能取一条，作者选择 **monster effectiveness（怪物效果）**：\n\n| 属性 | 数值 |\n| --- | --- |\n| 怪物效果增加 | **10–15%** |\n| 地图中稀有裂隙怪物的效果增加 | **5–20%** |\n| 地图中找到物品的稀有度增加 | **8–12%** |\n\n## 大师选项\n\n- **Jado**：Partial translation、unforeseen threats、unexpected mission。\n\n## 实际刷法\n\n- 作者明确的准备条件是城市地图、4 个裂隙碑牌与 200% 迷雾，再使用上述 T15 Waystone。\n- 词缀重点在于稳定裂隙后生成的稀有怪数量与怪物效果。\n- **正文未给出额外的走图路线、裂隙处理先后或结束迷雾的时机**；不移入 Deli Rush 的结束规则。\n\n## 作者提供的减配办法\n\n- 对 1–3 个额外稀有怪的数值，**如果自己使用 Divine 调整更便宜**，可以自己调整；便宜是条件，作者没有给定价格阈值。\n- 其他好属性无法凑到两条时，保留怪物效果这一条。\n- “最好无负面 pack size”是偏好，正文并未写为绝对门槛；城市地图、4 碑牌、Grand Mirror 与 200% 迷雾仍是原配法条件。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 4,
+        "name": "Breach Rares",
+        "previous": "Currency Abyss",
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+        "observed_at_utc": "2026-09-29T12:08:19.666Z",
+        "observed_at_local": "2026-09-29 20:08:19 CST",
+        "body_changed_from_previous": true,
+        "body_differs_from_expedition": true,
+        "body_snapshot_characters": 1104,
+        "body_snapshot_fnv1a32_utf16": "5daa49b4",
+        "distinctive_content_summary": "3 个普通裂隙碑牌 + 1 个独特裂隙碑牌；城市、Grand Mirror、200% 迷雾。",
+        "record_file": "04_Breach_Rares.md"
+      }
+    },
+    "abyss-rares": {
+      "id": "abyss-rares",
+      "name": "Abyss Rares",
+      "zh": "深渊 · 稀有怪",
+      "filename": "05_Abyss_Rares.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+      "read_time": "2026-09-29 20:08:21 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Abyss Rares\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:21 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Breach Rares 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：同一方案包含 Jado abyss 与 Hilda 两条策略；前者每个碑牌都要求额外 2 条随机地图词缀。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n本变体正文明确分为 **Jado abyss** 与 **Hilda** 两条策略，以下分别记录。\n\n## A. Jado abyss\n\n### 地图要求\n\n- **必须跑城市地图**以放入 4 个碑牌，并使用 **Grand Mirror 达到 200% 迷雾**。\n- **T15、6–8 词缀 Waystone**。\n- T16 也可跑，但作者认为通常不会改变掉落；只有把区域推到 **81 级、掉落物品等级 82 的装备**时才有区别，并说明这需要 **+1 碑牌**。正文没有在这句话里进一步写出 +1 的完整词缀名称。\n\n### 碑牌种类与数量\n\n- 基础为 **4×Abyss**；为压低价格，其中 **2 个可以换成其他种类碑牌**。\n- 每个碑牌都要有 **额外 2 条随机地图词缀**，合计 4 份；替换碑牌的许可并没有撤掉这一条件。\n- 作者希望使用**至少 3 词缀的碑牌**。\n\n### 关键词缀\n\n| 份数 | 作者列为必需的配置 |\n| --- | --- |\n| 1 | 每关闭一个 Pit，深渊怪物效果增加 #% ，上限 **100%** |\n| 1 | 地图有 #% 概率包含**额外 4 个 Abysses**；此处原文写 Abysses |\n| 4 | 每个碑牌各带**额外 2 条随机地图词缀** |\n| 1，亦可 2 | 深渊怪物具有 Abyssal Modifiers 的概率增加；作者称测试中表现很好、会一直用至少 1 份 |\n\n- 额外 2 条地图词缀之后，作者最看好的是**稀有怪数量增加**，但明确说不是必需。\n- 其他可选属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果、深渊生成怪物数量增加。\n- 怪物效果在此策略中相对没那么强，因为已有很多；对于“深渊生成怪物数量增加”，作者**不确定具体有多好**，只是认为不会差。\n\n### 大师选项\n\n- **Jado**：Partial translation、unforeseen threats、unexpected mission。\n\n### 实际刷法\n\n1. 将地图做成 **6 词缀**。\n2. 使用 **omen of chaotic effectiveness**；**chaotic quantity 可选**。\n3. 所有地图都腐化。\n4. 理想情况下只跑 8 词缀，但作者认为难以维持供应，因此也跑品质好的 6 词缀地图；T16 可自己跑或卖出。\n\n正文没有另外提供深渊的跑图路线、关闭坑洞的具体顺序或迷雾结束时机。\n\n### 作者提供的减配办法\n\n- 4 个 Abyss 中有 2 个可改用更便宜的其他碑牌；保持每张额外 2 条地图词缀，以及上表需要的深渊属性覆盖。\n- 难以持续获得 8 词缀地图时，接受好的 6 词缀地图。\n- chaotic quantity 是可选投入；T16 可以卖出。\n- 稀有怪数量虽优先级高，但不是必需。\n\n## B. Hilda\n\n### 地图要求\n\n- 第二条策略**没有单独列出地图阶级、词缀数、城市或 200% 迷雾条件**。\n- 上面的城市／200%／T15 地图段位于 Jado 策略之内；页面没有明确说明它是否完整适用于 Hilda，本记录不擅自认定。\n\n### 碑牌种类与数量\n\n- **1×Abyss + 1×Irradiated + 1×Overseer + 1×Breach**，合计 4 个。\n- Abyss 可以使用独特版本替代稀有版本；作者未给独特版本的名称。\n\n### 关键词缀\n\n- Abyss 需要：有概率包含 **4 个 pits**，以及**每关闭一个 pit 增加效果**。此处作者只写 four pits，未单独重复 additional 或上限数值。\n- 其余 **3 个碑牌每张**都需要 **额外 1–2 条随机地图词缀 + 另外 2 条好属性**。\n- 额外 2 条地图词缀之后，作者最看好稀有怪数量增加，但它不是必需。\n- 其他好属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果；怪物效果同样被评为在此策略中相对没那么强。\n\n### 大师选项\n\n- **Hilda**：Breeding season、ancient inscriptions。\n\n### 实际刷法\n\n- 正文仅说明上述大师和混合碑牌配置；**没有为 Hilda 单列制图步骤或跑图操作顺序**。\n\n### 作者提供的减配办法\n\n- 普通三张碑牌允许额外 **1–2** 条随机地图词缀，不全都限定为 2。\n- Abyss 的独特／稀有版本是替代关系；作者**未说明独特版本更便宜**，不能当成已证实的省钱方案。\n- 第二条策略没有给出其他预算档位。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "0d28feefa0174bca78616bdbbecd97a2b488fa17c6ad32b3ad1ed3c37bdded4e",
+      "cases": [
+        {
+          "id": "jado",
+          "label": "A. Jado abyss",
+          "sections": {
+            "map": {
+              "markdown": "- **必须跑城市地图**以放入 4 个碑牌，并使用 **Grand Mirror 达到 200% 迷雾**。\n- **T15、6–8 词缀 Waystone**。\n- T16 也可跑，但作者认为通常不会改变掉落；只有把区域推到 **81 级、掉落物品等级 82 的装备**时才有区别，并说明这需要 **+1 碑牌**。正文没有在这句话里进一步写出 +1 的完整词缀名称。",
+              "html": "<ul>\n<li><strong>必须跑城市地图</strong>以放入 4 个碑牌，并使用 <strong>Grand Mirror 达到 200% 迷雾</strong>。</li>\n<li><strong>T15、6–8 词缀 Waystone</strong>。</li>\n<li>T16 也可跑，但作者认为通常不会改变掉落；只有把区域推到 <strong>81 级、掉落物品等级 82 的装备</strong>时才有区别，并说明这需要 <strong>+1 碑牌</strong>。正文没有在这句话里进一步写出 +1 的完整词缀名称。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "- 基础为 **4×Abyss**；为压低价格，其中 **2 个可以换成其他种类碑牌**。\n- 每个碑牌都要有 **额外 2 条随机地图词缀**，合计 4 份；替换碑牌的许可并没有撤掉这一条件。\n- 作者希望使用**至少 3 词缀的碑牌**。",
+              "html": "<ul>\n<li>基础为 <strong>4×Abyss</strong>；为压低价格，其中 <strong>2 个可以换成其他种类碑牌</strong>。</li>\n<li>每个碑牌都要有 <strong>额外 2 条随机地图词缀</strong>，合计 4 份；替换碑牌的许可并没有撤掉这一条件。</li>\n<li>作者希望使用<strong>至少 3 词缀的碑牌</strong>。</li>\n</ul>\n"
+            },
+            "mods": {
+              "markdown": "| 份数 | 作者列为必需的配置 |\n| --- | --- |\n| 1 | 每关闭一个 Pit，深渊怪物效果增加 #% ，上限 **100%** |\n| 1 | 地图有 #% 概率包含**额外 4 个 Abysses**；此处原文写 Abysses |\n| 4 | 每个碑牌各带**额外 2 条随机地图词缀** |\n| 1，亦可 2 | 深渊怪物具有 Abyssal Modifiers 的概率增加；作者称测试中表现很好、会一直用至少 1 份 |\n\n- 额外 2 条地图词缀之后，作者最看好的是**稀有怪数量增加**，但明确说不是必需。\n- 其他可选属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果、深渊生成怪物数量增加。\n- 怪物效果在此策略中相对没那么强，因为已有很多；对于“深渊生成怪物数量增加”，作者**不确定具体有多好**，只是认为不会差。",
+              "html": "<table>\n<thead>\n<tr>\n  <th>份数</th>\n  <th>作者列为必需的配置</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>1</td>\n  <td>每关闭一个 Pit，深渊怪物效果增加 #% ，上限 <strong>100%</strong></td>\n</tr>\n<tr>\n  <td>1</td>\n  <td>地图有 #% 概率包含<strong>额外 4 个 Abysses</strong>；此处原文写 Abysses</td>\n</tr>\n<tr>\n  <td>4</td>\n  <td>每个碑牌各带<strong>额外 2 条随机地图词缀</strong></td>\n</tr>\n<tr>\n  <td>1，亦可 2</td>\n  <td>深渊怪物具有 Abyssal Modifiers 的概率增加；作者称测试中表现很好、会一直用至少 1 份</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>额外 2 条地图词缀之后，作者最看好的是<strong>稀有怪数量增加</strong>，但明确说不是必需。</li>\n<li>其他可选属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果、深渊生成怪物数量增加。</li>\n<li>怪物效果在此策略中相对没那么强，因为已有很多；对于“深渊生成怪物数量增加”，作者<strong>不确定具体有多好</strong>，只是认为不会差。</li>\n</ul>\n"
+            },
+            "masters": {
+              "markdown": "- **Jado**：Partial translation、unforeseen threats、unexpected mission。",
+              "html": "<ul>\n<li><strong>Jado</strong>：Partial translation、unforeseen threats、unexpected mission。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "1. 将地图做成 **6 词缀**。\n2. 使用 **omen of chaotic effectiveness**；**chaotic quantity 可选**。\n3. 所有地图都腐化。\n4. 理想情况下只跑 8 词缀，但作者认为难以维持供应，因此也跑品质好的 6 词缀地图；T16 可自己跑或卖出。\n\n正文没有另外提供深渊的跑图路线、关闭坑洞的具体顺序或迷雾结束时机。",
+              "html": "<ol>\n<li>将地图做成 <strong>6 词缀</strong>。</li>\n<li>使用 <strong>omen of chaotic effectiveness</strong>；<strong>chaotic quantity 可选</strong>。</li>\n<li>所有地图都腐化。</li>\n<li>理想情况下只跑 8 词缀，但作者认为难以维持供应，因此也跑品质好的 6 词缀地图；T16 可自己跑或卖出。</li>\n</ol>\n<p>正文没有另外提供深渊的跑图路线、关闭坑洞的具体顺序或迷雾结束时机。</p>\n"
+            },
+            "budget": {
+              "markdown": "- 4 个 Abyss 中有 2 个可改用更便宜的其他碑牌；保持每张额外 2 条地图词缀，以及上表需要的深渊属性覆盖。\n- 难以持续获得 8 词缀地图时，接受好的 6 词缀地图。\n- chaotic quantity 是可选投入；T16 可以卖出。\n- 稀有怪数量虽优先级高，但不是必需。",
+              "html": "<ul>\n<li>4 个 Abyss 中有 2 个可改用更便宜的其他碑牌；保持每张额外 2 条地图词缀，以及上表需要的深渊属性覆盖。</li>\n<li>难以持续获得 8 词缀地图时，接受好的 6 词缀地图。</li>\n<li>chaotic quantity 是可选投入；T16 可以卖出。</li>\n<li>稀有怪数量虽优先级高，但不是必需。</li>\n</ul>\n"
+            }
+          }
+        },
+        {
+          "id": "hilda",
+          "label": "B. Hilda",
+          "sections": {
+            "map": {
+              "markdown": "- 第二条策略**没有单独列出地图阶级、词缀数、城市或 200% 迷雾条件**。\n- 上面的城市／200%／T15 地图段位于 Jado 策略之内；页面没有明确说明它是否完整适用于 Hilda，本记录不擅自认定。",
+              "html": "<ul>\n<li>第二条策略<strong>没有单独列出地图阶级、词缀数、城市或 200% 迷雾条件</strong>。</li>\n<li>上面的城市／200%／T15 地图段位于 Jado 策略之内；页面没有明确说明它是否完整适用于 Hilda，本记录不擅自认定。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "- **1×Abyss + 1×Irradiated + 1×Overseer + 1×Breach**，合计 4 个。\n- Abyss 可以使用独特版本替代稀有版本；作者未给独特版本的名称。",
+              "html": "<ul>\n<li><strong>1×Abyss + 1×Irradiated + 1×Overseer + 1×Breach</strong>，合计 4 个。</li>\n<li>Abyss 可以使用独特版本替代稀有版本；作者未给独特版本的名称。</li>\n</ul>\n"
+            },
+            "mods": {
+              "markdown": "- Abyss 需要：有概率包含 **4 个 pits**，以及**每关闭一个 pit 增加效果**。此处作者只写 four pits，未单独重复 additional 或上限数值。\n- 其余 **3 个碑牌每张**都需要 **额外 1–2 条随机地图词缀 + 另外 2 条好属性**。\n- 额外 2 条地图词缀之后，作者最看好稀有怪数量增加，但它不是必需。\n- 其他好属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果；怪物效果同样被评为在此策略中相对没那么强。",
+              "html": "<ul>\n<li>Abyss 需要：有概率包含 <strong>4 个 pits</strong>，以及<strong>每关闭一个 pit 增加效果</strong>。此处作者只写 four pits，未单独重复 additional 或上限数值。</li>\n<li>其余 <strong>3 个碑牌每张</strong>都需要 <strong>额外 1–2 条随机地图词缀 + 另外 2 条好属性</strong>。</li>\n<li>额外 2 条地图词缀之后，作者最看好稀有怪数量增加，但它不是必需。</li>\n<li>其他好属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果；怪物效果同样被评为在此策略中相对没那么强。</li>\n</ul>\n"
+            },
+            "masters": {
+              "markdown": "- **Hilda**：Breeding season、ancient inscriptions。",
+              "html": "<ul>\n<li><strong>Hilda</strong>：Breeding season、ancient inscriptions。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "- 正文仅说明上述大师和混合碑牌配置；**没有为 Hilda 单列制图步骤或跑图操作顺序**。",
+              "html": "<ul>\n<li>正文仅说明上述大师和混合碑牌配置；<strong>没有为 Hilda 单列制图步骤或跑图操作顺序</strong>。</li>\n</ul>\n"
+            },
+            "budget": {
+              "markdown": "- 普通三张碑牌允许额外 **1–2** 条随机地图词缀，不全都限定为 2。\n- Abyss 的独特／稀有版本是替代关系；作者**未说明独特版本更便宜**，不能当成已证实的省钱方案。\n- 第二条策略没有给出其他预算档位。",
+              "html": "<ul>\n<li>普通三张碑牌允许额外 <strong>1–2</strong> 条随机地图词缀，不全都限定为 2。</li>\n<li>Abyss 的独特／稀有版本是替代关系；作者<strong>未说明独特版本更便宜</strong>，不能当成已证实的省钱方案。</li>\n<li>第二条策略没有给出其他预算档位。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "深渊稀有怪 · Jado 与 Hilda 两条独立配法",
+        "map": "Jado：城市／200%迷雾／T15六至八词；Hilda未单列",
+        "tablets": "Jado：4张每张+2；Hilda：四种碑牌各1",
+        "masters": "Jado 三项 / Hilda 两项，分别查看",
+        "condition": "先分清 Jado 或 Hilda；两条的碑牌、词缀和已说明地图条件不混用。",
+        "selection": "要叠地图词缀的深渊稀有怪配置时查看；先选分支，不把Hilda当作已确认的低配Jado。",
+        "warning": "Jado 分支写 Abysses；Currency Abyss 写 pits，记录中的用词差别保留。Hilda 未单列地图门槛，不继承 Jado 的城市与200%条件。",
+        "blockers": "替换Jado碑牌仍须每张+2随机地图词缀；Hilda不自动套用Jado地图条件。"
+      },
+      "search_text": "# Abyss Rares\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:21 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Breach Rares 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：同一方案包含 Jado abyss 与 Hilda 两条策略；前者每个碑牌都要求额外 2 条随机地图词缀。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n本变体正文明确分为 **Jado abyss** 与 **Hilda** 两条策略，以下分别记录。\n\n## A. Jado abyss\n\n### 地图要求\n\n- **必须跑城市地图**以放入 4 个碑牌，并使用 **Grand Mirror 达到 200% 迷雾**。\n- **T15、6–8 词缀 Waystone**。\n- T16 也可跑，但作者认为通常不会改变掉落；只有把区域推到 **81 级、掉落物品等级 82 的装备**时才有区别，并说明这需要 **+1 碑牌**。正文没有在这句话里进一步写出 +1 的完整词缀名称。\n\n### 碑牌种类与数量\n\n- 基础为 **4×Abyss**；为压低价格，其中 **2 个可以换成其他种类碑牌**。\n- 每个碑牌都要有 **额外 2 条随机地图词缀**，合计 4 份；替换碑牌的许可并没有撤掉这一条件。\n- 作者希望使用**至少 3 词缀的碑牌**。\n\n### 关键词缀\n\n| 份数 | 作者列为必需的配置 |\n| --- | --- |\n| 1 | 每关闭一个 Pit，深渊怪物效果增加 #% ，上限 **100%** |\n| 1 | 地图有 #% 概率包含**额外 4 个 Abysses**；此处原文写 Abysses |\n| 4 | 每个碑牌各带**额外 2 条随机地图词缀** |\n| 1，亦可 2 | 深渊怪物具有 Abyssal Modifiers 的概率增加；作者称测试中表现很好、会一直用至少 1 份 |\n\n- 额外 2 条地图词缀之后，作者最看好的是**稀有怪数量增加**，但明确说不是必需。\n- 其他可选属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果、深渊生成怪物数量增加。\n- 怪物效果在此策略中相对没那么强，因为已有很多；对于“深渊生成怪物数量增加”，作者**不确定具体有多好**，只是认为不会差。\n\n### 大师选项\n\n- **Jado**：Partial translation、unforeseen threats、unexpected mission。\n\n### 实际刷法\n\n1. 将地图做成 **6 词缀**。\n2. 使用 **omen of chaotic effectiveness**；**chaotic quantity 可选**。\n3. 所有地图都腐化。\n4. 理想情况下只跑 8 词缀，但作者认为难以维持供应，因此也跑品质好的 6 词缀地图；T16 可自己跑或卖出。\n\n正文没有另外提供深渊的跑图路线、关闭坑洞的具体顺序或迷雾结束时机。\n\n### 作者提供的减配办法\n\n- 4 个 Abyss 中有 2 个可改用更便宜的其他碑牌；保持每张额外 2 条地图词缀，以及上表需要的深渊属性覆盖。\n- 难以持续获得 8 词缀地图时，接受好的 6 词缀地图。\n- chaotic quantity 是可选投入；T16 可以卖出。\n- 稀有怪数量虽优先级高，但不是必需。\n\n## B. Hilda\n\n### 地图要求\n\n- 第二条策略**没有单独列出地图阶级、词缀数、城市或 200% 迷雾条件**。\n- 上面的城市／200%／T15 地图段位于 Jado 策略之内；页面没有明确说明它是否完整适用于 Hilda，本记录不擅自认定。\n\n### 碑牌种类与数量\n\n- **1×Abyss + 1×Irradiated + 1×Overseer + 1×Breach**，合计 4 个。\n- Abyss 可以使用独特版本替代稀有版本；作者未给独特版本的名称。\n\n### 关键词缀\n\n- Abyss 需要：有概率包含 **4 个 pits**，以及**每关闭一个 pit 增加效果**。此处作者只写 four pits，未单独重复 additional 或上限数值。\n- 其余 **3 个碑牌每张**都需要 **额外 1–2 条随机地图词缀 + 另外 2 条好属性**。\n- 额外 2 条地图词缀之后，作者最看好稀有怪数量增加，但它不是必需。\n- 其他好属性：地图 pack size、怪物稀有度、物品稀有度、怪物效果；怪物效果同样被评为在此策略中相对没那么强。\n\n### 大师选项\n\n- **Hilda**：Breeding season、ancient inscriptions。\n\n### 实际刷法\n\n- 正文仅说明上述大师和混合碑牌配置；**没有为 Hilda 单列制图步骤或跑图操作顺序**。\n\n### 作者提供的减配办法\n\n- 普通三张碑牌允许额外 **1–2** 条随机地图词缀，不全都限定为 2。\n- Abyss 的独特／稀有版本是替代关系；作者**未说明独特版本更便宜**，不能当成已证实的省钱方案。\n- 第二条策略没有给出其他预算档位。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 5,
+        "name": "Abyss Rares",
+        "previous": "Breach Rares",
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+        "observed_at_utc": "2026-09-29T12:08:21.183Z",
+        "observed_at_local": "2026-09-29 20:08:21 CST",
+        "body_changed_from_previous": true,
+        "body_differs_from_expedition": true,
+        "body_snapshot_characters": 2826,
+        "body_snapshot_fnv1a32_utf16": "0b176e13",
+        "distinctive_content_summary": "同一方案包含 Jado abyss 与 Hilda 两条策略；前者每个碑牌都要求额外 2 条随机地图词缀。",
+        "record_file": "05_Abyss_Rares.md"
+      }
+    },
+    "lineage-gems": {
+      "id": "lineage-gems",
+      "name": "Lineage Gems",
+      "zh": "血脉辅助宝石",
+      "filename": "06_Lineage_Gems.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5",
+      "read_time": "2026-09-29 20:08:33 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Lineage Gems\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:33 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Abyss Rares 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：森林独特碑牌／Visions of Paradise；第二轮保留森林；Waystone 掉率影响两种指定物品。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- 正文涉及将地图变为**森林**，未要求特定地图阶级、区域等级、Waystone 词缀总数或迷雾强度。\n- 地图上的 **Waystone drop chance** 会增加 **Rakiata's Flow／Garukhan's Resolve** 的掉率，这是作者明确指出的地图属性关联。\n\n## 碑牌种类与数量\n\n页面的说明顺序为：\n\n1. 使用 **3 个碑牌**，带 **1–2 条随机地图词缀**；能承受难度时希望取 2。\n2. 使用 **1 个森林独特碑牌**；可选用 **Visions of Paradise** 跑一次地图。\n3. 如果用了 Visions of Paradise，第二次运行时地图仍会是森林，因此第二次可改为 **3 个都带额外 2 条随机地图词缀的碑牌**。\n\n**原文的首轮数量关系不够明确**：第 1、2 点没有清楚说明森林独特碑牌是否计入前面的 3 个，也没有明确写要同时用 4 个。本记录保留两条要求，不自行算成首轮 3+1，也不把其中一条删掉。第二轮改用 3 个 +2 词缀碑牌则写得明确。\n\n## 关键词缀\n\n- 碑牌：**1–2 条随机地图词缀**，优先 2 的前提是能承受难度。\n- 地图：**Waystone drop chance**，关联上述两种物品的掉率。\n- 碑牌具体类型（森林独特碑牌之外）、其他优选词缀、掉率数值阈值，正文未给出。\n\n## 大师选项\n\n- **正文未说明。**不套用其他方案的 Jado 或 Hilda 配置。\n\n## 实际刷法\n\n- 作者给出的具体流程是可选的两轮方法：使用 Visions of Paradise 跑一次，利用第二轮仍保持森林的状态，换上 3 个 +2 随机地图词缀碑牌。\n- 正文没有继续说明清图路线、目标怪物处理顺序或宝石筛选方法。\n\n## 作者提供的减配办法\n\n- 碑牌的随机地图词缀允许 **1–2 条**；只有扛得住难度才追求 2 条，因而 1 条是正文允许的难度降低办法。\n- Visions of Paradise 被标为可选；作者没有给出不使用它时的完整首轮组合。\n- 文中没有价格比较，不能把 Visions of Paradise 方法直接称为更便宜。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "c7bf30688157487bd9f920947d59435e16bb870dc56a3143bc22215765d7c5c1",
+      "cases": [
+        {
+          "id": "main",
+          "label": "Lineage Gems",
+          "sections": {
+            "map": {
+              "markdown": "- 正文涉及将地图变为**森林**，未要求特定地图阶级、区域等级、Waystone 词缀总数或迷雾强度。\n- 地图上的 **Waystone drop chance** 会增加 **Rakiata's Flow／Garukhan's Resolve** 的掉率，这是作者明确指出的地图属性关联。",
+              "html": "<ul>\n<li>正文涉及将地图变为<strong>森林</strong>，未要求特定地图阶级、区域等级、Waystone 词缀总数或迷雾强度。</li>\n<li>地图上的 <strong>Waystone drop chance</strong> 会增加 <strong>Rakiata's Flow／Garukhan's Resolve</strong> 的掉率，这是作者明确指出的地图属性关联。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "页面的说明顺序为：\n\n1. 使用 **3 个碑牌**，带 **1–2 条随机地图词缀**；能承受难度时希望取 2。\n2. 使用 **1 个森林独特碑牌**；可选用 **Visions of Paradise** 跑一次地图。\n3. 如果用了 Visions of Paradise，第二次运行时地图仍会是森林，因此第二次可改为 **3 个都带额外 2 条随机地图词缀的碑牌**。\n\n**原文的首轮数量关系不够明确**：第 1、2 点没有清楚说明森林独特碑牌是否计入前面的 3 个，也没有明确写要同时用 4 个。本记录保留两条要求，不自行算成首轮 3+1，也不把其中一条删掉。第二轮改用 3 个 +2 词缀碑牌则写得明确。",
+              "html": "<p>页面的说明顺序为：</p>\n<ol>\n<li>使用 <strong>3 个碑牌</strong>，带 <strong>1–2 条随机地图词缀</strong>；能承受难度时希望取 2。</li>\n<li>使用 <strong>1 个森林独特碑牌</strong>；可选用 <strong>Visions of Paradise</strong> 跑一次地图。</li>\n<li>如果用了 Visions of Paradise，第二次运行时地图仍会是森林，因此第二次可改为 <strong>3 个都带额外 2 条随机地图词缀的碑牌</strong>。</li>\n</ol>\n<p><strong>原文的首轮数量关系不够明确</strong>：第 1、2 点没有清楚说明森林独特碑牌是否计入前面的 3 个，也没有明确写要同时用 4 个。本记录保留两条要求，不自行算成首轮 3+1，也不把其中一条删掉。第二轮改用 3 个 +2 词缀碑牌则写得明确。</p>\n"
+            },
+            "mods": {
+              "markdown": "- 碑牌：**1–2 条随机地图词缀**，优先 2 的前提是能承受难度。\n- 地图：**Waystone drop chance**，关联上述两种物品的掉率。\n- 碑牌具体类型（森林独特碑牌之外）、其他优选词缀、掉率数值阈值，正文未给出。",
+              "html": "<ul>\n<li>碑牌：<strong>1–2 条随机地图词缀</strong>，优先 2 的前提是能承受难度。</li>\n<li>地图：<strong>Waystone drop chance</strong>，关联上述两种物品的掉率。</li>\n<li>碑牌具体类型（森林独特碑牌之外）、其他优选词缀、掉率数值阈值，正文未给出。</li>\n</ul>\n"
+            },
+            "masters": {
+              "markdown": "- **正文未说明。**不套用其他方案的 Jado 或 Hilda 配置。",
+              "html": "<ul>\n<li><strong>正文未说明。</strong>不套用其他方案的 Jado 或 Hilda 配置。</li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "- 作者给出的具体流程是可选的两轮方法：使用 Visions of Paradise 跑一次，利用第二轮仍保持森林的状态，换上 3 个 +2 随机地图词缀碑牌。\n- 正文没有继续说明清图路线、目标怪物处理顺序或宝石筛选方法。",
+              "html": "<ul>\n<li>作者给出的具体流程是可选的两轮方法：使用 Visions of Paradise 跑一次，利用第二轮仍保持森林的状态，换上 3 个 +2 随机地图词缀碑牌。</li>\n<li>正文没有继续说明清图路线、目标怪物处理顺序或宝石筛选方法。</li>\n</ul>\n"
+            },
+            "budget": {
+              "markdown": "- 碑牌的随机地图词缀允许 **1–2 条**；只有扛得住难度才追求 2 条，因而 1 条是正文允许的难度降低办法。\n- Visions of Paradise 被标为可选；作者没有给出不使用它时的完整首轮组合。\n- 文中没有价格比较，不能把 Visions of Paradise 方法直接称为更便宜。",
+              "html": "<ul>\n<li>碑牌的随机地图词缀允许 <strong>1–2 条</strong>；只有扛得住难度才追求 2 条，因而 1 条是正文允许的难度降低办法。</li>\n<li>Visions of Paradise 被标为可选；作者没有给出不使用它时的完整首轮组合。</li>\n<li>文中没有价格比较，不能把 Visions of Paradise 方法直接称为更便宜。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "森林相关 · 血脉辅助宝石方向",
+        "map": "森林；Waystone drop chance 的关联按作者记录",
+        "tablets": "首轮数量关系有歧义；第二轮明确3张各+2",
+        "masters": "正文未说明；历史图标另列",
+        "condition": "先确认森林首轮碑牌槽位关系；不要按未经确认的3+1组合采购。",
+        "selection": "要研究森林与该类掉落时查看；首轮组合未明确，只能确认记录中第二轮的3张+2配法。",
+        "warning": "首轮“3个随机词缀碑牌”和“1个森林独特碑牌”是否相包含，原文没说清。不能算成确定3+1。",
+        "blockers": "首轮槽位关系未明确；Visions of Paradise是可选，不代表已证明更便宜。"
+      },
+      "search_text": "# Lineage Gems\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:33 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Abyss Rares 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：森林独特碑牌／Visions of Paradise；第二轮保留森林；Waystone 掉率影响两种指定物品。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- 正文涉及将地图变为**森林**，未要求特定地图阶级、区域等级、Waystone 词缀总数或迷雾强度。\n- 地图上的 **Waystone drop chance** 会增加 **Rakiata's Flow／Garukhan's Resolve** 的掉率，这是作者明确指出的地图属性关联。\n\n## 碑牌种类与数量\n\n页面的说明顺序为：\n\n1. 使用 **3 个碑牌**，带 **1–2 条随机地图词缀**；能承受难度时希望取 2。\n2. 使用 **1 个森林独特碑牌**；可选用 **Visions of Paradise** 跑一次地图。\n3. 如果用了 Visions of Paradise，第二次运行时地图仍会是森林，因此第二次可改为 **3 个都带额外 2 条随机地图词缀的碑牌**。\n\n**原文的首轮数量关系不够明确**：第 1、2 点没有清楚说明森林独特碑牌是否计入前面的 3 个，也没有明确写要同时用 4 个。本记录保留两条要求，不自行算成首轮 3+1，也不把其中一条删掉。第二轮改用 3 个 +2 词缀碑牌则写得明确。\n\n## 关键词缀\n\n- 碑牌：**1–2 条随机地图词缀**，优先 2 的前提是能承受难度。\n- 地图：**Waystone drop chance**，关联上述两种物品的掉率。\n- 碑牌具体类型（森林独特碑牌之外）、其他优选词缀、掉率数值阈值，正文未给出。\n\n## 大师选项\n\n- **正文未说明。**不套用其他方案的 Jado 或 Hilda 配置。\n\n## 实际刷法\n\n- 作者给出的具体流程是可选的两轮方法：使用 Visions of Paradise 跑一次，利用第二轮仍保持森林的状态，换上 3 个 +2 随机地图词缀碑牌。\n- 正文没有继续说明清图路线、目标怪物处理顺序或宝石筛选方法。\n\n## 作者提供的减配办法\n\n- 碑牌的随机地图词缀允许 **1–2 条**；只有扛得住难度才追求 2 条，因而 1 条是正文允许的难度降低办法。\n- Visions of Paradise 被标为可选；作者没有给出不使用它时的完整首轮组合。\n- 文中没有价格比较，不能把 Visions of Paradise 方法直接称为更便宜。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 6,
+        "name": "Lineage Gems",
+        "previous": "Abyss Rares",
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5",
+        "observed_at_utc": "2026-09-29T12:08:33.107Z",
+        "observed_at_local": "2026-09-29 20:08:33 CST",
+        "body_changed_from_previous": true,
+        "body_differs_from_expedition": true,
+        "body_snapshot_characters": 542,
+        "body_snapshot_fnv1a32_utf16": "37e8a6cf",
+        "distinctive_content_summary": "森林独特碑牌／Visions of Paradise；第二轮保留森林；Waystone 掉率影响两种指定物品。",
+        "record_file": "06_Lineage_Gems.md"
+      }
+    },
+    "deli-rush": {
+      "id": "deli-rush",
+      "name": "Deli Rush",
+      "zh": "迷雾 · 速刷",
+      "filename": "07_Deli_Rush.md",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6",
+      "read_time": "2026-09-29 20:08:39 CST",
+      "page_updated": "2026-09-10",
+      "source_type": "用户上传的浏览器读取记录（中文归纳）；不是完整英文网页或新一轮独立实测",
+      "raw_markdown": "# Deli Rush\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:39 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Lineage Gems 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：3 个迷雾碑牌；6 词缀地图；沿途做奖励点，击杀 Boss 后才能结束迷雾。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **6 词缀 Waystone**，目的是能使用 3 个碑牌；作者明确说不在意具体地图词缀。\n- 正文没有规定城市地图、200% 迷雾、T15 或最低区域等级。\n- 作者建议腐化地图，并把得到的 T16 卖掉以增加收益。\n\n## 碑牌种类与数量\n\n- **3×Delirium tablets（迷雾碑牌）**。\n- 可以炼金后直接跑，也可选择特定词缀提高收益。\n\n## 关键词缀\n\n| 属性 | 数值 | 作者判断 |\n| --- | --- | --- |\n| 地图掉落的 Simulacrum Splinters 堆叠数量增加 | **15–30%** | 好属性 |\n| 地图迷雾遭遇生成独特 Boss 的可能性增加 | **15–30%** | 好属性 |\n| 迷雾生成 Fracturing Mirrors 的数量增加 | **15–30%** | **作者不确定强度**；只有确实能增加获得的奖励量时才认为好 |\n\n第三项不能与前两项一起写成作者已确定推荐的同等优先级。\n\n## 大师选项\n\n- **正文未说明。**\n\n## 实际刷法\n\n1. 往地图 Boss 前进。\n2. 尽量完成**沿途全部迷雾奖励点（reward tiles）**。\n3. **击杀地图 Boss 之后，才结束迷雾遭遇。**这是作者明确提醒的结束条件。\n\n## 作者提供的减配办法\n\n- 3 个迷雾碑牌可直接炼金后开刷，不必追指定词缀。\n- 地图只需满足 6 词缀，不追特定属性。\n- 腐化后售卖 T16 是作者给出的额外收益办法；未给售价或收益保证。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "source_sha256": "1e205541f38f2a7ad7baeede5b0354dc0cdb5a9c435f9566f9b0a79f0037aeed",
+      "cases": [
+        {
+          "id": "main",
+          "label": "Deli Rush",
+          "sections": {
+            "map": {
+              "markdown": "- **6 词缀 Waystone**，目的是能使用 3 个碑牌；作者明确说不在意具体地图词缀。\n- 正文没有规定城市地图、200% 迷雾、T15 或最低区域等级。\n- 作者建议腐化地图，并把得到的 T16 卖掉以增加收益。",
+              "html": "<ul>\n<li><strong>6 词缀 Waystone</strong>，目的是能使用 3 个碑牌；作者明确说不在意具体地图词缀。</li>\n<li>正文没有规定城市地图、200% 迷雾、T15 或最低区域等级。</li>\n<li>作者建议腐化地图，并把得到的 T16 卖掉以增加收益。</li>\n</ul>\n"
+            },
+            "tablets": {
+              "markdown": "- **3×Delirium tablets（迷雾碑牌）**。\n- 可以炼金后直接跑，也可选择特定词缀提高收益。",
+              "html": "<ul>\n<li><strong>3×Delirium tablets（迷雾碑牌）</strong>。</li>\n<li>可以炼金后直接跑，也可选择特定词缀提高收益。</li>\n</ul>\n"
+            },
+            "mods": {
+              "markdown": "| 属性 | 数值 | 作者判断 |\n| --- | --- | --- |\n| 地图掉落的 Simulacrum Splinters 堆叠数量增加 | **15–30%** | 好属性 |\n| 地图迷雾遭遇生成独特 Boss 的可能性增加 | **15–30%** | 好属性 |\n| 迷雾生成 Fracturing Mirrors 的数量增加 | **15–30%** | **作者不确定强度**；只有确实能增加获得的奖励量时才认为好 |\n\n第三项不能与前两项一起写成作者已确定推荐的同等优先级。",
+              "html": "<table>\n<thead>\n<tr>\n  <th>属性</th>\n  <th>数值</th>\n  <th>作者判断</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>地图掉落的 Simulacrum Splinters 堆叠数量增加</td>\n  <td><strong>15–30%</strong></td>\n  <td>好属性</td>\n</tr>\n<tr>\n  <td>地图迷雾遭遇生成独特 Boss 的可能性增加</td>\n  <td><strong>15–30%</strong></td>\n  <td>好属性</td>\n</tr>\n<tr>\n  <td>迷雾生成 Fracturing Mirrors 的数量增加</td>\n  <td><strong>15–30%</strong></td>\n  <td><strong>作者不确定强度</strong>；只有确实能增加获得的奖励量时才认为好</td>\n</tr>\n</tbody>\n</table>\n<p>第三项不能与前两项一起写成作者已确定推荐的同等优先级。</p>\n"
+            },
+            "masters": {
+              "markdown": "- **正文未说明。**",
+              "html": "<ul>\n<li><strong>正文未说明。</strong></li>\n</ul>\n"
+            },
+            "play": {
+              "markdown": "1. 往地图 Boss 前进。\n2. 尽量完成**沿途全部迷雾奖励点（reward tiles）**。\n3. **击杀地图 Boss 之后，才结束迷雾遭遇。**这是作者明确提醒的结束条件。",
+              "html": "<ol>\n<li>往地图 Boss 前进。</li>\n<li>尽量完成<strong>沿途全部迷雾奖励点（reward tiles）</strong>。</li>\n<li><strong>击杀地图 Boss 之后，才结束迷雾遭遇。</strong>这是作者明确提醒的结束条件。</li>\n</ol>\n"
+            },
+            "budget": {
+              "markdown": "- 3 个迷雾碑牌可直接炼金后开刷，不必追指定词缀。\n- 地图只需满足 6 词缀，不追特定属性。\n- 腐化后售卖 T16 是作者给出的额外收益办法；未给售价或收益保证。",
+              "html": "<ul>\n<li>3 个迷雾碑牌可直接炼金后开刷，不必追指定词缀。</li>\n<li>地图只需满足 6 词缀，不追特定属性。</li>\n<li>腐化后售卖 T16 是作者给出的额外收益办法；未给售价或收益保证。</li>\n</ul>\n"
+            }
+          }
+        }
+      ],
+      "summary": {
+        "goal": "迷雾奖励点 → 地图首领 → 结束迷雾",
+        "map": "6词缀；不挑具体词缀；正文未指定T级或200%",
+        "tablets": "3 × Delirium；允许炼金后直接跑",
+        "masters": "正文未说明；历史图标另列",
+        "condition": "能提供六词地图和3张迷雾碑牌，并完成先杀地图Boss的结束条件。",
+        "selection": "希望先看正文明确允许“碑牌炼金即用、不追地图具体词缀”的流程时，可查看此套；这不是收益或难度排名。",
+        "warning": "先击杀地图Boss，再结束迷雾。Fracturing Mirrors的收益作者仍不确定，不与另外两条并列为确定必选。",
+        "blockers": "正文未写大师；不移入其他方案的Jado必选、T15或200%迷雾要求。"
+      },
+      "search_text": "# Deli Rush\n\n来源：[Fubgun — Fubgun Atlas Tree and Strats for 0.5](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6)；[攻略首页](https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats)。\n\n页面显示更新：2026-09-10。实际读取：2026-09-29 20:08:39 CST。仅提取作者的 Atlas Tree Variants 正文，未把评论区意见并入作者策略。\n\n点击核验：从 Lineage Gems 实际点击切换；名称已选中，正文与上一套及 Expedition 基准均不同。\n\n识别本套正文的特征：3 个迷雾碑牌；6 词缀地图；沿途做奖励点，击杀 Boss 后才能结束迷雾。\n\n中文为归纳，英文专名用于核对。必需、可选、建议、不确定及未说明之处均按本方案分别保留；未另行检验当前游戏机制、行情或收益。\n\n## 地图要求\n\n- **6 词缀 Waystone**，目的是能使用 3 个碑牌；作者明确说不在意具体地图词缀。\n- 正文没有规定城市地图、200% 迷雾、T15 或最低区域等级。\n- 作者建议腐化地图，并把得到的 T16 卖掉以增加收益。\n\n## 碑牌种类与数量\n\n- **3×Delirium tablets（迷雾碑牌）**。\n- 可以炼金后直接跑，也可选择特定词缀提高收益。\n\n## 关键词缀\n\n| 属性 | 数值 | 作者判断 |\n| --- | --- | --- |\n| 地图掉落的 Simulacrum Splinters 堆叠数量增加 | **15–30%** | 好属性 |\n| 地图迷雾遭遇生成独特 Boss 的可能性增加 | **15–30%** | 好属性 |\n| 迷雾生成 Fracturing Mirrors 的数量增加 | **15–30%** | **作者不确定强度**；只有确实能增加获得的奖励量时才认为好 |\n\n第三项不能与前两项一起写成作者已确定推荐的同等优先级。\n\n## 大师选项\n\n- **正文未说明。**\n\n## 实际刷法\n\n1. 往地图 Boss 前进。\n2. 尽量完成**沿途全部迷雾奖励点（reward tiles）**。\n3. **击杀地图 Boss 之后，才结束迷雾遭遇。**这是作者明确提醒的结束条件。\n\n## 作者提供的减配办法\n\n- 3 个迷雾碑牌可直接炼金后开刷，不必追指定词缀。\n- 地图只需满足 6 词缀，不追特定属性。\n- 腐化后售卖 T16 是作者给出的额外收益办法；未给售价或收益保证。\n\n[返回阅读总览](00_阅读总览.md)\n",
+      "click_record": {
+        "sequence": 7,
+        "name": "Deli Rush",
+        "previous": "Lineage Gems",
+        "actual_click_performed": true,
+        "selected": true,
+        "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6",
+        "observed_at_utc": "2026-09-29T12:08:39.458Z",
+        "observed_at_local": "2026-09-29 20:08:39 CST",
+        "body_changed_from_previous": true,
+        "body_differs_from_expedition": true,
+        "body_snapshot_characters": 902,
+        "body_snapshot_fnv1a32_utf16": "174c19e4",
+        "distinctive_content_summary": "3 个迷雾碑牌；6 词缀地图；沿途做奖励点，击杀 Boss 后才能结束迷雾。",
+        "record_file": "07_Deli_Rush.md"
+      }
+    }
+  },
+  "audit": {
+    "source_zip": "Fubgun_七套Atlas方案_2026-09-29.zip",
+    "source_sha256": "304cf6809a5d52431da6ec7700a518e6ff9d7eb79d8081bfac9f9fc4fb986d85",
+    "source_type": "用户提供的中文归纳与切换核验记录",
+    "seven_records_loaded": true,
+    "audit": {
+      "source_title": "Fubgun Atlas Tree and Strats for 0.5",
+      "author": "Fubgun",
+      "page_updated_as_displayed": "Sep 10, 2026",
+      "source_url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+      "read_date_local": "2026-09-29",
+      "timezone": "Asia/Shanghai",
+      "method": "在 Codex 内置浏览器实际点击 Atlas Tree Variants 中的七个选项。每次读取选中状态；对比 Atlas Tree Variants 正文的 paragraph 节点，边界截止到下一节 Atlas Tree，排除选项名称、天赋树及评论。",
+      "first_variant_note": "Expedition 初始即选中，仍实际点击后建立正文基准；不声称它相较于自己发生变化。",
+      "total": 7,
+      "all_names_selected": true,
+      "distinct_bodies": 7,
+      "all_six_transitions_changed_name_and_body": true,
+      "all_six_nondefault_bodies_differ_from_expedition": true,
+      "fingerprint_note": "对浏览器 DOM snapshot 中正文段落序列按 UTF-16 code unit 计算 FNV-1a 32 位；字符数含 snapshot 格式标记，不是自然正文的字数。指纹用于区分本次观察，不是签名或来源真实性认证。未保存网页正文全文。",
+      "variants": [
+        {
+          "sequence": 1,
+          "name": "Expedition",
+          "previous": null,
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+          "observed_at_utc": "2026-09-29T12:07:28.542Z",
+          "observed_at_local": "2026-09-29 20:07:28 CST",
+          "body_changed_from_previous": null,
+          "body_differs_from_expedition": null,
+          "body_snapshot_characters": 3397,
+          "body_snapshot_fnv1a32_utf16": "edfa9dc5",
+          "distinctive_content_summary": "3 个辐照碑牌；Grand Expedition 符文选择、Opulent 与终段 7+ 符文组合。",
+          "record_file": "01_Expedition.md"
+        },
+        {
+          "sequence": 2,
+          "name": "Ritual Belts",
+          "previous": "Expedition",
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant",
+          "observed_at_utc": "2026-09-29T12:07:54.414Z",
+          "observed_at_local": "2026-09-29 20:07:54 CST",
+          "body_changed_from_previous": true,
+          "body_differs_from_expedition": true,
+          "body_snapshot_characters": 1224,
+          "body_snapshot_fnv1a32_utf16": "6d04b949",
+          "distinctive_content_summary": "Freedom of Faith + 3 个祭祀碑牌；T15、6 词缀、区域等级 79；刷新 Tribute 减耗必需。",
+          "record_file": "02_Ritual_Belts.md"
+        },
+        {
+          "sequence": 3,
+          "name": "Currency Abyss",
+          "previous": "Ritual Belts",
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1",
+          "observed_at_utc": "2026-09-29T12:08:02.391Z",
+          "observed_at_local": "2026-09-29 20:08:02 CST",
+          "body_changed_from_previous": true,
+          "body_differs_from_expedition": true,
+          "body_snapshot_characters": 495,
+          "body_snapshot_fnv1a32_utf16": "1bb825c2",
+          "distinctive_content_summary": "深渊坑出现奖励的可能性加倍；额外 4 个 abyss pits；第三张可换 +1 Rogue Exile 的 Overseer。",
+          "record_file": "03_Currency_Abyss.md"
+        },
+        {
+          "sequence": 4,
+          "name": "Breach Rares",
+          "previous": "Currency Abyss",
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+          "observed_at_utc": "2026-09-29T12:08:19.666Z",
+          "observed_at_local": "2026-09-29 20:08:19 CST",
+          "body_changed_from_previous": true,
+          "body_differs_from_expedition": true,
+          "body_snapshot_characters": 1104,
+          "body_snapshot_fnv1a32_utf16": "5daa49b4",
+          "distinctive_content_summary": "3 个普通裂隙碑牌 + 1 个独特裂隙碑牌；城市、Grand Mirror、200% 迷雾。",
+          "record_file": "04_Breach_Rares.md"
+        },
+        {
+          "sequence": 5,
+          "name": "Abyss Rares",
+          "previous": "Breach Rares",
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+          "observed_at_utc": "2026-09-29T12:08:21.183Z",
+          "observed_at_local": "2026-09-29 20:08:21 CST",
+          "body_changed_from_previous": true,
+          "body_differs_from_expedition": true,
+          "body_snapshot_characters": 2826,
+          "body_snapshot_fnv1a32_utf16": "0b176e13",
+          "distinctive_content_summary": "同一方案包含 Jado abyss 与 Hilda 两条策略；前者每个碑牌都要求额外 2 条随机地图词缀。",
+          "record_file": "05_Abyss_Rares.md"
+        },
+        {
+          "sequence": 6,
+          "name": "Lineage Gems",
+          "previous": "Abyss Rares",
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5",
+          "observed_at_utc": "2026-09-29T12:08:33.107Z",
+          "observed_at_local": "2026-09-29 20:08:33 CST",
+          "body_changed_from_previous": true,
+          "body_differs_from_expedition": true,
+          "body_snapshot_characters": 542,
+          "body_snapshot_fnv1a32_utf16": "37e8a6cf",
+          "distinctive_content_summary": "森林独特碑牌／Visions of Paradise；第二轮保留森林；Waystone 掉率影响两种指定物品。",
+          "record_file": "06_Lineage_Gems.md"
+        },
+        {
+          "sequence": 7,
+          "name": "Deli Rush",
+          "previous": "Lineage Gems",
+          "actual_click_performed": true,
+          "selected": true,
+          "source_url_after_click": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6",
+          "observed_at_utc": "2026-09-29T12:08:39.458Z",
+          "observed_at_local": "2026-09-29 20:08:39 CST",
+          "body_changed_from_previous": true,
+          "body_differs_from_expedition": true,
+          "body_snapshot_characters": 902,
+          "body_snapshot_fnv1a32_utf16": "174c19e4",
+          "distinctive_content_summary": "3 个迷雾碑牌；6 词缀地图；沿途做奖励点，击杀 Boss 后才能结束迷雾。",
+          "record_file": "07_Deli_Rush.md"
+        }
+      ]
+    },
+    "verification_boundary": "本轮核对文件内容、对应关系和页面呈现；切换记录由上传材料提供，未重新操作原网站，也不能用记录指纹重算未保存的DOM全文。"
+  }
+}

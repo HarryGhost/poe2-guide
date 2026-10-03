@@ -1,0 +1,2722 @@
+{
+  "views": [
+    {
+      "route": "item/bow?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e01&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e01&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e01&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e02&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e02&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e02&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e03&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e03&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e03&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e04&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e04&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e04&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e05&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e05&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e05&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/bow?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/helmet?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/body?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/gloves?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/boots?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/amulet?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring1?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/ring2?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/belt?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/weapon2?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/quiver2?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/life_flask?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/mana_flask?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm1?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm2?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/charm3?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e06&tab=target",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e06&tab=craft",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "item/jewels?stage=e06&tab=finish",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/expedition?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/expedition?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/expedition?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/expedition?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/expedition?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/expedition?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=masters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=setup",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=play",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=source",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=common",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=material",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=biome",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=abyss",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=ritual",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=breach",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=delirium",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-choices?group=expedition",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-starter?tab=route",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-starter?tab=tree",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-starter?tab=choices",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "atlas-starter?tab=rules",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "guide",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "supplies",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "craft-timing",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "character",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "jewels",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "gems",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "special-jewels",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "special-gems",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "tools/filters",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    },
+    {
+      "route": "coverage",
+      "error": false,
+      "dupes": [],
+      "dead": [],
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

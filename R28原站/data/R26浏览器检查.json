@@ -1,0 +1,119 @@
+{
+  "real_navigation": {
+    "file": {
+      "passed": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r26_work/poe2_Fubgun_C_R25/atlas-images.html"
+    },
+    "http": {
+      "passed": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:41451/atlas-images.html"
+    }
+  },
+  "render_method": "in-memory, local files inlined; test-only localStorage shim",
+  "tests": [
+    {
+      "scheme": "expedition",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "scheme": "ritual-belts",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "scheme": "currency-abyss",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "scheme": "breach-rares",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "scheme": "abyss-rares",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "scheme": "lineage-gems",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "scheme": "deli-rush",
+      "image_and_three_panels_synchronized": true
+    },
+    {
+      "eight_expedition_effects": "present",
+      "partial_translations_052": "0–40% verified in UI"
+    },
+    {
+      "zoom_and_dialog_escape": true
+    },
+    {
+      "tab_arrow_keyboard": true
+    },
+    {
+      "equipment_stage_switch_and_first_screen_table": true
+    }
+  ],
+  "page_errors": [],
+  "screens": [
+    {
+      "page": "atlas-images",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "atlas-images",
+      "width": 1920,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "atlas-images",
+      "width": 390,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "atlas-images",
+      "width": 768,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "atlas-unlock.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "atlas-reference.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "atlas-sources.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "e01.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    },
+    {
+      "page": "filters.html",
+      "width": 1366,
+      "horizontal_overflow": false
+    }
+  ]
+}

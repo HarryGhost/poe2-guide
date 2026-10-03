@@ -1,0 +1,1408 @@
+{
+  "version": "R28",
+  "date": "2026-09-29",
+  "checks": [
+    {
+      "name": "保留R27全部62个网页",
+      "passed": true,
+      "detail": "62"
+    },
+    {
+      "name": "23份原构筑/过滤器/七张原图保持字节",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "R27原有文件没有丢弃",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "静态ID不重复",
+      "passed": true,
+      "detail": "{}"
+    },
+    {
+      "name": "所有本地文件引用存在",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "强化页旧静态锚点兼容",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "旧锚点由现有动态路由覆盖",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "12阶段 × 18栏位覆盖",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "所有栏位包含材料方向/操作/验证/禁用",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "06全部操作标只读",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "两枚戒指/两药/三咒符独立",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "催化剂13类，区分精炼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "增幅物ID唯一",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "材料用途仅指向允许部位",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "不同部位灵核效果分离",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "高级钢铁为18%而非18%更多",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "护盾头不是误标作者指定孔位",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "人物珠宝补精炼催化",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "咒符没有盲用玻璃弹珠",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "四步结构 index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "四步结构 equipment.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "四步结构 craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "四步结构 runes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "四步结构 finish-check.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e01/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e02/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e03/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e04/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e05/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/bow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/quiver",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/helmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/body",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/gloves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/boots",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/amulet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/belt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/ring1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/ring2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/flasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/charms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/jewels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "装备详细页带到正确强化位 e06/weapon2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JS语法 equipment-finish-r28.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JS语法 equipment-bridge.js",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "local_reference_count": 7688,
+  "missing_files": [],
+  "duplicate_ids": {},
+  "new_anchor_failures": [],
+  "legacy_unresolved_fragments": [
+    [
+      "craft-examples.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "craft-examples.html",
+      "craft.html#early-body"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-body"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-charms"
+    ],
+    [
+      "craft-steps-all.html",
+      "craft.html#early-jewels"
+    ],
+    [
+      "e01.html",
+      "equipment.html#e01"
+    ],
+    [
+      "e01.html",
+      "equipment.html#e01"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-body"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-body"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e01.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "e02.html",
+      "equipment.html#e02"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-body"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e02.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "e03.html",
+      "equipment.html#e03"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-body"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e03.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "e04.html",
+      "equipment.html#e04"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-body"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e04.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "e05.html",
+      "equipment.html#e05"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-body"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "e05.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "filters.html",
+      "equipment.html#e01"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l01.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l02.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l03.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l04.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l05.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-body"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "l06.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-bow"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-quiver"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-body"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-body"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-body"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-body"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-helmet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-gloves"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-boots"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-amulet"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-rings"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-belt"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-flasks"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-charms"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-charms"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-charms"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-charms"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-jewels"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-jewels"
+    ],
+    [
+      "prepare-all.html",
+      "craft.html#early-jewels"
+    ],
+    [
+      "runes.html",
+      "equipment.html#e01"
+    ]
+  ],
+  "protected_count": 23,
+  "legacy_dynamic_fragment_count": 216,
+  "unclassified_legacy_fragments": [],
+  "html_pages": 62,
+  "record_count": 216,
+  "catalogue_augments": 48,
+  "passed": true
+}

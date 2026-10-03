@@ -1,0 +1,259 @@
+{
+  "mode": "layout",
+  "checks": [
+    {
+      "check": "主页有装备目标",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "页面不横向溢出 gear1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id gear1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 tools/filters1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id tools/filters1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-guide1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-guide1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-check1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-check1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 learn/ascendancy1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id learn/ascendancy1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 item/helmet1366",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id item/helmet1366",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 gear1920",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id gear1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 tools/filters1920",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id tools/filters1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-guide1920",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-guide1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-check1920",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-check1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 learn/ascendancy1920",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id learn/ascendancy1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 item/helmet1920",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id item/helmet1920",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 gear768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id gear768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 tools/filters768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id tools/filters768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-guide768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-guide768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-check768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-check768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 learn/ascendancy768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id learn/ascendancy768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 item/helmet768",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id item/helmet768",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 gear390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id gear390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 tools/filters390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id tools/filters390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-guide390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-guide390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 filter-check390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id filter-check390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 learn/ascendancy390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id learn/ascendancy390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "页面不横向溢出 item/helmet390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无重复id item/helmet390",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "无JS运行错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": 50,
+  "failed": 0,
+  "method": "Chromium about:blank; generated HTML/CSS/JS inlined, original image URLs served from local files via a virtual base/request handler. No online deployment or game-client validation. Direct navigation separately blocked."
+}

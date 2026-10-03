@@ -1,0 +1,204 @@
+{
+  "version": "R28",
+  "date": "2026-09-29",
+  "baseline": "R27",
+  "scope": "逐件强化、兼容链接与结构增量整理",
+  "status": "本轮检查通过；非客户端/部署验证",
+  "static_checks": 105,
+  "browser_checks": 281,
+  "pages": 62,
+  "local_references": 7688,
+  "protected_files": 23,
+  "records": 216,
+  "augments": 48,
+  "catalyst_types": 13,
+  "rebuild_outputs": 127,
+  "rebuild_identical": true,
+  "viewports": [
+    {
+      "page": "runes.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "runes.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "finish-check.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "runes-all.html",
+      "width": 390,
+      "overflow": false
+    }
+  ],
+  "navigation": {
+    "file": {
+      "success": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r28_work/poe2_Fubgun_C_R28/runes.html"
+    },
+    "http": {
+      "success": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:37377/runes.html"
+    }
+  },
+  "render_method": "memory rendering, original local JS/CSS/images inlined; not deployment testing",
+  "source_dataset": "R28强化覆盖矩阵.json",
+  "details": [
+    "R28静态与内容检查.json",
+    "R28浏览器检查.json",
+    "R28重建一致性.json"
+  ],
+  "boundaries": [
+    "Fubgun未取得的逐孔排布不冒充作者指定",
+    "06原始冲突继续只读",
+    "高风险特殊工艺未逐项实战",
+    "部分Atlas正文与人物天赋旧缺项保留",
+    "未验证国服客户端导入或实际部署"
+  ],
+  "passed": true
+}

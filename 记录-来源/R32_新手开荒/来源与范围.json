@@ -1,0 +1,69 @@
+{
+  "title": "R32 新手异界开荒：来源与范围",
+  "baseline": "R31",
+  "checked": "2026-09-29",
+  "author_guide": {
+    "url": "https://mobalytics.gg/poe-2/guides/endgame-atlas-progression-guide",
+    "author": "Lazy Exile",
+    "updated": "2026-09-09",
+    "sections": [
+      "Atlas Basics",
+      "To the Fortress",
+      "Arbiter Questline",
+      "Arbiter of Divinity Questline",
+      "Unlocking All Atlas Points"
+    ]
+  },
+  "official_notes": [
+    {
+      "title": "点数与退点",
+      "text": "GGG 0.5.0：首塔解锁要塞；要塞地图授予主树点，最终可取得足够点数。普通主树不提供重置，多选节点可以切换选项。",
+      "url": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff"
+    },
+    {
+      "title": "“第二次击杀”的准确条件",
+      "text": "作者用“第二次击杀”概括后续进程。GGG 0.5.5 的条件是使用非任务版 Origin Core 击败神性仲裁者，为地图拥有者完成整个要塞；任务版不会自动完成要塞区段。",
+      "url": "https://www.pathofexile.com/forum/view-thread/4000864/filter-account-type/staff"
+    },
+    {
+      "title": "玩法与大师另行解锁",
+      "text": "GGG 将玩法任务、专用树和大师任务分开设置。取得主树点，不等于已经解锁七套刷法的全部大师选项和玩法配置。",
+      "url": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff"
+    }
+  ],
+  "images": [
+    {
+      "id": "start",
+      "title": "① 起步图",
+      "stage": "刚开始获得主树点",
+      "description": "按红色 1 → 2 → 3 的目标顺序看连接路径；数字不是消耗点数。",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20195211.png",
+      "width": 1000,
+      "height": 559,
+      "local": false
+    },
+    {
+      "id": "progress",
+      "title": "② 继续推进",
+      "stage": "继续向上方节点推进",
+      "description": "保留作者的原图，不另画连线，不补造每颗节点的名称。",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20155824.png",
+      "width": 849,
+      "height": 874,
+      "local": false
+    },
+    {
+      "id": "late",
+      "title": "③ 后期参考",
+      "stage": "点数更多后再查，不是起步图",
+      "description": "红叉保留作者原标注；Man Trap 故障说法和金币点评价仅代表其写作时判断，未据此认定现版本仍有故障。",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20164951.png",
+      "width": 922,
+      "height": 990,
+      "local": false
+    }
+  ],
+  "scope": "异界主树开荒与推进；不是人物 BD，也不是 Fubgun 刷取方案。",
+  "boundaries": "本页为作者开荒路线的短摘要和原图入口，不是全文翻译、可导入节点数据或实战保证。规则校注与本站衔接说明独立标明。",
+  "image_delivery": "已通过网页工具逐张查看原图；容器下载因网络解析失败，图片未嵌入离线包。点击后联网加载，失败可打开原图。"
+}

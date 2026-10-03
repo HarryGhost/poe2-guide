@@ -1,0 +1,20 @@
+/* R23 follows the existing C palette. Source images are loaded only after a user action. */
+.r23-label{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.07em;padding:4px 8px;border:1px solid var(--line,#d9e0e6);border-radius:5px;background:var(--paper,#f5f8fb);color:var(--muted,#5b6a78)}
+.r23-gallery,.r23-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:14px 0}
+.r23-figure{margin:16px 0;background:#fff;border:1px solid var(--line,#d9e0e6);border-radius:12px;padding:17px;min-width:0;overflow:hidden;scroll-margin-top:132px}
+.r23-gallery .r23-figure{margin:0;align-self:start}.r23-figure h3,.r23-guide-card h3{font-size:18px;line-height:1.5;margin:8px 0}.r23-figure p{line-height:1.7;margin:8px 0;font-size:13px}
+.r23-picture{border-radius:8px;background:#f0f4f7;border:1px solid #dbe3e9;overflow:hidden;min-height:185px;display:flex;align-items:center;justify-content:center;margin:12px 0}
+.r23-online-note{text-align:center;padding:24px 16px;max-width:560px}.r23-picture-word{font-weight:800;font-size:26px;color:#1d344a;letter-spacing:.08em}.r23-online-note .small{font-size:12px;color:#647487}
+.r23-picture img{width:100%;height:auto;display:block;max-height:620px;object-fit:contain;background:#0b0d0f;cursor:zoom-in}.r23-picture img[hidden],.r23-online-note[hidden]{display:none!important}
+.r23-compact{padding:14px}.r23-compact .r23-picture{min-height:150px}.r23-compact .r23-picture img{max-height:480px}
+.r23-reading{border-left:3px solid #9dafbe;padding-left:12px;margin-top:10px}.r23-reading p:last-child{color:#5d6875}
+.r23-picture-actions{display:flex;align-items:center;flex-wrap:wrap;gap:9px 15px;font-size:12px}.r23-picture-actions a{text-decoration:underline;text-underline-offset:3px}.r23-picture-actions button{font-size:12px}
+.r23-image-status{font-size:12px!important;color:#5e6b78;min-height:18px}.r23-image-status[data-state=failed]{color:#9b4b17}
+.r23-online-bar{display:flex;gap:16px;align-items:center;justify-content:space-between;background:#eef4f8;border:1px solid #d9e5ee;border-radius:10px;padding:14px 18px;margin:14px 0}.r23-online-bar p{margin:4px 0 0;font-size:12px;color:#546576}.r23-online-bar button{flex-shrink:0}
+.r23-guide-card{padding:16px;border:1px solid var(--line,#d9e0e6);border-radius:10px;background:#fff;min-width:0;scroll-margin-top:130px}.r23-guide-card p{font-size:13px;line-height:1.7;margin:8px 0}.r23-caution{color:#755438;border-left:2px solid #dfc6a9;padding-left:9px}
+.r23-image-dialog{width:min(1240px,94vw);max-width:94vw;max-height:94vh;padding:16px;border:1px solid #9bacba;border-radius:12px;box-shadow:0 22px 70px #10223755;background:#fff}.r23-image-dialog::backdrop{background:#0c182ed6}.r23-viewer-head{display:flex;align-items:center;justify-content:space-between;gap:14px}.r23-viewer-head h2{margin:0;font-size:18px}.r23-viewer-head>div{display:flex;gap:8px;flex-wrap:wrap}.r23-viewer-head button{font-size:12px}
+.r23-viewer-scroll{max-height:72vh;overflow:auto;background:#101213;border-radius:7px;border:1px solid #d7dfe7}.r23-viewer-scroll img{display:block;width:100%;height:auto;max-width:none;min-width:0;object-fit:contain;user-select:none}
+.eg-tabs{flex-wrap:wrap}.eg-side-group .stage-link{padding-top:7px;padding-bottom:7px}.eg-box[id],.r23-figure[id]{scroll-margin-top:135px}
+@media(min-width:1700px){.r23-compact .r23-picture img{max-height:540px}}
+@media(max-width:900px){.r23-gallery,.r23-guide-grid{grid-template-columns:1fr}.r23-online-bar{align-items:flex-start;flex-direction:column}.r23-viewer-head{align-items:flex-start;flex-direction:column}.r23-figure{padding:13px}.r23-picture{min-height:160px}.r23-viewer-scroll{max-height:66vh}.r23-picture img{max-height:650px}.eg-tabs a{font-size:12px}}
+@media print{.r23-online-bar,.r23-online-note button,.r23-picture-actions button{display:none}.r23-figure{break-inside:avoid}.r23-gallery,.r23-guide-grid{display:block}.r23-picture{min-height:0}.r23-online-note{padding:8px}.r23-picture-word{font-size:14px}.r23-image-status{font-size:10px!important}}

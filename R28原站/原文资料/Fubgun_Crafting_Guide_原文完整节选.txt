@@ -1,0 +1,66 @@
+来源：用户上传的冰射锐眼-英文原文-Fubgun.txt
+作者：Fubgun
+网页：https://mobalytics.gg/poe-2/builds/ice-shot-deadeye
+原段落：Crafting Guide；不包含评论
+
+Crafting Guide
+Non-crit Bow - ilvl 75: To start off you need a bow with a High %phys (any %phys works, higher is just better). - Can either buy or pickup bases and trans/aug, until you acquire one. With the crafting nerfs, it's pretty RNG to make a really good bow, but you can still craft decent ones. 
+The best bases are either 
+Obliterator Bow
+ or 
+Warmonger Bow
+.
+1) After acquiring a high %phys bow(make sure to aug first), use Greater essence of Abrasian. This will give you T3 Flat phys.
+2) Use a Sinistral Necromancy and Jawbone to unveil a prefix. Depending on prices, you might want to use a abyssal echoes here. You're looking to unveil any high flat elemental damage (cold is best).
+3) Now it's just rng. Depending on how good your bow is and the prices of items, either use Greater or Perfect exalt with "Omen of greater Exaltation". To fill out the last 2 affixes.
+Crit Bow - ilvl 75: To start off you need a bow with a High %phys (any %phys works, higher is just better). - Can either buy or pickup bases and trans/aug, until you acquire one. With the crafting nerfs, it's pretty RNG to make a really good bow, but you can still craft decent ones. 
+The best bases are either 
+Obliterator Bow
+ or 
+Warmonger Bow
+.
+1) After acquiring a high %phys bow(make sure to aug first), use Greater essence of seeking. This will give you T3 Crit.
+2) Use a Sinistral Necromancy and Jawbone to unveil a prefix. Depending on prices, you might want to use a abyssal echoes here (ancient jawbone is also cheap early league). You're looking to unveil high flat physical damage, but any high tier elemental flat would also be fine.
+3) Now it's just rng. Depending on how good your bow is and the prices of items, either use Greater or Perfect exalt with "Omen of greater Exaltation". To fill out the last 2 affixes.
+Quiver - ilvl 75: The quiver craft is mostly RNG but there's some steps you can take to improve your odds of success, just keep in mind most crafts will end up being mediocre when it comes to the quiver.
+1) Perfect trans/aug quiver until 2 good affixes(can also greater) (flat dmg or inc bow dmg on prefix and +1, crit or atk speed on suffix).
+2) Perfect regal and hope for a 3rd good affix (suffix is the ideal scenario here).
+3) If it hit a bad affix, you can use a greater chaos orb and try to replace the bad affix, 2/3 to brick here.
+4) Dextral necromancy + jawbone on the quiver, if it's 3 gg mods you should use an abyssal echoes
+5) If you hit a good suffix, you should consider using perfect exalt+double exalt omen to finish the craft
+This is the cheapest way to make a GG quiver, lots of rng steps but eventually you will hit. More expensive methods will require omen of lights, fracture and/or whittles.
+Quiver - ilvl75: More expensive method
+If you hit +2 lvls/crit on the suffix with t1 Flat on the prefix, you can jawbone the suffix and go for a 1/3 fracture (if you miss the fracture it's fine, just do the same steps as above) - If you fracture flat dmg, you can exalt 1 mod on the prefix and than use Essence of hysteria + essence of sinistral crystal to have 100% chance of adding bow dmg onto your prefix. The last prefix you will slam with a perfect exalt and hope to not hit accuracy. If the quiver is 5 GG mods, than you should echoes/omen of light your last suffix until you hit crit or attack speed.
+Amulet - Ilvl 80 or ilvl 82 (82 is t1 resist) - The amulet craft is mostly deterministic, but expensive. You'll only need 1 fracture base to finish the craft.
+1) Fracture or buy a +3 projectile amulet
+2) annul down to 2 modifiers (fracture mod+random mod)
+3) Chaos spam until t1 or t2 spirit
+4) Add 1 suffix with dextral exaltation and 1 exalt
+5) Use "dextral crystallisation" with "essence of enhancement" 
+6) Use your desired element catalyst (tul, xoph or esh) until the amulet is 20% quality.
+7) Perfect exalt with "dextral exaltation" and "Catalysing Exaltation" - High chance to hit a resist.
+8) If you hit a resist, repeat the same step above (can use the same catalyst because the amulet can still hit all resist). 
+If the amulet didn't hit resist or a good stat (crit/rarity are good). Than you either need to annul or collarbone + dextral necromance + omen of light to remove the mod and go again.
+9) collarbone + abyssal echoes + omen of light until you get your last desired prefix.
+Helmet - ilvl 78 - Cheap method
+1) Buy or perfect trans/aug bases until you hit t1 +energy shield
+2) Use "greater essence of enhancement"
+3) Use "sinistral necromancy" with a preserved rib
+4) Unveil and take any hybrid %es
+5) If the hybrid % was t1 I would use a perfect exalt + greater exaltation, otherwise just use a greater exalt to finish the suffixes. 
+6) If the suffixes/prefixes are really good I would finish with vaal infusers (has a chance to corrupt but the item cannot brick, just make sure to add a socket before using this).
+Helmet - ilvl 78 - Cheap but random (this method allows the chance for triple t1 prefix).
+1) Buy or perfect trans/aug bases until you hit t1 %energy shield or +energy shield.
+2) If the prefix/suffix is good (good suffix is resist/crit/rarity) I would use a resist or rarity essence.
+3) sinistral necromancy + preserved rib and than greater exalt + greater exaltation omen
+4) If you hit a good hybrid prefix tier (t3/t2/t1) I would use an abyssal echoes and hope you hit a good tier.
+5) Finish with vaal infusers if the item has high tier prefixes.
+Emerald Jewels - (expensive).
+Step 1: Buy or fracture Critical damage bonus for attacks (you want 20%)
+Step 2: Chaos spam for increased critical hit chance
+Step 3: Make sure you have a 4 mod jewel, now use "potent liquid contempt". If you lose your crit Suffix, go back to step 2.
+Step 4: Use preserved cranium with abyssal echoes and omens of lights until you unveil attack speed 
+Step 5: Once you got your desired mod, you now now need to annul the prefix with a "sinistral annulment" (if you miss the +1 suffix, you'll have to do this twice).
+Step 6: Once the +1 suffix crafted mod is removed, you'll now want to exalt slam until 5 affixes
+Step 7: chaos spam for 1 good prefix (proj damage, elemental damage, dmg vs rares, attack damage).
+Final step 8: Use potent liquid of ferocity. 50/50% chance to finish. If you lose your good modifier, go back to step 7.
