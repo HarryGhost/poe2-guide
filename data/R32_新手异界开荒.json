@@ -1,0 +1,83 @@
+{
+  "author": "Lazy Exile",
+  "title": "Endgame Atlas Progression Guide",
+  "source": "https://mobalytics.gg/poe-2/guides/endgame-atlas-progression-guide",
+  "updated": "2026-09-09",
+  "checked": "2026-09-29",
+  "scope": "异界主树开荒与推进；不是人物 BD，也不是 Fubgun 刷取方案。",
+  "preparation": "赶路图用蓝图；强力首领图用黄图和能打的最高阶。缺图可三合一。前期以首领推进为主，精华顺路处理。",
+  "route": [
+    [
+      "01",
+      "进入要塞",
+      "希尔达首只巨兽 → 大师选项 Mighty Prey → 首塔 → Ancient Gateway",
+      "先取得要塞入口。"
+    ],
+    [
+      "02",
+      "灰烬仲裁者",
+      "Burning Monolith → 东西 Gateway（T5+）→ 东西 Enigma（T10+）→ 回去挑战灰烬仲裁者",
+      "两侧任务各完成一次；收齐对应碎片。"
+    ],
+    [
+      "03",
+      "神性仲裁者",
+      "Origin Tower → 与多里亚尼对话 → 两座 Hall 获取 Origin Spark / Origin Cradle → 神性仲裁者",
+      "缺强度时可先补升华、迷雾任务涂膏。"
+    ]
+  ],
+  "tree_text": "主树先取首领寻路石数量；作者走精华路径，也允许 Shrine 路径替代。中段沿右侧向上。后期原图的暂缓项不是 Fubgun 七套方案的通用禁点。",
+  "images": [
+    {
+      "id": "start",
+      "title": "① 起步图",
+      "stage": "刚开始获得主树点",
+      "description": "按红色 1 → 2 → 3 的目标顺序看连接路径；数字不是消耗点数。",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20195211.png",
+      "width": 1000,
+      "height": 559,
+      "local": false
+    },
+    {
+      "id": "progress",
+      "title": "② 继续推进",
+      "stage": "继续向上方节点推进",
+      "description": "保留作者的原图，不另画连线，不补造每颗节点的名称。",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20155824.png",
+      "width": 849,
+      "height": 874,
+      "local": false
+    },
+    {
+      "id": "late",
+      "title": "③ 后期参考",
+      "stage": "点数更多后再查，不是起步图",
+      "description": "红叉保留作者原标注；Man Trap 故障说法和金币点评价仅代表其写作时判断，未据此认定现版本仍有故障。",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20164951.png",
+      "width": 922,
+      "height": 990,
+      "local": false
+    }
+  ],
+  "rules": [
+    {
+      "title": "点数与退点",
+      "text": "GGG 0.5.0：首塔解锁要塞；要塞地图授予主树点，最终可取得足够点数。普通主树不提供重置，多选节点可以切换选项。",
+      "url": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff"
+    },
+    {
+      "title": "“第二次击杀”的准确条件",
+      "text": "作者用“第二次击杀”概括后续进程。GGG 0.5.5 的条件是使用非任务版 Origin Core 击败神性仲裁者，为地图拥有者完成整个要塞；任务版不会自动完成要塞区段。",
+      "url": "https://www.pathofexile.com/forum/view-thread/4000864/filter-account-type/staff"
+    },
+    {
+      "title": "玩法与大师另行解锁",
+      "text": "GGG 将玩法任务、专用树和大师任务分开设置。取得主树点，不等于已经解锁七套刷法的全部大师选项和玩法配置。",
+      "url": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff"
+    }
+  ],
+  "boundary": "本页为作者开荒路线的短摘要和原图入口，不是全文翻译、可导入节点数据或实战保证。规则校注与本站衔接说明独立标明。",
+  "image_delivery": "online_on_request",
+  "download_attempt": "已通过网页工具逐张查看原图；容器下载因网络解析失败，图片未嵌入离线包。点击后联网加载，失败可打开原图。",
+  "search": "新手 开荒 低投入 首张 异界 T1 Lazy Exile 主树 点数 首领 寻路石 希尔达 Mighty Prey Gateway Enigma 起步 加点"
+}

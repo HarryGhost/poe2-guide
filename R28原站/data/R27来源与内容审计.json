@@ -1,0 +1,140 @@
+{
+  "version": "R27",
+  "date": "2026-09-29",
+  "sources": {
+    "build": [
+      "Fubgun 冰射 0.5.5",
+      "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+      "作者原文；本轮核对公开正文，六分支用上传快照"
+    ],
+    "level": [
+      "Fubgun 冰射剧情练级",
+      "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide",
+      "作者原文；公开正文与当前站内阶段资料"
+    ],
+    "atlas": [
+      "Fubgun 七套异界策略",
+      "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+      "作者原文；七张用户原图；六套正文仍非完整抓取"
+    ],
+    "profile": [
+      "Fubgun 公开作品索引",
+      "https://mobalytics.gg/poe-2/profile/fubgun/builds",
+      "只覆盖本次可见索引，不等于全部历史作品"
+    ],
+    "ggg050": [
+      "GGG 0.5.0 官方规则",
+      "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff",
+      "异界、注能装置、工艺与系统改动"
+    ],
+    "ggg054": [
+      "GGG 0.5.4 官方规则",
+      "https://www.pathofexile.com/forum/view-thread/3975218",
+      "先祖秘藏天赋与任务点"
+    ],
+    "ggg055": [
+      "GGG 0.5.5 官方规则",
+      "https://www.pathofexile.com/forum/view-thread/4000864/filter-account-type/staff",
+      "非任务版本起源首领完成要塞等规则"
+    ],
+    "quality": [
+      "游戏数据：品质",
+      "https://poe2db.tw/cn/Quality",
+      "第三方游戏数据展示，不是腾讯国服官方文档"
+    ],
+    "currency": [
+      "游戏数据：通货说明",
+      "https://poe2db.tw/us/Currency",
+      "第三方游戏物品说明展示"
+    ],
+    "uncut": [
+      "未切割技能宝石",
+      "https://poe2db.tw/us/Uncut_Skill_Gem",
+      "未切割宝石与成品等级；数据及条目说明"
+    ],
+    "spirit": [
+      "未切割精魂宝石",
+      "https://poe2db.tw/us/Uncut_Spirit_Gem",
+      "精魂技能类别，不是精魂资源道具"
+    ],
+    "ice": [
+      "游戏数据：冰霜射击",
+      "https://poe2db.tw/us/Ice_Shot",
+      "技能标签、需求、消耗与等级分开；不套异职业品质效果"
+    ],
+    "lazy": [
+      "Lazy Exile 异界推进攻略",
+      "https://mobalytics.gg/poe-2/guides/endgame-atlas-progression-guide",
+      "仅用于作者比较；2026-09-09"
+    ],
+    "asmo": [
+      "Asmodeus 异界推进攻略",
+      "https://mobalytics.gg/poe-2/guides/endgame-progression-asmodeus",
+      "仅用于作者比较；2026-06-13，先祖秘藏无树表述已过时"
+    ],
+    "youtube": [
+      "Fubgun 本人视频频道",
+      "https://www.youtube.com/@Fubgun",
+      "确认入口；本轮未逐视频取得并核对完整字幕"
+    ]
+  },
+  "audit": [
+    [
+      "A01",
+      "品质说明分散",
+      "R26 runes.html / prepare.html 已写磨刀石；craft-early-all.html 逐步操作没列品质收尾。",
+      "在各Early部位、加工页与本总攻略直接加入对应收尾步骤，保留原说明。",
+      "已修复教学遗漏"
+    ],
+    [
+      "A02",
+      "注能前提缺失",
+      "两条护盾头工艺写了注能／腐化风险，没有明确“至少20%品质”。",
+      "按GGG0.5规则补入护甲片先到20%、完成普通孔位修改再评估注能。",
+      "已修复明确前提"
+    ],
+    [
+      "A03",
+      "等级、品质、孔位容易混淆",
+      "原收尾页存在条目，但缺少完整的新手实例。",
+      "新增专页：已有宝石升级、最终技能等级、精魂、辅助阶别、品质与孔位分开。",
+      "已补教学"
+    ],
+    [
+      "A04",
+      "点金现行说明",
+      "现行游戏数据允许白／蓝目标转为4随机词缀黄装；旧路线主要写富豪／精华。",
+      "补充说明点金不是保留优质蓝词再只加一条的同义操作；不改变作者指定精华路线。",
+      "已补当前规则提醒"
+    ],
+    [
+      "A05",
+      "跨版本对比",
+      "Asmodeus 6月正文仍说先祖秘藏无树；0.5.4已新增。",
+      "比较区明确纠正，正式路线不导入该作者加点。",
+      "已标过时"
+    ],
+    [
+      "A06",
+      "七套策略收录范围",
+      "七张原图齐全；大师有部分未展开；六套配套正文缺失。",
+      "保留原图与各自状态，不宣称七套全文全部抓完。",
+      "未取得部分仍明示"
+    ],
+    [
+      "A07",
+      "特殊高投入工艺",
+      "高阶箭袋词缀与版本差异、珠宝扩容、个别预兆联用未逐项实测。",
+      "继续只读隔离，不升级为“可照着必成”。",
+      "保留待核实"
+    ],
+    [
+      "A08",
+      "完整中文天赋与客户端",
+      "既有角色树坐标连线、部分国服名称／导入尚未验证。",
+      "不以网页正常显示冒充合法点序或国服实测。",
+      "保留待核实"
+    ]
+  ],
+  "scope": "Fubgun冰射新手流程整合；非全部历史作品全集"
+}

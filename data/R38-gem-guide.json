@@ -1,0 +1,4860 @@
+{
+  "checked": "2026-10-02",
+  "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+  "ruleSource": "https://www.pathofexile.com/forum/view-thread/3826682",
+  "lineageSource": "https://poe2db.tw/cn/Lineage_Supports",
+  "info": {
+    "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": {
+      "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+      "zh": "蜃影神射",
+      "en": "Mirage Deadeye",
+      "url": "https://poe2db.tw/us/Mirage_Deadeye",
+      "kind": "granted",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "锐眼升华授予的元技能；不刻印、不购买这个技能本身。其内嵌冰霜射击与辅助仍需另备。",
+      "get": "升华授予；这个技能本身不购买、不刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemCombatFrenzy": {
+      "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+      "zh": "战斗狂怒",
+      "en": "Combat Frenzy",
+      "url": "https://poe2db.tw/us/Combat_Frenzy",
+      "kind": "spirit",
+      "cutTier": 8,
+      "spirit": 30,
+      "condition": "01/02启用；03原件已由幽灵舞步替代，不把两者继续相加。",
+      "get": "未切割精魂宝石：刻印菜单 Tier 8 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemFreezingMark": {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "zh": "冰冻印记",
+      "en": "Freezing Mark",
+      "url": "https://poe2db.tw/us/Freezing_Mark",
+      "kind": "skill",
+      "cutTier": 7,
+      "spirit": null,
+      "condition": "01–05单独施放；06改为内嵌主动，只读。作者01–05放武器组Ⅱ。",
+      "get": "未切割技能宝石：刻印菜单 Tier 7 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemIceShot": {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "zh": "冰霜射击",
+      "en": "Ice Shot",
+      "url": "https://poe2db.tw/us/Ice_Shot",
+      "kind": "skill",
+      "cutTier": 9,
+      "spirit": null,
+      "condition": "主技能与两个元技能内分别放一颗冰霜射击；不是一颗在三处同时镶嵌。",
+      "get": "未切割技能宝石：刻印菜单 Tier 9 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemIceTippedArrows": {
+      "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+      "zh": "冰尖箭矢",
+      "en": "Ice-Tipped Arrows",
+      "url": "https://poe2db.tw/us/Ice-Tipped_Arrows",
+      "kind": "skill",
+      "cutTier": 5,
+      "spirit": null,
+      "condition": "01–03原件使用；04起未记录。",
+      "get": "未切割技能宝石：刻印菜单 Tier 5 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemManaRemnants": {
+      "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+      "zh": "魔力残片",
+      "en": "Mana Remnants",
+      "url": "https://poe2db.tw/us/Mana_Remnants",
+      "kind": "spirit",
+      "cutTier": 4,
+      "spirit": 30,
+      "condition": "05起使用；需要生成并拾取残片，不是装上就无条件回蓝。",
+      "get": "未切割精魂宝石：刻印菜单 Tier 4 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemMirageArcher": {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "zh": "幻影射手",
+      "en": "Mirage Archer",
+      "url": "https://poe2db.tw/us/Mirage_Archer",
+      "kind": "meta",
+      "cutTier": 8,
+      "spirit": 60,
+      "condition": "精魂元技能，内嵌冰霜射击是主动宝石。品质／效率影响精魂；检查武器组与技能启用。",
+      "get": "未切割精魂宝石：刻印菜单 Tier 8 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemSnipe": {
+      "id": "Metadata/Items/Gem/SkillGemSnipe",
+      "zh": "狙击",
+      "en": "Snipe",
+      "url": "https://poe2db.tw/us/Snipe",
+      "kind": "skill",
+      "cutTier": 3,
+      "spirit": null,
+      "condition": "01–04首领技能；05原件已移除。不要和升华同中文名节点混淆。",
+      "get": "未切割技能宝石：刻印菜单 Tier 3 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemTornadoShot": {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "zh": "龙卷射击",
+      "en": "Tornado Shot",
+      "url": "https://poe2db.tw/us/Tornado_Shot",
+      "kind": "skill",
+      "cutTier": 11,
+      "spirit": null,
+      "condition": "辅助输出机制；按原件完整连接，不只准备冰霜射击。",
+      "get": "未切割技能宝石：刻印菜单 Tier 11 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SkillGemWindDancer": {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "zh": "风舞者",
+      "en": "Wind Dancer",
+      "url": "https://poe2db.tw/us/Wind_Dancer",
+      "kind": "spirit",
+      "cutTier": 4,
+      "spirit": 30,
+      "condition": "04起使用；05起原件连接阿兹里的圣礼，可能改为生命预留，缺它不能沿用相同资源预算。",
+      "get": "未切割精魂宝石：刻印菜单 Tier 4 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemAtzirisCommunion": {
+      "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+      "zh": "阿兹里的圣礼",
+      "en": "Atziri's Communion",
+      "url": "https://poe2db.tw/cn/Atziris_Communion",
+      "kind": "lineage",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "05/06连接风舞者；换上后检查生命实际预留及生存。不把所有常驻技能一起自动改掉。",
+      "get": "数据列定向来源：阿兹里，红女王。非普通刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。",
+      "special": {
+        "effect": "将受支持持续技能的精魂预留改为生命百分比预留：精魂数值的66%作为生命百分比。不是免费启用。",
+        "get": "数据列定向来源：阿兹里，红女王。非普通刻印。",
+        "condition": "05/06连接风舞者；换上后检查生命实际预留及生存。不把所有常驻技能一起自动改掉。",
+        "fallback": "缺它，风舞者仍走精魂预留；重新分配启用技能，不照抄有此辅助时的剩余精魂。",
+        "source": "https://poe2db.tw/cn/Atziris_Communion"
+      }
+    },
+    "Metadata/Items/Gem/SupportGemBlindside": {
+      "id": "Metadata/Items/Gem/SupportGemBlindside",
+      "zh": "盲点",
+      "en": "Blindside",
+      "url": "https://poe2db.tw/cn/Blindside",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "依赖敌人已经被致盲；自身不能致盲。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemDeliberation": {
+      "id": "Metadata/Items/Gem/SupportGemDeliberation",
+      "zh": "从容不迫",
+      "en": "Deliberation",
+      "url": "https://poe2db.tw/cn/Deliberation",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemDiallasDesire": {
+      "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+      "zh": "达拉的渴望",
+      "en": "Dialla's Desire",
+      "url": "https://poe2db.tw/cn/Diallas_Desire",
+      "kind": "lineage",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "05/06连接魔力残片。检查实际被辅助技能面板，不把效果加到主冰霜射击。",
+      "get": "数据列全局掉落；不写固定首领或必掉概率。非普通刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。",
+      "special": {
+        "effect": "被辅助技能＋1等级、＋5%品质，并改变消耗倍率；不代表整个人物所有宝石一起提高。",
+        "get": "数据列全局掉落；不写固定首领或必掉概率。非普通刻印。",
+        "condition": "05/06连接魔力残片。检查实际被辅助技能面板，不把效果加到主冰霜射击。",
+        "fallback": "可先留空并按没有等级／品质加成的魔力残片核算；不声称普通辅助能完整复刻它。",
+        "source": "https://poe2db.tw/cn/Diallas_Desire"
+      }
+    },
+    "Metadata/Items/Gem/SupportGemDissipateTwo": {
+      "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+      "zh": "和谐残迹 II",
+      "en": "Harmonic Remnants II",
+      "url": "https://poe2db.tw/cn/Harmonic_Remnants_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemDurability": {
+      "id": "Metadata/Items/Gem/SupportGemDurability",
+      "zh": "耐久度",
+      "en": "Durability",
+      "url": "https://poe2db.tw/cn/Durability",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemExpedite": {
+      "id": "Metadata/Items/Gem/SupportGemExpedite",
+      "zh": "短暂引信 I",
+      "en": "Short Fuse I",
+      "url": "https://poe2db.tw/cn/Short_Fuse_I",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemGarukhansResolve": {
+      "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+      "zh": "格鲁坎的决心",
+      "en": "Garukhan's Resolve",
+      "url": "https://poe2db.tw/us/Garukhans_Resolve",
+      "kind": "lineage",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "要求等级65；只支持符合条件的自用攻击，不给幻影等代理技能照搬。05/06原件放主冰霜射击。",
+      "get": "数据列定向来源：扎米尔，刀锋之主。需要取得实际掉落／成品，不在普通未切割辅助菜单刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。",
+      "special": {
+        "effect": "对合适的自用攻击改变暴击判定，并将该技能暴击率上限限制为50%；不是“装上必暴”，也不是投射物分叉。",
+        "get": "数据列定向来源：扎米尔，刀锋之主。需要取得实际掉落／成品，不在普通未切割辅助菜单刻印。",
+        "condition": "要求等级65；只支持符合条件的自用攻击，不给幻影等代理技能照搬。05/06原件放主冰霜射击。",
+        "fallback": "缺它时优先保留04的整套暴击连接（快速攻击II＋冻结等），不是随便换一颗就等价于05。",
+        "source": "https://poe2db.tw/us/Garukhans_Resolve"
+      }
+    },
+    "Metadata/Items/Gem/SupportGemInterludeThree": {
+      "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+      "zh": "残片效能 III",
+      "en": "Remnant Potency III",
+      "url": "https://poe2db.tw/cn/Remnant_Potency_III",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gem/SupportGemKhatalsRejuvenation": {
+      "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+      "zh": "卡哈塔的复苏",
+      "en": "Khatal's Rejuvenation",
+      "url": "https://poe2db.tw/cn/Khatals_Rejuvenation",
+      "kind": "lineage",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "只用于生成残片的技能；05/06连接魔力残片，仍要检查残片生成、拾取与增益触发。",
+      "get": "数据列定向来源：扎米尔，刀锋之主。非普通刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。",
+      "special": {
+        "effect": "拾取被辅助技能生成的残片后获得卡哈塔的复苏增益；未拾取时不能把增益当常驻。",
+        "get": "数据列定向来源：扎米尔，刀锋之主。非普通刻印。",
+        "condition": "只用于生成残片的技能；05/06连接魔力残片，仍要检查残片生成、拾取与增益触发。",
+        "fallback": "缺它可保留原来的供蓝方案并暂空该辅助位，但不把缺失效果计入恢复能力，也不保证整套续航不变。",
+        "source": "https://poe2db.tw/cn/Khatals_Rejuvenation"
+      }
+    },
+    "Metadata/Items/Gem/SupportGemRakiatasFlow": {
+      "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+      "zh": "拉其塔之流",
+      "en": "Rakiata's Flow",
+      "url": "https://poe2db.tw/cn/Rakiatas_Flow",
+      "kind": "lineage",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "05/06主冰霜射击使用；120%消耗倍率，需重新检查耗蓝。不能假定在所有抗性情景都相同增伤。",
+      "get": "数据列定向来源：马诺基，天命者。非普通刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。",
+      "special": {
+        "effect": "所辅助技能的击中把敌人的元素抗性按正负反转处理；不是普通穿透或减抗的同义词。",
+        "get": "数据列定向来源：马诺基，天命者。非普通刻印。",
+        "condition": "05/06主冰霜射击使用；120%消耗倍率，需重新检查耗蓝。不能假定在所有抗性情景都相同增伤。",
+        "fallback": "没有时维持04整套配置，先比较整套输出与供蓝；普通冰霜穿透不视为完全等价替代。",
+        "source": "https://poe2db.tw/cn/Rakiatas_Flow"
+      }
+    },
+    "Metadata/Items/Gems/SkillGemBarrage": {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "zh": "弹幕",
+      "en": "Barrage",
+      "url": "https://poe2db.tw/us/Barrage",
+      "kind": "skill",
+      "cutTier": 5,
+      "spirit": null,
+      "condition": "技能宝石，不是辅助；按阶段核对蓄能与冷却。",
+      "get": "未切割技能宝石：刻印菜单 Tier 5 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SkillGemGhostDance": {
+      "id": "Metadata/Items/Gems/SkillGemGhostDance",
+      "zh": "幽灵舞步",
+      "en": "Ghost Dance",
+      "url": "https://poe2db.tw/us/Ghost_Dance",
+      "kind": "spirit",
+      "cutTier": 4,
+      "spirit": 30,
+      "condition": "03起使用；需要与护盾／闪避防御配置相配合。品质／效率会改变实际预留。",
+      "get": "未切割精魂宝石：刻印菜单 Tier 4 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SkillGemHeraldOfIce": {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "zh": "寒冰之捷",
+      "en": "Herald of Ice",
+      "url": "https://poe2db.tw/us/Herald_of_Ice",
+      "kind": "spirit",
+      "cutTier": 4,
+      "spirit": 30,
+      "condition": "需在技能界面启用；检查碎冰触发条件及实际精魂占用。",
+      "get": "未切割精魂宝石：刻印菜单 Tier 4 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SkillGemWolfPounce": {
+      "id": "Metadata/Items/Gems/SkillGemWolfPounce",
+      "zh": "巨狼猛扑",
+      "en": "Pounce",
+      "url": "https://poe2db.tw/us/Pounce",
+      "kind": "skill",
+      "cutTier": 3,
+      "spirit": null,
+      "condition": "普通技能宝石，需要对应变形武器（Talisman，不是项链）；06只读才有。不是武器免费授予，也不是01–05必备。",
+      "get": "未切割技能宝石：刻印菜单 Tier 3 起解锁；可用对应或更高等级材料，仍须满足角色与属性要求。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemArcaneTempoTwo": {
+      "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+      "zh": "快速施法 II",
+      "en": "Rapid Casting II",
+      "url": "https://poe2db.tw/cn/Rapid_Casting_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemBlindTwo": {
+      "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+      "zh": "致盲 II",
+      "en": "Blind II",
+      "url": "https://poe2db.tw/cn/Blind_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemBludgeon": {
+      "id": "Metadata/Items/Gems/SupportGemBludgeon",
+      "zh": "击退",
+      "en": "Knockback",
+      "url": "https://poe2db.tw/cn/Knockback",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemChargedMark": {
+      "id": "Metadata/Items/Gems/SupportGemChargedMark",
+      "zh": "充能印记",
+      "en": "Charged Mark",
+      "url": "https://poe2db.tw/cn/Charged_Mark",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "印记激活时产生感电地面；不是凭名字推断的产狂怒球辅助。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemCloseCombatTwo": {
+      "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+      "zh": "近战 II",
+      "en": "Close Combat II",
+      "url": "https://poe2db.tw/cn/Close_Combat_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemColdInfusion": {
+      "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+      "zh": "冰霜协调",
+      "en": "Cold Attunement",
+      "url": "https://poe2db.tw/cn/Cold_Attunement",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemColdPenetration": {
+      "id": "Metadata/Items/Gems/SupportGemColdPenetration",
+      "zh": "冰霜穿透",
+      "en": "Cold Penetration",
+      "url": "https://poe2db.tw/cn/Cold_Penetration",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemConcentratedEffect": {
+      "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+      "zh": "范围集中",
+      "en": "Concentrated Effect",
+      "url": "https://poe2db.tw/cn/Concentrated_Effect",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemElementalFocus": {
+      "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+      "zh": "元素集中",
+      "en": "Elemental Focus",
+      "url": "https://poe2db.tw/cn/Elemental_Focus",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "仅按原件放狙击／寒冰之捷等位置；不要从清单上拿去替换需产生冻结的主冰霜射击辅助。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemEternalMark": {
+      "id": "Metadata/Items/Gems/SupportGemEternalMark",
+      "zh": "永恒印记",
+      "en": "Eternal Mark",
+      "url": "https://poe2db.tw/cn/Eternal_Mark",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "第一次激活不消耗，不是永远不消耗。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemFork": {
+      "id": "Metadata/Items/Gems/SupportGemFork",
+      "zh": "分叉",
+      "en": "Fork",
+      "url": "https://poe2db.tw/cn/Fork",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemGlaciation": {
+      "id": "Metadata/Items/Gems/SupportGemGlaciation",
+      "zh": "冻结",
+      "en": "Freeze",
+      "url": "https://poe2db.tw/cn/Freeze",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "内部 ID 仍叫 Glaciation；当前辅助显示名为冻结，不是名为冰河世纪的天赋。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemIceBiteTwo": {
+      "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+      "zh": "霜咬 II",
+      "en": "Ice Bite II",
+      "url": "https://poe2db.tw/cn/Ice_Bite_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemInevitableCritical": {
+      "id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+      "zh": "命定绝杀 I",
+      "en": "Inexorable Critical I",
+      "url": "https://poe2db.tw/cn/Inexorable_Critical_I",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "不要按内部旧名 Inevitable Critical 寻找；也不代表必定暴击。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemIngenuityTwo": {
+      "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+      "zh": "冷却回复 II",
+      "en": "Cooldown Recovery II",
+      "url": "https://poe2db.tw/cn/Cooldown_Recovery_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemLongshotTwo": {
+      "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+      "zh": "远射 II",
+      "en": "Longshot II",
+      "url": "https://poe2db.tw/cn/Longshot_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": {
+      "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+      "zh": "范围扩大 II",
+      "en": "Magnified Area II",
+      "url": "https://poe2db.tw/cn/Magnified_Area_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemMaim": {
+      "id": "Metadata/Items/Gems/SupportGemMaim",
+      "zh": "瘫痪",
+      "en": "Maim",
+      "url": "https://poe2db.tw/cn/Maim",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo": {
+      "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+      "zh": "虹吸印记 II",
+      "en": "Mark of Siphoning II",
+      "url": "https://poe2db.tw/cn/Mark_of_Siphoning_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "0.5.0后的条目按对被印记目标造成的物理攻击击中伤害偷取生命和魔力；不能按全部冰伤计算。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemMartialTempoThree": {
+      "id": "Metadata/Items/Gems/SupportGemMartialTempoThree",
+      "zh": "快速攻击 III",
+      "en": "Rapid Attacks III",
+      "url": "https://poe2db.tw/cn/Rapid_Attacks_III",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemMartialTempoTwo": {
+      "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+      "zh": "快速攻击 II",
+      "en": "Rapid Attacks II",
+      "url": "https://poe2db.tw/cn/Rapid_Attacks_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemNovaProjectiles": {
+      "id": "Metadata/Items/Gems/SupportGemNovaProjectiles",
+      "zh": "新星投射物 I",
+      "en": "Nova Projectiles I",
+      "url": "https://poe2db.tw/cn/Nova_Projectiles_I",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemOverabundanceTwo": {
+      "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+      "zh": "冗余 II",
+      "en": "Overabundance II",
+      "url": "https://poe2db.tw/cn/Overabundance_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemPerpetualCharge": {
+      "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+      "zh": "永续充能",
+      "en": "Perpetual Charge",
+      "url": "https://poe2db.tw/cn/Perpetual_Charge",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "只影响能量球的消耗，不负责产球。弹幕本身不需要有球才产生基础重复。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemPersistenceTwo": {
+      "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+      "zh": "持续时间延长 II",
+      "en": "Prolonged Duration II",
+      "url": "https://poe2db.tw/cn/Prolonged_Duration_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": {
+      "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+      "zh": "元素军械 II",
+      "en": "Elemental Armament II",
+      "url": "https://poe2db.tw/us/Elemental_Armament_II",
+      "kind": "support",
+      "cutTier": 2,
+      "spirit": null,
+      "condition": "本构筑明确使用II。III有“不能施加元素异常状态”的限制，会破坏需要冻结等异常的使用场景。",
+      "get": "未切割辅助宝石：对应刻印 Tier 2；必须选元素军械II，不自动升III。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemProfusionTwo": {
+      "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+      "zh": "能量球激增 II",
+      "en": "Charge Profusion II",
+      "url": "https://poe2db.tw/cn/Charge_Profusion_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "在本页列出的技能位置镶嵌，并检查该技能标签、属性需求与实际孔位。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo": {
+      "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+      "zh": "大好时机 II",
+      "en": "Window of Opportunity II",
+      "url": "https://poe2db.tw/cn/Window_of_Opportunity_II",
+      "kind": "support",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "提高完美释放伤害但缩短完美释放窗口。",
+      "get": "使用符合刻印要求的未切割辅助宝石，选择完全相同名称与阶别；罗马数字不是材料等级。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。"
+    },
+    "Metadata/Items/Gems/SupportOlrothsConviction": {
+      "id": "Metadata/Items/Gems/SupportOlrothsConviction",
+      "zh": "欧罗什的信念",
+      "en": "Olroth's Conviction",
+      "url": "https://poe2db.tw/cn/Olroths_Conviction",
+      "kind": "lineage",
+      "cutTier": null,
+      "spirit": null,
+      "condition": "仅06只读原件的弹幕连接；01–05没有，不纳入执行版毕业必备清单。",
+      "get": "数据列定向来源：畸变者；不要仅从宝石名字猜掉落首领。非普通刻印。",
+      "level": "原件没有统一指定本体等级／品质；按角色属性、消耗与启用条件逐步提升。",
+      "special": {
+        "effect": "给技能额外的符文结界（Runic Ward）消耗，并使其额外强化2次使用；需要相应符文结界资源。",
+        "get": "数据列定向来源：畸变者；不要仅从宝石名字猜掉落首领。非普通刻印。",
+        "condition": "仅06只读原件的弹幕连接；01–05没有，不纳入执行版毕业必备清单。",
+        "fallback": "不迁入01–05；没有符文结界条件或06冲突未解决时，不按此连接执行。",
+        "source": "https://poe2db.tw/cn/Olroths_Conviction"
+      }
+    }
+  },
+  "stages": {
+    "e01": {
+      "id": "e01",
+      "label": "01 Early",
+      "readonly": false,
+      "rows": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手（内嵌主动）",
+            "蜃影神射（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "qty": 6,
+          "occurrences": 6,
+          "uses": [
+            "冰霜射击",
+            "狙击",
+            "冰尖箭矢",
+            "寒冰之捷",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰尖箭矢"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰尖箭矢",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemExpedite",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰尖箭矢"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰尖箭矢",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "战斗狂怒"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "战斗狂怒"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "qty": 0,
+          "occurrences": 1,
+          "uses": [
+            "蜃影神射"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "zh": "冰霜射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+              "zh": "霜咬 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemFork",
+              "zh": "分叉",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "zh": "狙击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+              "zh": "范围集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+              "zh": "大好时机 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+              "zh": "近战 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "zh": "龙卷射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+              "zh": "冗余 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDurability",
+              "zh": "耐久度",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "zh": "冰尖箭矢",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemExpedite",
+              "zh": "短暂引信 I",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "zh": "冰冻印记",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+              "zh": "虹吸印记 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemChargedMark",
+              "zh": "充能印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemEternalMark",
+              "zh": "永恒印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "zh": "弹幕",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+              "zh": "永续充能",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+              "zh": "快速施法 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "zh": "寒冰之捷",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+          "zh": "战斗狂怒",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+              "zh": "能量球激增 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "zh": "幻影射手",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "zh": "蜃影神射",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "Metadata/Items/Gem/SkillGemIceShot": 3,
+        "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": 6,
+        "Metadata/Items/Gems/SupportGemIceBiteTwo": 1,
+        "Metadata/Items/Gems/SupportGemMartialTempoTwo": 3,
+        "Metadata/Items/Gems/SupportGemFork": 1,
+        "Metadata/Items/Gem/SkillGemSnipe": 1,
+        "Metadata/Items/Gems/SupportGemConcentratedEffect": 1,
+        "Metadata/Items/Gems/SupportGemElementalFocus": 1,
+        "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo": 1,
+        "Metadata/Items/Gems/SupportGemCloseCombatTwo": 1,
+        "Metadata/Items/Gem/SkillGemTornadoShot": 1,
+        "Metadata/Items/Gems/SupportGemPersistenceTwo": 2,
+        "Metadata/Items/Gems/SupportGemOverabundanceTwo": 1,
+        "Metadata/Items/Gem/SupportGemDurability": 1,
+        "Metadata/Items/Gem/SkillGemIceTippedArrows": 1,
+        "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": 2,
+        "Metadata/Items/Gem/SupportGemExpedite": 1,
+        "Metadata/Items/Gems/SupportGemLongshotTwo": 2,
+        "Metadata/Items/Gem/SkillGemFreezingMark": 1,
+        "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo": 1,
+        "Metadata/Items/Gems/SupportGemChargedMark": 1,
+        "Metadata/Items/Gems/SupportGemEternalMark": 1,
+        "Metadata/Items/Gems/SkillGemBarrage": 1,
+        "Metadata/Items/Gems/SupportGemIngenuityTwo": 1,
+        "Metadata/Items/Gems/SupportGemPerpetualCharge": 1,
+        "Metadata/Items/Gems/SupportGemArcaneTempoTwo": 1,
+        "Metadata/Items/Gems/SkillGemHeraldOfIce": 1,
+        "Metadata/Items/Gems/SupportGemColdInfusion": 1,
+        "Metadata/Items/Gem/SkillGemCombatFrenzy": 1,
+        "Metadata/Items/Gems/SupportGemProfusionTwo": 1,
+        "Metadata/Items/Gem/SkillGemMirageArcher": 1,
+        "Metadata/Items/Gem/SupportGemDeliberation": 2,
+        "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": 1
+      },
+      "gemTotal": 45,
+      "types": 32,
+      "baseSpirit": 120,
+      "sourceFile": "Early - 0.5.5 Fubgun Ice Shot Deadeye.build",
+      "sha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07",
+      "changes": []
+    },
+    "e02": {
+      "id": "e02",
+      "label": "02 非暴击中期",
+      "readonly": false,
+      "rows": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手（内嵌主动）",
+            "蜃影神射（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "qty": 6,
+          "occurrences": 6,
+          "uses": [
+            "冰霜射击",
+            "狙击",
+            "冰尖箭矢",
+            "寒冰之捷",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰霜射击",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "狙击",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰尖箭矢"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰尖箭矢",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemExpedite",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰尖箭矢"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰尖箭矢",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "弹幕",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "战斗狂怒"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "战斗狂怒"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "qty": 0,
+          "occurrences": 1,
+          "uses": [
+            "蜃影神射"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "zh": "冰霜射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+              "zh": "霜咬 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemFork",
+              "zh": "分叉",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "zh": "狙击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+              "zh": "范围集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+              "zh": "大好时机 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+              "zh": "近战 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "zh": "龙卷射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+              "zh": "冗余 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDurability",
+              "zh": "耐久度",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "zh": "冰尖箭矢",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemExpedite",
+              "zh": "短暂引信 I",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "zh": "冰冻印记",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+              "zh": "虹吸印记 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemChargedMark",
+              "zh": "充能印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemEternalMark",
+              "zh": "永恒印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "zh": "弹幕",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+              "zh": "永续充能",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+              "zh": "快速施法 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "zh": "寒冰之捷",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+          "zh": "战斗狂怒",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+              "zh": "能量球激增 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "zh": "幻影射手",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "zh": "蜃影神射",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "Metadata/Items/Gem/SkillGemIceShot": 3,
+        "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": 6,
+        "Metadata/Items/Gems/SupportGemIceBiteTwo": 1,
+        "Metadata/Items/Gems/SupportGemMartialTempoTwo": 3,
+        "Metadata/Items/Gems/SupportGemFork": 1,
+        "Metadata/Items/Gems/SupportGemColdInfusion": 2,
+        "Metadata/Items/Gem/SkillGemSnipe": 1,
+        "Metadata/Items/Gems/SupportGemConcentratedEffect": 1,
+        "Metadata/Items/Gems/SupportGemElementalFocus": 2,
+        "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo": 1,
+        "Metadata/Items/Gems/SupportGemCloseCombatTwo": 1,
+        "Metadata/Items/Gem/SkillGemTornadoShot": 1,
+        "Metadata/Items/Gems/SupportGemPersistenceTwo": 2,
+        "Metadata/Items/Gems/SupportGemOverabundanceTwo": 1,
+        "Metadata/Items/Gem/SupportGemDurability": 1,
+        "Metadata/Items/Gems/SupportGemBlindTwo": 1,
+        "Metadata/Items/Gem/SkillGemIceTippedArrows": 1,
+        "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": 2,
+        "Metadata/Items/Gem/SupportGemExpedite": 1,
+        "Metadata/Items/Gems/SupportGemLongshotTwo": 2,
+        "Metadata/Items/Gem/SkillGemFreezingMark": 1,
+        "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo": 1,
+        "Metadata/Items/Gems/SupportGemChargedMark": 1,
+        "Metadata/Items/Gems/SupportGemEternalMark": 1,
+        "Metadata/Items/Gems/SkillGemBarrage": 1,
+        "Metadata/Items/Gems/SupportGemIngenuityTwo": 2,
+        "Metadata/Items/Gems/SupportGemPerpetualCharge": 1,
+        "Metadata/Items/Gems/SupportGemArcaneTempoTwo": 1,
+        "Metadata/Items/Gems/SkillGemHeraldOfIce": 1,
+        "Metadata/Items/Gem/SkillGemCombatFrenzy": 1,
+        "Metadata/Items/Gems/SupportGemProfusionTwo": 1,
+        "Metadata/Items/Gem/SkillGemMirageArcher": 1,
+        "Metadata/Items/Gem/SupportGemDeliberation": 2,
+        "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": 1
+      },
+      "gemTotal": 49,
+      "types": 33,
+      "baseSpirit": 120,
+      "sourceFile": "non-crit Midgame - 0.5.5 Fubgun Ice Shot.build",
+      "sha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b",
+      "changes": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "before": 1,
+          "after": 2,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "before": 1,
+          "after": 2,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "before": 1,
+          "after": 2,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        }
+      ]
+    },
+    "e03": {
+      "id": "e03",
+      "label": "03 混合防御",
+      "readonly": false,
+      "rows": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手（内嵌主动）",
+            "蜃影神射（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "qty": 6,
+          "occurrences": 6,
+          "uses": [
+            "冰霜射击",
+            "狙击",
+            "冰尖箭矢",
+            "寒冰之捷",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰霜射击",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "狙击",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰尖箭矢"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰尖箭矢",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemExpedite",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰尖箭矢"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "冰尖箭矢",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "qty": 4,
+          "occurrences": 4,
+          "uses": [
+            "弹幕",
+            "幽灵舞步",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幽灵舞步"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "qty": 0,
+          "occurrences": 1,
+          "uses": [
+            "蜃影神射"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "zh": "冰霜射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+              "zh": "霜咬 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemFork",
+              "zh": "分叉",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "zh": "狙击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+              "zh": "范围集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+              "zh": "大好时机 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+              "zh": "近战 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "zh": "龙卷射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+              "zh": "冗余 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDurability",
+              "zh": "耐久度",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "zh": "冰尖箭矢",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemExpedite",
+              "zh": "短暂引信 I",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "zh": "冰冻印记",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+              "zh": "虹吸印记 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemChargedMark",
+              "zh": "充能印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemEternalMark",
+              "zh": "永恒印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "zh": "弹幕",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+              "zh": "永续充能",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+              "zh": "快速施法 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "zh": "寒冰之捷",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "zh": "幽灵舞步",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "zh": "幻影射手",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "zh": "蜃影神射",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "Metadata/Items/Gem/SkillGemIceShot": 3,
+        "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": 6,
+        "Metadata/Items/Gems/SupportGemIceBiteTwo": 1,
+        "Metadata/Items/Gems/SupportGemMartialTempoTwo": 3,
+        "Metadata/Items/Gems/SupportGemFork": 1,
+        "Metadata/Items/Gems/SupportGemColdInfusion": 2,
+        "Metadata/Items/Gem/SkillGemSnipe": 1,
+        "Metadata/Items/Gems/SupportGemConcentratedEffect": 1,
+        "Metadata/Items/Gems/SupportGemElementalFocus": 2,
+        "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo": 1,
+        "Metadata/Items/Gems/SupportGemCloseCombatTwo": 1,
+        "Metadata/Items/Gem/SkillGemTornadoShot": 1,
+        "Metadata/Items/Gems/SupportGemPersistenceTwo": 2,
+        "Metadata/Items/Gems/SupportGemOverabundanceTwo": 1,
+        "Metadata/Items/Gem/SupportGemDurability": 1,
+        "Metadata/Items/Gems/SupportGemBlindTwo": 1,
+        "Metadata/Items/Gem/SkillGemIceTippedArrows": 1,
+        "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": 2,
+        "Metadata/Items/Gem/SupportGemExpedite": 1,
+        "Metadata/Items/Gems/SupportGemLongshotTwo": 2,
+        "Metadata/Items/Gem/SkillGemFreezingMark": 1,
+        "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo": 1,
+        "Metadata/Items/Gems/SupportGemChargedMark": 1,
+        "Metadata/Items/Gems/SupportGemEternalMark": 1,
+        "Metadata/Items/Gems/SkillGemBarrage": 1,
+        "Metadata/Items/Gems/SupportGemIngenuityTwo": 4,
+        "Metadata/Items/Gems/SupportGemPerpetualCharge": 1,
+        "Metadata/Items/Gems/SupportGemArcaneTempoTwo": 1,
+        "Metadata/Items/Gems/SkillGemHeraldOfIce": 1,
+        "Metadata/Items/Gems/SkillGemGhostDance": 1,
+        "Metadata/Items/Gem/SkillGemMirageArcher": 1,
+        "Metadata/Items/Gem/SupportGemDeliberation": 2,
+        "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": 1
+      },
+      "gemTotal": 50,
+      "types": 32,
+      "baseSpirit": 120,
+      "sourceFile": "non-crit Hybrid swap - 0.5.5 Fubgun Ice.build",
+      "sha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f",
+      "changes": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "before": 2,
+          "after": 4,
+          "delta": 2
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemCombatFrenzy",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemProfusionTwo",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        }
+      ]
+    },
+    "e04": {
+      "id": "e04",
+      "label": "04 暴击混合",
+      "readonly": false,
+      "rows": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手（内嵌主动）",
+            "蜃影神射（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "qty": 5,
+          "occurrences": 5,
+          "uses": [
+            "冰霜射击",
+            "狙击",
+            "寒冰之捷",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemGlaciation",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemBlindside",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "狙击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "qty": 4,
+          "occurrences": 4,
+          "uses": [
+            "弹幕",
+            "幽灵舞步",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幽灵舞步"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBludgeon",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMaim",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "qty": 0,
+          "occurrences": 1,
+          "uses": [
+            "蜃影神射"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "zh": "冰霜射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+              "zh": "霜咬 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemFork",
+              "zh": "分叉",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemGlaciation",
+              "zh": "冻结",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "zh": "狙击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+              "zh": "范围集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+              "zh": "大好时机 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemBlindside",
+              "zh": "盲点",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+              "zh": "命定绝杀 I",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "zh": "龙卷射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+              "zh": "冗余 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDurability",
+              "zh": "耐久度",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "zh": "冰冻印记",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+              "zh": "虹吸印记 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemChargedMark",
+              "zh": "充能印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemEternalMark",
+              "zh": "永恒印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "zh": "弹幕",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+              "zh": "永续充能",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+              "zh": "快速施法 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "zh": "寒冰之捷",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "zh": "幽灵舞步",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "zh": "风舞者",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemBludgeon",
+              "zh": "击退",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMaim",
+              "zh": "瘫痪",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "zh": "幻影射手",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "zh": "蜃影神射",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "Metadata/Items/Gem/SkillGemIceShot": 3,
+        "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": 5,
+        "Metadata/Items/Gems/SupportGemIceBiteTwo": 1,
+        "Metadata/Items/Gems/SupportGemMartialTempoTwo": 3,
+        "Metadata/Items/Gems/SupportGemFork": 1,
+        "Metadata/Items/Gems/SupportGemGlaciation": 1,
+        "Metadata/Items/Gem/SkillGemSnipe": 1,
+        "Metadata/Items/Gems/SupportGemConcentratedEffect": 1,
+        "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo": 1,
+        "Metadata/Items/Gem/SupportGemBlindside": 1,
+        "Metadata/Items/Gems/SupportGemInevitableCritical": 1,
+        "Metadata/Items/Gem/SkillGemTornadoShot": 1,
+        "Metadata/Items/Gems/SupportGemPersistenceTwo": 2,
+        "Metadata/Items/Gems/SupportGemOverabundanceTwo": 1,
+        "Metadata/Items/Gem/SupportGemDurability": 1,
+        "Metadata/Items/Gems/SupportGemBlindTwo": 2,
+        "Metadata/Items/Gem/SkillGemFreezingMark": 1,
+        "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo": 1,
+        "Metadata/Items/Gems/SupportGemChargedMark": 1,
+        "Metadata/Items/Gems/SupportGemEternalMark": 1,
+        "Metadata/Items/Gems/SkillGemBarrage": 1,
+        "Metadata/Items/Gems/SupportGemIngenuityTwo": 4,
+        "Metadata/Items/Gems/SupportGemPerpetualCharge": 1,
+        "Metadata/Items/Gems/SupportGemArcaneTempoTwo": 1,
+        "Metadata/Items/Gems/SkillGemHeraldOfIce": 1,
+        "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": 1,
+        "Metadata/Items/Gems/SupportGemLongshotTwo": 1,
+        "Metadata/Items/Gems/SupportGemColdInfusion": 1,
+        "Metadata/Items/Gems/SupportGemElementalFocus": 1,
+        "Metadata/Items/Gems/SkillGemGhostDance": 1,
+        "Metadata/Items/Gem/SkillGemWindDancer": 1,
+        "Metadata/Items/Gems/SupportGemBludgeon": 1,
+        "Metadata/Items/Gems/SupportGemMaim": 1,
+        "Metadata/Items/Gem/SkillGemMirageArcher": 1,
+        "Metadata/Items/Gem/SupportGemDeliberation": 2,
+        "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": 1
+      },
+      "gemTotal": 49,
+      "types": 35,
+      "baseSpirit": 150,
+      "sourceFile": "Crit Hybrid - 0.5.5 Fubgun Ice Shot Dead.build",
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d",
+      "changes": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "before": 6,
+          "after": 5,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "before": 2,
+          "after": 1,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "before": 2,
+          "after": 1,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemCloseCombatTwo",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "before": 1,
+          "after": 2,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceTippedArrows",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "before": 2,
+          "after": 1,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemExpedite",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "before": 2,
+          "after": 1,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemGlaciation",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemBlindside",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBludgeon",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMaim",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        }
+      ]
+    },
+    "e05": {
+      "id": "e05",
+      "label": "05 高配冰射",
+      "readonly": false,
+      "rows": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "幻影射手（内嵌主动）",
+            "蜃影神射（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "qty": 4,
+          "occurrences": 4,
+          "uses": [
+            "冰霜射击",
+            "寒冰之捷",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰冻印记"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "qty": 4,
+          "occurrences": 4,
+          "uses": [
+            "弹幕",
+            "幽灵舞步",
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幽灵舞步"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBludgeon",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMaim",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "幻影射手",
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "qty": 0,
+          "occurrences": 1,
+          "uses": [
+            "蜃影神射"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "zh": "冰霜射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+              "zh": "霜咬 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+              "zh": "格鲁坎的决心",
+              "embedded": false,
+              "special": true
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemFork",
+              "zh": "分叉",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+              "zh": "拉其塔之流",
+              "embedded": false,
+              "special": true
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "zh": "龙卷射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+              "zh": "冗余 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDurability",
+              "zh": "耐久度",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "zh": "冰冻印记",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+              "zh": "虹吸印记 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemChargedMark",
+              "zh": "充能印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemEternalMark",
+              "zh": "永恒印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "zh": "弹幕",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+              "zh": "快速施法 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "zh": "寒冰之捷",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+              "zh": "冰霜协调",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "zh": "幽灵舞步",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "zh": "风舞者",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemBludgeon",
+              "zh": "击退",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMaim",
+              "zh": "瘫痪",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+              "zh": "阿兹里的圣礼",
+              "embedded": false,
+              "special": true
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+          "zh": "魔力残片",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+              "zh": "残片效能 III",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+              "zh": "和谐残迹 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+              "zh": "卡哈塔的复苏",
+              "embedded": false,
+              "special": true
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+              "zh": "达拉的渴望",
+              "embedded": false,
+              "special": true
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "zh": "幻影射手",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "zh": "蜃影神射",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "Metadata/Items/Gem/SkillGemIceShot": 3,
+        "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": 4,
+        "Metadata/Items/Gems/SupportGemIceBiteTwo": 1,
+        "Metadata/Items/Gem/SupportGemGarukhansResolve": 1,
+        "Metadata/Items/Gems/SupportGemFork": 1,
+        "Metadata/Items/Gem/SupportGemRakiatasFlow": 1,
+        "Metadata/Items/Gem/SkillGemTornadoShot": 1,
+        "Metadata/Items/Gems/SupportGemPersistenceTwo": 2,
+        "Metadata/Items/Gems/SupportGemOverabundanceTwo": 1,
+        "Metadata/Items/Gem/SupportGemDurability": 1,
+        "Metadata/Items/Gems/SupportGemBlindTwo": 2,
+        "Metadata/Items/Gem/SkillGemFreezingMark": 1,
+        "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo": 1,
+        "Metadata/Items/Gems/SupportGemChargedMark": 1,
+        "Metadata/Items/Gems/SupportGemEternalMark": 1,
+        "Metadata/Items/Gems/SkillGemBarrage": 1,
+        "Metadata/Items/Gems/SupportGemIngenuityTwo": 4,
+        "Metadata/Items/Gems/SupportGemArcaneTempoTwo": 1,
+        "Metadata/Items/Gems/SkillGemHeraldOfIce": 1,
+        "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": 1,
+        "Metadata/Items/Gems/SupportGemLongshotTwo": 1,
+        "Metadata/Items/Gems/SupportGemColdInfusion": 1,
+        "Metadata/Items/Gems/SupportGemElementalFocus": 1,
+        "Metadata/Items/Gems/SkillGemGhostDance": 1,
+        "Metadata/Items/Gem/SkillGemWindDancer": 1,
+        "Metadata/Items/Gems/SupportGemBludgeon": 1,
+        "Metadata/Items/Gems/SupportGemMaim": 1,
+        "Metadata/Items/Gem/SupportGemAtzirisCommunion": 1,
+        "Metadata/Items/Gem/SkillGemManaRemnants": 1,
+        "Metadata/Items/Gem/SupportGemInterludeThree": 1,
+        "Metadata/Items/Gem/SupportGemDissipateTwo": 1,
+        "Metadata/Items/Gem/SupportGemKhatalsRejuvenation": 1,
+        "Metadata/Items/Gem/SupportGemDiallasDesire": 1,
+        "Metadata/Items/Gem/SkillGemMirageArcher": 1,
+        "Metadata/Items/Gem/SupportGemDeliberation": 2,
+        "Metadata/Items/Gems/SupportGemMartialTempoTwo": 2,
+        "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": 1
+      },
+      "gemTotal": 48,
+      "types": 36,
+      "baseSpirit": 180,
+      "sourceFile": "Uber Endgame - 0.5.5 Fubgun Ice Shot Dea.build",
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c",
+      "changes": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "before": 5,
+          "after": 4,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "before": 3,
+          "after": 2,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemGlaciation",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemSnipe",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemWindowOfOpportunityTwo",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemBlindside",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemInevitableCritical",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPerpetualCharge",
+          "before": 1,
+          "after": 0,
+          "delta": -1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+          "before": 0,
+          "after": 1,
+          "delta": 1
+        }
+      ]
+    },
+    "e06": {
+      "id": "e06",
+      "label": "06 实装·只读",
+      "readonly": true,
+      "rows": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "冰霜射击",
+            "蜃影神射（内嵌主动）",
+            "幻影射手（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "qty": 4,
+          "occurrences": 4,
+          "uses": [
+            "冰霜射击",
+            "蜃影神射",
+            "幻影射手",
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemNovaProjectiles",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "冰霜射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "qty": 3,
+          "occurrences": 3,
+          "uses": [
+            "龙卷射击",
+            "蜃影神射",
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "龙卷射击",
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "龙卷射击"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "qty": 0,
+          "occurrences": 1,
+          "uses": [
+            "蜃影神射"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "qty": 2,
+          "occurrences": 2,
+          "uses": [
+            "蜃影神射",
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "qty": 4,
+          "occurrences": 4,
+          "uses": [
+            "蜃影神射",
+            "幽灵舞步",
+            "幻影射手",
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幽灵舞步"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "幻影射手"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemWolfPounce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "巨狼猛扑"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "巨狼猛扑（内嵌主动）"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "巨狼猛扑"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "巨狼猛扑"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "巨狼猛扑"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoThree",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "巨狼猛扑"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBludgeon",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMaim",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "风舞者"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "魔力残片"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportOlrothsConviction",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "弹幕"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdPenetration",
+          "qty": 1,
+          "occurrences": 1,
+          "uses": [
+            "寒冰之捷"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "zh": "冰霜射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemNovaProjectiles",
+              "zh": "新星投射物 I",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemFork",
+              "zh": "分叉",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+              "zh": "格鲁坎的决心",
+              "embedded": false,
+              "special": true
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+              "zh": "拉其塔之流",
+              "embedded": false,
+              "special": true
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+          "zh": "龙卷射击",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+              "zh": "冗余 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDurability",
+              "zh": "耐久度",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemConcentratedEffect",
+              "zh": "范围集中",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+          "zh": "蜃影神射",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemGhostDance",
+          "zh": "幽灵舞步",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+          "zh": "幻影射手",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemIceShot",
+              "zh": "冰霜射击",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDeliberation",
+              "zh": "从容不迫",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+              "zh": "快速攻击 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemWolfPounce",
+          "zh": "巨狼猛扑",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+              "zh": "冰冻印记",
+              "embedded": true,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemEternalMark",
+              "zh": "永恒印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemChargedMark",
+              "zh": "充能印记",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+              "zh": "持续时间延长 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMartialTempoThree",
+              "zh": "快速攻击 III",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemWindDancer",
+          "zh": "风舞者",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+              "zh": "致盲 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemBludgeon",
+              "zh": "击退",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemMaim",
+              "zh": "瘫痪",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+              "zh": "阿兹里的圣礼",
+              "embedded": false,
+              "special": true
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+          "zh": "魔力残片",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+              "zh": "和谐残迹 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+              "zh": "残片效能 III",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+              "zh": "卡哈塔的复苏",
+              "embedded": false,
+              "special": true
+            },
+            {
+              "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+              "zh": "达拉的渴望",
+              "embedded": false,
+              "special": true
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemBarrage",
+          "zh": "弹幕",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+              "zh": "快速施法 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportOlrothsConviction",
+              "zh": "欧罗什的信念",
+              "embedded": false,
+              "special": true
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+              "zh": "冷却回复 II",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        },
+        {
+          "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+          "zh": "寒冰之捷",
+          "parts": [
+            {
+              "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+              "zh": "范围扩大 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+              "zh": "元素军械 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+              "zh": "元素集中",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+              "zh": "远射 II",
+              "embedded": false,
+              "special": false
+            },
+            {
+              "id": "Metadata/Items/Gems/SupportGemColdPenetration",
+              "zh": "冰霜穿透",
+              "embedded": false,
+              "special": false
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "Metadata/Items/Gem/SkillGemIceShot": 3,
+        "Metadata/Items/Gems/SupportGemPrimalArmamentTwo": 4,
+        "Metadata/Items/Gems/SupportGemNovaProjectiles": 1,
+        "Metadata/Items/Gems/SupportGemFork": 1,
+        "Metadata/Items/Gem/SupportGemGarukhansResolve": 1,
+        "Metadata/Items/Gem/SupportGemRakiatasFlow": 1,
+        "Metadata/Items/Gem/SkillGemTornadoShot": 1,
+        "Metadata/Items/Gems/SupportGemOverabundanceTwo": 1,
+        "Metadata/Items/Gems/SupportGemMartialTempoTwo": 3,
+        "Metadata/Items/Gem/SupportGemDurability": 1,
+        "Metadata/Items/Gems/SupportGemBlindTwo": 2,
+        "Metadata/Items/Gems/SupportGemConcentratedEffect": 1,
+        "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye": 1,
+        "Metadata/Items/Gem/SupportGemDeliberation": 2,
+        "Metadata/Items/Gems/SupportGemIngenuityTwo": 4,
+        "Metadata/Items/Gems/SkillGemGhostDance": 1,
+        "Metadata/Items/Gem/SkillGemMirageArcher": 1,
+        "Metadata/Items/Gems/SkillGemWolfPounce": 1,
+        "Metadata/Items/Gem/SkillGemFreezingMark": 1,
+        "Metadata/Items/Gems/SupportGemEternalMark": 1,
+        "Metadata/Items/Gems/SupportGemChargedMark": 1,
+        "Metadata/Items/Gems/SupportGemPersistenceTwo": 1,
+        "Metadata/Items/Gems/SupportGemMartialTempoThree": 1,
+        "Metadata/Items/Gem/SkillGemWindDancer": 1,
+        "Metadata/Items/Gems/SupportGemBludgeon": 1,
+        "Metadata/Items/Gems/SupportGemMaim": 1,
+        "Metadata/Items/Gem/SupportGemAtzirisCommunion": 1,
+        "Metadata/Items/Gem/SkillGemManaRemnants": 1,
+        "Metadata/Items/Gem/SupportGemDissipateTwo": 1,
+        "Metadata/Items/Gem/SupportGemInterludeThree": 1,
+        "Metadata/Items/Gem/SupportGemKhatalsRejuvenation": 1,
+        "Metadata/Items/Gem/SupportGemDiallasDesire": 1,
+        "Metadata/Items/Gems/SkillGemBarrage": 1,
+        "Metadata/Items/Gems/SupportGemArcaneTempoTwo": 1,
+        "Metadata/Items/Gems/SupportOlrothsConviction": 1,
+        "Metadata/Items/Gems/SkillGemHeraldOfIce": 1,
+        "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo": 1,
+        "Metadata/Items/Gems/SupportGemElementalFocus": 1,
+        "Metadata/Items/Gems/SupportGemLongshotTwo": 1,
+        "Metadata/Items/Gems/SupportGemColdPenetration": 1
+      },
+      "gemTotal": 51,
+      "types": 39,
+      "baseSpirit": 180,
+      "sourceFile": "Live Gear - 0.5.5 Fubgun Ice Shot Deadey.build",
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5",
+      "changes": []
+    }
+  },
+  "specialIds": [
+    "Metadata/Items/Gem/SupportGemGarukhansResolve",
+    "Metadata/Items/Gem/SupportGemRakiatasFlow",
+    "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+    "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+    "Metadata/Items/Gem/SupportGemDiallasDesire",
+    "Metadata/Items/Gems/SupportOlrothsConviction"
+  ],
+  "kinds": {
+    "skill": "技能宝石（含内嵌主动）",
+    "spirit": "精魂技能宝石",
+    "meta": "精魂元技能宝石",
+    "support": "普通辅助宝石",
+    "lineage": "特殊／血脉辅助宝石",
+    "granted": "升华授予 · 不买宝石本身"
+  },
+  "notes": [
+    "清单统计当前阶段原件的完整配置，不是刚进异界就必须一次全部装齐；缺技能解锁、孔位、精魂或属性时先保留过渡配置。",
+    "同名宝石按不同镶嵌位置累加；从上一个阶段保留下来的宝石可以继续用，不需要每个阶段重新买一整套。",
+    "辅助名称里的II／III是辅助阶别，未切割宝石的刻印Tier和宝石本体等级是另一回事；不能简单把II理解为任意2级材料。",
+    "原件中的31–100等区间是角色显示区间，不是宝石等级。没有原件依据的20级／20品质不代填为作者要求。",
+    "下面的精魂是未计品质、效率与特殊辅助的基础值，只供逐技能核算；最终以游戏技能界面的实际预留为准。",
+    "所有连接沿用上传快照；本页只做准备清单和来源补充，没有改动BD，也不把06原件冲突解除。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-05T09:13:06.019Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Ca027a8d3-7254-40d4-8073-115918fc6ebc",
+  "section_id": "d64d2cf9-efe4-4903-a414-5f1854f80143",
+  "set": "Set 1",
+  "display_index": 22,
+  "icon": {
+    "height": 64,
+    "left": 574.5,
+    "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Jewels/Uniques/Voices.webp",
+    "top": 381.5703125,
+    "trade_href": null,
+    "trigger": "_r_gd_",
+    "width": 64,
+    "x": 606.5,
+    "y": 413.5703125
+  },
+  "panels": [
+    {
+      "html": "<div data-tippy-root=\"\" id=\"tippy-216\" data-popper-placement=\"left\" style=\"pointer-events: none; z-index: 120000; position: fixed; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(-218px, 318px, 0px);\"><div><div class=\"x1cvue7f x1i97zcw x1hv8zah xu70ewc x1qhigcl x1j9u4d2 x1n2onr6 x1n9hxaw x25l62i xiy17q3 x1bc63r9\"><div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 x1xyvc85\" style=\"background: linear-gradient(180deg, var(--xxthwy2) 0%, rgba(255, 255, 255, 0.00) 100%);\"></div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 xfj9a5l x112ta8 xlbbj0o x19wp0b7 xvpkmg4\" style=\"background: linear-gradient(180deg, var(--xxthwy2) 0%, rgba(255, 255, 255, 0.00) 100%) border-box;\"></div></div><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1n2onr6 x100vrsf x1vqgdyp xb3r6kr xhdc4oz\"><img alt=\"Voices\" width=\"40\" height=\"40\" class=\"x19kjcj4\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=80/assets/poe-2/images/game/Art/2DItems/Jewels/Uniques/Voices.webp\"></div><div><p class=\"x2klb21\">Voices</p><p class=\"x139jznd x9uxgww\"></p></div><div><ul class=\"x139jznd x9uxgww x5tiur9 x1ghz6dp\"><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Limited to 1</li><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Allocates (2-4) Sinister Jewel Sockets</li></ul></div><p class=\"x1cvue7f x1mkayr0 x1fj9vlw\"></p></div><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1dj0lhr x1s85apg xh8yej3 x14vqqas\"><a href=\"https://www.pathofexile.com/trade2/search/Forbidden Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22name%22%3A%22Voices%22%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%5D%7D%5D%2C%22filters%22%3A%7B%22type_filters%22%3A%7B%22filters%22%3A%7B%22rarity%22%3A%7B%22option%22%3A%22unique%22%7D%7D%7D%7D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"x98rzlu xh8yej3\"><button type=\"button\" class=\"x1n2onr6 x1hv8zah x1h7s0lp x78zum5 x6s0dn4 x167g77z xlkovuz x1ypdohk xuxw1ft x10w6t97 x84vhe8 xl56j7k xkgd8lh x1kylzug xtbnezy x1i97zcw x98rzlu xh8yej3\"><span role=\"img\" class=\"x1kky2od xlup9mm xi3szuz\" alt=\"presentation\" style=\"mask: url(&quot;https://cdn.mobalytics.gg/assets/common/icons/ngf-system/Trade.svg&quot;) center center / cover;\"></span>Find on PoE2 Trade</button></a></div></div></div></div></div>",
+      "text": "Voices\n\nLimited to 1\nAllocates (2-4) Sinister Jewel Sockets"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-10-05T09:32:25.963Z",
+  "selected_build": "Uber Endgame",
+  "icons": [
+    {
+      "display_index": 1,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Rings/Basetypes/PrismaticRing.webp"
+    },
+    {
+      "display_index": 2,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Armours/Helmets/Basetypes/HelmetInt08.webp"
+    },
+    {
+      "display_index": 3,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Armours/BodyArmours/Basetypes/BodyDex10.webp"
+    },
+    {
+      "display_index": 4,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Amulets/Basetypes/StellarAmulet.webp"
+    },
+    {
+      "display_index": 5,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Rings/Basetypes/PrismaticRing.webp"
+    },
+    {
+      "display_index": 6,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex04.webp"
+    },
+    {
+      "display_index": 7,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Belts/Uniques/headhunter.webp"
+    },
+    {
+      "display_index": 8,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Armours/Boots/Basetypes/BootsDexInt01.webp"
+    },
+    {
+      "display_index": 9,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Flasks/Basetypes/FlaskLife09.webp"
+    },
+    {
+      "display_index": 10,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Charms/Uniques/ThawingUniqueCharm.webp"
+    },
+    {
+      "display_index": 11,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Charms/Uniques/SilverUniqueCharm.webp"
+    },
+    {
+      "display_index": 12,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Charms/Uniques/GoldenUniqueCharm.webp"
+    },
+    {
+      "display_index": 13,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Flasks/Uniques/LaviangasSpirit.webp"
+    },
+    {
+      "display_index": 14,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Jewels/Timeless.avif"
+    },
+    {
+      "display_index": 15,
+      "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Jewels/SanctumJewel.avif"
+    }
+  ],
+  "radios": [
+    {
+      "checked": false,
+      "value": "set1"
+    },
+    {
+      "checked": true,
+      "value": "set2"
+    }
+  ]
+}

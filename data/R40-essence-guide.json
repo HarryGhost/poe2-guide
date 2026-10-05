@@ -1,0 +1,1040 @@
+{
+  "version": "R40",
+  "checked": "2026-10-02",
+  "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+  "ruleSource": "https://www.pathofexile.com/forum/view-thread/3826682",
+  "catalog": {
+    "abrasion": {
+      "id": "abrasion",
+      "zh": "强效磨蚀精华",
+      "en": "Greater Essence of Abrasion",
+      "side": "前缀",
+      "effect": {
+        "bow": "附加 (16–24) 至 (28–42) 物理伤害"
+      },
+      "slots": [
+        "bow"
+      ],
+      "why": "非暴击物理底弓补本地点伤；作者进阶路线用它配合已有本地物理提高。",
+      "limit": "不能给箭袋、戒指补物理点伤；已有同组本地物理点伤时先停止核对。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Abrasion",
+      "tier": "greater"
+    },
+    "haste": {
+      "id": "haste",
+      "zh": "强效急速精华",
+      "en": "Greater Essence of Haste",
+      "side": "后缀",
+      "effect": {
+        "bow": "攻击速度提高 14–16%"
+      },
+      "slots": [
+        "bow"
+      ],
+      "why": "已有合用伤害前缀，且缺攻速时的普通替代选择，不与磨蚀连续使用。",
+      "limit": "只在适用武器上加攻速；不用于鞋子补移速，也不用于手套或箭袋加攻速。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Haste",
+      "tier": "greater"
+    },
+    "seeking": {
+      "id": "seeking",
+      "zh": "强效寻觅精华",
+      "en": "Greater Essence of Seeking",
+      "side": "后缀",
+      "effect": {
+        "bow": "+(3.11–3.8)% 本地暴击率"
+      },
+      "slots": [
+        "bow"
+      ],
+      "why": "04/05暴击弓的作者路线；先确定要转暴击，再与箭袋、天赋及整套配置配合。",
+      "limit": "这是本地暴击率加值，不是暴击伤害。与强效磨蚀同为升黄分支，不能在同一件蓝弓上先后使用。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Seeking",
+      "tier": "greater"
+    },
+    "enhancement": {
+      "id": "enhancement",
+      "zh": "强效增强精华",
+      "en": "Greater Essence of Enhancement",
+      "side": "前缀",
+      "effect": {
+        "body": "该物品护甲、闪避值与能量护盾提高 68–79%",
+        "helmet": "该物品护甲、闪避值与能量护盾提高 68–79%",
+        "gloves": "该物品护甲、闪避值与能量护盾提高 68–79%",
+        "boots": "该物品护甲、闪避值与能量护盾提高 68–79%"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots"
+      ],
+      "why": "先有合适的平铺防御，再加对应本地百分比防御；03起护盾头的作者稳定路线使用此精华。",
+      "limit": "不凭空给没有护盾基础的底材造出护盾；已有同组百分比防御时不能照抄。不能保证成品防御总值。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Enhancement",
+      "tier": "greater"
+    },
+    "body-greater": {
+      "id": "body-greater",
+      "zh": "强效身躯精华",
+      "en": "Greater Essence of the Body",
+      "side": "前缀",
+      "effect": {
+        "body": "+(100–119) 最大生命",
+        "helmet": "+(100–119) 最大生命",
+        "gloves": "+(85–99) 最大生命",
+        "boots": "+(85–99) 最大生命",
+        "amulet": "+(85–99) 最大生命",
+        "belt": "+(100–119) 最大生命"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt"
+      ],
+      "why": "需要生命，并愿意用一个前缀解决时。",
+      "limit": "不适用于戒指；已有同组生命词缀时停止核对。高阶不代表所有部位都适用。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_the_Body",
+      "tier": "greater"
+    },
+    "body-normal": {
+      "id": "body-normal",
+      "zh": "身躯精华",
+      "en": "Essence of the Body",
+      "side": "前缀",
+      "effect": {
+        "body": "+(85–99) 最大生命",
+        "helmet": "+(85–99) 最大生命",
+        "gloves": "+(70–84) 最大生命",
+        "boots": "+(70–84) 最大生命",
+        "amulet": "+(70–84) 最大生命",
+        "belt": "+(85–99) 最大生命",
+        "rings": "+(70–84) 最大生命"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "why": "戒指要精华保生命时用普通身躯；其他适用部位可作为较低投入选择。",
+      "limit": "普通身躯可用于戒指，强效身躯不行；为做戒指不要先把普通身躯合成强效。",
+      "url": "https://poe2db.tw/cn/Essence_of_the_Body",
+      "tier": "normal"
+    },
+    "fire": {
+      "id": "fire",
+      "zh": "强效绝缘精华",
+      "en": "Greater Essence of Insulation",
+      "side": "后缀",
+      "effect": {
+        "body": "+(31–35)% 火焰抗性",
+        "helmet": "+(31–35)% 火焰抗性",
+        "gloves": "+(31–35)% 火焰抗性",
+        "boots": "+(31–35)% 火焰抗性",
+        "amulet": "+(31–35)% 火焰抗性",
+        "belt": "+(31–35)% 火焰抗性",
+        "rings": "+(31–35)% 火焰抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "why": "按整套缺口只选择其中一种；不是让同一件连用四颗。",
+      "limit": "已有同组对应抗性、该后缀无合法位置，或当前已升黄时，不按这条执行。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Insulation",
+      "tier": "greater"
+    },
+    "cold": {
+      "id": "cold",
+      "zh": "强效熔解精华",
+      "en": "Greater Essence of Thawing",
+      "side": "后缀",
+      "effect": {
+        "body": "+(31–35)% 冰霜抗性",
+        "helmet": "+(31–35)% 冰霜抗性",
+        "gloves": "+(31–35)% 冰霜抗性",
+        "boots": "+(31–35)% 冰霜抗性",
+        "amulet": "+(31–35)% 冰霜抗性",
+        "belt": "+(31–35)% 冰霜抗性",
+        "rings": "+(31–35)% 冰霜抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "why": "按整套缺口只选择其中一种；不是让同一件连用四颗。",
+      "limit": "已有同组对应抗性、该后缀无合法位置，或当前已升黄时，不按这条执行。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Thawing",
+      "tier": "greater"
+    },
+    "lightning": {
+      "id": "lightning",
+      "zh": "强效接地精华",
+      "en": "Greater Essence of Grounding",
+      "side": "后缀",
+      "effect": {
+        "body": "+(31–35)% 闪电抗性",
+        "helmet": "+(31–35)% 闪电抗性",
+        "gloves": "+(31–35)% 闪电抗性",
+        "boots": "+(31–35)% 闪电抗性",
+        "amulet": "+(31–35)% 闪电抗性",
+        "belt": "+(31–35)% 闪电抗性",
+        "rings": "+(31–35)% 闪电抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "why": "按整套缺口只选择其中一种；不是让同一件连用四颗。",
+      "limit": "已有同组对应抗性、该后缀无合法位置，或当前已升黄时，不按这条执行。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Grounding",
+      "tier": "greater"
+    },
+    "chaos": {
+      "id": "chaos",
+      "zh": "强效摧灭精华",
+      "en": "Greater Essence of Ruin",
+      "side": "后缀",
+      "effect": {
+        "body": "+(16–19)% 混沌抗性",
+        "helmet": "+(16–19)% 混沌抗性",
+        "gloves": "+(16–19)% 混沌抗性",
+        "boots": "+(16–19)% 混沌抗性",
+        "amulet": "+(16–19)% 混沌抗性",
+        "belt": "+(16–19)% 混沌抗性",
+        "rings": "+(16–19)% 混沌抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "why": "按整套缺口只选择其中一种；不是让同一件连用四颗。",
+      "limit": "已有同组对应抗性、该后缀无合法位置，或当前已升黄时，不按这条执行。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Ruin",
+      "tier": "greater"
+    },
+    "infinite": {
+      "id": "infinite",
+      "zh": "强效永恒精华",
+      "en": "Greater Essence of the Infinite",
+      "side": "后缀",
+      "effect": {
+        "body": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "helmet": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "gloves": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "boots": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "amulet": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "belt": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "rings": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）",
+        "quiver": "+25–27 力量／敏捷／智慧中的一种（结果不由你指定）"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings",
+        "quiver"
+      ],
+      "why": "只在能接受随机属性结果时考虑；它不是定向智慧精华。",
+      "limit": "只能接受智慧才能穿装／用宝石时，不把此精华当确定解法。已有属性的词缀组限制仍要核对。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_the_Infinite",
+      "tier": "greater"
+    },
+    "battle": {
+      "id": "battle",
+      "zh": "强效战斗精华",
+      "en": "Greater Essence of Battle",
+      "side": "前缀",
+      "effect": {
+        "quiver": "+(237–346) 命中值",
+        "gloves": "+(237–346) 命中值"
+      },
+      "slots": [
+        "quiver",
+        "gloves"
+      ],
+      "why": "确实缺命中且愿意用一个前缀时，作为普通升黄选项。",
+      "limit": "不能保证投射物等级、弓伤、物理点伤或攻速；命中已足够就不为“用精华”硬加。",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Battle",
+      "tier": "greater"
+    },
+    "abrasion-lesser": {
+      "id": "abrasion-lesser",
+      "zh": "次级磨蚀精华",
+      "en": "Lesser Essence of Abrasion",
+      "side": "前缀",
+      "effect": {
+        "bow": "附加 (4–6) 至 (7–11) 物理伤害"
+      },
+      "slots": [
+        "bow"
+      ],
+      "tier": "lesser",
+      "why": "保留合用的物理提高词缀，再补弓本地物理点伤；升黄前先比较现用弓。",
+      "limit": "不是保证整把弓毕业；已有同组物理点伤时须检查冲突，不能当重洗。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Abrasion"
+    },
+    "haste-lesser": {
+      "id": "haste-lesser",
+      "zh": "次级急速精华",
+      "en": "Lesser Essence of Haste",
+      "side": "后缀",
+      "effect": {
+        "bow": "攻击速度提高 8–10%"
+      },
+      "slots": [
+        "bow"
+      ],
+      "tier": "lesser",
+      "why": "弓已有可用伤害、但缺攻速时比较；先确认预留后缀。",
+      "limit": "这里是弓的攻速，不是鞋子移速；不把同名效果套在手套或箭袋。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Haste"
+    },
+    "enhancement-lesser": {
+      "id": "enhancement-lesser",
+      "zh": "次级强化精华",
+      "en": "Lesser Essence of Enhancement",
+      "side": "前缀",
+      "effect": {
+        "body": "该物品护甲、闪避值与能量护盾提高 27–42%",
+        "helmet": "该物品护甲、闪避值与能量护盾提高 27–42%",
+        "gloves": "该物品护甲、闪避值与能量护盾提高 27–42%",
+        "boots": "该物品护甲、闪避值与能量护盾提高 27–42%"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots"
+      ],
+      "tier": "lesser",
+      "why": "有合适底材与可保留的平铺防御，再比较本地百分比防御收益。",
+      "limit": "不凭空产生底材没有的防御类型；已有同组百分比防御时先检查冲突。不要为了纸面防御丢生命、抗性或移速。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Enhancement"
+    },
+    "infinite-lesser": {
+      "id": "infinite-lesser",
+      "zh": "次级永恒精华",
+      "en": "Lesser Essence of the Infinite",
+      "side": "后缀",
+      "effect": {
+        "body": "+9–12 力量、敏捷或智慧，随机一种",
+        "helmet": "+9–12 力量、敏捷或智慧，随机一种",
+        "gloves": "+9–12 力量、敏捷或智慧，随机一种",
+        "boots": "+9–12 力量、敏捷或智慧，随机一种",
+        "amulet": "+9–12 力量、敏捷或智慧，随机一种",
+        "belt": "+9–12 力量、敏捷或智慧，随机一种",
+        "rings": "+9–12 力量、敏捷或智慧，随机一种",
+        "quiver": "+9–12 力量、敏捷或智慧，随机一种"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings",
+        "quiver"
+      ],
+      "tier": "lesser",
+      "why": "缺属性且接受三种属性随机结果时才考虑；指定缺智慧通常优先合适成品。",
+      "limit": "不能选中某一种属性。得到力量不等于智慧问题已解决；不要反复在升黄后的同一件上再用。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_the_Infinite"
+    },
+    "fire-lesser": {
+      "id": "fire-lesser",
+      "zh": "次级绝缘精华",
+      "en": "Lesser Essence of Insulation",
+      "side": "后缀",
+      "effect": {
+        "body": "+11–15% 火焰抗性",
+        "helmet": "+11–15% 火焰抗性",
+        "gloves": "+11–15% 火焰抗性",
+        "boots": "+11–15% 火焰抗性",
+        "amulet": "+11–15% 火焰抗性",
+        "belt": "+11–15% 火焰抗性",
+        "rings": "+11–15% 火焰抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "lesser",
+      "why": "针对当前缺少的火焰抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Insulation"
+    },
+    "cold-lesser": {
+      "id": "cold-lesser",
+      "zh": "次级熔解精华",
+      "en": "Lesser Essence of Thawing",
+      "side": "后缀",
+      "effect": {
+        "body": "+11–15% 冰霜抗性",
+        "helmet": "+11–15% 冰霜抗性",
+        "gloves": "+11–15% 冰霜抗性",
+        "boots": "+11–15% 冰霜抗性",
+        "amulet": "+11–15% 冰霜抗性",
+        "belt": "+11–15% 冰霜抗性",
+        "rings": "+11–15% 冰霜抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "lesser",
+      "why": "针对当前缺少的冰霜抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Thawing"
+    },
+    "lightning-lesser": {
+      "id": "lightning-lesser",
+      "zh": "次级接地精华",
+      "en": "Lesser Essence of Grounding",
+      "side": "后缀",
+      "effect": {
+        "body": "+11–15% 闪电抗性",
+        "helmet": "+11–15% 闪电抗性",
+        "gloves": "+11–15% 闪电抗性",
+        "boots": "+11–15% 闪电抗性",
+        "amulet": "+11–15% 闪电抗性",
+        "belt": "+11–15% 闪电抗性",
+        "rings": "+11–15% 闪电抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "lesser",
+      "why": "针对当前缺少的闪电抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Grounding"
+    },
+    "chaos-lesser": {
+      "id": "chaos-lesser",
+      "zh": "次级摧灭精华",
+      "en": "Lesser Essence of Ruin",
+      "side": "后缀",
+      "effect": {
+        "body": "+4–7% 混沌抗性",
+        "helmet": "+4–7% 混沌抗性",
+        "gloves": "+4–7% 混沌抗性",
+        "boots": "+4–7% 混沌抗性",
+        "amulet": "+4–7% 混沌抗性",
+        "belt": "+4–7% 混沌抗性",
+        "rings": "+4–7% 混沌抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "lesser",
+      "why": "针对当前缺少的混沌抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Ruin"
+    },
+    "abrasion-normal": {
+      "id": "abrasion-normal",
+      "zh": "磨蚀精华",
+      "en": "Essence of Abrasion",
+      "side": "前缀",
+      "effect": {
+        "bow": "附加 (10–15) 至 (18–26) 物理伤害"
+      },
+      "slots": [
+        "bow"
+      ],
+      "tier": "normal",
+      "why": "保留合用的物理提高词缀，再补弓本地物理点伤；升黄前先比较现用弓。",
+      "limit": "不是保证整把弓毕业；已有同组物理点伤时须检查冲突，不能当重洗。",
+      "url": "https://poe2db.tw/cn/Essence_of_Abrasion"
+    },
+    "haste-normal": {
+      "id": "haste-normal",
+      "zh": "急速精华",
+      "en": "Essence of Haste",
+      "side": "后缀",
+      "effect": {
+        "bow": "攻击速度提高 11–13%"
+      },
+      "slots": [
+        "bow"
+      ],
+      "tier": "normal",
+      "why": "弓已有可用伤害、但缺攻速时比较；先确认预留后缀。",
+      "limit": "这里是弓的攻速，不是鞋子移速；不把同名效果套在手套或箭袋。",
+      "url": "https://poe2db.tw/cn/Essence_of_Haste"
+    },
+    "enhancement-normal": {
+      "id": "enhancement-normal",
+      "zh": "强化精华",
+      "en": "Essence of Enhancement",
+      "side": "前缀",
+      "effect": {
+        "body": "该物品护甲、闪避值与能量护盾提高 56–67%",
+        "helmet": "该物品护甲、闪避值与能量护盾提高 56–67%",
+        "gloves": "该物品护甲、闪避值与能量护盾提高 56–67%",
+        "boots": "该物品护甲、闪避值与能量护盾提高 56–67%"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots"
+      ],
+      "tier": "normal",
+      "why": "有合适底材与可保留的平铺防御，再比较本地百分比防御收益。",
+      "limit": "不凭空产生底材没有的防御类型；已有同组百分比防御时先检查冲突。不要为了纸面防御丢生命、抗性或移速。",
+      "url": "https://poe2db.tw/cn/Essence_of_Enhancement"
+    },
+    "infinite-normal": {
+      "id": "infinite-normal",
+      "zh": "永恒精华",
+      "en": "Essence of the Infinite",
+      "side": "后缀",
+      "effect": {
+        "body": "+17–20 力量、敏捷或智慧，随机一种",
+        "helmet": "+17–20 力量、敏捷或智慧，随机一种",
+        "gloves": "+17–20 力量、敏捷或智慧，随机一种",
+        "boots": "+17–20 力量、敏捷或智慧，随机一种",
+        "amulet": "+17–20 力量、敏捷或智慧，随机一种",
+        "belt": "+17–20 力量、敏捷或智慧，随机一种",
+        "rings": "+17–20 力量、敏捷或智慧，随机一种",
+        "quiver": "+17–20 力量、敏捷或智慧，随机一种"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings",
+        "quiver"
+      ],
+      "tier": "normal",
+      "why": "缺属性且接受三种属性随机结果时才考虑；指定缺智慧通常优先合适成品。",
+      "limit": "不能选中某一种属性。得到力量不等于智慧问题已解决；不要反复在升黄后的同一件上再用。",
+      "url": "https://poe2db.tw/cn/Essence_of_the_Infinite"
+    },
+    "fire-normal": {
+      "id": "fire-normal",
+      "zh": "绝缘精华",
+      "en": "Essence of Insulation",
+      "side": "后缀",
+      "effect": {
+        "body": "+21–25% 火焰抗性",
+        "helmet": "+21–25% 火焰抗性",
+        "gloves": "+21–25% 火焰抗性",
+        "boots": "+21–25% 火焰抗性",
+        "amulet": "+21–25% 火焰抗性",
+        "belt": "+21–25% 火焰抗性",
+        "rings": "+21–25% 火焰抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "normal",
+      "why": "针对当前缺少的火焰抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Essence_of_Insulation"
+    },
+    "cold-normal": {
+      "id": "cold-normal",
+      "zh": "熔解精华",
+      "en": "Essence of Thawing",
+      "side": "后缀",
+      "effect": {
+        "body": "+21–25% 冰霜抗性",
+        "helmet": "+21–25% 冰霜抗性",
+        "gloves": "+21–25% 冰霜抗性",
+        "boots": "+21–25% 冰霜抗性",
+        "amulet": "+21–25% 冰霜抗性",
+        "belt": "+21–25% 冰霜抗性",
+        "rings": "+21–25% 冰霜抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "normal",
+      "why": "针对当前缺少的冰霜抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Essence_of_Thawing"
+    },
+    "lightning-normal": {
+      "id": "lightning-normal",
+      "zh": "接地精华",
+      "en": "Essence of Grounding",
+      "side": "后缀",
+      "effect": {
+        "body": "+21–25% 闪电抗性",
+        "helmet": "+21–25% 闪电抗性",
+        "gloves": "+21–25% 闪电抗性",
+        "boots": "+21–25% 闪电抗性",
+        "amulet": "+21–25% 闪电抗性",
+        "belt": "+21–25% 闪电抗性",
+        "rings": "+21–25% 闪电抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "normal",
+      "why": "针对当前缺少的闪电抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Essence_of_Grounding"
+    },
+    "chaos-normal": {
+      "id": "chaos-normal",
+      "zh": "摧灭精华",
+      "en": "Essence of Ruin",
+      "side": "后缀",
+      "effect": {
+        "body": "+8–11% 混沌抗性",
+        "helmet": "+8–11% 混沌抗性",
+        "gloves": "+8–11% 混沌抗性",
+        "boots": "+8–11% 混沌抗性",
+        "amulet": "+8–11% 混沌抗性",
+        "belt": "+8–11% 混沌抗性",
+        "rings": "+8–11% 混沌抗性"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "normal",
+      "why": "针对当前缺少的混沌抗性补一条；先比较换下旧装备后的整套缺口。",
+      "limit": "不能选择掷值；已有同组抗性时先检查是否冲突。不是一颗同时补三抗。",
+      "url": "https://poe2db.tw/cn/Essence_of_Ruin"
+    },
+    "body-lesser": {
+      "id": "body-lesser",
+      "zh": "次级身躯精华",
+      "en": "Lesser Essence of the Body",
+      "side": "前缀",
+      "effect": {
+        "body": "+(30–39) 最大生命",
+        "helmet": "+(30–39) 最大生命",
+        "gloves": "+(30–39) 最大生命",
+        "boots": "+(30–39) 最大生命",
+        "amulet": "+(20–29) 最大生命",
+        "belt": "+(30–39) 最大生命",
+        "rings": "+(20–29) 最大生命"
+      },
+      "slots": [
+        "body",
+        "helmet",
+        "gloves",
+        "boots",
+        "amulet",
+        "belt",
+        "rings"
+      ],
+      "tier": "lesser",
+      "why": "剧情中有可保留的好蓝装，缺生命且这一档已足够提升时即可考虑。",
+      "limit": "按部位看数值；已经有同组生命前缀不能盲用。普通身躯适用戒指，强效身躯不适用戒指。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_the_Body"
+    },
+    "battle-lesser": {
+      "id": "battle-lesser",
+      "zh": "次级激战精华",
+      "en": "Lesser Essence of Battle",
+      "side": "前缀",
+      "effect": {
+        "bow": "+61–84 命中值"
+      },
+      "slots": [
+        "bow"
+      ],
+      "tier": "lesser",
+      "why": "弓确实缺命中时可比较；不是优先于有效武器伤害的固定步骤。",
+      "limit": "次级和普通档适用武器，不适用箭袋、手套；强效档才另有箭袋和手套条目。旧译“战斗精华”保留作检索别名。",
+      "url": "https://poe2db.tw/cn/Lesser_Essence_of_Battle"
+    },
+    "battle-normal": {
+      "id": "battle-normal",
+      "zh": "激战精华",
+      "en": "Essence of Battle",
+      "side": "前缀",
+      "effect": {
+        "bow": "+124–167 命中值"
+      },
+      "slots": [
+        "bow"
+      ],
+      "tier": "normal",
+      "why": "弓确实缺命中时可比较；不是优先于有效武器伤害的固定步骤。",
+      "limit": "次级和普通档适用武器，不适用箭袋、手套；强效档才另有箭袋和手套条目。旧译“战斗精华”保留作检索别名。",
+      "url": "https://poe2db.tw/cn/Essence_of_Battle"
+    }
+  },
+  "slots": {
+    "bow": {
+      "name": "弓",
+      "route": "early-bow",
+      "options": [
+        "abrasion-lesser",
+        "haste-lesser",
+        "abrasion-normal",
+        "haste-normal",
+        "battle-lesser",
+        "battle-normal",
+        "abrasion",
+        "haste",
+        "seeking"
+      ],
+      "default": "abrasion",
+      "start": "普通物理底弓先保住有用的本地物理提高前缀与一条合用后缀；已有相同目标词缀组就不再强塞。",
+      "choice": "非暴击优先比较物理点伤缺口；转暴击后再看强效寻觅。没有合适精华或预算不足，富豪仍是可选随机分支。",
+      "stop": "基础物理太低、精华与现有词缀冲突，或目标不是当前阶段需要的属性就停。作者物等75的进阶路线，不套成所有过渡蓝弓的最低门槛。",
+      "advanced": [
+        [
+          "bow-noncrit",
+          "作者非暴击完整工艺：磨蚀 → 预留渎灵前缀 → 显现后收尾"
+        ],
+        [
+          "bow-crit",
+          "作者暴击完整工艺：寻觅；不与磨蚀升黄叠用"
+        ]
+      ],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "quiver": {
+      "name": "箭袋",
+      "route": "early-quiver",
+      "options": [
+        "infinite-lesser",
+        "infinite-normal",
+        "battle",
+        "infinite"
+      ],
+      "default": "battle",
+      "start": "优先保住当前阶段需要的弓相关有效词缀；先确认是否真的缺命中或可接受随机属性。",
+      "choice": "没有相符的缺口就用原富豪分支，或直接找合格半成品。这里没有用普通精华保“弓物理点伤／攻速／投射物等级”的通用配方。",
+      "stop": "只是想多一条输出属性，却拿命中／随机属性精华凑数时停止。磨蚀、急速和寻觅不能从弓规则套到箭袋。",
+      "advanced": [
+        [
+          "quiver-standard",
+          "作者普通箭袋路线：富豪与随机补词缀"
+        ],
+        [
+          "quiver-advanced",
+          "浮夸精华是另一个高投入替换路线；保留只读限制"
+        ]
+      ],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "body": {
+      "name": "衣服",
+      "route": "early-body",
+      "options": [
+        "body-normal",
+        "enhancement-lesser",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "enhancement-normal",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "enhancement",
+        "body-greater",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "enhancement",
+      "start": "选择符合当前生命／混合防御阶段的底材；要走百分比防御，就先有合用平铺防御，并留目标前缀。",
+      "choice": "防御不足看强效增强；生命或抗性不足分别选身躯或对应抗性，不把全部候选都当必选。",
+      "stop": "后期转防御体系时不能只看生命涨了多少；需要预留防御前缀却被生命占用就暂停，回看本阶段成品目标。",
+      "advanced": [],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "helmet": {
+      "name": "头盔",
+      "route": "early-helmet",
+      "options": [
+        "body-normal",
+        "enhancement-lesser",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "enhancement-normal",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "enhancement",
+        "body-greater",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "enhancement",
+      "start": "Early按当前防御底材处理；03起要护盾头时先有平铺护盾前缀，再判断百分比护盾位置。",
+      "choice": "护盾头优先读作者稳定路线；Early补生命／抗性不等于已经完成后期护盾转型。",
+      "stop": "闪避帽上的强效增强不会变出护盾头；已有同组百分比防御时停止，不直接覆盖。",
+      "advanced": [
+        [
+          "helmet-stable",
+          "03起护盾头的稳定工艺：强效增强与后续预留"
+        ],
+        [
+          "helmet-random",
+          "随机替换工艺另列，风险与稳定路线不同"
+        ]
+      ],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "gloves": {
+      "name": "手套",
+      "route": "early-gloves",
+      "options": [
+        "body-normal",
+        "enhancement-lesser",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "enhancement-normal",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "body-greater",
+        "enhancement",
+        "battle",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "body-greater",
+      "start": "先保住所需防御／伤害基础及合用后缀，按生命、防御、命中或抗性缺口选一颗。",
+      "choice": "强效战斗只保证命中；强效增强只处理本地防御，二者都不是保证攻速或物理点伤。",
+      "stop": "不要把强效急速在武器上的攻速效果套到手套；目标伤害词缀没保住时先另找蓝底。",
+      "advanced": [],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "boots": {
+      "name": "鞋子",
+      "route": "early-boots",
+      "options": [
+        "body-normal",
+        "enhancement-lesser",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "enhancement-normal",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "body-greater",
+        "enhancement",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "body-greater",
+      "start": "先找到有可接受移动速度的蓝鞋，再考虑生命／防御／抗性；移动速度和生命／防御都要核对前缀位置。",
+      "choice": "这组普通升黄候选不保证移速。现有蓝鞋移速不够时，先换起点，而不是指望强效急速补移速。",
+      "stop": "为补生命而把需要的前缀位置用完、或移速不达目标就停。浮夸精华给移速属于黄装随机删除替换，不作为新手默认。",
+      "advanced": [],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "amulet": {
+      "name": "项链",
+      "route": "early-amulet",
+      "options": [
+        "body-normal",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "body-greater",
+        "infinite",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "body-greater",
+      "start": "先看本阶段项链是否要保技能等级／精魂及智慧缺口；确定保留词缀与后续空位。",
+      "choice": "普通升黄解决生命或抗性；强效永恒只能随机属性，不保证智慧，更不能保证＋3投射物等级或精魂。",
+      "stop": "当前必须定向补智慧时不赌随机属性；需要做高级＋3与精魂工艺时，不先用普通路线把位置填满。",
+      "advanced": [
+        [
+          "amulet",
+          "＋3与精魂的完美强化路线另看；不是普通升黄下一步"
+        ]
+      ],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "belt": {
+      "name": "腰带",
+      "route": "early-belt",
+      "options": [
+        "body-normal",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "body-greater",
+        "infinite",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "body-greater",
+      "start": "先确认腰带底材及实际咒符槽条件；蓝装保留已有有效属性，再按生命、抗性、随机属性缺口选。",
+      "choice": "强效身躯在腰带上是100–119生命档；强效永恒不是保证力量。暗金腰带不使用这些升黄步骤。",
+      "stop": "咒符槽不足不会因普通身躯／抗性精华自动解决；成品暗金目标另按获取方式处理。",
+      "advanced": [],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    },
+    "rings": {
+      "name": "戒指",
+      "route": "early-rings",
+      "options": [
+        "body-normal",
+        "infinite-lesser",
+        "fire-lesser",
+        "cold-lesser",
+        "lightning-lesser",
+        "chaos-lesser",
+        "infinite-normal",
+        "fire-normal",
+        "cold-normal",
+        "lightning-normal",
+        "chaos-normal",
+        "body-lesser",
+        "infinite",
+        "fire",
+        "cold",
+        "lightning",
+        "chaos"
+      ],
+      "default": "body-normal",
+      "start": "两枚戒指分别对照目标；先保住有用点伤或需要的后缀，选精华前检查生命／抗性的同组冲突。",
+      "choice": "缺生命选普通“身躯精华”，对应70–84生命；强效身躯不能用于戒指。普通磨蚀也不能照弓的规则给戒指保物理点伤。",
+      "stop": "不能接受属性随机时不靠强效永恒保智慧；抗性按整套缺口分摊，不让两枚都机械重复同一套候选。",
+      "advanced": [],
+      "tierNote": "档位按需要与持有材料选择，不按角色等级锁定；当前人物快照阶段与精华档位是两个维度。"
+    }
+  },
+  "scope": "剧情至异界的普通装备低投入升黄参考；完美／特殊精华另按高级工艺，不纳入这个工作台。",
+  "rules": [
+    "普通／强效精华：魔法蓝装升级稀有并添加该精华对应词缀；它与富豪是使用前二选一。",
+    "完美／特殊精华：对稀有装备进行删除、替换的另一类操作；不是这里升黄后的通用连招。",
+    "每次只选一颗。名称、阶级、物品类别与目标词缀组都相符才使用；颜色和文字行数不能代替前后缀判断。",
+    "下面的区间是对应数据范围，不是必得最高值；低阶替代要重新核对部位和效果，不默认高阶一定更合适。"
+  ]
+}

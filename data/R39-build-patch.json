@@ -1,0 +1,159 @@
+{
+  "version": "R39",
+  "baseline": "R38",
+  "generatedAssets": [
+    "assets/content.9931c035c9b1.js",
+    "assets/app.04c0e1802204.js",
+    "assets/site.63bea146cd6f.css"
+  ],
+  "patches": [
+    {
+      "old": "else if(page==='gems'){",
+      "new": "else if(page==='jewels'){body=jewelsPage();group='character';crumb='人物天赋珠宝清单'}else if(page==='special-jewels'){body=specialJewelsPage();group='character';crumb='特殊人物珠宝'}else if(page==='gems'){",
+      "count": 1
+    },
+    {
+      "old": "character:[['character','当前阶段配置'],['gems','需要哪些宝石'],['special-gems','特殊宝石单独看'],",
+      "new": "character:[['character','当前阶段配置'],['jewels','人物天赋珠宝'],['special-jewels','特殊人物珠宝'],['gems','技能／辅助宝石清单'],['special-gems','血脉辅助（非天赋珠宝）'],",
+      "count": 1
+    },
+    {
+      "old": "['character','gems','special-gems','gear','item/bow'].includes(r)",
+      "new": "['character','jewels','special-jewels','gems','special-gems','gear','item/bow'].includes(r)",
+      "count": 1
+    },
+    {
+      "old": "function searchData(q){let data=[...r38SearchEntries(),",
+      "new": "function searchData(q){let data=[...j39SearchEntries(),...r38SearchEntries(),",
+      "count": 1
+    },
+    {
+      "old": "+treeNote,'',true);",
+      "new": "+treeNote+j39Bridge(),'',true);",
+      "count": 1
+    },
+    {
+      "old": "let main=sec('item-target','01','成品应具备哪些属性'",
+      "new": "let main=(slot==='jewels'?j39Bridge():'')+sec('item-target','01','成品应具备哪些属性'",
+      "count": 1
+    },
+    {
+      "old": "R38 精华步骤与宝石准备 · 保留金币修正",
+      "new": "R39 人物天赋珠宝 · 保留精华与金币修正",
+      "count": 1
+    },
+    {
+      "old": "document.title=crumb+' · Fubgun 冰射攻略 · R38'",
+      "new": "document.title=crumb+' · Fubgun 冰射攻略 · R39'",
+      "count": 1
+    },
+    {
+      "old": "crumb='本阶段宝石准备清单'",
+      "new": "crumb='技能／辅助宝石清单'",
+      "count": 1
+    },
+    {
+      "old": "crumb='特殊宝石与血脉辅助'",
+      "new": "crumb='血脉辅助（非人物天赋珠宝）'",
+      "count": 1
+    },
+    {
+      "old": "'需要哪些宝石 · 按数量准备'",
+      "new": "'技能／辅助宝石 · 按数量准备'",
+      "count": 1
+    },
+    {
+      "old": "'特殊宝石：获取与替代'",
+      "new": "'血脉辅助：获取与替代'",
+      "count": 1
+    },
+    {
+      "old": "'本阶段需要哪些宝石'",
+      "new": "'本阶段技能／辅助宝石'",
+      "count": 1
+    },
+    {
+      "old": "'特殊宝石单独看'",
+      "new": "'血脉辅助单独看'",
+      "count": 1
+    },
+    {
+      "old": "'人物与技能 / 宝石准备','这一阶段，需要哪些宝石？'",
+      "new": "'人物与技能 / 技能宝石准备','这一阶段，需要哪些技能／辅助宝石？'",
+      "count": 1
+    },
+    {
+      "old": "'人物与技能 / 特殊宝石','特殊宝石，单独列清楚'",
+      "new": "'人物与技能 / 血脉辅助','血脉辅助，单独列清楚'",
+      "count": 1
+    },
+    {
+      "old": "title:'这一阶段需要哪些宝石：完整准备清单'",
+      "new": "title:'技能／辅助宝石：完整准备清单'",
+      "count": 1
+    },
+    {
+      "old": "title:'特殊宝石与血脉辅助单独列表'",
+      "new": "title:'血脉辅助单独列表（非人物天赋珠宝）'",
+      "count": 1
+    },
+    {
+      "old": "+phaseNote(true)+r38GemTabs();",
+      "new": "+phaseNote(true)+note('本页是技能／辅助宝石，不是人物天赋树镶嵌的珠宝。 '+routeLink('jewels','查看人物天赋珠宝清单','text-link',{stage:state.stage}))+r38GemTabs();",
+      "count": 1
+    },
+    {
+      "old": "+phaseNote(true)+r38GemTabs(true);",
+      "new": "+phaseNote(true)+note('血脉辅助装在技能连接中，不装进人物天赋珠宝槽。 '+routeLink('special-jewels','查看特殊人物珠宝','text-link',{stage:state.stage}))+r38GemTabs(true);",
+      "count": 1
+    },
+    {
+      "old": "if(kind==='sources')return note(",
+      "new": "if(kind==='sources')return note('<strong>R39 人物天赋珠宝：</strong>'+routeLink('jewels','清单、原件节点与来源','text-link',{stage:state.stage})+'；作者建议与实际插装分开。')+note(",
+      "count": 1
+    }
+  ],
+  "immutableBusinessKeys": [
+    "basis",
+    "stages",
+    "slots",
+    "finish",
+    "augments",
+    "catalysts",
+    "materials",
+    "routes",
+    "gems",
+    "branches",
+    "variants",
+    "masterNodes",
+    "atlasSource",
+    "links",
+    "sources",
+    "fundamentals",
+    "atlas_setup",
+    "atlas_gems",
+    "atlasUnlock",
+    "tools",
+    "filters",
+    "provenance",
+    "documents",
+    "atlasRecords",
+    "atlasRecordAudit",
+    "atlasPrimaryAudit",
+    "atlasStarter",
+    "learningPages",
+    "learningSources",
+    "coverageAudit",
+    "currentRuleNotes",
+    "beginnerAudit",
+    "executionViews",
+    "skillSetupNotes",
+    "executionAudit",
+    "equipmentTargets",
+    "equipmentTargetAudit",
+    "chineseAscendancy",
+    "filterGuide",
+    "essenceGuide",
+    "gemGuide"
+  ]
+}

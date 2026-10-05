@@ -1,0 +1,874 @@
+{
+  "non_page_source_templates_excluded": [
+    "R28原站/源码/workbench-body.html",
+    "R28原站/源码/filter-legend-fragment.html"
+  ],
+  "local_refs": 13745,
+  "missing": [],
+  "http_files_checked": 135,
+  "http_checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/site.9ca8a734f268.css",
+      "status": 200,
+      "mime": "text/css",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/app.c63405d9c376.js",
+      "status": 200,
+      "mime": "text/javascript",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/content.f50a9aa0520c.js",
+      "status": 200,
+      "mime": "text/javascript",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-da81df7f010dc7e583da.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-f3ebef37c87d8b8f4c38.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-d37d2217b2937a897c0c.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-0b566eacffb3bd26a477.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-9a8a1fbff342b074d91c.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-4663f060ce283cd58cb5.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-c58731fcbdf8283f8424.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-3e1e3c35fae5350c5a2f.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-e41176640a69f4e05470.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-59fb9df5e07d03953a36.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-c4d6072ff744af47ebda.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-32b66d53dc177d718fe7.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-f8a2eb663cc0c5b2deb4.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-95d1c13dc5d79087e331.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-386e2532d5e928e8a532.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-cd6e9d1b47581ac9d6a5.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-7e813021b34287c731f9.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-79972e037b7fccea9da1.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-52b2b5ad3dc98b613559.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-75e2d2b4e1ea0adcdc2b.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-7e85795dd562a3df6414.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-d8369c95b64af1e02f43.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-5a50ff66f7e7fb5c76cb.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-1428f40333ee50ef7a3f.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-fd7c56117a9a1ab81f95.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-45e1553e37bebe1dc19f.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-de3e83a6adf7aaf8ae64.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-64dd67a7b90d589d8928.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-ec3a2c686f80b06d95b8.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-df54443b0a011ced2059.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-1b88263214e19719a95f.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-11f106f356c925f77091.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-377336175c4a6a4fe805.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-103155fec27122707bde.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-e9a9200ebfa543f37e99.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-e8e8b4d72b164be9d864.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-c022fb58503eac6b051b.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-1ebfa63368bfaccefaa5.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-ecd29250f6c1d49d7aa9.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-d2939a7331e1d5c00c2f.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-d7bdf88882c2b7894a65.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-97f8e276954c91635fd3.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-aeefa136ce13ecedbd89.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-2c6f4df9b6541a916fcb.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-d79f0b532e1288d65c74.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-19abee31a6098faa78d0.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-ed4a022317d58c637c7e.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-afa7a8a49b2259d5377f.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-68c9be548ec3207c8387.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-3ff27555d185d0ed459b.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-0df2da03e36820ba5aa0.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-b3201d5138b34ac19754.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-51ef1c5803a910a3841d.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-4dc7f6ace19c0d724419.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-db21095cf628de30928d.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-57398ac33abb3ea21d0d.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-f518be2a8834dd50a4ed.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-99455b3c7a3766bd164e.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-f0a00a359e9b052522bc.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-3c603589170de92b6407.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-4b3a426331ac9b84cfa2.png",
+      "status": 200,
+      "mime": "image/png",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-60943c4b1cde985d1354.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "assets/images/image-fd47b025da3d5675d58e.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "same_bytes": true
+    },
+    {
+      "path": "filters/01_Fubgun_Early_Mapping.filter",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "same_bytes": true
+    },
+    {
+      "path": "filters/02_Fubgun_Bow_Campaign.filter",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "same_bytes": true
+    },
+    {
+      "path": "filters/03_Fubgun_Endgame_Mapping.filter",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "same_bytes": true
+    },
+    {
+      "path": "filters/04_Fubgun_Uber_Strict.filter",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "same_bytes": true
+    },
+    {
+      "path": "filters/01_Fubgun_Early_Mapping_Bases_Shards_R37.filter",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "same_bytes": true
+    },
+    {
+      "path": "filters/03_Fubgun_Endgame_Materials_20261002.filter",
+      "status": 200,
+      "mime": "application/octet-stream",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/after-quests.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-abyss.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-activities.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-breach.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-comparison.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-delirium.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-expedition.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-fubgun.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-images.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-masters.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-other.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-passives.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-reference.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-ritual.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-sources.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-start.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-temple.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/atlas-unlock.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/beginner-guide.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/compare.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/coverage.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft-advanced.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft-early-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft-examples.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft-reference.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft-steps-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/craft.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/e01.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/e02.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/e03.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/e04.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/e05.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/e06.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/equipment-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/equipment-goals-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/equipment.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/filter-legend.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/filters.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/finish-check.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/gem-upgrades.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/glossary.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/index.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/l01.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/l02.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/l03.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/l04.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/l05.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/l06.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/mechanics.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/numeric-targets.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/prepare-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/prepare.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/quality-workshop.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/reader.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/rewards.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/roadmap.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/runes-all.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/runes.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/source-audit.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    },
+    {
+      "path": "pages/reference/sources.html",
+      "status": 200,
+      "mime": "text/html",
+      "same_bytes": true
+    }
+  ],
+  "subdirectory_resolution": [
+    {
+      "relative": "index.html",
+      "resolved": "https://example.invalid/poe2/index.html",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "assets/site.9ca8a734f268.css",
+      "resolved": "https://example.invalid/poe2/assets/site.9ca8a734f268.css",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "assets/app.c63405d9c376.js",
+      "resolved": "https://example.invalid/poe2/assets/app.c63405d9c376.js",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "assets/content.f50a9aa0520c.js",
+      "resolved": "https://example.invalid/poe2/assets/content.f50a9aa0520c.js",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "filters/01_Fubgun_Early_Mapping.filter",
+      "resolved": "https://example.invalid/poe2/filters/01_Fubgun_Early_Mapping.filter",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "filters/02_Fubgun_Bow_Campaign.filter",
+      "resolved": "https://example.invalid/poe2/filters/02_Fubgun_Bow_Campaign.filter",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "filters/03_Fubgun_Endgame_Mapping.filter",
+      "resolved": "https://example.invalid/poe2/filters/03_Fubgun_Endgame_Mapping.filter",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "filters/04_Fubgun_Uber_Strict.filter",
+      "resolved": "https://example.invalid/poe2/filters/04_Fubgun_Uber_Strict.filter",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "filters/01_Fubgun_Early_Mapping_Bases_Shards_R37.filter",
+      "resolved": "https://example.invalid/poe2/filters/01_Fubgun_Early_Mapping_Bases_Shards_R37.filter",
+      "keeps_prefix": true
+    },
+    {
+      "relative": "filters/03_Fubgun_Endgame_Materials_20261002.filter",
+      "resolved": "https://example.invalid/poe2/filters/03_Fubgun_Endgame_Materials_20261002.filter",
+      "keeps_prefix": true
+    }
+  ],
+  "note": "HTTP bytes and content types checked with Python urllib; browser navigation remained blocked. Not a deployed domain or game-client test."
+}

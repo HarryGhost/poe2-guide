@@ -1,0 +1,146 @@
+[
+  {
+    "file": "data/Early起步打造教学.json",
+    "change": "12个Early部位追加明确的对应品质／非适用提示与验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-bow.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-quiver.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-body.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-helmet.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-gloves.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-boots.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-amulet.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-belt.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-rings.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-flasks.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-charms.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "early-jewels.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "打造按步操作_R9.json",
+    "path": "helmet-stable.quality",
+    "change": "明确20%品质前置"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-bow.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-quiver.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-body.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-helmet.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-gloves.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-boots.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-amulet.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-belt.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-rings.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-flasks.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-charms.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "early-jewels.last.action",
+    "change": "补品质验收"
+  },
+  {
+    "file": "装备一页操作单_R13.json",
+    "path": "helmet-stable.quality",
+    "change": "明确20%品质前置"
+  },
+  {
+    "file": "data/Fubgun_异界后期打造.json",
+    "path": "helmet-stable",
+    "change": "明确至少20%品质的注能前提；英文原文不动"
+  },
+  {
+    "file": "data/Fubgun_异界后期打造.json",
+    "path": "helmet-random",
+    "change": "明确至少20%品质的注能前提；英文原文不动"
+  }
+]

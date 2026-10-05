@@ -1,0 +1,45 @@
+{
+  "baseline_files": 857,
+  "unchanged": 854,
+  "changed": [
+    "README_上线.md",
+    "index.html",
+    "00_先读我.md"
+  ],
+  "protected": {
+    "R28原站": {
+      "files": 492,
+      "hash_equal": 492
+    },
+    "filters": {
+      "files": 7,
+      "hash_equal": 7
+    },
+    "原版过滤器_从这里选": {
+      "files": 4,
+      "hash_equal": 4
+    }
+  },
+  "capture_original_files": 444,
+  "capture_originals_hash_equal": true,
+  "active_assets_exist": [
+    "assets/style.r43.6594e714ef58.css",
+    "assets/content.e69d3567dd9c.js",
+    "assets/capture43.16613393f010.js",
+    "assets/app.r43.a0798e71b02b.js"
+  ],
+  "original_business_data_asset_unchanged": true,
+  "tests": {
+    "data": 1517,
+    "click": 71,
+    "views": 459,
+    "layout": 45
+  },
+  "layout_included_in_views": true,
+  "not_performed": [
+    "Game client import",
+    "In-game crafting",
+    "User domain deployment"
+  ],
+  "input_capture_sha256": "2c72259b8c6fa198e3317b83efd308572dc85e3ffcf52fc7ba5daf01ba36c2fc"
+}

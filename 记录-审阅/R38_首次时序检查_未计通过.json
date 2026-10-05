@@ -1,0 +1,1833 @@
+{
+  "release": "R38",
+  "date": "2026-10-02",
+  "checks": [
+    {
+      "name": "保留业务字段/basis",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/stages",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/slots",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/finish",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/augments",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/catalysts",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/routes",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/gems",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/branches",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/variants",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/masterNodes",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlasSource",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/links",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/sources",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/fundamentals",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlas_setup",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlas_gems",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlasUnlock",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/tools",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/filters",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/provenance",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/documents",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlasRecords",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlasRecordAudit",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlasPrimaryAudit",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/atlasStarter",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/learningPages",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/learningSources",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/coverageAudit",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/currentRuleNotes",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/beginnerAudit",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/skillSetupNotes",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/executionAudit",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/equipmentTargets",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/equipmentTargetAudit",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/chineseAscendancy",
+      "ok": true
+    },
+    {
+      "name": "保留业务字段/filterGuide",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/trans",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/aug",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/regal",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/chaos",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/exalt",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/annul",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/abrasion",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/seeking",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/enhance-greater",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/enhance-perfect",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/hysteria",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/necro-left",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/necro-right",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/jaw",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/rib",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/collar",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/cranium",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/echoes",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/light",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/double",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/exalt-right",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/annul-left",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/crystal-left",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/crystal-right",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/catalyst",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/catalysing",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/fracture",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/infuser",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/contempt",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/ferocity",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/normal-trans",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/normal-aug",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/normal-regal",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/normal-exalt",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/wisdom",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/perfect-regal",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/perfect-exalt",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/greater-exalt",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/greater-chaos",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/tul",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/xoph",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/esh",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/normal-chaos",
+      "ok": true
+    },
+    {
+      "name": "保留原材料/preserved-jaw",
+      "ok": true
+    },
+    {
+      "name": "保留其他执行工艺/early-jewels",
+      "ok": true
+    },
+    {
+      "name": "保留其他执行工艺/helmet-stable",
+      "ok": true
+    },
+    {
+      "name": "保留其他执行工艺/amulet",
+      "ok": true
+    },
+    {
+      "name": "所有基线文件保留",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "只有首页与两份当前说明变更",
+      "ok": true,
+      "detail": [
+        "README_上线.md",
+        "00_先读我.md",
+        "index.html"
+      ]
+    },
+    {
+      "name": "逐字节保护/R28原站",
+      "ok": true,
+      "detail": {
+        "total": 492,
+        "same": 492
+      }
+    },
+    {
+      "name": "逐字节保护/filters",
+      "ok": true,
+      "detail": {
+        "total": 7,
+        "same": 7
+      }
+    },
+    {
+      "name": "R37.1金币修正哈希",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/bow",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/bow",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/bow",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/bow",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/bow",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/bow",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/bow",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/quiver",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/quiver",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/quiver",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/quiver",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/quiver",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/quiver",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/quiver",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/body",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/body",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/body",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/body",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/body",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/body",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/body",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/helmet",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/helmet",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/helmet",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/helmet",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/helmet",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/helmet",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/helmet",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/gloves",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/gloves",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/gloves",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/gloves",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/gloves",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/gloves",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/gloves",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/boots",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/boots",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/boots",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/boots",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/boots",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/boots",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/boots",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/amulet",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/amulet",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/amulet",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/amulet",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/amulet",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/amulet",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/amulet",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/belt",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/belt",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/belt",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/belt",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/belt",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/belt",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/belt",
+      "ok": true
+    },
+    {
+      "name": "工艺无重复ID/rings",
+      "ok": true
+    },
+    {
+      "name": "工艺步骤可解析/rings",
+      "ok": true
+    },
+    {
+      "name": "蓝装升黄先分支/rings",
+      "ok": true
+    },
+    {
+      "name": "精华富豪各自升黄后验收/rings",
+      "ok": true
+    },
+    {
+      "name": "升黄后不自动接崇高/rings",
+      "ok": true
+    },
+    {
+      "name": "每颗精华确有本部位效果/rings",
+      "ok": true
+    },
+    {
+      "name": "材料引用可解析/rings",
+      "ok": true
+    },
+    {
+      "name": "戒指普通身躯非强效",
+      "ok": true
+    },
+    {
+      "name": "箭袋不套磨蚀急速寻觅",
+      "ok": true
+    },
+    {
+      "name": "鞋子不套急速移速",
+      "ok": true
+    },
+    {
+      "name": "逐镶嵌记录核对数量/e01",
+      "ok": true
+    },
+    {
+      "name": "冰霜射击三份/e01",
+      "ok": true
+    },
+    {
+      "name": "升华技能不采购/e01",
+      "ok": true
+    },
+    {
+      "name": "清单总数/e01",
+      "ok": true
+    },
+    {
+      "name": "完整原连法未丢/e01",
+      "ok": true
+    },
+    {
+      "name": "血脉辅助分阶段/e01",
+      "ok": true
+    },
+    {
+      "name": "逐镶嵌记录核对数量/e02",
+      "ok": true
+    },
+    {
+      "name": "冰霜射击三份/e02",
+      "ok": true
+    },
+    {
+      "name": "升华技能不采购/e02",
+      "ok": true
+    },
+    {
+      "name": "清单总数/e02",
+      "ok": true
+    },
+    {
+      "name": "完整原连法未丢/e02",
+      "ok": true
+    },
+    {
+      "name": "血脉辅助分阶段/e02",
+      "ok": true
+    },
+    {
+      "name": "逐镶嵌记录核对数量/e03",
+      "ok": true
+    },
+    {
+      "name": "冰霜射击三份/e03",
+      "ok": true
+    },
+    {
+      "name": "升华技能不采购/e03",
+      "ok": true
+    },
+    {
+      "name": "清单总数/e03",
+      "ok": true
+    },
+    {
+      "name": "完整原连法未丢/e03",
+      "ok": true
+    },
+    {
+      "name": "血脉辅助分阶段/e03",
+      "ok": true
+    },
+    {
+      "name": "逐镶嵌记录核对数量/e04",
+      "ok": true
+    },
+    {
+      "name": "冰霜射击三份/e04",
+      "ok": true
+    },
+    {
+      "name": "升华技能不采购/e04",
+      "ok": true
+    },
+    {
+      "name": "清单总数/e04",
+      "ok": true
+    },
+    {
+      "name": "完整原连法未丢/e04",
+      "ok": true
+    },
+    {
+      "name": "血脉辅助分阶段/e04",
+      "ok": true
+    },
+    {
+      "name": "逐镶嵌记录核对数量/e05",
+      "ok": true
+    },
+    {
+      "name": "冰霜射击三份/e05",
+      "ok": true
+    },
+    {
+      "name": "升华技能不采购/e05",
+      "ok": true
+    },
+    {
+      "name": "清单总数/e05",
+      "ok": true
+    },
+    {
+      "name": "完整原连法未丢/e05",
+      "ok": true
+    },
+    {
+      "name": "血脉辅助分阶段/e05",
+      "ok": true
+    },
+    {
+      "name": "逐镶嵌记录核对数量/e06",
+      "ok": true
+    },
+    {
+      "name": "冰霜射击三份/e06",
+      "ok": true
+    },
+    {
+      "name": "升华技能不采购/e06",
+      "ok": true
+    },
+    {
+      "name": "清单总数/e06",
+      "ok": true
+    },
+    {
+      "name": "完整原连法未丢/e06",
+      "ok": true
+    },
+    {
+      "name": "血脉辅助分阶段/e06",
+      "ok": true
+    },
+    {
+      "name": "所有原件宝石均有说明",
+      "ok": true,
+      "detail": {
+        "unique": 54
+      }
+    },
+    {
+      "name": "JavaScript语法",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页静态引用/assets/site.7504000cc647.css",
+      "ok": true
+    },
+    {
+      "name": "首页静态引用/assets/content.34993314c865.js",
+      "ok": true
+    },
+    {
+      "name": "首页静态引用/assets/app.9cb29a93966e.js",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "浏览器宝石数量/e01",
+      "ok": true
+    },
+    {
+      "name": "浏览器完整连法行/e01",
+      "ok": true
+    },
+    {
+      "name": "五个主分区/e01",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "特殊页保留六种/e01",
+      "ok": true
+    },
+    {
+      "name": "特殊页当前使用标识/e01",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "浏览器宝石数量/e02",
+      "ok": true
+    },
+    {
+      "name": "浏览器完整连法行/e02",
+      "ok": true
+    },
+    {
+      "name": "五个主分区/e02",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "特殊页保留六种/e02",
+      "ok": true
+    },
+    {
+      "name": "特殊页当前使用标识/e02",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "浏览器宝石数量/e03",
+      "ok": true
+    },
+    {
+      "name": "浏览器完整连法行/e03",
+      "ok": true
+    },
+    {
+      "name": "五个主分区/e03",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "特殊页保留六种/e03",
+      "ok": true
+    },
+    {
+      "name": "特殊页当前使用标识/e03",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "浏览器宝石数量/e04",
+      "ok": true
+    },
+    {
+      "name": "浏览器完整连法行/e04",
+      "ok": true
+    },
+    {
+      "name": "五个主分区/e04",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "特殊页保留六种/e04",
+      "ok": true
+    },
+    {
+      "name": "特殊页当前使用标识/e04",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "浏览器宝石数量/e05",
+      "ok": true
+    },
+    {
+      "name": "浏览器完整连法行/e05",
+      "ok": true
+    },
+    {
+      "name": "五个主分区/e05",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "特殊页保留六种/e05",
+      "ok": true
+    },
+    {
+      "name": "特殊页当前使用标识/e05",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "浏览器宝石数量/e06",
+      "ok": true
+    },
+    {
+      "name": "浏览器完整连法行/e06",
+      "ok": true
+    },
+    {
+      "name": "五个主分区/e06",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "特殊页保留六种/e06",
+      "ok": true
+    },
+    {
+      "name": "特殊页当前使用标识/e06",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "宝石阶段下拉联动",
+      "ok": true
+    },
+    {
+      "name": "子导航保留阶段",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/bow",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/bow",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/bow",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/bow",
+      "ok": true,
+      "detail": [
+        "essence",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/bow",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/bow",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/bow",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/quiver?stage=e01&route=early-quiver&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/quiver",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/quiver",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/quiver",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/quiver",
+      "ok": true,
+      "detail": [
+        "essence",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/quiver",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/quiver?stage=e01&route=early-quiver&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/quiver",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/quiver?stage=e01&route=early-quiver&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/quiver",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/body?stage=e01&route=early-body&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/body",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/body",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/body",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/body",
+      "ok": false,
+      "detail": [
+        "essence-choice"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/body",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/body?stage=e01&route=early-body&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/body",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/body?stage=e01&route=early-body&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/body",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/helmet?stage=e01&route=early-helmet&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/helmet",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/helmet",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/helmet",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/helmet",
+      "ok": true,
+      "detail": [
+        "essence",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/helmet",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/helmet?stage=e01&route=early-helmet&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/helmet",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/helmet?stage=e01&route=early-helmet&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/helmet",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/gloves?stage=e01&route=early-gloves&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/gloves",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/gloves",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/gloves",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/gloves",
+      "ok": false,
+      "detail": [
+        "essence-choice"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/gloves",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/gloves?stage=e01&route=early-gloves&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/gloves",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/gloves?stage=e01&route=early-gloves&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/gloves",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/boots?stage=e01&route=early-boots&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/boots",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/boots",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/boots",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/boots",
+      "ok": false,
+      "detail": [
+        "essence-choice"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/boots",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/boots?stage=e01&route=early-boots&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/boots",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/boots?stage=e01&route=early-boots&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/boots",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/amulet?stage=e01&route=early-amulet&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/amulet",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/amulet",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/amulet",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/amulet",
+      "ok": false,
+      "detail": [
+        "essence-choice"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/amulet",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/amulet?stage=e01&route=early-amulet&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/amulet",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/amulet?stage=e01&route=early-amulet&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/amulet",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/belt?stage=e01&route=early-belt&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/belt",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/belt",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/belt",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/belt",
+      "ok": true,
+      "detail": [
+        "essence",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/belt",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/belt?stage=e01&route=early-belt&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/belt",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/belt?stage=e01&route=early-belt&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/belt",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/ring1?stage=e01&route=early-rings&step=essence-choice",
+      "ok": true
+    },
+    {
+      "name": "各部位展示精华表/rings",
+      "ok": true
+    },
+    {
+      "name": "目标先于精华、精华先于用料/rings",
+      "ok": true
+    },
+    {
+      "name": "全部本部位精华显示/rings",
+      "ok": true
+    },
+    {
+      "name": "精华主路径不串富豪/rings",
+      "ok": false,
+      "detail": [
+        "essence-choice"
+      ]
+    },
+    {
+      "name": "选定精华名与效果显示/rings",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/ring1?stage=e01&route=early-rings&step=regal",
+      "ok": true
+    },
+    {
+      "name": "富豪主路径不串精华/rings",
+      "ok": true,
+      "detail": [
+        "regal",
+        "rare-review"
+      ]
+    },
+    {
+      "name": "页面成功渲染/item/ring1?stage=e01&route=early-rings&step=essence",
+      "ok": true
+    },
+    {
+      "name": "缺选择停止不自动用料/rings",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/ring2?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true
+    },
+    {
+      "name": "第二枚戒指同样覆盖",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true
+    },
+    {
+      "name": "升黄后可主动接黄装后续",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "06不给精华执行入口",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/belt?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "暗金腰带不提供升黄",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/helmet?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "护盾头仍默认作者工艺",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "暴击弓仍默认作者工艺",
+      "ok": true
+    },
+    {
+      "name": "全站搜索/宝石",
+      "ok": true,
+      "detail": 18
+    },
+    {
+      "name": "全站搜索/卡哈塔",
+      "ok": true,
+      "detail": 2
+    },
+    {
+      "name": "全站搜索/身躯",
+      "ok": true,
+      "detail": 13
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "搜索结果可进入特殊页",
+      "ok": false
+    },
+    {
+      "name": "页面成功渲染/gear?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/gear?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/character?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/character?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/character?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/character?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/character?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/character?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/tools/filters",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/tools/filters",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/filter-guide",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/filter-guide",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/filter-check",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/filter-check",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/learn/ascendancy",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/learn/ascendancy",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/atlas-choose",
+      "ok": true
+    },
+    {
+      "name": "原页面无错误/atlas-choose",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/tools/filters",
+      "ok": true
+    },
+    {
+      "name": "金币修正版下载还在",
+      "ok": true
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/375/gems?stage=e01",
+      "ok": true,
+      "detail": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "name": "无重复ID/375/gems?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/375/special-gems?stage=e05",
+      "ok": true,
+      "detail": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "name": "无重复ID/375/special-gems?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/375/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true,
+      "detail": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "name": "无重复ID/375/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/375/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true,
+      "detail": {
+        "width": 375,
+        "scroll": 375
+      }
+    },
+    {
+      "name": "无重复ID/375/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/768/gems?stage=e01",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "无重复ID/768/gems?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/768/special-gems?stage=e05",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "无重复ID/768/special-gems?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/768/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "无重复ID/768/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/768/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "无重复ID/768/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/1440/gems?stage=e01",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/gems?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/special-gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/1440/special-gems?stage=e05",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/special-gems?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/1440/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/item/ring1?stage=e01&route=early-rings&step=essence&essence=body-normal",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面成功渲染/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true
+    },
+    {
+      "name": "整页无横向溢出/1440/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/item/bow?stage=e01&route=early-bow&step=essence&essence=abrasion",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "浏览器无未捕获JS错误",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "total": 405,
+  "passed": 399,
+  "failed": 6,
+  "baselineFiles": {
+    "unchanged": 679,
+    "changed": [
+      "README_上线.md",
+      "00_先读我.md",
+      "index.html"
+    ],
+    "missing": []
+  },
+  "protected": {
+    "R28原站": {
+      "total": 492,
+      "same": 492
+    },
+    "filters": {
+      "total": 7,
+      "same": 7
+    }
+  },
+  "screenshots": [
+    "R38_宝石准备_375.png",
+    "R38_特殊宝石_375.png",
+    "R38_戒指精华_375.png",
+    "R38_弓精华_375.png",
+    "R38_宝石准备_1440.png",
+    "R38_特殊宝石_1440.png",
+    "R38_戒指精华_1440.png",
+    "R38_弓精华_1440.png"
+  ],
+  "browserErrors": [],
+  "navigationProbe": {
+    "navigation": [
+      {
+        "url": "http://127.0.0.1:8765/index.html#/gems?stage=e01",
+        "ok": false,
+        "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8765/index.html#/gems?stage=e01\nCall log:\n  - navigating to \"http://127.0.0.1:8765/index.html#/gems?stage=e01\", waiting until \"load\"\n"
+      },
+      {
+        "url": "file:///mnt/data/poe2_Fubgun_C_R38/index.html#/gems?stage=e01",
+        "ok": false,
+        "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R38/index.html#/gems?stage=e01\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_C_R38/index.html#/gems?stage=e01\", waiting until \"load\"\n"
+      }
+    ],
+    "mode": "about:blank with actual generated HTML/CSS/JS inlined",
+    "errors": [],
+    "title": "本阶段宝石准备清单 · Fubgun 冰射攻略 · R38",
+    "h1": "这一阶段，需要哪些宝石？",
+    "rows": 33,
+    "navCount": 5,
+    "overflow": {
+      "window": 1440,
+      "body": 1440
+    }
+  },
+  "scope": "静态校验与Chromium内存文档交互。真实file和HTTP导航被环境策略阻止；无游戏客户端、掉落、工艺实战或用户域名部署验证。"
+}

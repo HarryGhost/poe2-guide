@@ -1,0 +1,131 @@
+{
+  "validated_at": "2026-10-05T10:24:45.538559+00:00",
+  "checks": [
+    {
+      "check": "六套 build 精确名称、独立选中标签",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "七套 Atlas 精确名称、独立选中标签",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Live Gear 第一颗 Emerald 四条范围",
+      "passed": true,
+      "details": [
+        "(5-15)% increased Attack Damage",
+        "(25-29)% increased Critical Hit Chance for Attacks",
+        "(30-34)% increased Critical Damage Bonus for Attack Damage",
+        "(2-4)% increased Attack Speed with Bows"
+      ]
+    },
+    {
+      "check": "同图标 Emerald 已逐颗区分",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "六个 build 不是同一默认配置复制",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "七个 Atlas 是各自源配置而非默认页副本",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "91 件按 build/武器组记录的装备",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "11 颗可见已配置珠宝及1颗单列未显示绑定",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "全部装备与可见珠宝有独立非空悬浮框证据",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "装备名称源与面板一致",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "90 件 Set 1/共用装备按页面各自参数与源记录核对绑定",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "多个装备结构字段与面板交叉核对",
+      "passed": true,
+      "details": {
+        "equal_fields": 139,
+        "different_fields": 2,
+        "not_printed_fields": 32
+      }
+    },
+    {
+      "check": "全部镶嵌物按孔位有源关联和面板",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "3 位大师各12个候选效果",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "10 个大师分支配置已选状态核对",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Lineage Gems Jado 实际为3项",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Abyss Rares 3位大师分别保留",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "221 个异界已选多选绑定均属于已分配节点",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "所有字段证据文件与 JSON Pointer 可解析",
+      "passed": true,
+      "details": {
+        "reference_count": 1461
+      }
+    }
+  ],
+  "counts": {
+    "builds": 6,
+    "atlas_variants": 7,
+    "equipment_records": 91,
+    "visible_jewels": 11,
+    "saved_not_displayed_jewels": 1,
+    "socket_associations": 36,
+    "unique_socketed_item_definitions": 12,
+    "skill_groups": 60,
+    "master_loadouts": 10,
+    "master_candidate_definitions": 36,
+    "atlas_saved_multichoice_selections": 221
+  },
+  "overall_scope_status": "all_requested_branches_captured_with_explicit_field_gaps",
+  "not_claimed": [
+    "all fields complete",
+    "old files compared",
+    "author actual numeric rolls verified",
+    "machine canvas edges obtained"
+  ]
+}

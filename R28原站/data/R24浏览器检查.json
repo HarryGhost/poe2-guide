@@ -1,0 +1,146 @@
+{
+  "actual_navigation": {
+    "file": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r24_work/poe2_Fubgun_C_R24/atlas-fubgun.html",
+    "http": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:39065/atlas-fubgun.html"
+  },
+  "memory_render": [
+    {
+      "page": "atlas-fubgun.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun整体配套 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun作者加点入口 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-unlock.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "GGG解锁与拿点 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-abyss.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "深渊作者方案 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-masters.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun配套大师 · 锐眼冰射作业"
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "01 Early · 全身装备目标 · Fubgun 0.5.5"
+    },
+    {
+      "page": "e01.html",
+      "width": 1366,
+      "horizontal_page_overflow": false,
+      "title": "01 Early · 初期 · 进入异界 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-fubgun.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun整体配套 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun作者加点入口 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-unlock.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "GGG解锁与拿点 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-abyss.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "深渊作者方案 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-masters.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun配套大师 · 锐眼冰射作业"
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "01 Early · 全身装备目标 · Fubgun 0.5.5"
+    },
+    {
+      "page": "e01.html",
+      "width": 1920,
+      "horizontal_page_overflow": false,
+      "title": "01 Early · 初期 · 进入异界 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-fubgun.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun整体配套 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun作者加点入口 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-unlock.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "GGG解锁与拿点 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-abyss.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "深渊作者方案 · 锐眼冰射作业"
+    },
+    {
+      "page": "atlas-masters.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "Fubgun配套大师 · 锐眼冰射作业"
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "01 Early · 全身装备目标 · Fubgun 0.5.5"
+    },
+    {
+      "page": "e01.html",
+      "width": 390,
+      "horizontal_page_overflow": false,
+      "title": "01 Early · 初期 · 进入异界 · 锐眼冰射作业"
+    }
+  ],
+  "interaction": [
+    "variant button and selector synchronized",
+    "selected variant checklist can be recorded",
+    "variant carried across pages with test storage shim",
+    "switching variant does not inherit another variant checklist",
+    "returning variant restores its own checklist",
+    "reset affects current variant checklist",
+    "image portal shows current same-name variant without fake deep-link switching",
+    "all seven variants and stage table remain in static HTML"
+  ],
+  "console_errors": [],
+  "storage_test": "in-memory localStorage shim; not real file/http persistence"
+}

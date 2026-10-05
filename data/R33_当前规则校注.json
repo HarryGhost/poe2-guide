@@ -1,0 +1,24 @@
+{
+  "breach-rares": {
+    "title": "0.5.5 采购纠错：基础额外稀有怪为1–2，不再是1–3",
+    "body": "作者旧正文在下方保留“每张+3”的原话条件；官方0.5.5已修改of the Invasion的基础范围。当前新制碑牌按1–2基础值与实际碑牌效果核对，不把效果放大后的数字当成可掷出的基础词缀，也不继续要求购买旧3档。",
+    "sources": [
+      "G055"
+    ]
+  },
+  "abyss-rares": {
+    "title": "执行前校注：制图预兆需要Chaos Orb触发",
+    "body": "Omen of Chaotic Effectiveness激活后，下一颗Chaos Orb才会将寻路石整组词缀替换为不提供怪物效果的词缀；不是带着预兆直接腐化。Chaotic Quantity是作者可选投入，不是必需。0.5.5中100%以上迷雾也不再继续增加迷雾怪群数量；原配法、难度与本规则分别看。",
+    "sources": [
+      "G050",
+      "G055"
+    ]
+  },
+  "expedition": {
+    "title": "联盟差异：普通地图碑牌不替换宏大日志配套",
+    "body": "0.5.5先祖秘藏已回归Standard和Forbidden Rites；Aldur’s Saga本体在Runes of Aldur之外不可取得。下方旧作者关于非Aldur Saga的条件按场景使用，不要求新联盟买到该日志。普通地图Expedition Tablet与本页Grand Expedition三张辐照不是同一环节。",
+    "sources": [
+      "G055"
+    ]
+  }
+}

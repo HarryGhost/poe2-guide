@@ -1,0 +1,63 @@
+{
+  "version": "C R24",
+  "checked_at": "2026-09-28",
+  "change_scope": {
+    "site_pages": 56,
+    "atlas_pages_rewritten_or_added": 15,
+    "new_page": "atlas-fubgun.html",
+    "strategy_author": "Fubgun",
+    "other_sources": "GGG only for separately labelled mechanics"
+  },
+  "static_checks": {
+    "status": "passed",
+    "local_references": 5785,
+    "literal_fragments": 1271,
+    "dynamic_route_schema_checks": 629,
+    "issues": [],
+    "rebuild": {
+      "files_compared": 87,
+      "changed": [],
+      "identical": true
+    }
+  },
+  "original_files": {
+    "hash_identical_to_r23": 16,
+    "build_or_build_text_files": 12,
+    "filter_files": 4,
+    "live_gear_readonly": true
+  },
+  "browser_memory_checks": {
+    "pages": 7,
+    "viewports": [
+      1366,
+      1920,
+      390
+    ],
+    "render_combinations": 21,
+    "page_overflows": [],
+    "interaction_assertions_passed": 8,
+    "runtime_errors": [],
+    "storage_scope": "in-memory localStorage shim; not real file/http persistence"
+  },
+  "real_navigation": {
+    "file": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r24_work/poe2_Fubgun_C_R24/atlas-fubgun.html",
+    "http": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:39065/atlas-fubgun.html"
+  },
+  "limitations": {
+    "real_file_or_http_navigation_passed": false,
+    "external_author_tree_render_tested": false,
+    "offline_author_tree_screenshots": false,
+    "full_interactive_node_export": false,
+    "complete_author_stage_point_order": false,
+    "verified_six_character_phases_to_seven_farms_mapping": false,
+    "all_variants_full_text_read": false,
+    "game_client_tested": false,
+    "china_client_tested": false,
+    "published_online": false
+  },
+  "notes": [
+    "The site connects same-name author strategy references and checklist state; it does not certify that every farm is viable for every gear stage.",
+    "Only the current Expedition text is summarized; unverified variants are linked to the author instead of filled with another author’s strategy.",
+    "Browser memory rendering uses test-only inline resources and a localStorage shim. Shipped files do not contain the shim."
+  ]
+}

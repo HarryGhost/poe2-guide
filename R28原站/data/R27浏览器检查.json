@@ -1,0 +1,338 @@
+{
+  "navigation": {
+    "file": {
+      "success": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r27_work/poe2_Fubgun_C_R27/beginner-guide.html"
+    },
+    "http": {
+      "success": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:41443/beginner-guide.html"
+    }
+  },
+  "tests": [
+    {
+      "name": "13chapter sections",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "toc links13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "chapter section scroll handler",
+      "passed": true,
+      "detail": "{'y': 140.703125, 'scroll': 5815, 'url': 'chrome-error://chromewebdata/#ch07-gems'}"
+    },
+    {
+      "name": "quality10to20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "quality0to20",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "qualityinvalidguard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "gemexample23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no blindsupportIII",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "qualityinlinebow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "qualityinlinehelmet",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "qualityinlineflasks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "homepageequipmentfirst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "originalequipmentphaseworks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "searchqualitylesson",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved expedition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel expedition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved ritual-belts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel ritual-belts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved currency-abyss",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel currency-abyss",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved breach-rares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel breach-rares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved abyss-rares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel abyss-rares",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved lineage-gems",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel lineage-gems",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "atlas preserved deli-rush",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pairedpanel deli-rush",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "standalone seven embedded images",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "standalone expansion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "standalone original images load",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "standalone collapse",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "errors": [],
+  "viewports": [
+    {
+      "page": "beginner-guide.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "quality-workshop.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "atlas-comparison.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "source-audit.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "quality-workshop.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "atlas-comparison.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "source-audit.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "quality-workshop.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "atlas-comparison.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "source-audit.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "beginner-guide.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "quality-workshop.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "gem-upgrades.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "atlas-comparison.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "source-audit.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "craft.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 768,
+      "overflow": false
+    }
+  ],
+  "render_method": "inline memory rendering; local assets injected; not actual URL navigation"
+}

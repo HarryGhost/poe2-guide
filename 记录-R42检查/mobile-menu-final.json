@@ -1,0 +1,27 @@
+[
+  {
+    "name": "移动端默认菜单完全收起",
+    "ok": true,
+    "rect": {
+      "x": -240,
+      "y": 0,
+      "width": 240,
+      "height": 844
+    }
+  },
+  {
+    "name": "点击菜单后完整展开",
+    "ok": true,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 240,
+      "height": 844
+    }
+  },
+  {
+    "name": "点击分区后菜单收起且保留剧情",
+    "ok": true,
+    "url": "about:blank#/character?cp=l03"
+  }
+]

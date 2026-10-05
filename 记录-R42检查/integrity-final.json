@@ -1,0 +1,123 @@
+{
+  "businessFields": {
+    "compared": [
+      "basis",
+      "stages",
+      "slots",
+      "finish",
+      "augments",
+      "catalysts",
+      "materials",
+      "routes",
+      "gems",
+      "branches",
+      "variants",
+      "masterNodes",
+      "atlasSource",
+      "links",
+      "sources",
+      "fundamentals",
+      "atlas_setup",
+      "atlas_gems",
+      "atlasUnlock",
+      "tools",
+      "filters",
+      "provenance",
+      "documents",
+      "atlasRecords",
+      "atlasRecordAudit",
+      "atlasPrimaryAudit",
+      "atlasStarter",
+      "learningPages",
+      "learningSources",
+      "coverageAudit",
+      "currentRuleNotes",
+      "beginnerAudit",
+      "executionViews",
+      "skillSetupNotes",
+      "executionAudit",
+      "equipmentTargets",
+      "equipmentTargetAudit",
+      "chineseAscendancy",
+      "filterGuide",
+      "essenceGuide",
+      "gemGuide",
+      "jewelGuide",
+      "progressionGuide",
+      "craftGuide41",
+      "atlasChoices41"
+    ],
+    "different": [],
+    "added": [
+      "guide42"
+    ]
+  },
+  "archive": {
+    "files": 492,
+    "different": []
+  },
+  "historicalFilters": {
+    "files": 7,
+    "different": []
+  },
+  "originalFilters": {
+    "files": 4,
+    "different": []
+  },
+  "originalFilterHashes": {
+    "原版过滤器_从这里选/03_Fubgun_Endgame_Mapping.filter": "c36afdbda5032ef3f6cbf086877fbfc42c1c734e739c8a46412c98d00862abea",
+    "原版过滤器_从这里选/04_Fubgun_Uber_Strict.filter": "d45d0a69858a25944478ba2e21211b72a0c9e9fb856e8c713e1fa5bb129a99ec",
+    "原版过滤器_从这里选/01_Fubgun_Early_Mapping.filter": "f7e83ae7bc4291b17c914c99ea809772237c257edf9b44622372cf91f626f845",
+    "原版过滤器_从这里选/02_Fubgun_Bow_Campaign.filter": "23e1373068275195002b8399be5682a9d20780f899a2aa053c6ad8bbc3cb4959"
+  },
+  "baselinePreservation": {
+    "files": 805,
+    "different": [
+      "index.html"
+    ]
+  },
+  "repeatBuild": {
+    "comparedFiles": 814,
+    "different": [],
+    "extra": []
+  },
+  "entryAssets": {
+    "assets/style.4a5ca8ef8361.css": {
+      "exists": true,
+      "sha256": "4a5ca8ef836109e8056bd49f9383c2ed625b4fd4da0a2b0ab71c52f14f165bf1"
+    },
+    "assets/content.e69d3567dd9c.js": {
+      "exists": true,
+      "sha256": "e69d3567dd9c28e99c9b9c337719826f228748e0a24384193c1961ed70bdf26a"
+    },
+    "assets/app.e6b3f5c187d0.js": {
+      "exists": true,
+      "sha256": "e6b3f5c187d01d4833383169d62cb4b4722456161b37f76c824246f1e434c4c5"
+    }
+  },
+  "referenceAsset": {
+    "assets/references.4d695b29f980.js": "4d695b29f980cc81c0794ebb95b115284b00369d861a2934ad63021b0b24882c"
+  },
+  "javascriptSyntax": [
+    {
+      "file": "assets/content.e69d3567dd9c.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "file": "assets/app.e6b3f5c187d0.js",
+      "exit": 0,
+      "error": ""
+    },
+    {
+      "file": "assets/references.4d695b29f980.js",
+      "exit": 0,
+      "error": ""
+    }
+  ],
+  "campaignSource": {
+    "records": 6,
+    "keys": [],
+    "sourceFilesKept": true
+  }
+}

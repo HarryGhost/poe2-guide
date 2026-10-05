@@ -1,0 +1,603 @@
+# 0.5.5 Fubgun Ice Shot Deadeye - PoE 2 Ranger Build Guide
+LoL
+TFT
+Diablo 4
+PoE 2
+PoE
+WoW Forever
+New
+Destiny 2
+Marathon
+STS 2
+Deadlock
+Overwatch
+Borderlands 4
+VAL
+NTE
+Endfield
+Nightreign
+Monster Hunter Wilds
+Hades 2
+The Bazaar
+Marvel Rivals
+ZZZ
+2XKO
+Riftbound
+Genshin
+New
+DOWNLOAD APP
+Gamebase
+Path of Exile 2
+Builds
+0.5.5 Fubgun Ice Shot Deadeye
+PoE 2 Build
+0.5.5 Fubgun Ice Shot Deadeye
+Ranger
+Deadeye
+End Game
+0.5.5 FR
+Verified
+By
+Fubgun
+Updated on
+Sep 12, 2026
+Track Build
+7.2 K Favorites
+99
+Share
+Focus Mode
+Build Overview
+This is my Endgame Guide for 
+Ice Shot
+. The build has amazing clear and very strong boss damage with 
+Snipe
+, with good gear you're one shotting all bosses. Eventually with enough gear, you can also drop 
+Snipe
+ and become a 1 button mapping and bossing build. Easily the best bow build in 0.5
+For the Leveling Guide, check the link below. 
+Leveling Guide: https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide
+Build Variants
+Early
+non-crit Midgame
+non-crit Hybrid swap
+Crit Hybrid
+Uber Endgame
+Live Gear
+Entering maps/early progression. This gear should be easily acquirable with pure SSF gameplay or very little trading. This is a non-crit and pure life/evasion setup.
+Equipment
+Early
+non-crit Midgame
+non-crit Hybrid swap
+Crit Hybrid
+Uber Endgame
+Live Gear
+Set 1
+Set 2
+1
+3
+8
+6
+5
+3
+2
+7
+9
+10
+Equipment Priority
+Track Build
+Show All
+Mandatory Stats: Make sure to fill out your resist, you want 75% fire/cold/lightning resist. Chaos resist is good, but not mandatory to have 75%, I usually aim for 30-50%. You'll also most likely need 1-2 attribute rolls on gear, belt will solve strength and if you need intelligence, get it on a ring or amulet.
+Rings/glove: try to focus on high flat damage to attacks, preferable cold/phys.
+Bow: You want the highest dps ele/phys weapon you can afford. 
+Obliterator Bow
+ is usually the go to, as it has very high base damage and the downside is negligible.  Check the notes at the bottom of the guide to learn how to craft a bow. Before you have access to 
+Obliterator Bow
+, just use the highest DPS bow you find on the ground or can trade for.
+Greater Iron Rune
+ will provide the highest dps.
+Quiver: Just good dps stats, high flat/bow dmg or projectile speed with attack speed. Ideally just aim for 3-4 stats from the quiver I'm showing in the gear preview.
+amulet: Preferable want +proj levels. Crit chance/crit damage is also good, once you swap to crit. Attributes/resist are also fine here. You need at least 30 spirit on the amulet to use all spirit gems.
+Helmet: At the start just look for a high life/evasion/resist helmet, eventually we'll swap to a pure ES helmet with 
+Subterfuge Mask
+, but you probably wont have a good one for early mapping.
+Chest: you want the highest evasion chest you can afford, this is very important for defense, specially when combined with 
+Beastial Skin
+ on the passive tree. use 
+Greater Iron Rune
+Boots: You want the highest movement speed boots you can afford, it's a very important stat. Besides that look for high life/resistance.
+Belt: Not a lot of choices here, just Life/str/resist, eventually you want to get a 
+Headhunter
+.
+Rarity is still really good in 0.5, I would try to hit at least 100% if you want to farm efficiently (don't focus on this if you feel like you're lacking damage or defense)
+Jewels on tree: Just looking for generic damage: attack damage, elemental damage, movement speed, bonus from quivers, projectile damage, attack speed, crit chance, crit damage, etc.
+Eventually you'll also want 
+Heart of the Well
+ with double "gain as extra" and 
+Against the Darkness
+ with double again as extra as well.
+important:
+You'll want 1 sapphire jewel with mana on kill to sustain mana during mapping. For bosses, having 
+Mark of Siphoning II
+ on 
+Freezing Mark
+ with 
+Eternal Mark
+ should give you enough sustain.
+Anoint:
+Damage: 
+Serrated Edges
+This is just a cheap anoint and pretty effective when you eventually swap to crit.
+Skill Gems
+Early
+non-crit Midgame
+non-crit Hybrid swap
+Crit Hybrid
+Uber Endgame
+Live Gear
+Support Gem Requirements:
+Str 45
+Dex 75
+Int 50
+Collapse all
+1
+Ice Shot
+Set 1
+2
+Snipe
+Set 1
+3
+Tornado Shot
+Set 1
+4
+Ice-Tipped Arrows
+Set 1
+5
+Freezing Mark
+Set 2
+6
+Barrage
+Set 1
+7
+Herald of Ice
+8
+Combat Frenzy
+9
+Mirage Archer
+10
+Mirage Deadeye
+Gem Priority
+Track Build
+Show All
+The links are in priority, so takeout the the last gem if you don't have a 6 link in that skill.
+6 Link Priority: 
+Snipe
+ -> 
+Ice Shot
+ -> 
+Herald of Ice
+ -> 
+Freezing Mark
+Quality Priority:  
+Freezing Mark
+ -> 
+Herald of Ice
+ -> 
+Snipe
+ -> 
+Ice Shot
+Don't use 
+Elemental Armament III
+, only level 2.
+If you don't have the spirit or want to drop it, the spirit 
+Mirage Archer
+ can be dropped for 
+Wind Dancer
+(link with 
+Blind II
+ and 
+Knockback
+).
+Early mapping gameplay:
+You want to keep the buff from 
+Freezing Mark
+ up, has a 20 second duration. Besides that you're just using Ice shot, 
+Snipe
+ is only for map bosses. Optional: use 
+Ice-Tipped Arrows
+Boss rotation:
+The goal is to freeze the boss into a 
+Barrage
+ 
+Snipe
+ combo.
+Pre-place 
+Tornado Shot
+, cast 
+Ice-Tipped Arrows
+, spam 
+Ice Shot
+ until the boss is frozen. Use 
+Barrage
+ into 
+Snipe
+. Make sure you still have a 
+Tornado Shot
+ down before casting barrage/snipe.
+Weapon Set:
+Follow the Weapon set I have above. Essentially you want all of your DPS skills on weapon set 1 and 
+Freezing Mark
+ on weapon set 2.
+Passive Tree
+Early
+non-crit Midgame
+non-crit Hybrid swap
+Crit Hybrid
+Uber Endgame
+Live Gear
+Main:
+123
+123
+Set 1:
+20
+20
+Set 2:
+20
+20
+Take whatever attribute you need at the time, you'll default to dex if you don't need anything. You should also lookout for good attribute amulets or a strength belt to help out with requirements later on.
+This is a level 75 tree, while you should be entering maps around lvl 60-65, just fill out the nodes as you go. If you need defense start taking the evasion/deflection nodes, otherwise just keep clicking the damage nodes.
+If you have projectile speed on your quiver, you should also take 
+Feathered Fletching
+Ascendancy order:
+Projectile Proximity Specialisation
+(point blank) -> 
+Endless Munitions
+ -> 
+Gathering Winds
+ -> 
+Mirage Deadeye
+Weapon Set:
+Follow the Weapon set I have above. Essentially you want all of your DPS skills on weapon set 1 and 
+Freezing Mark
+ on weapon set 2.
+Quest Rewards
+Check which quests you’ve completed on your character
+Track Build
+Act 1
+Clearfell — Beira of the Rotten Pack
++10% to Cold Resistance
+Hunting Grounds — The Crowbell
+Grants Two Weapon Set Passive Skill Points
+Freythorn — The King in the Mists
++30 to Spirit
+Ogham Farmlands — Una's Hut
+Grants Two Weapon Set Passive Skill Points
+Ogham Manor — Candlemass, the Living Rite
++20 to maximum Life
+Act 2
+Keth — Kabala, Constrictor Queen
+Grants Two Weapon Set Passive Skill Points
+Valley of the Titans — Medallion
+30% increased Charm Charges gained
++1 Charm Slot
+Deshar — Final Letter
+Grants Two Weapon Set Passive Skill Points
+The Spires of Deshar — Sisters of Garukhan
++10% to Lightning Resistance
+Act 3
+Jungle Ruins — Mighty Silverfist
+Grants Two Weapon Set Passive Skill Points
+The Venom Crypts — Venom Draught
+25% increased Stun Threshold
+Jiquani's Machinarium — Blackjaw, the Remnant
++10% to Fire Resistance
+The Azak Bog — Ignagduk, the Bog Witch
++30 to Spirit
+The Molten Vault — The Molten Vault
+Reforging Bench
+Aggorat — Blood Sacrifice
+Grants Two Weapon Set Passive Skill Points
+Act 4
+Journey's End — Captain Hartlin
+Two Weapon Set Passive Skill Points
+Skill Gem(Lv 13)
+Delirium Drop
+Whakapanu Island — Great White One
++30% increased Global Armour, Evasion and Energy Shield
+Eye of Hinekora — Navali's Rest
+5% increased Maximum Mana
+Halls of the Dead — Yama The White
+Grants Two Weapon Set Passive Skill Points
+Halls of the Dead — Tawhoa's Test
++5 to Dexterity
+Abandoned Prison — Goddess of Justice
+30% increased Life Recovery from Flasks
+Halls of the Dead — Tasalio's Test
++5% to Cold Resistance
+Halls of the Dead — Ngamahu's Test
++5% to Fire Resistance
+Halls of the Dead — Tribal Medicine
++30% increased Global Armour, Evasion and Energy Shield
+Interlude
+Wolvenhold — Oswin, the Dread Warden
+Grants Two Weapon Set Passive Skill Points
+The Khari Crossing — Akthi and Anundr
+Two Weapon Set Passive Skill Points
+The Khari Crossing — Molten Shrine
+5% increased Maximum Life
+Qimah — Tabana's Pillar
+3% increased Movement Speed
+Kriar Village — Lythara, the Wayward Spear
++40 to Spirit
+Howling Caves — The Abominable Yeti
+Grants Two Weapon Set Passive Skill Points
+Hide Rewards
+How it Plays
+Gear Progression:
+1) Fully setup non-crit setup
+(have heart of the well, cheap for a lot of extra damage/3 prop jewels).
+2) Focus on a really good Crit bow and Crit quiver before swapping to crit (or 
+Cadiro's Gambit
+)
+3) Big evasion chest is massive for defense
+4) Aim for a 450~ ES helmet when swapping to hybrid
+5) After that I would focus on Solid boots/gloves/rings/amulet (+2 proj/spirit on amulet)
+6) Get against the darkness with as extra cold (eventually double as extra).
+Low priority (too expensive to justify the power they give at the moment, buy if you have currency).
+Rakiata's Flow
+/
+Garukhan's Resolve
+/
+Rite of Passage
+/
+Headhunter
+These are solid upgrades, but not priority over the above.
+This all depends on prices, but I would aim for headhunter first than 
+Garukhan's Resolve
+How it Works
+Crafting Guide
+Non-crit Bow - ilvl 75: To start off you need a bow with a High %phys (any %phys works, higher is just better). - Can either buy or pickup bases and trans/aug, until you acquire one. With the crafting nerfs, it's pretty RNG to make a really good bow, but you can still craft decent ones. 
+The best bases are either 
+Obliterator Bow
+ or 
+Warmonger Bow
+.
+1) After acquiring a high %phys bow(make sure to aug first), use Greater essence of Abrasian. This will give you T3 Flat phys.
+2) Use a Sinistral Necromancy and Jawbone to unveil a prefix. Depending on prices, you might want to use a abyssal echoes here. You're looking to unveil any high flat elemental damage (cold is best).
+3) Now it's just rng. Depending on how good your bow is and the prices of items, either use Greater or Perfect exalt with "Omen of greater Exaltation". To fill out the last 2 affixes.
+Crit Bow - ilvl 75: To start off you need a bow with a High %phys (any %phys works, higher is just better). - Can either buy or pickup bases and trans/aug, until you acquire one. With the crafting nerfs, it's pretty RNG to make a really good bow, but you can still craft decent ones. 
+The best bases are either 
+Obliterator Bow
+ or 
+Warmonger Bow
+.
+1) After acquiring a high %phys bow(make sure to aug first), use Greater essence of seeking. This will give you T3 Crit.
+2) Use a Sinistral Necromancy and Jawbone to unveil a prefix. Depending on prices, you might want to use a abyssal echoes here (ancient jawbone is also cheap early league). You're looking to unveil high flat physical damage, but any high tier elemental flat would also be fine.
+3) Now it's just rng. Depending on how good your bow is and the prices of items, either use Greater or Perfect exalt with "Omen of greater Exaltation". To fill out the last 2 affixes.
+Quiver - ilvl 75: The quiver craft is mostly RNG but there's some steps you can take to improve your odds of success, just keep in mind most crafts will end up being mediocre when it comes to the quiver.
+1) Perfect trans/aug quiver until 2 good affixes(can also greater) (flat dmg or inc bow dmg on prefix and +1, crit or atk speed on suffix).
+2) Perfect regal and hope for a 3rd good affix (suffix is the ideal scenario here).
+3) If it hit a bad affix, you can use a greater chaos orb and try to replace the bad affix, 2/3 to brick here.
+4) Dextral necromancy + jawbone on the quiver, if it's 3 gg mods you should use an abyssal echoes
+5) If you hit a good suffix, you should consider using perfect exalt+double exalt omen to finish the craft
+This is the cheapest way to make a GG quiver, lots of rng steps but eventually you will hit. More expensive methods will require omen of lights, fracture and/or whittles.
+Quiver - ilvl75: More expensive method
+If you hit +2 lvls/crit on the suffix with t1 Flat on the prefix, you can jawbone the suffix and go for a 1/3 fracture (if you miss the fracture it's fine, just do the same steps as above) - If you fracture flat dmg, you can exalt 1 mod on the prefix and than use Essence of hysteria + essence of sinistral crystal to have 100% chance of adding bow dmg onto your prefix. The last prefix you will slam with a perfect exalt and hope to not hit accuracy. If the quiver is 5 GG mods, than you should echoes/omen of light your last suffix until you hit crit or attack speed.
+Amulet - Ilvl 80 or ilvl 82 (82 is t1 resist) - The amulet craft is mostly deterministic, but expensive. You'll only need 1 fracture base to finish the craft.
+1) Fracture or buy a +3 projectile amulet
+2) annul down to 2 modifiers (fracture mod+random mod)
+3) Chaos spam until t1 or t2 spirit
+4) Add 1 suffix with dextral exaltation and 1 exalt
+5) Use "dextral crystallisation" with "essence of enhancement" 
+6) Use your desired element catalyst (tul, xoph or esh) until the amulet is 20% quality.
+7) Perfect exalt with "dextral exaltation" and "Catalysing Exaltation" - High chance to hit a resist.
+8) If you hit a resist, repeat the same step above (can use the same catalyst because the amulet can still hit all resist). 
+If the amulet didn't hit resist or a good stat (crit/rarity are good). Than you either need to annul or collarbone + dextral necromance + omen of light to remove the mod and go again.
+9) collarbone + abyssal echoes + omen of light until you get your last desired prefix.
+Helmet - ilvl 78 - Cheap method
+1) Buy or perfect trans/aug bases until you hit t1 +energy shield
+2) Use "greater essence of enhancement"
+3) Use "sinistral necromancy" with a preserved rib
+4) Unveil and take any hybrid %es
+5) If the hybrid % was t1 I would use a perfect exalt + greater exaltation, otherwise just use a greater exalt to finish the suffixes. 
+6) If the suffixes/prefixes are really good I would finish with vaal infusers (has a chance to corrupt but the item cannot brick, just make sure to add a socket before using this).
+Helmet - ilvl 78 - Cheap but random (this method allows the chance for triple t1 prefix).
+1) Buy or perfect trans/aug bases until you hit t1 %energy shield or +energy shield.
+2) If the prefix/suffix is good (good suffix is resist/crit/rarity) I would use a resist or rarity essence.
+3) sinistral necromancy + preserved rib and than greater exalt + greater exaltation omen
+4) If you hit a good hybrid prefix tier (t3/t2/t1) I would use an abyssal echoes and hope you hit a good tier.
+5) Finish with vaal infusers if the item has high tier prefixes.
+Emerald Jewels - (expensive).
+Step 1: Buy or fracture Critical damage bonus for attacks (you want 20%)
+Step 2: Chaos spam for increased critical hit chance
+Step 3: Make sure you have a 4 mod jewel, now use "potent liquid contempt". If you lose your crit Suffix, go back to step 2.
+Step 4: Use preserved cranium with abyssal echoes and omens of lights until you unveil attack speed 
+Step 5: Once you got your desired mod, you now now need to annul the prefix with a "sinistral annulment" (if you miss the +1 suffix, you'll have to do this twice).
+Step 6: Once the +1 suffix crafted mod is removed, you'll now want to exalt slam until 5 affixes
+Step 7: chaos spam for 1 good prefix (proj damage, elemental damage, dmg vs rares, attack damage).
+Final step 8: Use potent liquid of ferocity. 50/50% chance to finish. If you lose your good modifier, go back to step 7.
+Comments
+99
+Top
+Newest
+Oldest
+Newest
+B
+Brian
+•
+8h ago
+How do you rate Serrated Edges vs Heavy Frost? I find I'm freezing everything which then lets me ignore resistances on frozen targets. I notice significant damage increase against map bosses with Heavy Frost, although it can take a few shots to freeze them.
+0
+Reply
+Share
+T
+tksdeathdealer
+•
+14h ago
+Hello all, Can someone tell me why there are green and red lines on the passive tree please? Thank you in advance
+0
+Reply
+Share
+G
+GrimGolem
+•
+1d ago
+How to deal with a lack of mana in crit version?
+0
+Reply
+Share
+C
+CoolRobot
+•
+16h ago
+Conservative Casting on a tree u just need 3 pasive points with lavianga, mana remnants and also very important to have 2% mana recovery on kill on sapphire or heart of the well and u should be fine
+0
+Reply
+Share
+G
+Gavyn
+•
+4d ago
+how does your live build have so much spirit with only 50 on your amulet?
+0
+Reply
+Share
+G
+GrimCrown
+•
+1d ago
+atziri communion
+0
+Reply
+Share
+G
+gkenjil
+•
+4d ago
+Sorry, I'm new but aren't some of these Set II passives non-functional? ex. "The Noble Wolf". My understanding is that you don't gain "magnitude of ailment" or crit chance because those aren't applied along with the mark. The moment you use a non-mark skill, your tree swaps back to the "Set I" profile. Wouldn't it be better to take the nearby "Unsight" notable?
+0
+Reply
+Share
+S
+ShinyGolem
+•
+3d ago
+got this issues with other builds, funny part is that on few builds you are loosing auras with weapon swap and youre dead before you can know this. Also maybe I don't understand how weapon change is working, but I think I could have noticed that on few builds it's dropping damage of the skills that are in rotation, but you are using different set ie. to movement
+1
+Reply
+Share
+C
+cyz180932
+•
+4d ago
+Why do you have 10 skill slots while I only have 9?
+0
+Reply
+Share
+F
+FreshSun
+•
+3d ago
+ring granting additional skill slot
+1
+Reply
+Share
+G
+GrimCrown
+•
+1d ago
+mirage deadeye is a skill from ascendancy. it doesnt take a slot
+0
+Reply
+Share
+R
+RichGolem
+•
+5d ago
+Hi, I have a question. I'm following the crit build exactly, but there's an issue with Freezing Mark: it disappears when I put it in Set 2, though I can use it when I activate Set 1. What am I doing wrong? Thanks.
+Freezing Mark
+0
+Reply
+Share
+0
+0verlymanlyman
+•
+3d ago
+Do you by any chance have a weapon is slot 2?
+0
+Reply
+Share
+S
+ShinyKey
+•
+5d ago
+how to place ice shot into mirage dead eye and still have ice shot asd a skill... dont understand alot in this build
+0
+Reply
+Share
+C
+chaosblade
+•
+5d ago
+literally 3 copies of the gem. the one you use you'll eventually apply perfect jewelers on/get to 20% etc, the two copies for the mirages are just the plain cut gem.
+0
+Reply
+Share
+View 1 reply
+N
+No Mana
+•
+5d ago
+No Mana Deadeye 0.5
+what the hell is this
+1
+Reply
+Share
+S
+SilentShadow
+•
+6d ago
+when should I go for "Live Gear" passive tree? it changes a lot of points, it seems to have more damage/critical but i'm know for sure that i'm ready, just got a mageblood and rakiatas but no garukhan or rite of passage yet.
+3
+Reply
+Share
+G
+GrimCrown
+•
+1d ago
+a lot of jewels, probably voices and op bow with a lot of additional arrows since live gear is a pathfinder
+0
+Reply
+Share
+Show more comments
+Video Guide
+Build Planner Export
+Export this build variant directly to your game.
+Download Build File
+How it Works
+Table of Contents
+1. Build Overview
+2. Build Variants
+3. Equipment
+4. Skill Gems
+5. Passive Tree
+6. Quest Rewards
+7. How it Plays
+Gear Progression:
+8. How it Works
+Crafting Guide
+9. Comments
+Back to top
+Featured Builds
+[0.5.5] Spin to Win ONE-Shot Bosses
+Updated on Sep 24, 2026
+[0.5.5] Scorps Plants COC Endgame Guide
+Updated on Sep 23, 2026
+0.5 - Eventide Shatter Chain Martial Artist
+Updated on Sep 23, 2026
+0.5.5 Floor is Lava Gemling - 6D Budget 200% Rarity Stacker - Flameblast/OIl Grenade
+Updated on Sep 22, 2026
+Cold Spark Sorceress League Starter - by Asmodeus
+Updated on Sep 22, 2026
+Become a Creator
+Want to earn rewards by sharing your builds with your community?
+Join Creator Program

@@ -1,0 +1,36 @@
+{
+  "same_baseline_files": 765,
+  "modified_baseline_files": [
+    "index.html"
+  ],
+  "changed_existing_data_keys": [
+    "release"
+  ],
+  "original_filters": [
+    {
+      "key": "01",
+      "name": "01_Fubgun_Early_Mapping.filter",
+      "sha256": "f7e83ae7bc4291b17c914c99ea809772237c257edf9b44622372cf91f626f845",
+      "metadata_match": true
+    },
+    {
+      "key": "02",
+      "name": "02_Fubgun_Bow_Campaign.filter",
+      "sha256": "23e1373068275195002b8399be5682a9d20780f899a2aa053c6ad8bbc3cb4959",
+      "metadata_match": true
+    },
+    {
+      "key": "03",
+      "name": "03_Fubgun_Endgame_Mapping.filter",
+      "sha256": "c36afdbda5032ef3f6cbf086877fbfc42c1c734e739c8a46412c98d00862abea",
+      "metadata_match": true
+    },
+    {
+      "key": "04",
+      "name": "04_Fubgun_Uber_Strict.filter",
+      "sha256": "d45d0a69858a25944478ba2e21211b72a0c9e9fb856e8c713e1fa5bb129a99ec",
+      "metadata_match": true
+    }
+  ],
+  "all_legacy_filters_unchanged": true
+}

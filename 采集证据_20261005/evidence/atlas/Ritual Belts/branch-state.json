@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-05T09:43:45.595Z",
+  "source_url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant",
+  "description": "Atlas Tree Variants\nExpedition\nRitual Belts\nCurrency Abyss\nBreach Rares\nAbyss Rares\nLineage Gems\nDeli Rush\n\nTablets:\n\n1x freedom of faith (unique ritual tablet)\n\n2x Ritual tablets with: Altars in Map allow rerolling Favours 3 additional times (try to get +1 modifier here)\n\n1x Ritual tablet (get 2 modifiers here, cheap since it's not +3 rerolls)\n\nMandatory: T15 6 mod map for lvl 79 area (you wont get good omens below lvl 79).\n\n3 tablet modifiers you always want: (spread across the 3 tablets) - Feel free to get 2x as any mod, only #1 is mandatory.\n\n1: Rerolling favours at ritual altars in map cost 20-30% reduced tribute - This one is mandatory, if you only use one than you want a 28-30% roll.\n2: Monsters Sacrificed at Ritual Altars in Map grant 18-30% increased Tribute\n3: Ritual Favours in Map have 35-70% increased chance to be Omens\n4: Deferring Favours at Ritual Altars in Map costs 20-30% reduced Tribute\n\nJado: Partial translation and unforeseen threats - unexpected mission is also good.",
+  "selected_tabs": [
+    {
+      "id": "react-aria3280961503-_r_7o_-tab-default-variant",
+      "key": "default-variant",
+      "name": "Ritual Belts",
+      "section_id": "f7d82102-7e77-4a44-ad24-33b67e8ae7bf"
+    },
+    {
+      "id": "react-aria3280961503-_r_u7_-tab-default-variant",
+      "key": "default-variant",
+      "name": "Ritual Belts",
+      "section_id": "7a2a5b46-bdb0-4d8c-aa13-0c4a3b136141"
+    }
+  ]
+}

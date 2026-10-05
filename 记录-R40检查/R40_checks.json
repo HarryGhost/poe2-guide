@@ -1,0 +1,7867 @@
+{
+  "passed": 1567,
+  "failed": 0,
+  "mode": "memory document: actual built HTML CSS JS",
+  "real_navigation_attempts": [
+    {
+      "url": "http://127.0.0.1:39631/index.html",
+      "ok": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:39631/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:39631/index.html\", waiting until \"load\"\n"
+    },
+    {
+      "url": "file:///mnt/data/poe2_Fubgun_C_R40/index.html",
+      "ok": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R40/index.html\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_C_R40/index.html\", waiting until \"load\"\n"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "R40_前期精华_390.png",
+    "R40_成长路线_1440.png",
+    "R40_打造时机_1440.png",
+    "R40_前期鞋子精华_1440.png",
+    "R40_一词蓝弓步骤_1440.png",
+    "R40_精华材料分区_1440.png"
+  ],
+  "checks": [
+    {
+      "name": "原业务数据不变/branches",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/stages",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/slots",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/routes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/gems",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/gemGuide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/jewelGuide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/equipmentTargets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/chineseAscendancy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/variants",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/atlasSource",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/atlasUnlock",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/atlasRecords",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/atlasRecordAudit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/atlasPrimaryAudit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/atlasStarter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/filterGuide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原业务数据不变/learningPages",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "逐字节保护/R28原站",
+      "ok": true,
+      "detail": {
+        "files": 492
+      }
+    },
+    {
+      "name": "逐字节保护/filters",
+      "ok": true,
+      "detail": {
+        "files": 7
+      }
+    },
+    {
+      "name": "金币修正",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/trans",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/aug",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/regal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/exalt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/annul",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/abrasion",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/seeking",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/enhance-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/enhance-perfect",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/hysteria",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/necro-left",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/necro-right",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/jaw",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/rib",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/collar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/cranium",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/echoes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/light",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/double",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/exalt-right",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/annul-left",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/crystal-left",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/crystal-right",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/catalyst",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/catalysing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/fracture",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/infuser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/contempt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/ferocity",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/normal-trans",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/normal-aug",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/normal-regal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/normal-exalt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/wisdom",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/perfect-regal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/perfect-exalt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/greater-exalt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/greater-chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/tul",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/xoph",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/esh",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/normal-chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/preserved-jaw",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-abrasion",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-haste",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-seeking",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-enhancement",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-infinite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原材料保留/r38-battle",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/bow/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/bow/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/abrasion-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/haste-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/battle-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/bow/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/bow/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/abrasion-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/haste-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/battle-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/bow/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/bow/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/abrasion",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/haste",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/bow/seeking",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/quiver/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/quiver/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/quiver/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/quiver/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/quiver/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/quiver/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/quiver/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/quiver/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/quiver/battle",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/quiver/infinite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/body/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/body/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/enhancement-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/body/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/body/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/enhancement-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/body/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/body/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/enhancement",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/body/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/helmet/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/helmet/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/enhancement-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/helmet/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/helmet/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/enhancement-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/helmet/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/helmet/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/enhancement",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/helmet/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/gloves/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/gloves/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/enhancement-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/gloves/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/gloves/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/enhancement-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/gloves/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/gloves/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/enhancement",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/battle",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/gloves/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/boots/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/boots/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/enhancement-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/boots/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/boots/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/enhancement-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/boots/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/boots/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/enhancement",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/boots/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/amulet/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/amulet/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/amulet/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/amulet/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/amulet/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/amulet/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/infinite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/amulet/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/belt/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/belt/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/belt/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/belt/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/belt/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/belt/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/body-greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/infinite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/belt/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/rings/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/rings/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/infinite-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/fire-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/cold-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/lightning-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/chaos-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/body-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/rings/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/rings/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/body-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/infinite-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/fire-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/cold-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/lightning-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/chaos-normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "部位档位都有明确参考/rings/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "条目效果与适用部位一致/rings/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/infinite",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/fire",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/cold",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/lightning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "用料记录/rings/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "低阶激战不套用/quiver",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "低阶激战不套用/gloves",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "急速不当鞋手箭袋攻速/boots",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "急速不当鞋手箭袋攻速/gloves",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "急速不当鞋手箭袋攻速/quiver",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "戒指普通身躯与强效差异",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "原九类执行只改增幅提示",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "JavaScript语法",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页引用/assets/site.06ffe5eb4e6d.css",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页引用/assets/content.894425abcb3a.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页引用/assets/app.9097fa2dc539.js",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页先全身目标/e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e01&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e01&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e01/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e01/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e02",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页先全身目标/e02",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e02&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e02&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e02&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e02&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e02/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e02/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e03",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页先全身目标/e03",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e03&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e03&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e03&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e03&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e03/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e03/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e04",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页先全身目标/e04",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e04&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e04&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e04&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e04&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e04/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e04/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页先全身目标/e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e05&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e05&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e05&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e05&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e05/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e05/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e06",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页先全身目标/e06",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/bow/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/bow/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/bow/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/bow/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/quiver/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/quiver/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/quiver/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/quiver?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/quiver/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/body/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/body/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/body/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/body?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/body/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/helmet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/helmet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/helmet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/helmet?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/helmet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/gloves/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/gloves/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/gloves/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/gloves?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/gloves/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/boots/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/boots/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/boots/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/boots?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/boots/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/amulet/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/amulet/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/amulet/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/amulet?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/amulet/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/belt/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/belt/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/belt/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/belt?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/belt/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring2?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/ring2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/jewels/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/jewels/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/jewels/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/jewels?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/jewels/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/life_flask/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/life_flask/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/life_flask/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/life_flask?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/life_flask/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/charm1/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/charm1/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/charm1/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/charm1?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/charm1/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e06&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/weapon2/target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e06&tab=plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/weapon2/plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e06&tab=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/weapon2/steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/weapon2?stage=e06&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分区真实切换/e06/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "非操作区不塞操作表/e06/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "06不出现普通精华执行/weapon2/finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/bow/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/bow/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/bow/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=quiver&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/quiver/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=quiver&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/quiver/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=quiver&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/quiver/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=body&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/body/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=body&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/body/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=body&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/body/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=helmet&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/helmet/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=helmet&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/helmet/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=helmet&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/helmet/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=gloves&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/gloves/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=gloves&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/gloves/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=gloves&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/gloves/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/boots/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/boots/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/boots/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=amulet&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/amulet/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=amulet&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/amulet/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=amulet&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/amulet/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=belt&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/belt/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=belt&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/belt/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=belt&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/belt/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=rings&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/rings/lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=rings&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/rings/normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=rings&tier=greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作台精华集合/rings/greater",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "选择精华进入步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "前期状态/white",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "前期状态/magic1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "前期状态/magic2",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "前期状态/rare",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "前期状态/blocked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&view=steps&kind=magic1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "未选精华停止默认用料",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&essence=abrasion-lesser&view=steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "换部位清除不合用材料",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "低阶箭袋无激战精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=plan&tier=normal",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "单件材料切换步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "单件步骤不重复精华大表",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "切阶段保留分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "切部位保留分区清除材料",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "单件档位联动",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "投入判断/先核对",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "投入判断/现在停止",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "投入判断/暂时不值得",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "投入判断/保留现用",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "投入判断/先验收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "投入判断/可以比较一次",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/early-craft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/early-craft",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/supplies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/supplies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/supplies",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/coverage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/coverage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/coverage",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/character?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/character?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/character?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/jewels?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/jewels?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/jewels?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/special-jewels?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/special-jewels?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/special-jewels?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gems?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/gems?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/gems?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/special-gems?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/special-gems?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/special-gems?stage=e05",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/atlas-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/atlas-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/atlas-starter",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/atlas-choose",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/atlas-choose",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/atlas-choose",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/atlas-unlock",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/atlas-unlock",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/atlas-unlock",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/tools",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/tools",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/tools",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/tools/filters",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/tools/filters",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/tools/filters",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/filter-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/filter-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/filter-guide",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/filter-check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/filter-check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/filter-check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/ascendancy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/ascendancy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/ascendancy",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/sekhemas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/sekhemas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/sekhemas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/chaos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/permanent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/permanent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/permanent",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/activities",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/activities",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/activities",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/readiness",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/readiness",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/readiness",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/audit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/audit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/audit",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/mechanisms",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/mechanisms",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/mechanisms",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/start",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/start",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/start",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/build-use",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/build-use",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/build-use",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/skill-check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/skill-check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/skill-check",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/acquisition",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/acquisition",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/acquisition",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/map-run",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/map-run",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/map-run",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/safety",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/safety",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/safety",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/audit-beginner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/audit-beginner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/audit-beginner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/learn/audit-targets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "五个主分区/learn/audit-targets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "重复ID/learn/audit-targets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "全站搜索前期精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "全站搜索投入时机",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/全身装备",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/guide?period=campaign",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/成长路线",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/打造时机",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/前期鞋子精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&view=steps&kind=magic1&essence=abrasion-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/一词蓝弓步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/装备目标",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/精华材料分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/收尾验收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/故障排查",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/coverage?status=open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/390/待核实项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/全身装备",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/guide?period=campaign",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/成长路线",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/打造时机",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/前期鞋子精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&view=steps&kind=magic1&essence=abrasion-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/一词蓝弓步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/装备目标",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/精华材料分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/收尾验收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/故障排查",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/coverage?status=open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/768/待核实项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/全身装备",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/guide?period=campaign",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/成长路线",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/打造时机",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/前期鞋子精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&view=steps&kind=magic1&essence=abrasion-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/一词蓝弓步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/装备目标",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/精华材料分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/收尾验收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/故障排查",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/coverage?status=open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1024/待核实项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/全身装备",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/guide?period=campaign",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/成长路线",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/打造时机",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/前期鞋子精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&view=steps&kind=magic1&essence=abrasion-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/一词蓝弓步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/装备目标",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/精华材料分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/收尾验收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/故障排查",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/coverage?status=open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1440/待核实项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/gear?stage=e01",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/全身装备",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/guide?period=campaign",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/成长路线",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/craft-timing",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/打造时机",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=boots&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/前期鞋子精华",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/early-craft?slot=bow&tier=lesser&view=steps&kind=magic1&essence=abrasion-lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/一词蓝弓步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=target",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/装备目标",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/bow?stage=e01&tab=plan&tier=lesser",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/精华材料分区",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/收尾验收",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/troubleshoot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/故障排查",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面加载/coverage?status=open",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面宽度/1920/待核实项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "无未捕获JS异常",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

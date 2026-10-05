@@ -1,0 +1,320 @@
+{
+  "version": "R25",
+  "date": "2026-09-28",
+  "status": "原图收录、静态检查与内存渲染/交互检查完成；真实file/HTTP导航受环境限制",
+  "images": [
+    {
+      "variant": "expedition",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1039,
+      "height": 697
+    },
+    {
+      "variant": "ritual-belts",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1021,
+      "height": 719
+    },
+    {
+      "variant": "currency-abyss",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1026,
+      "height": 715
+    },
+    {
+      "variant": "breach-rares",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1045,
+      "height": 719
+    },
+    {
+      "variant": "abyss-rares",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1027,
+      "height": 712
+    },
+    {
+      "variant": "lineage-gems",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1029,
+      "height": 717
+    },
+    {
+      "variant": "deli-rush",
+      "exists": true,
+      "sha256_matches": true,
+      "width": 1033,
+      "height": 732
+    }
+  ],
+  "static": {
+    "html_pages": 56,
+    "missing_local_files": [],
+    "unresolved_static_anchors": [],
+    "duplicate_ids": [],
+    "character_and_filter_preservation": [
+      {
+        "path": "构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/04_Crit_Hybrid.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/03_中文提示.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/04_中文提示.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/03_noncrit_Hybrid.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/01_中文提示.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/02_中文提示.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/02_noncrit_Midgame.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/01_Early.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/05_中文提示.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/05_Uber_Endgame.build",
+        "byte_identical": true
+      },
+      {
+        "path": "构筑文件/06_中文提示.build.txt",
+        "byte_identical": true
+      },
+      {
+        "path": "filters/03_Fubgun_Endgame_Mapping.filter",
+        "byte_identical": true
+      },
+      {
+        "path": "filters/04_Fubgun_Uber_Strict.filter",
+        "byte_identical": true
+      },
+      {
+        "path": "filters/02_Fubgun_Bow_Campaign.filter",
+        "byte_identical": true
+      },
+      {
+        "path": "filters/01_Fubgun_Early_Mapping.filter",
+        "byte_identical": true
+      }
+    ],
+    "screenshot_variants_separate": true,
+    "active_gallery_scope": {
+      "offline_images": true,
+      "node_data_export": false,
+      "character_passive_changes": false
+    }
+  },
+  "character_page_data": [
+    {
+      "page": "e01.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "e02.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "e03.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "e04.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "e05.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "e06.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "l01.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "l02.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "l03.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "l04.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "l05.html",
+      "embedded_character_data_identical": true
+    },
+    {
+      "page": "l06.html",
+      "embedded_character_data_identical": true
+    }
+  ],
+  "rebuild": {
+    "files_checked": 90,
+    "changed_files": []
+  },
+  "browser": {
+    "actual_navigation": {
+      "file": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r25_work/poe2_Fubgun_C_R25/atlas-images.html",
+      "http": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:46001/atlas-images.html"
+    },
+    "render_method": "in-memory inline copy; original byte and static-link checks are separate",
+    "interaction": [
+      {
+        "variant": "expedition",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "variant": "ritual-belts",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "variant": "currency-abyss",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "variant": "breach-rares",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "variant": "abyss-rares",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "variant": "lineage-gems",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "variant": "deli-rush",
+        "correct_image_dimensions": true,
+        "region_views_tested": 5,
+        "local_state_shim": true
+      },
+      {
+        "zoom_native_fit_modal_and_escape": true
+      },
+      {
+        "two_abyss_variants_independent": true
+      },
+      {
+        "original_image_cards": 7
+      },
+      {
+        "no_javascript_originals_readable": 7
+      },
+      {
+        "shipped_single_html_render_switch_and_raw_view": true
+      }
+    ],
+    "renders": [
+      {
+        "page": "atlas-images.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "atlas-images.html",
+        "width": 1920,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "atlas-images.html",
+        "width": 390,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "atlas-fubgun.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "atlas-abyss.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "atlas-passives.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "atlas-masters.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "index.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      },
+      {
+        "page": "e01.html",
+        "width": 1366,
+        "horizontal_page_overflow": false
+      }
+    ],
+    "errors": [],
+    "external_requests": [],
+    "storage_test": "test-only localStorage shim; not real file/HTTP persistence"
+  },
+  "scope": {
+    "uploaded_originals_embedded": 7,
+    "offline_gallery": true,
+    "single_file_images_embedded": 7,
+    "interactive_node_export": false,
+    "hidden_node_tooltips_transcribed": false,
+    "character_passives_modified": false,
+    "game_client_validation": false,
+    "online_deployment": false
+  },
+  "limits": [
+    "截图不是互动节点文件；未展开的悬浮文字和多选项不补猜。",
+    "缩放不会增加原图分辨率。",
+    "本次没有游戏内、国服或线上部署验证。",
+    "完整网站的file://和localhost实导航被环境策略拦截；内存渲染测试不是对实导航成功的宣称。"
+  ]
+}

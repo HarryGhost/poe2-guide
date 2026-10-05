@@ -1,0 +1,580 @@
+{
+  "version": "R39",
+  "checked": "2026-10-02",
+  "scope": "人物天赋树的珠宝；不含技能／辅助宝石、装备符文、深渊之眼或异界配置。",
+  "basis": "六份用户0.5.5快照负责节点证据；本次核对的作者正文负责建议；数据库负责物品定义。网页内容不回写原BD。",
+  "sources": [
+    {
+      "id": "fubgun",
+      "title": "Fubgun 0.5.5 正文：树上珠宝与升级次序",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+      "kind": "作者原文",
+      "use": "明确的一颗回蓝蓝玉、普通珠宝词缀方向、泉井之心与抗衡黑暗；不是六阶段逐孔实装。"
+    },
+    {
+      "id": "sapphire",
+      "title": "蓝玉：人物天赋珠宝基底",
+      "url": "https://poe2db.tw/cn/Sapphire",
+      "kind": "游戏数据条目",
+      "use": "确认基底和物品类别；“蓝玉”不表示魔法稀有度。"
+    },
+    {
+      "id": "emerald",
+      "title": "翡翠：人物天赋珠宝基底",
+      "url": "https://poe2db.tw/cn/Emerald",
+      "kind": "游戏数据条目",
+      "use": "确认基底与用途；不把任意作者通用词缀强行归到同一底材。"
+    },
+    {
+      "id": "well",
+      "title": "泉井之心：词缀池、限定数量及来源",
+      "url": "https://poe2db.tw/cn/Heart_of_the_Well",
+      "kind": "游戏数据条目",
+      "use": "双额外伤害的可选类型和数值区间；示例物品不是作者实装。"
+    },
+    {
+      "id": "darkness",
+      "title": "抗衡黑暗：范围词缀与限定数量",
+      "url": "https://poe2db.tw/cn/Against_the_Darkness",
+      "kind": "游戏数据条目",
+      "use": "核心天赋的额外伤害词缀；按实物范围验收，不固定整个版本的孔位坐标。"
+    },
+    {
+      "id": "alliance",
+      "title": "绝境同盟：抗衡黑暗的定向掉落条件",
+      "url": "https://poe2db.tw/cn/The_Desperate_Alliance",
+      "kind": "游戏数据条目",
+      "use": "丝克玛试炼遗物、首领强化与消耗条件；不是普通通关必掉。"
+    },
+    {
+      "id": "delirium",
+      "title": "惊悸迷雾：液化憎恶的蓝玉工艺效果",
+      "url": "https://poe2db.tw/cn/Delirium",
+      "kind": "游戏数据条目",
+      "use": "可给稀有基本蓝玉增加击杀回魔后缀，但会随机移除词缀；不作为无风险步骤。"
+    }
+  ],
+  "stages": {
+    "e01": {
+      "id": "e01",
+      "label": "01 Early",
+      "readonly": false,
+      "sourceFile": "R28原站/构筑文件/01_Early.build",
+      "sha256": "95921738f473aba94387a23585ce86ebb58c80e82ad91f42d3e3d3b0c0c70d07",
+      "rows": [
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 41,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1976",
+          "exportIndex": 67,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        }
+      ],
+      "uniqueIds": [
+        "jewel_slot1960",
+        "jewel_slot1976"
+      ],
+      "uniqueCount": 2,
+      "recordCount": 2,
+      "installedJewels": null,
+      "fixedPositions": null,
+      "focus": "先处理刷图回蓝，再补普通输出；特殊珠宝可阅读，不作为进异界前置。",
+      "plans": [
+        {
+          "title": "起步准备",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 1
+            }
+          ],
+          "total": 2,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        }
+      ],
+      "next": "下一阶段仍是2个不同槽，不能把升级清单当作额外新增孔。",
+      "inventoryJewels": []
+    },
+    "e02": {
+      "id": "e02",
+      "label": "02 非暴击中期",
+      "readonly": false,
+      "sourceFile": "R28原站/构筑文件/02_noncrit_Midgame.build",
+      "sha256": "8490e6da6506b3c2a98d11d8ae5b2ddded48a2651d1c688102e5b5d633a36a0b",
+      "rows": [
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 38,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1976",
+          "exportIndex": 69,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        }
+      ],
+      "uniqueIds": [
+        "jewel_slot1960",
+        "jewel_slot1976"
+      ],
+      "uniqueCount": 2,
+      "recordCount": 2,
+      "installedJewels": null,
+      "fixedPositions": null,
+      "focus": "维持非暴击有效词缀；完善配置时可以用泉井之心替换普通珠宝。",
+      "plans": [
+        {
+          "title": "过渡",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 1
+            }
+          ],
+          "total": 2,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        },
+        {
+          "title": "已有合适泉井之心",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "well",
+              "qty": 1
+            }
+          ],
+          "total": 2,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        }
+      ],
+      "next": "换入泉井之心是替换1颗，不是变成3颗；三孔要到有第三个节点的对应原件。",
+      "inventoryJewels": []
+    },
+    "e03": {
+      "id": "e03",
+      "label": "03 混合防御",
+      "readonly": false,
+      "sourceFile": "R28原站/构筑文件/03_noncrit_Hybrid.build",
+      "sha256": "0a85b5afa70092d422ab52a1cbe9977fde06e01128ae02331350af77ff56610f",
+      "rows": [
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 38,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1976",
+          "exportIndex": 61,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1961",
+          "exportIndex": 87,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        }
+      ],
+      "uniqueIds": [
+        "jewel_slot1960",
+        "jewel_slot1976",
+        "jewel_slot1961"
+      ],
+      "uniqueCount": 3,
+      "recordCount": 3,
+      "installedJewels": null,
+      "fixedPositions": null,
+      "focus": "混合防御阶段有3个不同孔位；供蓝之外逐步补普通输出或泉井之心。",
+      "plans": [
+        {
+          "title": "尚无合适暗金",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 2
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        },
+        {
+          "title": "已有合适泉井之心",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "well",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 1
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        }
+      ],
+      "next": "新增jewel_slot1961。可比较合适抗衡黑暗，但不自动认定应放在新增的那个孔。",
+      "inventoryJewels": []
+    },
+    "e04": {
+      "id": "e04",
+      "label": "04 暴击混合",
+      "readonly": false,
+      "sourceFile": "R28原站/构筑文件/04_Crit_Hybrid.build",
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d",
+      "rows": [
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 18,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1976",
+          "exportIndex": 34,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1961",
+          "exportIndex": 39,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        }
+      ],
+      "uniqueIds": [
+        "jewel_slot1960",
+        "jewel_slot1976",
+        "jewel_slot1961"
+      ],
+      "uniqueCount": 3,
+      "recordCount": 3,
+      "installedJewels": null,
+      "fixedPositions": null,
+      "focus": "暴击配置具备后，普通珠宝再比较攻击暴击相关词缀；特殊范围珠宝仍先验覆盖。",
+      "plans": [
+        {
+          "title": "暴击过渡",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "well",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 1
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        },
+        {
+          "title": "缺泉井之心",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 2
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        }
+      ],
+      "next": "原件仍为3个不同槽。有合适抗衡黑暗时从现有三颗里替换，不无条件多加第四颗。",
+      "inventoryJewels": []
+    },
+    "e05": {
+      "id": "e05",
+      "label": "05 高配冰射",
+      "readonly": false,
+      "sourceFile": "R28原站/构筑文件/05_Uber_Endgame.build",
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c",
+      "rows": [
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 12,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1976",
+          "exportIndex": 26,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1961",
+          "exportIndex": 32,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        }
+      ],
+      "uniqueIds": [
+        "jewel_slot1960",
+        "jewel_slot1976",
+        "jewel_slot1961"
+      ],
+      "uniqueCount": 3,
+      "recordCount": 3,
+      "installedJewels": null,
+      "fixedPositions": null,
+      "focus": "双特殊珠宝是作者后期方向，但两颗各占一孔；回蓝需求与抗衡黑暗覆盖要同时成立。",
+      "plans": [
+        {
+          "title": "仍需击杀回蓝，且两颗暗金适配",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "well",
+              "qty": 1
+            },
+            {
+              "id": "darkness",
+              "qty": 1
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        },
+        {
+          "title": "其他供蓝已单独验证足够",
+          "items": [
+            {
+              "id": "well",
+              "qty": 1
+            },
+            {
+              "id": "darkness",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 1
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        },
+        {
+          "title": "抗衡黑暗尚无合适覆盖",
+          "items": [
+            {
+              "id": "mana",
+              "qty": 1
+            },
+            {
+              "id": "well",
+              "qty": 1
+            },
+            {
+              "id": "ordinary",
+              "qty": 1
+            }
+          ],
+          "total": 3,
+          "provenance": "本站准备示例，不是原件逐孔实装"
+        }
+      ],
+      "next": "三种是互斥准备示例，不是叠加采购表；不能只因升到05就移除回蓝珠宝。",
+      "inventoryJewels": []
+    },
+    "e06": {
+      "id": "e06",
+      "label": "06 实装·只读",
+      "readonly": true,
+      "sourceFile": "R28原站/构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5",
+      "rows": [
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 14,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1970",
+          "exportIndex": 22,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1976",
+          "exportIndex": 36,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1979",
+          "exportIndex": 52,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1961",
+          "exportIndex": 61,
+          "weaponSet": null,
+          "scope": "公共记录（未标专属武器组）"
+        },
+        {
+          "id": "jewel_slot1960",
+          "exportIndex": 163,
+          "weaponSet": 2,
+          "scope": "武器组2"
+        }
+      ],
+      "uniqueIds": [
+        "jewel_slot1960",
+        "jewel_slot1970",
+        "jewel_slot1976",
+        "jewel_slot1979",
+        "jewel_slot1961"
+      ],
+      "uniqueCount": 5,
+      "recordCount": 6,
+      "installedJewels": null,
+      "fixedPositions": null,
+      "focus": "只读原始快照；保留武器组重复记录，不生成第六阶段采购或改树指令。",
+      "plans": [],
+      "next": "5个不同ID、6条记录；jewel_slot1960在公共与武器组2重复出现，不能据此购买第6颗。",
+      "inventoryJewels": []
+    }
+  },
+  "catalog": {
+    "mana": {
+      "id": "mana",
+      "zh": "击杀回蓝的蓝玉",
+      "en": "Sapphire · Mana on Kill",
+      "kind": "普通功能珠宝",
+      "special": false,
+      "qty": "作者明确建议准备1颗；占用一个已分配的人物珠宝槽。",
+      "goal": "核心是击败敌人时恢复魔力，其他词缀再补当前有效伤害或资源。不要只按蓝玉名字买。",
+      "mods": [
+        "魔力在击败敌人时恢复；液化憎恶的蓝玉后缀数据为1–2%。这是可选获取效果，不是作者规定的最低掷值。",
+        "附带词缀按实际物品确认；不要求这颗兼有全部输出词缀。"
+      ],
+      "when": "01起的刷图供蓝。即使换阶段，也先保留，直到实测其他供蓝足以替代。",
+      "get": "拾取或在可交易环境取得带相应词缀的成品。自行加工可比较液化憎恶对稀有基本蓝玉的效果，但它会随机移除一条词缀，先核对物品资格和可承受损失。",
+      "socket": "普通人物珠宝槽；先点出槽再放入。具体使用哪个ID未在原件指定，不需要按范围凑周围天赋。",
+      "limits": "没有击杀就不会触发这条回蓝；无小怪首领不能仅靠它续航。蓝玉是基底名，不是“蓝色装备”，也不是未切割技能宝石。",
+      "fallback": "未取得时保留现有供蓝，不能先移除魔力药剂或已有印记供蓝。取得后分别验收清图和首领。",
+      "sourceIds": [
+        "fubgun",
+        "sapphire",
+        "delirium"
+      ]
+    },
+    "ordinary": {
+      "id": "ordinary",
+      "zh": "普通输出珠宝（如翡翠）",
+      "en": "Rare / Magic Jewels · Emerald",
+      "kind": "普通输出珠宝",
+      "special": false,
+      "qty": "按剩余已分配槽位准备，不把全套清单的每一行都额外加一颗。",
+      "goal": "非暴击阶段看有效攻击／投射物／元素伤害、攻击速度等；04开始暴击配置具备后，再比较攻击暴击率与攻击暴击伤害。",
+      "mods": [
+        "通用筛选方向：攻击伤害、投射物伤害、元素伤害、攻击速度；移动速度和箭袋加成要读实际适用范围。",
+        "04/05再比较攻击暴击率、攻击暴击伤害加成；别把“法术暴击”误当弓攻击暴击。",
+        "这是候选方向，不是一颗珠宝必须或能够同时具有的固定词缀清单。不同基底、生成来源和词缀占位分别核对。"
+      ],
+      "when": "早期先用两三条真正适用的属性作过渡；两三条是本站筛选建议，不是物品等级或强制门槛。",
+      "get": "优先比较已有掉落或合适成品。可从普通珠宝页看低投入处理；作者的高投入翡翠扩容工艺保留只读，不默认照做。",
+      "socket": "普通人物珠宝槽；先解决当前短板，不为一颗一般珠宝强行多绕天赋点。",
+      "limits": "没有统一“毕业词缀＋固定数值”；作者高投入翡翠的20%攻击暴伤起手不等于Early最低要求。普通珠宝不能无条件套用防具六词缀流程。",
+      "fallback": "特殊珠宝暂缺就留有效普通珠宝；只是过渡，不宣称相同伤害。",
+      "sourceIds": [
+        "fubgun",
+        "emerald"
+      ]
+    },
+    "well": {
+      "id": "well",
+      "zh": "泉井之心",
+      "en": "Heart of the Well",
+      "kind": "暗金人物珠宝 · 宝钻",
+      "special": true,
+      "qty": "限定1颗；与抗衡黑暗分别占槽，不是所有暗金珠宝合计只能1颗。",
+      "goal": "作者目标是两条“获得相当于伤害的额外伤害”。不是随便一颗同名泉井之心都满足。",
+      "mods": [
+        "元素类型的额外伤害：冰霜／火焰／闪电，每条数据区间9–15%。",
+        "混沌类型的额外伤害：数据区间7–13%。",
+        "以上是可选词缀池，不是四条同时存在。作者未在六份快照里指定固定两种组合与掷值；其余词缀按实际用途比较。"
+      ],
+      "when": "作者升级次序在完善非暴击配置时已提到它，不必把它锁到05才看；起步仍可用普通珠宝。",
+      "get": "来源数据标为深渊；可交易环境也可按实际两条词缀找成品。不能承诺一次深渊必掉或固定价格。",
+      "socket": "放入已分配的人物珠宝槽。所述双额外伤害是珠宝自身属性，不按周围核心天赋数量再乘一遍。原件未指定它对应哪个槽。",
+      "limits": "限定1颗；不凭名字、颜色、未揭示状态或数据库示例确认目标。随机词缀可能是召唤生物等与你无关的效果。",
+      "fallback": "继续用现有有效普通珠宝；不要为拿到“名字正确”的低适配品先拆掉必要的回蓝珠宝。",
+      "sourceIds": [
+        "fubgun",
+        "well"
+      ]
+    },
+    "darkness": {
+      "id": "darkness",
+      "zh": "抗衡黑暗",
+      "en": "Against the Darkness",
+      "kind": "暗金范围珠宝 · 失落的宝钻",
+      "special": true,
+      "qty": "限定1颗；放入一个人物珠宝槽后，还要核对范围内的实际已分配节点。",
+      "goal": "作者先考虑“范围内核心天赋提供额外冰霜伤害”，后续再追双额外伤害组合。不是只买两条任意加成。",
+      "mods": [
+        "目标行作用于范围内核心天赋：获得相当于伤害2–4%的额外冰霜伤害。",
+        "其他可选额外伤害类型有火焰、闪电、混沌，单行数据区间均为2–4%。",
+        "词缀写“小型天赋”的，只对相应小型节点生效；不能当作核心天赋的目标行。数据池不是同一颗珠宝拥有全部效果。"
+      ],
+      "when": "放到已有足够适用核心天赋覆盖的孔位才比较收益。来源是作者升级方向，不代表05原件已记录具体插装。",
+      "get": "定向来源是丝克玛试炼中使用绝境同盟遗物，再击败扎洛卡，时空之灵。该遗物会被消耗并强化首领，不是普通通关默认必掉；也可按实际词缀比较成品。",
+      "socket": "必须看实物半径，逐一核对范围内已点出的合格核心天赋。原件没有完整树坐标、珠宝—槽位绑定与半径截图，因此不画伪造圈、不宣称某个ID是作者最佳孔。",
+      "limits": "限定1颗；两条词缀、作用对象和半径都要看。普通规则下只圈住但未分配的节点不能直接计收益；特殊“未分配节点”词缀另按实物解释。不要把数据库某件示例半径当所有历史版本固定半径。",
+      "fallback": "没有合适覆盖就继续普通珠宝；为了范围多绕的天赋点要一并比较，不强行放在剩下的随便一个孔里。",
+      "sourceIds": [
+        "fubgun",
+        "darkness",
+        "alliance"
+      ]
+    }
+  },
+  "specialIds": [
+    "well",
+    "darkness"
+  ],
+  "boundary": "六份构筑没有逐孔珠宝物品记录。能核对节点ID和节点数，不能由此证明每孔已插哪颗、实物词缀或正确覆盖位置。"
+}

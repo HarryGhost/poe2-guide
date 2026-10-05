@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-05T09:56:57.427Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C2",
+  "radios": [
+    {
+      "section_id": "828234c8-0a6e-4b9f-95d5-eb734590a8ce",
+      "value": "set1"
+    },
+    {
+      "section_id": "1f661161-9a7a-45a8-a06a-5d8cca2a0dd3",
+      "value": "choices"
+    }
+  ],
+  "sections": [
+    {
+      "id": "828234c8-0a6e-4b9f-95d5-eb734590a8ce",
+      "text": "Equipment\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\nSet 1\nSet 2\n9\n2\n10\n4\n8\n2\n1\n5\n6\n7\nEquipment Priority\nTrack Build\nShow All\n\nMandatory Stats: Make sure to fill out your resist, you want 75% fire/cold/lightning resist. Chaos resist is good, but not mandatory to have 75%, I usually aim for 30-50%. You'll also most likely need 1-2 attribute rolls on gear, belt will solve strength and if you need intelligence, get it on a ring or amulet.\n\nHybrid swap: You want the highest Energy shield helmet you can afford and a very high evasion chest to make \nGhost Dance\n effective, as it's your only way to recover ES. I would also try to get good hybrid boots. You'll probably need intelligence on helmet to have enough attributes.\n\nRings/glove: try to focus on high flat damage to attacks, preferable cold/phys.\n\nBow: You want the highest dps ele/phys weapon you can afford. \nObliterator Bow\n is usually the go to, as it has very high base damage and the downside is negligible.  Check the notes at the bottom of the guide to learn how to craft a bow.\n\nGreater Iron Rune\n will provide the highest dps.\n\nQuiver: Just good dps stats, high flat/bow dmg or projectile speed with attack speed. Ideally just aim for 3-4 stats from the quiver I'm showing in the gear preview.\n\namulet: Preferable want +proj levels. Crit chance/crit damage is also good, once you swap to crit. Attributes/resist are also fine here. You need at least 30 spirit on the amulet to use all spirit gems.\n\nHelmet: At the start just look for a high life/evasion/resist helmet, eventually we'll swap to a pure ES helmet with \nSubterfuge Mask\n, but you probably wont have a good one for early mapping.\n\nChest: you want the highest evasion chest you can afford, this is very important for defense, specially when combined with \nBeastial Skin\n on the passive tree. use \nGreater Iron Rune\n\n\n\nBoots: You want the highest movement speed boots you can afford, it's a very important stat. Besides that look for high life/resistance.\n\nBelt: Not a lot of choices here, just Life/str/resist, eventually you want to get a \nHeadhunter\n.\n\nRarity is still really good in 0.5, I would try to hit at least 100% if you want to farm efficiently (don't focus on this if you feel like you're lacking damage or defense)\n\nJewels on tree: Just looking for generic damage: attack damage, elemental damage, movement speed, bonus from quivers, projectile damage, attack speed, crit chance, crit damage, etc.\nEventually you'll also want \nHeart of the Well\n with double \"gain as extra\" and \nAgainst the Darkness\n with double again as extra as well.\n\nimportant:\nYou'll want 1 sapphire jewel with mana on kill to sustain mana during mapping. For bosses, having \nMark of Siphoning II\n on \nFreezing Mark\n with \nEternal Mark\n should give you enough sustain.\n\nAnoint:\nDamage: \nSerrated Edges\n\nThis is just a cheap anoint and pretty effective when you eventually swap to crit.\n\n---Mana Issues\nThere's a few things you can do here to help out your mana sustain and I'll list them all here.\nReminder: Always run one jewel with 2% mana on kill.\n\n1) Run a regular mana flask with increased recovery and just use your mana flask button, this along with a 2% mana on kill jewel will easily sustain you\n2) Take \nConservative Casting\n for 3 passive points.\n3) Drop \nWind Dancer\n for \nMana Remnants\n (use \nHarmonic Remnants II\n, \nRemnant Potency III\n and \nKhatal's Rejuvenation\n - For khatal you either need \nDialla's Desire\n as well or 1 point into herald reservation",
+      "title": "Equipment"
+    },
+    {
+      "id": "56f70ec3-7d73-404a-b297-23ee83a6d2ae",
+      "text": "Skill Gems\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\n\nSupport Gem Requirements:\n\nStr 45\n\nDex 90\n\nInt 60\n\nCollapse all\n1\n\nIce Shot\n\nSet 1\n\nElemental Armament II\nIce Bite II\nRapid Attacks II\nFork\nCold Attunement\n2\n\nSnipe\n\nSet 1\n\nElemental Armament II\nConcentrated Area\nElemental Focus\nWindow of Opportunity II\nClose Combat II\n3\n\nTornado Shot\n\nSet 1\n\nProlonged Duration II\nOverabundance II\nDurability\nBlind II\n4\n\nIce-Tipped Arrows\n\nSet 1\n\nMagnified Area II\nElemental Armament II\nShort Fuse I\nLongshot II\n5\n\nFreezing Mark\n\nSet 2\n\nMark of Siphoning II\nCharged Mark\nEternal Mark\nProlonged Duration II\n6\n\nBarrage\n\nSet 1\n\nCooldown Recovery II\nPerpetual Charge\nRapid Casting II\n7\n\nHerald of Ice\n\nMagnified Area II\nElemental Armament II\nLongshot II\nCold Attunement\nElemental Focus\n8\n\nGhost Dance\n\nCooldown Recovery II\n9\n\nMirage Archer\n\nIce Shot\nElemental Armament II\nDeliberation\nRapid Attacks II\nCooldown Recovery II\n10\n\nMirage Deadeye\n\nIce Shot\nElemental Armament II\nRapid Attacks II\nDeliberation\nCooldown Recovery II\nGem Priority\nTrack Build\n+27\nShow All\n\nThe links are in priority, so takeout the the last gem if you don't have a 6 link in that skill.\n\n6 Link Priority: \nSnipe\n -> \nIce Shot\n -> \nHerald of Ice\n \nQuality Priority:  \nFreezing Mark\n -> \nHerald of Ice\n -> \nSnipe\n -> \nIce Shot\n\n\n\nKeep in mind you don't need \nFork\n on \nIce Shot\n when doing pinnacle bosses, a good swap is \nFreeze\n.\n\nDon't use \nElemental Armament III\n, only level 2.\n\nWe're tight on skill slots here and there are a few options you can do. \nIce-Tipped Arrows\n arrows can be dropped for another spirit gem if you have 150 spirit, either \nWind Dancer\n for defense or \nCombat Frenzy\n for extra frenzy charges (1 frenzy is roughly 20% more damage for snipe and you wont get more than 1 on pinnacle bosses, once you have enough gear the frenzys aren't needed which is why I dropped it at this point).\nYou can also drop \nMirage Archer\n for one of these if you don't like it.\n\nGhost Dance\n needs 20% quality\n\nEarly mapping gameplay:\nYou want to keep the buff from \nFreezing Mark\n up, has a 20 second duration. Besides that you're just using Ice shot, \nSnipe\n is only for map bosses. Optional: use \nIce-Tipped Arrows\n\n\n\nBoss rotation:\nThe goal is to freeze the boss into a \nBarrage\n \nSnipe\n combo.\n\nPre-place \nTornado Shot\n, cast \nIce-Tipped Arrows\n, spam \nIce Shot\n until the boss is frozen. Use \nBarrage\n into \nSnipe\n. Make sure you still have a \nTornado Shot\n down before casting barrage/snipe.\n\nWeapon Set:\nFollow the Weapon set I have above. Essentially you want all of your DPS skills on weapon set 1 and \nFreezing Mark\n on weapon set 2.",
+      "title": "Skill Gems"
+    },
+    {
+      "id": "fa14c438-6140-4f80-a733-a599e8746ce4",
+      "text": "Passive Tree\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\nMain:\n-20\n123\nSet 1:\n-4\n20\nSet 2:\n-4\n20\n\nTake whatever attribute you need at the time, you'll default to dex if you don't need anything, after 161 dex you should default to strength for more HP.\n\nThis is a level 95 tree. Takeout some hybrid nodes if you're lower lvl.\n\nIf you have projectile speed on your quiver, you should also take \nFeathered Fletching\n\n\n\nAscendancy order:\n\nProjectile Proximity Specialisation\n(point blank) -> \nEndless Munitions\n -> \nGathering Winds\n -> \nMirage Deadeye\n\n\n\nWeapon Set:\nFollow the Weapon set I have above. Essentially you want all of your DPS skills on weapon set 1 and \nFreezing Mark\n on weapon set 2.",
+      "title": "Passive Tree"
+    }
+  ],
+  "selected_tabs": [
+    {
+      "id": "react-aria9127948996-_r_f_-tab-2",
+      "key": "2",
+      "name": "non-crit Hybrid swap",
+      "section_id": "f7d82102-7e77-4a44-ad24-33b67e8ae7bf"
+    },
+    {
+      "id": "react-aria9127948996-_r_1jt2_-tab-2",
+      "key": "2",
+      "name": "non-crit Hybrid swap",
+      "section_id": "828234c8-0a6e-4b9f-95d5-eb734590a8ce"
+    },
+    {
+      "id": "react-aria9127948996-_r_1jvg_-tab-2",
+      "key": "2",
+      "name": "non-crit Hybrid swap",
+      "section_id": "56f70ec3-7d73-404a-b297-23ee83a6d2ae"
+    },
+    {
+      "id": "react-aria9127948996-_r_1k2t_-tab-2",
+      "key": "2",
+      "name": "non-crit Hybrid swap",
+      "section_id": "fa14c438-6140-4f80-a733-a599e8746ce4"
+    }
+  ]
+}

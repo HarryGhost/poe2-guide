@@ -1,0 +1,5202 @@
+{
+  "capture": [
+    {
+      "path": "README.md",
+      "ok": true
+    },
+    {
+      "path": "atlas.json",
+      "ok": true
+    },
+    {
+      "path": "builds.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/acquisition-log.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Doryani-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Doryani-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Hilda-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Hilda-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Doryani-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Doryani-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Expedition/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Atlas Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Atlas Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Atlas Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Master-Jado-state.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Master-Jado-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-icons.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-13.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-13.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-14.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-14.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-15.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-15.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-16.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-16.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-17.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-17.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 2-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/sections.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/socket-layout.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Rune-soulcore-runeenhancegreater.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Rune-soulcore-runeenhancegreater.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-icons.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-13.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-13.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-14.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-14.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-15.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-15.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/Set 2-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/sections.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Early/socket-layout.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeenhanceperfect.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeenhanceperfect.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeolrothslegacygreymake.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeolrothslegacygreymake.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runespecial9.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runespecial9.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingadditionalsuffix.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingadditionalsuffix.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingmarksmaninfluence.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingmarksmaninfluence.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingtimeinfluence.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingtimeinfluence.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanrabbit.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanrabbit.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanspecial1.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanspecial1.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-thesisofblood.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-thesisofblood.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01-initial.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01-initial.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-13.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-13.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-14.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-14.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-15.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-15.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-16.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-16.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-17.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-17.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-18.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-18.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-19.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-19.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-20.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-20.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-21.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-21.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-22.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-22.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/sections.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear/socket-layout.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear-first-Emerald.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Live Gear-first-Emerald.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Rune-soulcore-augmentanoint.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Rune-soulcore-augmentanoint.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-icons.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-13.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-13.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-14.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-14.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-15.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-15.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-16.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-16.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-17.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-17.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 2-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/sections.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/socket-layout.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Rune-soulcore-runespecial18.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Rune-soulcore-runespecial18.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-icons.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-13.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-13.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-14.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-14.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-15.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-15.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 2-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/sections.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/socket-layout.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree-full-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree-full.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-icons.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-01.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-01.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-02.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-02.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-03.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-03.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-04.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-04.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-05.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-05.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-06.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-06.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-07.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-07.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-08.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-08.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-09.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-09.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-10.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-10.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-11.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-11.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-12.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-12.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-13.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-13.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-14.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-14.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-15.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-15.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 2-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/branch-selected.jpg",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/branch-state.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/sections.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/socket-layout.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/public-data/atlas-document.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/public-data/build-document.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/public-data/build-resource-urls.json",
+      "ok": true
+    },
+    {
+      "path": "evidence/public-data/build-script-urls.json",
+      "ok": true
+    },
+    {
+      "path": "gaps.json",
+      "ok": true
+    },
+    {
+      "path": "package-preflight.json",
+      "ok": true
+    },
+    {
+      "path": "scripts/README.md",
+      "ok": true
+    },
+    {
+      "path": "scripts/atlas-capture-helpers.js",
+      "ok": true
+    },
+    {
+      "path": "scripts/browser-capture-helpers.js",
+      "ok": true
+    },
+    {
+      "path": "scripts/normalize_capture.py",
+      "ok": true
+    },
+    {
+      "path": "scripts/package_capture.py",
+      "ok": true
+    },
+    {
+      "path": "scripts/passive-full-capture.js",
+      "ok": true
+    },
+    {
+      "path": "scripts/public-document-extraction.js",
+      "ok": true
+    },
+    {
+      "path": "validation.json",
+      "ok": true
+    },
+    {
+      "path": "异界方案核对.md",
+      "ok": true
+    },
+    {
+      "path": "技能与作者说明核对.md",
+      "ok": true
+    },
+    {
+      "path": "缺失与冲突.md",
+      "ok": true
+    },
+    {
+      "path": "装备与珠宝核对.md",
+      "ok": true
+    },
+    {
+      "path": "装备面板全表.md",
+      "ok": true
+    }
+  ],
+  "baseline": [
+    {
+      "path": ".nojekyll",
+      "ok": true
+    },
+    {
+      "path": "00_先读我.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/.nojekyll",
+      "ok": true
+    },
+    {
+      "path": "R28原站/00_先读我.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R22_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R23_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R24_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R25_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R26_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R27_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R27_检查与修正摘要.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R28_本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/R28_检查与补全说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/SHA256SUMS.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/after-quests.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/after-quests.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/app.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-gallery.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-gallery.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-doryani-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-doryani-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-doryani-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-doryani-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-doryani.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-hilda-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-hilda-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-hilda-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-hilda-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-hilda.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/abyss-rares-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/breach-rares-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/breach-rares-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/breach-rares-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/breach-rares-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/breach-rares-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/currency-abyss-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/currency-abyss-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/currency-abyss-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/currency-abyss-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/currency-abyss-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/deli-rush-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/deli-rush-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/deli-rush-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/deli-rush-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/deli-rush-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-doryani-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-doryani-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-doryani-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-doryani-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-doryani.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/expedition-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/lineage-gems-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/lineage-gems-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/lineage-gems-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/lineage-gems-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/lineage-gems-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/ritual-belts-jado-1.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/ritual-belts-jado-2.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/ritual-belts-jado-3.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/ritual-belts-jado-4.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-masters-r26/ritual-belts-jado.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-workspace-data-r26.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-workspace-r26.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas-workspace-r26.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/atlas.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/bow-metrics-data.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/bow-metrics.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/catalog.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/compare.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/crafting.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/early-crafting.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment-bridge.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment-data.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment-finish-r28-data.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment-finish-r28.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment-finish-r28.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/equipment.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/examples.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/filter-legend.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/filter-legend.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/finishing.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/finishing.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas-data.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/01_expedition.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/02_ritual-belts.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/03_currency-abyss.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/04_breach-rares.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/05_abyss-rares.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/06_lineage-gems.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/fubgun-atlas/07_deli-rush.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/guided-crafting.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/guided-crafting.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/novice-r27.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/novice-r27.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/preparation.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/preparation.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/search-index.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/style.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/workbench.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/assets/workbench.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-abyss.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-activities.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-breach.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-comparison.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-delirium.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-expedition.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-fubgun.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-images.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-masters.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-other.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-passives.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-reference.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-ritual.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-sources.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-start.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-temple.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/atlas-unlock.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/beginner-guide.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/compare.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/coverage.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft-advanced.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft-early-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft-examples.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft-reference.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft-steps-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/craft.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/Early起步打造教学.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/Fubgun_异界后期打造.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R14核对与来源.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R21全站缺漏核对.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R21符文与收尾.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R22过滤器基准哈希.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R22验收记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R23静态检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R23验收记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R24作者来源与适配.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R24原件基准哈希.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R24旧锚点.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R24浏览器检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R24静态检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R24验收记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R25_Fubgun异界截图清单.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R25作者来源与截图.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R25浏览器检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R25静态检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R25验收记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R26图标同源核对.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R26大师与刷法核对.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R26浏览器检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R26静态检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R27品质部位提示.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R27实际修改记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R27文件清单.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R27来源与内容审计.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R27检查报告.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R27浏览器检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28强化覆盖矩阵.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28文件增量清单.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28来源与边界.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28检查报告.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28浏览器检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28继承R27基准哈希.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28重建一致性.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/R28静态与内容检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/任务完成后与养成循环_R11.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/保留奖励记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/全站阶段与核算.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/全身基础与成品核算_R16.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/全身装备目标_R14.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/全部分支逐项差异.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/六分支原始及中文映射.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/关键天赋点位核对.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/刷图备料与底材_R10.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/剧情练级结构数据.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史异界补充_已撤下/R22异界玩法与节点.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史异界补充_已撤下/R23图片与攻略来源.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史异界补充_已撤下/旧源码/atlas-images.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史异界补充_已撤下/旧源码/atlas-images.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史异界补充_已撤下/旧源码/endgame_r22.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史异界补充_已撤下/旧源码/endgame_r23.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史版本说明/R21_00_先读我.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史版本说明/R21_给DSH_更新说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史版本说明/R22_先读我.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史版本说明/R23_00_先读我.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/历史版本说明/R23_给DSH_更新说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/原始构筑基准哈希.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/已核对辅助属性归类.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/弓基础与成品面板_核算_R15.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/弓基础与成品面板_核算_R16.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/当前词典.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/打造按步操作_R9.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/打造教学实例.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/数值目标与等级依据_R12.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/数值目标与等级依据_R13.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/来源目录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/物品等级与投入时机_R20.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/装备一页操作单_R11.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/装备一页操作单_R12.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/装备一页操作单_R13.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/转换检查清单.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/过滤器来源与文件状态.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/data/页面清单.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/e01.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/e02.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/e03.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/e04.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/e05.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/e06.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/equipment-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/equipment-goals-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/equipment.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filter-legend.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/01_Fubgun_Early_Mapping.filter",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/02_Fubgun_Bow_Campaign.filter",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/03_Fubgun_Endgame_Mapping.filter",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/04_Fubgun_Uber_Strict.filter",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/Fubgun_Filters_UserCopies.zip",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/README_先读我.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/SHA256SUMS.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/STATIC_CHECKS.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/manifest.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/source-text/01_pasted.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/source-text/02_pasted.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/source-text/03_pasted.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/filters/source-text/04_pasted.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/finish-check.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/gem-upgrades.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/glossary.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/index.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/l01.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/l02.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/l03.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/l04.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/l05.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/l06.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/mechanics.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/numeric-targets.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/prepare-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/prepare.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/quality-workshop.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/reader.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/rewards.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/roadmap.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/runes-all.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/runes.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/source-audit.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/sources.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/便捷单页/Fubgun_七套异界加点原图_R25_离线看图.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/便捷单页/Fubgun_流放2新手总攻略_R27.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/便捷单页/Fubgun_流放2新手总攻略_R27.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/便捷单页/Fubgun_流放2新手总攻略_R28.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/便捷单页/Fubgun_流放2新手总攻略_R28.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/原文资料/Early起步打造_中文操作说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/原文资料/Fubgun_Crafting_Guide_中文操作版.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/原文资料/Fubgun_Crafting_Guide_原文完整节选.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/原文资料/冰射锐眼-练级篇原文.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/原文资料/冰射锐眼-英文原文-Fubgun.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/原文资料/刷图备料与底材_R10_中文手册.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/01_Early.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/01_中文提示.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/02_noncrit_Midgame.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/02_中文提示.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/03_noncrit_Hybrid.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/03_中文提示.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/04_Crit_Hybrid.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/04_中文提示.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/05_Uber_Endgame.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/05_中文提示.build",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/构筑文件/06_中文提示.build.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14修改与检查.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14检查_interactions.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14检查_pages.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14检查_responsive.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14检查_static.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14检查结果汇总.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14独立复建.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/00_六分支全身目标实页对照.jpg",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/01_Early全身目标_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/06_目标带入_ilvl50普通加工.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e01_bow_专属攻略.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e01_全身目标.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e02_全身目标.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e03_helmet_专属攻略.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e03_全身目标.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e04_quiver_专属攻略.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e04_全身目标.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e05_amulet_专属攻略.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e05_全身目标.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/e06_全身目标.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/响应_1024.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/响应_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/响应_1920.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/响应_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R14页面预览/响应_768.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R15弓面板检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R15弓面板预览/01_Early全身目标_伤害数字.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R15弓面板预览/02_Early弓_顶部伤害与品质.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R15独立重建.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R15计算依据.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/01_Early全身基础与成品_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/02_弓62到183计算关系.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/03_衣服基础与成品.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/04_头盔109到301及450建议.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/05_项链底材全属性不是精魂.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/06_药剂基础与词缀后回复.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/修改与边界.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/独立复建检查_R16.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R16基础与成品/逐项检查_R16.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/检查结果_R17.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/真实文件加载探测.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/过滤器目录_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/过滤器目录_1920.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/过滤器目录_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/重复生成检查.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R17过滤器入口/验收说明.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R18过滤器下载/R18检查范围.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R18过滤器下载/检查结果_R18.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R18过滤器下载/独立重建_R18.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R18过滤器下载/过滤器下载_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R18过滤器下载/过滤器下载_1920.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R18过滤器下载/过滤器下载_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/01_Early四条到五条_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/02_作者弓工艺四条直接到六条_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/03_项链五条后的最后前缀.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/04_续做页窄窗口.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/全站回归与原件校验.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/本轮说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R19四条后续检查/检查结果.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/01_Early全身目标_等级提要.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/01_Early总览_等级说明.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/02_等级与投入时机_展开.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/02_项链80_追最高阶需82.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/03_ilvl50_过渡普通加工.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/04_ilvl80弓_已过75起点.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/05_项链81_追最高阶抗性先等82.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/R20修改说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/R20检查结果.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/原件保留校验.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R20物品等级/独立重建校验.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/本轮资料核对.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/检查结果.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/检查说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/独立目录重建.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/01_Early弓_先开孔.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/02_Early弓_本次放一颗高级钢铁.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/03_手套_按真实缺口补冰抗.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/04_插槽绑定_明确停止.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/05_03护盾头_效果与操作.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/06_换装后整套检查.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/07_全身装备详情_符文收尾不另找.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/08_打造后接回本部位收尾.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/09_颜色与声音_整站内直接查看.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/响应_runes_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R21符文与收尾/页面预览/响应_runes_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R24_Fubgun配套/R24_Fubgun加点入口_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R24_Fubgun配套/R24_Fubgun整套配套_手机预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R24_Fubgun配套/R24_Fubgun整套配套_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R25_异界原图/R25_Fubgun七套异界原图_网站预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R25_异界原图/R25_七套加点原图_手机预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R25_异界原图/R25_两个深渊方案_对照预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R25_异界原图/R25_单文件离线看图_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R25_异界原图/R25_异界方案总览_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R26/R25_先读我_历史.txt",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R26/R26_宝石与大师区别_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R26/R26_异界工作台_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R26/R26_异界工作台_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R26/R26_装备首页_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R27/R27_品质与打造_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R27/R27_宝石升级_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R27/R27_新手总攻略_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R27/R27_新手总攻略_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/R28_强化_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/R28_戒指分开_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/R28_装备首页_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/R28_逐件强化_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/R28_首页_390.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/R28_首页初始.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查与预览/R28/测试导出_手动记录.json",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R22_异界主树_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R22_异界入门_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R22_玩法选择_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R22_裂隙玩法_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R22_裂隙玩法_手机.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R22_装备首页_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R23_前期解锁_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R23_加点原图入口_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R23_加点原图入口_手机.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/检查截图/R23_深渊任务与方案_1366.png",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/README.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/README_R26.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/after-quests.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/app.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/atlas-gallery.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/atlas-gallery.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/atlas-workspace-r26.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/atlas-workspace-r26.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/atlas.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/atlas.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/base_metrics.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/bow-metrics.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/browser_memory.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/build.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r13.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r14.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r15.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r16.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r17.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r18.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r19.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r20.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r21.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r22.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r23.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r24.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r24_browser.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r25.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r25_browser.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r26.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r26_browser.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r27_browser.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r28_browser.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r28_rebuild.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/check_r28_static.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/compare.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/content.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/continuation_r19.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/craft_policy.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/crafting.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/crafting.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/early-crafting.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/early_crafting.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/endgame_r24.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/endgame_r25.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/endgame_r26.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment-bridge.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment-finish-r28.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment-finish-r28.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/equipment_finish_r28.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/examples.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/export_r27.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/export_r28.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/filter-legend-fragment.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/filter-legend.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/filter-legend.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/filter_audit.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/filter_legend.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/finishing.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/finishing.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/finishing.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/fubgun-atlas.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/fubgun-atlas.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/generate_guided_data.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/guided-crafting.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/guided-crafting.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/guided_crafting.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/loot_filters.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/make_singlefile_r25.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/novice-r27.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/novice-r27.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/novice_r27.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/preparation.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/preparation.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/preparation.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/prepare_master_crops_r26.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/r25_browser_support.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/review_r8.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/style.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/weapon_metrics.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/workbench-body.html",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/workbench.css",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/workbench.js",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/workbench.py",
+      "ok": true
+    },
+    {
+      "path": "R28原站/源码/历史模块说明/README_R24_旧说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/给DSH_更新说明.md",
+      "ok": true
+    },
+    {
+      "path": "R28原站/过滤器说明/00_四份文件与安装说明.txt",
+      "ok": true
+    },
+    {
+      "path": "R37_1_金币显示修正说明.md",
+      "ok": true
+    },
+    {
+      "path": "R37_过滤器核对与更新说明.md",
+      "ok": true
+    },
+    {
+      "path": "R38_六阶段宝石准备清单.md",
+      "ok": true
+    },
+    {
+      "path": "R38_更新与检查说明.md",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/README.md",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/additions.css",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/additions.js",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/build_r38.py",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/check_r38.py",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/new_content.py",
+      "ok": true
+    },
+    {
+      "path": "R38维护源码/smoke.py",
+      "ok": true
+    },
+    {
+      "path": "R39_人物天赋珠宝清单.md",
+      "ok": true
+    },
+    {
+      "path": "R39_更新与检查说明.md",
+      "ok": true
+    },
+    {
+      "path": "R39检查/R39_人物天赋珠宝_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R39检查/R39_人物天赋珠宝_390.png",
+      "ok": true
+    },
+    {
+      "path": "R39检查/R39_检查结果.json",
+      "ok": true
+    },
+    {
+      "path": "R39检查/R39_特殊人物珠宝_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R39检查/R39_重复构建核对.json",
+      "ok": true
+    },
+    {
+      "path": "R39维护源码/README.md",
+      "ok": true
+    },
+    {
+      "path": "R39维护源码/additions.css",
+      "ok": true
+    },
+    {
+      "path": "R39维护源码/additions.js",
+      "ok": true
+    },
+    {
+      "path": "R39维护源码/build_r39.py",
+      "ok": true
+    },
+    {
+      "path": "R39维护源码/check_r39.py",
+      "ok": true
+    },
+    {
+      "path": "R39维护源码/jewel_content.py",
+      "ok": true
+    },
+    {
+      "path": "R40_全站审阅与重排说明.md",
+      "ok": true
+    },
+    {
+      "path": "R40_前期打造与投入时机.md",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_checks.json",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_rebuild.json",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_一词蓝弓步骤_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_前期精华_390.png",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_前期鞋子精华_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_成长路线_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_打造时机_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R40检查/R40_精华材料分区_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R40维护源码/README.md",
+      "ok": true
+    },
+    {
+      "path": "R40维护源码/app_r40.js",
+      "ok": true
+    },
+    {
+      "path": "R40维护源码/build_r40.py",
+      "ok": true
+    },
+    {
+      "path": "R40维护源码/check_r40.py",
+      "ok": true
+    },
+    {
+      "path": "R40维护源码/content_r40.py",
+      "ok": true
+    },
+    {
+      "path": "R40维护源码/style_r40.css",
+      "ok": true
+    },
+    {
+      "path": "R41_修改与检查说明.md",
+      "ok": true
+    },
+    {
+      "path": "R41_异界大节点选择说明.md",
+      "ok": true
+    },
+    {
+      "path": "R41_装备打造_按当前状态操作.md",
+      "ok": true
+    },
+    {
+      "path": "R41检查/R41_异界大节点_地貌选择_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R41检查/R41_打造_手机390.png",
+      "ok": true
+    },
+    {
+      "path": "R41检查/R41_暴击弓_专用步骤_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R41检查/R41_过渡鞋子_具体操作_1440.png",
+      "ok": true
+    },
+    {
+      "path": "R41检查/first_attempt.txt",
+      "ok": true
+    },
+    {
+      "path": "R41检查/flows.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/integrity.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/rebuild.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/view-scan-before-source-link-fix.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/view-scan.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/发布前原件与资源检查.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/当前构建资源.json",
+      "ok": true
+    },
+    {
+      "path": "R41检查/真实导航限制.json",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/README.md",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/additions41.css",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/additions41.js",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/atlas41.json",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/build_r41.py",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/craft41.json",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/finalize_r41.py",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/new_data.py",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/test_flows41.py",
+      "ok": true
+    },
+    {
+      "path": "R41维护源码/test_scan41.py",
+      "ok": true
+    },
+    {
+      "path": "R42_全站重整与验收说明.md",
+      "ok": true
+    },
+    {
+      "path": "R42_阅读路线与使用说明.md",
+      "ok": true
+    },
+    {
+      "path": "R42检查/audit.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/final-visual42.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/integrity-final.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/integrity42.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/mobile-menu-final.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/native-flows.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/navigation.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/records-export.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/reference-resources.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/route-matrix.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/scan-0000-0950.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/scan-0950-1877.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/scan42.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/smoke.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/states-layout-final.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/states-layout42.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/tasks42.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/visual.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/修正前与超时记录/audit-partial.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/修正前与超时记录/audit-progress.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/修正前与超时记录/smoke-first-attempt.py",
+      "ok": true
+    },
+    {
+      "path": "R42检查/修正前与超时记录/tasks-stdout.txt",
+      "ok": true
+    },
+    {
+      "path": "R42检查/修正前与超时记录/三张旧外链图取回尝试.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/发布收尾核对.json",
+      "ok": true
+    },
+    {
+      "path": "R42检查/复跑说明.md",
+      "ok": true
+    },
+    {
+      "path": "R42检查/最终验收摘要.json",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/README.md",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/app42.js",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/build42.py",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/guide42.json",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/merge42.cjs",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/references42.json",
+      "ok": true
+    },
+    {
+      "path": "R42维护源码/style42.css",
+      "ok": true
+    },
+    {
+      "path": "R42预览/R42_全身目标_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R42预览/R42_剧情与转型_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R42预览/R42_异界方案_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R42预览/R42_手机阅读_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R42预览/R42_逐步打造_预览.png",
+      "ok": true
+    },
+    {
+      "path": "R42预览/R42_阶段准备_预览.png",
+      "ok": true
+    },
+    {
+      "path": "README_上线.md",
+      "ok": true
+    },
+    {
+      "path": "SHA256SUMS_R37_1.txt",
+      "ok": true
+    },
+    {
+      "path": "SHA256SUMS_R38.txt",
+      "ok": true
+    },
+    {
+      "path": "SHA256SUMS_R39.txt",
+      "ok": true
+    },
+    {
+      "path": "SHA256SUMS_R40.txt",
+      "ok": true
+    },
+    {
+      "path": "SHA256SUMS_R41.txt",
+      "ok": true
+    },
+    {
+      "path": "assets/app.04c0e1802204.js",
+      "ok": true
+    },
+    {
+      "path": "assets/app.2ff38be00087.js",
+      "ok": true
+    },
+    {
+      "path": "assets/app.3528d4568ee3.js",
+      "ok": true
+    },
+    {
+      "path": "assets/app.9097fa2dc539.js",
+      "ok": true
+    },
+    {
+      "path": "assets/app.c88cc3463cb5.js",
+      "ok": true
+    },
+    {
+      "path": "assets/app.e09b92da74d8.js",
+      "ok": true
+    },
+    {
+      "path": "assets/app.e6b3f5c187d0.js",
+      "ok": true
+    },
+    {
+      "path": "assets/content.13a470512fff.js",
+      "ok": true
+    },
+    {
+      "path": "assets/content.34993314c865.js",
+      "ok": true
+    },
+    {
+      "path": "assets/content.894425abcb3a.js",
+      "ok": true
+    },
+    {
+      "path": "assets/content.9931c035c9b1.js",
+      "ok": true
+    },
+    {
+      "path": "assets/content.e171faf3ce1c.js",
+      "ok": true
+    },
+    {
+      "path": "assets/content.e69d3567dd9c.js",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-0b566eacffb3bd26a477.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-0df2da03e36820ba5aa0.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-103155fec27122707bde.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-11f106f356c925f77091.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-1428f40333ee50ef7a3f.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-19abee31a6098faa78d0.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-1b88263214e19719a95f.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-1ebfa63368bfaccefaa5.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-2c6f4df9b6541a916fcb.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-32b66d53dc177d718fe7.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-377336175c4a6a4fe805.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-386e2532d5e928e8a532.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-3c603589170de92b6407.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-3e1e3c35fae5350c5a2f.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-3ff27555d185d0ed459b.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-45e1553e37bebe1dc19f.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-4663f060ce283cd58cb5.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-4b3a426331ac9b84cfa2.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-4dc7f6ace19c0d724419.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-51ef1c5803a910a3841d.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-52b2b5ad3dc98b613559.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-57398ac33abb3ea21d0d.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-59fb9df5e07d03953a36.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-5a50ff66f7e7fb5c76cb.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-60943c4b1cde985d1354.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-64dd67a7b90d589d8928.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-68c9be548ec3207c8387.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-75e2d2b4e1ea0adcdc2b.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-79972e037b7fccea9da1.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-7e813021b34287c731f9.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-7e85795dd562a3df6414.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-95d1c13dc5d79087e331.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-97f8e276954c91635fd3.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-99455b3c7a3766bd164e.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-9a8a1fbff342b074d91c.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-aeefa136ce13ecedbd89.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-afa7a8a49b2259d5377f.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-b3201d5138b34ac19754.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-c022fb58503eac6b051b.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-c4d6072ff744af47ebda.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-c58731fcbdf8283f8424.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-cd6e9d1b47581ac9d6a5.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-d2939a7331e1d5c00c2f.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-d37d2217b2937a897c0c.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-d79f0b532e1288d65c74.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-d7bdf88882c2b7894a65.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-d8369c95b64af1e02f43.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-da81df7f010dc7e583da.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-db21095cf628de30928d.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-de3e83a6adf7aaf8ae64.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-df54443b0a011ced2059.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-e41176640a69f4e05470.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-e8e8b4d72b164be9d864.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-e9a9200ebfa543f37e99.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-ec3a2c686f80b06d95b8.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-ecd29250f6c1d49d7aa9.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-ed4a022317d58c637c7e.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-f0a00a359e9b052522bc.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-f3ebef37c87d8b8f4c38.png",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-f518be2a8834dd50a4ed.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-f8a2eb663cc0c5b2deb4.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-fd47b025da3d5675d58e.webp",
+      "ok": true
+    },
+    {
+      "path": "assets/images/image-fd7c56117a9a1ab81f95.png",
+      "ok": true
+    },
+    {
+      "path": "assets/references.4d695b29f980.js",
+      "ok": true
+    },
+    {
+      "path": "assets/site.06ffe5eb4e6d.css",
+      "ok": true
+    },
+    {
+      "path": "assets/site.63bea146cd6f.css",
+      "ok": true
+    },
+    {
+      "path": "assets/site.7504000cc647.css",
+      "ok": true
+    },
+    {
+      "path": "assets/site.9ca8a734f268.css",
+      "ok": true
+    },
+    {
+      "path": "assets/site.f3c67d06defd.css",
+      "ok": true
+    },
+    {
+      "path": "assets/style.4a5ca8ef8361.css",
+      "ok": true
+    },
+    {
+      "path": "assets/style.e0c79ab9085a.css",
+      "ok": true
+    },
+    {
+      "path": "data/R30_七套配套结构化.json",
+      "ok": true
+    },
+    {
+      "path": "data/R31_原页核对与配套.json",
+      "ok": true
+    },
+    {
+      "path": "data/R32_新手异界开荒.json",
+      "ok": true
+    },
+    {
+      "path": "data/R33_pre_audit_data_keys.json",
+      "ok": true
+    },
+    {
+      "path": "data/R33_内容审核.json",
+      "ok": true
+    },
+    {
+      "path": "data/R33_当前规则校注.json",
+      "ok": true
+    },
+    {
+      "path": "data/R33_新章节.json",
+      "ok": true
+    },
+    {
+      "path": "data/R37-assets.json",
+      "ok": true
+    },
+    {
+      "path": "data/R37-filter-catalog.json",
+      "ok": true
+    },
+    {
+      "path": "data/R38-build-patch.json",
+      "ok": true
+    },
+    {
+      "path": "data/R38-essence-guide.json",
+      "ok": true
+    },
+    {
+      "path": "data/R38-gem-guide.json",
+      "ok": true
+    },
+    {
+      "path": "data/R39-build-patch.json",
+      "ok": true
+    },
+    {
+      "path": "data/R39-jewel-guide.json",
+      "ok": true
+    },
+    {
+      "path": "data/R40-essence-guide.json",
+      "ok": true
+    },
+    {
+      "path": "data/R40-progression-guide.json",
+      "ok": true
+    },
+    {
+      "path": "data/R41-atlas-choices.json",
+      "ok": true
+    },
+    {
+      "path": "data/R41-crafting.json",
+      "ok": true
+    },
+    {
+      "path": "data/R42-guide.json",
+      "ok": true
+    },
+    {
+      "path": "filter-legend.html",
+      "ok": true
+    },
+    {
+      "path": "filters.html",
+      "ok": true
+    },
+    {
+      "path": "filters/01_Fubgun_Early_Mapping.filter",
+      "ok": true
+    },
+    {
+      "path": "filters/01_Fubgun_Early_Mapping_Bases_Shards_R37.filter",
+      "ok": true
+    },
+    {
+      "path": "filters/01_Fubgun_Early_Mapping_GoldFix_R37_1.filter",
+      "ok": true
+    },
+    {
+      "path": "filters/02_Fubgun_Bow_Campaign.filter",
+      "ok": true
+    },
+    {
+      "path": "filters/03_Fubgun_Endgame_Mapping.filter",
+      "ok": true
+    },
+    {
+      "path": "filters/03_Fubgun_Endgame_Materials_20261002.filter",
+      "ok": true
+    },
+    {
+      "path": "filters/04_Fubgun_Uber_Strict.filter",
+      "ok": true
+    },
+    {
+      "path": "index.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/after-quests.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-abyss.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-activities.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-breach.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-comparison.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-delirium.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-expedition.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-fubgun.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-images.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-masters.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-other.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-passives.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-reference.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-ritual.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-sources.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-start.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-temple.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/atlas-unlock.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/beginner-guide.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/compare.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/coverage.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft-advanced.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft-early-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft-examples.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft-reference.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft-steps-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/craft.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/e01.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/e02.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/e03.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/e04.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/e05.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/e06.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/equipment-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/equipment-goals-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/equipment.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/filter-legend.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/filters.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/finish-check.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/gem-upgrades.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/glossary.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/index.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/l01.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/l02.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/l03.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/l04.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/l05.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/l06.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/mechanics.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/numeric-targets.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/prepare-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/prepare.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/quality-workshop.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/reader.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/rewards.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/roadmap.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/runes-all.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/runes.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/source-audit.html",
+      "ok": true
+    },
+    {
+      "path": "pages/reference/sources.html",
+      "ok": true
+    },
+    {
+      "path": "人物天赋珠宝_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "什么时候打造装备_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "全站覆盖与待核实_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "其他试炼与玩法_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "内容审核_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "冰射攻略_接续记录_R38_20261002.md",
+      "ok": true
+    },
+    {
+      "path": "冰射攻略_接续记录_R39_20261002.md",
+      "ok": true
+    },
+    {
+      "path": "冰射攻略_接续记录_R40_20261002.md",
+      "ok": true
+    },
+    {
+      "path": "冰射攻略_接续记录_R41_20261003.md",
+      "ok": true
+    },
+    {
+      "path": "冰射攻略_接续记录_R42_20261003.md",
+      "ok": true
+    },
+    {
+      "path": "剧情攻略_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "剧情精华与低投入打造_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "升华点与试炼_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "卡关与故障排查_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "原版过滤器_从这里选/01_Fubgun_Early_Mapping.filter",
+      "ok": true
+    },
+    {
+      "path": "原版过滤器_从这里选/02_Fubgun_Bow_Campaign.filter",
+      "ok": true
+    },
+    {
+      "path": "原版过滤器_从这里选/03_Fubgun_Endgame_Mapping.filter",
+      "ok": true
+    },
+    {
+      "path": "原版过滤器_从这里选/04_Fubgun_Uber_Strict.filter",
+      "ok": true
+    },
+    {
+      "path": "开始阅读_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "异界大节点_选什么.html",
+      "ok": true
+    },
+    {
+      "path": "异界攻略_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "成长路线_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "技能辅助宝石_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "新手从这里开始.html",
+      "ok": true
+    },
+    {
+      "path": "新手复查与未完成项.html",
+      "ok": true
+    },
+    {
+      "path": "新手异界开荒_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "来源记录/Fubgun_七套Atlas方案_2026-09-29_原上传.zip",
+      "ok": true
+    },
+    {
+      "path": "来源记录/R31_原页核对/七套URL与图示名称.json",
+      "ok": true
+    },
+    {
+      "path": "来源记录/R31_原页核对/复核说明.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/R32_新手开荒/原图地址.txt",
+      "ok": true
+    },
+    {
+      "path": "来源记录/R32_新手开荒/来源与范围.json",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/00_阅读总览.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/01_Expedition.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/02_Ritual_Belts.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/03_Currency_Abyss.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/04_Breach_Rares.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/05_Abyss_Rares.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/06_Lineage_Gems.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/07_Deli_Rush.md",
+      "ok": true
+    },
+    {
+      "path": "来源记录/七套Atlas_20260929/08_点击核验.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/browser_attempts.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/core.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/deploy.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/layout.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/offline.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/regression.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/regression_首次_图片相对地址无base.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37/static.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37_1/R37到R37_1_过滤器完整差异.diff",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37_1/包文件改动范围.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37_1/金币修正_网页与HTTP检查.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37_1/金币修正_静态检查.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R37_1/金币唯一新增规则.txt",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_宝石准备_1440.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_宝石准备_375.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_弓精华_1440.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_弓精华_375.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_戒指精华_1440.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_戒指精华_375.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_最终检查.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_特殊宝石_1440.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_特殊宝石_375.png",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_真实导航尝试与内存回退.json",
+      "ok": true
+    },
+    {
+      "path": "检查记录/R38_首次时序检查_未计通过.json",
+      "ok": true
+    },
+    {
+      "path": "特殊人物珠宝_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "特殊宝石_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "碎片与底材检查.html",
+      "ok": true
+    },
+    {
+      "path": "血脉辅助_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "装备完整属性_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "装备打造_一步步做.html",
+      "ok": true
+    },
+    {
+      "path": "装备打造_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "过滤器与完整图例_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "需要哪些宝石_从这里打开.html",
+      "ok": true
+    },
+    {
+      "path": "颜色底色声音_从这里打开.html",
+      "ok": true
+    }
+  ]
+}

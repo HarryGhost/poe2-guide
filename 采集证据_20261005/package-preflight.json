@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-05T10:25:33.727042+00:00",
+  "mandatory_files_present": true,
+  "json_files_parsed": 234,
+  "local_markdown_links_resolved": 833,
+  "native_image_files_recognized": 195,
+  "sensitive_value_patterns_found": [],
+  "public_document_depth_truncation_found": false,
+  "zip_crc_status": "performed_after_packaging_and_printed_by_this_script",
+  "limits": "Pattern scan is not a general security proof. Only target page excerpts and screenshots were saved; no cookies/Authorization were requested or exported."
+}

@@ -1,0 +1,20 @@
+--- 01_Fubgun_Early_Mapping_Bases_Shards_R37.filter
++++ 01_Fubgun_Early_Mapping_GoldFix_R37_1.filter
+@@ -191,6 +191,17 @@
+ #	SetBorderColor 255 255 255 255
+ #	PlayEffect Orange Temp
+ 
++# BEGIN R37_1_GOLD_VISIBILITY_FIX
++# 仅补异界金币显示：区域65及以上，不设数量门槛；前面的原金币高亮优先。
++# 沿用原金币兜底配色，不加声音/图标/光柱；剧情及非金币规则不变。
++Show # R37_1_GOLD_MAPS
++    BaseType == "Gold"
++    AreaLevel >= 65
++    SetTextColor 180 180 180
++    SetBorderColor 0 0 0 255
++    SetBackgroundColor 20 20 0 180
++# END R37_1_GOLD_VISIBILITY_FIX
++
+ Hide # %H3 $type->gold $tier->any !gold_pilesmall
+ BaseType == "Gold"
+ SetTextColor 180 180 180
