@@ -1,0 +1,1409 @@
+{
+  "mode": "matrix",
+  "navigation": [],
+  "errors": [],
+  "views": [
+    {
+      "page": "item",
+      "error": null,
+      "length": 1754,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/bow?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1366,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/bow?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1306,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/bow?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 2090,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/quiver?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 624,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/quiver?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1016,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/quiver?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1499,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1257,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1252,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1567,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/body?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1002,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/body?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1294,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/body?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1351,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/gloves?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 995,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/gloves?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1243,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/gloves?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1406,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/boots?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1020,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/boots?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1239,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/boots?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1510,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/amulet?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1017,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/amulet?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1219,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/amulet?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1540,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/belt?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 591,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/belt?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1012,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/belt?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1568,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/ring1?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1005,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/ring1?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1153,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/ring1?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1568,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/ring2?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1005,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/ring2?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1153,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/ring2?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 356,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/weapon2?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 298,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/weapon2?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1054,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/weapon2?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 358,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/quiver2?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 299,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/quiver2?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 806,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/quiver2?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 366,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/life_flask?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 898,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/life_flask?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 887,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/life_flask?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 581,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/mana_flask?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 409,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/mana_flask?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 887,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/mana_flask?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 618,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm1?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 407,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm1?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 855,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm1?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 538,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm2?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 407,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm2?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 855,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm2?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 647,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 1,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm3?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 407,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm3?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 855,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/charm3?stage=e05&tab=finish"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1748,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 2,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/jewels?stage=e05&tab=target"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1748,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 2,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/jewels?stage=e05&tab=craft"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1748,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 2,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/jewels?stage=e05&tab=finish"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6366,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e05"
+    },
+    {
+      "page": "character",
+      "error": null,
+      "length": 1138,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "character?tab=skills&stage=e05"
+    },
+    {
+      "page": "character",
+      "error": null,
+      "length": 741,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "character?tab=tree&stage=e05"
+    },
+    {
+      "page": "character",
+      "error": null,
+      "length": 709,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "character?tab=play&stage=e05"
+    },
+    {
+      "page": "character",
+      "error": null,
+      "length": 730,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "character?tab=check&stage=e05"
+    },
+    {
+      "page": "gems",
+      "error": null,
+      "length": 5663,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gems?stage=e05"
+    },
+    {
+      "page": "special-gems",
+      "error": null,
+      "length": 2577,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "special-gems?stage=e05"
+    },
+    {
+      "page": "jewels",
+      "error": null,
+      "length": 1748,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 2,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "jewels?stage=e05"
+    },
+    {
+      "page": "special-jewels",
+      "error": null,
+      "length": 1259,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 2,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "special-jewels?stage=e05"
+    },
+    {
+      "page": "guide",
+      "error": null,
+      "length": 3518,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "guide?tab=overview&stage=e05"
+    },
+    {
+      "page": "guide",
+      "error": null,
+      "length": 1521,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "guide?tab=skills&stage=e05"
+    },
+    {
+      "page": "guide",
+      "error": null,
+      "length": 1080,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "guide?tab=craft&stage=e05"
+    },
+    {
+      "page": "guide",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "guide?tab=next&stage=e05"
+    },
+    {
+      "page": "early-craft",
+      "error": null,
+      "length": 791,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "early-craft?stage=e05"
+    },
+    {
+      "page": "craft-timing",
+      "error": null,
+      "length": 447,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "craft-timing?stage=e05"
+    },
+    {
+      "page": "supplies",
+      "error": null,
+      "length": 495,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "supplies?stage=e05"
+    }
+  ],
+  "tasks": [],
+  "batch": "e05"
+}

@@ -1,0 +1,352 @@
+{
+  "version": "C R25",
+  "received_at": "2026-09-28",
+  "source_url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+  "source_title": "Fubgun Atlas Tree and Strats for 0.5",
+  "source_author": "Fubgun",
+  "evidence": "用户本轮上传的七张原站截图；方案依据顶部黄色下划线逐张匹配。",
+  "screenshot_version": "截图未显示游戏补丁号；按本次上传快照保留，不推定等于实时网站或已做国服验证。",
+  "variants": [
+    {
+      "id": "expedition",
+      "name": "Expedition",
+      "zh": "先祖秘藏",
+      "page": "atlas-expedition",
+      "number": 1,
+      "file_id": "file_00000000c0cc8230aaad6cb3d0fdeef8",
+      "src": "assets/fubgun-atlas/01_expedition.png",
+      "width": 1039,
+      "height": 697,
+      "bytes": 539772,
+      "sha256": "c4d6072ff744af47ebda0dcfeaed208baecfbc69b8bb814e8f7c3460e2cdb8f1",
+      "tab_evidence": "原图顶部黄色下划线对应 Expedition",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1039,
+          697
+        ],
+        "tree": [
+          245,
+          138,
+          520,
+          559
+        ],
+        "main": [
+          325,
+          142,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          463,
+          517,
+          234
+        ],
+        "masters": [
+          10,
+          66,
+          800,
+          69
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "保留原始亮暗节点、连线与顶部图标，不重画、不补点。"
+    },
+    {
+      "id": "ritual-belts",
+      "name": "Ritual Belts",
+      "zh": "仪式 · 腰带",
+      "page": "atlas-ritual",
+      "number": 2,
+      "file_id": "file_00000000d1d482308bc3e25b0aed7f24",
+      "src": "assets/fubgun-atlas/02_ritual-belts.png",
+      "width": 1021,
+      "height": 719,
+      "bytes": 521997,
+      "sha256": "79972e037b7fccea9da1914c832cd1299a635bc45188ab1028e4f45bdf4ca7e3",
+      "tab_evidence": "原图顶部黄色下划线对应 Ritual Belts",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1021,
+          719
+        ],
+        "tree": [
+          245,
+          144,
+          520,
+          575
+        ],
+        "main": [
+          325,
+          148,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          469,
+          517,
+          250
+        ],
+        "masters": [
+          10,
+          66,
+          800,
+          75
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "图片中同时有多个按钮呈亮色；归属以黄色下划线为准。"
+    },
+    {
+      "id": "currency-abyss",
+      "name": "Currency Abyss",
+      "zh": "深渊 · 通货",
+      "page": "atlas-abyss",
+      "number": 3,
+      "file_id": "file_000000006b0c81fd9b768571e386093a",
+      "src": "assets/fubgun-atlas/03_currency-abyss.png",
+      "width": 1026,
+      "height": 715,
+      "bytes": 525142,
+      "sha256": "de3e83a6adf7aaf8ae6499b2dabf8d73e502fff623b5e28a45487e82db804443",
+      "tab_evidence": "原图顶部黄色下划线对应 Currency Abyss",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1026,
+          715
+        ],
+        "tree": [
+          245,
+          142,
+          520,
+          573
+        ],
+        "main": [
+          325,
+          146,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          467,
+          517,
+          248
+        ],
+        "masters": [
+          10,
+          66,
+          800,
+          73
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "保留原始亮暗节点、连线与顶部图标，不重画、不补点。"
+    },
+    {
+      "id": "breach-rares",
+      "name": "Breach Rares",
+      "zh": "裂隙 · 稀有怪",
+      "page": "atlas-breach",
+      "number": 4,
+      "file_id": "file_00000000f57481f79dcc32080bed4a38",
+      "src": "assets/fubgun-atlas/04_breach-rares.png",
+      "width": 1045,
+      "height": 719,
+      "bytes": 528874,
+      "sha256": "11f106f356c925f77091e1dd50a4507ae6659ab08a6fb54c5d9581be4e514c56",
+      "tab_evidence": "原图顶部黄色下划线对应 Breach Rares",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1045,
+          719
+        ],
+        "tree": [
+          245,
+          147,
+          520,
+          572
+        ],
+        "main": [
+          325,
+          151,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          472,
+          517,
+          247
+        ],
+        "masters": [
+          10,
+          66,
+          800,
+          78
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "图片中同时有多个按钮呈亮色；归属以黄色下划线为准。"
+    },
+    {
+      "id": "abyss-rares",
+      "name": "Abyss Rares",
+      "zh": "深渊 · 稀有怪",
+      "page": "atlas-abyss",
+      "number": 5,
+      "file_id": "file_00000000f4e082308bf041fe9ed31a26",
+      "src": "assets/fubgun-atlas/05_abyss-rares.png",
+      "width": 1027,
+      "height": 712,
+      "bytes": 555277,
+      "sha256": "afa7a8a49b2259d5377f1a7d16d7891877318a60f03a7dabe0d75f70e2703121",
+      "tab_evidence": "原图顶部黄色下划线对应 Abyss Rares",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1027,
+          712
+        ],
+        "tree": [
+          245,
+          141,
+          520,
+          571
+        ],
+        "main": [
+          325,
+          145,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          466,
+          517,
+          246
+        ],
+        "masters": [
+          10,
+          66,
+          800,
+          72
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "保留原始亮暗节点、连线与顶部图标，不重画、不补点。"
+    },
+    {
+      "id": "lineage-gems",
+      "name": "Lineage Gems",
+      "zh": "Lineage Gems（保留原名）",
+      "page": "atlas-activities",
+      "number": 6,
+      "file_id": "file_0000000034508230be24e1d41233a9e9",
+      "src": "assets/fubgun-atlas/06_lineage-gems.png",
+      "width": 1029,
+      "height": 717,
+      "bytes": 517539,
+      "sha256": "4dc7f6ace19c0d7244195f519905d23f0371a3fe7086abaf4b4b7fafa8894c72",
+      "tab_evidence": "原图顶部黄色下划线对应 Lineage Gems",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1029,
+          717
+        ],
+        "tree": [
+          245,
+          153,
+          520,
+          564
+        ],
+        "main": [
+          325,
+          157,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          478,
+          517,
+          239
+        ],
+        "masters": [
+          10,
+          78,
+          800,
+          72
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "保留原始亮暗节点、连线与顶部图标，不重画、不补点。"
+    },
+    {
+      "id": "deli-rush",
+      "name": "Deli Rush",
+      "zh": "迷雾 · 速刷",
+      "page": "atlas-delirium",
+      "number": 7,
+      "file_id": "file_000000006b648210beb667717ddb2550",
+      "src": "assets/fubgun-atlas/07_deli-rush.png",
+      "width": 1033,
+      "height": 732,
+      "bytes": 529264,
+      "sha256": "4b3a426331ac9b84cfa22b9fab6afd69389cf4a5211bf0cefcaccb896b1a646d",
+      "tab_evidence": "原图顶部黄色下划线对应 Deli Rush",
+      "regions": {
+        "full": [
+          0,
+          0,
+          1033,
+          732
+        ],
+        "tree": [
+          245,
+          150,
+          520,
+          582
+        ],
+        "main": [
+          325,
+          154,
+          386,
+          443
+        ],
+        "side": [
+          248,
+          475,
+          517,
+          257
+        ],
+        "masters": [
+          10,
+          66,
+          800,
+          81
+        ]
+      },
+      "status": "原始截图已收录；节点悬浮说明未展开",
+      "note": "保留原始亮暗节点、连线与顶部图标，不重画、不补点。"
+    }
+  ],
+  "offline_original_images": true,
+  "interactive_nodes_exported": false,
+  "node_tooltips_transcribed": false,
+  "client_tested": false,
+  "processing": "原始 PNG 字节不变；网页用裁切视窗与 CSS 缩放显示；不进行 AI 超分辨率、补画节点或推断点序。"
+}

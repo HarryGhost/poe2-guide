@@ -1,0 +1,3892 @@
+{
+  "version": "R16",
+  "checked_at": "2026-09-27",
+  "bases": {
+    "Desert Cap": {
+      "zh": "沙漠帽",
+      "kind": "armour",
+      "defence": {
+        "闪避": 311
+      },
+      "url": "https://poe2db.tw/cn/Helmets",
+      "level": 70,
+      "req": [
+        0,
+        99,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Corsair Coat": {
+      "zh": "海盗外套",
+      "kind": "armour",
+      "defence": {
+        "闪避": 451
+      },
+      "implicit": "移动速度提高5%；衣服另有基础移动速度惩罚−3%",
+      "url": "https://poe2db.tw/cn/Body_Armours",
+      "level": 80,
+      "req": [
+        0,
+        121,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Grand Bracers": {
+      "zh": "宏伟护腕",
+      "kind": "armour",
+      "defence": {
+        "闪避": 155
+      },
+      "url": "https://poe2db.tw/cn/Gloves",
+      "level": 70,
+      "req": [
+        0,
+        87,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Cavalry Boots": {
+      "zh": "骑兵长靴",
+      "kind": "armour",
+      "defence": {
+        "闪避": 233
+      },
+      "url": "https://poe2db.tw/cn/Boots",
+      "level": 70,
+      "req": [
+        0,
+        93,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Ancestral Tiara": {
+      "zh": "先祖冠冕",
+      "kind": "armour",
+      "defence": {
+        "护盾": 109
+      },
+      "url": "https://poe2db.tw/cn/Helmets",
+      "level": 80,
+      "req": [
+        0,
+        0,
+        115
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Bladed Shoes": {
+      "zh": "嵌刃便鞋",
+      "kind": "armour",
+      "defence": {
+        "闪避": 122,
+        "护盾": 37
+      },
+      "url": "https://poe2db.tw/cn/Boots",
+      "level": 65,
+      "req": [
+        0,
+        47,
+        47
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Slipstrike Vest": {
+      "zh": "滑击背心",
+      "kind": "armour",
+      "defence": {
+        "闪避": 519
+      },
+      "url": "https://poe2db.tw/cn/Body_Armours",
+      "level": 70,
+      "req": [
+        0,
+        121,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Daggerfoot Shoes": {
+      "zh": "捷足便鞋",
+      "kind": "armour",
+      "defence": {
+        "闪避": 140,
+        "护盾": 43
+      },
+      "url": "https://poe2db.tw/cn/Boots",
+      "level": 80,
+      "req": [
+        0,
+        59,
+        59
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Runeforged Secured Wraps": {
+      "zh": "符文坚固裹手",
+      "kind": "armour",
+      "defence": {
+        "闪避": 34,
+        "护盾": 10,
+        "符文结界": 138
+      },
+      "url": "https://poe2db.tw/cn/Runeforged_Secured_Wraps",
+      "level": 80,
+      "req": [
+        0,
+        55,
+        55
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Volant Quiver": {
+      "zh": "飞矢箭袋",
+      "kind": "implicit",
+      "implicit": "箭矢速度提高20–30%",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "level": 61,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Stellar Amulet": {
+      "zh": "星辉项链",
+      "kind": "implicit",
+      "implicit": "力量、敏捷、智慧各＋5–7",
+      "url": "https://poe2db.tw/cn/Stellar_Amulet",
+      "level": 24,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Prismatic Ring": {
+      "zh": "三相戒指",
+      "kind": "implicit",
+      "implicit": "火、冰、电抗性各＋7–10%",
+      "url": "https://poe2db.tw/cn/Prismatic_Ring",
+      "level": 35,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Rawhide Belt": {
+      "zh": "生皮腰带",
+      "kind": "implicit",
+      "implicit": "药剂的生命回复提高20–30%",
+      "url": "https://poe2db.tw/cn/Rawhide_Belt",
+      "level": 1,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Gold Amulet": {
+      "zh": "帝金项链",
+      "kind": "implicit",
+      "implicit": "物品稀有度提高12–20%",
+      "url": "https://poe2db.tw/cn/Gold_Amulet",
+      "level": 35,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Gold Ring": {
+      "zh": "金光戒指",
+      "kind": "implicit",
+      "implicit": "物品稀有度提高6–15%",
+      "url": "https://poe2db.tw/cn/Gold_Ring",
+      "level": 40,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Ultimate Life Flask": {
+      "zh": "终极生命药剂",
+      "kind": "flask",
+      "resource": "生命",
+      "amount": 920,
+      "duration": 3,
+      "capacity": 75,
+      "cost": 10,
+      "url": "https://poe2db.tw/cn/Life_Flasks",
+      "level": 60,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Ultimate Mana Flask": {
+      "zh": "终极魔力药剂",
+      "kind": "flask",
+      "resource": "魔力",
+      "amount": 310,
+      "duration": 3,
+      "capacity": 75,
+      "cost": 10,
+      "url": "https://poe2db.tw/cn/Mana_Flasks",
+      "level": 60,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Thawing Charm": {
+      "zh": "融冰咒符",
+      "kind": "charm",
+      "effect": "冻结时自动使用；效果期间免疫冻结",
+      "duration": 3,
+      "capacity": 40,
+      "cost": 40,
+      "url": "https://poe2db.tw/cn/Charms",
+      "level": 12,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Silver Charm": {
+      "zh": "真银咒符",
+      "kind": "charm",
+      "effect": "受到减速时自动使用；效果期间速度不受减速影响",
+      "duration": 3,
+      "capacity": 40,
+      "cost": 20,
+      "url": "https://poe2db.tw/cn/Charms",
+      "level": 10,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Dousing Charm": {
+      "zh": "浸润咒符",
+      "kind": "charm",
+      "effect": "被点燃时自动使用；效果期间免疫点燃",
+      "duration": 3,
+      "capacity": 40,
+      "cost": 30,
+      "url": "https://poe2db.tw/cn/Charms",
+      "level": 32,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Cadiro's Gambit": {
+      "zh": "卡迪罗的赌局",
+      "kind": "unique",
+      "base": "精工箭袋",
+      "implicit": "攻击速度提高7–10%",
+      "url": "https://poe2db.tw/cn/Cadiros_Gambit",
+      "special": "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Headhunter": {
+      "zh": "猎首",
+      "kind": "unique",
+      "base": "重革腰带",
+      "implicit": "晕眩阈值提高20–30%",
+      "url": "https://poe2db.tw/cn/Headhunter",
+      "special": "生命、力量、敏捷及偷取稀有怪词缀属于暗金词条，不是底材自带。",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Lavianga's Spirits": {
+      "zh": "拉维安加之灵",
+      "kind": "unique",
+      "base": "恢弘魔力药剂",
+      "implicit": "普通基底：2秒回复185魔力；每次10充能／容量75",
+      "url": "https://poe2db.tw/cn/Mana_Flasks",
+      "special": "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Nascent Hope": {
+      "zh": "新生希望",
+      "kind": "unique",
+      "base": "融冰咒符",
+      "implicit": "基础3秒；每次40充能／容量40；冻结时自动触发",
+      "url": "https://poe2db.tw/cn/Charms",
+      "special": "原件未给暗金实装词条值；不是可用普通加工做出的咒符。",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "The Fall of the Axe": {
+      "zh": "落刃时刻",
+      "kind": "unique",
+      "base": "真银咒符",
+      "implicit": "基础3秒；每次20充能／容量40；受到减速时触发",
+      "url": "https://poe2db.tw/cn/Charms",
+      "special": "猛攻是暗金附加效果，不是所有真银咒符都有。",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Rite of Passage": {
+      "zh": "仪式通道",
+      "kind": "unique",
+      "base": "黄金咒符",
+      "implicit": "普通基底：1秒；每次80充能／容量80；物品稀有度提高15%",
+      "url": "https://poe2db.tw/cn/Charms",
+      "special": "普通黄金咒符的1秒与暗金灵体附身的持续时间不是同一个效果；原件没有实际暗金掷值，不按普通数值冒充成品。",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Hysseg's Claw": {
+      "zh": "西赛格之爪",
+      "kind": "unknown",
+      "implicit": "仅06原件出现；本次未复核该特殊武器基础数值",
+      "url": "https://poe2db.tw/cn/Hyssegs_Claw",
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Primed Quiver": {
+      "zh": "精工箭袋",
+      "kind": "implicit",
+      "implicit": "攻击速度提高7–10%",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "level": 51,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    },
+    "Visceral Quiver": {
+      "zh": "贯心箭袋",
+      "kind": "implicit",
+      "implicit": "攻击暴击率提高20–30%",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "level": 65,
+      "req": [
+        0,
+        0,
+        0
+      ],
+      "checked_at": "2026-09-27",
+      "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+    }
+  },
+  "phases": {
+    "e01": {
+      "quiver": {
+        "phase": "e01",
+        "slot": "quiver",
+        "records": [
+          {
+            "en": "Volant Quiver",
+            "zh": "飞矢箭袋",
+            "source": "https://poe2db.tw/cn/Quivers",
+            "base": {
+              "zh": "飞矢箭袋",
+              "kind": "implicit",
+              "implicit": "箭矢速度提高20–30%",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "level": 61,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "箭矢速度提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "箭袋不套用武器物理品质公式",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "箭矢速度不是攻击速度。底材固有速度20–30%与原件“投射物速度提高42%”是两条来源；作用到同一箭矢且按普通提高相加时为62–72%，不是把1.42再乘1.20–1.30。本表不把箭袋点伤重复加入弓物品顶部。"
+            ],
+            "source_index": 1
+          }
+        ]
+      },
+      "helmet": {
+        "phase": "e01",
+        "slot": "helmet",
+        "records": [
+          {
+            "en": "Desert Cap",
+            "zh": "沙漠帽",
+            "source": "https://poe2db.tw/cn/Helmets",
+            "base": {
+              "zh": "沙漠帽",
+              "kind": "armour",
+              "defence": {
+                "闪避": 311
+              },
+              "url": "https://poe2db.tw/cn/Helmets",
+              "level": 70,
+              "req": [
+                0,
+                99,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "311",
+                "q0": "约311",
+                "q20": "约373",
+                "values": [
+                  311.0,
+                  373.2
+                ],
+                "formula": "（311＋0）×（1＋0%）＝311；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 2
+          }
+        ]
+      },
+      "body": {
+        "phase": "e01",
+        "slot": "body",
+        "records": [
+          {
+            "en": "Corsair Coat",
+            "zh": "海盗外套",
+            "source": "https://poe2db.tw/cn/Body_Armours",
+            "base": {
+              "zh": "海盗外套",
+              "kind": "armour",
+              "defence": {
+                "闪避": 451
+              },
+              "implicit": "移动速度提高5%；衣服另有基础移动速度惩罚−3%",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "level": 80,
+              "req": [
+                0,
+                121,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "451",
+                "q0": "约1882",
+                "q20": "约2258",
+                "values": [
+                  1881.6,
+                  2257.9199999999996
+                ],
+                "formula": "（451＋333）×（1＋140%）＝1881.6；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "底材固定属性：移动速度提高5%；衣服另有基础移动速度惩罚−3%。不要遗漏原有移动速度惩罚。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 3
+          }
+        ]
+      },
+      "gloves": {
+        "phase": "e01",
+        "slot": "gloves",
+        "records": [
+          {
+            "en": "Grand Bracers",
+            "zh": "宏伟护腕",
+            "source": "https://poe2db.tw/cn/Gloves",
+            "base": {
+              "zh": "宏伟护腕",
+              "kind": "armour",
+              "defence": {
+                "闪避": 155
+              },
+              "url": "https://poe2db.tw/cn/Gloves",
+              "level": 70,
+              "req": [
+                0,
+                87,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "155",
+                "q0": "约155",
+                "q20": "约186",
+                "values": [
+                  155.0,
+                  186.0
+                ],
+                "formula": "（155＋0）×（1＋0%）＝155；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 4
+          }
+        ]
+      },
+      "boots": {
+        "phase": "e01",
+        "slot": "boots",
+        "records": [
+          {
+            "en": "Cavalry Boots",
+            "zh": "骑兵长靴",
+            "source": "https://poe2db.tw/cn/Boots",
+            "base": {
+              "zh": "骑兵长靴",
+              "kind": "armour",
+              "defence": {
+                "闪避": 233
+              },
+              "url": "https://poe2db.tw/cn/Boots",
+              "level": 70,
+              "req": [
+                0,
+                93,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "233",
+                "q0": "约233",
+                "q20": "约280",
+                "values": [
+                  233.0,
+                  279.59999999999997
+                ],
+                "formula": "（233＋0）×（1＋0%）＝233；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "原件另有移动速度提高35%：不是鞋子裸底自带；20品质不会自动把它提高到42%。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 5
+          }
+        ]
+      },
+      "amulet": {
+        "phase": "e01",
+        "slot": "amulet",
+        "records": [
+          {
+            "en": "Stellar Amulet",
+            "zh": "星辉项链",
+            "source": "https://poe2db.tw/cn/Stellar_Amulet",
+            "base": {
+              "zh": "星辉项链",
+              "kind": "implicit",
+              "implicit": "力量、敏捷、智慧各＋5–7",
+              "url": "https://poe2db.tw/cn/Stellar_Amulet",
+              "level": 24,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "力量、敏捷、智慧各＋5–7",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "“全属性＋5–7”是力量、敏捷、智慧每项各增加5–7；精魂和投射物等级来自随机词条，不是星辉底材自带。"
+            ],
+            "source_index": 6
+          }
+        ]
+      },
+      "belt": {
+        "phase": "e01",
+        "slot": "belt",
+        "records": [
+          {
+            "en": "Rawhide Belt",
+            "zh": "生皮腰带",
+            "source": "https://poe2db.tw/cn/Rawhide_Belt",
+            "base": {
+              "zh": "生皮腰带",
+              "kind": "implicit",
+              "implicit": "药剂的生命回复提高20–30%",
+              "url": "https://poe2db.tw/cn/Rawhide_Belt",
+              "level": 1,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "药剂的生命回复提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "20–30%是药剂生命回复，不是＋20–30最大生命。原件＋150最大生命、＋31力量仍然是另外的词条。"
+            ],
+            "source_index": 7
+          }
+        ]
+      },
+      "ring1": {
+        "phase": "e01",
+        "slot": "ring1",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 8
+          }
+        ]
+      },
+      "ring2": {
+        "phase": "e01",
+        "slot": "ring2",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 9
+          }
+        ]
+      },
+      "flasks": {
+        "phase": "e01",
+        "slot": "flasks",
+        "records": [
+          {
+            "en": "Ultimate Life Flask",
+            "zh": "终极生命药剂",
+            "source": "https://poe2db.tw/cn/Life_Flasks",
+            "base": {
+              "zh": "终极生命药剂",
+              "kind": "flask",
+              "resource": "生命",
+              "amount": 920,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Life_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "920生命／3秒",
+                "q0": "约920生命",
+                "q20": "约1104生命",
+                "values": [
+                  920.0,
+                  1104.0
+                ],
+                "formula": "920×（1＋0%）＝920；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "28%立即生效是这瓶回复量的一部分，不是人物最大生命的28%；剩余部分不是再次额外增加。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 10
+          },
+          {
+            "en": "Ultimate Mana Flask",
+            "zh": "终极魔力药剂",
+            "source": "https://poe2db.tw/cn/Mana_Flasks",
+            "base": {
+              "zh": "终极魔力药剂",
+              "kind": "flask",
+              "resource": "魔力",
+              "amount": 310,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Mana_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "310魔力／3秒",
+                "q0": "约546魔力",
+                "q20": "约655魔力",
+                "values": [
+                  545.6,
+                  654.72
+                ],
+                "formula": "310×（1＋76%）＝545.6；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 11
+          }
+        ]
+      },
+      "charms": {
+        "phase": "e01",
+        "slot": "charms",
+        "records": [
+          {
+            "en": "Thawing Charm",
+            "zh": "融冰咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "融冰咒符",
+              "kind": "charm",
+              "effect": "冻结时自动使用；效果期间免疫冻结",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 40,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 12,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "冻结时自动使用；效果期间免疫冻结。",
+              "普通基底每次消耗40充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 12
+          },
+          {
+            "en": "Silver Charm",
+            "zh": "真银咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "真银咒符",
+              "kind": "charm",
+              "effect": "受到减速时自动使用；效果期间速度不受减速影响",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 20,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 10,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "受到减速时自动使用；效果期间速度不受减速影响。",
+              "普通基底每次消耗20充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 13
+          },
+          {
+            "en": "Dousing Charm",
+            "zh": "浸润咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "浸润咒符",
+              "kind": "charm",
+              "effect": "被点燃时自动使用；效果期间免疫点燃",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 30,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 32,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "被点燃时自动使用；效果期间免疫点燃。",
+              "普通基底每次消耗30充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 14
+          }
+        ]
+      },
+      "jewels": {
+        "phase": "e01",
+        "slot": "jewels",
+        "records": [],
+        "explanation": "普通珠宝没有像弓伤害或衣服闪避那样统一的白底面板。主要看适用词缀及孔位成本；原件没有珠宝实装，不能编出一组基础伤害/护盾。"
+      }
+    },
+    "e02": {
+      "quiver": {
+        "phase": "e02",
+        "slot": "quiver",
+        "records": [
+          {
+            "en": "Volant Quiver",
+            "zh": "飞矢箭袋",
+            "source": "https://poe2db.tw/cn/Quivers",
+            "base": {
+              "zh": "飞矢箭袋",
+              "kind": "implicit",
+              "implicit": "箭矢速度提高20–30%",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "level": 61,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "箭矢速度提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "箭袋不套用武器物理品质公式",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "箭矢速度不是攻击速度。底材固有速度20–30%与原件“投射物速度提高42%”是两条来源；作用到同一箭矢且按普通提高相加时为62–72%，不是把1.42再乘1.20–1.30。本表不把箭袋点伤重复加入弓物品顶部。"
+            ],
+            "source_index": 1
+          }
+        ]
+      },
+      "helmet": {
+        "phase": "e02",
+        "slot": "helmet",
+        "records": [
+          {
+            "en": "Desert Cap",
+            "zh": "沙漠帽",
+            "source": "https://poe2db.tw/cn/Helmets",
+            "base": {
+              "zh": "沙漠帽",
+              "kind": "armour",
+              "defence": {
+                "闪避": 311
+              },
+              "url": "https://poe2db.tw/cn/Helmets",
+              "level": 70,
+              "req": [
+                0,
+                99,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "311",
+                "q0": "约311",
+                "q20": "约373",
+                "values": [
+                  311.0,
+                  373.2
+                ],
+                "formula": "（311＋0）×（1＋0%）＝311；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 2
+          }
+        ]
+      },
+      "body": {
+        "phase": "e02",
+        "slot": "body",
+        "records": [
+          {
+            "en": "Corsair Coat",
+            "zh": "海盗外套",
+            "source": "https://poe2db.tw/cn/Body_Armours",
+            "base": {
+              "zh": "海盗外套",
+              "kind": "armour",
+              "defence": {
+                "闪避": 451
+              },
+              "implicit": "移动速度提高5%；衣服另有基础移动速度惩罚−3%",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "level": 80,
+              "req": [
+                0,
+                121,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "451",
+                "q0": "约1882",
+                "q20": "约2258",
+                "values": [
+                  1881.6,
+                  2257.9199999999996
+                ],
+                "formula": "（451＋333）×（1＋140%）＝1881.6；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "底材固定属性：移动速度提高5%；衣服另有基础移动速度惩罚−3%。不要遗漏原有移动速度惩罚。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 3
+          }
+        ]
+      },
+      "gloves": {
+        "phase": "e02",
+        "slot": "gloves",
+        "records": [
+          {
+            "en": "Grand Bracers",
+            "zh": "宏伟护腕",
+            "source": "https://poe2db.tw/cn/Gloves",
+            "base": {
+              "zh": "宏伟护腕",
+              "kind": "armour",
+              "defence": {
+                "闪避": 155
+              },
+              "url": "https://poe2db.tw/cn/Gloves",
+              "level": 70,
+              "req": [
+                0,
+                87,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "155",
+                "q0": "约155",
+                "q20": "约186",
+                "values": [
+                  155.0,
+                  186.0
+                ],
+                "formula": "（155＋0）×（1＋0%）＝155；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 4
+          }
+        ]
+      },
+      "boots": {
+        "phase": "e02",
+        "slot": "boots",
+        "records": [
+          {
+            "en": "Cavalry Boots",
+            "zh": "骑兵长靴",
+            "source": "https://poe2db.tw/cn/Boots",
+            "base": {
+              "zh": "骑兵长靴",
+              "kind": "armour",
+              "defence": {
+                "闪避": 233
+              },
+              "url": "https://poe2db.tw/cn/Boots",
+              "level": 70,
+              "req": [
+                0,
+                93,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "233",
+                "q0": "约233",
+                "q20": "约280",
+                "values": [
+                  233.0,
+                  279.59999999999997
+                ],
+                "formula": "（233＋0）×（1＋0%）＝233；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "原件另有移动速度提高35%：不是鞋子裸底自带；20品质不会自动把它提高到42%。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 5
+          }
+        ]
+      },
+      "amulet": {
+        "phase": "e02",
+        "slot": "amulet",
+        "records": [
+          {
+            "en": "Stellar Amulet",
+            "zh": "星辉项链",
+            "source": "https://poe2db.tw/cn/Stellar_Amulet",
+            "base": {
+              "zh": "星辉项链",
+              "kind": "implicit",
+              "implicit": "力量、敏捷、智慧各＋5–7",
+              "url": "https://poe2db.tw/cn/Stellar_Amulet",
+              "level": 24,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "力量、敏捷、智慧各＋5–7",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "“全属性＋5–7”是力量、敏捷、智慧每项各增加5–7；精魂和投射物等级来自随机词条，不是星辉底材自带。"
+            ],
+            "source_index": 6
+          }
+        ]
+      },
+      "belt": {
+        "phase": "e02",
+        "slot": "belt",
+        "records": [
+          {
+            "en": "Rawhide Belt",
+            "zh": "生皮腰带",
+            "source": "https://poe2db.tw/cn/Rawhide_Belt",
+            "base": {
+              "zh": "生皮腰带",
+              "kind": "implicit",
+              "implicit": "药剂的生命回复提高20–30%",
+              "url": "https://poe2db.tw/cn/Rawhide_Belt",
+              "level": 1,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "药剂的生命回复提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "20–30%是药剂生命回复，不是＋20–30最大生命。原件＋150最大生命、＋31力量仍然是另外的词条。"
+            ],
+            "source_index": 7
+          }
+        ]
+      },
+      "ring1": {
+        "phase": "e02",
+        "slot": "ring1",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 8
+          }
+        ]
+      },
+      "ring2": {
+        "phase": "e02",
+        "slot": "ring2",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 9
+          }
+        ]
+      },
+      "flasks": {
+        "phase": "e02",
+        "slot": "flasks",
+        "records": [
+          {
+            "en": "Ultimate Life Flask",
+            "zh": "终极生命药剂",
+            "source": "https://poe2db.tw/cn/Life_Flasks",
+            "base": {
+              "zh": "终极生命药剂",
+              "kind": "flask",
+              "resource": "生命",
+              "amount": 920,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Life_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "920生命／3秒",
+                "q0": "约920生命",
+                "q20": "约1104生命",
+                "values": [
+                  920.0,
+                  1104.0
+                ],
+                "formula": "920×（1＋0%）＝920；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "28%立即生效是这瓶回复量的一部分，不是人物最大生命的28%；剩余部分不是再次额外增加。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 10
+          },
+          {
+            "en": "Lavianga's Spirits",
+            "zh": "拉维安加之灵",
+            "source": "https://poe2db.tw/cn/Mana_Flasks",
+            "base": {
+              "zh": "拉维安加之灵",
+              "kind": "unique",
+              "base": "恢弘魔力药剂",
+              "implicit": "普通基底：2秒回复185魔力；每次10充能／容量75",
+              "url": "https://poe2db.tw/cn/Mana_Flasks",
+              "special": "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：恢弘魔力药剂",
+                "base": "普通基底：2秒回复185魔力；每次10充能／容量75",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。"
+            ],
+            "source_index": 11
+          }
+        ]
+      },
+      "charms": {
+        "phase": "e02",
+        "slot": "charms",
+        "records": [
+          {
+            "en": "Thawing Charm",
+            "zh": "融冰咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "融冰咒符",
+              "kind": "charm",
+              "effect": "冻结时自动使用；效果期间免疫冻结",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 40,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 12,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "冻结时自动使用；效果期间免疫冻结。",
+              "普通基底每次消耗40充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 12
+          },
+          {
+            "en": "Silver Charm",
+            "zh": "真银咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "真银咒符",
+              "kind": "charm",
+              "effect": "受到减速时自动使用；效果期间速度不受减速影响",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 20,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 10,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "受到减速时自动使用；效果期间速度不受减速影响。",
+              "普通基底每次消耗20充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 13
+          },
+          {
+            "en": "Dousing Charm",
+            "zh": "浸润咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "浸润咒符",
+              "kind": "charm",
+              "effect": "被点燃时自动使用；效果期间免疫点燃",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 30,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 32,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "被点燃时自动使用；效果期间免疫点燃。",
+              "普通基底每次消耗30充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 14
+          }
+        ]
+      },
+      "jewels": {
+        "phase": "e02",
+        "slot": "jewels",
+        "records": [],
+        "explanation": "普通珠宝没有像弓伤害或衣服闪避那样统一的白底面板。主要看适用词缀及孔位成本；原件没有珠宝实装，不能编出一组基础伤害/护盾。"
+      }
+    },
+    "e03": {
+      "quiver": {
+        "phase": "e03",
+        "slot": "quiver",
+        "records": [
+          {
+            "en": "Volant Quiver",
+            "zh": "飞矢箭袋",
+            "source": "https://poe2db.tw/cn/Quivers",
+            "base": {
+              "zh": "飞矢箭袋",
+              "kind": "implicit",
+              "implicit": "箭矢速度提高20–30%",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "level": 61,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "箭矢速度提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "箭袋不套用武器物理品质公式",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "箭矢速度不是攻击速度。底材固有速度20–30%与原件“投射物速度提高42%”是两条来源；作用到同一箭矢且按普通提高相加时为62–72%，不是把1.42再乘1.20–1.30。本表不把箭袋点伤重复加入弓物品顶部。"
+            ],
+            "source_index": 1
+          }
+        ]
+      },
+      "helmet": {
+        "phase": "e03",
+        "slot": "helmet",
+        "records": [
+          {
+            "en": "Ancestral Tiara",
+            "zh": "先祖冠冕",
+            "source": "https://poe2db.tw/cn/Helmets",
+            "base": {
+              "zh": "先祖冠冕",
+              "kind": "armour",
+              "defence": {
+                "护盾": 109
+              },
+              "url": "https://poe2db.tw/cn/Helmets",
+              "level": 80,
+              "req": [
+                0,
+                0,
+                115
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品护盾",
+                "base": "109",
+                "q0": "约301",
+                "q20": "约362",
+                "values": [
+                  301.44,
+                  361.728
+                ],
+                "formula": "（109＋48）×（1＋92%）＝301.44；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 2,
+            "warning": "重要：只按导出的＋48护盾、提高92%计算，20品质也只有约362护盾，未达到作者转混合防御时约450的建议。原件不是完整实装证明；还需补齐更强词缀或其他已核实来源，不把未导出的属性补猜进来。"
+          }
+        ]
+      },
+      "body": {
+        "phase": "e03",
+        "slot": "body",
+        "records": [
+          {
+            "en": "Corsair Coat",
+            "zh": "海盗外套",
+            "source": "https://poe2db.tw/cn/Body_Armours",
+            "base": {
+              "zh": "海盗外套",
+              "kind": "armour",
+              "defence": {
+                "闪避": 451
+              },
+              "implicit": "移动速度提高5%；衣服另有基础移动速度惩罚−3%",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "level": 80,
+              "req": [
+                0,
+                121,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "451",
+                "q0": "约1882",
+                "q20": "约2258",
+                "values": [
+                  1881.6,
+                  2257.9199999999996
+                ],
+                "formula": "（451＋333）×（1＋140%）＝1881.6；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "底材固定属性：移动速度提高5%；衣服另有基础移动速度惩罚−3%。不要遗漏原有移动速度惩罚。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 3
+          }
+        ]
+      },
+      "gloves": {
+        "phase": "e03",
+        "slot": "gloves",
+        "records": [
+          {
+            "en": "Grand Bracers",
+            "zh": "宏伟护腕",
+            "source": "https://poe2db.tw/cn/Gloves",
+            "base": {
+              "zh": "宏伟护腕",
+              "kind": "armour",
+              "defence": {
+                "闪避": 155
+              },
+              "url": "https://poe2db.tw/cn/Gloves",
+              "level": 70,
+              "req": [
+                0,
+                87,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "155",
+                "q0": "约155",
+                "q20": "约186",
+                "values": [
+                  155.0,
+                  186.0
+                ],
+                "formula": "（155＋0）×（1＋0%）＝155；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 4
+          }
+        ]
+      },
+      "boots": {
+        "phase": "e03",
+        "slot": "boots",
+        "records": [
+          {
+            "en": "Bladed Shoes",
+            "zh": "嵌刃便鞋",
+            "source": "https://poe2db.tw/cn/Boots",
+            "base": {
+              "zh": "嵌刃便鞋",
+              "kind": "armour",
+              "defence": {
+                "闪避": 122,
+                "护盾": 37
+              },
+              "url": "https://poe2db.tw/cn/Boots",
+              "level": 65,
+              "req": [
+                0,
+                47,
+                47
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "122",
+                "q0": "约234",
+                "q20": "约281",
+                "values": [
+                  234.23999999999998,
+                  281.08799999999997
+                ],
+                "formula": "（122＋0）×（1＋92%）＝234.24；20品质再×1.20"
+              },
+              {
+                "label": "物品护盾",
+                "base": "37",
+                "q0": "约71",
+                "q20": "约85",
+                "values": [
+                  71.03999999999999,
+                  85.24799999999999
+                ],
+                "formula": "（37＋0）×（1＋92%）＝71.04；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有移动速度提高35%：不是鞋子裸底自带；20品质不会自动把它提高到42%。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 5
+          }
+        ]
+      },
+      "amulet": {
+        "phase": "e03",
+        "slot": "amulet",
+        "records": [
+          {
+            "en": "Stellar Amulet",
+            "zh": "星辉项链",
+            "source": "https://poe2db.tw/cn/Stellar_Amulet",
+            "base": {
+              "zh": "星辉项链",
+              "kind": "implicit",
+              "implicit": "力量、敏捷、智慧各＋5–7",
+              "url": "https://poe2db.tw/cn/Stellar_Amulet",
+              "level": 24,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "力量、敏捷、智慧各＋5–7",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "“全属性＋5–7”是力量、敏捷、智慧每项各增加5–7；精魂和投射物等级来自随机词条，不是星辉底材自带。"
+            ],
+            "source_index": 6
+          }
+        ]
+      },
+      "belt": {
+        "phase": "e03",
+        "slot": "belt",
+        "records": [
+          {
+            "en": "Rawhide Belt",
+            "zh": "生皮腰带",
+            "source": "https://poe2db.tw/cn/Rawhide_Belt",
+            "base": {
+              "zh": "生皮腰带",
+              "kind": "implicit",
+              "implicit": "药剂的生命回复提高20–30%",
+              "url": "https://poe2db.tw/cn/Rawhide_Belt",
+              "level": 1,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "药剂的生命回复提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "20–30%是药剂生命回复，不是＋20–30最大生命。原件＋150最大生命、＋31力量仍然是另外的词条。"
+            ],
+            "source_index": 7
+          }
+        ]
+      },
+      "ring1": {
+        "phase": "e03",
+        "slot": "ring1",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 8
+          }
+        ]
+      },
+      "ring2": {
+        "phase": "e03",
+        "slot": "ring2",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 9
+          }
+        ]
+      },
+      "flasks": {
+        "phase": "e03",
+        "slot": "flasks",
+        "records": [
+          {
+            "en": "Ultimate Life Flask",
+            "zh": "终极生命药剂",
+            "source": "https://poe2db.tw/cn/Life_Flasks",
+            "base": {
+              "zh": "终极生命药剂",
+              "kind": "flask",
+              "resource": "生命",
+              "amount": 920,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Life_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "920生命／3秒",
+                "q0": "约920生命",
+                "q20": "约1104生命",
+                "values": [
+                  920.0,
+                  1104.0
+                ],
+                "formula": "920×（1＋0%）＝920；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "28%立即生效是这瓶回复量的一部分，不是人物最大生命的28%；剩余部分不是再次额外增加。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 10
+          },
+          {
+            "en": "Lavianga's Spirits",
+            "zh": "拉维安加之灵",
+            "source": "https://poe2db.tw/cn/Mana_Flasks",
+            "base": {
+              "zh": "拉维安加之灵",
+              "kind": "unique",
+              "base": "恢弘魔力药剂",
+              "implicit": "普通基底：2秒回复185魔力；每次10充能／容量75",
+              "url": "https://poe2db.tw/cn/Mana_Flasks",
+              "special": "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：恢弘魔力药剂",
+                "base": "普通基底：2秒回复185魔力；每次10充能／容量75",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。"
+            ],
+            "source_index": 11
+          }
+        ]
+      },
+      "charms": {
+        "phase": "e03",
+        "slot": "charms",
+        "records": [
+          {
+            "en": "Nascent Hope",
+            "zh": "新生希望",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "新生希望",
+              "kind": "unique",
+              "base": "融冰咒符",
+              "implicit": "基础3秒；每次40充能／容量40；冻结时自动触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "原件未给暗金实装词条值；不是可用普通加工做出的咒符。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：融冰咒符",
+                "base": "基础3秒；每次40充能／容量40；冻结时自动触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "原件未给暗金实装词条值；不是可用普通加工做出的咒符。"
+            ],
+            "source_index": 12
+          },
+          {
+            "en": "The Fall of the Axe",
+            "zh": "落刃时刻",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "落刃时刻",
+              "kind": "unique",
+              "base": "真银咒符",
+              "implicit": "基础3秒；每次20充能／容量40；受到减速时触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "猛攻是暗金附加效果，不是所有真银咒符都有。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：真银咒符",
+                "base": "基础3秒；每次20充能／容量40；受到减速时触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "猛攻是暗金附加效果，不是所有真银咒符都有。"
+            ],
+            "source_index": 13
+          },
+          {
+            "en": "Dousing Charm",
+            "zh": "浸润咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "浸润咒符",
+              "kind": "charm",
+              "effect": "被点燃时自动使用；效果期间免疫点燃",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 30,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 32,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "被点燃时自动使用；效果期间免疫点燃。",
+              "普通基底每次消耗30充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 14
+          }
+        ]
+      },
+      "jewels": {
+        "phase": "e03",
+        "slot": "jewels",
+        "records": [],
+        "explanation": "普通珠宝没有像弓伤害或衣服闪避那样统一的白底面板。主要看适用词缀及孔位成本；原件没有珠宝实装，不能编出一组基础伤害/护盾。"
+      }
+    },
+    "e04": {
+      "quiver": {
+        "phase": "e04",
+        "slot": "quiver",
+        "records": [
+          {
+            "en": "Cadiro's Gambit",
+            "zh": "卡迪罗的赌局",
+            "source": "https://poe2db.tw/cn/Cadiros_Gambit",
+            "base": {
+              "zh": "卡迪罗的赌局",
+              "kind": "unique",
+              "base": "精工箭袋",
+              "implicit": "攻击速度提高7–10%",
+              "url": "https://poe2db.tw/cn/Cadiros_Gambit",
+              "special": "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：精工箭袋",
+                "base": "攻击速度提高7–10%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。"
+            ],
+            "source_index": 1
+          }
+        ]
+      },
+      "helmet": {
+        "phase": "e04",
+        "slot": "helmet",
+        "records": [
+          {
+            "en": "Ancestral Tiara",
+            "zh": "先祖冠冕",
+            "source": "https://poe2db.tw/cn/Helmets",
+            "base": {
+              "zh": "先祖冠冕",
+              "kind": "armour",
+              "defence": {
+                "护盾": 109
+              },
+              "url": "https://poe2db.tw/cn/Helmets",
+              "level": 80,
+              "req": [
+                0,
+                0,
+                115
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品护盾",
+                "base": "109",
+                "q0": "约301",
+                "q20": "约362",
+                "values": [
+                  301.44,
+                  361.728
+                ],
+                "formula": "（109＋48）×（1＋92%）＝301.44；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 2,
+            "warning": "重要：只按导出的＋48护盾、提高92%计算，20品质也只有约362护盾，未达到作者转混合防御时约450的建议。原件不是完整实装证明；还需补齐更强词缀或其他已核实来源，不把未导出的属性补猜进来。"
+          }
+        ]
+      },
+      "body": {
+        "phase": "e04",
+        "slot": "body",
+        "records": [
+          {
+            "en": "Corsair Coat",
+            "zh": "海盗外套",
+            "source": "https://poe2db.tw/cn/Body_Armours",
+            "base": {
+              "zh": "海盗外套",
+              "kind": "armour",
+              "defence": {
+                "闪避": 451
+              },
+              "implicit": "移动速度提高5%；衣服另有基础移动速度惩罚−3%",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "level": 80,
+              "req": [
+                0,
+                121,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "451",
+                "q0": "约1882",
+                "q20": "约2258",
+                "values": [
+                  1881.6,
+                  2257.9199999999996
+                ],
+                "formula": "（451＋333）×（1＋140%）＝1881.6；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "底材固定属性：移动速度提高5%；衣服另有基础移动速度惩罚−3%。不要遗漏原有移动速度惩罚。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 3
+          }
+        ]
+      },
+      "gloves": {
+        "phase": "e04",
+        "slot": "gloves",
+        "records": [
+          {
+            "en": "Grand Bracers",
+            "zh": "宏伟护腕",
+            "source": "https://poe2db.tw/cn/Gloves",
+            "base": {
+              "zh": "宏伟护腕",
+              "kind": "armour",
+              "defence": {
+                "闪避": 155
+              },
+              "url": "https://poe2db.tw/cn/Gloves",
+              "level": 70,
+              "req": [
+                0,
+                87,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "155",
+                "q0": "约155",
+                "q20": "约186",
+                "values": [
+                  155.0,
+                  186.0
+                ],
+                "formula": "（155＋0）×（1＋0%）＝155；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 4
+          }
+        ]
+      },
+      "boots": {
+        "phase": "e04",
+        "slot": "boots",
+        "records": [
+          {
+            "en": "Bladed Shoes",
+            "zh": "嵌刃便鞋",
+            "source": "https://poe2db.tw/cn/Boots",
+            "base": {
+              "zh": "嵌刃便鞋",
+              "kind": "armour",
+              "defence": {
+                "闪避": 122,
+                "护盾": 37
+              },
+              "url": "https://poe2db.tw/cn/Boots",
+              "level": 65,
+              "req": [
+                0,
+                47,
+                47
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "122",
+                "q0": "约234",
+                "q20": "约281",
+                "values": [
+                  234.23999999999998,
+                  281.08799999999997
+                ],
+                "formula": "（122＋0）×（1＋92%）＝234.24；20品质再×1.20"
+              },
+              {
+                "label": "物品护盾",
+                "base": "37",
+                "q0": "约71",
+                "q20": "约85",
+                "values": [
+                  71.03999999999999,
+                  85.24799999999999
+                ],
+                "formula": "（37＋0）×（1＋92%）＝71.04；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有移动速度提高35%：不是鞋子裸底自带；20品质不会自动把它提高到42%。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 5
+          }
+        ]
+      },
+      "amulet": {
+        "phase": "e04",
+        "slot": "amulet",
+        "records": [
+          {
+            "en": "Stellar Amulet",
+            "zh": "星辉项链",
+            "source": "https://poe2db.tw/cn/Stellar_Amulet",
+            "base": {
+              "zh": "星辉项链",
+              "kind": "implicit",
+              "implicit": "力量、敏捷、智慧各＋5–7",
+              "url": "https://poe2db.tw/cn/Stellar_Amulet",
+              "level": 24,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "力量、敏捷、智慧各＋5–7",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "“全属性＋5–7”是力量、敏捷、智慧每项各增加5–7；精魂和投射物等级来自随机词条，不是星辉底材自带。"
+            ],
+            "source_index": 6
+          }
+        ]
+      },
+      "belt": {
+        "phase": "e04",
+        "slot": "belt",
+        "records": [
+          {
+            "en": "Rawhide Belt",
+            "zh": "生皮腰带",
+            "source": "https://poe2db.tw/cn/Rawhide_Belt",
+            "base": {
+              "zh": "生皮腰带",
+              "kind": "implicit",
+              "implicit": "药剂的生命回复提高20–30%",
+              "url": "https://poe2db.tw/cn/Rawhide_Belt",
+              "level": 1,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "药剂的生命回复提高20–30%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "20–30%是药剂生命回复，不是＋20–30最大生命。原件＋150最大生命、＋31力量仍然是另外的词条。"
+            ],
+            "source_index": 7
+          }
+        ]
+      },
+      "ring1": {
+        "phase": "e04",
+        "slot": "ring1",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 8
+          }
+        ]
+      },
+      "ring2": {
+        "phase": "e04",
+        "slot": "ring2",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 9
+          }
+        ]
+      },
+      "flasks": {
+        "phase": "e04",
+        "slot": "flasks",
+        "records": [
+          {
+            "en": "Ultimate Life Flask",
+            "zh": "终极生命药剂",
+            "source": "https://poe2db.tw/cn/Life_Flasks",
+            "base": {
+              "zh": "终极生命药剂",
+              "kind": "flask",
+              "resource": "生命",
+              "amount": 920,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Life_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "920生命／3秒",
+                "q0": "约920生命",
+                "q20": "约1104生命",
+                "values": [
+                  920.0,
+                  1104.0
+                ],
+                "formula": "920×（1＋0%）＝920；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "28%立即生效是这瓶回复量的一部分，不是人物最大生命的28%；剩余部分不是再次额外增加。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 10
+          },
+          {
+            "en": "Lavianga's Spirits",
+            "zh": "拉维安加之灵",
+            "source": "https://poe2db.tw/cn/Mana_Flasks",
+            "base": {
+              "zh": "拉维安加之灵",
+              "kind": "unique",
+              "base": "恢弘魔力药剂",
+              "implicit": "普通基底：2秒回复185魔力；每次10充能／容量75",
+              "url": "https://poe2db.tw/cn/Mana_Flasks",
+              "special": "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：恢弘魔力药剂",
+                "base": "普通基底：2秒回复185魔力；每次10充能／容量75",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。"
+            ],
+            "source_index": 11
+          }
+        ]
+      },
+      "charms": {
+        "phase": "e04",
+        "slot": "charms",
+        "records": [
+          {
+            "en": "Nascent Hope",
+            "zh": "新生希望",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "新生希望",
+              "kind": "unique",
+              "base": "融冰咒符",
+              "implicit": "基础3秒；每次40充能／容量40；冻结时自动触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "原件未给暗金实装词条值；不是可用普通加工做出的咒符。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：融冰咒符",
+                "base": "基础3秒；每次40充能／容量40；冻结时自动触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "原件未给暗金实装词条值；不是可用普通加工做出的咒符。"
+            ],
+            "source_index": 12
+          },
+          {
+            "en": "The Fall of the Axe",
+            "zh": "落刃时刻",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "落刃时刻",
+              "kind": "unique",
+              "base": "真银咒符",
+              "implicit": "基础3秒；每次20充能／容量40；受到减速时触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "猛攻是暗金附加效果，不是所有真银咒符都有。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：真银咒符",
+                "base": "基础3秒；每次20充能／容量40；受到减速时触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "猛攻是暗金附加效果，不是所有真银咒符都有。"
+            ],
+            "source_index": 13
+          },
+          {
+            "en": "Dousing Charm",
+            "zh": "浸润咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "浸润咒符",
+              "kind": "charm",
+              "effect": "被点燃时自动使用；效果期间免疫点燃",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 30,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 32,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋0%）＝3秒"
+              }
+            ],
+            "notes": [
+              "被点燃时自动使用；效果期间免疫点燃。",
+              "普通基底每次消耗30充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 14
+          }
+        ]
+      },
+      "jewels": {
+        "phase": "e04",
+        "slot": "jewels",
+        "records": [],
+        "explanation": "普通珠宝没有像弓伤害或衣服闪避那样统一的白底面板。主要看适用词缀及孔位成本；原件没有珠宝实装，不能编出一组基础伤害/护盾。"
+      }
+    },
+    "e05": {
+      "quiver": {
+        "phase": "e05",
+        "slot": "quiver",
+        "records": [
+          {
+            "en": "Cadiro's Gambit",
+            "zh": "卡迪罗的赌局",
+            "source": "https://poe2db.tw/cn/Cadiros_Gambit",
+            "base": {
+              "zh": "卡迪罗的赌局",
+              "kind": "unique",
+              "base": "精工箭袋",
+              "implicit": "攻击速度提高7–10%",
+              "url": "https://poe2db.tw/cn/Cadiros_Gambit",
+              "special": "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：精工箭袋",
+                "base": "攻击速度提高7–10%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。"
+            ],
+            "source_index": 1
+          }
+        ]
+      },
+      "helmet": {
+        "phase": "e05",
+        "slot": "helmet",
+        "records": [
+          {
+            "en": "Ancestral Tiara",
+            "zh": "先祖冠冕",
+            "source": "https://poe2db.tw/cn/Helmets",
+            "base": {
+              "zh": "先祖冠冕",
+              "kind": "armour",
+              "defence": {
+                "护盾": 109
+              },
+              "url": "https://poe2db.tw/cn/Helmets",
+              "level": 80,
+              "req": [
+                0,
+                0,
+                115
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品护盾",
+                "base": "109",
+                "q0": "约301",
+                "q20": "约362",
+                "values": [
+                  301.44,
+                  361.728
+                ],
+                "formula": "（109＋48）×（1＋92%）＝301.44；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 2,
+            "warning": "重要：只按导出的＋48护盾、提高92%计算，20品质也只有约362护盾，未达到作者转混合防御时约450的建议。原件不是完整实装证明；还需补齐更强词缀或其他已核实来源，不把未导出的属性补猜进来。"
+          }
+        ]
+      },
+      "body": {
+        "phase": "e05",
+        "slot": "body",
+        "records": [
+          {
+            "en": "Corsair Coat",
+            "zh": "海盗外套",
+            "source": "https://poe2db.tw/cn/Body_Armours",
+            "base": {
+              "zh": "海盗外套",
+              "kind": "armour",
+              "defence": {
+                "闪避": 451
+              },
+              "implicit": "移动速度提高5%；衣服另有基础移动速度惩罚−3%",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "level": 80,
+              "req": [
+                0,
+                121,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "451",
+                "q0": "约1882",
+                "q20": "约2258",
+                "values": [
+                  1881.6,
+                  2257.9199999999996
+                ],
+                "formula": "（451＋333）×（1＋140%）＝1881.6；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "底材固定属性：移动速度提高5%；衣服另有基础移动速度惩罚−3%。不要遗漏原有移动速度惩罚。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 3
+          }
+        ]
+      },
+      "gloves": {
+        "phase": "e05",
+        "slot": "gloves",
+        "records": [
+          {
+            "en": "Grand Bracers",
+            "zh": "宏伟护腕",
+            "source": "https://poe2db.tw/cn/Gloves",
+            "base": {
+              "zh": "宏伟护腕",
+              "kind": "armour",
+              "defence": {
+                "闪避": 155
+              },
+              "url": "https://poe2db.tw/cn/Gloves",
+              "level": 70,
+              "req": [
+                0,
+                87,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "155",
+                "q0": "约155",
+                "q20": "约186",
+                "values": [
+                  155.0,
+                  186.0
+                ],
+                "formula": "（155＋0）×（1＋0%）＝155；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有生命＋120：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 4
+          }
+        ]
+      },
+      "boots": {
+        "phase": "e05",
+        "slot": "boots",
+        "records": [
+          {
+            "en": "Bladed Shoes",
+            "zh": "嵌刃便鞋",
+            "source": "https://poe2db.tw/cn/Boots",
+            "base": {
+              "zh": "嵌刃便鞋",
+              "kind": "armour",
+              "defence": {
+                "闪避": 122,
+                "护盾": 37
+              },
+              "url": "https://poe2db.tw/cn/Boots",
+              "level": 65,
+              "req": [
+                0,
+                47,
+                47
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "122",
+                "q0": "约234",
+                "q20": "约281",
+                "values": [
+                  234.23999999999998,
+                  281.08799999999997
+                ],
+                "formula": "（122＋0）×（1＋92%）＝234.24；20品质再×1.20"
+              },
+              {
+                "label": "物品护盾",
+                "base": "37",
+                "q0": "约71",
+                "q20": "约85",
+                "values": [
+                  71.03999999999999,
+                  85.24799999999999
+                ],
+                "formula": "（37＋0）×（1＋92%）＝71.04；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "原件另有移动速度提高35%：不是鞋子裸底自带；20品质不会自动把它提高到42%。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 5
+          }
+        ]
+      },
+      "amulet": {
+        "phase": "e05",
+        "slot": "amulet",
+        "records": [
+          {
+            "en": "Stellar Amulet",
+            "zh": "星辉项链",
+            "source": "https://poe2db.tw/cn/Stellar_Amulet",
+            "base": {
+              "zh": "星辉项链",
+              "kind": "implicit",
+              "implicit": "力量、敏捷、智慧各＋5–7",
+              "url": "https://poe2db.tw/cn/Stellar_Amulet",
+              "level": 24,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "力量、敏捷、智慧各＋5–7",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "“全属性＋5–7”是力量、敏捷、智慧每项各增加5–7；精魂和投射物等级来自随机词条，不是星辉底材自带。"
+            ],
+            "source_index": 6
+          }
+        ]
+      },
+      "belt": {
+        "phase": "e05",
+        "slot": "belt",
+        "records": [
+          {
+            "en": "Headhunter",
+            "zh": "猎首",
+            "source": "https://poe2db.tw/cn/Headhunter",
+            "base": {
+              "zh": "猎首",
+              "kind": "unique",
+              "base": "重革腰带",
+              "implicit": "晕眩阈值提高20–30%",
+              "url": "https://poe2db.tw/cn/Headhunter",
+              "special": "生命、力量、敏捷及偷取稀有怪词缀属于暗金词条，不是底材自带。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：重革腰带",
+                "base": "晕眩阈值提高20–30%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "生命、力量、敏捷及偷取稀有怪词缀属于暗金词条，不是底材自带。"
+            ],
+            "source_index": 7
+          }
+        ]
+      },
+      "ring1": {
+        "phase": "e05",
+        "slot": "ring1",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 8
+          }
+        ]
+      },
+      "ring2": {
+        "phase": "e05",
+        "slot": "ring2",
+        "records": [
+          {
+            "en": "Prismatic Ring",
+            "zh": "三相戒指",
+            "source": "https://poe2db.tw/cn/Prismatic_Ring",
+            "base": {
+              "zh": "三相戒指",
+              "kind": "implicit",
+              "implicit": "火、冰、电抗性各＋7–10%",
+              "url": "https://poe2db.tw/cn/Prismatic_Ring",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "火、冰、电抗性各＋7–10%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "全元素抗性分别加到火、冰、电，不包含混沌；原件没有列出的额外抗性不补造。戒指上的物理／冰霜攻击点伤不是弓物品本地伤害。"
+            ],
+            "source_index": 9
+          }
+        ]
+      },
+      "flasks": {
+        "phase": "e05",
+        "slot": "flasks",
+        "records": [
+          {
+            "en": "Ultimate Life Flask",
+            "zh": "终极生命药剂",
+            "source": "https://poe2db.tw/cn/Life_Flasks",
+            "base": {
+              "zh": "终极生命药剂",
+              "kind": "flask",
+              "resource": "生命",
+              "amount": 920,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Life_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "920生命／3秒",
+                "q0": "约920生命",
+                "q20": "约1104生命",
+                "values": [
+                  920.0,
+                  1104.0
+                ],
+                "formula": "920×（1＋0%）＝920；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "28%立即生效是这瓶回复量的一部分，不是人物最大生命的28%；剩余部分不是再次额外增加。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 10
+          },
+          {
+            "en": "Lavianga's Spirits",
+            "zh": "拉维安加之灵",
+            "source": "https://poe2db.tw/cn/Mana_Flasks",
+            "base": {
+              "zh": "拉维安加之灵",
+              "kind": "unique",
+              "base": "恢弘魔力药剂",
+              "implicit": "普通基底：2秒回复185魔力；每次10充能／容量75",
+              "url": "https://poe2db.tw/cn/Mana_Flasks",
+              "special": "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：恢弘魔力药剂",
+                "base": "普通基底：2秒回复185魔力；每次10充能／容量75",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。"
+            ],
+            "source_index": 11
+          }
+        ]
+      },
+      "charms": {
+        "phase": "e05",
+        "slot": "charms",
+        "records": [
+          {
+            "en": "Nascent Hope",
+            "zh": "新生希望",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "新生希望",
+              "kind": "unique",
+              "base": "融冰咒符",
+              "implicit": "基础3秒；每次40充能／容量40；冻结时自动触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "原件未给暗金实装词条值；不是可用普通加工做出的咒符。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：融冰咒符",
+                "base": "基础3秒；每次40充能／容量40；冻结时自动触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "原件未给暗金实装词条值；不是可用普通加工做出的咒符。"
+            ],
+            "source_index": 12
+          },
+          {
+            "en": "The Fall of the Axe",
+            "zh": "落刃时刻",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "落刃时刻",
+              "kind": "unique",
+              "base": "真银咒符",
+              "implicit": "基础3秒；每次20充能／容量40；受到减速时触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "猛攻是暗金附加效果，不是所有真银咒符都有。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：真银咒符",
+                "base": "基础3秒；每次20充能／容量40；受到减速时触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "猛攻是暗金附加效果，不是所有真银咒符都有。"
+            ],
+            "source_index": 13
+          },
+          {
+            "en": "Rite of Passage",
+            "zh": "仪式通道",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "仪式通道",
+              "kind": "unique",
+              "base": "黄金咒符",
+              "implicit": "普通基底：1秒；每次80充能／容量80；物品稀有度提高15%",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "普通黄金咒符的1秒与暗金灵体附身的持续时间不是同一个效果；原件没有实际暗金掷值，不按普通数值冒充成品。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：黄金咒符",
+                "base": "普通基底：1秒；每次80充能／容量80；物品稀有度提高15%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "普通黄金咒符的1秒与暗金灵体附身的持续时间不是同一个效果；原件没有实际暗金掷值，不按普通数值冒充成品。"
+            ],
+            "source_index": 14
+          }
+        ]
+      },
+      "jewels": {
+        "phase": "e05",
+        "slot": "jewels",
+        "records": [],
+        "explanation": "普通珠宝没有像弓伤害或衣服闪避那样统一的白底面板。主要看适用词缀及孔位成本；原件没有珠宝实装，不能编出一组基础伤害/护盾。"
+      }
+    },
+    "e06": {
+      "quiver": {
+        "phase": "e06",
+        "slot": "quiver",
+        "records": [
+          {
+            "en": "Cadiro's Gambit",
+            "zh": "卡迪罗的赌局",
+            "source": "https://poe2db.tw/cn/Cadiros_Gambit",
+            "base": {
+              "zh": "卡迪罗的赌局",
+              "kind": "unique",
+              "base": "精工箭袋",
+              "implicit": "攻击速度提高7–10%",
+              "url": "https://poe2db.tw/cn/Cadiros_Gambit",
+              "special": "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：精工箭袋",
+                "base": "攻击速度提高7–10%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "特殊箭效果来自暗金词条；普通精工箭袋不会自动拥有。"
+            ],
+            "source_index": 2
+          }
+        ]
+      },
+      "helmet": {
+        "phase": "e06",
+        "slot": "helmet",
+        "records": [
+          {
+            "en": "Ancestral Tiara",
+            "zh": "先祖冠冕",
+            "source": "https://poe2db.tw/cn/Helmets",
+            "base": {
+              "zh": "先祖冠冕",
+              "kind": "armour",
+              "defence": {
+                "护盾": 109
+              },
+              "url": "https://poe2db.tw/cn/Helmets",
+              "level": 80,
+              "req": [
+                0,
+                0,
+                115
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品护盾",
+                "base": "109",
+                "q0": "约432",
+                "q20": "约518",
+                "values": [
+                  432.0,
+                  518.4
+                ],
+                "formula": "（109＋71）×（1＋140%）＝432；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "原件另有生命＋42：这是生命加成，不是基础防御，不随护甲品质乘1.20。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 3
+          }
+        ]
+      },
+      "body": {
+        "phase": "e06",
+        "slot": "body",
+        "records": [
+          {
+            "en": "Slipstrike Vest",
+            "zh": "滑击背心",
+            "source": "https://poe2db.tw/cn/Body_Armours",
+            "base": {
+              "zh": "滑击背心",
+              "kind": "armour",
+              "defence": {
+                "闪避": 519
+              },
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "level": 70,
+              "req": [
+                0,
+                121,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "519",
+                "q0": "约1299",
+                "q20": "约1559",
+                "values": [
+                  1298.88,
+                  1558.6560000000002
+                ],
+                "formula": "（519＋465）×（1＋32%）＝1298.88；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "偏转是原件另外列出的词条；本表只复算物品基础防御，不把角色闪避／偏转、风舞者或天赋算进来。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 4
+          }
+        ]
+      },
+      "gloves": {
+        "phase": "e06",
+        "slot": "gloves",
+        "records": [
+          {
+            "en": "Runeforged Secured Wraps",
+            "zh": "符文坚固裹手",
+            "source": "https://poe2db.tw/cn/Runeforged_Secured_Wraps",
+            "base": {
+              "zh": "符文坚固裹手",
+              "kind": "armour",
+              "defence": {
+                "闪避": 34,
+                "护盾": 10,
+                "符文结界": 138
+              },
+              "url": "https://poe2db.tw/cn/Runeforged_Secured_Wraps",
+              "level": 80,
+              "req": [
+                0,
+                55,
+                55
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "34",
+                "q0": "约34",
+                "q20": "约41",
+                "values": [
+                  34.0,
+                  40.8
+                ],
+                "formula": "（34＋0）×（1＋0%）＝34；20品质再×1.20"
+              },
+              {
+                "label": "物品护盾",
+                "base": "10",
+                "q0": "约10",
+                "q20": "约12",
+                "values": [
+                  10.0,
+                  12.0
+                ],
+                "formula": "（10＋0）×（1＋0%）＝10；20品质再×1.20"
+              },
+              {
+                "label": "物品符文结界",
+                "base": "138",
+                "q0": "约138",
+                "q20": "约166",
+                "values": [
+                  138.0,
+                  165.6
+                ],
+                "formula": "（138＋0）×（1＋0%）＝138；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 5
+          }
+        ]
+      },
+      "boots": {
+        "phase": "e06",
+        "slot": "boots",
+        "records": [
+          {
+            "en": "Daggerfoot Shoes",
+            "zh": "捷足便鞋",
+            "source": "https://poe2db.tw/cn/Boots",
+            "base": {
+              "zh": "捷足便鞋",
+              "kind": "armour",
+              "defence": {
+                "闪避": 140,
+                "护盾": 43
+              },
+              "url": "https://poe2db.tw/cn/Boots",
+              "level": 80,
+              "req": [
+                0,
+                59,
+                59
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "物品闪避",
+                "base": "140",
+                "q0": "约269",
+                "q20": "约323",
+                "values": [
+                  268.8,
+                  322.56
+                ],
+                "formula": "（140＋0）×（1＋92%）＝268.8；20品质再×1.20"
+              },
+              {
+                "label": "物品护盾",
+                "base": "43",
+                "q0": "约83",
+                "q20": "约99",
+                "values": [
+                  82.56,
+                  99.072
+                ],
+                "formula": "（43＋0）×（1＋92%）＝82.56；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "原件另有移动速度提高35%：不是鞋子裸底自带；20品质不会自动把它提高到42%。",
+              "只按已导出的词条计算。未显示防御词缀时按“本情景没有额外加成”演算，不证明作者实装真的没有；普通版和符文版不能混用基础值。"
+            ],
+            "source_index": 6
+          }
+        ]
+      },
+      "amulet": {
+        "phase": "e06",
+        "slot": "amulet",
+        "records": [
+          {
+            "en": "Gold Amulet",
+            "zh": "帝金项链",
+            "source": "https://poe2db.tw/cn/Gold_Amulet",
+            "base": {
+              "zh": "帝金项链",
+              "kind": "implicit",
+              "implicit": "物品稀有度提高12–20%",
+              "url": "https://poe2db.tw/cn/Gold_Amulet",
+              "level": 35,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "物品稀有度提高12–20%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。"
+            ],
+            "source_index": 7
+          }
+        ]
+      },
+      "belt": {
+        "phase": "e06",
+        "slot": "belt",
+        "records": [
+          {
+            "en": "Headhunter",
+            "zh": "猎首",
+            "source": "https://poe2db.tw/cn/Headhunter",
+            "base": {
+              "zh": "猎首",
+              "kind": "unique",
+              "base": "重革腰带",
+              "implicit": "晕眩阈值提高20–30%",
+              "url": "https://poe2db.tw/cn/Headhunter",
+              "special": "生命、力量、敏捷及偷取稀有怪词缀属于暗金词条，不是底材自带。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：重革腰带",
+                "base": "晕眩阈值提高20–30%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "生命、力量、敏捷及偷取稀有怪词缀属于暗金词条，不是底材自带。"
+            ],
+            "source_index": 8
+          }
+        ]
+      },
+      "ring1": {
+        "phase": "e06",
+        "slot": "ring1",
+        "records": [
+          {
+            "en": "Gold Ring",
+            "zh": "金光戒指",
+            "source": "https://poe2db.tw/cn/Gold_Ring",
+            "base": {
+              "zh": "金光戒指",
+              "kind": "implicit",
+              "implicit": "物品稀有度提高6–15%",
+              "url": "https://poe2db.tw/cn/Gold_Ring",
+              "level": 40,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "物品稀有度提高6–15%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。"
+            ],
+            "source_index": 9
+          }
+        ]
+      },
+      "ring2": {
+        "phase": "e06",
+        "slot": "ring2",
+        "records": [
+          {
+            "en": "Gold Ring",
+            "zh": "金光戒指",
+            "source": "https://poe2db.tw/cn/Gold_Ring",
+            "base": {
+              "zh": "金光戒指",
+              "kind": "implicit",
+              "implicit": "物品稀有度提高6–15%",
+              "url": "https://poe2db.tw/cn/Gold_Ring",
+              "level": 40,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材固定属性",
+                "base": "物品稀有度提高6–15%",
+                "q0": "保留该固有属性＋原件随机词条",
+                "q20": "首饰按催化类型另算；不统一×1.20",
+                "formula": "固定属性与随机词条分别读，不把同一行加成重复加入。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。"
+            ],
+            "source_index": 10
+          }
+        ]
+      },
+      "flasks": {
+        "phase": "e06",
+        "slot": "flasks",
+        "records": [
+          {
+            "en": "Ultimate Life Flask",
+            "zh": "终极生命药剂",
+            "source": "https://poe2db.tw/cn/Life_Flasks",
+            "base": {
+              "zh": "终极生命药剂",
+              "kind": "flask",
+              "resource": "生命",
+              "amount": 920,
+              "duration": 3,
+              "capacity": 75,
+              "cost": 10,
+              "url": "https://poe2db.tw/cn/Life_Flasks",
+              "level": 60,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "每次基础回复量",
+                "base": "920生命／3秒",
+                "q0": "约920生命",
+                "q20": "约1104生命",
+                "values": [
+                  920.0,
+                  1104.0
+                ],
+                "formula": "920×（1＋0%）＝920；20品质再×1.20"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "普通基底每次使用消耗10充能，容量75；不是75次使用。",
+              "24%立即生效是这瓶回复量的一部分，不是人物最大生命的24%；剩余部分不是再次额外增加。",
+              "仅药剂本身演算；腰带、天赋、回复速度、实际充能词条及已满生命/魔力等另算，不能据此保证持续供蓝。原文未明确的“increased Charges”不猜容量或获取。"
+            ],
+            "source_index": 11
+          },
+          {
+            "en": "Lavianga's Spirits",
+            "zh": "拉维安加之灵",
+            "source": "https://poe2db.tw/cn/Mana_Flasks",
+            "base": {
+              "zh": "拉维安加之灵",
+              "kind": "unique",
+              "base": "恢弘魔力药剂",
+              "implicit": "普通基底：2秒回复185魔力；每次10充能／容量75",
+              "url": "https://poe2db.tw/cn/Mana_Flasks",
+              "special": "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：恢弘魔力药剂",
+                "base": "普通基底：2秒回复185魔力；每次10充能／容量75",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "暗金改变使用与回复规则，不能把普通基底的回复量当成暗金实际回复。"
+            ],
+            "source_index": 12
+          }
+        ]
+      },
+      "charms": {
+        "phase": "e06",
+        "slot": "charms",
+        "records": [
+          {
+            "en": "Nascent Hope",
+            "zh": "新生希望",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "新生希望",
+              "kind": "unique",
+              "base": "融冰咒符",
+              "implicit": "基础3秒；每次40充能／容量40；冻结时自动触发",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "原件未给暗金实装词条值；不是可用普通加工做出的咒符。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：融冰咒符",
+                "base": "基础3秒；每次40充能／容量40；冻结时自动触发",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "原件未给暗金实装词条值；不是可用普通加工做出的咒符。"
+            ],
+            "source_index": 13
+          },
+          {
+            "en": "Dousing Charm",
+            "zh": "浸润咒符",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "浸润咒符",
+              "kind": "charm",
+              "effect": "被点燃时自动使用；效果期间免疫点燃",
+              "duration": 3,
+              "capacity": 40,
+              "cost": 30,
+              "url": "https://poe2db.tw/cn/Charms",
+              "level": 32,
+              "req": [
+                0,
+                0,
+                0
+              ],
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "持续时间",
+                "base": "3秒",
+                "q0": "3.78秒",
+                "q20": "受品质延长；其他持续时间词条按实际面板核对",
+                "formula": "0品质：3×（1＋26%）＝3.78秒"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "被点燃时自动使用；效果期间免疫点燃。",
+              "普通基底每次消耗30充能，容量40；“充能获取提高55%”不是容量自动×1.55，也不是持续时间提高55%。"
+            ],
+            "source_index": 14
+          },
+          {
+            "en": "Rite of Passage",
+            "zh": "仪式通道",
+            "source": "https://poe2db.tw/cn/Charms",
+            "base": {
+              "zh": "仪式通道",
+              "kind": "unique",
+              "base": "黄金咒符",
+              "implicit": "普通基底：1秒；每次80充能／容量80；物品稀有度提高15%",
+              "url": "https://poe2db.tw/cn/Charms",
+              "special": "普通黄金咒符的1秒与暗金灵体附身的持续时间不是同一个效果；原件没有实际暗金掷值，不按普通数值冒充成品。",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "底材：黄金咒符",
+                "base": "普通基底：1秒；每次80充能／容量80；物品稀有度提高15%",
+                "q0": "暗金独有词条另算；原件未给实际掷值",
+                "q20": "不按普通黄装词缀复算暗金",
+                "formula": "暗金的名称不等于原件已保存全部实装值。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。",
+              "普通黄金咒符的1秒与暗金灵体附身的持续时间不是同一个效果；原件没有实际暗金掷值，不按普通数值冒充成品。"
+            ],
+            "source_index": 15
+          }
+        ]
+      },
+      "jewels": {
+        "phase": "e06",
+        "slot": "jewels",
+        "records": [],
+        "explanation": "普通珠宝没有像弓伤害或衣服闪避那样统一的白底面板。主要看适用词缀及孔位成本；原件没有珠宝实装，不能编出一组基础伤害/护盾。"
+      },
+      "weapon2": {
+        "phase": "e06",
+        "slot": "weapon2",
+        "records": [
+          {
+            "en": "Hysseg's Claw",
+            "zh": "西赛格之爪",
+            "source": "https://poe2db.tw/cn/Hyssegs_Claw",
+            "base": {
+              "zh": "西赛格之爪",
+              "kind": "unknown",
+              "implicit": "仅06原件出现；本次未复核该特殊武器基础数值",
+              "url": "https://poe2db.tw/cn/Hyssegs_Claw",
+              "checked_at": "2026-09-27",
+              "source_scope": "国际服游戏数据的简体展示；国服客户端未逐项实测"
+            },
+            "rows": [
+              {
+                "label": "特殊装备",
+                "base": "仅06原件出现；本次未复核该特殊武器基础数值",
+                "q0": "无法确认，不补造",
+                "q20": "无法确认，不补造",
+                "formula": "保留原件和对应来源入口。"
+              }
+            ],
+            "notes": [
+              "06为升华字段冲突快照；以下仅说明物品数字，不是可照抄或可执行的制作建议。"
+            ],
+            "source_index": 1
+          }
+        ]
+      }
+    }
+  },
+  "scope": "补充所有非弓部位的基础/固定属性与有依据的已导出词条复算；珠宝实装、特殊未知装备不造数。",
+  "formula": "（基础防御＋本地平铺防御）×（1＋本地提高%）×（1＋品质%）；不用于所有饰品词条。",
+  "unverified": [
+    "国服客户端逐项基础值与实际导入",
+    "原件未保存的全部品质、符文、实际隐式掷值",
+    "06冲突快照可用性",
+    "Hysseg's Claw基础数值"
+  ]
+}

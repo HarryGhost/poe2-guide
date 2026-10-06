@@ -1,0 +1,2222 @@
+{
+  "generated_at": "2026-10-05T10:25:33.768434+00:00",
+  "hash": "SHA-256",
+  "scope": "All delivery files except manifest.json itself; work/ scratch is outside capture root.",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7493,
+      "sha256": "649cad5642f2a179ad0961e042f157ba93147736466a3596c9c9c4bb137cbdf7"
+    },
+    {
+      "path": "atlas.json",
+      "size": 708401,
+      "sha256": "24a526502b70ec2b2b5cbf2f85d4c988b1be438b24ca26c874b0df0a1a67ae81"
+    },
+    {
+      "path": "builds.json",
+      "size": 1456719,
+      "sha256": "ae861f292abb9fe632e8a7e9ceb3fde4621e8a9835767275daed5a097f252758"
+    },
+    {
+      "path": "evidence/acquisition-log.json",
+      "size": 2754,
+      "sha256": "befaf0e35a1a0930c6983339f2689b416c425a714c518e836e89f9c4967bc64b"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Atlas Tree-full-state.json",
+      "size": 19225,
+      "sha256": "2b7bab886a52a86ef728945463abc5fdd2c15953198cea03806c104895bb321c"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Atlas Tree-full.jpg",
+      "size": 55858,
+      "sha256": "3d7ea61f76cf97a5db79f7c2eee728b358f03d8734f6b368a08e901a5a05cfd1"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Atlas Tree-state.json",
+      "size": 19876,
+      "sha256": "1bdb6481a6f387afdb0ab3326504db2850d90de829f18ce891c38db7c6b68235"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Doryani-state.jpg",
+      "size": 61026,
+      "sha256": "2383dbecb7815b540ca64ed77b35d497ac5388d0f308aaebd8530fa5c4434bcc"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Doryani-state.json",
+      "size": 15509,
+      "sha256": "777c68f3d382154e9e008f94b43a75d5d7b1bb99b57a0917ed867bbc2d10fa0e"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Hilda-state.jpg",
+      "size": 56855,
+      "sha256": "5c7f44dd399352eb4726ed8cd97f144fa842bba9c81ee23ab964a0719c0d615a"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Hilda-state.json",
+      "size": 15355,
+      "sha256": "57e3648cdadd269cce5815cdc3ff5605237ce5eab0f3a384b8e24a1f9e93d6b9"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Jado-state.jpg",
+      "size": 65580,
+      "sha256": "a27949be5a83b8a478a183ed8d8dafd9a455883c0e1e7299c5d8a42e7adca315"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/Master-Jado-state.json",
+      "size": 15318,
+      "sha256": "d400b406b780e256118f4035634aa60fbfc45b185750b20dce0ed451455e0b62"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/branch-selected.jpg",
+      "size": 108528,
+      "sha256": "b806838fc44a9ee49372d75e6223c864cfa516322573b6e3d3ca30d43f011c6a"
+    },
+    {
+      "path": "evidence/atlas/Abyss Rares/branch-state.json",
+      "size": 2994,
+      "sha256": "ae3278439304d061b11f2c0f8e0b26eacfc28d0cd43b52093f8e5b0f784f0bc3"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Atlas Tree-full-state.json",
+      "size": 12673,
+      "sha256": "802d5857dc5cab0fdbb519d9accabb053cffba73c4267bc93a6d3b333ee9c6aa"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Atlas Tree-full.jpg",
+      "size": 50064,
+      "sha256": "fadd8da2ca717aa69a3d281ae579b4e640a348de251736b329665dc05f50af3d"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Atlas Tree-state.json",
+      "size": 11030,
+      "sha256": "29a4703343862286bfae0310702f035b9eaf5933dd9530c61a3783d4bb64e3aa"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Master-Jado-state.jpg",
+      "size": 63973,
+      "sha256": "ef5ab7ee671aabec3069938099f8cd58b1902dabc925aef2db1b5be0d9327fd4"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/Master-Jado-state.json",
+      "size": 15319,
+      "sha256": "6a864220d00aba50112731741731869640c6482890beec32a980456459fec532"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/branch-selected.jpg",
+      "size": 103641,
+      "sha256": "c7d0ec7ff346f712789d8600b9a00df15f3efc0faf7f00171ea32c51e17aa84a"
+    },
+    {
+      "path": "evidence/atlas/Breach Rares/branch-state.json",
+      "size": 1558,
+      "sha256": "20800490708ee754dc36499828c34a4707dc069fbf0074df344e2ccbba1d6ada"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Atlas Tree-full-state.json",
+      "size": 12669,
+      "sha256": "26981181275a6860a3fab2d43e9f9f5ed372cd67db70781f25aaf66b3c691600"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Atlas Tree-full.jpg",
+      "size": 50059,
+      "sha256": "97498544630eaf3d854055b4fdc0613f4e459197eb3110cc3699fa45b6b678a8"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Atlas Tree-state.json",
+      "size": 11020,
+      "sha256": "359c3057b2303aa40714f8e95bff5a621ac506ed81fc0afd13bd8128d18df17c"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Master-Jado-state.jpg",
+      "size": 61851,
+      "sha256": "2c3007a1538c3b64a759f668cda3c99ca108286689c4a143c2c1bc3f85b96ace"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/Master-Jado-state.json",
+      "size": 15321,
+      "sha256": "bfcc78367b088ac8229873a79796458ed8af88fcefdf5adba418e8ff32ec66dc"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/branch-selected.jpg",
+      "size": 92527,
+      "sha256": "415d2fe91735608f9c306dc654e1ead65f3acc4934c95447eac38df457b4219e"
+    },
+    {
+      "path": "evidence/atlas/Currency Abyss/branch-state.json",
+      "size": 1102,
+      "sha256": "419ef5d7ae82b4ca3e64e376b9d002b6d39da0db6059a6489785e7e7fe269be5"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Atlas Tree-full-state.json",
+      "size": 12672,
+      "sha256": "7435af35b4abed11c005b75385b81628466400160c0695c59f315ad5ae7fbac1"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Atlas Tree-full.jpg",
+      "size": 50044,
+      "sha256": "0eed47be5405b386a3c4507c026dd998a16c672c9ba4ba4b8431a83541516227"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Atlas Tree-state.json",
+      "size": 11031,
+      "sha256": "75c50478a686c487acd590114a197df69b7bc2632992195904acc5fc39183941"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Master-Jado-state.jpg",
+      "size": 64661,
+      "sha256": "8a69c644913c9b4cb61e612be9cda0811f494c97f8736b49c9bb48600c58e3eb"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/Master-Jado-state.json",
+      "size": 15316,
+      "sha256": "2640f10b3a1ac3c56982acbf6e45d16c53802960a522ac944cc92aa37dbbd2bf"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/branch-selected.jpg",
+      "size": 109689,
+      "sha256": "29764469bc9cf83dd58c622c73f6126747cb73fdc003cc9615c329631b08c2b8"
+    },
+    {
+      "path": "evidence/atlas/Deli Rush/branch-state.json",
+      "size": 1416,
+      "sha256": "37a39864bc452ce28ce43bc2c5779944ff4d623b7df674ac8df7ebf021eabc6d"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Atlas Tree-full-state.json",
+      "size": 15614,
+      "sha256": "9c644091a2fdee0de5cfc9f6e472cf916ea91095d1ad9619b2654ba760b27fa6"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Atlas Tree-full.jpg",
+      "size": 53449,
+      "sha256": "dc33e3ef26c2bc46fb274c30456caeeb497b70b75fd682dc1c0e6c0154848c0c"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Atlas Tree-state.json",
+      "size": 15133,
+      "sha256": "f59986e655f5cd5e134b2e58e09503895d767b56485af1667ffb0fc5256c7c96"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Doryani-state.jpg",
+      "size": 56339,
+      "sha256": "5786302f5fbdefe0a984de20b0626ac4e18b7ffe934ae8fd92cdb00210053a7b"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Doryani-state.json",
+      "size": 15484,
+      "sha256": "a23c7a6110db64deccb30b5c32181d77ceac7eaa7f9eaae1ce11255d5a463686"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Jado-state.jpg",
+      "size": 64251,
+      "sha256": "3ffd43001e7948559db068d51237a23991c4195fb26add52c567259a188f53b6"
+    },
+    {
+      "path": "evidence/atlas/Expedition/Master-Jado-state.json",
+      "size": 15293,
+      "sha256": "4302966816193c9e6b2c1a31a0b839904c857fcb751f8222b9a8f8e6184775d7"
+    },
+    {
+      "path": "evidence/atlas/Expedition/branch-selected.jpg",
+      "size": 107664,
+      "sha256": "b9bb41839513f63f717bafb8473ba41e013c26faca3d4922693786ed7c8228de"
+    },
+    {
+      "path": "evidence/atlas/Expedition/branch-state.json",
+      "size": 3415,
+      "sha256": "21b59eafed93750452e31c932a282d10e14dad0ab479378327e764ac3c8a5d99"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Atlas Tree-full-state.json",
+      "size": 13121,
+      "sha256": "ed31ee0bd32ef0d96c64ba7f5d6291977a70e10da354650b93dd20151d4a48f6"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Atlas Tree-full.jpg",
+      "size": 43886,
+      "sha256": "3a555b5fb9546d54f920eb2a884abd68bb3e016300308678140210705d887f33"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Atlas Tree-state.json",
+      "size": 11252,
+      "sha256": "067e83084d3570c800456e02890c7ef86e591d7af62e5609f7efcdedb633c31f"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Master-Jado-state.jpg",
+      "size": 60937,
+      "sha256": "e41d282cb9ed030781794402478d72fd559d0954f91be3282d64150ac84943bc"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/Master-Jado-state.json",
+      "size": 15308,
+      "sha256": "1dfd98de27002c82954a6426a1d319387fc520f6663eecc86fb7ca34fba9a63c"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/branch-selected.jpg",
+      "size": 107427,
+      "sha256": "91d2c914cc49203622a6e2a84381d83f9f3d25b527234eb409031a3bd7e52c43"
+    },
+    {
+      "path": "evidence/atlas/Lineage Gems/branch-state.json",
+      "size": 1155,
+      "sha256": "b42f3c936f2edd781b21d98e17a77aacb18077a4ee3a8712f17bded998738c88"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Atlas Tree-full-state.json",
+      "size": 12673,
+      "sha256": "bcec72138be0118a3e57dbc8791eb81fb1b4a8964da5aa401ed1acd19f9eb40d"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Atlas Tree-full.jpg",
+      "size": 48460,
+      "sha256": "a0c0438d2a1f1c34356f1546dbee559e191c523fbcbe8907dab7ca0a391a0d85"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Atlas Tree-state.json",
+      "size": 11026,
+      "sha256": "09980206e6f42de2322e03abb793615ea645c4be292fd997041b9d69093592f1"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Master-Jado-state.jpg",
+      "size": 68044,
+      "sha256": "4597dc8da9e8c37d798193c05c2e866194d569f41b5aef705280211b8f4324d7"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/Master-Jado-state.json",
+      "size": 15319,
+      "sha256": "f3d16a964f2cd3d669a8a44be83fa721a79136ffd73aab17e20777731e9cf6aa"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/branch-selected.jpg",
+      "size": 111313,
+      "sha256": "1d6d99d96e0471cd8d03a458f8c2da42b4db150b0ac1819031b8ebabc311d22f"
+    },
+    {
+      "path": "evidence/atlas/Ritual Belts/branch-state.json",
+      "size": 1701,
+      "sha256": "23e50ff982fa446081fb443a3dd237b170f4fe030e4b29e93c8c9e73a88290f2"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-01.jpg",
+      "size": 61342,
+      "sha256": "46b7f37ce5578ea2d1e395d1b768daac57934d12b076c7dbc96b2a1cb64bc77f"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-01.json",
+      "size": 1536,
+      "sha256": "f9b72a37174690ef3087c323f98282e860295c702cfa2db51696299d73346d52"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-02.jpg",
+      "size": 63038,
+      "sha256": "9451fbdfca79292037e16f8582c5693a7c7c91c3fb22c1865f609ae88e361df1"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-02.json",
+      "size": 1484,
+      "sha256": "e637194016ea65f55ff02c4fe11425affdf64728eec0bbca02d027df51fc7391"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-03.jpg",
+      "size": 68647,
+      "sha256": "8b24845d8c6e81020b1845f625eb2db50a50035cdb2ba7711a2ec958bb7f63de"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-03.json",
+      "size": 2096,
+      "sha256": "032f5a02f8fb2c0e16513f7ef74689ef0437ebae3043da80b615094b48ea16b2"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-04.jpg",
+      "size": 66110,
+      "sha256": "254b02e98291b3a3c8fc1185d8c8441fcdc3a9702592c939a376973321d25b71"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-04.json",
+      "size": 1676,
+      "sha256": "0e3ba27486c53ba0e75cb2c53cd6a16ac20d5207ba94d7ff67bb0f46f2a3d83f"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-05.jpg",
+      "size": 63173,
+      "sha256": "0e0b57b859a722b2c0b3e05b6583361751a0d7b785720c4b2267b39714564ad2"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-05.json",
+      "size": 1500,
+      "sha256": "a80087aa144f2714b40ec1ce46dc309af6c400aad2ece5eb849e5c0546ff7fa3"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-06.jpg",
+      "size": 70275,
+      "sha256": "cb60b29176f08be6484b5697a56e9edb379282796b2f6dfaddcd3f8b3db26d52"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-06.json",
+      "size": 1584,
+      "sha256": "9f1eeb51afacc26f0f5d3151fbfa5422008fc2660683d9a7a8db87f4f0c09b01"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-07.jpg",
+      "size": 67141,
+      "sha256": "8c8d18a2fdce5b037844814a76579e177abace92342e89f716ab190ac2ca255f"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-07.json",
+      "size": 1514,
+      "sha256": "9f6bb28a0cf5d15d5d5e4a4738db60bad079cdf1d3ed6e70c465bbba8eddf73b"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-08.jpg",
+      "size": 72013,
+      "sha256": "6d2111134f7d6ef7fb79f46548aaa06fd4a25cb0c2d7d03cab33138c2faae6d7"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-08.json",
+      "size": 1963,
+      "sha256": "a3c78be3e591eb5951d59ecbef52efab0fe103417f6f3125be00e6db74b8c506"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-09.jpg",
+      "size": 64300,
+      "sha256": "ba2ce735e7f626ae9d40e399b7111087cf57d0a0dcf7feaa154cce27bd379141"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-09.json",
+      "size": 1556,
+      "sha256": "408415ed213c666b318b72d05e6f0e618e6b0fe78422393749a30a8d3362593f"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-10.jpg",
+      "size": 65633,
+      "sha256": "e28cea79e2f21c2b2d4517ae313a794bbd76b06251600641fc0aac4ab8f57cec"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-10.json",
+      "size": 1560,
+      "sha256": "33f2df2804a899a1838b7fff31a154b89beb6d92732a6446bd872916d824e593"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-11.jpg",
+      "size": 67399,
+      "sha256": "d4d9e0ac81e964508c9b0d126904a7e7efd3869f6900de031865c6a682816fa9"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-11.json",
+      "size": 1708,
+      "sha256": "e9bcb5ca1f78ef80d29e978226727bd8fc7feb176129d2b87dac09cd7dadcb3b"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-12.jpg",
+      "size": 65546,
+      "sha256": "6ff6d6bf62e8067f4794c29480ef945e26c591703b74d88e55e2a165903b6b8b"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Doryani-12.json",
+      "size": 1916,
+      "sha256": "ea3c11aac375e90029f851b8ac6f23ca196a5fb313112926155535285ace1ab4"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-01.jpg",
+      "size": 64957,
+      "sha256": "6bfc6a0a9c0859573d7ffd2156f5989331183c23c1869b36cc4166e83f2b404a"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-01.json",
+      "size": 1674,
+      "sha256": "911414e50fdb524465d256be02fe7dfed523774b44a56497846c232ceabda17d"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-02.jpg",
+      "size": 62506,
+      "sha256": "83929ca16ebc0c9fe51c85a6d70313ac06d887bc2beb93c9e839b67a96dbcad0"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-02.json",
+      "size": 1549,
+      "sha256": "23d04e59b9e6b6e5f84ecd861f7af907a747ccef3c51d3556733989e9c160651"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-03.jpg",
+      "size": 68239,
+      "sha256": "c4ec048a5823ad6f6a5e24024a877be58f471c3158f8ed01f3e41faf1fcdab54"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-03.json",
+      "size": 1690,
+      "sha256": "efb948b798e119a6199bcab2884b5bc05e4f76156ca52412272c535d284dd067"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-04.jpg",
+      "size": 67958,
+      "sha256": "c230ab7b681e5680db58be85a5e7cf315fa27cdb062ae32ea0a3be4f57a0407f"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-04.json",
+      "size": 1565,
+      "sha256": "2227ba90a672a4abec096faa2529e496d1e484059a4be14f37abf66f086e894b"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-05.jpg",
+      "size": 63328,
+      "sha256": "0d30785902ee5b15fc279acb339b64aebe6e0db748065654db26b107a4caed16"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-05.json",
+      "size": 1589,
+      "sha256": "b3cd817e3a34c511d0188f47d0ad6ac2a04231f019bc292dc77489a82aa989d5"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-06.jpg",
+      "size": 66697,
+      "sha256": "c56c6deaf0ddd7f140d8cea4673ddec3727c53b3081204c7261e6a9c664da1a1"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-06.json",
+      "size": 1585,
+      "sha256": "5a8dcf1d5e9bd58b0a3195245fa037f712aba9d91073fe810cae910098037875"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-07.jpg",
+      "size": 66218,
+      "sha256": "18d0325433471eb01098fd758ae4724926ed2b148069b21346434bbcd51557aa"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-07.json",
+      "size": 1579,
+      "sha256": "89c08591854397b9169ddae93379d6b9831be922ae2f0fa3210c3ecf5ba7d1c5"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-08.jpg",
+      "size": 69510,
+      "sha256": "6a6b1964948c8fac6ebf0eabf6b9c894a239a66f30bf5243a6bc1391cba134f5"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-08.json",
+      "size": 1669,
+      "sha256": "0ec350c183a44de6ba8a931fb32358f5fa5e5d5e1ed3f74fdbc15ba2500e9285"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-09.jpg",
+      "size": 70863,
+      "sha256": "20358d2d1496ecc4dc67dc597450545d23ae7b69ec20b161734fffc7d35893a1"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-09.json",
+      "size": 1573,
+      "sha256": "c7f6049911d1395ac1166d2e7a915f5535ad719e81be0b3785df343e69e55fec"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-10.jpg",
+      "size": 69600,
+      "sha256": "957731d6d4f3b6788621abe27e1b274dca78f6b27d61927da393c9249b65e497"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-10.json",
+      "size": 1824,
+      "sha256": "8ad71bb18277684bbd7e3cad8b8271d10308a929092dc0f85dae9819d5f5ae1c"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-11.jpg",
+      "size": 68099,
+      "sha256": "e8990ee471c6354350a5f84816637f550d5bb05ae02730d1e891282c206067d5"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-11.json",
+      "size": 1860,
+      "sha256": "bc90a2c8f190bf7f54e7c787fe653faa51bcff780807316d84970db4ed64c8c7"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-12.jpg",
+      "size": 69610,
+      "sha256": "4abd2428f426d2b351c1f63f1bdfbeeb375b29294f936712fc61b2f8d16b3f74"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Hilda-12.json",
+      "size": 1739,
+      "sha256": "6b68794c26d6922998ab51c98f19621a394b6aa36df31639c8ba651a8cc760d2"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-01.jpg",
+      "size": 64413,
+      "sha256": "6292f4ffd96fe4682aa4e88c2c14a7bd34d391cbd36e80d42eb0a6d60b67bf5f"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-01.json",
+      "size": 1677,
+      "sha256": "33e8a161dfb97bb457132f1d754c9498e58711ac1d7e97efbbd20ea5a1645f86"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-02.jpg",
+      "size": 62282,
+      "sha256": "3451662e8c6e686c8b01f73820aca407b024fa5cb87eed34b65b98657880d6b3"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-02.json",
+      "size": 1526,
+      "sha256": "76cf2dd40f276f4ad5cae04c7a152f0c81b9127b8cc05ce8cf060ad545d7b61b"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-03.jpg",
+      "size": 65934,
+      "sha256": "ac8865e23c1fe8b9fdfd9665f420766973f662ee505ef8989f277e11a9224a4c"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-03.json",
+      "size": 1689,
+      "sha256": "32df2f57d1dd40b4d942001cc5d3375e8c2bc3b6043e1c80938137d691962f56"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-04.jpg",
+      "size": 65788,
+      "sha256": "7057bbdc06d36f79bdecd21cd78ed475146b723a02d6081e0281a9d7121b2c03"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-04.json",
+      "size": 1470,
+      "sha256": "8688dccb69a5e40212bdfe76de75800cee561f9b9f53163d03b105fb3a9054ac"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-05.jpg",
+      "size": 64047,
+      "sha256": "53c3fab282faa71e828fba3c75e05564193449a90a64a7e0efeddf74f9be1470"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-05.json",
+      "size": 1697,
+      "sha256": "a465c1e4f1e6374ba62ea7f310ee32285044c97951e586651a62554324cda754"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-06.jpg",
+      "size": 65067,
+      "sha256": "04e3b96ce518c31ac5f8076f1b382830e67656bb2944a8cfbaaed98a5523ed33"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-06.json",
+      "size": 1568,
+      "sha256": "f18f8b34d510d736bd1b3244b6e8afc30869656829ced4b7f264ed5791c3fa4c"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-07.jpg",
+      "size": 65372,
+      "sha256": "3eec58ae99c39ae341342879ca0e6872250bc193d761dfb0e6868a294e9f2051"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-07.json",
+      "size": 1612,
+      "sha256": "30f6b9670e258502f37f6725a9d750474ceaeab97cab115364ca355499e3e9f6"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-08.jpg",
+      "size": 64593,
+      "sha256": "5dfaea5f76162fbae8344a6ff628d0628eb33cbca8be98740cbecefc9ceefc02"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-08.json",
+      "size": 1554,
+      "sha256": "2ee73a29e9e109aec4b893413e1a776e27b4c81e1a83dacc8973623e6665e473"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-09.jpg",
+      "size": 62927,
+      "sha256": "b34a671e819446b3713fd89deec1e4a5a498a57373d7f8ff956104ed5ac1d2e0"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-09.json",
+      "size": 1458,
+      "sha256": "1f7c58b45e479b565a9b6a0b16a1508934b19d3a178fff2210853bcaafd940e1"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-10.jpg",
+      "size": 62703,
+      "sha256": "f14ea06c9164dfda92cfacf4c6abd3580a5cecc1658d9f5cb48d81c4845e5141"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-10.json",
+      "size": 1484,
+      "sha256": "48d4ec572c4553d0b4d816ced16c698f5e6f4bc43dc8f3fd0f23fccc8bdd4d22"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-11.jpg",
+      "size": 63481,
+      "sha256": "f0ee08c236ff280a1217683206dd3de6fbc34d04515ad3fdb7bbd01cd796d5c7"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-11.json",
+      "size": 1854,
+      "sha256": "18c42e37c955c7206ba6c448e211979e0526a84b8cb67eb67bc1220204dcfef9"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-12.jpg",
+      "size": 68446,
+      "sha256": "f43f1fb6a5866fa21111a96237b6d865ffced38aa033c9e88c62cc5cbb945a66"
+    },
+    {
+      "path": "evidence/atlas/master-candidates/Jado-12.json",
+      "size": 1586,
+      "sha256": "67dd508d493418fe12792b4151357cadff9b52115cbebb1fb5902540d16d1535"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree-full-state.json",
+      "size": 89296,
+      "sha256": "588b0fcd1d9a208dc029d262d87af829b10bcfbce83753b923f4e67e37b7a113"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree-full.jpg",
+      "size": 86865,
+      "sha256": "8ed9ca1f0e5fb393e2025fa89811b2d194eab3989c55a6ea09908a97c4d26554"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree-state.json",
+      "size": 50537,
+      "sha256": "fc317704fea0dc3a088a5fb01bc2ff54bf3c82a17be3f77191a1bb99e815842e"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Passive Tree.jpg",
+      "size": 87306,
+      "sha256": "d01d71fd2105dc3373537b5343c0869d31150181aa12cc0f602735839a104f42"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-icons.json",
+      "size": 2793,
+      "sha256": "f8da5027337065f0998ea69f773ef2e94fcdcc42c6b310055c892c9b1a114e5a"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-01.jpg",
+      "size": 63327,
+      "sha256": "613e2f20598529cad92c6424d2206bf0d5033c1f0640978712a713adcc056bb9"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-01.json",
+      "size": 7114,
+      "sha256": "714402ddb05b2c722d2dd559aa67c9ef5f8b20341040a335b949f0aa82fada2b"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-02.jpg",
+      "size": 64234,
+      "sha256": "1a97e4eb33c5fb80610a40130bf3201d012783fef222fd9155b8dc86b12340da"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-02.json",
+      "size": 5301,
+      "sha256": "c17d613d098b448d2ee4d1f59561e212ca18aa18466d4d1087b3342d6e320b30"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-03.jpg",
+      "size": 62141,
+      "sha256": "fd36b3dc58da6f7c31ea2f4d82eed63e008ee53758c151d5473239d93abc38ec"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-03.json",
+      "size": 4730,
+      "sha256": "3511875735c72f0178521855341d2cb396e312904781a72bdeb8e11c49788824"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-04.jpg",
+      "size": 57549,
+      "sha256": "ddc597882fef938c7635e66ab38b4da8159f673d44f5028a8ba4c50d87c11f04"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-04.json",
+      "size": 5997,
+      "sha256": "882c93a17748a27dbac2fa8ede7ea026dd1007b6aacbb514e52be8e121774e4c"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-05.jpg",
+      "size": 55079,
+      "sha256": "fdb2f339f710d8d14a90af58636e8d5108e4ac7850b0ae23ea8017d5da86ff67"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-05.json",
+      "size": 5213,
+      "sha256": "45bb14f50da803c092a46ffe9cec13915a43e3850b2c7b0235a880e5f2c0d668"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-06.jpg",
+      "size": 54520,
+      "sha256": "8871488c5eae4ba093fa64b74256f6a903f173b219cedacf3355cc5603f09ecb"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-06.json",
+      "size": 5301,
+      "sha256": "b074e0449e3505af2e4dfb93e32c4e8743190980b9ff6ff61cdb944897d1b709"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-07.jpg",
+      "size": 53715,
+      "sha256": "226bc38efc91625764bd150cc8724581231aeb677930f26610504abe77c4e681"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-07.json",
+      "size": 4258,
+      "sha256": "8d37dd98b898498cef04086b67f96dc0d8c843e0da91e8e66e62275178a47cf9"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-08.jpg",
+      "size": 58183,
+      "sha256": "b34aaa25e1d1d19164a0cc89359b0beccded0e1fbf65e4c8ff8ad6f8cba681d4"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-08.json",
+      "size": 5711,
+      "sha256": "b389045fec479f7921bef7459df5d809815acce80fc565f71d9f07eda2d6a903"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-09.jpg",
+      "size": 52507,
+      "sha256": "58793407b7b7fc03d6c67a3ac82e3929ac13816d326a923ccd379044b3b70bae"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-09.json",
+      "size": 4599,
+      "sha256": "240bcbff79d5d50c112c8a6b4df7a77b58c11d8057afa8404e7813710be94992"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-10.jpg",
+      "size": 65922,
+      "sha256": "b295a8efbe291ef3816952943e8b9ef40f699dae3cc30320c5224926b0e9725d"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-10.json",
+      "size": 5467,
+      "sha256": "40a55a14ca687219dba7a54c5ceed9a2d5d509a6606254746fa330b9ca3d94ad"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-11.jpg",
+      "size": 61001,
+      "sha256": "af1596d6b88fffc2c9a7dd8b5de2335efc7dcc7c3ebe3e2f1abdbf3f2fa22df8"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-11.json",
+      "size": 4026,
+      "sha256": "b5de84e29d197b4ec7c970d5a71f27f55681c6fdf2bc2ed048687ebd4ce50c3f"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-12.jpg",
+      "size": 55441,
+      "sha256": "d1b8d5e148d65bf258fc28074727bb8bc3e2913c084e065578d0d545fbc7fa5a"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-12.json",
+      "size": 4332,
+      "sha256": "e3d275f64a87b2d3ad707dcf079c156b92c7c2bb77406297d79d4d89795a4d5c"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-13.jpg",
+      "size": 55954,
+      "sha256": "8e9bb4788338d4fb4508e4480074b77f716db0621b76b1da81a4cfee4460d9db"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-13.json",
+      "size": 4178,
+      "sha256": "c72cb00009ab1f89e8459c6436d7f2a9316bb768f9331eec643168324b8c292f"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-14.jpg",
+      "size": 40780,
+      "sha256": "3bf56c76a90bd659e8a6102d78ec9828ed24bf798d957034462f3eae901ebb63"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-14.json",
+      "size": 4092,
+      "sha256": "1d1e97f7b802168d6a0e5f6c6fa275e3bb587fc854d6cf8dad73d65da059e52d"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-15.jpg",
+      "size": 60881,
+      "sha256": "d9caeefb556c42d8180b2190c9b6651b92eff332f6577a043a81d0d78e5dc1fc"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-15.json",
+      "size": 4354,
+      "sha256": "1567d24d26de67f1155bc4740aaa8853e977767c29cbbb774dd9df2c0100a610"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-16.jpg",
+      "size": 64894,
+      "sha256": "c2413dd7f5e4a1da78a5a37381215303b0a5bdc202dec933c36462584edb93fa"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-16.json",
+      "size": 3380,
+      "sha256": "3028f1d788e1f3fbd99a527c86a167bf2e8249a5e813c804f31e807dd91779f7"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-17.jpg",
+      "size": 64314,
+      "sha256": "fb501ff30e1dfd6ea8bb8c49fbe763b4c2b2479c84ebcf510c84da048be6fa6a"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 1-item-17.json",
+      "size": 3954,
+      "sha256": "09a891e6614ce9fd172db9fc893ab5f60f1dbad8d0900f4fd50e9c1a8e9a6284"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/Set 2-state.json",
+      "size": 2531,
+      "sha256": "3f838eb3e8a1fee8d485a80eda9a61c8ae809204bed778f73d48d720cec02f7b"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/branch-selected.jpg",
+      "size": 69395,
+      "sha256": "54fd98eed8d7e6ea24e169630b738d38bfa836fb1532763767313603dc1ab59c"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/branch-state.json",
+      "size": 8745,
+      "sha256": "389652576ff628858f93766eae3f2371823a5bb0d03bcf16b55dc54aca4b45d6"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/sections.json",
+      "size": 204362,
+      "sha256": "9526cf5878d2d1e55f920d805ec95beda62b0c4652f469919db3cfa8d91cc8ac"
+    },
+    {
+      "path": "evidence/builds/Crit Hybrid/socket-layout.json",
+      "size": 1151,
+      "sha256": "3814d0259bdb149c22f73c9387c6741da28bb543e58d1d6b053ae2ef7e8c92da"
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree-full-state.json",
+      "size": 73972,
+      "sha256": "3b77ad32f6520569ff75cb08549cd66b20265531da314451d7f85239576b6433"
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree-full.jpg",
+      "size": 84599,
+      "sha256": "55c912f0a5ff844d18ad85fae5996fad6c01967c395350679446b91a4c7e8313"
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree-state.json",
+      "size": 41763,
+      "sha256": "9799bd745a5d1505eb2ce84d90a12156afa27d32cbf14b64eb96ea84fe569ad0"
+    },
+    {
+      "path": "evidence/builds/Early/Passive Tree.jpg",
+      "size": 95277,
+      "sha256": "85e1c129f8aa7ff4e02bcda03cb13741d772bed73b6596570f87a0947ddb5894"
+    },
+    {
+      "path": "evidence/builds/Early/Rune-soulcore-runeenhancegreater.jpg",
+      "size": 64124,
+      "sha256": "7ec4770480cdfa9eeb120734bb4f79e331d587e8f45005f3f03749b7b76b4aac"
+    },
+    {
+      "path": "evidence/builds/Early/Rune-soulcore-runeenhancegreater.json",
+      "size": 2311,
+      "sha256": "efdc36f6fefc6f3286db58d624175c5bc79836c35a772ba50a25681619a3f0a9"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-icons.json",
+      "size": 2475,
+      "sha256": "55fa8d594a49729d5d9aaeeed37d0a57e05c9f08788b1f7c3ef116bb63f21b7a"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-01.jpg",
+      "size": 60463,
+      "sha256": "843ef979b91ecfedeb1eddb8d8bdd9d726116068b8cdb7ffc01c765055c8d83f"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-01.json",
+      "size": 6317,
+      "sha256": "a5ee1500e45911aa42b775af0405aac656025f45d09fc048e929cb66557935fc"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-02.jpg",
+      "size": 65113,
+      "sha256": "56b94238034e850db9e70c1308e97bc4190635052b3d222801fc9afd5aeb0291"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-02.json",
+      "size": 5235,
+      "sha256": "c41a9ab0a15a60e5f05745d3e6f7ba912b6bf8d5d32246eca57b3f732677cf83"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-03.jpg",
+      "size": 68082,
+      "sha256": "09ecf953bfbc1ecfdd4169ca97a919bd4353e686d8fc9be889831ea4795fdad4"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-03.json",
+      "size": 4645,
+      "sha256": "0191f76ec53c2aff1d963992b2378bf5a836c7d5053d37bca32784a0b4586f73"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-04.jpg",
+      "size": 65968,
+      "sha256": "431300d77aca79fa906d34612f296cfb677f1206db0a41dabebb2ae7307b4d19"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-04.json",
+      "size": 5931,
+      "sha256": "0510bf495fda064b8f2b718fd236e59aa5372b3b52d8aa97d775025e304dd66c"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-05.jpg",
+      "size": 57655,
+      "sha256": "06f27c3d9893412b8774f220b7e8dca605021059288d5fc76bf9e08e35bae1d5"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-05.json",
+      "size": 4887,
+      "sha256": "1e48fea359472857503b9573826f4e8012bf6234f7a3662d047eb4c9f09a1d0c"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-06.jpg",
+      "size": 57731,
+      "sha256": "42f14cd16a32293e839d2ebc9b2e4188b6a7a1b04e95d077a2cedd488b115e9b"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-06.json",
+      "size": 5235,
+      "sha256": "44869f37c87a323b2efb6d48fedee52e23fa99772d2530eb8d7942031e08a97d"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-07.jpg",
+      "size": 58742,
+      "sha256": "09e7e2c2576492fc6f5a443ec2887cdf14a0e7469f378ee9bc98ac9e21aa1cef"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-07.json",
+      "size": 6142,
+      "sha256": "4f2c73ddc1d6a1892ce661b63e1e77297b78169931113e63ef1ccafb2f6a60e4"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-08.jpg",
+      "size": 64264,
+      "sha256": "59c662a004aaecb589ede28341e95a1484514a55b392282a97ffb8c9c5ad951e"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-08.json",
+      "size": 5625,
+      "sha256": "7347b44442a0a42078c7c16a524fed7713630d6990a4456f61ed0103bd4ea0e7"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-09.jpg",
+      "size": 61919,
+      "sha256": "a2ce198be78252987f917f6c4891d345d9aa25df4bd21f24a08b1f7d33073870"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-09.json",
+      "size": 4533,
+      "sha256": "eaec9bdb270e6fd0ec279b422957485f923b595c33bd1abdb6ff22769cb0f4af"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-10.jpg",
+      "size": 73590,
+      "sha256": "78b30ddc40093236a7cc625b7fedf642215825fe00babfc2e39b4aa57d4eeb6a"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-10.json",
+      "size": 5140,
+      "sha256": "d0d9fb3d497f744e73734f75233fc6b5c2d97279c0ae260596bbb366a9f328c0"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-11.jpg",
+      "size": 70735,
+      "sha256": "2ffa84d31b3b3778ebe1cb8935e416734446c49ce0af151051773b7e3a355920"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-11.json",
+      "size": 3960,
+      "sha256": "e260fcd9ec3c1a54728fcdc06c40944d032374a5e2bee389105b20fcbef98e9a"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-12.jpg",
+      "size": 59718,
+      "sha256": "6214cff87dddcbe29ee755f5e669ae085633bc12c9e3392b008412f0a7f3e5eb"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-12.json",
+      "size": 4024,
+      "sha256": "68f2d53c632318c0d36f49a0f4f6ae55d93a33b7f82449c9e0a46f444a697540"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-13.jpg",
+      "size": 59045,
+      "sha256": "38d91f6ca5d47b9fea4ad190e57032e71330ad0c33a0edb18e206aad82c508ed"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-13.json",
+      "size": 4035,
+      "sha256": "249ef8264e4e4161b97c1e8d91e6c41e86c529924b3ee6bd809bddbce9c55a73"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-14.jpg",
+      "size": 60364,
+      "sha256": "4ec0ea9537bc51f86f4d95f59e68b766b6a48ff0f1764304e44333a862923ff7"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-14.json",
+      "size": 4026,
+      "sha256": "ca253db9255a6f7203aa3b09a992dee1fb40c51fadd7e69cab149909c57a2f76"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-15.jpg",
+      "size": 73093,
+      "sha256": "2990203443a5e5583a08d1e7d838d83f51665eae6ede3fd9d6480a164dbba9c4"
+    },
+    {
+      "path": "evidence/builds/Early/Set 1-item-15.json",
+      "size": 4407,
+      "sha256": "dd76d044bb65b01e432383009fd86eb61831c7515cea414e16895ab50d0b440c"
+    },
+    {
+      "path": "evidence/builds/Early/Set 2-state.json",
+      "size": 2230,
+      "sha256": "70864d89b9f621c0bc8fbb6b75595a408c31d9b8d4e14f1af7623cccad331a69"
+    },
+    {
+      "path": "evidence/builds/Early/branch-selected.jpg",
+      "size": 89158,
+      "sha256": "40d39bd387b7d14f322c4bcabd3dd125d437a65c7545a87c5eb9cf33ceb4f6ab"
+    },
+    {
+      "path": "evidence/builds/Early/branch-state.json",
+      "size": 7602,
+      "sha256": "a00494d6033f4953409d8530788c8a03b79a5928be185764a19a9455cd99419c"
+    },
+    {
+      "path": "evidence/builds/Early/sections.json",
+      "size": 178507,
+      "sha256": "8aa9b981b15cfbd6107ee39f738eb839943244fcce956b2457217c21daa4f1fa"
+    },
+    {
+      "path": "evidence/builds/Early/socket-layout.json",
+      "size": 900,
+      "sha256": "8702999121549d22cbbd3db1be5646f9ce0bd4f2d87f3632699ceccdf2a3d723"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree-full-state.json",
+      "size": 84040,
+      "sha256": "7430da825de3b56e91244d4e97a1dfef17f5ce322e03c178587bff32680d57c4"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree-full.jpg",
+      "size": 89786,
+      "sha256": "8d076b2ddd921efa876fde57893eb1d8628d50eb539a1a8a7553f386ae14f37b"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree-state.json",
+      "size": 46172,
+      "sha256": "daf4212f046df5d663328c44a6935e2ebcb94b8764452c937e46383704dc0612"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Passive Tree.jpg",
+      "size": 82563,
+      "sha256": "3d33ae64552fbf40709ceba149bb7e56926b350bd033506bc43d9ca3e1cb5080"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeenhanceperfect.jpg",
+      "size": 65279,
+      "sha256": "ef5dc5e0f4351f74eb4d5f8ea1994d2e5dec1e1db620a2215169aa593f5d9487"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeenhanceperfect.json",
+      "size": 2417,
+      "sha256": "22d5370d1a94dfa5e2dbc1f585835836ce54b7a257502e7773d5660b3bae7a4a"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeolrothslegacygreymake.jpg",
+      "size": 55055,
+      "sha256": "ae8b6ee71ec4837457cfba3ce867e22f611b7435dd0db4be74cf77786cd5e643"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runeolrothslegacygreymake.json",
+      "size": 1990,
+      "sha256": "a64badb8460a819b7f74d9cb2918ffd148a50f93f64985337681da1fb7914bfe"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runespecial9.jpg",
+      "size": 61407,
+      "sha256": "ba9beb330f219ef971b9b1c2f900f7afcaff9215cc685699c8834f65b01bc710"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runespecial9.json",
+      "size": 1986,
+      "sha256": "121bada362567d30c9764608c9dbf5b431592e01c94a32f63ddfb36b3b41418d"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingadditionalsuffix.jpg",
+      "size": 58389,
+      "sha256": "6b8785c6d779fe7c54baeb9b6018615327448aa6e705cce9c944b59a5233bff9"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingadditionalsuffix.json",
+      "size": 1975,
+      "sha256": "b327198a4dfecb8c0552b10644088c4b0a20c38d6fba6c05102f1018d38b126c"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingmarksmaninfluence.jpg",
+      "size": 65720,
+      "sha256": "597683b5a07b8949356a280c48331cbf883f2bd67878bbc5b4dc196cde202ede"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingmarksmaninfluence.json",
+      "size": 1973,
+      "sha256": "e23a36c965d66d173529471f506f7b534631b2991fdbf34aa605fc35ab68b88a"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingtimeinfluence.jpg",
+      "size": 58655,
+      "sha256": "6fac9da3e93362700cae3cea2626106043b6602a331e8c31d4d1161fae0d6df8"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-runewarpingtimeinfluence.json",
+      "size": 1991,
+      "sha256": "32e04d17e56c888765638be5b15d603914cd3efa72a008a39322234eb299ba12"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanrabbit.jpg",
+      "size": 65271,
+      "sha256": "09be8d72bbe8bf40d040165db94f6c9721c62abc81a812af3599471c5d1327ec"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanrabbit.json",
+      "size": 2176,
+      "sha256": "2083f033caca380c12d86369172fcf6238a2de096ba10145155bace619bf621c"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanspecial1.jpg",
+      "size": 65133,
+      "sha256": "bb2d5ee51c7932e697f34b59f52e00449c65ad5b8b964406aff5ec85d7219e6a"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-talismanspecial1.json",
+      "size": 2239,
+      "sha256": "ddd0236bf70d319ffc317814e2f7e34614ac6b559af6f109c538130de68a4a30"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-thesisofblood.jpg",
+      "size": 68391,
+      "sha256": "391914239984bf0e7aa13c8b0126102371d258fe0c5aeb7967689c4dd8c8183d"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Rune-soulcore-thesisofblood.json",
+      "size": 2733,
+      "sha256": "d4c48a142e632805ff69904f39880be8daa51cb763c0bc67c29c806681144182"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01-initial.jpg",
+      "size": 64421,
+      "sha256": "bdb2b39eb15429eb6703319c80c4101e427b6505ca15790d4e1d11feb936f49f"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01-initial.json",
+      "size": 4085,
+      "sha256": "3c0dd2f0326b09de96485ab9f1311588e5aed84176419e95ffa2b21aee4b72f7"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01.jpg",
+      "size": 57746,
+      "sha256": "6fcd62789cffbf17fb4869350b3cf4ead2b1b5c2279384b75760a0a53e11a18c"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-01.json",
+      "size": 4183,
+      "sha256": "4728f3790c731f22f2d0214c99031139aba2962d645b4547e4c566dce809c65a"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-02.jpg",
+      "size": 61120,
+      "sha256": "5d8bf2856c2b25e572a40d388baf102e30fd948f322ec1116059d03a3baa8ae3"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-02.json",
+      "size": 6815,
+      "sha256": "75ff50cf0e7c1928b994ceafb7839518d6a6e82262b0acd1b3471cdd6589bf3e"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-03.jpg",
+      "size": 64244,
+      "sha256": "ef02f58efd1fd6df6b505a0e7e2df181e07d9bb8ee6712a299af9a78c1e4be08"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-03.json",
+      "size": 6778,
+      "sha256": "1246d32f288ecec1a981d142979d80a678140d988c0f6ecab0512caab0021fd2"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-04.jpg",
+      "size": 61379,
+      "sha256": "b2dee7f3eefa25b981a62c7ff443f39b5f6c513cf101d654993a64a56feb15a4"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-04.json",
+      "size": 6613,
+      "sha256": "24acd44c1157d4c859adf9c55a3ba0bcabb3c0318ddb66631a0a5aa61557bd1d"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-05.jpg",
+      "size": 57905,
+      "sha256": "55df2d1659b118237e1d16378844dbef582233d2f581bf25e2f766161358f435"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-05.json",
+      "size": 6810,
+      "sha256": "d38c848a4c95599ca7bace9583d12358b2e066825fd850a2cfa6156cebc4287a"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-06.jpg",
+      "size": 59063,
+      "sha256": "eeba52df60380694a3e15f480132556d1fba32a9792c97d8d533573a83292757"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-06.json",
+      "size": 6855,
+      "sha256": "f538cbb6f82f52f9989bf0044462e5b76a6ad0a8cb6471ff7d639b1a1efff8ba"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-07.jpg",
+      "size": 50813,
+      "sha256": "1ee8f9140f63370c3dcb538624beb88aca57a52590f725b178d0bca93a975ae6"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-07.json",
+      "size": 4276,
+      "sha256": "711b905e954544c86ff6577c97c5285a1b028fd9401c71c6b2262fa52e181441"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-08.jpg",
+      "size": 65820,
+      "sha256": "c188a50be3f584318129ab23f37a365e35b6f140c0b541e8a0d91094ece59c93"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-08.json",
+      "size": 6931,
+      "sha256": "cf4c181fc310e692a53afa4cfcb6ae2abfce4b88f22df52b7e8796e13abec4c1"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-09.jpg",
+      "size": 51297,
+      "sha256": "4404ae0749eb789c9072d8c5543af7aff9f141b9bf95ebcc1727ae06cc707f8b"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-09.json",
+      "size": 4868,
+      "sha256": "be565d581b90c7de5d0d87328a7d78072830700943a88f5f1f49405525397cdf"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-10.jpg",
+      "size": 69655,
+      "sha256": "cad8b2332a3a6d9d83696827114197090a6c1126253bc03baa098ee4bdc2c0ca"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-10.json",
+      "size": 6958,
+      "sha256": "c4d98a4ec18017f27300392cfc25d50e7bc8c27301453e297ea1716ae5912bc7"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-11.jpg",
+      "size": 57615,
+      "sha256": "d54b9eef140fa39ac1977336a0c2977c8393d0301e8206ed9799ba961d3ed83d"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-11.json",
+      "size": 4339,
+      "sha256": "b34b935f4a94556c43817ebd9eaa8b6d4977afb1015460c1388f263bbacee6d5"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-12.jpg",
+      "size": 56287,
+      "sha256": "5c987a42e7f1dee3fd038b909b12061a6599ae91b0cfa8ea5d24af370a3d1ce0"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-12.json",
+      "size": 4350,
+      "sha256": "eafc08ac3ff40dabd44297ea0bb09a172deecd834029b06e8db7c70fbde04e27"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-13.jpg",
+      "size": 54375,
+      "sha256": "0109afc2fa368889dbac877bd508ac723dd2b0397e8a85fe82cd324126e88487"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-13.json",
+      "size": 4225,
+      "sha256": "1541a4a49085a28b6815e4a408a318a6559fcf55238917566c1b687208468198"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-14.jpg",
+      "size": 74166,
+      "sha256": "5944f6437446651a75558379362ae997898627f7da04c3c0467c173a3a3b9d10"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-14.json",
+      "size": 4686,
+      "sha256": "62b0e63d2400375ce0d98398c9007969b72dbb2ba6188eff719bd2aea32f2dfd"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-15.jpg",
+      "size": 62312,
+      "sha256": "ce3d7bad86659e42bfa3ab6f8a6a9c65a82071404e8f681a7ef9222d1b4f9181"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-15.json",
+      "size": 4372,
+      "sha256": "7f0be7d0c8603a3730dd1544b28456e9a543d953a5279d4ac75754acefd482f5"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-16.jpg",
+      "size": 60745,
+      "sha256": "047b769572f746112c207022d824af28ff115f502d779fd3df0610ef71bd96e7"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-16.json",
+      "size": 4066,
+      "sha256": "bcf6d87c68990c956c92c42e2075b638a09b0a652b9f8168ee20a550b7f4c873"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-17.jpg",
+      "size": 61417,
+      "sha256": "a11aa9d8257d8f5913d1f98e27917408eda4861e89fd53f0626a282f4ccad5e3"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-17.json",
+      "size": 4116,
+      "sha256": "1ffc2ec2cc321f9128dba45925b9641f96b1638200f8b840cb59e4f3a6a6c16c"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-18.jpg",
+      "size": 59080,
+      "sha256": "4833ee3b7ea5bfad4a5fbc2bd11d00fa005e4ce24b8df37028867065772c848c"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-18.json",
+      "size": 4050,
+      "sha256": "97f073de2076b165c4f70a12786a71833193e64bcc37f389ab5d5ed614625466"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-19.jpg",
+      "size": 57813,
+      "sha256": "533fafb7870bdcd9257fb24b02f168c7c89464a9782924f4432d8703516971c3"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-19.json",
+      "size": 3782,
+      "sha256": "12026358ebc9413e5f74b9975ac90749ec053e3dc74b3dd14649229b791fe9c3"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-20.jpg",
+      "size": 68080,
+      "sha256": "4474cda8a8f3d34c942433e2f9d0e1185a16ba0eca5029beedfba5e243739d5d"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-20.json",
+      "size": 4266,
+      "sha256": "2ff2c319573401e8f1570f808d6ff5ad6cab92ee8c3f56d98949a96764b76859"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-21.jpg",
+      "size": 62289,
+      "sha256": "5a3d2616f325f127ba53349aa67e1cf0ee5d1de7fef8eaca9e0bf3e0df52ef2a"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-21.json",
+      "size": 4052,
+      "sha256": "82f1c6a29f1d9eafc9f1a0e1197c34d55db1c990336980a682892bd74714f8bd"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-22.jpg",
+      "size": 49119,
+      "sha256": "1368128ae9c6f9e20ef4880b3b4d77a956ed5023c3a0e6df55c08bd99db9de4f"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 1-item-22.json",
+      "size": 3304,
+      "sha256": "8d2e8c774d96440f03882996ffa59f2f0fb7580099831bbd162a1d5a9baa1257"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-01.jpg",
+      "size": 53820,
+      "sha256": "0b643c516206ad32513a22b4d1be43832782c0ee7e101509a30a856a98b102c6"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-01.json",
+      "size": 6159,
+      "sha256": "8b4d1a1ea82c7369eca4d6dcffd91915c35c06c9b9561797cf4bfaa3a60a4850"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-07.jpg",
+      "size": 50001,
+      "sha256": "987201e6d645c21dbe569ce150e7d6feaa9d496ff92669a73ff481b43cf4670f"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-item-07.json",
+      "size": 6159,
+      "sha256": "63af740698eeec663b7f20063c41cace4398a829d879d8ac04e570a970536535"
+    },
+    {
+      "path": "evidence/builds/Live Gear/Set 2-state.json",
+      "size": 3564,
+      "sha256": "d14e99535194ddd3e5fe5b2b08ec6482024552d24ceb4336ad392bc1b0f2aba8"
+    },
+    {
+      "path": "evidence/builds/Live Gear/branch-selected.jpg",
+      "size": 68340,
+      "sha256": "ae6a6a5a0a8e0ebd1c2815bb0b4bca23beead0e205e514c7eb03603b53022851"
+    },
+    {
+      "path": "evidence/builds/Live Gear/branch-state.json",
+      "size": 4203,
+      "sha256": "54d5aef6513095c639c12819d4f2a0f0e5b9d4e992dc149f8a6f31e337835420"
+    },
+    {
+      "path": "evidence/builds/Live Gear/sections.json",
+      "size": 166591,
+      "sha256": "09148ad300346c82ea68392259f1cc323969d4894cb6ff45e4a6be42378bda75"
+    },
+    {
+      "path": "evidence/builds/Live Gear/socket-layout.json",
+      "size": 2855,
+      "sha256": "315871a774c9aa5798314b035439622ca39d9819bc21aa07c7a45b3ed7d3614c"
+    },
+    {
+      "path": "evidence/builds/Live Gear-first-Emerald.jpg",
+      "size": 66087,
+      "sha256": "2b1238432477c17687b2aa47a96de26ced23d36aa018a91b8dd7565df951f347"
+    },
+    {
+      "path": "evidence/builds/Live Gear-first-Emerald.json",
+      "size": 3686,
+      "sha256": "1225e4cd3b592d47b0a99de62d7fbda6d55d03682c506db743f9a2a55f82c976"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree-full-state.json",
+      "size": 85911,
+      "sha256": "d8e28aaafd532e956ba4159902a7b59013146f87dfc6393d68a4483cee1357ad"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree-full.jpg",
+      "size": 87226,
+      "sha256": "bb16e25bdc2cbd5665836ad826e407b0c7bd436800cf9eb7f202641e2b610fb4"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree-state.json",
+      "size": 48979,
+      "sha256": "1c70b2df71a8c9370eba91c443c6a9d203204bd2aec9d89e45e3a9876703a167"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Passive Tree.jpg",
+      "size": 89890,
+      "sha256": "356f6d352d2456bd25d2d6a4699de07ac4477c89c7bf89c3d3716fe12e3ce1f6"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Rune-soulcore-augmentanoint.jpg",
+      "size": 54770,
+      "sha256": "4bc965aced74b8dc1cf39e1d2e3b1d2e8e3251a37bb06a6d32b41c96b4413570"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Rune-soulcore-augmentanoint.json",
+      "size": 1929,
+      "sha256": "df94b1f255f33070ae6bda80a6007f143a3450bde9f622de094e086842784ff0"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-icons.json",
+      "size": 2798,
+      "sha256": "2494b39f312bac19b88140b8e65a5963c358547148b2d74d8533a4378d4b37e5"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-01.jpg",
+      "size": 56615,
+      "sha256": "7321719a9948352940114a14714af82eab750e9ef09a0d095aff59adda521bfb"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-01.json",
+      "size": 7303,
+      "sha256": "bb0f2c1e380bf0473655f4462f66bb27ea3081bde77f34ca26b656de960c250f"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-02.jpg",
+      "size": 54611,
+      "sha256": "8fdcfd1f7e943cc35d60c1cd4d17d55b1cd8460d84e478980888c4e3c949e5c0"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-02.json",
+      "size": 5343,
+      "sha256": "ecfa5082a60f4c342cc0a92fabc521e55f45ac380ff14e2fee77cf1e270a8c8c"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-03.jpg",
+      "size": 53145,
+      "sha256": "6bbcb62612c13bc39e31f8a8f6d1c8813cc0515a6ae93c891ca5e2f6be278131"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-03.json",
+      "size": 4730,
+      "sha256": "cb20d9e0707269fc0fffc6fddd0f7406dc317d5f24fa3807f2bce8ad0115a132"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-04.jpg",
+      "size": 57581,
+      "sha256": "0142f1377c22567d656d61cb803a46eab7145a521fc68d6ce496e9fa502dfe60"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-04.json",
+      "size": 5997,
+      "sha256": "15cd491c40865cd9d47ca47fb1863b59815fc7964048ab22cdbdbfa9dfffafe7"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-05.jpg",
+      "size": 52330,
+      "sha256": "8751657ebf14ce432b8416b328af2d7d9ed8111b0c8ae857a0683de0cbba1705"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-05.json",
+      "size": 5213,
+      "sha256": "36342a06cb523944a262f4a820ae95c1a1ff28384c347e9c71d300da28a5abbe"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-06.jpg",
+      "size": 62648,
+      "sha256": "f2e2af8a2cb013966837247186bd150dd2f9d5e65db7b261728836087d62f99c"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-06.json",
+      "size": 5343,
+      "sha256": "7fd366aacdf3a929591d62dabd687b72ac5529eb4b143608d97ad483b76e7ae5"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-07.jpg",
+      "size": 60049,
+      "sha256": "85da2e37cdf90f8a8f0e544607c50c8b790c834413cb264943d752d0fcc37e5e"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-07.json",
+      "size": 4258,
+      "sha256": "90543eba9d494313a3ccddf06e8157fd8bd09e00925580668b8a1542391e00ed"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-08.jpg",
+      "size": 67983,
+      "sha256": "2210fcff706824bbfe61eed4650f25af281d8e402fab13955a6e40631c636dd0"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-08.json",
+      "size": 5711,
+      "sha256": "1e9496d992767d57e08388b5b5691c15029f39a8ed674fad39a77cceb5089be0"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-09.jpg",
+      "size": 51440,
+      "sha256": "cfd5a705b4a45c61b616bce13856ea4bef0be2b900de08e6a688b26aacde0321"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-09.json",
+      "size": 4602,
+      "sha256": "960835c7885343fcc26e907579c6495d12583e079323464a3005d93fec7af018"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-10.jpg",
+      "size": 52599,
+      "sha256": "d02d1b7af608525a1cbf058426fdbac9b9734c39b782da107bea19acf60eebd0"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-10.json",
+      "size": 5467,
+      "sha256": "689a6a832346f82a89656ed0f7e819bb38b9953ba43d78740c25f83118901f1e"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-11.jpg",
+      "size": 48807,
+      "sha256": "01f2691ae5960c43fa328403a0781087d7b9a94d707616fa3f9d0956e7f09c7a"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-11.json",
+      "size": 4026,
+      "sha256": "47915b29f6f8e9faa513324f6bd1d98dbe37201d1ad7fba797db312ea227f7a2"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-12.jpg",
+      "size": 52154,
+      "sha256": "6310f5da5c518bf963ceaac43ed7f82ea737a0a16e71551c537f0d3b5134ee7d"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-12.json",
+      "size": 4332,
+      "sha256": "e01177471e37b169e0bf9e0819ec42bf1afd165b9839b0f7074864db58f6987f"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-13.jpg",
+      "size": 51607,
+      "sha256": "9c9ae973ab52d6adb2bdb26414998759b72c40785b11264505efcbfed7a87c64"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-13.json",
+      "size": 4178,
+      "sha256": "b6212333e0de05f91af96cb2a88b931c3222bcf1aba0721bd7cc4218c50ff385"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-14.jpg",
+      "size": 65767,
+      "sha256": "cd515447280a03402bc95fa122e5d64714b78eb6612f815d17a77055e4095778"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-14.json",
+      "size": 4668,
+      "sha256": "93f5fcf13c74281aa44f484b4ca4177216f00bfa4f4ec0c29e58102aaf6ec650"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-15.jpg",
+      "size": 51831,
+      "sha256": "9bb82d72de92773bee4f8b6ecf1c8d2023f6385e45200ea4c15b8a7a8083d4c5"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-15.json",
+      "size": 4354,
+      "sha256": "43f153eb1d3906b9ca9e377024d64138a1d86c5ce5d46636d4f96db3019826f8"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-16.jpg",
+      "size": 68818,
+      "sha256": "6b3f741a6c3877ca2817ad7e8eea6247dd67f2fc2616d79c06cc4e1bde413aef"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-16.json",
+      "size": 3380,
+      "sha256": "d3c1f2756e5384c9edc97313c3ed6cc442706ee12fa5b36a244ea76da1b70185"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-17.jpg",
+      "size": 63731,
+      "sha256": "62e2c3c146325891a2c895581ba641c6dbb4460eee75e8bec533bbd67cea2cc1"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 1-item-17.json",
+      "size": 3954,
+      "sha256": "89855578ef2147b2411f3adc665ba490d33172b38891a35e440817f1840256ad"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/Set 2-state.json",
+      "size": 2537,
+      "sha256": "a004ece50e5f0b12974368e38f393566500e5b83c0ee69a93c4922179edf68f8"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/branch-selected.jpg",
+      "size": 69746,
+      "sha256": "0c4362c83f39c73d19c759d918226373219bd1f13e35d62fab623b895fb5287c"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/branch-state.json",
+      "size": 8466,
+      "sha256": "dbced76613066a3099224ff6d1c7aa65c8e36ef113c92e7d49317262c56dd764"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/sections.json",
+      "size": 194605,
+      "sha256": "8d3596519b99c1f3e9832f4da71f413bc40fa17c7e949e2c1db74a2cdd053f82"
+    },
+    {
+      "path": "evidence/builds/Uber Endgame/socket-layout.json",
+      "size": 1151,
+      "sha256": "ec856e5cae8c36d84521c5144357dff455df0c53012abd7449843d8bb35d543c"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree-full-state.json",
+      "size": 83824,
+      "sha256": "d793da0b10ed022729633bef29600a1ceb40b941c7caa90210a49459fe6d760f"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree-full.jpg",
+      "size": 84509,
+      "sha256": "4ba37d8c008fdf498529389078c1352dff014df7dee49b6ac01af9a4e2864069"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree-state.json",
+      "size": 46040,
+      "sha256": "8c59d5b0b3a69503b6dc19731ac03491c420900cce54c7998610e267963da886"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Passive Tree.jpg",
+      "size": 95118,
+      "sha256": "60e78ca2ca0a1fd7be40fd67df6a03fc9925e42a9aab54ea2bd963a539881343"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Rune-soulcore-runespecial18.jpg",
+      "size": 62602,
+      "sha256": "b831087b7d2521fa0809fb94c7fe069384e14e69370a50b3b938df2551a8023e"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Rune-soulcore-runespecial18.json",
+      "size": 1998,
+      "sha256": "6d8871b40eda1c22193592fd3db40cbd6eefa6239be748f5427790fd3cf426c0"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-icons.json",
+      "size": 2488,
+      "sha256": "588460b56a71cf3378cc61647302d553f8221de147662e284d6c21c014b1ec14"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-01.jpg",
+      "size": 53774,
+      "sha256": "a5ca283156db21f295c8b2320cd5904d225f84ead6356b732bd7fcb9d43a3b62"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-01.json",
+      "size": 6382,
+      "sha256": "9e91065fa9ae02d92fe5c2a8637bae10f390a96260354a820457872406b5a9aa"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-02.jpg",
+      "size": 59719,
+      "sha256": "7e537803b2f3fd7e41188fbd0983640cfeeb37a59d716268a6b19962f4456d37"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-02.json",
+      "size": 5300,
+      "sha256": "52b17e7d00b1e7d87d5389670d899dd8058f1e054f5e65db5f2c83b1b06c166a"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-03.jpg",
+      "size": 58972,
+      "sha256": "c47b625e1afda138153490ca8502ec006b7c8d9e3a89c310b38b6d00e004e455"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-03.json",
+      "size": 4729,
+      "sha256": "0bb6d7757a9c97ba0bdc8fc3cfb7ecdf84102c3d856cea8994f2a73b3f362356"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-04.jpg",
+      "size": 65496,
+      "sha256": "ea506252bed71b82ee447c704e5ef6a33687acf1e0cfa2ebdbfd934f2cd7d137"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-04.json",
+      "size": 5996,
+      "sha256": "61d389696342598dabf31e55575af975d621b91c17315c1a6f632be949cf2c59"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-05.jpg",
+      "size": 48566,
+      "sha256": "da9c0342b31acfa018eeb996cb52e3f4477dad119ce6d1b110637e1394d329a8"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-05.json",
+      "size": 4952,
+      "sha256": "474c74f6d9a999b5a251a5618bbfd0a4af0f97af8a272d9138748de9e0a1c97b"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-06.jpg",
+      "size": 69840,
+      "sha256": "fa2d6a0ab6d40f2bb2cf6cb10ddd1b029810bea4ef10f4572d6d12ac444875de"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-06.json",
+      "size": 5300,
+      "sha256": "31bd51a34c0f3f9f33207b7a3992bb06abc3d6e91d86348ea62675c2254fa326"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-07.jpg",
+      "size": 64533,
+      "sha256": "14fd636cf599a246627e2193741a37e2804a121fd50c79d7dd80b27cdc7697fe"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-07.json",
+      "size": 6207,
+      "sha256": "3aa5c070e1dab5b17c5189eb39f1e6d61f4d8ef66b1f12b37cc5ea386ec5c277"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-08.jpg",
+      "size": 70294,
+      "sha256": "703b089b940353ac03c3a164f45bed086aa8060a4db4a473d312635db8219bd9"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-08.json",
+      "size": 5690,
+      "sha256": "ace510c28c3ca329fefbb28e1d811e710e8712b291a064e9c9b9d1278139c6e3"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-09.jpg",
+      "size": 57991,
+      "sha256": "f96d23a7fb0f2fa1398d9b0680d5bcae2578b2c7ef86fd0f26b4a44a77362fda"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-09.json",
+      "size": 4598,
+      "sha256": "cbbb7d3ad4a2b911f2132eda6fb9e1379c62efe69cd4154ef2c357854aaa112c"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-10.jpg",
+      "size": 62109,
+      "sha256": "e4deddcc59f3dad4119411d7fcef5e4169661d8143683715e4c3761018c09aa3"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-10.json",
+      "size": 5466,
+      "sha256": "90682a377718d3280daa2368aa71b696bd23034b2ca529d7428b3093f0b3d0e5"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-11.jpg",
+      "size": 77712,
+      "sha256": "ad508c57613fe4740475453477745aa98f976a5540b2a0b06568ef6b827a6152"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-11.json",
+      "size": 4025,
+      "sha256": "a3f9067b61213ee35982f29155665b3f8fa5079f4702aa89274ad3fb41b6739d"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-12.jpg",
+      "size": 66050,
+      "sha256": "08dcd634028edadcded0b0436a757713f3763e767ea0682ea8ee3be408d6496b"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-12.json",
+      "size": 4331,
+      "sha256": "e29fba80e5c4d7b24a5553bdfc429d2a77012f923038d762da25b3f671cdf253"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-13.jpg",
+      "size": 56892,
+      "sha256": "a2164c124f35b8f4eef93c0c462e5cc1b6126f9a767c993795561c77bb3cb96e"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-13.json",
+      "size": 4177,
+      "sha256": "5c8fa25a4e57b2efcee115cb861c0e378bff2a8a05d71c59ab7daf4d64441233"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-14.jpg",
+      "size": 60496,
+      "sha256": "8940944cded461043bb5762081f2bc455541bc7046cbd0160dd36b652b2c61d1"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-14.json",
+      "size": 4091,
+      "sha256": "dfc5a46c1d12201c2c45d167e8e21651bf0d8229c43c8a89588811e3bbfa48b7"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-15.jpg",
+      "size": 68773,
+      "sha256": "6e9f77b056980920a06252af45246889c6a209a30f92bf73f0622b93d8096fee"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 1-item-15.json",
+      "size": 4353,
+      "sha256": "cdc592af71e6529b801a0a700b12f99c32884f4be4bf11d4b6b8de9b792c1bae"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/Set 2-state.json",
+      "size": 2258,
+      "sha256": "008eafc14c29d73dbfbc1636190682482aebcc19fcd0d7383554f821f5302dea"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/branch-selected.jpg",
+      "size": 68069,
+      "sha256": "016ea9232c9c317930d75a45ae8bf81ab1e9fcf4c53c444cc707059c1d0e910a"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/branch-state.json",
+      "size": 8759,
+      "sha256": "4ce907ef05c57176a048aa5b384aa5bf20c522870c100286d176e5426cbaa73b"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/sections.json",
+      "size": 196234,
+      "sha256": "25266c9fca3ff2847367126e0b95446266fb1565d901a3ad83007a9d7c8cda48"
+    },
+    {
+      "path": "evidence/builds/non-crit Hybrid swap/socket-layout.json",
+      "size": 1151,
+      "sha256": "e36d371cfa92bd9d26e91a47b4f50c58ecb3b751512079df0d4dce28cf540761"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree-full-state.json",
+      "size": 82181,
+      "sha256": "b502278aa5f27f634354b7eb93a471b39b2c32845c8691a5b5c779cd2e0f5759"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree-full.jpg",
+      "size": 83796,
+      "sha256": "8c8efd422766bd07cda1f1aa98a139a8fc2c7b19cb9a465318e80f5b5e433f80"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree-state.json",
+      "size": 45349,
+      "sha256": "7a8fd44f296a6dc7f67292d8c18b61ad32bbc4b09af26d6c1a253e955f9566ae"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Passive Tree.jpg",
+      "size": 94507,
+      "sha256": "2f202f43a8ef723a00b080ab7fabb94c8a36941f9d28ab85be46cdc10e70335d"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-icons.json",
+      "size": 2477,
+      "sha256": "81a47e842a436ab94f861824d905d35e843b8104beb43dd43308d20c73847958"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-01.jpg",
+      "size": 57985,
+      "sha256": "1785257a5a0c06eeea5a315fa9d628572db7449f6e3eff4ae4396d7bfaa5dad1"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-01.json",
+      "size": 6382,
+      "sha256": "40c3a920fe43429c3c70cfb1b9a264abc399813a1e684a733f7eca9427373214"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-02.jpg",
+      "size": 65159,
+      "sha256": "b28e26f0c87128be44dcc9e54c524ad5047a141174afea278db83b6256dc6cef"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-02.json",
+      "size": 5300,
+      "sha256": "ec0299f6c14038e1218ffcb05638df6bb6163859418b51af11498c0a3513e2df"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-03.jpg",
+      "size": 63519,
+      "sha256": "80677374f70b5429b8235f53a7136d9925357bbec74e502009e2ef23fc3638c8"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-03.json",
+      "size": 4710,
+      "sha256": "22dc3987ab38d2ed2bafedff381b0406f527e1e218270d2ff2eb70f21085b9ad"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-04.jpg",
+      "size": 60277,
+      "sha256": "d698e105ecd3da12f26015ec33a443fbd45efb2807d5da9b3f3a33d76237a792"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-04.json",
+      "size": 5996,
+      "sha256": "128c2772fb4b183f9e063bab14dfb8cb611ea3390d66228359edda5276e03853"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-05.jpg",
+      "size": 58825,
+      "sha256": "8587a9185874365ada8c08a73b5e91e8b2f4f66b1c51689128e7326ef1e0b101"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-05.json",
+      "size": 4952,
+      "sha256": "4312789ba4ba35ae95c2fcf2c9fb1a3eb2ddddce338deab711d94006c084ea73"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-06.jpg",
+      "size": 64502,
+      "sha256": "03ca16d5d81b3b2e7857eca264a3a97dd2ca21c78ce1c45ed390ae2998551406"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-06.json",
+      "size": 5300,
+      "sha256": "734fc6987ee31b67ac74852ade62f8eeab791393a9b68f0fe28809439838850b"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-07.jpg",
+      "size": 57986,
+      "sha256": "1930085f4f401f82c548d7d483fd47a86ae2886e86d895bd3b4e78dfc0b2b0ae"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-07.json",
+      "size": 6207,
+      "sha256": "1af57b5785e7036aec55fad5ad12b5c8be7d5bde5399a728765c97831b49edca"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-08.jpg",
+      "size": 66885,
+      "sha256": "e842c64bdb155c31d7f5654940ac6011d4ce1bda26bb3b3496388996c14b1d9c"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-08.json",
+      "size": 5690,
+      "sha256": "e111028d730d50f368a939600ae2861a1f8cb85f6b84988cc6163921acfdf2b2"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-09.jpg",
+      "size": 53962,
+      "sha256": "bb09e2d186d2c8733dff00893a71709603b69fde0e41e78d2e3bb0ad65769947"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-09.json",
+      "size": 4598,
+      "sha256": "5f32e7d151b675ec23bc06f098f3fce10f99519e301252ab0d386be925fbc161"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-10.jpg",
+      "size": 60698,
+      "sha256": "b2e98243cc636998ac40dfbc748966e04c9d8c13754a6c9235aa97e60ed8ed79"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-10.json",
+      "size": 5204,
+      "sha256": "7fdb22b752205d301beddb54339890310b7b35e6b885ef5b670ef7e083bf705c"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-11.jpg",
+      "size": 64129,
+      "sha256": "7aa49e8e6d45b1590c6f45e30723a9dd72ae33e99a7d33340894df788c7a6023"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-11.json",
+      "size": 4025,
+      "sha256": "55385af5583cce8771cc71db6641adab9663bc3b7f5c11cf37d091a145397c10"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-12.jpg",
+      "size": 56508,
+      "sha256": "e528aa53deda97aefe0ba660d6669acdd7844873ebac4707f69f35f2d504ee5f"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-12.json",
+      "size": 4089,
+      "sha256": "e0d64a9da4a5067cef07651c62bc0c07795c0ea7579faa60f44f327c0bea4fd0"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-13.jpg",
+      "size": 53363,
+      "sha256": "c2028a6c0da3adb964a200b23886f0ac89cf146d85fe7370fa1191070fa3a446"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-13.json",
+      "size": 4100,
+      "sha256": "dd840724df0b60094c59e809cabe6fb73aca38f2240f3600af5b90a2d9f43146"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-14.jpg",
+      "size": 58862,
+      "sha256": "9ee53d6a36f6770f7ff601c9fe3e554b64c109845b362f61b9e3478699c2506b"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-14.json",
+      "size": 4091,
+      "sha256": "b27531e435cc79254f9533f4afda01d3e2d19e78006f283fc6e819cb840fde12"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-15.jpg",
+      "size": 69124,
+      "sha256": "08c33966f0787e2e94d1211038fd69a6ec0cd1fc180975d6dd74a2ae26934c40"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 1-item-15.json",
+      "size": 4353,
+      "sha256": "1f8ddaebef4d783f22652747458b6d227567ac0bd5c6244bc46cefb26598b675"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/Set 2-state.json",
+      "size": 2243,
+      "sha256": "68e85a05183ee26701420ca00d357d47ba30ee7c9814de0b7660ad6e4b2b2d6f"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/branch-selected.jpg",
+      "size": 66461,
+      "sha256": "f631678e36093bab1169662b3c6d0ede13db7a11b07fd672ff0d100195f7050f"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/branch-state.json",
+      "size": 8106,
+      "sha256": "5719bd8df8750b58e634c8133984bb3f14420f71179a9015156b3ab6afcc25f5"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/sections.json",
+      "size": 190593,
+      "sha256": "2f8f45791ecf01e4959d9864e07a49708baa5f1af59bb71e113544bdb326a352"
+    },
+    {
+      "path": "evidence/builds/non-crit Midgame/socket-layout.json",
+      "size": 900,
+      "sha256": "a0f22aa64d1c0c917c98200fa25c6e639962d27740aa41d2813eb57a4b0ab680"
+    },
+    {
+      "path": "evidence/public-data/atlas-document.json",
+      "size": 323664,
+      "sha256": "5a01bfdf65cd87479bd9894cbd5032ab1fa569b8d6c8480d82d68e7a0bf8e854"
+    },
+    {
+      "path": "evidence/public-data/build-document.json",
+      "size": 1133701,
+      "sha256": "e6fbeab7708a1ed235aeab5cb3f358560e25e5683d1727d80130a2315a2ce3b9"
+    },
+    {
+      "path": "evidence/public-data/build-resource-urls.json",
+      "size": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "evidence/public-data/build-script-urls.json",
+      "size": 1361,
+      "sha256": "5bac4d4f1ad307b33a70fcfd265bbf0c14f997c57fe741c628affb3261917f84"
+    },
+    {
+      "path": "gaps.json",
+      "size": 224116,
+      "sha256": "59741f36e32e07a0343ddfc232e199f5e68efad018082e925b606d1bf7a9f337"
+    },
+    {
+      "path": "package-preflight.json",
+      "size": 533,
+      "sha256": "8e85bafb153f41aef88d55ba926b625e09799686368538b1844fb3b36ac457b9"
+    },
+    {
+      "path": "scripts/README.md",
+      "size": 2198,
+      "sha256": "66f308af4300a8e60ad920fecfbc3daf43967dd59292a2d5e78ebb316956c34c"
+    },
+    {
+      "path": "scripts/atlas-capture-helpers.js",
+      "size": 5409,
+      "sha256": "4383f87c7033bfc7a6e2c7187f7793dba3992d55885bf23026c4db1b55461308"
+    },
+    {
+      "path": "scripts/browser-capture-helpers.js",
+      "size": 7720,
+      "sha256": "06f16ac02200de19618039c2b8ea3ffbfe32ad95c63c83b733b44f27161c077d"
+    },
+    {
+      "path": "scripts/normalize_capture.py",
+      "size": 56616,
+      "sha256": "219ddca7a5c117939b9464c82f5b8e0875641fc7f2da8bf2f9391caa72d8106d"
+    },
+    {
+      "path": "scripts/package_capture.py",
+      "size": 5666,
+      "sha256": "23af92c77bf125e879861ae93afb0d892632ea7d2f8dd041bc9bb077e5e9675a"
+    },
+    {
+      "path": "scripts/passive-full-capture.js",
+      "size": 1700,
+      "sha256": "fee26682508844a624048fd7b210ac7df1611d3435bb33374344b6c960331af3"
+    },
+    {
+      "path": "scripts/public-document-extraction.js",
+      "size": 1859,
+      "sha256": "c4d48c5b7b4b2c4f9dcc0ad268941b903e83be87f5b7ac78ef8d0b4a91414794"
+    },
+    {
+      "path": "validation.json",
+      "size": 3337,
+      "sha256": "0dc70423c865c103ebb391ba8700c302d6542783844f5057df1660707f2b1e35"
+    },
+    {
+      "path": "异界方案核对.md",
+      "size": 47331,
+      "sha256": "05339e17a2120f6516fddb649ca9fb5bc5c82fd21aa31e38993774c96f827269"
+    },
+    {
+      "path": "技能与作者说明核对.md",
+      "size": 47183,
+      "sha256": "497dc28757bac40a770aa6c712648a1ea93e71a3a0951a9e5892bd71d2eb4de2"
+    },
+    {
+      "path": "缺失与冲突.md",
+      "size": 132074,
+      "sha256": "2cd102437f8446e1af8e3fbe524e570a55c5939d94f558542deb7ea93745f88b"
+    },
+    {
+      "path": "装备与珠宝核对.md",
+      "size": 17685,
+      "sha256": "a4953613ea3f7f180c035c300cc2e8e9a9aebf485542273b32c77ac1251073dd"
+    },
+    {
+      "path": "装备面板全表.md",
+      "size": 68560,
+      "sha256": "c920ee54b27559026b9ee9779b21d0ad36235e7ce03d47ead3b3ff5bfd1150d2"
+    }
+  ]
+}

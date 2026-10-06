@@ -1,0 +1,5590 @@
+[
+  {
+    "scope": "全包",
+    "field": "旧 .build / R42 / 旧网页报告",
+    "kind": "old_records_not_available",
+    "details": "当前任务目录未发现用户所述旧文件，未假装读取或比较；完成网页采集，尚未与本地旧稿比对。",
+    "evidence": []
+  },
+  {
+    "scope": "Early",
+    "field": "Passive Tree 连线定义",
+    "kind": "tool_not_retrieved",
+    "details": "已保存全屏图、Main/Set 1/Set 2/升华节点 ID 与属性配置；机器可读 edge pairs、坐标和全部节点名称/效果未取得。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Passive Tree-full-state.json"
+      },
+      {
+        "file": "evidence/builds/Early/Passive Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Early",
+    "field": "逐级加点",
+    "kind": "source_not_provided_as_complete_level_route",
+    "details": "保留 source_priority_list 与页面 Leveling Path 标记，未推导逐级、逐点的完整作者路线。",
+    "evidence": []
+  },
+  {
+    "scope": "Early / Set 1 / 主手 / Obliterator Bow",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 左戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 头盔 / Desert Cap",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-03.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-03.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/helmet"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 衣服 / Corsair Coat",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 项链 / Stellar Amulet",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 右戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Set 1 / 副手 / Volant Quiver",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-07.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-07.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/offHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 手套 / Grand Bracers",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-08.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-08.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/gloves"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 腰带 / Rawhide Belt",
+    "field": "quality, item_level, requirements, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-09.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-09.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/belt"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 鞋子 / Cavalry Boots",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-10.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-10.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/boots"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 咒符1 / Thawing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-12.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-12.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/charm1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 咒符2 / Silver Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 咒符3 / Dousing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-14.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-14.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/charm3"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Shared / 药剂2 / Ultimate Mana Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/Early/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "Early",
+    "field": "已配置珠宝",
+    "kind": "source_not_configured",
+    "details": "Equipment 未显示已配置珠宝，源 jewels=null；正文推荐不是已保存组合。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/branch-state.json"
+      },
+      {
+        "file": "evidence/builds/Early/branch-selected.jpg"
+      },
+      {
+        "file": "evidence/builds/Early/sections.json"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Ice Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Snipe",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Tornado Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Ice-Tipped Arrows",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Freezing Mark",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Barrage",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Herald of Ice",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Combat Frenzy",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Mirage Archer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early / Skill Gems / Mirage Deadeye",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Early/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Early",
+    "field": "内嵌主动/辅助宝石逐颗等级与品质",
+    "kind": "not_explicitly_set",
+    "details": "保留完整 gemType、父主动与连接次序；subSkills 没有明确等级/品质配置，不用默认等级补值。",
+    "evidence": []
+  },
+  {
+    "scope": "non-crit Midgame",
+    "field": "Passive Tree 连线定义",
+    "kind": "tool_not_retrieved",
+    "details": "已保存全屏图、Main/Set 1/Set 2/升华节点 ID 与属性配置；机器可读 edge pairs、坐标和全部节点名称/效果未取得。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Passive Tree-full-state.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Passive Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame",
+    "field": "逐级加点",
+    "kind": "source_not_provided_as_complete_level_route",
+    "details": "保留 source_priority_list 与页面 Leveling Path 标记，未推导逐级、逐点的完整作者路线。",
+    "evidence": []
+  },
+  {
+    "scope": "non-crit Midgame / Set 1 / 主手 / Obliterator Bow",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 左戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 头盔 / Desert Cap",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-03.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-03.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/helmet"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 衣服 / Corsair Coat",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 项链 / Stellar Amulet",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 右戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Set 1 / 副手 / Volant Quiver",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-07.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-07.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/offHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 手套 / Grand Bracers",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-08.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-08.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/gloves"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 腰带 / Rawhide Belt",
+    "field": "quality, item_level, requirements, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-09.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-09.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/belt"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 鞋子 / Cavalry Boots",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-10.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-10.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/boots"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 咒符1 / Thawing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-12.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-12.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/charm1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 咒符2 / Silver Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 咒符3 / Dousing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-14.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-14.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/charm3"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Shared / 药剂2 / Lavianga's Spirits",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame",
+    "field": "已配置珠宝",
+    "kind": "source_not_configured",
+    "details": "Equipment 未显示已配置珠宝，源 jewels=null；正文推荐不是已保存组合。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/branch-state.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/branch-selected.jpg"
+      },
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Ice Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Snipe",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Tornado Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Ice-Tipped Arrows",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Freezing Mark",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Barrage",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Herald of Ice",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Combat Frenzy",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Mirage Archer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame / Skill Gems / Mirage Deadeye",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Midgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Midgame",
+    "field": "内嵌主动/辅助宝石逐颗等级与品质",
+    "kind": "not_explicitly_set",
+    "details": "保留完整 gemType、父主动与连接次序；subSkills 没有明确等级/品质配置，不用默认等级补值。",
+    "evidence": []
+  },
+  {
+    "scope": "non-crit Hybrid swap",
+    "field": "Passive Tree 连线定义",
+    "kind": "tool_not_retrieved",
+    "details": "已保存全屏图、Main/Set 1/Set 2/升华节点 ID 与属性配置；机器可读 edge pairs、坐标和全部节点名称/效果未取得。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Passive Tree-full-state.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Passive Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap",
+    "field": "逐级加点",
+    "kind": "source_not_provided_as_complete_level_route",
+    "details": "保留 source_priority_list 与页面 Leveling Path 标记，未推导逐级、逐点的完整作者路线。",
+    "evidence": []
+  },
+  {
+    "scope": "non-crit Hybrid swap / Set 1 / 主手 / Obliterator Bow",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 左戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 头盔 / Ancestral Tiara",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-03.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-03.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/helmet"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 衣服 / Corsair Coat",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 项链 / Stellar Amulet",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 右戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Set 1 / 副手 / Volant Quiver",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-07.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-07.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/offHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 手套 / Grand Bracers",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-08.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-08.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/gloves"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 腰带 / Rawhide Belt",
+    "field": "quality, item_level, requirements, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-09.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-09.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/belt"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 鞋子 / Bladed Shoes",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-10.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-10.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/boots"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 咒符1 / Nascent Hope",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-12.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-12.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/charm1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 咒符2 / The Fall of the Axe",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 咒符3 / Dousing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-14.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-14.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/charm3"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Shared / 药剂2 / Lavianga's Spirits",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap",
+    "field": "已配置珠宝",
+    "kind": "source_not_configured",
+    "details": "Equipment 未显示已配置珠宝，源 jewels=null；正文推荐不是已保存组合。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/branch-state.json"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/branch-selected.jpg"
+      },
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Ice Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Snipe",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Tornado Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Ice-Tipped Arrows",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Freezing Mark",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Barrage",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Herald of Ice",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Ghost Dance",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Mirage Archer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap / Skill Gems / Mirage Deadeye",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/non-crit Hybrid swap/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "non-crit Hybrid swap",
+    "field": "内嵌主动/辅助宝石逐颗等级与品质",
+    "kind": "not_explicitly_set",
+    "details": "保留完整 gemType、父主动与连接次序；subSkills 没有明确等级/品质配置，不用默认等级补值。",
+    "evidence": []
+  },
+  {
+    "scope": "Crit Hybrid",
+    "field": "Passive Tree 连线定义",
+    "kind": "tool_not_retrieved",
+    "details": "已保存全屏图、Main/Set 1/Set 2/升华节点 ID 与属性配置；机器可读 edge pairs、坐标和全部节点名称/效果未取得。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Passive Tree-full-state.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Passive Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid",
+    "field": "逐级加点",
+    "kind": "source_not_provided_as_complete_level_route",
+    "details": "保留 source_priority_list 与页面 Leveling Path 标记，未推导逐级、逐点的完整作者路线。",
+    "evidence": []
+  },
+  {
+    "scope": "Crit Hybrid / Set 1 / 主手 / Obliterator Bow",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 左戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 头盔 / Ancestral Tiara",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-03.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-03.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/helmet"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 衣服 / Corsair Coat",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 项链 / Stellar Amulet",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 右戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Set 1 / 副手 / Cadiro's Gambit",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-07.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-07.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/offHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 手套 / Grand Bracers",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-08.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-08.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/gloves"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 腰带 / Rawhide Belt",
+    "field": "quality, item_level, requirements, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-09.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-09.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/belt"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 鞋子 / Bladed Shoes",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-10.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-10.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/boots"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 咒符1 / Nascent Hope",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-12.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-12.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/charm1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 咒符2 / The Fall of the Axe",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 咒符3 / Dousing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-14.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-14.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/charm3"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Shared / 药剂2 / Lavianga's Spirits",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/Crit Hybrid/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Ice Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Snipe",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Tornado Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Freezing Mark",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Barrage",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Herald of Ice",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Ghost Dance",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Wind Dancer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Mirage Archer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid / Skill Gems / Mirage Deadeye",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Crit Hybrid/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Crit Hybrid",
+    "field": "内嵌主动/辅助宝石逐颗等级与品质",
+    "kind": "not_explicitly_set",
+    "details": "保留完整 gemType、父主动与连接次序；subSkills 没有明确等级/品质配置，不用默认等级补值。",
+    "evidence": []
+  },
+  {
+    "scope": "Uber Endgame",
+    "field": "Passive Tree 连线定义",
+    "kind": "tool_not_retrieved",
+    "details": "已保存全屏图、Main/Set 1/Set 2/升华节点 ID 与属性配置；机器可读 edge pairs、坐标和全部节点名称/效果未取得。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Passive Tree-full-state.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Passive Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame",
+    "field": "逐级加点",
+    "kind": "source_not_provided_as_complete_level_route",
+    "details": "保留 source_priority_list 与页面 Leveling Path 标记，未推导逐级、逐点的完整作者路线。",
+    "evidence": []
+  },
+  {
+    "scope": "Uber Endgame / Set 1 / 主手 / Warmonger Bow",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 左戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 头盔 / Ancestral Tiara",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-03.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-03.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/helmet"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 衣服 / Corsair Coat",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 项链 / Stellar Amulet",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 右戒指 / Prismatic Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Set 1 / 副手 / Cadiro's Gambit",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-07.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-07.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/offHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 手套 / Grand Bracers",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-08.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-08.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/gloves"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 腰带 / Headhunter",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-09.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-09.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/belt"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 鞋子 / Bladed Shoes",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-10.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-10.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/boots"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 咒符1 / Nascent Hope",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-12.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-12.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/charm1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 咒符2 / The Fall of the Axe",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 咒符3 / Rite of Passage",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-14.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-14.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/charm3"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Shared / 药剂2 / Lavianga's Spirits",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/Uber Endgame/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Ice Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Tornado Shot",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Freezing Mark",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Barrage",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Herald of Ice",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Ghost Dance",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Wind Dancer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Mana Remnants",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Mirage Archer",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame / Skill Gems / Mirage Deadeye",
+    "field": "quality, active_level",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Uber Endgame/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Uber Endgame",
+    "field": "内嵌主动/辅助宝石逐颗等级与品质",
+    "kind": "not_explicitly_set",
+    "details": "保留完整 gemType、父主动与连接次序；subSkills 没有明确等级/品质配置，不用默认等级补值。",
+    "evidence": []
+  },
+  {
+    "scope": "Live Gear",
+    "field": "Passive Tree 连线定义",
+    "kind": "tool_not_retrieved",
+    "details": "已保存全屏图、Main/Set 1/Set 2/升华节点 ID 与属性配置；机器可读 edge pairs、坐标和全部节点名称/效果未取得。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Passive Tree-full-state.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Passive Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear",
+    "field": "逐级加点",
+    "kind": "source_not_provided_as_complete_level_route",
+    "details": "保留 source_priority_list 与页面 Leveling Path 标记，未推导逐级、逐点的完整作者路线。",
+    "evidence": []
+  },
+  {
+    "scope": "Live Gear / Set 1 / 主手 / Warmonger Bow",
+    "field": "rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Set 1 / 主手 / Warmonger Bow",
+    "field": "全部词缀 / 完整伤害核对",
+    "kind": "source_panel_conflict",
+    "details": "重新展开后仍只显示基础面板；网页保存 7 条显性描述。原始与复核截图均保留，未把源描述当作已核验面板、未重算弓伤害。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/mainHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 左戒指 / Gold Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 左戒指 / Gold Ring",
+    "field": "保存描述值 vs 页面范围",
+    "kind": "different_representations_not_proof_of_roll",
+    "details": "导入字段的数值描述与悬浮框范围逐来源保存；两者不能互换，范围上限也不是作者硬性目标。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 左戒指 / Gold Ring",
+    "field": "固有词缀页面标签",
+    "kind": "source_display_label_conflict",
+    "details": "该栏位面板出现 Body Armour: 标签，原样保存，不自行修复。Body Armour: (6-15)% increased Rarity of Items found",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-02.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-02.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/leftRing"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 头盔 / Ancestral Tiara",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-03.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-03.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/helmet"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 衣服 / Slipstrike Vest",
+    "field": "rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 衣服 / Slipstrike Vest",
+    "field": "保存描述值 vs 页面范围",
+    "kind": "different_representations_not_proof_of_roll",
+    "details": "导入字段的数值描述与悬浮框范围逐来源保存；两者不能互换，范围上限也不是作者硬性目标。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-04.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-04.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/body"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 项链 / Gold Amulet",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 项链 / Gold Amulet",
+    "field": "保存描述值 vs 页面范围",
+    "kind": "different_representations_not_proof_of_roll",
+    "details": "导入字段的数值描述与悬浮框范围逐来源保存；两者不能互换，范围上限也不是作者硬性目标。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 项链 / Gold Amulet",
+    "field": "固有词缀页面标签",
+    "kind": "source_display_label_conflict",
+    "details": "该栏位面板出现 Body Armour: 标签，原样保存，不自行修复。Body Armour: (12-20)% increased Rarity of Items found",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-05.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-05.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/amulet"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 右戒指 / Gold Ring",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 右戒指 / Gold Ring",
+    "field": "固有词缀页面标签",
+    "kind": "source_display_label_conflict",
+    "details": "该栏位面板出现 Body Armour: 标签，原样保存，不自行修复。Body Armour: (6-15)% increased Rarity of Items found",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-06.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-06.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/rightRing"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Set 1 / 副手 / Cadiro's Gambit",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-07.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-07.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/offHand/set1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 手套 / Runeforged Secured Wraps",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-08.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-08.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/gloves"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 腰带 / Headhunter",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-09.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-09.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/belt"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 鞋子 / Daggerfoot Shoes",
+    "field": "quality, item_level, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-10.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-10.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/boots"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 药剂1 / Ultimate Life Flask",
+    "field": "保存描述值 vs 页面范围",
+    "kind": "different_representations_not_proof_of_roll",
+    "details": "导入字段的数值描述与悬浮框范围逐来源保存；两者不能互换，范围上限也不是作者硬性目标。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-11.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-11.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/flask1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 咒符1 / Nascent Hope",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-12.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-12.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/charm1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 咒符2 / Dousing Charm",
+    "field": "quality, item_level, top_stats, rarity_text",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 咒符2 / Dousing Charm",
+    "field": "保存描述值 vs 页面范围",
+    "kind": "different_representations_not_proof_of_roll",
+    "details": "导入字段的数值描述与悬浮框范围逐来源保存；两者不能互换，范围上限也不是作者硬性目标。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-13.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-13.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/charm2"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 咒符3 / Rite of Passage",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-14.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-14.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/charm3"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 药剂2 / Lavianga's Spirits",
+    "field": "quality, item_level, top_stats, rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Shared / 药剂2 / Lavianga's Spirits",
+    "field": "requirements.Level",
+    "kind": "source_panel_conflict",
+    "details": "源保存 49；实际面板 40；两者并列保留，未覆盖。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-15.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-15.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/flask2"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Set 2 / 主手 / Hysseg's Claw",
+    "field": "rarity_text, base_type",
+    "kind": "not_printed_in_observed_panel",
+    "details": "面板未单独打印这些字段；已保留源结构中的可用字段，未填入通用数据库值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 2-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 2-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/mainHand/set2"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Set 2 / 主手 / Hysseg's Claw",
+    "field": "requirements.Level",
+    "kind": "source_panel_conflict",
+    "details": "源保存 66；实际面板 16；两者并列保留，未覆盖。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 2-item-01.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 2-item-01.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/equipment/mainHand/set2"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Jewels 1 / node-62152",
+    "field": "孔位在已选列表中的关联",
+    "kind": "visible_binding_not_in_explicit_selected_lists",
+    "details": "面板与 nodeSlug 已唯一匹配，但源 Main/Set 1/Set 2 selectedSlugs 不包含该节点；未由头盔/Voices 推断额外孔位来源和实际分配。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-16.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-16.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/passiveTree/jewels/0"
+      },
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/0"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Jewels 6 / node-26178",
+    "field": "孔位在已选列表中的关联",
+    "kind": "visible_binding_not_in_explicit_selected_lists",
+    "details": "面板与 nodeSlug 已唯一匹配，但源 Main/Set 1/Set 2 selectedSlugs 不包含该节点；未由头盔/Voices 推断额外孔位来源和实际分配。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-21.json"
+      },
+      {
+        "file": "evidence/builds/Live Gear/Set 1-item-21.jpg"
+      },
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/passiveTree/jewels/6"
+      },
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/0"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / node-11184",
+    "field": "珠宝完整面板",
+    "kind": "saved_but_not_displayed",
+    "details": "存在保存绑定，但当前显式已选列表不含该节点、珠宝栏未显示；实际分配状态未核实，未补造属性范围。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/build-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/passiveTree/jewels/3"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Ice Shot",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Tornado Shot",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Mirage Deadeye",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Ghost Dance",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Mirage Archer",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Pounce",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Wind Dancer",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Mana Remnants",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Barrage",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear / Skill Gems / Herald of Ice",
+    "field": "quality",
+    "kind": "not_explicitly_set",
+    "details": "当前分支没有明确设置值；正文要求、默认宝石信息不回填为作者已配置值。",
+    "evidence": [
+      {
+        "file": "evidence/builds/Live Gear/sections.json",
+        "json_pointer": "/sections/1"
+      }
+    ]
+  },
+  {
+    "scope": "Live Gear",
+    "field": "内嵌主动/辅助宝石逐颗等级与品质",
+    "kind": "not_explicitly_set",
+    "details": "保留完整 gemType、父主动与连接次序；subSkills 没有明确等级/品质配置，不用默认等级补值。",
+    "evidence": []
+  },
+  {
+    "scope": "Expedition",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Expedition/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Expedition/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-38492 / Essence Dowsing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Essence Dowsing: Abrasion；选项描述：Greater Essence of Abrasion and Perfect Essence of Abrasion。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-41868 / Well-equipped Opponents",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Well-equipped Opponents: Dexterity；选项描述：Dexterity。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-4728 / Unseen Rivers",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Unseen Rivers: Vivid；选项描述：Vivid Spirits。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-7116 / Divined Blessing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Divined Blessing: Seeking Shrine；选项描述：Seeking Shrines。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-15634 / Craftsman's Creed",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Craftsman's Creed: Starkness of Heart；选项描述：No additional Prefix Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-46664 / Sacred Sap",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sacred Sap: Commingled；选项描述：When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-13881 / Evolving Throngs",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Evolving Throngs: Swarm；选项描述：10% increased Magic Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-36733 / Fabled Showdown",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Favour the Villain；选项描述：25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-6670 / Overlord's Influence",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Influence: Shrine；选项描述：An additional Shrine。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-36463 / Overlord's Domain",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Domain: Rogue Exile；选项描述：An additional Rogue Exile。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-4434 / The Chosen Path",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Chosen Path: Rogue Exiles；选项描述：Rogue Exiles。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-1828 / Legendary Duels",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Legendary Duels: Renowned Jewelry；选项描述：Jewellery。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-21939 / Crystalline Patterns",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Crystalline Patterns: Battle；选项描述：Greater Essence of Battle and Perfect Essence of Battle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-26766 / Nemesis Rising",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Nemesis Rising: Effectiveness；选项描述：15% increased Effectiveness of Rare Monsters in your Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/13"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-26856 / Grass Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Grass Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/14"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Rare Monsters；选项描述：15% increased Rare Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/15"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/16"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-5085 / History of the Faridun",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Faridun: Vastiri Woes；选项描述：Desert。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/17"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-12759 / Desert Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Desert Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/18"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Reign of the First Queen；选项描述：Forest。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/19"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-9648 / Swamp Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Swamp Mastery: Chaos；选项描述：10% chance Exalted Orbs drop as Chaos Orbs。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/20"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-12447 / Water Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Water Mastery: Currency；选项描述：Chests contain 15% increased Currency。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/21"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-42564 / Mountain Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Mountain Mastery: Rarity；选项描述：6% increased Rarity of Items found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/22"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/23"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/24"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-60086 / The Journey Ahead",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Journey Ahead: Effectiveness；选项描述：15% increased Effectiveness of Monsters in your Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/25"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-31008 / Blood on the Stones",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Blood on the Stones: Bosses；选项描述：Summoning Circle Bosses are Powerful。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/26"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-965 / Balance of Power",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Balance of Power: Amanamu；选项描述：Amanamu。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/27"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-25524 / Vile Treasures",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Vile Treasures: Omens；选项描述：Omens。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/28"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-35469 / Lord of the Pit",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Lord of the Pit: Proliferation；选项描述：Abyss Pits are scattered throughout Areas with Abysses。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/29"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-21420 / Recurring Nightmares",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Recurring Nightmares: Always the Same.；选项描述：Delirium Fog spreads to +4 Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/30"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-4871 / Breeding Program",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Breeding Program: Lavish Fruit；选项描述：Lavish Wombgifts。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/31"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-57514 / Shape the Chains",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Shape the Chains: Empower Rares；选项描述：30% increased Effectiveness of Rare Breach Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/32"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-63846 / Tear Open the Rift",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Tear Open the Rift: Major Breach；选项描述：Consume an additional Breachstone to add Modifiers to all revealed Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/33"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-24620 / Sole Purpose",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sole Purpose: Versatility；选项描述：100% increased damage of skills created。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/34"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-379 / Cultivate the Sea",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Cultivate the Sea: Desert；选项描述：Desert。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/35"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-12090 / Expanding Territory",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Expanding Territory: Remnants；选项描述：10% chance for an additional Verisium Remnant。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/36"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-51877 / Calculated Investment",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Calculated Investment: Quantity；选项描述：1% increased Quantity of Items dropped by Monsters per Runic Modifier。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/37"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-52933 / Steady Development",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Steady Development: Remnants；选项描述：Remnant。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/38"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-182 / Strategic Advantage",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Strategic Advantage: Speed；选项描述：Explosives only wait for 50% of Monsters to be slain before continuing。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/39"
+      }
+    ]
+  },
+  {
+    "scope": "Expedition / node-42673 / Double or Nothing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Double or Nothing: Double；选项描述：25% chance to add an additional Runic Modifier。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/0/atlasTree/keystoneNodes/40"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Ritual Belts/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Ritual Belts/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-38492 / Essence Dowsing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Essence Dowsing: Abrasion；选项描述：Greater Essence of Abrasion and Perfect Essence of Abrasion。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-41868 / Well-equipped Opponents",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Well-equipped Opponents: Dexterity；选项描述：Dexterity。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-4728 / Unseen Rivers",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Unseen Rivers: Primal；选项描述：Primal Spirits。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-7116 / Divined Blessing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Divined Blessing: Seeking Shrine；选项描述：Seeking Shrines。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-15634 / Craftsman's Creed",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Craftsman's Creed: Starkness of Heart；选项描述：No additional Prefix Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-46664 / Sacred Sap",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sacred Sap: Commingled；选项描述：When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-13881 / Evolving Throngs",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Evolving Throngs: Swarm；选项描述：10% increased Magic Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-36733 / Fabled Showdown",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Favour the Villain；选项描述：25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-6670 / Overlord's Influence",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Influence: Azmeri Spirit；选项描述：An additional Azmeri Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-36463 / Overlord's Domain",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Domain: Summoning Circle；选项描述：A Summoning Circle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-4434 / The Chosen Path",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Chosen Path: Summoning Circles；选项描述：Summoning Circles。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-1828 / Legendary Duels",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Legendary Duels: Renowned Jewelry；选项描述：Jewellery。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-21939 / Crystalline Patterns",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Crystalline Patterns: Battle；选项描述：Greater Essence of Battle and Perfect Essence of Battle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-26766 / Nemesis Rising",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Nemesis Rising: Additional Rare Monster；选项描述：Rare Monster Packs in your Maps have a 50% increased chance to have an Additional Rare Monster。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/13"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-26856 / Grass Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Grass Mastery: Perfect Currency；选项描述：5% chance Greater Currencies are upgraded to Perfect Currencies。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/14"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Rare Monsters；选项描述：15% increased Rare Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/15"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/16"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-5085 / History of the Faridun",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Faridun: Vastiri Woes；选项描述：Desert。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/17"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-12759 / Desert Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Desert Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/18"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Reign of the First Queen；选项描述：Forest。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/19"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-9648 / Swamp Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Swamp Mastery: Chaos；选项描述：10% chance Exalted Orbs drop as Chaos Orbs。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/20"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-12447 / Water Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Water Mastery: Currency；选项描述：Chests contain 15% increased Currency。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/21"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-42564 / Mountain Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Mountain Mastery: Tablets；选项描述：50% increased Quantity of Tablets found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/22"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/23"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/24"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-60086 / The Journey Ahead",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Journey Ahead: Pack Size；选项描述：6% increased Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/25"
+      }
+    ]
+  },
+  {
+    "scope": "Ritual Belts / node-20680 / On the Wind",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：On the Wind: Stability；选项描述：Azmeri Spirits no longer dematerialise when there are no players nearby。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/1/atlasTree/keystoneNodes/26"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Currency Abyss/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Currency Abyss/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-38492 / Essence Dowsing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Essence Dowsing: Abrasion；选项描述：Greater Essence of Abrasion and Perfect Essence of Abrasion。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-41868 / Well-equipped Opponents",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Well-equipped Opponents: Dexterity；选项描述：Dexterity。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-4728 / Unseen Rivers",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Unseen Rivers: Vivid；选项描述：Vivid Spirits。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-7116 / Divined Blessing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Divined Blessing: Seeking Shrine；选项描述：Seeking Shrines。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-15634 / Craftsman's Creed",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Craftsman's Creed: Starkness of Heart；选项描述：No additional Prefix Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-46664 / Sacred Sap",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sacred Sap: Commingled；选项描述：When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-13881 / Evolving Throngs",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Evolving Throngs: Swarm；选项描述：10% increased Magic Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-36733 / Fabled Showdown",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Favour the Villain；选项描述：25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-6670 / Overlord's Influence",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Influence: Strongbox；选项描述：An additional Strongbox。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-36463 / Overlord's Domain",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Domain: Rogue Exile；选项描述：An additional Rogue Exile。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-4434 / The Chosen Path",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Chosen Path: Rogue Exiles；选项描述：Rogue Exiles。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-1828 / Legendary Duels",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Legendary Duels: Renowned Jewelry；选项描述：Jewellery。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-21939 / Crystalline Patterns",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Crystalline Patterns: Battle；选项描述：Greater Essence of Battle and Perfect Essence of Battle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-26766 / Nemesis Rising",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Nemesis Rising: Additional Rare Monster；选项描述：Rare Monster Packs in your Maps have a 50% increased chance to have an Additional Rare Monster。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/13"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-26856 / Grass Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Grass Mastery: Perfect Currency；选项描述：5% chance Greater Currencies are upgraded to Perfect Currencies。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/14"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Rare Monsters；选项描述：15% increased Rare Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/15"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/16"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-5085 / History of the Faridun",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Faridun: Vastiri Woes；选项描述：Desert。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/17"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-12759 / Desert Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Desert Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/18"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Grand Waterways；选项描述：Water。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/19"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-9648 / Swamp Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Swamp Mastery: Chaos；选项描述：10% chance Exalted Orbs drop as Chaos Orbs。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/20"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-12447 / Water Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Water Mastery: Currency；选项描述：Chests contain 15% increased Currency。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/21"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-42564 / Mountain Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Mountain Mastery: Tablets；选项描述：50% increased Quantity of Tablets found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/22"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/23"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/24"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-60086 / The Journey Ahead",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Journey Ahead: Rarity；选项描述：10% increased Rarity of Items found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/25"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-31008 / Blood on the Stones",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Blood on the Stones: Bosses；选项描述：Summoning Circle Bosses are Powerful。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/26"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-965 / Balance of Power",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Balance of Power: Ulaman；选项描述：Ulaman。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/27"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-25524 / Vile Treasures",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Vile Treasures: Omens；选项描述：Omens。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/28"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-35469 / Lord of the Pit",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Lord of the Pit: Proliferation；选项描述：Abyss Pits are scattered throughout Areas with Abysses。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/29"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-20680 / On the Wind",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：On the Wind: Stability；选项描述：Azmeri Spirits no longer dematerialise when there are no players nearby。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/30"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-21420 / Recurring Nightmares",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Recurring Nightmares: Always Different.；选项描述：Delirium Fog spread to Maps has 50% increased chance to spread to an additional Map, Delirium Fog spread to additional Maps has 25% chance to spread to each connected Map。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/31"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-24620 / Sole Purpose",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sole Purpose: Versatility；选项描述：100% increased damage of skills created。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/32"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-63846 / Tear Open the Rift",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Tear Open the Rift: Minor Breach；选项描述：Add a Modifier to one revealed Map。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/33"
+      }
+    ]
+  },
+  {
+    "scope": "Currency Abyss / node-57514 / Shape the Chains",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Shape the Chains: Empower Rares；选项描述：30% increased Effectiveness of Rare Breach Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/2/atlasTree/keystoneNodes/34"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Breach Rares/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Breach Rares/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-38492 / Essence Dowsing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Essence Dowsing: Abrasion；选项描述：Greater Essence of Abrasion and Perfect Essence of Abrasion。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-41868 / Well-equipped Opponents",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Well-equipped Opponents: Dexterity；选项描述：Dexterity。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-4728 / Unseen Rivers",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Unseen Rivers: Vivid；选项描述：Vivid Spirits。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-7116 / Divined Blessing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Divined Blessing: Seeking Shrine；选项描述：Seeking Shrines。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-15634 / Craftsman's Creed",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Craftsman's Creed: Starkness of Heart；选项描述：No additional Prefix Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-46664 / Sacred Sap",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sacred Sap: Commingled；选项描述：When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-13881 / Evolving Throngs",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Evolving Throngs: Swarm；选项描述：10% increased Magic Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-36733 / Fabled Showdown",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Favour the Villain；选项描述：25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-6670 / Overlord's Influence",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Influence: Strongbox；选项描述：An additional Strongbox。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-36463 / Overlord's Domain",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Domain: Rogue Exile；选项描述：An additional Rogue Exile。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-4434 / The Chosen Path",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Chosen Path: Strongboxes；选项描述：Strongboxes。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-1828 / Legendary Duels",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Legendary Duels: Renowned Jewelry；选项描述：Jewellery。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-21939 / Crystalline Patterns",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Crystalline Patterns: Battle；选项描述：Greater Essence of Battle and Perfect Essence of Battle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-26766 / Nemesis Rising",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Nemesis Rising: Monster Modifiers；选项描述：Rare Monsters have 30% increased chance of Monster Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/13"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-26856 / Grass Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Grass Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/14"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Rare Monsters；选项描述：15% increased Rare Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/15"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/16"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-5085 / History of the Faridun",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Faridun: Vastiri Woes；选项描述：Desert。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/17"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-12759 / Desert Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Desert Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/18"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Reign of the First Queen；选项描述：Forest。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/19"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-9648 / Swamp Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Swamp Mastery: Chaos；选项描述：10% chance Exalted Orbs drop as Chaos Orbs。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/20"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-12447 / Water Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Water Mastery: Currency；选项描述：Chests contain 15% increased Currency。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/21"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-42564 / Mountain Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Mountain Mastery: Rarity；选项描述：6% increased Rarity of Items found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/22"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/23"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/24"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-60086 / The Journey Ahead",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Journey Ahead: Effectiveness；选项描述：15% increased Effectiveness of Monsters in your Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/25"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-31008 / Blood on the Stones",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Blood on the Stones: Bosses；选项描述：Summoning Circle Bosses are Powerful。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/26"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-965 / Balance of Power",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Balance of Power: Ulaman；选项描述：Ulaman。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/27"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-25524 / Vile Treasures",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Vile Treasures: Omens；选项描述：Omens。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/28"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-35469 / Lord of the Pit",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Lord of the Pit: Proliferation；选项描述：Abyss Pits are scattered throughout Areas with Abysses。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/29"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-21420 / Recurring Nightmares",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Recurring Nightmares: Always the Same.；选项描述：Delirium Fog spreads to +4 Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/30"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-4871 / Breeding Program",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Breeding Program: Lavish Fruit；选项描述：Lavish Wombgifts。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/31"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-57514 / Shape the Chains",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Shape the Chains: Empower Rares；选项描述：30% increased Effectiveness of Rare Breach Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/32"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-63846 / Tear Open the Rift",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Tear Open the Rift: Major Breach；选项描述：Consume an additional Breachstone to add Modifiers to all revealed Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/33"
+      }
+    ]
+  },
+  {
+    "scope": "Breach Rares / node-24620 / Sole Purpose",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sole Purpose: Versatility；选项描述：100% increased damage of skills created。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/3/atlasTree/keystoneNodes/34"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Abyss Rares/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Abyss Rares/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-38492 / Essence Dowsing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Essence Dowsing: Abrasion；选项描述：Greater Essence of Abrasion and Perfect Essence of Abrasion。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-41868 / Well-equipped Opponents",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Well-equipped Opponents: Dexterity；选项描述：Dexterity。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-4728 / Unseen Rivers",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Unseen Rivers: Vivid；选项描述：Vivid Spirits。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-7116 / Divined Blessing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Divined Blessing: Seeking Shrine；选项描述：Seeking Shrines。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-15634 / Craftsman's Creed",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Craftsman's Creed: Starkness of Heart；选项描述：No additional Prefix Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-46664 / Sacred Sap",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sacred Sap: Commingled；选项描述：When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-13881 / Evolving Throngs",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Evolving Throngs: Swarm；选项描述：10% increased Magic Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-36733 / Fabled Showdown",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Favour the Villain；选项描述：25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-6670 / Overlord's Influence",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Influence: Shrine；选项描述：An additional Shrine。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-36463 / Overlord's Domain",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Domain: Rogue Exile；选项描述：An additional Rogue Exile。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-4434 / The Chosen Path",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Chosen Path: Rogue Exiles；选项描述：Rogue Exiles。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-1828 / Legendary Duels",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Legendary Duels: Renowned Jewelry；选项描述：Jewellery。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-21939 / Crystalline Patterns",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Crystalline Patterns: Battle；选项描述：Greater Essence of Battle and Perfect Essence of Battle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-26766 / Nemesis Rising",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Nemesis Rising: Additional Rare Monster；选项描述：Rare Monster Packs in your Maps have a 50% increased chance to have an Additional Rare Monster。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/13"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-26856 / Grass Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Grass Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/14"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Rare Monsters；选项描述：15% increased Rare Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/15"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/16"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-5085 / History of the Faridun",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Faridun: Mutewind Alliance；选项描述：Mountain。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/17"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-12759 / Desert Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Desert Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/18"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Reign of the First Queen；选项描述：Forest。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/19"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-9648 / Swamp Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Swamp Mastery: Chaos；选项描述：10% chance Exalted Orbs drop as Chaos Orbs。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/20"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-12447 / Water Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Water Mastery: Currency；选项描述：Chests contain 15% increased Currency。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/21"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-42564 / Mountain Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Mountain Mastery: Rarity；选项描述：6% increased Rarity of Items found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/22"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/23"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/24"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-60086 / The Journey Ahead",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Journey Ahead: Pack Size；选项描述：6% increased Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/25"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-31008 / Blood on the Stones",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Blood on the Stones: Bosses；选项描述：Summoning Circle Bosses are Powerful。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/26"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-965 / Balance of Power",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Balance of Power: Amanamu；选项描述：Amanamu。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/27"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-25524 / Vile Treasures",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Vile Treasures: Omens；选项描述：Omens。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/28"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-35469 / Lord of the Pit",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Lord of the Pit: Proliferation；选项描述：Abyss Pits are scattered throughout Areas with Abysses。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/29"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-21420 / Recurring Nightmares",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Recurring Nightmares: Always the Same.；选项描述：Delirium Fog spreads to +4 Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/30"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-4871 / Breeding Program",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Breeding Program: Lavish Fruit；选项描述：Lavish Wombgifts。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/31"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-57514 / Shape the Chains",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Shape the Chains: Empower Rares；选项描述：30% increased Effectiveness of Rare Breach Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/32"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-63846 / Tear Open the Rift",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Tear Open the Rift: Major Breach；选项描述：Consume an additional Breachstone to add Modifiers to all revealed Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/33"
+      }
+    ]
+  },
+  {
+    "scope": "Abyss Rares / node-24620 / Sole Purpose",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sole Purpose: Versatility；选项描述：100% increased damage of skills created。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/4/atlasTree/keystoneNodes/34"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Lineage Gems/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Lineage Gems/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-965 / Balance of Power",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Balance of Power: Amanamu；选项描述：Amanamu。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-25524 / Vile Treasures",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Vile Treasures: Omens；选项描述：Omens。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-35469 / Lord of the Pit",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Lord of the Pit: Proliferation；选项描述：Abyss Pits are scattered throughout Areas with Abysses。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-21420 / Recurring Nightmares",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Recurring Nightmares: Always the Same.；选项描述：Delirium Fog spreads to +4 Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-4871 / Breeding Program",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Breeding Program: Lavish Fruit；选项描述：Lavish Wombgifts。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-57514 / Shape the Chains",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Shape the Chains: Empower Rares；选项描述：30% increased Effectiveness of Rare Breach Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-63846 / Tear Open the Rift",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Tear Open the Rift: Major Breach；选项描述：Consume an additional Breachstone to add Modifiers to all revealed Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-24620 / Sole Purpose",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sole Purpose: Versatility；选项描述：100% increased damage of skills created。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Reign of the First Queen；选项描述：Forest。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Lineage Gems / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Lineage Gems；选项描述：50% increased chance to find Lineage Supports。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/5/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush",
+    "field": "Atlas Tree 连线定义/节点全效果",
+    "kind": "tool_not_retrieved",
+    "details": "已保存实际树图和已选 ID；canvas 机器连线、节点完整效果定义未取得。公开静态脚本 GET 返回403后未绕过限制。",
+    "evidence": [
+      {
+        "file": "evidence/atlas/Deli Rush/Atlas Tree-full-state.json"
+      },
+      {
+        "file": "evidence/atlas/Deli Rush/Atlas Tree-full.jpg"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-38492 / Essence Dowsing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Essence Dowsing: Abrasion；选项描述：Greater Essence of Abrasion and Perfect Essence of Abrasion。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/0"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-41868 / Well-equipped Opponents",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Well-equipped Opponents: Dexterity；选项描述：Dexterity。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/1"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-4728 / Unseen Rivers",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Unseen Rivers: Vivid；选项描述：Vivid Spirits。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/2"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-7116 / Divined Blessing",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Divined Blessing: Seeking Shrine；选项描述：Seeking Shrines。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/3"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-15634 / Craftsman's Creed",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Craftsman's Creed: Starkness of Heart；选项描述：No additional Prefix Modifiers。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/4"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-46664 / Sacred Sap",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sacred Sap: Commingled；选项描述：When a Monster is Possessed by a Sacred Spirit it is also Possessed by another random Spirit。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/5"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-13881 / Evolving Throngs",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Evolving Throngs: Swarm；选项描述：10% increased Magic Pack Size。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/6"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-36733 / Fabled Showdown",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Favour the Villain；选项描述：25% chance Shrine Buffs are instead applied to the Boss when activated, granting an additional reward。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/7"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-6670 / Overlord's Influence",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Influence: Shrine；选项描述：An additional Shrine。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/8"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-36463 / Overlord's Domain",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Overlord's Domain: Rogue Exile；选项描述：An additional Rogue Exile。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/9"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-4434 / The Chosen Path",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Chosen Path: Rogue Exiles；选项描述：Rogue Exiles。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/10"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-1828 / Legendary Duels",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Legendary Duels: Renowned Jewelry；选项描述：Jewellery。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/11"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-21939 / Crystalline Patterns",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Crystalline Patterns: Battle；选项描述：Greater Essence of Battle and Perfect Essence of Battle。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/12"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-26766 / Nemesis Rising",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Nemesis Rising: Additional Rare Monster；选项描述：Rare Monster Packs in your Maps have a 50% increased chance to have an Additional Rare Monster。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/13"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-26856 / Grass Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Grass Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/14"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-52589 / Forest Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Forest Mastery: Rare Monsters；选项描述：15% increased Rare Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/15"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-57779 / History of the Ezomytes",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Ezomytes: Eastern Phaaryl；选项描述：Grass。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/16"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-5085 / History of the Faridun",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Faridun: Vastiri Woes；选项描述：Desert。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/17"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-12759 / Desert Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Desert Mastery: Effectiveness；选项描述：15% increased Effectiveness of Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/18"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-38896 / History of the Vaal",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：History of the Vaal: Reign of the First Queen；选项描述：Forest。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/19"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-9648 / Swamp Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Swamp Mastery: Chaos；选项描述：10% chance Exalted Orbs drop as Chaos Orbs。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/20"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-12447 / Water Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Water Mastery: Currency；选项描述：Chests contain 15% increased Currency。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/21"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-42564 / Mountain Mastery",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Mountain Mastery: Rarity；选项描述：6% increased Rarity of Items found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/22"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-39561 / Traveller's Woe",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Traveller's Woe: Tainted；选项描述：Tainted。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/23"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-20223 / Invigorated Sacrifices",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Invigorated Sacrifices: Contrition；选项描述：Skills from Ritual Altars deal 50% increased Damage, Ritual Altars offer 10% increased number of Favours。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/24"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-60086 / The Journey Ahead",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：The Journey Ahead: Rarity；选项描述：10% increased Rarity of Items found。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/25"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-31008 / Blood on the Stones",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Blood on the Stones: Bosses；选项描述：Summoning Circle Bosses are Powerful。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/26"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-965 / Balance of Power",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Balance of Power: Amanamu；选项描述：Amanamu。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/27"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-25524 / Vile Treasures",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Vile Treasures: Omens；选项描述：Omens。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/28"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-35469 / Lord of the Pit",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Lord of the Pit: Proliferation；选项描述：Abyss Pits are scattered throughout Areas with Abysses。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/29"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-21420 / Recurring Nightmares",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Recurring Nightmares: Always the Same.；选项描述：Delirium Fog spreads to +4 Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/30"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-4871 / Breeding Program",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Breeding Program: Lavish Fruit；选项描述：Lavish Wombgifts。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/31"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-57514 / Shape the Chains",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Shape the Chains: Empower Rares；选项描述：30% increased Effectiveness of Rare Breach Monsters。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/32"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-63846 / Tear Open the Rift",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Tear Open the Rift: Major Breach；选项描述：Consume an additional Breachstone to add Modifiers to all revealed Maps。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/33"
+      }
+    ]
+  },
+  {
+    "scope": "Deli Rush / node-24620 / Sole Purpose",
+    "field": "多选候选全集及父节点完整效果",
+    "kind": "tool_not_retrieved",
+    "details": "实际已选明确：Sole Purpose: Versatility；选项描述：100% increased damage of skills created。其他候选不能冒充已选，完整父效果不由选项值推造。",
+    "evidence": [
+      {
+        "file": "evidence/public-data/atlas-document.json",
+        "json_pointer": "/data/data/buildVariants/values/6/atlasTree/keystoneNodes/34"
+      }
+    ]
+  }
+]

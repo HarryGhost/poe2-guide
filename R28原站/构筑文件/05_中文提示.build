@@ -1,0 +1,1309 @@
+{
+  "author": "Fubgun",
+  "link": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+  "ascendancy": "Ranger1",
+  "inventory_slots": [
+    {
+      "additional_text": "寻战之弓\n1. 暴击率 +3.1%（武器本地加值）\n2. 附加 16 至 28 点物理伤害（武器本地）\n3. 附加 40 至 62 点冰霜伤害（武器本地）\n4. 物理伤害提高 135%\n5. 所有投射物技能等级 +2\n6. 暴击伤害加成提高 20%\n英文：Warmonger Bow\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Weapon1",
+      "level_interval": [
+        77,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "inventory_id": "Offhand1",
+      "slot_x": 0,
+      "slot_y": 0,
+      "unique_name": "Cadiro's Gambit",
+      "additional_text": "卡迪罗的赌局（暗金；原文件没有完整词条）\n英文：Cadiro's Gambit\n未列词条、品质与插槽没有补造。"
+    },
+    {
+      "additional_text": "先祖冠冕\n1. 最大能量护盾 +48\n2. 能量护盾提高 92%\n英文：Ancestral Tiara\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Helm1",
+      "level_interval": [
+        80,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "海盗外套\n1. 闪避值 +333\n2. 闪避值提高 140%\n3. 获得相当于闪避值 21% 的偏转值\n英文：Corsair Coat\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "BodyArmour1",
+      "level_interval": [
+        80,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "宏伟护腕\n1. 最大生命 +120\n2. 附加 7 至 14 点物理伤害（攻击）\n3. 附加 14 至 22 点冰霜伤害（攻击）\n4. 暴击伤害加成提高 30%\n英文：Grand Bracers\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Gloves1",
+      "level_interval": [
+        70,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "嵌刃便鞋\n1. 闪避值与能量护盾提高 92%\n2. 移动速度提高 35%\n3. 获得相当于闪避值 21% 的偏转值\n英文：Bladed Shoes\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Boots1",
+      "level_interval": [
+        65,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "星辉项链\n1. 所有投射物技能等级 +3\n2. 精魂 +47\n英文：Stellar Amulet\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Amulet1",
+      "level_interval": [
+        24,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "inventory_id": "Belt1",
+      "slot_x": 0,
+      "slot_y": 0,
+      "unique_name": "Headhunter",
+      "additional_text": "猎首（暗金；原文件没有完整词条）\n英文：Headhunter\n未列词条、品质与插槽没有补造。"
+    },
+    {
+      "additional_text": "三相戒指\n1. 附加 1 至 48 点闪电伤害（攻击）\n2. 附加 10 至 18 点物理伤害（攻击）\n3. 附加 16 至 25 点冰霜伤害（攻击）\n英文：Prismatic Ring\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Ring1",
+      "level_interval": [
+        35,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "三相戒指\n1. 附加 1 至 48 点闪电伤害（攻击）\n2. 附加 10 至 18 点物理伤害（攻击）\n3. 附加 16 至 25 点冰霜伤害（攻击）\n英文：Prismatic Ring\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Ring2",
+      "level_interval": [
+        35,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "additional_text": "终极生命药剂\n1. 回复量的 28% 立即生效\n英文：Ultimate Life Flask\n未列词条、品质与插槽没有补造。",
+      "inventory_id": "Flask1",
+      "level_interval": [
+        60,
+        100
+      ],
+      "slot_x": 0,
+      "slot_y": 0
+    },
+    {
+      "inventory_id": "Flask1",
+      "slot_x": 1,
+      "slot_y": 0,
+      "unique_name": "Lavianga's Spirits",
+      "additional_text": "拉维安加之灵（暗金；原文件没有完整词条）\n英文：Lavianga's Spirits\n未列词条、品质与插槽没有补造。"
+    },
+    {
+      "inventory_id": "Charm1",
+      "slot_x": 0,
+      "slot_y": 0,
+      "unique_name": "Nascent Hope",
+      "additional_text": "新生希望（暗金；原文件没有完整词条）\n英文：Nascent Hope\n未列词条、品质与插槽没有补造。"
+    },
+    {
+      "inventory_id": "Charm1",
+      "slot_x": 1,
+      "slot_y": 0,
+      "unique_name": "The Fall of the Axe",
+      "additional_text": "落刃时刻（暗金；原文件没有完整词条）\n英文：The Fall of the Axe\n未列词条、品质与插槽没有补造。"
+    },
+    {
+      "inventory_id": "Charm1",
+      "slot_x": 2,
+      "slot_y": 0,
+      "unique_name": "Rite of Passage",
+      "additional_text": "仪式通道（暗金；原文件没有完整词条）\n英文：Rite of Passage\n未列词条、品质与插槽没有补造。"
+    }
+  ],
+  "name": "05 高配 · 以冰射承担首领输出 - 0.5.5",
+  "passives": [
+    {
+      "id": "dexterity20",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity20\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes29",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes29\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity34",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity34\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity6",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity6\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "shadow_monk_notable2",
+      "additional_text": "迷踪步履\n状态：简体资料有来源\nID: shadow_monk_notable2\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield27",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield27\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield35_",
+      "additional_text": "机警感知\n状态：DSH词典待复核\nID: evasion_and_energy_shield35_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield26",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield26\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "shadow_monk_notable1",
+      "additional_text": "势如流水\n状态：简体资料有来源\nID: shadow_monk_notable1\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion17_",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: evasion17_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion31",
+      "additional_text": "动如脱兔\n状态：DSH词典待复核\nID: evasion31\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "jewel_slot1960",
+      "additional_text": "珠宝插槽\n状态：DSH词典待复核\nID: jewel_slot1960\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity12_",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity12_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity54",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity54\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack6",
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack6\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack2",
+      "additional_text": "攻击伤害和移动速度\n状态：DSH词典待复核\nID: attack2\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity55",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity55\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity82_",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity82_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "movement_speed5",
+      "additional_text": "技能速度\n状态：DSH词典待复核\nID: movement_speed5\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "movement_speed4",
+      "additional_text": "技能速度\n状态：DSH词典待复核\nID: movement_speed4\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "movement_speed9",
+      "additional_text": "加速\n状态：DSH词典待复核\nID: movement_speed9\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity52",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity52\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity51",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity51\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes10",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity50",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity50\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "jewel_slot1976",
+      "additional_text": "珠宝插槽\n状态：DSH词典待复核\nID: jewel_slot1976\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield17",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield17\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield15",
+      "additional_text": "光芒万丈\n状态：DSH词典待复核\nID: evasion_and_energy_shield15\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield16",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield16\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes28",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes28\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "intelligence7",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: intelligence7\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "jewel_slot1961",
+      "additional_text": "珠宝插槽\n状态：DSH词典待复核\nID: jewel_slot1961\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals38",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: azmerianimals38\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals40",
+      "additional_text": "偏转\n状态：DSH词典待复核\nID: azmerianimals40\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals41",
+      "additional_text": "偏转\n状态：DSH词典待复核\nID: azmerianimals41\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals42",
+      "additional_text": "荒野之豹\n状态：简体资料有来源\nID: azmerianimals42\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals11",
+      "additional_text": "暴击率\n状态：DSH词典待复核\nID: criticals11\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals3",
+      "additional_text": "溅水白浪\n状态：DSH词典待复核\nID: criticals3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals12",
+      "additional_text": "暴击率\n状态：DSH词典待复核\nID: criticals12\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "intelligence10",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: intelligence10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "intelligence66",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: intelligence66\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals10",
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals17",
+      "additional_text": "暴击率\n状态：DSH词典待复核\nID: criticals17\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals28",
+      "additional_text": "真实之击\n状态：DSH词典待复核\nID: criticals28\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals45",
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals45\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals29",
+      "additional_text": "直取咽喉\n状态：DSH词典待复核\nID: criticals29\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals52",
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals52\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals54_",
+      "additional_text": "心伤\n状态：DSH词典待复核\nID: criticals54_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals57_",
+      "additional_text": "攻击暴击伤害\n状态：DSH词典待复核\nID: criticals57_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals55_",
+      "additional_text": "穿身而过\n状态：DSH词典待复核\nID: criticals55_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals59",
+      "additional_text": "攻击暴击率\n状态：DSH词典待复核\nID: criticals59\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals53",
+      "additional_text": "心悸\n状态：简体资料有来源\nID: criticals53\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes27",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes27\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "bow5",
+      "additional_text": "弓类伤害\n状态：DSH词典待复核\nID: bow5\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity5",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity5\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity10",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity39",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity39\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity11",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity11\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity40",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity40\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield24",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield24\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield23",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield23\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield25",
+      "additional_text": "诡计面纱\n状态：简体资料有来源\nID: evasion_and_energy_shield25\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental28",
+      "additional_text": "元素伤害和感电几率\n状态：DSH词典待复核\nID: elemental28\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental25",
+      "additional_text": "元素伤害和感电几率\n状态：DSH词典待复核\nID: elemental25\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental18",
+      "additional_text": "元素伤害和感电几率\n状态：DSH词典待复核\nID: elemental18\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental27",
+      "additional_text": "元素伤害与冻结积蓄\n状态：DSH词典待复核\nID: elemental27\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental26",
+      "additional_text": "元素伤害与冻结积蓄\n状态：DSH词典待复核\nID: elemental26\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental16",
+      "additional_text": "元素伤害与冻结积蓄\n状态：DSH词典待复核\nID: elemental16\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental32",
+      "additional_text": "驾驭元素\n状态：DSH词典待复核\nID: elemental32\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "intelligence25",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: intelligence25\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity9",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity9\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield5",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield5\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield8",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield8\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield22",
+      "additional_text": "闪避和能量护盾\n状态：DSH词典待复核\nID: evasion_and_energy_shield22\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion_and_energy_shield11",
+      "additional_text": "魂灵结界\n状态：DSH词典待复核\nID: evasion_and_energy_shield11\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental_attacks6",
+      "additional_text": "元素攻击伤害\n状态：DSH词典待复核\nID: elemental_attacks6\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "elemental_attacks8",
+      "additional_text": "催化反应\n状态：DSH词典待复核\nID: elemental_attacks8\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion24_",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: evasion24_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion21",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: evasion21\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion28",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: evasion28\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion33",
+      "additional_text": "猛兽之肤\n状态：简体资料有来源\nID: evasion33\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals58",
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals58\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack41__",
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack41__\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion11",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: evasion11\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "evasion12",
+      "additional_text": "闪避\n状态：DSH词典待复核\nID: evasion12\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "movement_speed1",
+      "additional_text": "移动速度\n状态：DSH词典待复核\nID: movement_speed1\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "movement_speed3",
+      "additional_text": "移动速度\n状态：DSH词典待复核\nID: movement_speed3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "ranger_huntress_notable1",
+      "additional_text": "模糊身影\n状态：DSH词典待复核\nID: ranger_huntress_notable1\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity23_",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity23_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity22",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity22\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity21",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity21\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity38",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity38\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack51",
+      "additional_text": "攻击伤害和速度\n状态：DSH词典待复核\nID: attack51\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack50",
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack50\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack46",
+      "additional_text": "吸收之力\n状态：DSH词典待复核\nID: attack46\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack5",
+      "weapon_set": 1,
+      "additional_text": "瘫痪打击\n状态：DSH词典待复核\nID: attack5\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "heralds12_",
+      "weapon_set": 1,
+      "additional_text": "捷伤害\n状态：DSH词典待复核\nID: heralds12_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "heralds10",
+      "weapon_set": 1,
+      "additional_text": "捷伤害\n状态：DSH词典待复核\nID: heralds10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "heralds16_",
+      "weapon_set": 1,
+      "additional_text": "灾难使者\n状态：DSH词典待复核\nID: heralds16_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals13",
+      "weapon_set": 1,
+      "additional_text": "暴击率\n状态：DSH词典待复核\nID: criticals13\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals18",
+      "weapon_set": 1,
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals18\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals50",
+      "weapon_set": 1,
+      "additional_text": "夺命力量\n状态：DSH词典待复核\nID: criticals50\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "bow9",
+      "weapon_set": 1,
+      "additional_text": "弓类暴击伤害\n状态：DSH词典待复核\nID: bow9\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "bow14",
+      "weapon_set": 1,
+      "additional_text": "狙击手\n状态：DSH词典待复核\nID: bow14\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "bow7",
+      "weapon_set": 1,
+      "additional_text": "弓类暴击伤害\n状态：DSH词典待复核\nID: bow7\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack13_",
+      "weapon_set": 1,
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack13_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack14",
+      "weapon_set": 1,
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack14\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack16",
+      "weapon_set": 1,
+      "additional_text": "致盲打击\n状态：DSH词典待复核\nID: attack16\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "daze_3",
+      "weapon_set": 1,
+      "additional_text": "对恍惚敌人的伤害和暴击\n状态：DSH词典待复核\nID: daze_3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "daze_4",
+      "weapon_set": 1,
+      "additional_text": "对恍惚敌人的伤害\n状态：DSH词典待复核\nID: daze_4\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "daze_2",
+      "weapon_set": 1,
+      "additional_text": "茫然无措\n状态：DSH词典待复核\nID: daze_2\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "daze_7",
+      "weapon_set": 1,
+      "additional_text": "对恍惚敌人的暴击\n状态：DSH词典待复核\nID: daze_7\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "daze_19",
+      "weapon_set": 1,
+      "additional_text": "晕眩击中\n状态：简体资料有来源\nID: daze_19\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals43_",
+      "weapon_set": 1,
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals43_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals42",
+      "weapon_set": 1,
+      "additional_text": "暴击伤害\n状态：DSH词典待复核\nID: criticals42\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "criticals38_",
+      "weapon_set": 1,
+      "additional_text": "求真时刻\n状态：DSH词典待复核\nID: criticals38_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack42",
+      "weapon_set": 1,
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack42\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack43",
+      "weapon_set": 1,
+      "additional_text": "攻击伤害\n状态：DSH词典待复核\nID: attack43\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attack45",
+      "weapon_set": 1,
+      "additional_text": "连续攻击\n状态：DSH词典待复核\nID: attack45\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity81",
+      "weapon_set": 2,
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity81\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes9",
+      "weapon_set": 2,
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes9\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks16",
+      "weapon_set": 2,
+      "additional_text": "印记效果\n状态：DSH词典待复核\nID: marks16\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks5_",
+      "weapon_set": 2,
+      "additional_text": "印记效果\n状态：DSH词典待复核\nID: marks5_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks15",
+      "weapon_set": 2,
+      "additional_text": "印记持续时间\n状态：DSH词典待复核\nID: marks15\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks12",
+      "weapon_set": 2,
+      "additional_text": "弊病印记\n状态：DSH词典待复核\nID: marks12\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks8",
+      "weapon_set": 2,
+      "additional_text": "印记使用速度\n状态：DSH词典待复核\nID: marks8\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks13",
+      "weapon_set": 2,
+      "additional_text": "印记持续时间\n状态：DSH词典待复核\nID: marks13\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks17",
+      "weapon_set": 2,
+      "additional_text": "标记敏捷\n状态：DSH词典待复核\nID: marks17\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "shock3",
+      "weapon_set": 2,
+      "additional_text": "感电效果\n状态：DSH词典待复核\nID: shock3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "shock4",
+      "weapon_set": 2,
+      "additional_text": "感电效果\n状态：DSH词典待复核\nID: shock4\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "shock15",
+      "weapon_set": 2,
+      "additional_text": "感电效果\n状态：DSH词典待复核\nID: shock15\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "shock6",
+      "weapon_set": 2,
+      "additional_text": "疲乏\n状态：DSH词典待复核\nID: shock6\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity85_",
+      "weapon_set": 2,
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity85_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity57",
+      "weapon_set": 2,
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity57\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes74",
+      "weapon_set": 2,
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes74\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity58",
+      "weapon_set": 2,
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity58\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks32",
+      "weapon_set": 2,
+      "additional_text": "印记使用速度\n状态：DSH词典待复核\nID: marks32\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks29",
+      "weapon_set": 2,
+      "additional_text": "印记效果和致盲效果\n状态：DSH词典待复核\nID: marks29\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "marks30",
+      "weapon_set": 2,
+      "additional_text": "印记效果和致盲几率\n状态：DSH词典待复核\nID: marks30\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals47",
+      "weapon_set": 2,
+      "additional_text": "敏捷\n状态：DSH词典待复核\nID: azmerianimals47\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals43",
+      "weapon_set": 2,
+      "additional_text": "异常状态强度\n状态：DSH词典待复核\nID: azmerianimals43\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals44",
+      "weapon_set": 2,
+      "additional_text": "异常状态强度\n状态：DSH词典待复核\nID: azmerianimals44\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "azmerianimals48",
+      "weapon_set": 2,
+      "additional_text": "显贵头狼\n状态：DSH词典待复核\nID: azmerianimals48\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Start",
+      "additional_text": "锐眼\n状态：简体资料有来源\nID: AscendancyRanger1Start\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Small2",
+      "additional_text": "投射物速度\n状态：DSH词典待复核\nID: AscendancyRanger1Small2\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Notable2_Choice",
+      "additional_text": "投射物近距离专精\n状态：简体资料有来源\nID: AscendancyRanger1Notable2_Choice\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Small1__",
+      "additional_text": "投射物速度\n状态：DSH词典待复核\nID: AscendancyRanger1Small1__\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Notable1",
+      "additional_text": "无限弹药\n状态：简体资料有来源\nID: AscendancyRanger1Notable1\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Notable2_2",
+      "additional_text": "零点射击\n状态：简体资料有来源\nID: AscendancyRanger1Notable2_2\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Small3",
+      "additional_text": "技能速度\n状态：DSH词典待复核\nID: AscendancyRanger1Small3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Notable3",
+      "additional_text": "聚风\n状态：简体资料有来源\nID: AscendancyRanger1Notable3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Small8",
+      "additional_text": "投射物伤害\n状态：DSH词典待复核\nID: AscendancyRanger1Small8\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "AscendancyRanger1Notable4",
+      "additional_text": "蜃影神射\n状态：简体资料有来源\nID: AscendancyRanger1Notable4\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity85_",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity85_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity57",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity57\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes74",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes74\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity15",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity15\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity14",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity14\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity87",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity87\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity8",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity8\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity3",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity3\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity16",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity16\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity18",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity18\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "intelligence10",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: intelligence10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "attributes11",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: attributes11\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity48",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity48\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity5",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity5\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity10",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity10\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity36",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity36\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity38",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity38\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity39",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity39\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity11",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity11\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity40",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity40\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity23_",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity23_\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity22",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity22\n此记录不是逐级加点顺序。"
+    },
+    {
+      "id": "dexterity21",
+      "additional_text": "属性\n状态：DSH词典待复核\nID: dexterity21\n此记录不是逐级加点顺序。"
+    }
+  ],
+  "skills": [
+    {
+      "id": "Metadata/Items/Gem/SkillGemIceShot",
+      "level_interval": [
+        31,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "元素军械 II / Elemental Armament II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIceBiteTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "霜咬 II / Ice Bite II"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemGarukhansResolve",
+          "level_interval": [
+            65,
+            100
+          ],
+          "additional_text": "格鲁坎的决心 / Garukhan's Resolve"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemFork",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "分叉 / Fork"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemRakiatasFlow",
+          "level_interval": [
+            65,
+            100
+          ],
+          "additional_text": "拉其塔之流 / Rakiata's Flow"
+        }
+      ],
+      "additional_text": "冰霜射击 / Ice Shot\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemTornadoShot",
+      "level_interval": [
+        41,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "持续时间延长 II / Prolonged Duration II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemOverabundanceTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "冗余 II / Overabundance II"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDurability",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "耐久度 / Durability"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "致盲 II / Blind II"
+        }
+      ],
+      "additional_text": "龙卷射击 / Tornado Shot\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemFreezingMark",
+      "level_interval": [
+        22,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMarkOfSiphoningTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "虹吸印记 II / Mark of Siphoning II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemChargedMark",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "充能印记 / Charged Mark"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemEternalMark",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "永恒印记 / Eternal Mark"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPersistenceTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "持续时间延长 II / Prolonged Duration II"
+        }
+      ],
+      "additional_text": "冰冻印记 / Freezing Mark\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemBarrage",
+      "level_interval": [
+        14,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "冷却回复 II / Cooldown Recovery II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemArcaneTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "快速施法 II / Rapid Casting II"
+        }
+      ],
+      "additional_text": "弹幕 / Barrage\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemHeraldOfIce",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemMagnifiedEffectTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "范围扩大 II / Magnified Area II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "元素军械 II / Elemental Armament II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemLongshotTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "远射 II / Longshot II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemColdInfusion",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "冰霜协调 / Cold Attunement"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemElementalFocus",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "元素集中 / Elemental Focus"
+        }
+      ],
+      "additional_text": "寒冰之捷 / Herald of Ice\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gems/SkillGemGhostDance",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "冷却回复 II / Cooldown Recovery II"
+        }
+      ],
+      "additional_text": "幽灵舞步 / Ghost Dance\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemWindDancer",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gems/SupportGemBludgeon",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "击退 / Knockback"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemBlindTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "致盲 II / Blind II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMaim",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "瘫痪 / Maim"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemAtzirisCommunion",
+          "level_interval": [
+            65,
+            100
+          ],
+          "additional_text": "阿兹里的圣礼 / Atziri's Communion"
+        }
+      ],
+      "additional_text": "风舞者 / Wind Dancer\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemManaRemnants",
+      "level_interval": [
+        10,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SupportGemInterludeThree",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "残片效能 III / Remnant Potency III"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDissipateTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "和谐残迹 II / Harmonic Remnants II"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemKhatalsRejuvenation",
+          "level_interval": [
+            65,
+            100
+          ],
+          "additional_text": "卡哈塔的复苏 / Khatal's Rejuvenation"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDiallasDesire",
+          "level_interval": [
+            65,
+            100
+          ],
+          "additional_text": "达拉的渴望 / Dialla's Desire"
+        }
+      ],
+      "additional_text": "魔力残片 / Mana Remnants\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemMirageArcher",
+      "level_interval": [
+        26,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "level_interval": [
+            31,
+            100
+          ],
+          "additional_text": "冰霜射击 / Ice Shot"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "元素军械 II / Elemental Armament II"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "从容不迫 / Deliberation"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "快速攻击 II / Rapid Attacks II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "冷却回复 II / Cooldown Recovery II"
+        }
+      ],
+      "additional_text": "幻影射手 / Mirage Archer\n原件连接；内嵌主动不等于辅助。"
+    },
+    {
+      "id": "Metadata/Items/Gem/SkillGemAscendancyMirageDeadeye",
+      "level_interval": [
+        1,
+        100
+      ],
+      "support_skills": [
+        {
+          "id": "Metadata/Items/Gem/SkillGemIceShot",
+          "level_interval": [
+            31,
+            100
+          ],
+          "additional_text": "冰霜射击 / Ice Shot"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemPrimalArmamentTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "元素军械 II / Elemental Armament II"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemMartialTempoTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "快速攻击 II / Rapid Attacks II"
+        },
+        {
+          "id": "Metadata/Items/Gem/SupportGemDeliberation",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "从容不迫 / Deliberation"
+        },
+        {
+          "id": "Metadata/Items/Gems/SupportGemIngenuityTwo",
+          "level_interval": [
+            1,
+            100
+          ],
+          "additional_text": "冷却回复 II / Cooldown Recovery II"
+        }
+      ],
+      "additional_text": "蜃影神射 / Mirage Deadeye\n原件连接；内嵌主动不等于辅助。"
+    }
+  ],
+  "description": "仅中文提示，原始ID与连接保留；不是新增逐级树。国服导入未实测。 不再配置狙击，技能孔和品质建议不应继续把狙击列为当前必升项。"
+}

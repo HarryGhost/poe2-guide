@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-05T09:45:18.165Z",
+  "source_url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+  "master": "Hilda",
+  "candidate": "Patient Battue",
+  "display_index": 10,
+  "panels": [
+    {
+      "html": "<div data-tippy-root=\"\" id=\"tippy-215\" style=\"pointer-events: none; z-index: 120000; position: fixed; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(329px, -191px, 0px);\" inert=\"\" data-popper-placement=\"top\"><div><div class=\"x1cvue7f x1i97zcw x1hv8zah xu70ewc x1qhigcl x1j9u4d2 x1n2onr6 x1n9hxaw x25l62i xiy17q3 x1bc63r9\"><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1n2onr6 x100vrsf x1vqgdyp xb3r6kr\"><img alt=\"Patient Battue\" width=\"40\" height=\"40\" class=\"x19kjcj4\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=80/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive10.webp\"></div><div><p class=\"x2klb21\">Patient Battue</p><p class=\"x139jznd x9uxgww\">Hilda's Hunting</p></div><p class=\"x139jznd x9uxgww x1fj9vlw\" style=\"color: var(--x1nw1xqh);\">25% chance 1 Rare Monster is replaced by a random Map Boss</p><p class=\"x139jznd x9uxgww x1fj9vlw\" style=\"color: var(--x1nw1xqh);\">5% chance 3 additional Rare Monsters are replaced by a random Map Boss</p><p class=\"x1cvue7f x1mkayr0 x1fj9vlw\">I'll make some noise and holler. Let's\r\nsee if I can drive them your way!</p></div></div></div></div>",
+      "text": "Patient Battue\n\nHilda's Hunting\n\n25% chance 1 Rare Monster is replaced by a random Map Boss\n\n5% chance 3 additional Rare Monsters are replaced by a random Map Boss\n\nI'll make some noise and holler. Let's\nsee if I can drive them your way!"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "html_pages": 56,
+  "atlas_pages": 15,
+  "local_references_checked": 5785,
+  "literal_fragments_checked": 1271,
+  "dynamic_hash_routes_schema_checked": 629,
+  "unchanged_original_files": 16,
+  "original_file_results": {
+    "filters/01_Fubgun_Early_Mapping.filter": true,
+    "filters/02_Fubgun_Bow_Campaign.filter": true,
+    "filters/03_Fubgun_Endgame_Mapping.filter": true,
+    "filters/04_Fubgun_Uber_Strict.filter": true,
+    "构筑文件/01_Early.build": true,
+    "构筑文件/01_中文提示.build": true,
+    "构筑文件/02_noncrit_Midgame.build": true,
+    "构筑文件/02_中文提示.build": true,
+    "构筑文件/03_noncrit_Hybrid.build": true,
+    "构筑文件/03_中文提示.build": true,
+    "构筑文件/04_Crit_Hybrid.build": true,
+    "构筑文件/04_中文提示.build": true,
+    "构筑文件/05_Uber_Endgame.build": true,
+    "构筑文件/05_中文提示.build": true,
+    "构筑文件/06_Live_Gear_冲突勿导入.build.txt": true,
+    "构筑文件/06_中文提示.build.txt": true
+  },
+  "seven_author_variants": true,
+  "e06_readonly": true,
+  "rebuild": {
+    "files_compared": 87,
+    "changed": [],
+    "identical": true
+  },
+  "issues": [],
+  "scope": "Static website and file consistency only; not game compatibility or live deployment."
+}

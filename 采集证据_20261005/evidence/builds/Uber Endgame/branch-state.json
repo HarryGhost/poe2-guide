@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-05T09:57:12.258Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+  "radios": [
+    {
+      "section_id": "8bea0704-759a-4763-997a-cf7dbe02e1fe",
+      "value": "set1"
+    },
+    {
+      "section_id": "1f661161-9a7a-45a8-a06a-5d8cca2a0dd3",
+      "value": "choices"
+    }
+  ],
+  "sections": [
+    {
+      "id": "8bea0704-759a-4763-997a-cf7dbe02e1fe",
+      "text": "Equipment\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\nSet 1\nSet 2\n5\n6\n9\n1\n8\n6\n4\n3\n7\n2\nJewels\nEquipment Priority\nTrack Build\nShow All\n\nMandatory Stats: Make sure to fill out your resist, you want 75% fire/cold/lightning resist. Chaos resist is good, but not mandatory to have 75%, I usually aim for 30-50%. You'll also most likely need 1-2 attribute rolls on gear, belt will solve strength and if you need intelligence, get it on a ring or amulet.\n\nHybrid swap: You want the highest Energy shield helmet you can afford and a very high evasion chest to make \nGhost Dance\n effective, as it's your only way to recover ES. I would also try to get good hybrid boots. You'll probably need intelligence on helmet to have enough attributes.\n\nRings/glove: try to focus on high flat damage to attacks, preferable cold/phys.\n\nBow: When swapping to crit, you want a high crit bow, preferable with t3 %crit or higher. (3% or more). After that, get the highest dps you can afford or craft.\n\nQuiver: You preferable want a crit quiver on the \nVisceral Quiver\n base. You'll want both crit hit chance and crit damage. Good prefixes are bow damage/proj speed/cold damage to attack/phys damage to attacks. \nCadiro's Gambit\n is also a really good quiver and highly worth getting once you can afford it (I would only use this quiver if you're crit).\n\namulet: Preferable want +proj levels. Crit chance/crit damage is also good, once you swap to crit. Attributes/resist are also fine here. You need at least 45 spirit on the amulet to use all spirit gems. Crit on amulet is also strong, but might be expensive with spirit and +3 proj.\n\nHelmet: It's very important to have a high ES helmet because of \nSubterfuge Mask\n.\n\nChest: you want the highest evasion chest you can afford, this is very important for defense, specially when combined with \nBeastial Skin\n on the passive tree. use \nGreater Iron Rune\n\n\n\nBoots: You want the highest movement speed boots you can afford, it's a very important stat. Besides that look for high life/resistance.\n\nBelt: \nHeadhunter\n is the best choice if you're doing high juice maps, the new \nMageblood\n is also a good option if you're doing strats without a lot of rares. (quicksilver/silver/jade)\n\nRarity: Still really good in 0.5, I would try to hit at least 100% if you want to farm efficiently (don't focus on this if you feel like you're lacking damage or defense)\n\nJewels on tree: Just looking for generic damage: attack damage, elemental damage, movement speed, bonus from quivers, projectile damage, attack speed, crit chance, crit damage, etc.\nEventually you'll also want \nHeart of the Well\n with double \"gain as extra\" and \nAgainst the Darkness\n with double again as extra as well.\n\nRite of Passage\n: Cat aspect is the best, but Stag and wolf are also good.\n\nimportant:\nYou'll want 1 sapphire jewel with mana on kill to sustain mana during mapping. For bosses, having \nMark of Siphoning II\n on \nFreezing Mark\n with \nEternal Mark\n should give you enough sustain.\n\nAnoint: \nSerrated Edges\n or  \nBeastial Skin\n for defense\nHelm Anoint: \nThin Ice\n\n\n\n---Mana Issues\nThere's a few things you can do here to help out your mana sustain and I'll list them all here.\nReminder: Always run one jewel with 2% mana on kill.\n\n1) Run a regular mana flask with increased recovery and just use your mana flask button, this along with a 2% mana on kill jewel will easily sustain you\n2) Take \nConservative Casting\n for 3 passives points.\n3) Drop \nWind Dancer\n for \nMana Remnants\n (use \nHarmonic Remnants II\n, \nRemnant Potency III\n and \nKhatal's Rejuvenation\n - For khatal you either need \nDialla's Desire\n as well or 1 point into herald reservation",
+      "title": "Equipment"
+    },
+    {
+      "id": "217ad6a0-50be-4ac0-a0a9-adb7a6fe1d5c",
+      "text": "Skill Gems\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\n\nSupport Gem Requirements:\n\nStr 40\n\nDex 90\n\nInt 55\n\nCollapse all\n1\n\nIce Shot\n\nSet 1\n\nElemental Armament II\nIce Bite II\nGarukhan's Resolve\nFork\nRakiata's Flow\n2\n\nTornado Shot\n\nSet 1\n\nProlonged Duration II\nOverabundance II\nDurability\nBlind II\n3\n\nFreezing Mark\n\nSet 2\n\nMark of Siphoning II\nCharged Mark\nEternal Mark\nProlonged Duration II\n4\n\nBarrage\n\nSet 1\n\nCooldown Recovery II\nRapid Casting II\n5\n\nHerald of Ice\n\nMagnified Area II\nElemental Armament II\nLongshot II\nCold Attunement\nElemental Focus\n6\n\nGhost Dance\n\nCooldown Recovery II\n7\n\nWind Dancer\n\nKnockback\nBlind II\nMaim\nAtziri's Communion\n8\n\nMana Remnants\n\nRemnant Potency III\nHarmonic Remnants II\nKhatal's Rejuvenation\nDialla's Desire\n9\n\nMirage Archer\n\nIce Shot\nElemental Armament II\nDeliberation\nRapid Attacks II\nCooldown Recovery II\n10\n\nMirage Deadeye\n\nIce Shot\nElemental Armament II\nRapid Attacks II\nDeliberation\nCooldown Recovery II\nGem Priority\nTrack Build\n+25\nShow All\n\nYou want 147 spirit to run all spirit gems (ghost dance is 25 spirit at 20% quality).\nTo run \nWind Dancer\n you need \nAtziri's Communion\n\nTo run \nKhatal's Rejuvenation\n You need \nDialla's Desire\n(if you don't have, than drop Khatal's).\n\nOn pinnacle bosses swap your \nRakiata's Flow\n into \nSnipe\n (drop \nElemental Armament II\n)\n\nGarukhan's Resolve\n is also very strong, if you have it replace \nInexorable Critical I\n on \nSnipe\n.\n\nIf your character is geared, you can also just spam \nIce Shot\n on bosses and instantly kill them without snipe, just make sure to keep your \nTornado Shot\n up.\n\nBoss rotation:\nThe goal is to freeze the boss into a \nBarrage\n \nSnipe\n combo.\n\nPre-place \nTornado Shot\n, spam \nIce Shot\n until the boss is frozen. Use \nBarrage\n into \nSnipe\n. Make sure you still have a \nTornado Shot\n down before casting barrage/snipe.\n\nWeapon Set:\nFollow the Weapon set I have above. Essentially you want all of your DPS skills on weapon set 1 and \nFreezing Mark\n on weapon set 2.",
+      "title": "Skill Gems"
+    },
+    {
+      "id": "53a64e3e-fb81-4d43-be6c-99c63e1ee939",
+      "text": "Passive Tree\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\nMain:\n-20\n123\nSet 1:\n-4\n20\nSet 2:\n-4\n20\n\nTake whatever attribute you need at the time, you'll default to dex if you don't need anything, after 161 dex you should default to strength for more HP.\n\nOnce you have \nRakiata's Flow\n you can takeout \nSnowpiercer\n and instead take \nBeastial Skin\n for more defense.\n\nThis is a level 96 tree. Takeout some Evasion/energy shield hybrid nodes if you're lower lvl.\n\nIf you have projectile speed on your quiver, you should also take \nFeathered Fletching\n\n\n\nBeastial Skin\n is a very solid evasion node if you want higher evasion (can also anoint this).\n\nAscendancy order:\n\nProjectile Proximity Specialisation\n(point blank) -> \nEndless Munitions\n -> \nGathering Winds\n -> \nMirage Deadeye\n\n\n\nWeapon Set:\nFollow the Weapon set I have above. Essentially you want all of your DPS skills on weapon set 1 and \nFreezing Mark\n on weapon set 2.",
+      "title": "Passive Tree"
+    }
+  ],
+  "selected_tabs": [
+    {
+      "id": "react-aria9127948996-_r_f_-tab-4",
+      "key": "4",
+      "name": "Uber Endgame",
+      "section_id": "f7d82102-7e77-4a44-ad24-33b67e8ae7bf"
+    },
+    {
+      "id": "react-aria9127948996-_r_1v7b_-tab-4",
+      "key": "4",
+      "name": "Uber Endgame",
+      "section_id": "8bea0704-759a-4763-997a-cf7dbe02e1fe"
+    },
+    {
+      "id": "react-aria9127948996-_r_1v9s_-tab-4",
+      "key": "4",
+      "name": "Uber Endgame",
+      "section_id": "217ad6a0-50be-4ac0-a0a9-adb7a6fe1d5c"
+    },
+    {
+      "id": "react-aria9127948996-_r_1vd5_-tab-4",
+      "key": "4",
+      "name": "Uber Endgame",
+      "section_id": "53a64e3e-fb81-4d43-be6c-99c63e1ee939"
+    }
+  ]
+}

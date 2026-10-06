@@ -1,0 +1,60 @@
+{
+  "version": "R28",
+  "date": "2026-09-29",
+  "sources": {
+    "F": {
+      "title": "Fubgun 0.5.5 冰射作者正文",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+      "scope": "弓/衣服钢铁符文、蓝玉击杀回蓝、后期珠宝和可选涂膏；不是全身逐孔实装导出。"
+    },
+    "L": {
+      "title": "Fubgun 冰射练级",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye-leveling-guide",
+      "scope": "剧情过渡与备料；不把终局孔位计划强套低等级。"
+    },
+    "A": {
+      "title": "游戏增幅物数据（英文）",
+      "url": "https://poe2db.tw/us/Augment",
+      "scope": "逐部位基础效果、需求、限量；不默认启用 Bonded 羁绊效果。"
+    },
+    "C": {
+      "title": "通货与催化剂数据（简体）",
+      "url": "https://poe2db.tw/cn/Stackable_Currency",
+      "scope": "磨刀石、护甲片、玻璃弹珠；普通催化剂与精炼催化剂适用对象。"
+    },
+    "K": {
+      "title": "游戏关键词数据",
+      "url": "https://poe2db.tw/us/Keywords",
+      "scope": "品质、增幅孔、Socket-bound、Ancient Augments 等规则。"
+    },
+    "N": {
+      "title": "锯齿锋缘 / Serrated Edges",
+      "url": "https://poe2db.tw/cn/Serrated_Edges",
+      "scope": "节点及当前液化情绪配方，操作前仍应预览。"
+    },
+    "P": {
+      "title": "GGG 0.5.0 官方说明",
+      "url": "https://www.pathofexile.com/forum/view-thread/3932540/filter-account-type/staff",
+      "scope": "符文锻造、品质注能前提、增幅物变更。"
+    },
+    "X": {
+      "title": "提取装置与代价",
+      "url": "https://poe2db.tw/us/Fate_of_the_Vaal_league",
+      "scope": "Kishara’s Acquisition / Orb of Extraction：回收增幅物会牺牲装备，不是免费拆卸。"
+    },
+    "E": {
+      "title": "深渊之眼游戏数据",
+      "url": "https://poe2db.tw/us/Abyssal_Eye",
+      "scope": "条件效果、古老增幅物限制，非普通珠宝。"
+    },
+    "J": {
+      "title": "精炼托沃催化剂",
+      "url": "https://poe2db.tw/cn/Refined_Tuls_Catalyst",
+      "scope": "精炼类目标是天赋珠宝，不是技能宝石或首饰。"
+    }
+  },
+  "author_preserved": true,
+  "per_slot_source_labelled": true,
+  "references": "各条目sourceKeys、source以及每个材料url",
+  "not_claimed": "不是所有材料均出自Fubgun，也不是游戏物品全集。"
+}

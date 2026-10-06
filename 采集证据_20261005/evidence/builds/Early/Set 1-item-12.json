@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-05T09:20:26.708Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1",
+  "section_id": "4b46748c-2c9b-4cb5-b49e-7d4dddb609b6",
+  "set": "Set 1",
+  "display_index": 12,
+  "icon": {
+    "height": 64,
+    "left": 298.5,
+    "src": "https://cdn.mobalytics.gg/assets/poe-2/images/game/Art/2DItems/Charms/Basetypes/ThawingCharm.webp",
+    "top": 381.5703125,
+    "trade_href": "https://www.pathofexile.com/trade2/search/Forbidden Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22type%22%3A%22Thawing%20Charm%22%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%7B%22id%22%3A%22explicit.stat_3196823591%22%2C%22value%22%3A%7B%22min%22%3A55%7D%7D%5D%7D%5D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D",
+    "trigger": "_r_5m0_",
+    "width": 64,
+    "x": 330.5,
+    "y": 413.5703125
+  },
+  "panels": [
+    {
+      "html": "<div data-tippy-root=\"\" id=\"tippy-408\" data-popper-placement=\"top\" style=\"pointer-events: none; z-index: 120000; position: fixed; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(130.5px, -449.5px, 0px);\"><div><div class=\"x1cvue7f x1i97zcw x1hv8zah xu70ewc x1qhigcl x1j9u4d2 x1n2onr6 x1n9hxaw x25l62i xiy17q3 x1bc63r9\"><div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 x1xyvc85\" style=\"background: linear-gradient(180deg, var(--x1k28s8) 0%, rgba(255, 255, 255, 0.00) 100%);\"></div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 xfj9a5l x112ta8 xlbbj0o x19wp0b7 xvpkmg4\" style=\"background: linear-gradient(180deg, var(--x1k28s8) 0%, rgba(255, 255, 255, 0.00) 100%) border-box;\"></div></div><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1n2onr6 x100vrsf x1vqgdyp xb3r6kr xhdc4oz\"><img alt=\"Thawing Charm\" width=\"40\" height=\"40\" class=\"x19kjcj4\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=80/assets/poe-2/images/game/Art/2DItems/Charms/Basetypes/ThawingCharm.webp\"></div><div><p class=\"x2klb21\">Thawing Charm</p><p class=\"x139jznd x9uxgww\">Charms</p></div><div class=\"xh8yej3 xpb64yu xr9ek0c xjpr12u\"></div><p class=\"x139jznd x9uxgww x1fj9vlw\">Requires: 12 Level.</p><div class=\"xh8yej3 xpb64yu xr9ek0c xjpr12u\"></div><div><ul class=\"x139jznd x9uxgww x5tiur9 x1ghz6dp\"><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--x1xhkif2);\">Used when you become Frozen</li></ul></div><div class=\"xh8yej3 xpb64yu xr9ek0c xjpr12u\"></div><div><ul class=\"x139jznd x9uxgww x5tiur9 x1ghz6dp\"><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--x1nw1xqh);\"><span class=\"x78zum5 x1qughib x167g77z xh8yej3\"><span>(55-62)% increased Charges gained</span><span class=\"x16zc8z2 x2lah0s\">S2</span></span></li></ul></div></div><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1dj0lhr x1s85apg xh8yej3 x14vqqas\"><a href=\"https://www.pathofexile.com/trade2/search/Forbidden Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22type%22%3A%22Thawing%20Charm%22%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%7B%22id%22%3A%22explicit.stat_3196823591%22%2C%22value%22%3A%7B%22min%22%3A55%7D%7D%5D%7D%5D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"x98rzlu xh8yej3\"><button type=\"button\" class=\"x1n2onr6 x1hv8zah x1h7s0lp x78zum5 x6s0dn4 x167g77z xlkovuz x1ypdohk xuxw1ft x10w6t97 x84vhe8 xl56j7k xkgd8lh x1kylzug xtbnezy x1i97zcw x98rzlu xh8yej3\"><span role=\"img\" class=\"x1kky2od xlup9mm xi3szuz\" alt=\"presentation\" style=\"mask: url(&quot;https://cdn.mobalytics.gg/assets/common/icons/ngf-system/Trade.svg&quot;) center center / cover;\"></span>Find on PoE2 Trade</button></a></div></div></div></div></div>",
+      "text": "Thawing Charm\n\nCharms\n\nRequires: 12 Level.\n\nUsed when you become Frozen\n(55-62)% increased Charges gained\nS2"
+    }
+  ]
+}

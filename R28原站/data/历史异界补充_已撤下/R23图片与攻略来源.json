@@ -1,0 +1,182 @@
+{
+  "version": "C R23",
+  "checked_at": "2026-09-28",
+  "build_baseline": "R22 / Fubgun 0.5.5",
+  "image_delivery": "opt-in remote original URLs; NOT offline cached",
+  "image_assets_in_zip": false,
+  "images": [
+    {
+      "id": "main-early",
+      "title": "① 主树开荒 · 先看这一张",
+      "kind": "异界主树加点图",
+      "source": "lazy",
+      "source_updated": "2026-09-09",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20195211.png",
+      "width": 1000,
+      "height": 559,
+      "use": "刚进要塞、主树点数还少时。",
+      "read": "从最下方起点看金色连线，再看作者红色 1 → 2 → 3 标记。数字是分阶段的目标顺序，不是只花三颗点；中间仍需前置小点。",
+      "limit": "原作者从精华一侧向上走，再补地图供给。不要只找相似图标；在游戏内核对节点名、效果、连线和解锁条件。"
+    },
+    {
+      "id": "main-progress",
+      "title": "② 主树推进 · 点数增加后再看",
+      "kind": "异界主树加点图",
+      "source": "lazy",
+      "source_updated": "2026-09-09",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20155824.png",
+      "width": 849,
+      "height": 874,
+      "use": "已经取得基础补图节点，向后续要塞任务推进时。",
+      "read": "这张图展示作者往主树右侧继续扩展的结果，不是另一棵树，也不是新手一开始就要点满的图。",
+      "limit": "图内未逐个展示多选项。增加怪物效能的效果会增加难度，本站建议打不稳时暂缓；不要把亮起的每个点当作立即必点。"
+    },
+    {
+      "id": "main-late",
+      "title": "③ 主树成型 · 作者保留未点的示例",
+      "kind": "后期参考，不是开荒图",
+      "source": "lazy",
+      "source_updated": "2026-09-09",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20164951.png",
+      "width": 922,
+      "height": 990,
+      "use": "要塞推进和主要点数准备完成、开始研究具体刷图目标时。",
+      "read": "金色为截图中已分配路线；红叉是原作者当时建议保留的位置，不是本站新增的禁点标记。",
+      "limit": "原文对部分红叉的理由含特定刷法、当时的缺陷反馈和不确定判断。这里仅保留作者方案，不认定这些节点今天仍有缺陷，也不要求你永久不点。"
+    },
+    {
+      "id": "hilda-first",
+      "title": "大师识别 · 希尔达 Mighty Prey",
+      "kind": "异界大师选项，不是人物技能",
+      "source": "lazy",
+      "source_updated": "2026-09-09",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20135926.png",
+      "width": 925,
+      "height": 319,
+      "use": "完成希尔达首个巨兽任务后，对照第一层大师选项。",
+      "read": "截图用于找 Mighty Prey：给普通地图首领升级为强力地图首领的机会。先读英文与效果，不按中文名字猜图标。",
+      "limit": "它使用大师任务解锁，不消耗人物天赋点；截图不是整套四层大师最终方案。"
+    },
+    {
+      "id": "abyss-entry",
+      "title": "深渊解锁 · 异界灵魂之井",
+      "kind": "任务入口图，不是加点图",
+      "source": "lolabyss",
+      "source_updated": "2026-07-07",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Well_of_Souls_Endgame.png",
+      "width": 1000,
+      "height": 859,
+      "use": "决定先学深渊、需要开始深渊自己的任务线时。",
+      "read": "找 The Well of Souls。这里是异界上的任务据点，不是让你返回剧情第二章。",
+      "limit": "截图只说明入口形态和名称；地图生成布局可能不同，不照抄相对坐标。"
+    },
+    {
+      "id": "breach-entry",
+      "title": "裂隙解锁 · 据点任务地图",
+      "kind": "任务区域图，不是加点图",
+      "source": "lolbreach",
+      "source_updated": "2026-07-09",
+      "url": "https://cdn.mobalytics.gg/uploads/images/poe-2/Breach_Questline.png",
+      "width": 1000,
+      "height": 626,
+      "use": "决定推进裂隙任务和它自己的天赋时。",
+      "read": "从 Monastery of the Keepers 的任务进入周边裂隙区域，按任务完成地图。此图帮助识别任务区域。",
+      "limit": "截图没有展示裂隙天赋的已选节点，不能拿它代替裂隙加点图。"
+    }
+  ],
+  "mechanic_guides": [
+    {
+      "id": "abyss",
+      "name": "深渊",
+      "choices": [
+        "Currency Abyss",
+        "Abyss Rares"
+      ],
+      "instruction": "先看 Currency Abyss。Abyss Rares 是另一种奖励目标，不能把两张树混成同一套。",
+      "note": "先做任务和低投入遭遇；作者成型碑牌与强度配置后面再抄。",
+      "source": "fubgun"
+    },
+    {
+      "id": "breach",
+      "name": "裂隙",
+      "choices": [
+        "Breach Rares"
+      ],
+      "instruction": "在 Atlas Tree Variants 切到 Breach Rares，再向下找到 Atlas Tree。",
+      "note": "这是稀有怪刷图方案，不是裂隙任务第一颗点的教学。",
+      "source": "fubgun"
+    },
+    {
+      "id": "expedition",
+      "name": "先祖秘藏",
+      "choices": [
+        "Expedition"
+      ],
+      "instruction": "切到 Expedition，分别查看其树和配套地图/碑牌说明。",
+      "note": "0.5.4 已新增独立树；宏大先祖秘藏任务首领奖励对应点数，不沿用“秘藏没有树”的旧文。",
+      "source": "fubgun"
+    },
+    {
+      "id": "ritual",
+      "name": "驱灵仪式",
+      "choices": [
+        "Ritual Belts"
+      ],
+      "instruction": "切到 Ritual Belts。",
+      "note": "作者此变体针对腰带，不等于所有仪式奖励的通用开荒加点。",
+      "source": "fubgun"
+    },
+    {
+      "id": "delirium",
+      "name": "惊悸迷雾",
+      "choices": [
+        "Deli Rush"
+      ],
+      "instruction": "切到 Deli Rush，先读进入要求，再看树。",
+      "note": "这是特定速刷目标，不是刚解锁涂膏就要照抄的高强度配置。",
+      "source": "fubgun"
+    },
+    {
+      "id": "temple",
+      "name": "瓦尔神庙",
+      "choices": [],
+      "instruction": "本次没有取得可靠的 0.5.5 神庙已分配整树截图。保留本站节点说明与 PoE2DB 节点资料。",
+      "note": "不拿神庙房间布局、人物天赋或其他玩法的图冒充神庙天赋。",
+      "source": "atlas"
+    }
+  ],
+  "sources": {
+    "lazy": {
+      "title": "Lazy Exile：异界推进与分阶段原图",
+      "url": "https://mobalytics.gg/poe-2/guides/endgame-atlas-progression-guide",
+      "scope": "更新 2026-09-09；主树开荒/推进/成型截图。截图是作者方案，不是游戏逐点验证。"
+    },
+    "asmo": {
+      "title": "Asmodeus：开荒卡点与玩法选择",
+      "url": "https://mobalytics.gg/poe-2/guides/endgame-progression-asmodeus",
+      "scope": "更新 2026-06-13；只参考开荒思路。文中“秘藏无树”和旧要塞自动完成流程已被后续补丁覆盖。"
+    },
+    "fubgun": {
+      "title": "Fubgun：0.5 异界树与刷图方案",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats",
+      "scope": "更新 2026-09-10；使用原站方案切换器。成型方案不是 Early 第一颗点的教程。"
+    },
+    "lolabyss": {
+      "title": "Lolcohol：深渊任务入口",
+      "url": "https://mobalytics.gg/poe-2/guides/abyss",
+      "scope": "更新 2026-07-07；核对异界灵魂之井任务与原站入口截图，不把任务地图图当成天赋树图。"
+    },
+    "lolbreach": {
+      "title": "Lolcohol：裂隙任务入口",
+      "url": "https://mobalytics.gg/poe-2/guides/breach",
+      "scope": "更新 2026-07-09；任务地图截图用于识别据点，不证明人物的地图坐标完全相同。"
+    }
+  },
+  "boundaries": [
+    "原图通过浏览检索查看，下载失败；包内无原图字节",
+    "新手路线不是玩家统计或作者毕业树",
+    "Fubgun互动树未导出、未逐节点验收",
+    "神庙已点整树图未取得",
+    "国服与游戏内未实测"
+  ]
+}

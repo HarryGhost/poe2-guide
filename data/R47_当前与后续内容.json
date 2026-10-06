@@ -1,0 +1,38 @@
+{
+  "stages": [
+    "e04",
+    "e05",
+    "e06"
+  ],
+  "names": [
+    "Crit Hybrid",
+    "Uber Endgame",
+    "Live Gear"
+  ],
+  "atlas": [
+    "Expedition",
+    "Ritual Belts",
+    "Currency Abyss",
+    "Breach Rares",
+    "Abyss Rares",
+    "Lineage Gems",
+    "Deli Rush"
+  ],
+  "originals": [
+    {
+      "stage": "e04",
+      "path": "原始构筑/04_Crit_Hybrid.build",
+      "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d"
+    },
+    {
+      "stage": "e05",
+      "path": "原始构筑/05_Uber_Endgame.build",
+      "sha256": "91656cad558a5d470c1b477c550a40edc943177c12c462f707d16d1908db641c"
+    },
+    {
+      "stage": "e06",
+      "path": "原始构筑/06_Live_Gear_冲突勿导入.build.txt",
+      "sha256": "3476ebf806d24d618c9d13bb3a683722885ab8687c483e1aff1be8183bfbdad5"
+    }
+  ]
+}

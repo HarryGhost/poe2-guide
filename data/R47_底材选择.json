@@ -1,0 +1,2311 @@
+{
+  "version": "R45",
+  "date": "2026-10-06",
+  "scope": "恢复被采集显示层覆盖的配装教学；保持作者当前面板与原件独立。",
+  "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+  "guides": {
+    "e04": {
+      "bow": {
+        "title": "弓",
+        "brief": "比较毁灭者之弓或寻战之弓的完整成品；暴击阶段同时保证伤害底座、本地暴击与配套箭袋。",
+        "keep": "先保本地物理伤害与有效冰霜点伤，再比较攻速；投射物等级会影响消耗，不能单看“＋等级”。",
+        "when": "现用弓明显拖慢当前内容，而备用弓的基础和已有词缀更合适时，再考虑一次加工；有实际提升就可以先停。",
+        "acquire": "先比较拾取、商店或可交易环境中的合格成品；没有合适蓝底，不要求从白装赌起。完整进阶弓配方的物等75只约束该配方。",
+        "stop": "同样技能、辅助和站位下，清图、冻结与首领输出有改善，连续输出不频繁断蓝；达成当前目标就保留材料。",
+        "compare": "已成品：用物品顶部物理上下限的平均值×每秒攻击次数，只得到武器物理伤害每秒值。冰霜等其他伤害、暴击、命中与技能机制另看；不要再乘一次品质、词缀或符文。",
+        "uid": "bow",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "毁灭者之弓",
+            "en": "Obliterator Bow",
+            "why": "Fubgun后期优选之一；固有投射物射程降低50%。不要只看大点伤，忽略射程与站位。",
+            "phases": [
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者高阶方向",
+            "refs": [
+              "F",
+              "OB"
+            ],
+            "wear": {
+              "level": 78,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Bows"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "毁灭者之弓",
+              "level": 78,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "base": "物理62–115；每秒1.10次；基础暴击率5%",
+              "note": "投射物射程降低50%，不能只比伤害上限。",
+              "url": "https://poe2db.tw/cn/Bows",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Bows"
+          },
+          {
+            "name": "寻战之弓",
+            "en": "Warmonger Bow",
+            "why": "Fubgun另一种高阶优选。同样需要好词缀，白色寻战之弓并不是现成毕业弓。",
+            "phases": [
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者高阶方向",
+            "refs": [
+              "F",
+              "WA"
+            ],
+            "wear": {
+              "level": 77,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Bows"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "寻战之弓",
+              "level": 77,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "base": "物理56–84；每秒1.20次；基础暴击率5%",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Bows",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Bows"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "攻击速度提高",
+            "kind": "起步工艺备选",
+            "detail": "来自现有普通弓工艺；有合法空位且预算允许时追，不替换现有高物理底座",
+            "url": ""
+          }
+        ],
+        "example": {
+          "title": "比较武器顶部的伤害和攻速，不看黄装颜色",
+          "example": "示例：同技能、同其他条件，旧弓物理20–40、每秒1.5次，物理DPS为45；候选35–55、每秒1.2次，为54。",
+          "caution": "这个例子只比较本地物理DPS，不计元素、暴击、命中及技能机制，不能当成整套伤害提高20%的保证。31级前还要一起比较可利用的元素点伤。",
+          "next": "已有百分比物理提高、缺物理点伤 → 比较磨蚀精华；已有足够点伤、缺攻速 → 比较急速。已有物理点伤但缺物理百分比，不能把磨蚀当百分比精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "quiver": {
+        "title": "箭袋",
+        "brief": "优先配套暴击黄箭袋或合适的卡迪罗；选暗金意味着随机箭机制变化，不是普通属性无条件升级。",
+        "keep": "攻击适用的物理／冰霜点伤、攻速、投射物速度、弓技能伤害与等级按需求取舍；不是所有候选都必须同时有。",
+        "when": "先选有数条当前有效属性的成品。蓝件已有值得保留的词缀，且本次材料确实补短板时再加工；没有合适精华可保留现用或比较富豪分支。",
+        "acquire": "普通箭袋靠拾取、成品比较或合格半成品加工；暗金另按其掉落／交易取得。作者普通箭袋先比较约3–4条好属性的建议不是每条固定满值。",
+        "stop": "同一把弓和连接下实际输出更好、命中与属性不倒退。换暗金先看六种随机箭效果，不把全部效果当常驻。",
+        "compare": "底材固有的投射物速度、攻速或暴击率是不同方向。比较整件当前有效属性；非暴击阶段不以暴击底材作为必要条件。",
+        "uid": "quiver",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "飞矢箭袋",
+            "en": "Volant Quiver",
+            "why": "固有箭矢速度20–30%；作者Early展示底材。速度≠无条件额外伤害，须实际有对应天赋才转成伤害收益。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "VO",
+              "F"
+            ],
+            "wear": {
+              "level": 61,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Quivers"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "飞矢箭袋",
+              "level": 61,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "base": "固有：投射物速度提高20–30%",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Quivers"
+          },
+          {
+            "name": "精工箭袋",
+            "en": "Primed Quiver",
+            "why": "固有攻击速度7–10%。这是黄箭袋可用的底材，不是拿到它就等于卡迪罗暗金效果。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "按固有属性补充的备选",
+            "refs": [
+              "PR"
+            ],
+            "wear": {
+              "level": 51,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Quivers"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "精工箭袋",
+              "level": 51,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "base": "固有：攻击速度提高7–10%",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Quivers"
+          },
+          {
+            "name": "贯心箭袋",
+            "en": "Visceral Quiver",
+            "why": "固有攻击暴击率提高20–30%，更适合已经准备转暴击时比较。",
+            "phases": [
+              "e04",
+              "e05"
+            ],
+            "kind": "按阶段补充的备选",
+            "refs": [
+              "VI"
+            ],
+            "wear": {
+              "level": 65,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Quivers"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "贯心箭袋",
+              "level": 65,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "base": "固有：攻击的暴击率提高20–30%",
+              "note": "用于暴击方向的备选，不为非暴击过渡硬追。",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Quivers"
+          }
+        ],
+        "supplement": [],
+        "example": {
+          "title": "先保当前阶段真正有效的两三条属性",
+          "example": "示例：旧箭袋有攻击点伤与攻速；新黄箭袋只有防御、命中与不缺的属性。不能因为黄装或词缀多就换。",
+          "caution": "按当前冰射／过渡技能、命中与属性缺口判断，不把随机永恒精华当指定智慧。",
+          "next": "找已有攻击适用点伤／弓伤与有效后缀的蓝箭袋。没有能解决短板的精华就选富豪，或直接比较成品；不要硬用精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "helmet": {
+        "title": "头盔",
+        "brief": "准备高基础纯护盾头，如先祖冠冕；先看成品自身护盾与佩戴智慧，再和闪避衣服、幽灵舞步一起转。",
+        "keep": "起步优先生命、闪避和所缺抗性；转混合后要有头盔自身能量护盾和配套恢复，保留装备需求与整套生存。",
+        "when": "普通补装针对现有缺口；作者护盾头专用工艺另有物等和起手词缀条件。配套未准备好时，不先拆掉旧生命防御。",
+        "acquire": "优先合用的现成头盔；转型件在备用底材上准备。作者约450头盔自身护盾是转型参考，不是角色总护盾或游戏硬门槛。",
+        "stop": "生命、抗性和属性满足当前使用；混合阶段受击后护盾能恢复，不能只看城里满护盾。",
+        "compare": "白底的基础护盾／闪避不是成品值。看头盔顶部最终防御，再结合衣服、幽灵舞步及实际预留判断转型；不能把仅有基础护盾的白头当达标。",
+        "uid": "helmet",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "先祖冠冕",
+            "en": "Ancestral Tiara",
+            "why": "03及后续关注普通版纯护盾底材。需要的智慧也得能承担；作者约450物品护盾是转型参考，不是底材自带。",
+            "phases": [
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示与转型方向",
+            "refs": [
+              "AN",
+              "F"
+            ],
+            "wear": {
+              "level": 80,
+              "str": 0,
+              "dex": 0,
+              "int": 115,
+              "source": "https://poe2db.tw/cn/Helmets"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "先祖冠冕",
+              "level": 80,
+              "str": 0,
+              "dex": 0,
+              "int": 115,
+              "base": "基础能量护盾109",
+              "note": "转型比较的是做完的头盔自身护盾，不是109就达到转型目标。",
+              "url": "https://poe2db.tw/cn/Helmets",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Helmets"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "复合能量护盾词缀",
+            "kind": "高阶工艺目标",
+            "detail": "稳定护盾头工艺还追平值与百分比的复合词缀；不是原件新增一条已实装记录",
+            "url": ""
+          },
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性／混沌抗性",
+            "kind": "补位候选",
+            "detail": "合法剩余位置按全身缺口补；不将这些全部标为必备",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "剧情生命抗性头与转型护盾头分开做",
+          "example": "示例：正在用生命闪避头，不因捡到智慧底材就立即转混合；先比较护盾、智慧需求以及换下旧头丢失的抗性。",
+          "caution": "作者护盾头工艺需要物等78、合适纯护盾底和高平铺护盾蓝装；不是剧情帽子的强制标准。",
+          "next": "普通生命抗性头用下方过渡流程；准备作者混合防御头时主动选择“护盾头”专用路线。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "body": {
+        "title": "衣服",
+        "brief": "海盗外套或其他合格高闪避成品都要看完整属性；不能为了同名丢失生命、抗性和恢复配套。",
+        "keep": "以最终物品闪避为底座，同时补全身需要的生命与抗性；混合防御也不能只堆护盾而丢掉闪避配套。",
+        "when": "候选衣服的最终防御更好，且换下旧衣服后丢失的抗性已能补回，再决定加工或更换。",
+        "acquire": "拾取、商店、可交易成品优先比较；值得留的蓝衣服再按实际缺口选择生命、防御或抗性材料。",
+        "stop": "换装后实际闪避改善，生命、属性和抗性不出现新缺口；不为凑六条牺牲主要防御。",
+        "compare": "白底闪避、局部平铺闪避、局部百分比与成品顶部闪避分开。比较成品时直接读顶部，勿再次乘下方百分比。",
+        "uid": "body",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "海盗外套",
+            "en": "Corsair Coat",
+            "why": "作者展示的高阶闪避底材，固有移动速度提高5%；普通版与“符文海盗外套”不是同一组基础防御。",
+            "phases": [
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "CO"
+            ],
+            "wear": {
+              "level": 80,
+              "str": 0,
+              "dex": 121,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Body_Armours"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "海盗外套",
+              "level": 80,
+              "str": 0,
+              "dex": 121,
+              "int": 0,
+              "base": "基础闪避451；固有移动速度提高5%",
+              "note": "基础衣服移动惩罚与固有提高是不同字段；不把5%当最终净移动收益。",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Body_Armours"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "按全身缺口与合法空位选择",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "最大生命",
+            "kind": "普通起步工艺备选",
+            "detail": "来自现有起步工艺；不能牺牲主要闪避词缀来凑六条",
+            "url": ""
+          }
+        ],
+        "example": {
+          "title": "先看换上后的生命、整套抗性和实际防御",
+          "example": "示例：候选衣服闪避更高，但旧衣服提供火抗；换下后火抗缺口未补好，就不能只看闪避数值立即换。",
+          "caution": "普通衣服与03混合防御转型不是同一套起手条件。只在已有防御底材上比较本地防御提高。",
+          "next": "剧情／起步可先留好生命或抗性蓝衣服，补另一短板；进入混合防御前先准备衣服、护盾头与恢复配套。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "gloves": {
+        "title": "手套",
+        "brief": "能用的攻击点伤手套优先；精纺护腕可作较低需求过渡，宏伟护腕不是起步必须到手的唯一底材。",
+        "keep": "对攻击生效的物理／冰霜点伤、攻速，与生命、实际缺抗一起比较；法术伤害不当作普通攻击点伤替代。",
+        "when": "保留好攻击词缀的候选，再补生命或所缺一抗。缺攻速不能盲目使用急速精华，按该部位合法材料表操作。",
+        "acquire": "先比较合用成品；普通加工只是另一条取得路线，不要求从白装做出作者全部词缀。",
+        "stop": "实际输出改善，换下旧件后生命、抗性与属性仍可用；无明显提升不追追加词缀。",
+        "compare": "高物等只影响可能的词缀，不保证成品更强。比较攻击适用词条与换装后的实际缺口，而非仅看黄装颜色。",
+        "uid": "gloves",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "宏伟护腕",
+            "en": "Grand Bracers",
+            "why": "作者Early至Crit展示底材。仍可用其他适合当前防御、需求可承担的手套；不锁死名字。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "GR",
+              "F"
+            ],
+            "wear": {
+              "level": 70,
+              "str": 0,
+              "dex": 87,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Gloves"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "宏伟护腕",
+              "level": 70,
+              "str": 0,
+              "dex": 87,
+              "int": 0,
+              "base": "基础闪避155",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Gloves",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Gloves"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "若此部位承担抗性，就选择当前最低的一项或数项；数值由全身合计确定",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "攻击点伤、生命、抗性都要对当前技能有效",
+          "example": "示例：旧手套有可用攻击点伤；候选只有法术伤害或不缺的命中。先不因为候选更高等级就换。",
+          "caution": "急速精华不用于给手套定向加攻速；次级／普通激战也不用于手套。",
+          "next": "有好攻击词缀的蓝手套，缺生命或一抗时再用对应精华；已是黄装先比较现成效果。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "boots": {
+        "title": "鞋子",
+        "brief": "混合防御比较嵌刃便鞋等合格成品；先保移速、生命抗性，再看闪避与护盾。",
+        "keep": "移动速度优先，生命、所缺抗性与实际防御配套兼顾；没移速的黄鞋不自动胜过好移速蓝鞋。",
+        "when": "已有合用移速的蓝鞋，才比较身躯或对应单抗精华；移速本身不合适先换候选，急速精华不是鞋移速配方。",
+        "acquire": "先看掉落／商店里可直接穿的移速鞋；不能为了作者后期底材名称牺牲当前移动和生存。",
+        "stop": "移速、人物佩戴与整套防御均能满足。只是多了词缀而没有实际改善，就停止投入。",
+        "compare": "移动速度词缀与底材防御分开；混合鞋的护盾和闪避必须结合全身。脱下旧鞋的抗性要先扣除，新增生命不能自动补回抗性。",
+        "uid": "boots",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "嵌刃便鞋",
+            "en": "Bladed Shoes",
+            "why": "后续混合防御展示例子，同时有闪避/护盾方向；换前核对智慧等实际需求。",
+            "phases": [
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "BL"
+            ],
+            "wear": {
+              "level": 65,
+              "str": 0,
+              "dex": 47,
+              "int": 47,
+              "source": "https://poe2db.tw/cn/Boots"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "嵌刃便鞋",
+              "level": 65,
+              "str": 0,
+              "dex": 47,
+              "int": 47,
+              "base": "基础闪避122；基础能量护盾37",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Boots",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Boots"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "正文补充",
+            "detail": "作者要求移动速度以外兼顾生命和抗性；具体抗性分配未固定",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "最大生命",
+            "kind": "正文可选",
+            "detail": "作者的一般鞋子建议；只有实际词缀空间允许才考虑，不叠写到已满前缀的目标上",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "先保移动速度，再补生命或缺的一抗",
+          "example": "示例：现用鞋20%移速；候选蓝鞋25%移速但缺生命。没有同组生命、材料允许且佩戴后抗性仍够时，可用身躯精华补生命。",
+          "caution": "无移速的黄鞋，不因多两条词缀自动胜过好移速蓝鞋。新增生命不能补回换下旧鞋丢失的关键抗性。",
+          "next": "蓝鞋移速已经合适 → 缺生命选身躯，缺火／冰／电抗选对应抗性精华。移速不合适先换候选，急速精华不补鞋移速。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "amulet": {
+        "title": "项链",
+        "brief": "先满足实际智慧、精魂和技能需求，再追等级；星辉、日曜、海玉按缺口比较，不因作者示例是＋3就否定所有过渡件。",
+        "keep": "实际需要的精魂与属性是启用条件；投射物等级和输出词缀在能持续使用技能之后比较。",
+        "when": "当前项链不能满足技能／属性或输出确实受限时换。高投入等级＋精魂配方必须先满足专用起点，不能从任意白项链照做。",
+        "acquire": "先找已有所需属性／精魂的成品或半成品；永恒精华不是定向智慧工具。涂膏另按实际节点与成本判断。",
+        "stop": "换下旧项链后所有装备、辅助与常驻仍能用；等级提高却频繁断蓝，不算成功换装。",
+        "compare": "“项链给予智慧”与“佩戴需要智慧”不同。先扣旧件贡献再加新件；所需精魂按整套实际预留，不拿单一示例当通用门槛。",
+        "uid": "amulet",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "星辉项链",
+            "en": "Stellar Amulet",
+            "why": "固有全属性5–7；作者展示底材。适合多种属性一起缺。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "ST"
+            ],
+            "wear": {
+              "level": 24,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Stellar_Amulet"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Stellar_Amulet"
+          },
+          {
+            "name": "日曜项链",
+            "en": "Solar Amulet",
+            "why": "固有精魂10–15；用来补精魂是额外备选，不代表一条固有词就够全套保留。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "机制备选，不是作者强制",
+            "refs": [
+              "SO"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "智慧（需要时）",
+            "kind": "补位候选",
+            "detail": "来源为装备给予的智慧；不是佩戴所需智慧",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "与两枚戒指一起分配；按全身缺口挑选",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "暴击率提高／暴击伤害加成",
+            "kind": "暴击阶段可选",
+            "detail": "作者允许暴击版本在剩余位置追求；不得挤掉必需精魂与资源",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "先保证属性与技能启用，后期再追等级和精魂",
+          "example": "示例：旧项链给30智慧，新项链多一条伤害却少30智慧。先扣除旧项链属性确认技能还能使用，不能只算新物品加了什么。",
+          "caution": "高投入＋3精魂项链要先有已经锁定的＋3；没有该前提就不是在同一条配方上。",
+          "next": "普通项链先补生命或缺的一抗；缺指定智慧时找已有智慧成品，不指望永恒精华定向给智慧。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "belt": {
+        "title": "腰带",
+        "brief": "普通阶段保生命、力量和抗性；生皮或其他功能合适腰带均可。猎首是特定刷法升级，不是新手必须有的装备。",
+        "keep": "保住生命、佩戴所需力量和当前抗性缺口，检查实际咒符槽；未触发暗金增益不计入基础生存。",
+        "when": "现有腰带限制属性或生存时先补普通件；后期按稀有怪密度决定是否采用猎首，不在无小怪首领上预支刷图增益。",
+        "acquire": "普通件先比较成品或合格蓝底；暗金走对应获取途径，不用普通精华升黄“制作”出暗金。",
+        "stop": "生命或属性短板得到改善、技能装备不失效；不要为名称或物品稀有度牺牲咒符功能。",
+        "compare": "换装先扣旧腰带力量、抗性与生命。来源里的暗金面板是示例，实际效果还要看触发和持续时间。",
+        "uid": "belt",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "生皮腰带",
+            "en": "Rawhide Belt",
+            "why": "作者展示；当前固有是药剂的生命回复提高20–30%，不是PoE1式自带平铺生命。生命和力量需另看随机词缀。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "BE"
+            ],
+            "wear": {
+              "level": 1,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Rawhide_Belt"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Rawhide_Belt"
+          },
+          {
+            "name": "实际功能合适的其他腰带",
+            "en": "Useful belt",
+            "why": "合适的成品可以用；逐件看词缀、可用咒符位及当前需求，不只按底材名称。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "补充选择原则",
+            "refs": [
+              "F"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性／混沌抗性",
+            "kind": "正文补充",
+            "detail": "生命、力量之外的剩余合法位置补抗性；原文未规定哪几抗、各多少",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "先保生命、属性和实际咒符槽功能",
+          "example": "示例：旧腰带给力量，新腰带生命更多但使装备无法穿戴；没有其他力量来源前先不换。",
+          "caution": "暗金腰带通过对应获取途径取得，不用普通升黄材料制作。普通替代品单独看。",
+          "next": "普通蓝腰带已有有效属性，缺生命或一抗时再用身躯或对应抗性精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "ring1": {
+        "title": "戒指",
+        "brief": "两枚分别分担抗性、智慧、生命和攻击点伤；三相戒指是一个选择，不要求两枚做成完全相同。",
+        "keep": "保住生命与攻击适用点伤，再按全身实际缺口分配抗性／智慧；不是每枚必须拥有全部候选。",
+        "when": "先扣掉要换下的那一枚贡献，净提升明确再换。次级／普通身躯可比较，强效身躯不适用于戒指。",
+        "acquire": "需要特定抗性或智慧时优先比较已有该词缀的成品；没有合适精华就保留现用品或普通升黄路线。",
+        "stop": "两枚合计及全身火冰电、混抗和属性满足需要，输出与生命不倒退；不为镜像另一枚而多花材料。",
+        "compare": "旧戒指火抗25%、新戒指35%，净增加10%，不是35%。左右戒指逐个计算，别把同名和同数值当成必须。",
+        "uid": "ring1",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "三相戒指",
+            "en": "Prismatic Ring",
+            "why": "固有全元素抗性7–10%；作者展示底材。能缓解多个抗性缺口。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "RI"
+            ],
+            "wear": {
+              "level": 35,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Prismatic_Ring"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Prismatic_Ring"
+          },
+          {
+            "name": "当前缺抗性的对应戒指",
+            "en": "Resistance ring",
+            "why": "没有好三相时，选择固有属性实际解决缺口的戒指；已鉴定好词缀比只看名字更重要。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "按缺口补充的原则",
+            "refs": [
+              "F"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "明确按两枚戒指分别分配，不默认两枚相同",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "智慧（需要时）／混沌抗性",
+            "kind": "补位候选",
+            "detail": "智慧优先保证技能运作；混沌抗性按剩余位置。不是把两种同时强加",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "两枚分别计算；先减掉旧戒指，再加新戒指",
+          "example": "示例：旧戒指火抗25%，新戒指火抗35%，实际净增加10%，不是35%。另一枚的缺口要另外算。",
+          "caution": "普通／次级身躯可用于戒指，强效身躯不适用；没有同组生命才能继续检查是否可添加。",
+          "next": "有好攻击点伤／抗性的蓝戒指，生命不足用身躯；缺一抗用对应抗性精华。两枚不必做成一样。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "ring2": {
+        "title": "戒指",
+        "brief": "两枚分别分担抗性、智慧、生命和攻击点伤；三相戒指是一个选择，不要求两枚做成完全相同。",
+        "keep": "保住生命与攻击适用点伤，再按全身实际缺口分配抗性／智慧；不是每枚必须拥有全部候选。",
+        "when": "先扣掉要换下的那一枚贡献，净提升明确再换。次级／普通身躯可比较，强效身躯不适用于戒指。",
+        "acquire": "需要特定抗性或智慧时优先比较已有该词缀的成品；没有合适精华就保留现用品或普通升黄路线。",
+        "stop": "两枚合计及全身火冰电、混抗和属性满足需要，输出与生命不倒退；不为镜像另一枚而多花材料。",
+        "compare": "旧戒指火抗25%、新戒指35%，净增加10%，不是35%。左右戒指逐个计算，别把同名和同数值当成必须。",
+        "uid": "ring2",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "三相戒指",
+            "en": "Prismatic Ring",
+            "why": "固有全元素抗性7–10%；作者展示底材。能缓解多个抗性缺口。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "RI"
+            ],
+            "wear": {
+              "level": 35,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Prismatic_Ring"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Prismatic_Ring"
+          },
+          {
+            "name": "当前缺抗性的对应戒指",
+            "en": "Resistance ring",
+            "why": "没有好三相时，选择固有属性实际解决缺口的戒指；已鉴定好词缀比只看名字更重要。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "按缺口补充的原则",
+            "refs": [
+              "F"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "明确按两枚戒指分别分配，不默认两枚相同",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "智慧（需要时）／混沌抗性",
+            "kind": "补位候选",
+            "detail": "智慧优先保证技能运作；混沌抗性按剩余位置。不是把两种同时强加",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "两枚分别计算；先减掉旧戒指，再加新戒指",
+          "example": "示例：旧戒指火抗25%，新戒指火抗35%，实际净增加10%，不是35%。另一枚的缺口要另外算。",
+          "caution": "普通／次级身躯可用于戒指，强效身躯不适用；没有同组生命才能继续检查是否可添加。",
+          "next": "有好攻击点伤／抗性的蓝戒指，生命不足用身躯；缺一抗用对应抗性精华。两枚不必做成一样。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      }
+    },
+    "e05": {
+      "bow": {
+        "title": "弓",
+        "brief": "比较毁灭者之弓或寻战之弓的完整成品；暴击阶段同时保证伤害底座、本地暴击与配套箭袋。",
+        "keep": "先保本地物理伤害与有效冰霜点伤，再比较攻速；投射物等级会影响消耗，不能单看“＋等级”。",
+        "when": "现用弓明显拖慢当前内容，而备用弓的基础和已有词缀更合适时，再考虑一次加工；有实际提升就可以先停。",
+        "acquire": "先比较拾取、商店或可交易环境中的合格成品；没有合适蓝底，不要求从白装赌起。完整进阶弓配方的物等75只约束该配方。",
+        "stop": "同样技能、辅助和站位下，清图、冻结与首领输出有改善，连续输出不频繁断蓝；达成当前目标就保留材料。",
+        "compare": "已成品：用物品顶部物理上下限的平均值×每秒攻击次数，只得到武器物理伤害每秒值。冰霜等其他伤害、暴击、命中与技能机制另看；不要再乘一次品质、词缀或符文。",
+        "uid": "bow",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "毁灭者之弓",
+            "en": "Obliterator Bow",
+            "why": "Fubgun后期优选之一；固有投射物射程降低50%。不要只看大点伤，忽略射程与站位。",
+            "phases": [
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者高阶方向",
+            "refs": [
+              "F",
+              "OB"
+            ],
+            "wear": {
+              "level": 78,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Bows"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "毁灭者之弓",
+              "level": 78,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "base": "物理62–115；每秒1.10次；基础暴击率5%",
+              "note": "投射物射程降低50%，不能只比伤害上限。",
+              "url": "https://poe2db.tw/cn/Bows",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Bows"
+          },
+          {
+            "name": "寻战之弓",
+            "en": "Warmonger Bow",
+            "why": "Fubgun另一种高阶优选。同样需要好词缀，白色寻战之弓并不是现成毕业弓。",
+            "phases": [
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者高阶方向",
+            "refs": [
+              "F",
+              "WA"
+            ],
+            "wear": {
+              "level": 77,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Bows"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "寻战之弓",
+              "level": 77,
+              "str": 0,
+              "dex": 163,
+              "int": 0,
+              "base": "物理56–84；每秒1.20次；基础暴击率5%",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Bows",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Bows"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "攻击速度提高",
+            "kind": "起步工艺备选",
+            "detail": "来自现有普通弓工艺；有合法空位且预算允许时追，不替换现有高物理底座",
+            "url": ""
+          }
+        ],
+        "example": {
+          "title": "比较武器顶部的伤害和攻速，不看黄装颜色",
+          "example": "示例：同技能、同其他条件，旧弓物理20–40、每秒1.5次，物理DPS为45；候选35–55、每秒1.2次，为54。",
+          "caution": "这个例子只比较本地物理DPS，不计元素、暴击、命中及技能机制，不能当成整套伤害提高20%的保证。31级前还要一起比较可利用的元素点伤。",
+          "next": "已有百分比物理提高、缺物理点伤 → 比较磨蚀精华；已有足够点伤、缺攻速 → 比较急速。已有物理点伤但缺物理百分比，不能把磨蚀当百分比精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "quiver": {
+        "title": "箭袋",
+        "brief": "优先配套暴击黄箭袋或合适的卡迪罗；选暗金意味着随机箭机制变化，不是普通属性无条件升级。",
+        "keep": "攻击适用的物理／冰霜点伤、攻速、投射物速度、弓技能伤害与等级按需求取舍；不是所有候选都必须同时有。",
+        "when": "先选有数条当前有效属性的成品。蓝件已有值得保留的词缀，且本次材料确实补短板时再加工；没有合适精华可保留现用或比较富豪分支。",
+        "acquire": "普通箭袋靠拾取、成品比较或合格半成品加工；暗金另按其掉落／交易取得。作者普通箭袋先比较约3–4条好属性的建议不是每条固定满值。",
+        "stop": "同一把弓和连接下实际输出更好、命中与属性不倒退。换暗金先看六种随机箭效果，不把全部效果当常驻。",
+        "compare": "底材固有的投射物速度、攻速或暴击率是不同方向。比较整件当前有效属性；非暴击阶段不以暴击底材作为必要条件。",
+        "uid": "quiver",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "飞矢箭袋",
+            "en": "Volant Quiver",
+            "why": "固有箭矢速度20–30%；作者Early展示底材。速度≠无条件额外伤害，须实际有对应天赋才转成伤害收益。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "VO",
+              "F"
+            ],
+            "wear": {
+              "level": 61,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Quivers"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "飞矢箭袋",
+              "level": 61,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "base": "固有：投射物速度提高20–30%",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Quivers"
+          },
+          {
+            "name": "精工箭袋",
+            "en": "Primed Quiver",
+            "why": "固有攻击速度7–10%。这是黄箭袋可用的底材，不是拿到它就等于卡迪罗暗金效果。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "按固有属性补充的备选",
+            "refs": [
+              "PR"
+            ],
+            "wear": {
+              "level": 51,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Quivers"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "精工箭袋",
+              "level": 51,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "base": "固有：攻击速度提高7–10%",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Quivers"
+          },
+          {
+            "name": "贯心箭袋",
+            "en": "Visceral Quiver",
+            "why": "固有攻击暴击率提高20–30%，更适合已经准备转暴击时比较。",
+            "phases": [
+              "e04",
+              "e05"
+            ],
+            "kind": "按阶段补充的备选",
+            "refs": [
+              "VI"
+            ],
+            "wear": {
+              "level": 65,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Quivers"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "贯心箭袋",
+              "level": 65,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "base": "固有：攻击的暴击率提高20–30%",
+              "note": "用于暴击方向的备选，不为非暴击过渡硬追。",
+              "url": "https://poe2db.tw/cn/Quivers",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Quivers"
+          }
+        ],
+        "supplement": [],
+        "example": {
+          "title": "先保当前阶段真正有效的两三条属性",
+          "example": "示例：旧箭袋有攻击点伤与攻速；新黄箭袋只有防御、命中与不缺的属性。不能因为黄装或词缀多就换。",
+          "caution": "按当前冰射／过渡技能、命中与属性缺口判断，不把随机永恒精华当指定智慧。",
+          "next": "找已有攻击适用点伤／弓伤与有效后缀的蓝箭袋。没有能解决短板的精华就选富豪，或直接比较成品；不要硬用精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "helmet": {
+        "title": "头盔",
+        "brief": "准备高基础纯护盾头，如先祖冠冕；先看成品自身护盾与佩戴智慧，再和闪避衣服、幽灵舞步一起转。",
+        "keep": "起步优先生命、闪避和所缺抗性；转混合后要有头盔自身能量护盾和配套恢复，保留装备需求与整套生存。",
+        "when": "普通补装针对现有缺口；作者护盾头专用工艺另有物等和起手词缀条件。配套未准备好时，不先拆掉旧生命防御。",
+        "acquire": "优先合用的现成头盔；转型件在备用底材上准备。作者约450头盔自身护盾是转型参考，不是角色总护盾或游戏硬门槛。",
+        "stop": "生命、抗性和属性满足当前使用；混合阶段受击后护盾能恢复，不能只看城里满护盾。",
+        "compare": "白底的基础护盾／闪避不是成品值。看头盔顶部最终防御，再结合衣服、幽灵舞步及实际预留判断转型；不能把仅有基础护盾的白头当达标。",
+        "uid": "helmet",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "先祖冠冕",
+            "en": "Ancestral Tiara",
+            "why": "03及后续关注普通版纯护盾底材。需要的智慧也得能承担；作者约450物品护盾是转型参考，不是底材自带。",
+            "phases": [
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示与转型方向",
+            "refs": [
+              "AN",
+              "F"
+            ],
+            "wear": {
+              "level": 80,
+              "str": 0,
+              "dex": 0,
+              "int": 115,
+              "source": "https://poe2db.tw/cn/Helmets"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "先祖冠冕",
+              "level": 80,
+              "str": 0,
+              "dex": 0,
+              "int": 115,
+              "base": "基础能量护盾109",
+              "note": "转型比较的是做完的头盔自身护盾，不是109就达到转型目标。",
+              "url": "https://poe2db.tw/cn/Helmets",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Helmets"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "复合能量护盾词缀",
+            "kind": "高阶工艺目标",
+            "detail": "稳定护盾头工艺还追平值与百分比的复合词缀；不是原件新增一条已实装记录",
+            "url": ""
+          },
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性／混沌抗性",
+            "kind": "补位候选",
+            "detail": "合法剩余位置按全身缺口补；不将这些全部标为必备",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "剧情生命抗性头与转型护盾头分开做",
+          "example": "示例：正在用生命闪避头，不因捡到智慧底材就立即转混合；先比较护盾、智慧需求以及换下旧头丢失的抗性。",
+          "caution": "作者护盾头工艺需要物等78、合适纯护盾底和高平铺护盾蓝装；不是剧情帽子的强制标准。",
+          "next": "普通生命抗性头用下方过渡流程；准备作者混合防御头时主动选择“护盾头”专用路线。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "body": {
+        "title": "衣服",
+        "brief": "海盗外套或其他合格高闪避成品都要看完整属性；不能为了同名丢失生命、抗性和恢复配套。",
+        "keep": "以最终物品闪避为底座，同时补全身需要的生命与抗性；混合防御也不能只堆护盾而丢掉闪避配套。",
+        "when": "候选衣服的最终防御更好，且换下旧衣服后丢失的抗性已能补回，再决定加工或更换。",
+        "acquire": "拾取、商店、可交易成品优先比较；值得留的蓝衣服再按实际缺口选择生命、防御或抗性材料。",
+        "stop": "换装后实际闪避改善，生命、属性和抗性不出现新缺口；不为凑六条牺牲主要防御。",
+        "compare": "白底闪避、局部平铺闪避、局部百分比与成品顶部闪避分开。比较成品时直接读顶部，勿再次乘下方百分比。",
+        "uid": "body",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "海盗外套",
+            "en": "Corsair Coat",
+            "why": "作者展示的高阶闪避底材，固有移动速度提高5%；普通版与“符文海盗外套”不是同一组基础防御。",
+            "phases": [
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "CO"
+            ],
+            "wear": {
+              "level": 80,
+              "str": 0,
+              "dex": 121,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Body_Armours"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "海盗外套",
+              "level": 80,
+              "str": 0,
+              "dex": 121,
+              "int": 0,
+              "base": "基础闪避451；固有移动速度提高5%",
+              "note": "基础衣服移动惩罚与固有提高是不同字段；不把5%当最终净移动收益。",
+              "url": "https://poe2db.tw/cn/Body_Armours",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Body_Armours"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "按全身缺口与合法空位选择",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "最大生命",
+            "kind": "普通起步工艺备选",
+            "detail": "来自现有起步工艺；不能牺牲主要闪避词缀来凑六条",
+            "url": ""
+          }
+        ],
+        "example": {
+          "title": "先看换上后的生命、整套抗性和实际防御",
+          "example": "示例：候选衣服闪避更高，但旧衣服提供火抗；换下后火抗缺口未补好，就不能只看闪避数值立即换。",
+          "caution": "普通衣服与03混合防御转型不是同一套起手条件。只在已有防御底材上比较本地防御提高。",
+          "next": "剧情／起步可先留好生命或抗性蓝衣服，补另一短板；进入混合防御前先准备衣服、护盾头与恢复配套。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "gloves": {
+        "title": "手套",
+        "brief": "能用的攻击点伤手套优先；精纺护腕可作较低需求过渡，宏伟护腕不是起步必须到手的唯一底材。",
+        "keep": "对攻击生效的物理／冰霜点伤、攻速，与生命、实际缺抗一起比较；法术伤害不当作普通攻击点伤替代。",
+        "when": "保留好攻击词缀的候选，再补生命或所缺一抗。缺攻速不能盲目使用急速精华，按该部位合法材料表操作。",
+        "acquire": "先比较合用成品；普通加工只是另一条取得路线，不要求从白装做出作者全部词缀。",
+        "stop": "实际输出改善，换下旧件后生命、抗性与属性仍可用；无明显提升不追追加词缀。",
+        "compare": "高物等只影响可能的词缀，不保证成品更强。比较攻击适用词条与换装后的实际缺口，而非仅看黄装颜色。",
+        "uid": "gloves",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "宏伟护腕",
+            "en": "Grand Bracers",
+            "why": "作者Early至Crit展示底材。仍可用其他适合当前防御、需求可承担的手套；不锁死名字。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "GR",
+              "F"
+            ],
+            "wear": {
+              "level": 70,
+              "str": 0,
+              "dex": 87,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Gloves"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "宏伟护腕",
+              "level": 70,
+              "str": 0,
+              "dex": 87,
+              "int": 0,
+              "base": "基础闪避155",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Gloves",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Gloves"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "若此部位承担抗性，就选择当前最低的一项或数项；数值由全身合计确定",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "攻击点伤、生命、抗性都要对当前技能有效",
+          "example": "示例：旧手套有可用攻击点伤；候选只有法术伤害或不缺的命中。先不因为候选更高等级就换。",
+          "caution": "急速精华不用于给手套定向加攻速；次级／普通激战也不用于手套。",
+          "next": "有好攻击词缀的蓝手套，缺生命或一抗时再用对应精华；已是黄装先比较现成效果。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "boots": {
+        "title": "鞋子",
+        "brief": "混合防御比较嵌刃便鞋等合格成品；先保移速、生命抗性，再看闪避与护盾。",
+        "keep": "移动速度优先，生命、所缺抗性与实际防御配套兼顾；没移速的黄鞋不自动胜过好移速蓝鞋。",
+        "when": "已有合用移速的蓝鞋，才比较身躯或对应单抗精华；移速本身不合适先换候选，急速精华不是鞋移速配方。",
+        "acquire": "先看掉落／商店里可直接穿的移速鞋；不能为了作者后期底材名称牺牲当前移动和生存。",
+        "stop": "移速、人物佩戴与整套防御均能满足。只是多了词缀而没有实际改善，就停止投入。",
+        "compare": "移动速度词缀与底材防御分开；混合鞋的护盾和闪避必须结合全身。脱下旧鞋的抗性要先扣除，新增生命不能自动补回抗性。",
+        "uid": "boots",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "嵌刃便鞋",
+            "en": "Bladed Shoes",
+            "why": "后续混合防御展示例子，同时有闪避/护盾方向；换前核对智慧等实际需求。",
+            "phases": [
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "BL"
+            ],
+            "wear": {
+              "level": 65,
+              "str": 0,
+              "dex": 47,
+              "int": 47,
+              "source": "https://poe2db.tw/cn/Boots"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": {
+              "name": "嵌刃便鞋",
+              "level": 65,
+              "str": 0,
+              "dex": 47,
+              "int": 47,
+              "base": "基础闪避122；基础能量护盾37",
+              "note": "",
+              "url": "https://poe2db.tw/cn/Boots",
+              "checked": "2026-10-06"
+            },
+            "url": "https://poe2db.tw/cn/Boots"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "正文补充",
+            "detail": "作者要求移动速度以外兼顾生命和抗性；具体抗性分配未固定",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "最大生命",
+            "kind": "正文可选",
+            "detail": "作者的一般鞋子建议；只有实际词缀空间允许才考虑，不叠写到已满前缀的目标上",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "先保移动速度，再补生命或缺的一抗",
+          "example": "示例：现用鞋20%移速；候选蓝鞋25%移速但缺生命。没有同组生命、材料允许且佩戴后抗性仍够时，可用身躯精华补生命。",
+          "caution": "无移速的黄鞋，不因多两条词缀自动胜过好移速蓝鞋。新增生命不能补回换下旧鞋丢失的关键抗性。",
+          "next": "蓝鞋移速已经合适 → 缺生命选身躯，缺火／冰／电抗选对应抗性精华。移速不合适先换候选，急速精华不补鞋移速。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "amulet": {
+        "title": "项链",
+        "brief": "先满足实际智慧、精魂和技能需求，再追等级；星辉、日曜、海玉按缺口比较，不因作者示例是＋3就否定所有过渡件。",
+        "keep": "实际需要的精魂与属性是启用条件；投射物等级和输出词缀在能持续使用技能之后比较。",
+        "when": "当前项链不能满足技能／属性或输出确实受限时换。高投入等级＋精魂配方必须先满足专用起点，不能从任意白项链照做。",
+        "acquire": "先找已有所需属性／精魂的成品或半成品；永恒精华不是定向智慧工具。涂膏另按实际节点与成本判断。",
+        "stop": "换下旧项链后所有装备、辅助与常驻仍能用；等级提高却频繁断蓝，不算成功换装。",
+        "compare": "“项链给予智慧”与“佩戴需要智慧”不同。先扣旧件贡献再加新件；所需精魂按整套实际预留，不拿单一示例当通用门槛。",
+        "uid": "amulet",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "星辉项链",
+            "en": "Stellar Amulet",
+            "why": "固有全属性5–7；作者展示底材。适合多种属性一起缺。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "ST"
+            ],
+            "wear": {
+              "level": 24,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Stellar_Amulet"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Stellar_Amulet"
+          },
+          {
+            "name": "日曜项链",
+            "en": "Solar Amulet",
+            "why": "固有精魂10–15；用来补精魂是额外备选，不代表一条固有词就够全套保留。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "机制备选，不是作者强制",
+            "refs": [
+              "SO"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "智慧（需要时）",
+            "kind": "补位候选",
+            "detail": "来源为装备给予的智慧；不是佩戴所需智慧",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "与两枚戒指一起分配；按全身缺口挑选",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "暴击率提高／暴击伤害加成",
+            "kind": "暴击阶段可选",
+            "detail": "作者允许暴击版本在剩余位置追求；不得挤掉必需精魂与资源",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "先保证属性与技能启用，后期再追等级和精魂",
+          "example": "示例：旧项链给30智慧，新项链多一条伤害却少30智慧。先扣除旧项链属性确认技能还能使用，不能只算新物品加了什么。",
+          "caution": "高投入＋3精魂项链要先有已经锁定的＋3；没有该前提就不是在同一条配方上。",
+          "next": "普通项链先补生命或缺的一抗；缺指定智慧时找已有智慧成品，不指望永恒精华定向给智慧。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "belt": {
+        "title": "腰带",
+        "brief": "普通阶段保生命、力量和抗性；生皮或其他功能合适腰带均可。猎首是特定刷法升级，不是新手必须有的装备。",
+        "keep": "保住生命、佩戴所需力量和当前抗性缺口，检查实际咒符槽；未触发暗金增益不计入基础生存。",
+        "when": "现有腰带限制属性或生存时先补普通件；后期按稀有怪密度决定是否采用猎首，不在无小怪首领上预支刷图增益。",
+        "acquire": "普通件先比较成品或合格蓝底；暗金走对应获取途径，不用普通精华升黄“制作”出暗金。",
+        "stop": "生命或属性短板得到改善、技能装备不失效；不要为名称或物品稀有度牺牲咒符功能。",
+        "compare": "换装先扣旧腰带力量、抗性与生命。来源里的暗金面板是示例，实际效果还要看触发和持续时间。",
+        "uid": "belt",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "生皮腰带",
+            "en": "Rawhide Belt",
+            "why": "作者展示；当前固有是药剂的生命回复提高20–30%，不是PoE1式自带平铺生命。生命和力量需另看随机词缀。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "BE"
+            ],
+            "wear": {
+              "level": 1,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Rawhide_Belt"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Rawhide_Belt"
+          },
+          {
+            "name": "实际功能合适的其他腰带",
+            "en": "Useful belt",
+            "why": "合适的成品可以用；逐件看词缀、可用咒符位及当前需求，不只按底材名称。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "补充选择原则",
+            "refs": [
+              "F"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [],
+        "example": {
+          "title": "先保生命、属性和实际咒符槽功能",
+          "example": "示例：旧腰带给力量，新腰带生命更多但使装备无法穿戴；没有其他力量来源前先不换。",
+          "caution": "暗金腰带通过对应获取途径取得，不用普通升黄材料制作。普通替代品单独看。",
+          "next": "普通蓝腰带已有有效属性，缺生命或一抗时再用身躯或对应抗性精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "ring1": {
+        "title": "戒指",
+        "brief": "两枚分别分担抗性、智慧、生命和攻击点伤；三相戒指是一个选择，不要求两枚做成完全相同。",
+        "keep": "保住生命与攻击适用点伤，再按全身实际缺口分配抗性／智慧；不是每枚必须拥有全部候选。",
+        "when": "先扣掉要换下的那一枚贡献，净提升明确再换。次级／普通身躯可比较，强效身躯不适用于戒指。",
+        "acquire": "需要特定抗性或智慧时优先比较已有该词缀的成品；没有合适精华就保留现用品或普通升黄路线。",
+        "stop": "两枚合计及全身火冰电、混抗和属性满足需要，输出与生命不倒退；不为镜像另一枚而多花材料。",
+        "compare": "旧戒指火抗25%、新戒指35%，净增加10%，不是35%。左右戒指逐个计算，别把同名和同数值当成必须。",
+        "uid": "ring1",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "三相戒指",
+            "en": "Prismatic Ring",
+            "why": "固有全元素抗性7–10%；作者展示底材。能缓解多个抗性缺口。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "RI"
+            ],
+            "wear": {
+              "level": 35,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Prismatic_Ring"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Prismatic_Ring"
+          },
+          {
+            "name": "当前缺抗性的对应戒指",
+            "en": "Resistance ring",
+            "why": "没有好三相时，选择固有属性实际解决缺口的戒指；已鉴定好词缀比只看名字更重要。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "按缺口补充的原则",
+            "refs": [
+              "F"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "明确按两枚戒指分别分配，不默认两枚相同",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "智慧（需要时）／混沌抗性",
+            "kind": "补位候选",
+            "detail": "智慧优先保证技能运作；混沌抗性按剩余位置。不是把两种同时强加",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "两枚分别计算；先减掉旧戒指，再加新戒指",
+          "example": "示例：旧戒指火抗25%，新戒指火抗35%，实际净增加10%，不是35%。另一枚的缺口要另外算。",
+          "caution": "普通／次级身躯可用于戒指，强效身躯不适用；没有同组生命才能继续检查是否可添加。",
+          "next": "有好攻击点伤／抗性的蓝戒指，生命不足用身躯；缺一抗用对应抗性精华。两枚不必做成一样。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "ring2": {
+        "title": "戒指",
+        "brief": "两枚分别分担抗性、智慧、生命和攻击点伤；三相戒指是一个选择，不要求两枚做成完全相同。",
+        "keep": "保住生命与攻击适用点伤，再按全身实际缺口分配抗性／智慧；不是每枚必须拥有全部候选。",
+        "when": "先扣掉要换下的那一枚贡献，净提升明确再换。次级／普通身躯可比较，强效身躯不适用于戒指。",
+        "acquire": "需要特定抗性或智慧时优先比较已有该词缀的成品；没有合适精华就保留现用品或普通升黄路线。",
+        "stop": "两枚合计及全身火冰电、混抗和属性满足需要，输出与生命不倒退；不为镜像另一枚而多花材料。",
+        "compare": "旧戒指火抗25%、新戒指35%，净增加10%，不是35%。左右戒指逐个计算，别把同名和同数值当成必须。",
+        "uid": "ring2",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": false,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [
+          {
+            "name": "三相戒指",
+            "en": "Prismatic Ring",
+            "why": "固有全元素抗性7–10%；作者展示底材。能缓解多个抗性缺口。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "作者展示",
+            "refs": [
+              "RI"
+            ],
+            "wear": {
+              "level": 35,
+              "str": 0,
+              "dex": 0,
+              "int": 0,
+              "source": "https://poe2db.tw/cn/Prismatic_Ring"
+            },
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://poe2db.tw/cn/Prismatic_Ring"
+          },
+          {
+            "name": "当前缺抗性的对应戒指",
+            "en": "Resistance ring",
+            "why": "没有好三相时，选择固有属性实际解决缺口的戒指；已鉴定好词缀比只看名字更重要。",
+            "phases": [
+              "e01",
+              "e02",
+              "e03",
+              "e04",
+              "e05"
+            ],
+            "kind": "按缺口补充的原则",
+            "refs": [
+              "F"
+            ],
+            "wear": null,
+            "inPhase": true,
+            "current": true,
+            "later": false,
+            "fact": null,
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "supplement": [
+          {
+            "text": "火焰抗性／冰霜抗性／闪电抗性",
+            "kind": "补位候选",
+            "detail": "明确按两枚戒指分别分配，不默认两枚相同",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          },
+          {
+            "text": "智慧（需要时）／混沌抗性",
+            "kind": "补位候选",
+            "detail": "智慧优先保证技能运作；混沌抗性按剩余位置。不是把两种同时强加",
+            "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+          }
+        ],
+        "example": {
+          "title": "两枚分别计算；先减掉旧戒指，再加新戒指",
+          "example": "示例：旧戒指火抗25%，新戒指火抗35%，实际净增加10%，不是35%。另一枚的缺口要另外算。",
+          "caution": "普通／次级身躯可用于戒指，强效身躯不适用；没有同组生命才能继续检查是否可添加。",
+          "next": "有好攻击点伤／抗性的蓝戒指，生命不足用身躯；缺一抗用对应抗性精华。两枚不必做成一样。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      }
+    },
+    "e06": {
+      "bow": {
+        "title": "弓",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "先保本地物理伤害与有效冰霜点伤，再比较攻速；投射物等级会影响消耗，不能单看“＋等级”。",
+        "when": "现用弓明显拖慢当前内容，而备用弓的基础和已有词缀更合适时，再考虑一次加工；有实际提升就可以先停。",
+        "acquire": "先比较拾取、商店或可交易环境中的合格成品；没有合适蓝底，不要求从白装赌起。完整进阶弓配方的物等75只约束该配方。",
+        "stop": "同样技能、辅助和站位下，清图、冻结与首领输出有改善，连续输出不频繁断蓝；达成当前目标就保留材料。",
+        "compare": "已成品：用物品顶部物理上下限的平均值×每秒攻击次数，只得到武器物理伤害每秒值。冰霜等其他伤害、暴击、命中与技能机制另看；不要再乘一次品质、词缀或符文。",
+        "uid": "bow",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "比较武器顶部的伤害和攻速，不看黄装颜色",
+          "example": "示例：同技能、同其他条件，旧弓物理20–40、每秒1.5次，物理DPS为45；候选35–55、每秒1.2次，为54。",
+          "caution": "这个例子只比较本地物理DPS，不计元素、暴击、命中及技能机制，不能当成整套伤害提高20%的保证。31级前还要一起比较可利用的元素点伤。",
+          "next": "已有百分比物理提高、缺物理点伤 → 比较磨蚀精华；已有足够点伤、缺攻速 → 比较急速。已有物理点伤但缺物理百分比，不能把磨蚀当百分比精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "quiver": {
+        "title": "箭袋",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "攻击适用的物理／冰霜点伤、攻速、投射物速度、弓技能伤害与等级按需求取舍；不是所有候选都必须同时有。",
+        "when": "先选有数条当前有效属性的成品。蓝件已有值得保留的词缀，且本次材料确实补短板时再加工；没有合适精华可保留现用或比较富豪分支。",
+        "acquire": "普通箭袋靠拾取、成品比较或合格半成品加工；暗金另按其掉落／交易取得。作者普通箭袋先比较约3–4条好属性的建议不是每条固定满值。",
+        "stop": "同一把弓和连接下实际输出更好、命中与属性不倒退。换暗金先看六种随机箭效果，不把全部效果当常驻。",
+        "compare": "底材固有的投射物速度、攻速或暴击率是不同方向。比较整件当前有效属性；非暴击阶段不以暴击底材作为必要条件。",
+        "uid": "quiver",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "先保当前阶段真正有效的两三条属性",
+          "example": "示例：旧箭袋有攻击点伤与攻速；新黄箭袋只有防御、命中与不缺的属性。不能因为黄装或词缀多就换。",
+          "caution": "按当前冰射／过渡技能、命中与属性缺口判断，不把随机永恒精华当指定智慧。",
+          "next": "找已有攻击适用点伤／弓伤与有效后缀的蓝箭袋。没有能解决短板的精华就选富豪，或直接比较成品；不要硬用精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "helmet": {
+        "title": "头盔",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "起步优先生命、闪避和所缺抗性；转混合后要有头盔自身能量护盾和配套恢复，保留装备需求与整套生存。",
+        "when": "普通补装针对现有缺口；作者护盾头专用工艺另有物等和起手词缀条件。配套未准备好时，不先拆掉旧生命防御。",
+        "acquire": "优先合用的现成头盔；转型件在备用底材上准备。作者约450头盔自身护盾是转型参考，不是角色总护盾或游戏硬门槛。",
+        "stop": "生命、抗性和属性满足当前使用；混合阶段受击后护盾能恢复，不能只看城里满护盾。",
+        "compare": "白底的基础护盾／闪避不是成品值。看头盔顶部最终防御，再结合衣服、幽灵舞步及实际预留判断转型；不能把仅有基础护盾的白头当达标。",
+        "uid": "helmet",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "剧情生命抗性头与转型护盾头分开做",
+          "example": "示例：正在用生命闪避头，不因捡到智慧底材就立即转混合；先比较护盾、智慧需求以及换下旧头丢失的抗性。",
+          "caution": "作者护盾头工艺需要物等78、合适纯护盾底和高平铺护盾蓝装；不是剧情帽子的强制标准。",
+          "next": "普通生命抗性头用下方过渡流程；准备作者混合防御头时主动选择“护盾头”专用路线。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "body": {
+        "title": "衣服",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "以最终物品闪避为底座，同时补全身需要的生命与抗性；混合防御也不能只堆护盾而丢掉闪避配套。",
+        "when": "候选衣服的最终防御更好，且换下旧衣服后丢失的抗性已能补回，再决定加工或更换。",
+        "acquire": "拾取、商店、可交易成品优先比较；值得留的蓝衣服再按实际缺口选择生命、防御或抗性材料。",
+        "stop": "换装后实际闪避改善，生命、属性和抗性不出现新缺口；不为凑六条牺牲主要防御。",
+        "compare": "白底闪避、局部平铺闪避、局部百分比与成品顶部闪避分开。比较成品时直接读顶部，勿再次乘下方百分比。",
+        "uid": "body",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "先看换上后的生命、整套抗性和实际防御",
+          "example": "示例：候选衣服闪避更高，但旧衣服提供火抗；换下后火抗缺口未补好，就不能只看闪避数值立即换。",
+          "caution": "普通衣服与03混合防御转型不是同一套起手条件。只在已有防御底材上比较本地防御提高。",
+          "next": "剧情／起步可先留好生命或抗性蓝衣服，补另一短板；进入混合防御前先准备衣服、护盾头与恢复配套。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "gloves": {
+        "title": "手套",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "对攻击生效的物理／冰霜点伤、攻速，与生命、实际缺抗一起比较；法术伤害不当作普通攻击点伤替代。",
+        "when": "保留好攻击词缀的候选，再补生命或所缺一抗。缺攻速不能盲目使用急速精华，按该部位合法材料表操作。",
+        "acquire": "先比较合用成品；普通加工只是另一条取得路线，不要求从白装做出作者全部词缀。",
+        "stop": "实际输出改善，换下旧件后生命、抗性与属性仍可用；无明显提升不追追加词缀。",
+        "compare": "高物等只影响可能的词缀，不保证成品更强。比较攻击适用词条与换装后的实际缺口，而非仅看黄装颜色。",
+        "uid": "gloves",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "攻击点伤、生命、抗性都要对当前技能有效",
+          "example": "示例：旧手套有可用攻击点伤；候选只有法术伤害或不缺的命中。先不因为候选更高等级就换。",
+          "caution": "急速精华不用于给手套定向加攻速；次级／普通激战也不用于手套。",
+          "next": "有好攻击词缀的蓝手套，缺生命或一抗时再用对应精华；已是黄装先比较现成效果。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "boots": {
+        "title": "鞋子",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "移动速度优先，生命、所缺抗性与实际防御配套兼顾；没移速的黄鞋不自动胜过好移速蓝鞋。",
+        "when": "已有合用移速的蓝鞋，才比较身躯或对应单抗精华；移速本身不合适先换候选，急速精华不是鞋移速配方。",
+        "acquire": "先看掉落／商店里可直接穿的移速鞋；不能为了作者后期底材名称牺牲当前移动和生存。",
+        "stop": "移速、人物佩戴与整套防御均能满足。只是多了词缀而没有实际改善，就停止投入。",
+        "compare": "移动速度词缀与底材防御分开；混合鞋的护盾和闪避必须结合全身。脱下旧鞋的抗性要先扣除，新增生命不能自动补回抗性。",
+        "uid": "boots",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "先保移动速度，再补生命或缺的一抗",
+          "example": "示例：现用鞋20%移速；候选蓝鞋25%移速但缺生命。没有同组生命、材料允许且佩戴后抗性仍够时，可用身躯精华补生命。",
+          "caution": "无移速的黄鞋，不因多两条词缀自动胜过好移速蓝鞋。新增生命不能补回换下旧鞋丢失的关键抗性。",
+          "next": "蓝鞋移速已经合适 → 缺生命选身躯，缺火／冰／电抗选对应抗性精华。移速不合适先换候选，急速精华不补鞋移速。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "amulet": {
+        "title": "项链",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "实际需要的精魂与属性是启用条件；投射物等级和输出词缀在能持续使用技能之后比较。",
+        "when": "当前项链不能满足技能／属性或输出确实受限时换。高投入等级＋精魂配方必须先满足专用起点，不能从任意白项链照做。",
+        "acquire": "先找已有所需属性／精魂的成品或半成品；永恒精华不是定向智慧工具。涂膏另按实际节点与成本判断。",
+        "stop": "换下旧项链后所有装备、辅助与常驻仍能用；等级提高却频繁断蓝，不算成功换装。",
+        "compare": "“项链给予智慧”与“佩戴需要智慧”不同。先扣旧件贡献再加新件；所需精魂按整套实际预留，不拿单一示例当通用门槛。",
+        "uid": "amulet",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "先保证属性与技能启用，后期再追等级和精魂",
+          "example": "示例：旧项链给30智慧，新项链多一条伤害却少30智慧。先扣除旧项链属性确认技能还能使用，不能只算新物品加了什么。",
+          "caution": "高投入＋3精魂项链要先有已经锁定的＋3；没有该前提就不是在同一条配方上。",
+          "next": "普通项链先补生命或缺的一抗；缺指定智慧时找已有智慧成品，不指望永恒精华定向给智慧。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "belt": {
+        "title": "腰带",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "保住生命、佩戴所需力量和当前抗性缺口，检查实际咒符槽；未触发暗金增益不计入基础生存。",
+        "when": "现有腰带限制属性或生存时先补普通件；后期按稀有怪密度决定是否采用猎首，不在无小怪首领上预支刷图增益。",
+        "acquire": "普通件先比较成品或合格蓝底；暗金走对应获取途径，不用普通精华升黄“制作”出暗金。",
+        "stop": "生命或属性短板得到改善、技能装备不失效；不要为名称或物品稀有度牺牲咒符功能。",
+        "compare": "换装先扣旧腰带力量、抗性与生命。来源里的暗金面板是示例，实际效果还要看触发和持续时间。",
+        "uid": "belt",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "先保生命、属性和实际咒符槽功能",
+          "example": "示例：旧腰带给力量，新腰带生命更多但使装备无法穿戴；没有其他力量来源前先不换。",
+          "caution": "暗金腰带通过对应获取途径取得，不用普通升黄材料制作。普通替代品单独看。",
+          "next": "普通蓝腰带已有有效属性，缺生命或一抗时再用身躯或对应抗性精华。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "ring1": {
+        "title": "戒指",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "保住生命与攻击适用点伤，再按全身实际缺口分配抗性／智慧；不是每枚必须拥有全部候选。",
+        "when": "先扣掉要换下的那一枚贡献，净提升明确再换。次级／普通身躯可比较，强效身躯不适用于戒指。",
+        "acquire": "需要特定抗性或智慧时优先比较已有该词缀的成品；没有合适精华就保留现用品或普通升黄路线。",
+        "stop": "两枚合计及全身火冰电、混抗和属性满足需要，输出与生命不倒退；不为镜像另一枚而多花材料。",
+        "compare": "旧戒指火抗25%、新戒指35%，净增加10%，不是35%。左右戒指逐个计算，别把同名和同数值当成必须。",
+        "uid": "ring1",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "两枚分别计算；先减掉旧戒指，再加新戒指",
+          "example": "示例：旧戒指火抗25%，新戒指火抗35%，实际净增加10%，不是35%。另一枚的缺口要另外算。",
+          "caution": "普通／次级身躯可用于戒指，强效身躯不适用；没有同组生命才能继续检查是否可添加。",
+          "next": "有好攻击点伤／抗性的蓝戒指，生命不足用身躯；缺一抗用对应抗性精华。两枚不必做成一样。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      },
+      "ring2": {
+        "title": "戒指",
+        "brief": "作者实装独立只读。以下只说明如何阅读这件面板；不把有冲突的实装当成必经升级或制作方案。",
+        "keep": "保住生命与攻击适用点伤，再按全身实际缺口分配抗性／智慧；不是每枚必须拥有全部候选。",
+        "when": "先扣掉要换下的那一枚贡献，净提升明确再换。次级／普通身躯可比较，强效身躯不适用于戒指。",
+        "acquire": "需要特定抗性或智慧时优先比较已有该词缀的成品；没有合适精华就保留现用品或普通升黄路线。",
+        "stop": "两枚合计及全身火冰电、混抗和属性满足需要，输出与生命不倒退；不为镜像另一枚而多花材料。",
+        "compare": "旧戒指火抗25%、新戒指35%，净增加10%，不是35%。左右戒指逐个计算，别把同名和同数值当成必须。",
+        "uid": "ring2",
+        "source": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye",
+        "readonly": true,
+        "sourceLabel": "作者正文方向＋本站选择说明；不是作者额外已装备的一套物品",
+        "bases": [],
+        "supplement": [],
+        "example": {
+          "title": "两枚分别计算；先减掉旧戒指，再加新戒指",
+          "example": "示例：旧戒指火抗25%，新戒指火抗35%，实际净增加10%，不是35%。另一枚的缺口要另外算。",
+          "caution": "普通／次级身躯可用于戒指，强效身躯不适用；没有同组生命才能继续检查是否可添加。",
+          "next": "有好攻击点伤／抗性的蓝戒指，生命不足用身躯；缺一抗用对应抗性精华。两枚不必做成一样。",
+          "source": "本站教学示例；示例数值不是玩家装备或作者实装。"
+        }
+      }
+    }
+  },
+  "baseFacts": {
+    "Zealot Bow": {
+      "name": "狂热弓",
+      "level": 39,
+      "str": 0,
+      "dex": 70,
+      "int": 0,
+      "base": "物理31–47；每秒1.20次；基础暴击率5%",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Bows",
+      "checked": "2026-10-06"
+    },
+    "Obliterator Bow": {
+      "name": "毁灭者之弓",
+      "level": 78,
+      "str": 0,
+      "dex": 163,
+      "int": 0,
+      "base": "物理62–115；每秒1.10次；基础暴击率5%",
+      "note": "投射物射程降低50%，不能只比伤害上限。",
+      "url": "https://poe2db.tw/cn/Bows",
+      "checked": "2026-10-06"
+    },
+    "Warmonger Bow": {
+      "name": "寻战之弓",
+      "level": 77,
+      "str": 0,
+      "dex": 163,
+      "int": 0,
+      "base": "物理56–84；每秒1.20次；基础暴击率5%",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Bows",
+      "checked": "2026-10-06"
+    },
+    "Volant Quiver": {
+      "name": "飞矢箭袋",
+      "level": 61,
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "base": "固有：投射物速度提高20–30%",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "checked": "2026-10-06"
+    },
+    "Primed Quiver": {
+      "name": "精工箭袋",
+      "level": 51,
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "base": "固有：攻击速度提高7–10%",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "checked": "2026-10-06"
+    },
+    "Visceral Quiver": {
+      "name": "贯心箭袋",
+      "level": 65,
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "base": "固有：攻击的暴击率提高20–30%",
+      "note": "用于暴击方向的备选，不为非暴击过渡硬追。",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "checked": "2026-10-06"
+    },
+    "Broadhead Quiver": {
+      "name": "宽矢箭袋",
+      "level": 1,
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "base": "固有：攻击附加1–3物理伤害",
+      "note": "低级临时底材；已有更好的成品就不用倒退。",
+      "url": "https://poe2db.tw/cn/Quivers",
+      "checked": "2026-10-06"
+    },
+    "Viper Cap": {
+      "name": "毒蝰帽",
+      "level": 38,
+      "str": 0,
+      "dex": 54,
+      "int": 0,
+      "base": "基础闪避179",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Helmets",
+      "checked": "2026-10-06"
+    },
+    "Desert Cap": {
+      "name": "沙漠帽",
+      "level": 70,
+      "str": 0,
+      "dex": 99,
+      "int": 0,
+      "base": "基础闪避311",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Helmets",
+      "checked": "2026-10-06"
+    },
+    "Ancestral Tiara": {
+      "name": "先祖冠冕",
+      "level": 80,
+      "str": 0,
+      "dex": 0,
+      "int": 115,
+      "base": "基础能量护盾109",
+      "note": "转型比较的是做完的头盔自身护盾，不是109就达到转型目标。",
+      "url": "https://poe2db.tw/cn/Helmets",
+      "checked": "2026-10-06"
+    },
+    "Serpentscale Coat": {
+      "name": "蛇鳞外套",
+      "level": 36,
+      "str": 0,
+      "dex": 59,
+      "int": 0,
+      "base": "基础闪避260",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Body_Armours",
+      "checked": "2026-10-06"
+    },
+    "Corsair Coat": {
+      "name": "海盗外套",
+      "level": 80,
+      "str": 0,
+      "dex": 121,
+      "int": 0,
+      "base": "基础闪避451；固有移动速度提高5%",
+      "note": "基础衣服移动惩罚与固有提高是不同字段；不把5%当最终净移动收益。",
+      "url": "https://poe2db.tw/cn/Body_Armours",
+      "checked": "2026-10-06"
+    },
+    "Slipstrike Vest": {
+      "name": "滑击背心",
+      "level": 70,
+      "str": 0,
+      "dex": 121,
+      "int": 0,
+      "base": "基础闪避519",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Body_Armours",
+      "checked": "2026-10-06"
+    },
+    "Spined Bracers": {
+      "name": "精纺护腕",
+      "level": 33,
+      "str": 0,
+      "dex": 42,
+      "int": 0,
+      "base": "基础闪避79",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Gloves",
+      "checked": "2026-10-06"
+    },
+    "Grand Bracers": {
+      "name": "宏伟护腕",
+      "level": 70,
+      "str": 0,
+      "dex": 87,
+      "int": 0,
+      "base": "基础闪避155",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Gloves",
+      "checked": "2026-10-06"
+    },
+    "Lizardscale Boots": {
+      "name": "蜥鳞靴",
+      "level": 33,
+      "str": 0,
+      "dex": 45,
+      "int": 0,
+      "base": "基础闪避118",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Boots",
+      "checked": "2026-10-06"
+    },
+    "Cavalry Boots": {
+      "name": "骑兵长靴",
+      "level": 70,
+      "str": 0,
+      "dex": 93,
+      "int": 0,
+      "base": "基础闪避233",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Boots",
+      "checked": "2026-10-06"
+    },
+    "Bladed Shoes": {
+      "name": "嵌刃便鞋",
+      "level": 65,
+      "str": 0,
+      "dex": 47,
+      "int": 47,
+      "base": "基础闪避122；基础能量护盾37",
+      "note": "",
+      "url": "https://poe2db.tw/cn/Boots",
+      "checked": "2026-10-06"
+    }
+  },
+  "unique": {
+    "Cadiro's Gambit": {
+      "zh": "卡迪罗的赌局",
+      "brief": "每支箭随机取一种箭矢效果，不是六种同时常驻；先有合格弓与整体暴击配套再比较。",
+      "why": "随机清图与暴击功能来自六种箭，不应只看面板里列了六个名字就同时累加。",
+      "get": "比较实际掉落或交易到的暗金。缺它时用具备有效攻击点伤、攻速及暴击方向的普通箭袋；不承诺两者完全等效。",
+      "check": "改用暗金后在相同内容检查清图与单体；不预设六种等概率，也不把某次随机高伤作为稳定收益。",
+      "url": "https://poe2db.tw/cn/Cadiros_Gambit"
+    },
+    "Headhunter": {
+      "zh": "猎首",
+      "brief": "击败稀有怪才取得其词缀增益；稀有怪多的刷法与无小怪首领要分开判断。",
+      "why": "增益有触发条件和持续时间。没有击败稀有怪时，不把借来的增益计入基础属性。",
+      "get": "按实际取得的暗金比较；没有时仍可用生命、力量与抗性合格的普通腰带。",
+      "check": "先确认脱下旧腰带后能穿装备、三抗与生命仍够用，再评估刷法收益。",
+      "url": "https://poe2db.tw/cn/Headhunter"
+    },
+    "Lavianga's Spirits": {
+      "zh": "拉维安加之灵",
+      "brief": "效果持续生效，但回复量有降低；不是按一下救急或无条件无限魔力。",
+      "why": "需要比较持续魔力消耗与实际恢复，尤其没有击杀和小怪的首领场景。",
+      "get": "有合适普通／魔法魔力药剂即可先用，不用等这件暗金才解决供蓝；同时核对印记、回蓝珠宝及技能消耗。",
+      "check": "对同一目标连续使用主技能并观察魔力是否持续下降；不要因为“常驻”就忽略回复惩罚。",
+      "url": "https://poe2db.tw/cn/Laviangas_Spirits"
+    },
+    "Nascent Hope": {
+      "zh": "新生希望",
+      "brief": "受到冻结而触发时开始能量护盾充能，不是每次受击立刻回满护盾。",
+      "why": "触发、充能与实际护盾系统要同时存在。蓝量、护盾恢复和咒符充能是不同机制。",
+      "get": "未取得时先用能应对冻结风险的合适普通咒符；替代品不等于拥有它的护盾效果。",
+      "check": "咒符槽开放、有充能且实际触发；不要主动承受危险来假定它一直生效。面板“击杀获得充能”指咒符充能，不是角色能量球。",
+      "url": "https://poe2db.tw/cn/Nascent_Hope"
+    },
+    "The Fall of the Axe": {
+      "zh": "落刃时刻",
+      "brief": "受减速影响时触发，猛攻只在对应效果期间获得。",
+      "why": "不能把阶段性猛攻当作一直存在的攻速／移动收益。",
+      "get": "缺它时选择当前最需要的异常防护咒符；先满足生存，再比较额外增益。",
+      "check": "槽位、充能、触发条件与持续时间一起核对，不只看“猛攻”二字。",
+      "url": "https://poe2db.tw/cn/The_Fall_of_the_Axe"
+    },
+    "Rite of Passage": {
+      "zh": "仪式通道",
+      "brief": "击败稀有或传奇敌人时触发，附身效果按你实际物品的词缀，不能把所有灵体效果都算上。",
+      "why": "面板可能显示特定灵体或随机灵体；条件性收益不等于全程常驻。",
+      "get": "资料列其与阿兹莫里之灵掉落有关；能交易时比较实物，不能保证一次遇到就掉。缺少时优先普通防护咒符。",
+      "check": "已开放槽位、有充能，且实际附身对应你所需效果。不要为了凑作者同名物品先丢异常防护。",
+      "url": "https://poe2db.tw/cn/Rite_of_Passage"
+    },
+    "Hysseg's Claw": {
+      "zh": "西赛格之爪",
+      "brief": "只在作者实装的第二武器组中阅读，不能当作前五套冰射的通用副手或必备。",
+      "why": "它的物品类别、授予技能及需求要与武器切换和变形条件一同核对；原采集存在需求值冲突。",
+      "get": "本版不提供据此洗点或加工的执行建议；完整原面板与冲突证据保留。",
+      "check": "未完成实装冲突核验，不把武器、授予技能和天赋同时判为合法。",
+      "url": "https://poe2db.tw/cn/Hyssegs_Claw"
+    }
+  },
+  "arrows": [
+    {
+      "name": "渐强箭",
+      "effect": "额外连锁6次，每次连锁使该投射物伤害提高60%。",
+      "url": "https://poe2db.tw/cn/Crescendo_Arrows"
+    },
+    {
+      "name": "裂片箭",
+      "effect": "分裂向6个目标，用于多目标覆盖；不是同一目标固定多中6次。",
+      "url": "https://poe2db.tw/cn/Splinter_Arrows"
+    },
+    {
+      "name": "回转箭",
+      "effect": "穿透所有目标并返回；击中次数还取决于目标与路径。",
+      "url": "https://poe2db.tw/cn/Reversing_Arrows"
+    },
+    {
+      "name": "金刚箭",
+      "effect": "该箭的击中必定暴击，并获得60%暴击伤害加成。",
+      "url": "https://poe2db.tw/cn/Diamond_Arrows"
+    },
+    {
+      "name": "贪婪箭",
+      "effect": "被该箭击败的敌人掉落物品稀有度提高600%，不是所有掉落或通货数量提高。",
+      "url": "https://poe2db.tw/cn/Covetous_Arrows"
+    },
+    {
+      "name": "钝击箭",
+      "effect": "晕眩积累提高600%，不等于必定立即晕眩。",
+      "url": "https://poe2db.tw/cn/Blunt_Arrows"
+    }
+  ],
+  "jewels": {
+    "mana": {
+      "title": "缺蓝先怎么选",
+      "body": "刷图缺蓝可先准备一颗有击杀回蓝词缀的蓝玉；作者正文在供蓝备选中举2%击杀回蓝。没有击杀的首领不能只靠它，仍要测药剂、印记及持续消耗。",
+      "get": "优先拾取或比较已有该词缀的珠宝成品；蓝玉这个底材名称本身不保证回蓝。不要在唯一可用珠宝上先赌删改。",
+      "fallback": "暂时没有时，先用合格魔力药剂与现有恢复，按实际消耗调整连接；不要为了插差珠宝花很多绕路点。",
+      "check": "先确认人物树有已分配且能用的珠宝孔，再比较回蓝与其余有效词条；不是装备增幅孔、也不是技能辅助孔。",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+    },
+    "ordinary": {
+      "title": "普通输出珠宝怎么选",
+      "body": "非暴击阶段比较攻击、投射物、当前有效元素伤害与弓攻速；转暴击之后才额外比较攻击暴击率与攻击暴击伤害。法术限定词缀不能当成攻击收益。",
+      "get": "拾取或比较成品，先有几条真正有效属性即可。取得更好珠宝时替换现有孔，不按不同图标数量增加孔位。",
+      "fallback": "缺特殊珠宝时继续用合适的普通输出／资源珠宝；具体取舍按短板，不强行追与后期四颗翡翠完全相同的组合。",
+      "check": "普通珠宝不照普通防具的六词缀工艺操作；品质和精炼材料另查物品类别，宝石匠棱镜不用于人物珠宝。",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+    },
+    "well": {
+      "title": "泉井之心：看自身词缀",
+      "body": "它的额外伤害来自珠宝自身合适词缀，不按附近大点数量放大。作者后期目标可追两条额外伤害；当前展示有几条就按面板读，不能自动补第二条。",
+      "get": "来自深渊相关取得途径；也可在可交易环境比较实物。不是拿普通珠宝按通用精华升黄就能做出该暗金。",
+      "fallback": "没有合适的就继续普通输出珠宝。缺此珠宝不需要为了展示同名先买无用词缀组合。",
+      "check": "限定1颗；占用一个实际已分配孔。各属性掷值范围不是必得最高值，不把其他候选也同时算入。",
+      "url": "https://poe2db.tw/cn/Heart_of_the_Well"
+    },
+    "darkness": {
+      "title": "抗衡黑暗：看覆盖与已点节点",
+      "body": "额外伤害词缀要看实际半径内已分配的对应核心天赋。小天赋的其他效果和核心天赋的额外伤害分开；孔离节点近不代表都生效。",
+      "get": "对应特殊遗物“绝望的联盟”与扎罗克试炼路线，或可交易的成品；遗物条件、消耗与实际实物要先核对，不当普通随机珠宝掉落保证。",
+      "fallback": "只有单条合用额外冰伤也可以作为比较对象；双额外伤害是后续目标。没有合适覆盖位置时继续普通珠宝，不先退点凑半径。",
+      "check": "限定1颗。示例：若实物写每个覆盖核心天赋获得3%额外伤害，覆盖且已分配3个，合计该词缀为9%；这不是最终技能伤害固定提高9%。实际位置、半径及节点状态以游戏内核对。",
+      "url": "https://poe2db.tw/cn/Against_the_Darkness",
+      "acquireUrl": "https://poe2db.tw/cn/The_Desperate_Alliance"
+    }
+  },
+  "boundary": "页面面板取自2026年10月5日采集，基于0.5.5攻略。底材基础与机制解释于2026年10月6日对照简体数据；不倒写作者原件，不宣称腾讯国服逐字实测。",
+  "compareRule": "裸底材数值用于找候选；当前采集面板用于看作者示例；可选补位用于解决你的短板，三者不相加。装备物品等级、人物佩戴等级与材料条件分别核对。",
+  "unchanged": [
+    "作者原始构筑",
+    "四份现行原版过滤器及历史文件",
+    "采集装备与珠宝面板",
+    "镶嵌与已选异界绑定",
+    "原始截图与档案"
+  ],
+  "remaining": [
+    "作者实装的弓与保存字段、部分需求、珠宝孔及升华仍有原来源冲突，保持只读。",
+    "完整机器连线与合法逐级点序、全部异界未选候选仍没有足够原始数据；不从截图编造。",
+    "少数旧先祖秘藏事件或符文专名未核定，保留可读规则和逐项原名对照，不藏整段操作。",
+    "尚无国服客户端逐项名称、掉落、工艺收益及实战验证。"
+  ]
+}

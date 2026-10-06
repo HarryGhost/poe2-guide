@@ -1,0 +1,932 @@
+{
+  "date": "2026-09-28",
+  "checks": [
+    {
+      "name": "unique IDs after-quests.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation after-quests.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image after-quests.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-abyss.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-abyss.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-activities.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-activities.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-breach.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-breach.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-delirium.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-delirium.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-delirium.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-expedition.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-expedition.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-expedition.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-images.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-images.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-masters.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-masters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-other.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-other.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-other.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-passives.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-passives.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-ritual.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-ritual.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-ritual.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-sources.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-start.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-temple.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-temple.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-temple.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs atlas-unlock.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image atlas-unlock.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs compare.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image compare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs coverage.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation coverage.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image coverage.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-advanced.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-advanced.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-advanced.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-early-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-early-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-early-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-examples.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-examples.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-examples.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-reference.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-reference.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-reference.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft-steps-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft-steps-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft-steps-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs craft.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image craft.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e01.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e02.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e03.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e04.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e05.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs e06.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image e06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs equipment-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation equipment-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image equipment-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs equipment-goals-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation equipment-goals-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image equipment-goals-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs equipment.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation equipment.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image equipment.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs filter-legend.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation filter-legend.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image filter-legend.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs filters.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation filters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image filters.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs finish-check.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation finish-check.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image finish-check.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs glossary.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image glossary.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs index.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l01.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l01.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l02.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l02.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l03.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l03.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l04.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l04.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l05.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l05.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs l06.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image l06.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs mechanics.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image mechanics.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs numeric-targets.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation numeric-targets.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image numeric-targets.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs prepare-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation prepare-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image prepare-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs prepare.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation prepare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image prepare.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs reader.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image reader.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs rewards.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image rewards.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs roadmap.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image roadmap.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs runes-all.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation runes-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image runes-all.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs runes.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation runes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image runes.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "unique IDs sources.html",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "new navigation sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no automatic external image sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all local targets exist",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Atlas fragment targets exist",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "immutable 构筑文件/01_Early.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/01_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/02_noncrit_Midgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/02_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/03_noncrit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/03_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/04_Crit_Hybrid.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/04_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/05_Uber_Endgame.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/05_中文提示.build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/06_Live_Gear_冲突勿导入.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable 构筑文件/06_中文提示.build.txt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/01_Fubgun_Early_Mapping.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/02_Fubgun_Bow_Campaign.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/03_Fubgun_Endgame_Mapping.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "immutable filters/04_Fubgun_Uber_Strict.filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "55 HTML pages",
+      "passed": true,
+      "detail": "55"
+    },
+    {
+      "name": "online-image disclosure",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "total": 185,
+  "passed": 185
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "display_index": 1,
+    "runes": [
+      {
+        "socket_index": 1,
+        "style": "background-image: url(\"https://cdn.mobalytics.gg/assets/poe-2/images/assets/equipment-socket.png?v1\");",
+        "trigger": "_r_to9_"
+      },
+      {
+        "socket_index": 2,
+        "style": "background-image: url(\"https://cdn.mobalytics.gg/assets/poe-2/images/assets/equipment-socket.png?v1\");",
+        "trigger": "_r_toa_"
+      }
+    ]
+  },
+  {
+    "display_index": 3,
+    "runes": [
+      {
+        "socket_index": 1,
+        "style": "background-image: url(\"https://cdn.mobalytics.gg/assets/poe-2/images/assets/equipment-socket.png?v1\");",
+        "trigger": "_r_toh_"
+      }
+    ]
+  },
+  {
+    "display_index": 4,
+    "runes": [
+      {
+        "socket_index": 1,
+        "style": "background-image: url(\"https://cdn.mobalytics.gg/assets/poe-2/images/assets/equipment-socket.png?v1\");",
+        "trigger": "_r_tol_"
+      },
+      {
+        "socket_index": 2,
+        "style": "background-image: url(\"https://cdn.mobalytics.gg/assets/poe-2/images/assets/equipment-socket.png?v1\");",
+        "trigger": "_r_tom_"
+      }
+    ]
+  }
+]

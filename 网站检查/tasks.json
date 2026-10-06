@@ -1,0 +1,1322 @@
+{
+  "mode": "tasks",
+  "navigation": [],
+  "errors": [],
+  "views": [
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e04"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/filters"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 245,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/builds"
+    },
+    {
+      "page": "my-gear",
+      "error": null,
+      "length": 8917,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [],
+      "cards": 15,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "my-gear"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e01"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e02"
+    },
+    {
+      "page": "character",
+      "error": null,
+      "length": 1143,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "character?stage=e03"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?cp=l03"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 7984,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e06",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 23,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e06"
+    },
+    {
+      "page": "home",
+      "error": null,
+      "length": 764,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e06",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "home"
+    },
+    {
+      "page": "my-gear",
+      "error": null,
+      "length": 8917,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e04",
+      "options": [],
+      "cards": 15,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "my-gear"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e04"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6366,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e05"
+    },
+    {
+      "page": "atlas-choose",
+      "error": null,
+      "length": 720,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas-choose"
+    },
+    {
+      "page": "atlas",
+      "error": null,
+      "length": 807,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas/lineage-gems?tab=choices"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/filters"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1261,
+      "dupes": [],
+      "dead": [],
+      "view": 390,
+      "width": 390,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e04&tab=craft"
+    },
+    {
+      "page": "home",
+      "error": null,
+      "length": 764,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e04",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "home"
+    },
+    {
+      "page": "my-gear",
+      "error": null,
+      "length": 8917,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e04",
+      "options": [],
+      "cards": 15,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "my-gear"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e04"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6366,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e05"
+    },
+    {
+      "page": "atlas-choose",
+      "error": null,
+      "length": 720,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas-choose"
+    },
+    {
+      "page": "atlas",
+      "error": null,
+      "length": 807,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas/lineage-gems?tab=choices"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/filters"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1261,
+      "dupes": [],
+      "dead": [],
+      "view": 768,
+      "width": 768,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e04&tab=craft"
+    },
+    {
+      "page": "home",
+      "error": null,
+      "length": 764,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e04",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "home"
+    },
+    {
+      "page": "my-gear",
+      "error": null,
+      "length": 8917,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e04",
+      "options": [],
+      "cards": 15,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "my-gear"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e04"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6366,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e05"
+    },
+    {
+      "page": "atlas-choose",
+      "error": null,
+      "length": 720,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas-choose"
+    },
+    {
+      "page": "atlas",
+      "error": null,
+      "length": 807,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas/lineage-gems?tab=choices"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/filters"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1261,
+      "dupes": [],
+      "dead": [],
+      "view": 1024,
+      "width": 1024,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e04&tab=craft"
+    },
+    {
+      "page": "home",
+      "error": null,
+      "length": 764,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "home"
+    },
+    {
+      "page": "my-gear",
+      "error": null,
+      "length": 8917,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [],
+      "cards": 15,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "my-gear"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e04"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6366,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e05"
+    },
+    {
+      "page": "atlas-choose",
+      "error": null,
+      "length": 720,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas-choose"
+    },
+    {
+      "page": "atlas",
+      "error": null,
+      "length": 807,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas/lineage-gems?tab=choices"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/filters"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1261,
+      "dupes": [],
+      "dead": [],
+      "view": 1440,
+      "width": 1440,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e04&tab=craft"
+    },
+    {
+      "page": "home",
+      "error": null,
+      "length": 764,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e04",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "home"
+    },
+    {
+      "page": "my-gear",
+      "error": null,
+      "length": 8917,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e04",
+      "options": [],
+      "cards": 15,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "my-gear"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6056,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e04"
+    },
+    {
+      "page": "gear",
+      "error": null,
+      "length": 6366,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e05",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 17,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "gear?stage=e05"
+    },
+    {
+      "page": "atlas-choose",
+      "error": null,
+      "length": 720,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas-choose"
+    },
+    {
+      "page": "atlas",
+      "error": null,
+      "length": 807,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "atlas/lineage-gems?tab=choices"
+    },
+    {
+      "page": "tools",
+      "error": null,
+      "length": 520,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e05",
+      "options": [],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "tools/filters"
+    },
+    {
+      "page": "item",
+      "error": null,
+      "length": 1261,
+      "dupes": [],
+      "dead": [],
+      "view": 1920,
+      "width": 1920,
+      "stage": "e04",
+      "options": [
+        "e04",
+        "e05",
+        "e06"
+      ],
+      "cards": 0,
+      "oldLinks": [],
+      "object": false,
+      "missingLocal": [],
+      "route": "item/helmet?stage=e04&tab=craft"
+    }
+  ],
+  "tasks": [
+    {
+      "task": "选择后续高配",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "后续人物查看后仍能进异界入门",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "异界不切人物",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "七套异界入口保留",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "血脉方案作者已选13条",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "当前原版01网页下载入口",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "四原版仍在",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "只剩3个构筑下载",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "搜索不返回前三人物：暴击混合防御",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "task": "搜索不返回前三人物：高配冰射",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "task": "搜索不返回前三人物：非暴击中期",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "task": "搜索不返回前三人物：初入异界",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "task": "搜索不返回前三人物：底材",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "task": "搜索不返回前三人物：蛇鳞外套",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "task": "搜索不返回前三人物：击杀回蓝",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "task": "搜索不返回前三人物：森林",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "task": "搜索不返回前三人物：我的左戒",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "task": "搜索不返回前三人物：过滤器",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "task": "我的戒指定位",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "我的戒指进入同阶段制作",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "旧人物链接不会返回过时BD：gear?stage=e01",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "旧人物链接不会返回过时BD：gear?stage=e02",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "旧人物链接不会返回过时BD：character?stage=e03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "旧人物链接不会返回过时BD：gear?cp=l03",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "实装只读提示",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "task": "页面宽度 390 home",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 my-gear",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 gear?stage=e04",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 gear?stage=e05",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 atlas-choose",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 atlas/lineage-gems?tab=choices",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 tools/filters",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 390 item/helmet?stage=e04&tab=craft",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "view": 390
+      }
+    },
+    {
+      "task": "页面宽度 768 home",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 my-gear",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 gear?stage=e04",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 gear?stage=e05",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 atlas-choose",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 atlas/lineage-gems?tab=choices",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 tools/filters",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 768 item/helmet?stage=e04&tab=craft",
+      "pass": true,
+      "detail": {
+        "width": 768,
+        "view": 768
+      }
+    },
+    {
+      "task": "页面宽度 1024 home",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 my-gear",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 gear?stage=e04",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 gear?stage=e05",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 atlas-choose",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 atlas/lineage-gems?tab=choices",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 tools/filters",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1024 item/helmet?stage=e04&tab=craft",
+      "pass": true,
+      "detail": {
+        "width": 1024,
+        "view": 1024
+      }
+    },
+    {
+      "task": "页面宽度 1440 home",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 my-gear",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 gear?stage=e04",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 gear?stage=e05",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 atlas-choose",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 atlas/lineage-gems?tab=choices",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 tools/filters",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1440 item/helmet?stage=e04&tab=craft",
+      "pass": true,
+      "detail": {
+        "width": 1440,
+        "view": 1440
+      }
+    },
+    {
+      "task": "页面宽度 1920 home",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 my-gear",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 gear?stage=e04",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 gear?stage=e05",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 atlas-choose",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 atlas/lineage-gems?tab=choices",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 tools/filters",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    },
+    {
+      "task": "页面宽度 1920 item/helmet?stage=e04&tab=craft",
+      "pass": true,
+      "detail": {
+        "width": 1920,
+        "view": 1920
+      }
+    }
+  ]
+}

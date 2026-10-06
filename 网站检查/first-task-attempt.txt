@@ -1,0 +1,1 @@
+First native task script matched text 做, but actual link is 制作与收尾. Locator timed out. Updated selector to actual tab=craft href; no page link changed for this test. Also inspection found personal comparison must explicitly set e04, now fixed in route parser and will rerun all tests.
