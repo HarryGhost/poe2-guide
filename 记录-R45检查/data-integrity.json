@@ -1,0 +1,1280 @@
+{
+  "checks": [
+    {
+      "name": "Only three entry/readme files changed",
+      "ok": true,
+      "detail": [
+        "index.html",
+        "00_先读我.md",
+        "README_上线.md"
+      ]
+    },
+    {
+      "name": "No original files missing",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "filters byte preservation",
+      "ok": true,
+      "detail": {
+        "count": 15
+      }
+    },
+    {
+      "name": "builds byte preservation",
+      "ok": true,
+      "detail": {
+        "count": 12
+      }
+    },
+    {
+      "name": "R28archive byte preservation",
+      "ok": true,
+      "detail": {
+        "count": 492
+      }
+    },
+    {
+      "name": "capture byte preservation",
+      "ok": true,
+      "detail": {
+        "count": 444
+      }
+    },
+    {
+      "name": "data/R43_capture_overlay.json source bytes untouched",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "data/R44_localization.json source bytes untouched",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "assets/content.e69d3567dd9c.js source bytes untouched",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "index asset assets/style.r45.dbdcd465146c.css",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "index asset assets/content.e69d3567dd9c.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "index asset assets/capture43.16613393f010.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "index asset assets/localization44.r44.b580105044e4.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "index asset assets/guide45.r45.131253d2ab45.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "index asset assets/app.r45.b69c61aa52af.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/bow separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/bow/狂热弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Zealot Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/bow/当前可穿、实际伤害好的普通弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/bow/毁灭者之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Obliterator Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/bow/寻战之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Warmonger Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/quiver separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/quiver/飞矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Volant Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/quiver/精工箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Primed Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/quiver/贯心箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Visceral Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/quiver/宽矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Broadhead Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/helmet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/helmet/毒蝰帽 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Viper Cap",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/helmet/沙漠帽 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Desert Cap",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/helmet/先祖冠冕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Ancestral Tiara",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/body separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/body/蛇鳞外套 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Serpentscale Coat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/body/当前可穿的高闪避衣服 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/body/海盗外套 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Corsair Coat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/body/滑击背心 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Slipstrike Vest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/gloves separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/gloves/精纺护腕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Spined Bracers",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/gloves/宏伟护腕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Grand Bracers",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/boots separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/boots/蜥鳞靴 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Lizardscale Boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/boots/骑兵长靴 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Cavalry Boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/boots/嵌刃便鞋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Bladed Shoes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/amulet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/amulet/星辉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/amulet/日曜项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/amulet/海玉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/belt separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/belt/生皮腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/belt/实际功能合适的其他腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/ring1 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/ring1/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/ring1/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/ring2 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/ring2/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e01/ring2/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/bow separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/bow/当前可穿、实际伤害好的普通弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/bow/毁灭者之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Obliterator Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/bow/寻战之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Warmonger Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/quiver separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/quiver/飞矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Volant Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/quiver/精工箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Primed Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/quiver/宽矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Broadhead Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/helmet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/helmet/沙漠帽 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Desert Cap",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/body separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/body/当前可穿的高闪避衣服 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/body/海盗外套 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Corsair Coat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/body/滑击背心 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Slipstrike Vest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/gloves separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/gloves/宏伟护腕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Grand Bracers",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/boots separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/boots/骑兵长靴 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Cavalry Boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/amulet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/amulet/星辉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/amulet/日曜项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/amulet/海玉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/belt separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/belt/生皮腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/belt/实际功能合适的其他腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/ring1 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/ring1/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/ring1/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/ring2 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/ring2/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e02/ring2/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/bow separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/bow/毁灭者之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Obliterator Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/bow/寻战之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Warmonger Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/quiver separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/quiver/飞矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Volant Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/quiver/精工箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Primed Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/helmet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/helmet/先祖冠冕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Ancestral Tiara",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/body separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/body/海盗外套 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Corsair Coat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/body/滑击背心 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Slipstrike Vest",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/gloves separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/gloves/宏伟护腕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Grand Bracers",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/boots separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/boots/嵌刃便鞋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Bladed Shoes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/amulet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/amulet/星辉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/amulet/日曜项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/amulet/海玉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/belt separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/belt/生皮腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/belt/实际功能合适的其他腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/ring1 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/ring1/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/ring1/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/ring2 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/ring2/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e03/ring2/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/bow separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/bow/毁灭者之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Obliterator Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/bow/寻战之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Warmonger Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/quiver separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/quiver/飞矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Volant Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/quiver/精工箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Primed Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/quiver/贯心箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Visceral Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/helmet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/helmet/先祖冠冕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Ancestral Tiara",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/body separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/body/海盗外套 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Corsair Coat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/gloves separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/gloves/宏伟护腕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Grand Bracers",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/boots separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/boots/嵌刃便鞋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Bladed Shoes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/amulet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/amulet/星辉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/amulet/日曜项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/belt separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/belt/生皮腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/belt/实际功能合适的其他腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/ring1 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/ring1/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/ring1/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/ring2 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/ring2/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e04/ring2/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/bow separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/bow/毁灭者之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Obliterator Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/bow/寻战之弓 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Warmonger Bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/quiver separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/quiver/飞矢箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Volant Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/quiver/精工箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Primed Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/quiver/贯心箭袋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Visceral Quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/helmet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/helmet/先祖冠冕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Ancestral Tiara",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/body separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/body/海盗外套 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Corsair Coat",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/gloves separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/gloves/宏伟护腕 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Grand Bracers",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/boots separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/boots/嵌刃便鞋 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "bare facts explicitly scoped Bladed Shoes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/amulet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/amulet/星辉项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/amulet/日曜项链 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/belt separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/belt/生皮腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/belt/实际功能合适的其他腰带 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/ring1 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/ring1/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/ring1/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/ring2 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/ring2/三相戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e05/ring2/当前缺抗性的对应戒指 scope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/bow separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/bow read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/quiver separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/quiver read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/helmet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/helmet read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/body separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/body read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/gloves separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/gloves read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/boots separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/boots read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/amulet separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/amulet read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/belt separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/belt read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/ring1 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/ring1 read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/ring2 separated from captures",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "e06/ring2 read only",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique guidance exists Cadiro's Gambit",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique guidance exists Lavianga's Spirits",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique guidance exists Nascent Hope",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique guidance exists The Fall of the Axe",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique guidance exists Rite of Passage",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique guidance exists Headhunter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Six arrow explanations distinct",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "All current captures remain distinct",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "changed": [
+    "index.html",
+    "00_先读我.md",
+    "README_上线.md"
+  ],
+  "missing": [],
+  "source_files": [],
+  "filters_count": 15,
+  "builds_count": 12,
+  "R28archive_count": 492,
+  "capture_count": 444,
+  "baseline_file_count": 1366,
+  "new_file_count_before_release": 1370,
+  "all_passed": true
+}

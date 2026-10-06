@@ -1,0 +1,13 @@
+{
+  "http://127.0.0.1:8765/index.html": {
+    "ok": false,
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8765/index.html\nCall log:\n  - navigating to \"http://127.0.0.1:8765/index.html\", waiting until \"domcontentloaded\"\n"
+  },
+  "file:///mnt/data/poe2_Fubgun_C_R43/index.html": {
+    "ok": false,
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R43/index.html\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_C_R43/index.html\", waiting until \"domcontentloaded\"\n"
+  },
+  "fallback": "memory",
+  "errors": [],
+  "cards": 15
+}

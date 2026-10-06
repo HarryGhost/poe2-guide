@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-10-05T09:32:50.018Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Ca027a8d3-7254-40d4-8073-115918fc6ebc",
+  "build": "Live Gear",
+  "slot": "mainHand",
+  "set": "Set 1",
+  "socket_index": 1,
+  "slug": "soulcore-runeenhanceperfect",
+  "panels": [
+    {
+      "html": "<div data-tippy-root=\"\" id=\"tippy-2365\" data-popper-placement=\"right\" style=\"pointer-events: none; z-index: 120000; position: fixed; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(187px, 286px, 0px);\"><div><div class=\"x1cvue7f x1i97zcw x1hv8zah xu70ewc x1qhigcl x1j9u4d2 x1n2onr6 x1n9hxaw x25l62i xiy17q3 x1bc63r9\"><div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 x1xyvc85\" style=\"background: linear-gradient(180deg, var(--x1ymkdt3) 0%, rgba(255, 255, 255, 0.00) 100%);\"></div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 xfj9a5l x112ta8 xlbbj0o x19wp0b7 xvpkmg4\" style=\"background: linear-gradient(180deg, var(--x1ymkdt3) 0%, rgba(255, 255, 255, 0.00) 100%) border-box;\"></div></div><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1n2onr6 x100vrsf x1vqgdyp xb3r6kr xhdc4oz\"><img alt=\"Perfect Iron Rune\" width=\"40\" height=\"40\" class=\"x19kjcj4\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=80/assets/poe-2/images/game/Art/2DItems/Currency/Runes/PerfectRuneEnhance.webp\"></div><div><p class=\"x2klb21\">Perfect Iron Rune</p><p class=\"x139jznd x9uxgww\"></p></div><p class=\"x139jznd x9uxgww x1fj9vlw\">Requires Level 65</p><div><ul class=\"x139jznd x9uxgww x5tiur9 x1ghz6dp\"><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Martial Weapon: 20% increased Physical Damage</li><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Wand or Staff: 35% increased Spell Damage</li><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Armour: 20% increased Armour, Evasion and Energy Shield</li></ul></div></div></div></div></div>",
+      "text": "Perfect Iron Rune\n\nRequires Level 65\n\nMartial Weapon: 20% increased Physical Damage\nWand or Staff: 35% increased Spell Damage\nArmour: 20% increased Armour, Evasion and Energy Shield"
+    }
+  ]
+}

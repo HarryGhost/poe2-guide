@@ -1,0 +1,643 @@
+{
+  "version": "R28",
+  "method": "instrumented actual Path writes and shutil copies during build.py + export_r28.py",
+  "outputs": [
+    {
+      "path": "after-quests.html",
+      "sha256": "d7baae8f5834275d81cd07f8f24ff66acc613909c8ab482ca8cb1fcf1b22c27c",
+      "identical": true
+    },
+    {
+      "path": "all.html",
+      "sha256": "aa193ccbc3dadd6de8252e9927aa4c2cda5f4f88efc5967956d587130ff7edc7",
+      "identical": true
+    },
+    {
+      "path": "assets/after-quests.js",
+      "sha256": "973d06224b2d51cd986ade0d40a71e0004d57a859724de9d68296e404afe9e7c",
+      "identical": true
+    },
+    {
+      "path": "assets/app.js",
+      "sha256": "90c489ec10ddb9b16373197f1ccf7e012acb07598ed2a0a5d1231537dbabc991",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas-gallery.css",
+      "sha256": "312b0fd8401e9e7d15115e0b14d10d5ca8348b47b46cce093b219368e1e14e24",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas-gallery.js",
+      "sha256": "f1be8ca241706fc55ac7d99ae2ff519e5d5b437df592d8d08452471c0ea41d69",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas-workspace-data-r26.js",
+      "sha256": "d498cf8e31402bea50fa180d3b1e714d0b2c528332380b63f086628a6ddc3057",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas-workspace-r26.css",
+      "sha256": "5cca00809a5b25eae3c6562c737cced00066b2c428b7ebc69de13b854f2ae648",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas-workspace-r26.js",
+      "sha256": "a5f969bf5d4208d7114bd0cf8e5d3abd9f89a50fe81838a3ba18cdc80529f21a",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas.css",
+      "sha256": "b82d4dad392ba241cd26f2f050b18ae81f1fa14ee293579e1a3b177e34827bd9",
+      "identical": true
+    },
+    {
+      "path": "assets/atlas.js",
+      "sha256": "ba56f3a1e84e9008ae8ad79bc5c35d218a11cd8b4e7158a4cf7d16b0b0d76eb3",
+      "identical": true
+    },
+    {
+      "path": "assets/bow-metrics-data.js",
+      "sha256": "25215f0cfa5015a283e31661ddaea9a952417fe69106c6db2e5924afec40351b",
+      "identical": true
+    },
+    {
+      "path": "assets/bow-metrics.js",
+      "sha256": "9f945b8913ed91d7b074651d3af5dc3f20d8dc0eebcc2d9c52787a9b2edd0702",
+      "identical": true
+    },
+    {
+      "path": "assets/catalog.js",
+      "sha256": "7ca3a4e50e2a3222b87baaafa8e9c22adefc8553079af53f5b56b4ac819b2fe6",
+      "identical": true
+    },
+    {
+      "path": "assets/compare.js",
+      "sha256": "e31a8ac009f8744bd2cf355494cec309790759a8b1b5e3ba3536db5141eb2c5f",
+      "identical": true
+    },
+    {
+      "path": "assets/crafting.js",
+      "sha256": "7ec473a0df0261b65d27b6b703241a7f308d087764a1dca48accc8f7fef446a4",
+      "identical": true
+    },
+    {
+      "path": "assets/early-crafting.js",
+      "sha256": "9c4c537b1aa4ed7fe022b73f101d6fd1eac026df784b8c734169b89db0e2277c",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment-bridge.js",
+      "sha256": "5df59cb3021be504b3ce4651a6bbbca1889c6deb6dd32335fa3fcf8ce4f4df3a",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment-data.js",
+      "sha256": "18bf6bde04c53bc1135a5a3e5e893cffe1ae734e5bc9abc40e9d5002e211c1b2",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment-finish-r28-data.js",
+      "sha256": "2dacdf7428b6e11e1e331a330549bded6dc23a5d1053e7ddf98ebbeebcc58873",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment-finish-r28.css",
+      "sha256": "831b2257564c89acfe7bf0c80c141d13affa9ed7fe1f6964c307ee470ce96b3a",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment-finish-r28.js",
+      "sha256": "0c874db5a9fa2857ca0d39df77688193042ded1cda5515e30545879df0733c0a",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment.css",
+      "sha256": "f83a30f16cca046eb5955def8e08e2ff5fd9eeea7c256ee42dbf7c280f23be53",
+      "identical": true
+    },
+    {
+      "path": "assets/equipment.js",
+      "sha256": "bae0a4e9ad3377dd2b4e0e9baa44d0a07055ebaec43018cfa0eecdf49a899508",
+      "identical": true
+    },
+    {
+      "path": "assets/examples.js",
+      "sha256": "7d3ead8dd0bd1066f32a6c5d9c208e26d6d0376f824715a6b9c80e189f2dd757",
+      "identical": true
+    },
+    {
+      "path": "assets/filter-legend.css",
+      "sha256": "93c7da40cc25e2c6dd255ba9bceda80c5bef1c097a268d87640dc4c3d5de8f7e",
+      "identical": true
+    },
+    {
+      "path": "assets/filter-legend.js",
+      "sha256": "8dbec4cca0fb223ff612f5cdf1db4fcf4b4218abeaf21992ae2409a5e28e2bf2",
+      "identical": true
+    },
+    {
+      "path": "assets/finishing.css",
+      "sha256": "ac3950feb14b3f8b09c26d766d91f56366376ba03055a125d54fd71acd1e2158",
+      "identical": true
+    },
+    {
+      "path": "assets/finishing.js",
+      "sha256": "738f3d7f3ac2adaa7950dbf14795b0822d336004f33df848360c348f4eabf5f2",
+      "identical": true
+    },
+    {
+      "path": "assets/fubgun-atlas-data.js",
+      "sha256": "40832bfd92b7622d9b12fe80dcec466f0e87171976e974bbb128267950fc0b06",
+      "identical": true
+    },
+    {
+      "path": "assets/fubgun-atlas.css",
+      "sha256": "ff0a656cea824170d2f8a1338e2a05db9d1ffadc01d17c9eb44c193e9dfe7cfb",
+      "identical": true
+    },
+    {
+      "path": "assets/fubgun-atlas.js",
+      "sha256": "3d61dc221db4a7d004d6f49399802d2c8491323a291225e28a3f7f62e1f746ee",
+      "identical": true
+    },
+    {
+      "path": "assets/guided-crafting.css",
+      "sha256": "441e818c119bccdc87e9051ab766bf66546f598b7c340bf3cee9a4411dad5966",
+      "identical": true
+    },
+    {
+      "path": "assets/guided-crafting.js",
+      "sha256": "bf3b2a48cf813d2ff9c6aadf25cbd6d4c04190eb398dc5afff30dda077bb0243",
+      "identical": true
+    },
+    {
+      "path": "assets/novice-r27.css",
+      "sha256": "0ecbeb69b7d2c53b091e7372b45d2d34cb6d490229197fbf9ec94057e3f44a9a",
+      "identical": true
+    },
+    {
+      "path": "assets/novice-r27.js",
+      "sha256": "ca4401c0c57f1c81412ed3f8bfea235ad9bd72c69178459393b9972f66ecd44c",
+      "identical": true
+    },
+    {
+      "path": "assets/preparation.css",
+      "sha256": "13ee97ea33eb43dbea836e27012b74d74e2a6377d32c6beec62b4b4a73c4d6c0",
+      "identical": true
+    },
+    {
+      "path": "assets/preparation.js",
+      "sha256": "08f7a82704b2c506b78f546f714990cd2b927f5d7035f9df156ee9b3370685fc",
+      "identical": true
+    },
+    {
+      "path": "assets/search-index.js",
+      "sha256": "f45de1b0f2f3f84de56d458f9a96d35ebeeaf4cc6f2b1c3c6cfe725ed2aedbfd",
+      "identical": true
+    },
+    {
+      "path": "assets/style.css",
+      "sha256": "47553c24e2676773a53989d750986ee7a013fc81a6cd9cc1223ce26c34843c90",
+      "identical": true
+    },
+    {
+      "path": "assets/workbench.css",
+      "sha256": "eb0281be7e51e84a4006a68ea1bd527ad369a67f108ecfde4f5ca662131191e7",
+      "identical": true
+    },
+    {
+      "path": "assets/workbench.js",
+      "sha256": "abef6e54197d44edef52102ff78e326a4d0176546659c8a66ede86397fba31c2",
+      "identical": true
+    },
+    {
+      "path": "atlas-abyss.html",
+      "sha256": "15696faad95e9632eb36d36207d7da72ad08d3c89a9d2f568e5592e04a1af92e",
+      "identical": true
+    },
+    {
+      "path": "atlas-activities.html",
+      "sha256": "ec61bf7b4f7ecaeb8dcaa7a7dae55e6c08f9fb2eab49af48fb1629067e4b5684",
+      "identical": true
+    },
+    {
+      "path": "atlas-breach.html",
+      "sha256": "12fe4997e8d84463a82af52485e865c27c7aa7234296d6a22bbbaf6d6579d098",
+      "identical": true
+    },
+    {
+      "path": "atlas-comparison.html",
+      "sha256": "62fc958cbc59a8a9b7b554aec081d73f767111b63d60f43a0c0550f19a28824d",
+      "identical": true
+    },
+    {
+      "path": "atlas-delirium.html",
+      "sha256": "dc02396d740c03b2b46cda993e10826890061e0e134497e60f8893518d525e7d",
+      "identical": true
+    },
+    {
+      "path": "atlas-expedition.html",
+      "sha256": "faf4c6b7b357cf8970e55137643e22155fac36c2636779ddefb61847a8b32a37",
+      "identical": true
+    },
+    {
+      "path": "atlas-fubgun.html",
+      "sha256": "7154445c2e7be5d5a8569fac3ce4124cb01d4556735def8bda3ba2d0ea45a2ea",
+      "identical": true
+    },
+    {
+      "path": "atlas-images.html",
+      "sha256": "579456b145e99b77c212bd6200b990c44797b124fe421b328936cf6505e6f08c",
+      "identical": true
+    },
+    {
+      "path": "atlas-masters.html",
+      "sha256": "4dba1827a0afd37422a21ab57bbfcc7b018c97ffee4b81a6edfc79df83c66525",
+      "identical": true
+    },
+    {
+      "path": "atlas-other.html",
+      "sha256": "29668a6a14bf7e4b4128cefc807ab9c9387fa6aa88997bd398787beaace3edd5",
+      "identical": true
+    },
+    {
+      "path": "atlas-passives.html",
+      "sha256": "630a1fada823aaa8dee4a05352c9033e26ce8d58dffa0a0addf9009dc9e24f7e",
+      "identical": true
+    },
+    {
+      "path": "atlas-reference.html",
+      "sha256": "7ddfa05128c0ef4efeb44bfad45bd7c56d8c9ed4212983c705d2eaa86db6dd7e",
+      "identical": true
+    },
+    {
+      "path": "atlas-ritual.html",
+      "sha256": "44b59c91b2dc306c441a205ab62831da2081acfc280feb8b33c1fb5971d8d737",
+      "identical": true
+    },
+    {
+      "path": "atlas-sources.html",
+      "sha256": "1f83d9bf9b75c912693165e6280e5a21fd284d5b5e900e7a31fc195f145f44a3",
+      "identical": true
+    },
+    {
+      "path": "atlas-start.html",
+      "sha256": "4811155acbbbdc144c95398ae463f227a1d22b55612cd050c31178edf3606801",
+      "identical": true
+    },
+    {
+      "path": "atlas-temple.html",
+      "sha256": "2fea7dc400a20e012335901726e28c6a39e51bd6ecf4bcd28f51726298fbbcab",
+      "identical": true
+    },
+    {
+      "path": "atlas-unlock.html",
+      "sha256": "6d1c793342e3bf992ed5502147de568d48f7351d67b73fd7512f20418beb56f9",
+      "identical": true
+    },
+    {
+      "path": "beginner-guide.html",
+      "sha256": "e6d03951ad23c0a7ee806b7183b09775737a6d83121faa8b4b34af5dad7e33c7",
+      "identical": true
+    },
+    {
+      "path": "compare.html",
+      "sha256": "2e90ae9c2b726437c72ef320677cffb1fbfc0a28ce9b10332d02e3af60e1e06d",
+      "identical": true
+    },
+    {
+      "path": "coverage.html",
+      "sha256": "735b46b61d9236a0c755165e213742564eed556d77ccf4756c5f6581761c91f1",
+      "identical": true
+    },
+    {
+      "path": "craft-advanced.html",
+      "sha256": "fc625de373f6eb330341b8d73224e052a5705ea5b606504110d8fdaa8956ca49",
+      "identical": true
+    },
+    {
+      "path": "craft-all.html",
+      "sha256": "393feb6a9ae7c67e800b1edad16106666cc0cfa445513537f7f162147ce58b37",
+      "identical": true
+    },
+    {
+      "path": "craft-early-all.html",
+      "sha256": "56fb5717e44b10c6758d0d5271f800e94fec46cd0cd1511011167c896f0cf231",
+      "identical": true
+    },
+    {
+      "path": "craft-examples.html",
+      "sha256": "7b1924be39b3cda5593bec08d0aac448e7faab80120d3cf5800774bb14299633",
+      "identical": true
+    },
+    {
+      "path": "craft-reference.html",
+      "sha256": "d0e2e6ab44416c9c2d615ea105fb3b6b910c39398c65f3494660af0de562e38e",
+      "identical": true
+    },
+    {
+      "path": "craft-steps-all.html",
+      "sha256": "854fea30b9d4113e2514ce7abfb82695caa6520b5872a007efe2952055baf2c9",
+      "identical": true
+    },
+    {
+      "path": "craft.html",
+      "sha256": "44b7570d245dd5656a67aa5f08ba44b58f4f8f0940906b3c1017e9bc666810f8",
+      "identical": true
+    },
+    {
+      "path": "data/R21全站缺漏核对.json",
+      "sha256": "f7cd56ea92d0d267d7feaa17018ef2cc4163b7ba43f25c3eb62b13f52bf10862",
+      "identical": true
+    },
+    {
+      "path": "data/R21符文与收尾.json",
+      "sha256": "83d1afb7885d52471e203a5f48e098a48e9de8bdfe4f698209fd8dfb363712a6",
+      "identical": true
+    },
+    {
+      "path": "data/R25作者来源与截图.json",
+      "sha256": "9db185d4ad526e3ea0fc9963c3ad4965258e5ff1e093ea12569fad63309c0784",
+      "identical": true
+    },
+    {
+      "path": "data/R27来源与内容审计.json",
+      "sha256": "7d6c5dd8bd50245a353e60a548134a50169646978391aeceaa4cdf583fc8b59f",
+      "identical": true
+    },
+    {
+      "path": "data/R28强化覆盖矩阵.json",
+      "sha256": "1ab75fef7466ff89fc0b056de78dd2c5579fcacae8a051d3eb550a6a1534ca11",
+      "identical": true
+    },
+    {
+      "path": "data/全身基础与成品核算_R16.json",
+      "sha256": "8f332bdd6032f2d4797b693d54c2ff711776258cb25233f6793040da27afea79",
+      "identical": true
+    },
+    {
+      "path": "data/全身装备目标_R14.json",
+      "sha256": "8d1ab2107019aa671a0f24b8b488a603e4b3d820db5149738119b95e48d4c125",
+      "identical": true
+    },
+    {
+      "path": "data/弓基础与成品面板_核算_R15.json",
+      "sha256": "591a773e9f3dfa520db49023634b1c13ac99770ebe61e6b7adc7ef2f6c77b813",
+      "identical": true
+    },
+    {
+      "path": "data/弓基础与成品面板_核算_R16.json",
+      "sha256": "591a773e9f3dfa520db49023634b1c13ac99770ebe61e6b7adc7ef2f6c77b813",
+      "identical": true
+    },
+    {
+      "path": "data/过滤器来源与文件状态.json",
+      "sha256": "1ef3a446e399af8939d6b478b03c8b2b359734027b2f0c7c6f7f3414d1c06acd",
+      "identical": true
+    },
+    {
+      "path": "data/页面清单.json",
+      "sha256": "b3f457a1ffece33944d1b3c5592af84713ba0499f473eea0fa2819f55f568173",
+      "identical": true
+    },
+    {
+      "path": "e01.html",
+      "sha256": "24619fb6a7c21a488ceb2b38c77129e6541371e47ead7be2bb03f96a76651758",
+      "identical": true
+    },
+    {
+      "path": "e02.html",
+      "sha256": "f21de9ae3be9657c2acd86c2427fe57803dca1609c7a3b198277896bbc296fea",
+      "identical": true
+    },
+    {
+      "path": "e03.html",
+      "sha256": "337570f0ff05652b7dafa5b7c6366b2a24c653549c9d1f69db1a9ddac3849933",
+      "identical": true
+    },
+    {
+      "path": "e04.html",
+      "sha256": "703fde66da25e0fcb128c954256be6b16e5bc19836c26eb390f7ede26c5a81f2",
+      "identical": true
+    },
+    {
+      "path": "e05.html",
+      "sha256": "0f13c04cda5a2c4ac6103f2a466d8155bc93f94eaea3b09ee5d9b4501dd6c1a4",
+      "identical": true
+    },
+    {
+      "path": "e06.html",
+      "sha256": "9e09467f135493eea3022f0790be04196435f041e0ac3816b0666dbc8b7f47d8",
+      "identical": true
+    },
+    {
+      "path": "equipment-all.html",
+      "sha256": "4c7ecdbfbebfb348802770c1c254b49f8d626a4b0b439331a45476a5b493b264",
+      "identical": true
+    },
+    {
+      "path": "equipment-goals-all.html",
+      "sha256": "4d901db0df32876518ddd27a2f04d1cc28250de5c672bed4a85a611ec289cee6",
+      "identical": true
+    },
+    {
+      "path": "equipment.html",
+      "sha256": "ad1e4c4716c7e47c15073ab91fb2f24527a48b14f36f4c1bd507a6ff22a1057a",
+      "identical": true
+    },
+    {
+      "path": "filter-legend.html",
+      "sha256": "79700034711abea666749f25f72b261a84b76aa324760f4605f2cc7a77bfefa9",
+      "identical": true
+    },
+    {
+      "path": "filters.html",
+      "sha256": "dc1f7cb108443db17f34376f3b8e27cdba2cacebb92787f198ca9c433413b201",
+      "identical": true
+    },
+    {
+      "path": "filters/01_Fubgun_Early_Mapping.filter",
+      "sha256": "f7e83ae7bc4291b17c914c99ea809772237c257edf9b44622372cf91f626f845",
+      "identical": true
+    },
+    {
+      "path": "filters/02_Fubgun_Bow_Campaign.filter",
+      "sha256": "23e1373068275195002b8399be5682a9d20780f899a2aa053c6ad8bbc3cb4959",
+      "identical": true
+    },
+    {
+      "path": "filters/03_Fubgun_Endgame_Mapping.filter",
+      "sha256": "c36afdbda5032ef3f6cbf086877fbfc42c1c734e739c8a46412c98d00862abea",
+      "identical": true
+    },
+    {
+      "path": "filters/04_Fubgun_Uber_Strict.filter",
+      "sha256": "d45d0a69858a25944478ba2e21211b72a0c9e9fb856e8c713e1fa5bb129a99ec",
+      "identical": true
+    },
+    {
+      "path": "filters/README_先读我.txt",
+      "sha256": "e8587cf9ed256cbe14c8a7f559addf50dab833b5890e573419b571bf8d420a64",
+      "identical": true
+    },
+    {
+      "path": "filters/SHA256SUMS.txt",
+      "sha256": "a652b2aff9be713cb50a1f93c720994080f2d48a6c0bef1cfec5660365caf24e",
+      "identical": true
+    },
+    {
+      "path": "filters/STATIC_CHECKS.json",
+      "sha256": "ee70d62d3a5829c8236fae39dd67367efddacf4646a17570ea193d1448123c88",
+      "identical": true
+    },
+    {
+      "path": "filters/manifest.json",
+      "sha256": "1ef3a446e399af8939d6b478b03c8b2b359734027b2f0c7c6f7f3414d1c06acd",
+      "identical": true
+    },
+    {
+      "path": "finish-check.html",
+      "sha256": "0c8d868d088e1c0a49624309ec7044257febc230122152fa7bfc486afbe34d32",
+      "identical": true
+    },
+    {
+      "path": "gem-upgrades.html",
+      "sha256": "61244737f5cee97f9bd21db2be0903d09e22c911dd6283d67a501518248ef535",
+      "identical": true
+    },
+    {
+      "path": "glossary.html",
+      "sha256": "f540063c8f3981c79ba8c368d520a424cbd16fe4626af6468b49779314cbaee2",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "ad1e4c4716c7e47c15073ab91fb2f24527a48b14f36f4c1bd507a6ff22a1057a",
+      "identical": true
+    },
+    {
+      "path": "l01.html",
+      "sha256": "970ec7da70a8f5a58d9fff704f5c2a9462dccdf4724552c862df7a457cb1b339",
+      "identical": true
+    },
+    {
+      "path": "l02.html",
+      "sha256": "663b690e740bcc9f8b2b4b1d0bf17c381d08f755c801c8906ee719620ffe469e",
+      "identical": true
+    },
+    {
+      "path": "l03.html",
+      "sha256": "6de9beefaaef23bf39d5c32685e42118f84e38704e7a40dcb5aa744f30206c34",
+      "identical": true
+    },
+    {
+      "path": "l04.html",
+      "sha256": "7be1ee38690e68f1a7b368e039ba249ab7d58944bdcbf4c038088755c0f6c50a",
+      "identical": true
+    },
+    {
+      "path": "l05.html",
+      "sha256": "caf7bf34b95fdbdf5349be94c1d81dd6278d7fadb206901da00d293526a4281a",
+      "identical": true
+    },
+    {
+      "path": "l06.html",
+      "sha256": "a2edef2f323d6ecdd00fae6c456d466da11ae5d30b35021861e6e479c6823f35",
+      "identical": true
+    },
+    {
+      "path": "mechanics.html",
+      "sha256": "6015a9f64ab4fc92392a4e9a114363c1a3ac575291114d0eac26773faa1ef3af",
+      "identical": true
+    },
+    {
+      "path": "numeric-targets.html",
+      "sha256": "e87ed899836e399660d74b0383945cb5fd94776cea8d121856524e2dfb9fce25",
+      "identical": true
+    },
+    {
+      "path": "prepare-all.html",
+      "sha256": "bf5481427c3f9702e9a7ece11ace91a59ae2a95a3ba87ee2bd431ca1ba347634",
+      "identical": true
+    },
+    {
+      "path": "prepare.html",
+      "sha256": "9fd4d2312597fef8cbc748cccf204d762e16600cfb04c67b680be73a6e5d8d61",
+      "identical": true
+    },
+    {
+      "path": "quality-workshop.html",
+      "sha256": "f9ec9a799d565b5d14c06f236dfca0b3d0a58ea41055a7edfef77fc598d9be28",
+      "identical": true
+    },
+    {
+      "path": "reader.html",
+      "sha256": "4a63a23414391c8fd12ade26eb4c82f50432aa94d0483cb83c62e3c9d7894822",
+      "identical": true
+    },
+    {
+      "path": "rewards.html",
+      "sha256": "dd4bbe34df5217d5c7e41dd55139c5f801af1d858a56965da42cfe3a8aca801a",
+      "identical": true
+    },
+    {
+      "path": "roadmap.html",
+      "sha256": "527f421c29b9043565b4f076beacb96496bd7af4f66e2a88176fd63844323f17",
+      "identical": true
+    },
+    {
+      "path": "runes-all.html",
+      "sha256": "27df72a51dc84dda63295a8752d56894e12a14572d45d72f670248fbf581aeed",
+      "identical": true
+    },
+    {
+      "path": "runes.html",
+      "sha256": "d199a9d2709c9ac3c574f1764dd788f68950144797d301acfa2c4e1ef39dc6f7",
+      "identical": true
+    },
+    {
+      "path": "source-audit.html",
+      "sha256": "d4815581417373d37f5804ff42204ce7145a8c09165a2945810d90e305e25bd6",
+      "identical": true
+    },
+    {
+      "path": "sources.html",
+      "sha256": "5755cc076ff626060895c06d70d46f1fc873eb96043f40cf0aad988eed347202",
+      "identical": true
+    },
+    {
+      "path": "便捷单页/Fubgun_流放2新手总攻略_R28.html",
+      "sha256": "b10d5e539673d8b4f4ac7694d77e686e353ac405704af3192f47b5086aa2eb12",
+      "identical": true
+    },
+    {
+      "path": "便捷单页/Fubgun_流放2新手总攻略_R28.md",
+      "sha256": "06cf63dd9fd7894c725f4d21e45ff66ca2e51c651c7cd354d7a72b95d5e21b64",
+      "identical": true
+    },
+    {
+      "path": "原文资料/Early起步打造_中文操作说明.md",
+      "sha256": "eb3cee2856873ea5935074a537aa067efabee3f073700dc8185cd001cd9dac12",
+      "identical": true
+    },
+    {
+      "path": "原文资料/Fubgun_Crafting_Guide_中文操作版.md",
+      "sha256": "a3f28f2fd3637a98d168490f759e4bcf94e27f75397219301b52b5ca7598c7c5",
+      "identical": true
+    },
+    {
+      "path": "原文资料/刷图备料与底材_R10_中文手册.md",
+      "sha256": "f120d2abcf1c824c47d6970afa9d17935bd5ba1db4c66033df676eaad1984e52",
+      "identical": true
+    },
+    {
+      "path": "过滤器说明/00_四份文件与安装说明.txt",
+      "sha256": "e8587cf9ed256cbe14c8a7f559addf50dab833b5890e573419b571bf8d420a64",
+      "identical": true
+    }
+  ],
+  "count": 127,
+  "passed": true
+}

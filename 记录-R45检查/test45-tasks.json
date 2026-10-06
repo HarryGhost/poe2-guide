@@ -1,0 +1,573 @@
+{
+  "part": "tasks",
+  "complete": true,
+  "checks": [
+    {
+      "name": "Native search has 狂热弓",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search targets 狂热弓",
+      "ok": true,
+      "detail": {
+        "hash": "#/item/bow?stage=e01&tab=target&focus=r45-guide-bow",
+        "found": true
+      }
+    },
+    {
+      "name": "Search result has no dead scroll",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search has 蛇鳞外套",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search targets 蛇鳞外套",
+      "ok": true,
+      "detail": {
+        "hash": "#/item/body?stage=e01&tab=target&focus=r45-guide-body",
+        "found": true
+      }
+    },
+    {
+      "name": "Search result has no dead scroll",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search has 击杀回蓝",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search targets 击杀回蓝",
+      "ok": true,
+      "detail": {
+        "hash": "#/jewels?stage=e01&focus=r45-jewel-mana",
+        "found": true
+      }
+    },
+    {
+      "name": "Search result has no dead scroll",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search has 金刚箭",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native search targets 金刚箭",
+      "ok": true,
+      "detail": {
+        "hash": "#/item/quiver?stage=e04&tab=target",
+        "found": true
+      }
+    },
+    {
+      "name": "Search result has no dead scroll",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Target to craft retains e02",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Craft returns to correct open bases",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Six distinct arrow functions",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Emerald captured ranges preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Raw source opens unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit recipe actual essence only Seeking",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native lesser body chosen",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Blue1 to rare2 current context",
+      "ok": true,
+      "detail": "#/item/boots?cp=l03&tab=craft&kind=rare2&action=&essence=&goal=life&step=&period=pre31"
+    },
+    {
+      "name": "Rare2 has conditional third affix native action",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Third affix step uses exalt explicitly",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Only four original filter downloads",
+      "ok": true,
+      "detail": [
+        {
+          "href": "原版过滤器_从这里选/02_Fubgun_Bow_Campaign.filter",
+          "name": "02_Fubgun_Bow_Campaign.filter"
+        },
+        {
+          "href": "原版过滤器_从这里选/01_Fubgun_Early_Mapping.filter",
+          "name": "01_Fubgun_Early_Mapping.filter"
+        },
+        {
+          "href": "原版过滤器_从这里选/03_Fubgun_Endgame_Mapping.filter",
+          "name": "03_Fubgun_Endgame_Mapping.filter"
+        },
+        {
+          "href": "原版过滤器_从这里选/04_Fubgun_Uber_Strict.filter",
+          "name": "04_Fubgun_Uber_Strict.filter"
+        }
+      ]
+    },
+    {
+      "name": "Original filter download exists 02_Fubgun_Bow_Campaign.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Original filter download exists 01_Fubgun_Early_Mapping.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Original filter download exists 03_Fubgun_Endgame_Mapping.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Original filter download exists 04_Fubgun_Uber_Strict.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Growth and gear exact bow mod texts",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "views": [
+    {
+      "route": "gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "native unique quiver",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/filters?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=390 gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 item/bow?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 guide?stage=e02&tab=overview",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 atlas/expedition?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 character?stage=e03&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=390 item/bow?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 390,
+      "viewport": 390,
+      "objects": false
+    },
+    {
+      "route": "width=768 gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 item/bow?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 guide?stage=e02&tab=overview",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 atlas/expedition?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 character?stage=e03&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=768 item/bow?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 768,
+      "viewport": 768,
+      "objects": false
+    },
+    {
+      "route": "width=1024 gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 item/bow?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 guide?stage=e02&tab=overview",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 atlas/expedition?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 character?stage=e03&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1024 item/bow?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1024,
+      "viewport": 1024,
+      "objects": false
+    },
+    {
+      "route": "width=1440 gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 item/bow?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 guide?stage=e02&tab=overview",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 atlas/expedition?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 character?stage=e03&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1440 item/bow?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "width=1920 gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 item/bow?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 guide?stage=e02&tab=overview",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 atlas/expedition?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 character?stage=e03&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    },
+    {
+      "route": "width=1920 item/bow?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1920,
+      "viewport": 1920,
+      "objects": false
+    }
+  ],
+  "pageerrors": [],
+  "english": {},
+  "method": "Actual generated HTML/CSS/JS, native clicks/hash in Chromium memory document; real navigation attempts separately recorded in smoke.json.",
+  "in_progress_route": "gear?stage=e01"
+}

@@ -1,0 +1,116 @@
+{
+  "actual_navigation": {
+    "file": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/r25_work/poe2_Fubgun_C_R25/atlas-images.html",
+    "http": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:46001/atlas-images.html"
+  },
+  "render_method": "in-memory inline copy; original byte and static-link checks are separate",
+  "interaction": [
+    {
+      "variant": "expedition",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "variant": "ritual-belts",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "variant": "currency-abyss",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "variant": "breach-rares",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "variant": "abyss-rares",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "variant": "lineage-gems",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "variant": "deli-rush",
+      "correct_image_dimensions": true,
+      "region_views_tested": 5,
+      "local_state_shim": true
+    },
+    {
+      "zoom_native_fit_modal_and_escape": true
+    },
+    {
+      "two_abyss_variants_independent": true
+    },
+    {
+      "original_image_cards": 7
+    },
+    {
+      "no_javascript_originals_readable": 7
+    },
+    {
+      "shipped_single_html_render_switch_and_raw_view": true
+    }
+  ],
+  "renders": [
+    {
+      "page": "atlas-images.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 1920,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "atlas-images.html",
+      "width": 390,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "atlas-fubgun.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "atlas-abyss.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "atlas-passives.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "atlas-masters.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "index.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    },
+    {
+      "page": "e01.html",
+      "width": 1366,
+      "horizontal_page_overflow": false
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "storage_test": "test-only localStorage shim; not real file/HTTP persistence"
+}

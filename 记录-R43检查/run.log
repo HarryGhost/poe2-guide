@@ -1,0 +1,137 @@
+click 1 Early all cards True
+click 2 Early all main slots visible True
+click 3 Early every modifier visible True
+click 4 Early every rune visible True
+click 5 Early click craft keeps stage True
+click 6 Early craft current target True
+click 7 non-crit Midgame all cards True
+click 8 non-crit Midgame all main slots visible True
+click 9 non-crit Midgame every modifier visible True
+click 10 non-crit Midgame every rune visible True
+click 11 non-crit Midgame click craft keeps stage True
+click 12 non-crit Midgame craft current target True
+click 13 non-crit Hybrid swap all cards True
+click 14 non-crit Hybrid swap all main slots visible True
+click 15 non-crit Hybrid swap every modifier visible True
+click 16 non-crit Hybrid swap every rune visible True
+click 17 non-crit Hybrid swap click craft keeps stage True
+click 18 non-crit Hybrid swap craft current target True
+click 19 Crit Hybrid all cards True
+click 20 Crit Hybrid all main slots visible True
+click 21 Crit Hybrid every modifier visible True
+click 22 Crit Hybrid every rune visible True
+click 23 Crit Hybrid click craft keeps stage True
+click 24 Crit Hybrid craft current target True
+click 25 Uber Endgame all cards True
+click 26 Uber Endgame all main slots visible True
+click 27 Uber Endgame every modifier visible True
+click 28 Uber Endgame every rune visible True
+click 29 Uber Endgame click craft keeps stage True
+click 30 Uber Endgame craft current target True
+click 31 Live Gear all cards True
+click 32 Live Gear all main slots visible True
+click 33 Live Gear every modifier visible True
+click 34 Live Gear every rune visible True
+click 35 Live Gear no craft buttons True
+click 36 Current captured Voices searchable True
+click 37 Captured Atlas Omens searchable True
+click 38 Native build switch actual name True
+click 39 Section jump retains route True
+click 40 Proof expands original source True
+click 41 Evidence modal opens True
+click 42 Evidence modal actual picture True
+click 43 Live conflicting source is retained True
+click 44 Expedition node count True
+click 45 Expedition filter excludes True
+click 46 Expedition filter restores True
+click 47 Expedition master count True
+click 48 Ritual Belts node count True
+click 49 Ritual Belts filter excludes True
+click 50 Ritual Belts filter restores True
+click 51 Ritual Belts master count True
+click 52 Currency Abyss node count True
+click 53 Currency Abyss filter excludes True
+click 54 Currency Abyss filter restores True
+click 55 Currency Abyss master count True
+click 56 Breach Rares node count True
+click 57 Breach Rares filter excludes True
+click 58 Breach Rares filter restores True
+click 59 Breach Rares master count True
+click 60 Abyss Rares node count True
+click 61 Abyss Rares filter excludes True
+click 62 Abyss Rares filter restores True
+click 63 Abyss Rares master count True
+click 64 Lineage Gems node count True
+click 65 Lineage Gems filter excludes True
+click 66 Lineage Gems filter restores True
+click 67 Lineage Gems master count True
+click 68 Deli Rush node count True
+click 69 Deli Rush filter excludes True
+click 70 Deli Rush filter restores True
+click 71 Deli Rush master count True
+views 25 item e01 ring1 craft True
+views 50 item e01 boots finish True
+views 75 early-craft e01 True
+views 100 item e02 belt target True
+views 125 jewels e02 True
+views 150 item e03 quiver craft True
+views 175 item e03 mana_flask finish True
+views 200 item e04 amulet finish True
+views 225 item e04 charm3 target True
+views 250 item e05 body target True
+views 275 item e05 charm1 craft True
+views 300 item e06 ring1 craft True
+views 325 item e06 boots finish True
+views 350 guide e06 True
+views 375 atlas lineage-gems setup True
+views 400 campaign l03 guide True
+layout 1 390 gear?stage=e01 True
+layout 2 390 gear?stage=e06 True
+layout 3 390 jewels?stage=e06 True
+layout 4 390 character?stage=e03&tab=skills True
+layout 5 390 character?stage=e04&tab=tree True
+layout 6 390 atlas/expedition?tab=choices True
+layout 7 390 atlas/lineage-gems?tab=masters True
+layout 8 390 item/bow?stage=e04&tab=craft True
+layout 9 390 tools/capture-audit?stage=e01 True
+layout 10 768 gear?stage=e01 True
+views 425 layout 768 gear?stage=e06 True
+layout 11 768 gear?stage=e06 True
+layout 12 768 jewels?stage=e06 True
+layout 13 768 character?stage=e03&tab=skills True
+layout 14 768 character?stage=e04&tab=tree True
+layout 15 768 atlas/expedition?tab=choices True
+layout 16 768 atlas/lineage-gems?tab=masters True
+layout 17 768 item/bow?stage=e04&tab=craft True
+layout 18 768 tools/capture-audit?stage=e01 True
+layout 19 1024 gear?stage=e01 True
+layout 20 1024 gear?stage=e06 True
+layout 21 1024 jewels?stage=e06 True
+layout 22 1024 character?stage=e03&tab=skills True
+layout 23 1024 character?stage=e04&tab=tree True
+layout 24 1024 atlas/expedition?tab=choices True
+layout 25 1024 atlas/lineage-gems?tab=masters True
+layout 26 1024 item/bow?stage=e04&tab=craft True
+layout 27 1024 tools/capture-audit?stage=e01 True
+layout 28 1440 gear?stage=e01 True
+layout 29 1440 gear?stage=e06 True
+layout 30 1440 jewels?stage=e06 True
+layout 31 1440 character?stage=e03&tab=skills True
+layout 32 1440 character?stage=e04&tab=tree True
+layout 33 1440 atlas/expedition?tab=choices True
+layout 34 1440 atlas/lineage-gems?tab=masters True
+layout 35 1440 item/bow?stage=e04&tab=craft True
+views 450 layout 1440 tools/capture-audit?stage=e01 True
+layout 36 1440 tools/capture-audit?stage=e01 True
+layout 37 1920 gear?stage=e01 True
+layout 38 1920 gear?stage=e06 True
+layout 39 1920 jewels?stage=e06 True
+layout 40 1920 character?stage=e03&tab=skills True
+layout 41 1920 character?stage=e04&tab=tree True
+layout 42 1920 atlas/expedition?tab=choices True
+layout 43 1920 atlas/lineage-gems?tab=masters True
+layout 44 1920 item/bow?stage=e04&tab=craft True
+layout 45 1920 tools/capture-audit?stage=e01 True
+{'data': {'count': 1517, 'fail': 0}, 'click': {'count': 71, 'fail': 0}, 'views': {'count': 459, 'fail': 0}, 'layout': {'count': 45, 'fail': 0}}
+ERRORS []
+failed views []

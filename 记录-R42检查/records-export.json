@@ -1,0 +1,10 @@
+{
+  "schema": "fubgun-local-settings-v1",
+  "version": "R42",
+  "created": "2026-10-03T14:29:50.855Z",
+  "entries": {
+    "fubgun-layout-context42": "l02",
+    "fubgun-layout-stage": "e06",
+    "fubgun-layout-check-r42-gate-l02-0": "1"
+  }
+}

@@ -1,0 +1,1241 @@
+{
+  "release": "R39",
+  "passed": 280,
+  "failed": 0,
+  "navigationMode": "in-memory document with actual generated HTML/CSS/JS inlined",
+  "navigationAttempts": [
+    {
+      "url": "http://127.0.0.1:38529/index.html#/jewels?stage=e01",
+      "ok": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:38529/index.html#/jewels?stage=e01\nCall log:\n  - navigating to \"http://127.0.0.1:38529/index.html#/jewels?stage=e01\", waiting until \"load\"\n"
+    },
+    {
+      "url": "file:///mnt/data/poe2_Fubgun_C_R39/index.html#/jewels?stage=e01",
+      "ok": false,
+      "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R39/index.html#/jewels?stage=e01\nCall log:\n  - navigating to \"file:///mnt/data/poe2_Fubgun_C_R39/index.html#/jewels?stage=e01\", waiting until \"load\"\n"
+    }
+  ],
+  "protected": {
+    "R28原站": {
+      "total": 492,
+      "identical": 492
+    },
+    "filters": {
+      "total": 7,
+      "identical": 7
+    }
+  },
+  "baselineFilesUnchanged": 707,
+  "changedBaselineFiles": [
+    "特殊宝石_从这里打开.html",
+    "index.html",
+    "00_先读我.md",
+    "README_上线.md",
+    "需要哪些宝石_从这里打开.html"
+  ],
+  "screenshots": [
+    "R39_人物天赋珠宝_1440.png",
+    "R39_特殊人物珠宝_1440.png",
+    "R39_人物天赋珠宝_390.png"
+  ],
+  "checks": [
+    {
+      "name": "原业务数据不变/basis",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/stages",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/slots",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/finish",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/augments",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/catalysts",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/materials",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/routes",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/gems",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/branches",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/variants",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/masterNodes",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlasSource",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/links",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/sources",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/fundamentals",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlas_setup",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlas_gems",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlasUnlock",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/tools",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/filters",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/provenance",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/documents",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlasRecords",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlasRecordAudit",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlasPrimaryAudit",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/atlasStarter",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/learningPages",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/learningSources",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/coverageAudit",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/currentRuleNotes",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/beginnerAudit",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/executionViews",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/skillSetupNotes",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/executionAudit",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/equipmentTargets",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/equipmentTargetAudit",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/chineseAscendancy",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/filterGuide",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/essenceGuide",
+      "ok": true
+    },
+    {
+      "name": "原业务数据不变/gemGuide",
+      "ok": true
+    },
+    {
+      "name": "没有丢弃R38文件",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "只改变已说明的当前入口与说明",
+      "ok": true,
+      "detail": [
+        "特殊宝石_从这里打开.html",
+        "index.html",
+        "00_先读我.md",
+        "README_上线.md",
+        "需要哪些宝石_从这里打开.html"
+      ]
+    },
+    {
+      "name": "原文件字节保护/R28原站",
+      "ok": true,
+      "detail": {
+        "total": 492,
+        "identical": 492
+      }
+    },
+    {
+      "name": "原文件字节保护/filters",
+      "ok": true,
+      "detail": {
+        "total": 7,
+        "identical": 7
+      }
+    },
+    {
+      "name": "金币修正不回退",
+      "ok": true
+    },
+    {
+      "name": "逐条槽位记录/e01",
+      "ok": true
+    },
+    {
+      "name": "珠宝槽去重/e01",
+      "ok": true
+    },
+    {
+      "name": "原件哈希/e01",
+      "ok": true
+    },
+    {
+      "name": "不捏造原件实装/e01",
+      "ok": true
+    },
+    {
+      "name": "阶段方案不超槽/e01",
+      "ok": true
+    },
+    {
+      "name": "限定数量与同名不重复/e01",
+      "ok": true
+    },
+    {
+      "name": "不混技能血脉辅助/e01",
+      "ok": true
+    },
+    {
+      "name": "保留06只读/e01",
+      "ok": true
+    },
+    {
+      "name": "逐条槽位记录/e02",
+      "ok": true
+    },
+    {
+      "name": "珠宝槽去重/e02",
+      "ok": true
+    },
+    {
+      "name": "原件哈希/e02",
+      "ok": true
+    },
+    {
+      "name": "不捏造原件实装/e02",
+      "ok": true
+    },
+    {
+      "name": "阶段方案不超槽/e02",
+      "ok": true
+    },
+    {
+      "name": "限定数量与同名不重复/e02",
+      "ok": true
+    },
+    {
+      "name": "不混技能血脉辅助/e02",
+      "ok": true
+    },
+    {
+      "name": "保留06只读/e02",
+      "ok": true
+    },
+    {
+      "name": "逐条槽位记录/e03",
+      "ok": true
+    },
+    {
+      "name": "珠宝槽去重/e03",
+      "ok": true
+    },
+    {
+      "name": "原件哈希/e03",
+      "ok": true
+    },
+    {
+      "name": "不捏造原件实装/e03",
+      "ok": true
+    },
+    {
+      "name": "阶段方案不超槽/e03",
+      "ok": true
+    },
+    {
+      "name": "限定数量与同名不重复/e03",
+      "ok": true
+    },
+    {
+      "name": "不混技能血脉辅助/e03",
+      "ok": true
+    },
+    {
+      "name": "保留06只读/e03",
+      "ok": true
+    },
+    {
+      "name": "逐条槽位记录/e04",
+      "ok": true
+    },
+    {
+      "name": "珠宝槽去重/e04",
+      "ok": true
+    },
+    {
+      "name": "原件哈希/e04",
+      "ok": true
+    },
+    {
+      "name": "不捏造原件实装/e04",
+      "ok": true
+    },
+    {
+      "name": "阶段方案不超槽/e04",
+      "ok": true
+    },
+    {
+      "name": "限定数量与同名不重复/e04",
+      "ok": true
+    },
+    {
+      "name": "不混技能血脉辅助/e04",
+      "ok": true
+    },
+    {
+      "name": "保留06只读/e04",
+      "ok": true
+    },
+    {
+      "name": "逐条槽位记录/e05",
+      "ok": true
+    },
+    {
+      "name": "珠宝槽去重/e05",
+      "ok": true
+    },
+    {
+      "name": "原件哈希/e05",
+      "ok": true
+    },
+    {
+      "name": "不捏造原件实装/e05",
+      "ok": true
+    },
+    {
+      "name": "阶段方案不超槽/e05",
+      "ok": true
+    },
+    {
+      "name": "限定数量与同名不重复/e05",
+      "ok": true
+    },
+    {
+      "name": "不混技能血脉辅助/e05",
+      "ok": true
+    },
+    {
+      "name": "保留06只读/e05",
+      "ok": true
+    },
+    {
+      "name": "逐条槽位记录/e06",
+      "ok": true
+    },
+    {
+      "name": "珠宝槽去重/e06",
+      "ok": true
+    },
+    {
+      "name": "原件哈希/e06",
+      "ok": true
+    },
+    {
+      "name": "不捏造原件实装/e06",
+      "ok": true
+    },
+    {
+      "name": "阶段方案不超槽/e06",
+      "ok": true
+    },
+    {
+      "name": "限定数量与同名不重复/e06",
+      "ok": true
+    },
+    {
+      "name": "不混技能血脉辅助/e06",
+      "ok": true
+    },
+    {
+      "name": "保留06只读/e06",
+      "ok": true
+    },
+    {
+      "name": "两种特殊珠宝独立",
+      "ok": true
+    },
+    {
+      "name": "06重复孔不当第六颗",
+      "ok": true
+    },
+    {
+      "name": "JavaScript语法",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "首页本地引用/assets/site.63bea146cd6f.css",
+      "ok": true
+    },
+    {
+      "name": "首页本地引用/assets/content.9931c035c9b1.js",
+      "ok": true
+    },
+    {
+      "name": "首页本地引用/assets/app.04c0e1802204.js",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "页面四类珠宝/e01",
+      "ok": true
+    },
+    {
+      "name": "页面逐条孔位/e01",
+      "ok": true
+    },
+    {
+      "name": "页面方案容量/e01",
+      "ok": true
+    },
+    {
+      "name": "保留五主分区/e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "特殊珠宝恰好两类/e01",
+      "ok": true
+    },
+    {
+      "name": "不把技能表用作特殊珠宝/e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "页面四类珠宝/e02",
+      "ok": true
+    },
+    {
+      "name": "页面逐条孔位/e02",
+      "ok": true
+    },
+    {
+      "name": "页面方案容量/e02",
+      "ok": true
+    },
+    {
+      "name": "保留五主分区/e02",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "特殊珠宝恰好两类/e02",
+      "ok": true
+    },
+    {
+      "name": "不把技能表用作特殊珠宝/e02",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "页面四类珠宝/e03",
+      "ok": true
+    },
+    {
+      "name": "页面逐条孔位/e03",
+      "ok": true
+    },
+    {
+      "name": "页面方案容量/e03",
+      "ok": true
+    },
+    {
+      "name": "保留五主分区/e03",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "特殊珠宝恰好两类/e03",
+      "ok": true
+    },
+    {
+      "name": "不把技能表用作特殊珠宝/e03",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "页面四类珠宝/e04",
+      "ok": true
+    },
+    {
+      "name": "页面逐条孔位/e04",
+      "ok": true
+    },
+    {
+      "name": "页面方案容量/e04",
+      "ok": true
+    },
+    {
+      "name": "保留五主分区/e04",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "特殊珠宝恰好两类/e04",
+      "ok": true
+    },
+    {
+      "name": "不把技能表用作特殊珠宝/e04",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "页面四类珠宝/e05",
+      "ok": true
+    },
+    {
+      "name": "页面逐条孔位/e05",
+      "ok": true
+    },
+    {
+      "name": "页面方案容量/e05",
+      "ok": true
+    },
+    {
+      "name": "保留五主分区/e05",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "特殊珠宝恰好两类/e05",
+      "ok": true
+    },
+    {
+      "name": "不把技能表用作特殊珠宝/e05",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "页面四类珠宝/e06",
+      "ok": true
+    },
+    {
+      "name": "页面逐条孔位/e06",
+      "ok": true
+    },
+    {
+      "name": "页面方案容量/e06",
+      "ok": true
+    },
+    {
+      "name": "保留五主分区/e06",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "特殊珠宝恰好两类/e06",
+      "ok": true
+    },
+    {
+      "name": "不把技能表用作特殊珠宝/e06",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/character?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "天赋旁有珠宝入口/e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "旧珠宝部位直达新页/e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "原技能清单保留/e01",
+      "ok": true
+    },
+    {
+      "name": "技能页面消除歧义/e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-gems?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "血脉内容保留/e01",
+      "ok": true
+    },
+    {
+      "name": "血脉页面消除歧义/e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/character?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "天赋旁有珠宝入口/e02",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/jewels?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "旧珠宝部位直达新页/e02",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gems?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "原技能清单保留/e02",
+      "ok": true
+    },
+    {
+      "name": "技能页面消除歧义/e02",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-gems?stage=e02",
+      "ok": true
+    },
+    {
+      "name": "血脉内容保留/e02",
+      "ok": true
+    },
+    {
+      "name": "血脉页面消除歧义/e02",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/character?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "天赋旁有珠宝入口/e03",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/jewels?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "旧珠宝部位直达新页/e03",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gems?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "原技能清单保留/e03",
+      "ok": true
+    },
+    {
+      "name": "技能页面消除歧义/e03",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-gems?stage=e03",
+      "ok": true
+    },
+    {
+      "name": "血脉内容保留/e03",
+      "ok": true
+    },
+    {
+      "name": "血脉页面消除歧义/e03",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/character?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "天赋旁有珠宝入口/e04",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/jewels?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "旧珠宝部位直达新页/e04",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gems?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "原技能清单保留/e04",
+      "ok": true
+    },
+    {
+      "name": "技能页面消除歧义/e04",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-gems?stage=e04",
+      "ok": true
+    },
+    {
+      "name": "血脉内容保留/e04",
+      "ok": true
+    },
+    {
+      "name": "血脉页面消除歧义/e04",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/character?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "天赋旁有珠宝入口/e05",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "旧珠宝部位直达新页/e05",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "原技能清单保留/e05",
+      "ok": true
+    },
+    {
+      "name": "技能页面消除歧义/e05",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-gems?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "血脉内容保留/e05",
+      "ok": true
+    },
+    {
+      "name": "血脉页面消除歧义/e05",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/character?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "天赋旁有珠宝入口/e06",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "旧珠宝部位直达新页/e06",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gems?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "原技能清单保留/e06",
+      "ok": true
+    },
+    {
+      "name": "技能页面消除歧义/e06",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/special-gems?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "血脉内容保留/e06",
+      "ok": true
+    },
+    {
+      "name": "血脉页面消除歧义/e06",
+      "ok": true
+    },
+    {
+      "name": "搜索直达/人物天赋",
+      "ok": true
+    },
+    {
+      "name": "搜索直达/泉井之心",
+      "ok": true
+    },
+    {
+      "name": "搜索直达/抗衡黑暗",
+      "ok": true
+    },
+    {
+      "name": "搜索直达/jewel_slot1960",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/bow?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/bow",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/quiver?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/quiver",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/body?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/body",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/helmet?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/helmet",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/gloves?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/gloves",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/boots?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/boots",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/amulet?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/amulet",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/belt?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/belt",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/ring1?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/ring1",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/item/ring2?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "精华选择保留/ring2",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/gear?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/learn/ascendancy",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/atlas-choose",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/tools/filters",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/filter-guide?f=01b",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/filter-check?f=01b&sample=gold_79_1000",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/tools/sources",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "特殊页链接可点击",
+      "ok": true
+    },
+    {
+      "name": "全局阶段切换可用",
+      "ok": true
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1920/jewels?stage=e01",
+      "ok": true,
+      "detail": {
+        "w": 1920,
+        "s": 1920
+      }
+    },
+    {
+      "name": "无重复ID/1920/jewels?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1920/special-jewels?stage=e05",
+      "ok": true,
+      "detail": {
+        "w": 1920,
+        "s": 1920
+      }
+    },
+    {
+      "name": "无重复ID/1920/special-jewels?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1920/jewels?stage=e06",
+      "ok": true,
+      "detail": {
+        "w": 1920,
+        "s": 1920
+      }
+    },
+    {
+      "name": "无重复ID/1920/jewels?stage=e06",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1440/jewels?stage=e01",
+      "ok": true,
+      "detail": {
+        "w": 1440,
+        "s": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/jewels?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1440/special-jewels?stage=e05",
+      "ok": true,
+      "detail": {
+        "w": 1440,
+        "s": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/special-jewels?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1440/jewels?stage=e06",
+      "ok": true,
+      "detail": {
+        "w": 1440,
+        "s": 1440
+      }
+    },
+    {
+      "name": "无重复ID/1440/jewels?stage=e06",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1024/jewels?stage=e01",
+      "ok": true,
+      "detail": {
+        "w": 1024,
+        "s": 1024
+      }
+    },
+    {
+      "name": "无重复ID/1024/jewels?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1024/special-jewels?stage=e05",
+      "ok": true,
+      "detail": {
+        "w": 1024,
+        "s": 1024
+      }
+    },
+    {
+      "name": "无重复ID/1024/special-jewels?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/1024/jewels?stage=e06",
+      "ok": true,
+      "detail": {
+        "w": 1024,
+        "s": 1024
+      }
+    },
+    {
+      "name": "无重复ID/1024/jewels?stage=e06",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/390/jewels?stage=e01",
+      "ok": true,
+      "detail": {
+        "w": 390,
+        "s": 390
+      }
+    },
+    {
+      "name": "无重复ID/390/jewels?stage=e01",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/special-jewels?stage=e05",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/390/special-jewels?stage=e05",
+      "ok": true,
+      "detail": {
+        "w": 390,
+        "s": 390
+      }
+    },
+    {
+      "name": "无重复ID/390/special-jewels?stage=e05",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e06",
+      "ok": true
+    },
+    {
+      "name": "无整页横向溢出/390/jewels?stage=e06",
+      "ok": true,
+      "detail": {
+        "w": 390,
+        "s": 390
+      }
+    },
+    {
+      "name": "无重复ID/390/jewels?stage=e06",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "页面渲染/jewels?stage=e01",
+      "ok": true
+    },
+    {
+      "name": "无未捕获JS异常",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

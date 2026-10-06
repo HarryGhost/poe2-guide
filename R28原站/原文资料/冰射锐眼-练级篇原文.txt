@@ -1,0 +1,476 @@
+# 0.5 Ice Shot Deadeye Leveling Guide - PoE 2 Ranger Build Guide
+LoL
+TFT
+Diablo 4
+PoE 2
+PoE
+WoW Forever
+New
+Destiny 2
+Marathon
+STS 2
+Deadlock
+Overwatch
+Borderlands 4
+VAL
+NTE
+Endfield
+Nightreign
+Monster Hunter Wilds
+Hades 2
+The Bazaar
+Marvel Rivals
+ZZZ
+2XKO
+Riftbound
+Genshin
+New
+DOWNLOAD APP
+Gamebase
+Sign In
+Path of Exile 2
+Builds
+0.5 Ice Shot Deadeye Leveling Guide
+PoE 2 Build
+0.5 Ice Shot Deadeye Leveling Guide
+Ranger
+Deadeye
+Starter
+Speed Leveling
+0.5.5 FR
+Beginner
+Fubgun
+Verified
+By
+Fubgun
+Updated on
+Sep 12, 2026
+Track Build
+6.9 K Favorites
+53
+Share
+Focus Mode
+Build Overview
+This is my leveling guide for 
+Ice Shot
+ Deadeye, swap to the endgame guide after campaign.
+Endgame Guide: https://mobalytics.gg/poe-2/builds/ice-shot-deadeye
+While this is a 
+Ice Shot
+ leveling guide, you unfortunately don't unlock the skill until lvl 31, so you have to start off with 
+Lightning Arrow
+ and 
+Lightning Rod
+. 
+---------------------------------------------------------------------------------------------------------------------
+Vendor regex:
+Act 1: 
+"!Mace|Staff|Spear|Cross|Plate|Cuira|Robe|Raime|Vest|Mantl|Raise|Parry" "s: (am|ri|be|bow)|movem|[edgl] to.att|[3-9]\d% to.*Bow Skill|[2-4]\d% to.*res|[5-9]\d to.*life|to.*(int|str)"
+Act 2+: "!Mace|Staff|Spear|Cross|Plate|Cuira|Greathe|Mitts|Greav|Robe|Raime|Circle|Tiara|Vest|Mantl|Crown|Cuffs|Raise|Parry" "s: (am|ri|be|bow)|movem|to.*(int|str)|[edgl] to.att|[3-9]\d% to.*Bow Skill|[2-4]\d% to.*res|[5-9]\d to.*life"
+(You copy and paste this into your vendor window, to easily see items you might want to buy)
+Follow the leveling filter from here: https://www.pathofexile.com/item-filter/orPBmkto
+(Just click follow, go in game and you'll see it in your filter list).
+Build Variants
+lvl 1-14
+lvl 15-23
+lvl 24-30
+lvl 31-41
+lvl 42-59
+lvl 60+
+Equipment
+lvl 1-14
+lvl 15-23
+lvl 24-30
+lvl 31-41
+lvl 42-59
+lvl 60+
+Set 1
+Set 2
+1
+4
+9
+11
+6
+4
+2
+7
+8
+3
+Equipment Priority
+Track Build
++2
+Show All
+Early boss kill order for a smooth experience:
+Devourer(Mud barrow) > cold witch(Clearfell) > hut witch(Grelwood) > rust king(red vale)
+If you're more experience, feel free to skip devourer.
+Early Support gem order:
+ 
+Rapid Attacks I
+(LA) > 
+Elemental Armament I
+(LA) > 
+Concentrated Area
+(LR) > 2nd 
+Elemental Armament I
+In act 1 it's very important to have gear with flat damage to attacks (can be elemental or phys, just whatever gives you the highest dps). At lvl 11 you want to get a 
+Warden Bow
+, you're just looking for the highest DPS one you drop or buy from the vendor. You're not looking to use any resources on this bow, as you want to make a 6 mod 
+Recurve Bow
+ at lvl 16 with 2 sockets. So save your artificers orb, exalts, regals and alchemy orbs.
+Remember to get a 
+Shortbow
+ in Red Vale and reach lvl 5 before fighting rust king. Trans/aug both your bow/quiver whenever you acquire them.
+Flask: Remember to constantly upgrade your life/mana flask throughout campaign, you can always buy a new one at the vendor when you meet the lvl requirements for the next tier (lvl 10, 16, 23, 30, 40, 50 and 60).
+Quiver: One with +lvls and high amount of flat damage, the base isn't too important.
+Also look at the vendor in town every 1-2 lvls for flat damage gloves, every source of flat damage for the build is massive in act 1 and act 2.
+Boots: Movement speed on boots is also extremely good if you can find them, try to search the vendor every 1-2 lvls. I would never swap out movement speed boots, only replace them with other boots that have movement speed.
+Other gear: 
+Ideally you should stick to evasion or evasion/es hybrid gear, but use whatever looks best at the time.
+Helmet/belt/amulet are good slots to acquire attributes (str on belt, dex or int on helmet).
+Besides that you're just looking for life/resist on gear, but flat damage is the most important on gloves/rings. High evasion chest is also quite good for defense if you find one.
+-Important
+Always salvage weapons with quality for whetstones and always salvage items with sockets for artificers orb, this is extremely important for gear upgrades throughout the campaign.
+I also personally prefer to vendor all rares for gold to gamble in act 3 or act 4 for better gear.
+Skill Gems
+lvl 1-14
+lvl 15-23
+lvl 24-30
+lvl 31-41
+lvl 42-59
+lvl 60+
+Support Gem Requirements:
+Str 10
+Dex 5
+Int 10
+Collapse all
+1
+Lightning Arrow
+Rapid Attacks I
+Elemental Armament I
+2
+Lightning Rod
+Concentrated Area
+Elemental Armament I
+3
+Frost Bomb
+4
+Herald of Thunder
+Concentrated Area
+5
+Barrage
+6
+Ice-Tipped Arrows
+7
+Pounce
+Gem Priority
+Track Build
+Show All
+Early boss kill order for a smooth experience:
+Devourer(Mud barrow) > cold witch(Clearfell) > hut witch(Grelwood) > rust king(red vale)
+Grab 
+Rapid Attacks I
+ after killing devourer and 
+Elemental Armament I
+ after hut witch.
+Early Support gem order:
+ 
+Rapid Attacks I
+ > 
+Elemental Armament I
+ > 
+Concentrated Area
+ > 2nd 
+Elemental Armament I
+Early on when you lack support gems, you'll have to gem swap 
+Elemental Armament I
+ from lightning arrow to lightning rod on bosses, this is very important for boss damage. Or if you lack the strength requirement to use 2 at the same time.
+Get 
+Lightning Rod
+ first and than 
+Frost Bomb
+ (should have both before devourer/cold witch, there's a chest in clearfell that always drops a lvl 1 skill gem).
+Herald of Thunder
+ is your still your ideal spirit gem because you can't swap to 
+Ice Shot
+ until lvl 31 and by than you'll have another spirit gem for 
+Herald of Ice
+.
+Pounce
+ is used for mobility, grab it when you get a spare skill gem. I tend to drop it mid act 2 or act 3, as you run out of skill slots. You do need a talisman in your offhand for this to work, which is easy to find (use a low level one for low strength requirement). But this optional, can skip if you want less buttons.
+---important!!!!
+Because we're doing a mini skill swap at lvl 24, you'll need to save some uncut skill gems/supports for later. Do not use ANY lvl 6 or lvl 7 uncut gems before the swap. 
+Passive Tree
+lvl 1-14
+lvl 15-23
+lvl 24-30
+lvl 31-41
+lvl 42-59
+lvl 60+
+Main:
+106
+123
+Set 1:
+20
+20
+Set 2:
+20
+20
+Take whatever attribute you need at the time, you'll default to dex if you don't need anything. You should also lookout for good attribute amulets or a strength belt to help out with requirements later on.
+Ascendancy order:
+Projectile Proximity Specialisation
+(point blank) -> 
+Endless Munitions
+ -> 
+Gathering Winds
+Quest Rewards
+Check which quests you’ve completed on your character
+Track Build
+Choices
+Skill Points
+Character Upgrades
+All
+Act 2
+Valley of the Titans — Medallion
+30% increased Charm Charges gained
++1 Charm Slot
+Act 3
+The Venom Crypts — Venom Draught
+25% increased Stun Threshold
+Act 4
+Whakapanu Island — Great White One
++30% increased Global Armour, Evasion and Energy Shield
+Halls of the Dead — Tawhoa's Test
++5 to Dexterity
+Abandoned Prison — Goddess of Justice
+30% increased Life Recovery from Flasks
+Halls of the Dead — Tasalio's Test
++5% to Cold Resistance
+Halls of the Dead — Ngamahu's Test
++5% to Fire Resistance
+Halls of the Dead — Tribal Medicine
++30% increased Global Armour, Evasion and Energy Shield
+Interlude
+Qimah — Tabana's Pillar
+3% increased Movement Speed
+Hide Rewards
+Comments
+53
+Share your thoughts...Type @ to try game data
+1000 characters remaining
+Comment
+Top
+Newest
+Oldest
+Newest
+G
+GrimFlame
+•
+2d ago
+SO WHEN IT SHOWS ANY ATTRIBUTE WHAT SHOES I BE PUTTING FROM THESE LOWEER LVLS ON THE TREE TO HIGHHER LEVELS
+0
+Reply
+Share
+P
+Pharcyde
+•
+4d ago
+I understand weapon swapping but I dont see a secondary weapon to use on the swap so where is mark benefitting?
+0
+Reply
+Share
+R
+RustyShield
+•
+5d ago
+Herald of ice on both weapon sets? Or just 1
+0
+Reply
+Share
+J
+jrock2004
+•
+5d ago
+I still need to figure out it but when we switch to weapon set passives, I am not sure the best way to do it beyond doing a full tree respec
+0
+Reply
+Share
+S
+ShinyKey
+•
+6d ago
+how you can assign skills to weapon set 2 whan you dont have second weapon?
+0
+Reply
+Share
+J
+jrock2004
+•
+5d ago
+Make sure you have nothing in 2nd weapon slot. You then can right click the "I" above your weapon and it sets the same one to both 1 and 2
+0
+Reply
+Share
+W
+WorthyDragon
+•
+7d ago
+How do I get enough int for pounce or upgrades on frost bomb?
+0
+Reply
+Share
+S
+StoneDagger
+•
+7d ago
+You don't. Drop them both at act 1 or 2
+0
+Reply
+Share
+View 1 reply
+J
+jrock2004
+•
+5d ago
+Attributes on gear. Travel nodes, I usually put 1 or 2 with int.
+0
+Reply
+Share
+I
+I am Uncut
+•
+9d ago
+Could someone explain the spirit usage for me.
+We‘re using 3 skills that each use 30 spirit but at my current point I have max 60..
+Do I need a chest or something with +spirit?
+0
+Reply
+Share
+T
+Timote
+•
+9d ago
+When you get to the interludes the doryani quest line gives you an additional 40 spirit.  Until then you can pick up an amulet pretty cheap that has at least +30 spirit on it so you can run all 3 gems. 
+Later in the end game you might want to try and target an amulet that has +50 spirit or maybe even a little bit more so you can run all the lineage gems, but that will be a bit before you get there. For now, +30 on an amulet would be good until you get to mapping. Once you get the +40 in the interludes, the additional +spirit on your amulet will let you run herald of ice, wind dancer, combat frenzy and mirage archer all at the same time as long as you pick up a good unset ring for the extra gem slot.
+0
+Reply
+Share
+View 1 reply
+I
+ichaos monk
+•
+10d ago
+fun build, what does it mean when youre skills are showing pink and  green?
+0
+Reply
+Share
+T
+Timote
+•
+9d ago
+The pink skills are set to weapon set 1, and the green skills are set to weapon set 2.  Likewise, the passive tree has some routes and nodes in red and others in green.  The red ones (attack nodes) use weapon set one  and the green ones (defensive nodes) should be set to weapon set two.  Double dipping very nicely :D
+1
+Reply
+Share
+View 1 reply
+F
+fuzzybaztard
+•
+10d ago
+why does the build show herald of thunder but then it mentions herald of ice in the quality priority list??
+0
+Reply
+Share
+R
+RustyFlame
+•
+9d ago
+You swap over to herald of ice lvl 31 when u get ice shot
+0
+Reply
+Share
+T
+Timote
+•
+9d ago
+If you read through the leveling stages shown on the tabs at the top (and also in the writeup descriptions) you’ll see that you swap out  Herald of Thunder for Hrald of Ice as soon as you’re leveled enough to to cut that gem.  
+Don’t waste quality on Herald of Thunder as you are replacing it very early.
+0
+Reply
+Share
+W
+WorthyMask
+•
+11d ago
+Hey everyone, I need some help with the Act 2 final boss. This is my first time trying Snipe, but I feel like I'm doing zero damage with it. When I swap back to my previous setup without Snipe, I end up dying because my overall DPS is too low to take the boss down in time. Does anyone know why Snipe feels so weak, or how to fix my damage?
+0
+Reply
+Share
+T
+Technolog
+•
+10d ago
+Hmm I just played through act 2 and never really felt weak. Just double-check if you selected the correct passives and make sure that your skill gems are as high as possible. Also check if you have the correct support gems. With that + an average weapon your snipe should deal at least a third of the bosses HP.
+0
+Reply
+Share
+I
+I am Uncut
+•
+9d ago
+I for example didn’t know that u have to charge snipe lol. so just charge it till your character glows and then let go
+0
+Reply
+Share
+A
+Adoniram
+•
+9d ago
+Are you using channelling?
+0
+Reply
+Share
+T
+Timote
+•
+8d ago
+Make sure you have the right support gems in place , upgrade level and quality on snipe as much as possible… then make sure you have a tornado down and boss is frozen before you hit Barrage then Snipe… hold Snipe until your character flashes and release it right when the flash happens for massive damage. It usually one shots frozen bosses as long as you shoot it through a tornado (that you conveniently place right on the boss), you hit Barrage before snipe, and release snipe with good timing for that massive explosion.  
+Alternately you could add Ice Tipped Arrows after Barrage and then your perfectly timed snipe for even more damage, but that is usually not necessary.  
+If you still have issues, share your Poe.ninja link and we can take a look at what’s going on.
+0
+Reply
+Share
+View 1 reply
+Show more comments
+Video Guide
+Build Planner Export
+Export this build variant directly to your game.
+Download Build File
+How it Works
+Table of Contents
+1. Build Overview
+2. Build Variants
+3. Equipment
+4. Skill Gems
+5. Passive Tree
+6. Quest Rewards
+7. Comments
+Back to top
+Featured Builds
+[0.5.5] Spin to Win ONE-Shot Bosses
+Updated on Sep 24, 2026
+[0.5.5] Scorps Plants COC Endgame Guide
+Updated on Sep 23, 2026
+0.5 - Eventide Shatter Chain Martial Artist
+Updated on Sep 23, 2026
+0.5.5 Floor is Lava Gemling - 6D Budget 200% Rarity Stacker - Flameblast/OIl Grenade
+Updated on Sep 22, 2026
+Cold Spark Sorceress League Starter - by Asmodeus
+Updated on Sep 22, 2026
+Become a Creator
+Want to earn rewards by sharing your builds with your community?
+Join Creator Program
+ADVERTISEMENT
+Remove Ads
+Remove all ads
+Say goodbye to ads, support our team, see exclusive sneak peeks, and get a shiny new Discord role.
+REMOVE ADS

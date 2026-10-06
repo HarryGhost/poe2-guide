@@ -1,0 +1,5494 @@
+{
+  "checks": [
+    {
+      "name": "Only three current entry/readme files changed",
+      "ok": true,
+      "detail": [
+        "00_先读我.md",
+        "README_上线.md",
+        "index.html"
+      ]
+    },
+    {
+      "name": "Capture overlay byte-preserved",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Every original filter is unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Equipment: Silver Charm",
+      "ok": true,
+      "detail": "真银咒符"
+    },
+    {
+      "name": "Equipment: Corsair Coat",
+      "ok": true,
+      "detail": "海盗外套"
+    },
+    {
+      "name": "Equipment: Obliterator Bow",
+      "ok": true,
+      "detail": "毁灭者之弓"
+    },
+    {
+      "name": "Equipment: Hysseg's Claw",
+      "ok": true,
+      "detail": "西赛格之爪"
+    },
+    {
+      "name": "Equipment: The Fall of the Axe",
+      "ok": true,
+      "detail": "落刃时刻"
+    },
+    {
+      "name": "Equipment: Thawing Charm",
+      "ok": true,
+      "detail": "融冰咒符"
+    },
+    {
+      "name": "Equipment: Rite of Passage",
+      "ok": true,
+      "detail": "仪式通道"
+    },
+    {
+      "name": "Equipment: Rawhide Belt",
+      "ok": true,
+      "detail": "生皮腰带"
+    },
+    {
+      "name": "Equipment: Nascent Hope",
+      "ok": true,
+      "detail": "新生希望"
+    },
+    {
+      "name": "Equipment: Stellar Amulet",
+      "ok": true,
+      "detail": "星辉项链"
+    },
+    {
+      "name": "Equipment: Ancestral Tiara",
+      "ok": true,
+      "detail": "先祖冠冕"
+    },
+    {
+      "name": "Equipment: Dousing Charm",
+      "ok": true,
+      "detail": "浸润咒符"
+    },
+    {
+      "name": "Equipment: Desert Cap",
+      "ok": true,
+      "detail": "沙漠帽"
+    },
+    {
+      "name": "Equipment: Prismatic Ring",
+      "ok": true,
+      "detail": "三相戒指"
+    },
+    {
+      "name": "Equipment: Ultimate Life Flask",
+      "ok": true,
+      "detail": "终极生命药剂"
+    },
+    {
+      "name": "Equipment: Bladed Shoes",
+      "ok": true,
+      "detail": "嵌刃便鞋"
+    },
+    {
+      "name": "Equipment: Gold Ring",
+      "ok": true,
+      "detail": "金光戒指"
+    },
+    {
+      "name": "Equipment: Daggerfoot Shoes",
+      "ok": true,
+      "detail": "捷足便鞋"
+    },
+    {
+      "name": "Equipment: Cavalry Boots",
+      "ok": true,
+      "detail": "骑兵长靴"
+    },
+    {
+      "name": "Equipment: Ultimate Mana Flask",
+      "ok": true,
+      "detail": "终极魔力药剂"
+    },
+    {
+      "name": "Equipment: Warmonger Bow",
+      "ok": true,
+      "detail": "寻战之弓"
+    },
+    {
+      "name": "Equipment: Volant Quiver",
+      "ok": true,
+      "detail": "飞矢箭袋"
+    },
+    {
+      "name": "Equipment: Slipstrike Vest",
+      "ok": true,
+      "detail": "滑击背心"
+    },
+    {
+      "name": "Equipment: Runeforged Secured Wraps",
+      "ok": true,
+      "detail": "符文坚固裹手"
+    },
+    {
+      "name": "Equipment: Gold Amulet",
+      "ok": true,
+      "detail": "帝金项链"
+    },
+    {
+      "name": "Equipment: Headhunter",
+      "ok": true,
+      "detail": "猎首"
+    },
+    {
+      "name": "Equipment: Lavianga's Spirits",
+      "ok": true,
+      "detail": "拉维安加之灵"
+    },
+    {
+      "name": "Equipment: Cadiro's Gambit",
+      "ok": true,
+      "detail": "卡迪罗的赌局"
+    },
+    {
+      "name": "Equipment: Grand Bracers",
+      "ok": true,
+      "detail": "宏伟护腕"
+    },
+    {
+      "name": "Jewels: Voices",
+      "ok": true,
+      "detail": "天神之音"
+    },
+    {
+      "name": "Jewels: Emerald",
+      "ok": true,
+      "detail": "翡翠"
+    },
+    {
+      "name": "Jewels: Heart of the Well",
+      "ok": true,
+      "detail": "泉井之心"
+    },
+    {
+      "name": "Jewels: Against the Darkness",
+      "ok": true,
+      "detail": "抗衡黑暗"
+    },
+    {
+      "name": "Augments: Rabbit Idol",
+      "ok": true,
+      "detail": "狡兔雕像"
+    },
+    {
+      "name": "Augments: Legacy of Greymake",
+      "ok": true,
+      "detail": "苍髯皓首之遗产"
+    },
+    {
+      "name": "Augments: Perfect Iron Rune",
+      "ok": true,
+      "detail": "完美钢铁符文"
+    },
+    {
+      "name": "Augments: Serle's Triumph",
+      "ok": true,
+      "detail": "瑟尔的凯旋"
+    },
+    {
+      "name": "Augments: Greater Iron Rune",
+      "ok": true,
+      "detail": "高级钢铁符文"
+    },
+    {
+      "name": "Augments: Guatelitzi's Thesis",
+      "ok": true,
+      "detail": "瓜铁雷兹的圣典"
+    },
+    {
+      "name": "Augments: Farrul's Rune of the Chase",
+      "ok": true,
+      "detail": "法瑞尔的追逐符文"
+    },
+    {
+      "name": "Augments: Idol of Sirrius",
+      "ok": true,
+      "detail": "西里乌斯之雕像"
+    },
+    {
+      "name": "Augments: Raven-Touched Shard",
+      "ok": true,
+      "detail": "渡鸦之触碎片"
+    },
+    {
+      "name": "Augments: Uhtred's Sidereus",
+      "ok": true,
+      "detail": "乌崔德的星辰"
+    },
+    {
+      "name": "Augments: Kolr's Hunt",
+      "ok": true,
+      "detail": "克尔的狩猎"
+    },
+    {
+      "name": "Augments: Countess Seske's Rune of Archery",
+      "ok": true,
+      "detail": "塞丝克伯爵夫人的箭术符文"
+    },
+    {
+      "name": "Passives: Catalysis",
+      "ok": true,
+      "detail": "催化反应"
+    },
+    {
+      "name": "Passives: Honed Instincts",
+      "ok": true,
+      "detail": "娴熟本能"
+    },
+    {
+      "name": "Passives: Frazzled",
+      "ok": true,
+      "detail": "疲乏"
+    },
+    {
+      "name": "Passives: Immaterial",
+      "ok": true,
+      "detail": "超脱实体"
+    },
+    {
+      "name": "Passives: Throatseeker",
+      "ok": true,
+      "detail": "割战者"
+    },
+    {
+      "name": "Passives: Spectral Ward",
+      "ok": true,
+      "detail": "魂灵结界"
+    },
+    {
+      "name": "Passives: Stupefy",
+      "ok": true,
+      "detail": "茫然无措"
+    },
+    {
+      "name": "Passives: Heartstopping",
+      "ok": true,
+      "detail": "心悸"
+    },
+    {
+      "name": "Passives: Marked Agility",
+      "ok": true,
+      "detail": "标记敏捷"
+    },
+    {
+      "name": "Passives: Heartbreaking",
+      "ok": true,
+      "detail": "心伤"
+    },
+    {
+      "name": "Passives: Enhanced Reflexes",
+      "ok": true,
+      "detail": "强化反射"
+    },
+    {
+      "name": "Passives: Deadly Force",
+      "ok": true,
+      "detail": "夺命力量"
+    },
+    {
+      "name": "Passives: Flow Like Water",
+      "ok": true,
+      "detail": "势如流水"
+    },
+    {
+      "name": "Passives: Hail",
+      "ok": true,
+      "detail": "冰雹骤降"
+    },
+    {
+      "name": "Passives: The Noble Wolf",
+      "ok": true,
+      "detail": "显贵头狼"
+    },
+    {
+      "name": "Passives: Disorientation",
+      "ok": true,
+      "detail": "头昏眼花"
+    },
+    {
+      "name": "Passives: Harness the Elements",
+      "ok": true,
+      "detail": "驾驭元素"
+    },
+    {
+      "name": "Passives: Deep Freeze",
+      "ok": true,
+      "detail": "深度冻结"
+    },
+    {
+      "name": "Passives: Primal Sundering",
+      "ok": true,
+      "detail": "原始裂解"
+    },
+    {
+      "name": "Passives: Blinding Strike",
+      "ok": true,
+      "detail": "致盲打击"
+    },
+    {
+      "name": "Passives: Imbibed Power",
+      "ok": true,
+      "detail": "吸收之力"
+    },
+    {
+      "name": "Passives: Flow State",
+      "ok": true,
+      "detail": "行云流水"
+    },
+    {
+      "name": "Passives: Crashing Wave",
+      "ok": true,
+      "detail": "溅水白浪"
+    },
+    {
+      "name": "Passives: True Strike",
+      "ok": true,
+      "detail": "真实之击"
+    },
+    {
+      "name": "Passives: Concussive Attack",
+      "ok": true,
+      "detail": "连续攻击"
+    },
+    {
+      "name": "Passives: Blur",
+      "ok": true,
+      "detail": "模糊身影"
+    },
+    {
+      "name": "Passives: First Principle of the Hollow",
+      "ok": true,
+      "detail": "虚空第一原理"
+    },
+    {
+      "name": "Passives: Step Like Mist",
+      "ok": true,
+      "detail": "迷踪步履"
+    },
+    {
+      "name": "Passives: Maiming Strike",
+      "ok": true,
+      "detail": "瘫痪打击"
+    },
+    {
+      "name": "Passives: Snowpiercer",
+      "ok": true,
+      "detail": "破雪者"
+    },
+    {
+      "name": "Passives: Clean Shot",
+      "ok": true,
+      "detail": "一击中的"
+    },
+    {
+      "name": "Passives: Master Fletching",
+      "ok": true,
+      "detail": "制箭大师"
+    },
+    {
+      "name": "Passives: For the Jugular",
+      "ok": true,
+      "detail": "直取咽喉"
+    },
+    {
+      "name": "Passives: Dizzying Hits",
+      "ok": true,
+      "detail": "晕眩击中"
+    },
+    {
+      "name": "Passives: Moment of Truth",
+      "ok": true,
+      "detail": "求真时刻"
+    },
+    {
+      "name": "Passives: Beastial Skin",
+      "ok": true,
+      "detail": "猛兽之肤"
+    },
+    {
+      "name": "Passives: Mindful Awareness",
+      "ok": true,
+      "detail": "机警感知"
+    },
+    {
+      "name": "Passives: Shimmering",
+      "ok": true,
+      "detail": "光芒万丈"
+    },
+    {
+      "name": "Passives: Thin Ice",
+      "ok": true,
+      "detail": "如履薄冰"
+    },
+    {
+      "name": "Passives: Escape Velocity",
+      "ok": true,
+      "detail": "动如脱兔"
+    },
+    {
+      "name": "Passives: Killer Instinct",
+      "ok": true,
+      "detail": "杀手本能"
+    },
+    {
+      "name": "Passives: The Wild Cat",
+      "ok": true,
+      "detail": "荒野之豹"
+    },
+    {
+      "name": "Passives: Subterfuge Mask",
+      "ok": true,
+      "detail": "诡计面纱"
+    },
+    {
+      "name": "Passives: Quick Fingers",
+      "ok": true,
+      "detail": "巧手连射"
+    },
+    {
+      "name": "Passives: Struck Through",
+      "ok": true,
+      "detail": "穿身而过"
+    },
+    {
+      "name": "Passives: Marathon Runner",
+      "ok": true,
+      "detail": "马拉松能手"
+    },
+    {
+      "name": "Passives: Marked for Sickness",
+      "ok": true,
+      "detail": "弊病印记"
+    },
+    {
+      "name": "Passives: Agile Succession",
+      "ok": true,
+      "detail": "灵敏连击"
+    },
+    {
+      "name": "Passives: Vile Wounds",
+      "ok": true,
+      "detail": "恶毒创伤"
+    },
+    {
+      "name": "Passives: Acceleration",
+      "ok": true,
+      "detail": "加速"
+    },
+    {
+      "name": "Passives: Essence of the Mountain",
+      "ok": true,
+      "detail": "群山的精华"
+    },
+    {
+      "name": "Passives: Trained Deflection",
+      "ok": true,
+      "detail": "受训偏转"
+    },
+    {
+      "name": "Passives: Coming Calamity",
+      "ok": true,
+      "detail": "灾难使者"
+    },
+    {
+      "name": "Passives: Sniper",
+      "ok": true,
+      "detail": "狙击手"
+    },
+    {
+      "name": "Atlas nodes: Evolving Throngs",
+      "ok": true,
+      "detail": "演化蜂群"
+    },
+    {
+      "name": "Atlas nodes: Sacred Sap",
+      "ok": true,
+      "detail": "神圣树液"
+    },
+    {
+      "name": "Atlas nodes: Cultivate the Sea",
+      "ok": true,
+      "detail": "耕耘海洋"
+    },
+    {
+      "name": "Atlas nodes: Double or Nothing",
+      "ok": true,
+      "detail": "孤注一掷"
+    },
+    {
+      "name": "Atlas nodes: Divined Blessing",
+      "ok": true,
+      "detail": "神圣祝福"
+    },
+    {
+      "name": "Atlas nodes: Forest Mastery",
+      "ok": true,
+      "detail": "森林专精"
+    },
+    {
+      "name": "Atlas nodes: Overlord's Influence",
+      "ok": true,
+      "detail": "霸主影响"
+    },
+    {
+      "name": "Atlas nodes: History of the Faridun",
+      "ok": true,
+      "detail": "法里顿历史"
+    },
+    {
+      "name": "Atlas nodes: History of the Ezomytes",
+      "ok": true,
+      "detail": "艾兹麦历史"
+    },
+    {
+      "name": "Atlas nodes: Sole Purpose",
+      "ok": true,
+      "detail": "唯一目的"
+    },
+    {
+      "name": "Atlas nodes: On the Wind",
+      "ok": true,
+      "detail": "随风而行"
+    },
+    {
+      "name": "Atlas nodes: Vile Treasures",
+      "ok": true,
+      "detail": "污秽宝藏"
+    },
+    {
+      "name": "Atlas nodes: Water Mastery",
+      "ok": true,
+      "detail": "水域专精"
+    },
+    {
+      "name": "Atlas nodes: Balance of Power",
+      "ok": true,
+      "detail": "力量平衡"
+    },
+    {
+      "name": "Atlas nodes: Crystalline Patterns",
+      "ok": true,
+      "detail": "水晶纹样"
+    },
+    {
+      "name": "Atlas nodes: Desert Mastery",
+      "ok": true,
+      "detail": "沙漠专精"
+    },
+    {
+      "name": "Atlas nodes: History of the Vaal",
+      "ok": true,
+      "detail": "瓦尔历史"
+    },
+    {
+      "name": "Atlas nodes: Fabled Showdown",
+      "ok": true,
+      "detail": "传说对决"
+    },
+    {
+      "name": "Atlas nodes: Traveller's Woe",
+      "ok": true,
+      "detail": "旅者之灾"
+    },
+    {
+      "name": "Atlas nodes: Tear Open the Rift",
+      "ok": true,
+      "detail": "撕开裂隙"
+    },
+    {
+      "name": "Atlas nodes: Mountain Mastery",
+      "ok": true,
+      "detail": "山地专精"
+    },
+    {
+      "name": "Atlas nodes: Craftsman's Creed",
+      "ok": true,
+      "detail": "工匠信条"
+    },
+    {
+      "name": "Atlas nodes: Invigorated Sacrifices",
+      "ok": true,
+      "detail": "活力献祭"
+    },
+    {
+      "name": "Atlas nodes: The Journey Ahead",
+      "ok": true,
+      "detail": "前方旅途"
+    },
+    {
+      "name": "Atlas nodes: Expanding Territory",
+      "ok": true,
+      "detail": "领土扩张"
+    },
+    {
+      "name": "Atlas nodes: Strategic Advantage",
+      "ok": true,
+      "detail": "战略优势"
+    },
+    {
+      "name": "Atlas nodes: The Chosen Path",
+      "ok": true,
+      "detail": "选中之路"
+    },
+    {
+      "name": "Atlas nodes: Legendary Duels",
+      "ok": true,
+      "detail": "传奇决斗"
+    },
+    {
+      "name": "Atlas nodes: Shape the Chains",
+      "ok": true,
+      "detail": "塑造锁链"
+    },
+    {
+      "name": "Atlas nodes: Essence Dowsing",
+      "ok": true,
+      "detail": "精华探源"
+    },
+    {
+      "name": "Atlas nodes: Calculated Investment",
+      "ok": true,
+      "detail": "精算投资"
+    },
+    {
+      "name": "Atlas nodes: Overlord's Domain",
+      "ok": true,
+      "detail": "霸主领域"
+    },
+    {
+      "name": "Atlas nodes: Steady Development",
+      "ok": true,
+      "detail": "稳步发展"
+    },
+    {
+      "name": "Atlas nodes: Nemesis Rising",
+      "ok": true,
+      "detail": "宿敌崛起"
+    },
+    {
+      "name": "Atlas nodes: Blood on the Stones",
+      "ok": true,
+      "detail": "石上鲜血"
+    },
+    {
+      "name": "Atlas nodes: Unseen Rivers",
+      "ok": true,
+      "detail": "隐秘之流"
+    },
+    {
+      "name": "Atlas nodes: Swamp Mastery",
+      "ok": true,
+      "detail": "沼泽专精"
+    },
+    {
+      "name": "Atlas nodes: Lord of the Pit",
+      "ok": true,
+      "detail": "深坑主宰"
+    },
+    {
+      "name": "Atlas nodes: Well-equipped Opponents",
+      "ok": true,
+      "detail": "精良对手"
+    },
+    {
+      "name": "Atlas nodes: Recurring Nightmares",
+      "ok": true,
+      "detail": "噩梦循环"
+    },
+    {
+      "name": "Atlas nodes: Grass Mastery",
+      "ok": true,
+      "detail": "草原专精"
+    },
+    {
+      "name": "Atlas nodes: Breeding Program",
+      "ok": true,
+      "detail": "繁育计划"
+    },
+    {
+      "name": "Master choices: Claimed Territories",
+      "ok": true,
+      "detail": "占据之地"
+    },
+    {
+      "name": "Master choices: Disengaged Safeties",
+      "ok": true,
+      "detail": "解除保险"
+    },
+    {
+      "name": "Master choices: Lethal Adaptation",
+      "ok": true,
+      "detail": "致命适应"
+    },
+    {
+      "name": "Master choices: Long Days",
+      "ok": true,
+      "detail": "悠长岁月"
+    },
+    {
+      "name": "Master choices: Ancient Inscriptions",
+      "ok": true,
+      "detail": "远古铭文"
+    },
+    {
+      "name": "Master choices: Improved Calibration",
+      "ok": true,
+      "detail": "改良校准"
+    },
+    {
+      "name": "Master choices: Dangerous Game",
+      "ok": true,
+      "detail": "危险游戏"
+    },
+    {
+      "name": "Master choices: Hidden Patterns",
+      "ok": true,
+      "detail": "暗藏规律"
+    },
+    {
+      "name": "Master choices: Dam the River",
+      "ok": true,
+      "detail": "截断江河"
+    },
+    {
+      "name": "Master choices: Evolutionary Pressure",
+      "ok": true,
+      "detail": "进化压力"
+    },
+    {
+      "name": "Master choices: Head of the Snake",
+      "ok": true,
+      "detail": "斩首蛇头"
+    },
+    {
+      "name": "Master choices: Keen Appraisal",
+      "ok": true,
+      "detail": "敏锐鉴识"
+    },
+    {
+      "name": "Master choices: Careful Procurement",
+      "ok": true,
+      "detail": "谨慎采购"
+    },
+    {
+      "name": "Master choices: Scarred Lands",
+      "ok": true,
+      "detail": "伤痕大地"
+    },
+    {
+      "name": "Master choices: Breeding Season",
+      "ok": true,
+      "detail": "繁殖季节"
+    },
+    {
+      "name": "Master choices: Unforeseen Threats",
+      "ok": true,
+      "detail": "未卜之患"
+    },
+    {
+      "name": "Master choices: Will of the Draíocht",
+      "ok": true,
+      "detail": "德莱契之意志"
+    },
+    {
+      "name": "Master choices: Gutting and Skinning",
+      "ok": true,
+      "detail": "开膛破肚"
+    },
+    {
+      "name": "Master choices: In The Wrong Hands",
+      "ok": true,
+      "detail": "落入错手"
+    },
+    {
+      "name": "Master choices: Untold Histories",
+      "ok": true,
+      "detail": "未闻史册"
+    },
+    {
+      "name": "Master choices: Remnants of Greatness",
+      "ok": true,
+      "detail": "伟大遗迹"
+    },
+    {
+      "name": "Master choices: Mysterious Gifts",
+      "ok": true,
+      "detail": "神秘馈赠"
+    },
+    {
+      "name": "Master choices: Stitch the Flesh",
+      "ok": true,
+      "detail": "缝合血肉"
+    },
+    {
+      "name": "Master choices: Archaic Corruption",
+      "ok": true,
+      "detail": "陈年腐化"
+    },
+    {
+      "name": "Master choices: Volatile Connection",
+      "ok": true,
+      "detail": "易爆链路"
+    },
+    {
+      "name": "Master choices: Eastern Knowledge",
+      "ok": true,
+      "detail": "东方学识"
+    },
+    {
+      "name": "Master choices: Soul Eaters",
+      "ok": true,
+      "detail": "噬魂者"
+    },
+    {
+      "name": "Master choices: Call of the Spirits",
+      "ok": true,
+      "detail": "万灵召唤"
+    },
+    {
+      "name": "Master choices: Mighty Prey",
+      "ok": true,
+      "detail": "强横猎物"
+    },
+    {
+      "name": "Master choices: Ancient Activations",
+      "ok": true,
+      "detail": "远古启动"
+    },
+    {
+      "name": "Master choices: Mechanical Guardians",
+      "ok": true,
+      "detail": "机械守卫"
+    },
+    {
+      "name": "Master choices: Stolen Relics",
+      "ok": true,
+      "detail": "失窃圣物"
+    },
+    {
+      "name": "Master choices: Partial Translations",
+      "ok": true,
+      "detail": "残篇译解"
+    },
+    {
+      "name": "Master choices: Patient Battue",
+      "ok": true,
+      "detail": "耐心驱猎"
+    },
+    {
+      "name": "Master choices: Unexpected Missions",
+      "ok": true,
+      "detail": "意外使命"
+    },
+    {
+      "name": "Master choices: Trove Seekers",
+      "ok": true,
+      "detail": "宝藏寻猎者"
+    },
+    {
+      "name": "Early equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early jewel count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early all headings Chinese",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early all mods directly visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early all augments visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early raw panel kept mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Early native craft kept stage",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame jewel count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame all headings Chinese",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame all mods directly visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame all augments visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame raw panel kept mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Midgame native craft kept stage",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap jewel count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap all headings Chinese",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap all mods directly visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap all augments visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap raw panel kept mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "non-crit Hybrid swap native craft kept stage",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid jewel count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid all headings Chinese",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid all mods directly visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid all augments visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid raw panel kept mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Crit Hybrid native craft kept stage",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame jewel count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame all headings Chinese",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame all mods directly visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame all augments visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame raw panel kept mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Uber Endgame native craft kept stage",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear jewel count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear all headings Chinese",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear all mods directly visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear all augments visible",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live Gear raw panel kept weapon2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Live read-only no craft buttons",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Expedition all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Expedition filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Expedition filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Expedition selected count unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ritual Belts all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ritual Belts filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ritual Belts filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ritual Belts selected count unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Currency Abyss all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Currency Abyss filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Currency Abyss filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Currency Abyss selected count unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Breach Rares all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Breach Rares filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Breach Rares filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Breach Rares selected count unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Abyss Rares all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Abyss Rares filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Abyss Rares filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Abyss Rares selected count unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Lineage Gems all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Lineage Gems filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Lineage Gems filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Lineage Gems selected count unchanged",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Deli Rush all selected nodes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Deli Rush filter works",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Deli Rush filter restores",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Deli Rush selected count unchanged",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "views": [
+    {
+      "route": "gear?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e01&tab=skills",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e01&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e01&tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e01&tab=check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-jewels?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gems?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-gems?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=e01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e01&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e01&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e01&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e02&tab=skills",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e02&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e02&tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e02&tab=check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "jewels?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-jewels?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gems?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-gems?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=e02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e02&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e02&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e02&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e03&tab=skills",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e03&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e03&tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e03&tab=check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "jewels?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-jewels?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gems?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-gems?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=e03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e03&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e03&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e03&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e04&tab=skills",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e04&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e04&tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e04&tab=check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "jewels?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-jewels?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gems?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-gems?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=e04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e04&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e04&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e04&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e05&tab=skills",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e05&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e05&tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e05&tab=check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "jewels?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-jewels?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gems?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-gems?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=e05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e05&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e05&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e05&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e06&tab=skills",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e06&tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e06&tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=e06&tab=check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "jewels?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-jewels?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gems?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "special-gems?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=e06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/bow?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring1?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/helmet?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/body?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/amulet?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/ring2?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/quiver?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/gloves?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/belt?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/boots?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/life_flask?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm1?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm2?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/charm3?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/mana_flask?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/weapon2?stage=e06&tab=target",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/weapon2?stage=e06&tab=craft",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "item/weapon2?stage=e06&tab=finish",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/expedition?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/expedition?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/expedition?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/expedition?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/expedition?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/expedition?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/ritual-belts?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/currency-abyss?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/breach-rares?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/abyss-rares?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/lineage-gems?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=tree",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=masters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=setup",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=play",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas/deli-rush?tab=source",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/filters",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/capture-audit",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/names",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/dictionary",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/builds",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "tools/sources",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas-choices",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas-choose",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "atlas-starter",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "learn/ascendancy",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "learn/permanent",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "supplies",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "filter-guide",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "filter-check",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "craft-timing",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "troubleshoot",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=l01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=l01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=l01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=l01",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=l02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=l02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=l02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=l02",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=l03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=l03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=l03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=l03",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=l04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=l04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=l04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=l04",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=l05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=l05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=l05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "early-craft?stage=l05",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "gear?stage=l06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "guide?stage=l06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    },
+    {
+      "route": "character?stage=l06",
+      "ok": true,
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "viewport": 1440,
+      "objects": false
+    }
+  ],
+  "english": {
+    "atlas-choose": [
+      "便宜石板只用于非 奥杜尔之传说；未解释的 prolif 和“全为5/6/7的地图”保留原称。"
+    ],
+    "filter-check": [
+      "Show # %H6 $type->currency $tier->c !currency_c",
+      "\tClass == \"Incubators\" \"Stackable Currency\"",
+      "\tBaseType == \"Armourer's Scrap\" \"Artificer's Orb\" \"Blacksmith's Whetstone\" \"Chance Shard\" \"Exalted Orb\" \"Gnawed Rib\" \"Greater Jeweller's Orb\" \"Preserved Rib\" \"Regal Orb\"",
+      "\tSetFontSize 42",
+      "\tSetTextColor 0 0 0 255",
+      "\tSetBorderColor 0 0 0 255",
+      "\tSetBackgroundColor 245 139 87 255",
+      "\tPlayAlertSound 2 300",
+      "\tPlayEffect White",
+      "\tMinimapIcon 1 Yellow Circle"
+    ]
+  },
+  "pageerrors": [],
+  "navigation": [
+    {
+      "url": "http://127.0.0.1:8744/index.html",
+      "result": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8744/index.html"
+    },
+    {
+      "url": "file:///mnt/data/poe2_Fubgun_C_R44/index.html",
+      "result": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R44/index.html"
+    }
+  ],
+  "method": "Actual generated HTML/CSS/JS in a Chromium memory document; not game or deployment verification."
+}

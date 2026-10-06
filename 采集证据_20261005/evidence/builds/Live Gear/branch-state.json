@@ -1,0 +1,57 @@
+{
+  "captured_at": "2026-10-05T09:51:45.408Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Ca027a8d3-7254-40d4-8073-115918fc6ebc",
+  "radios": [
+    {
+      "section_id": "d64d2cf9-efe4-4903-a414-5f1854f80143",
+      "value": "set1"
+    },
+    {
+      "section_id": "1f661161-9a7a-45a8-a06a-5d8cca2a0dd3",
+      "value": "choices"
+    }
+  ],
+  "sections": [
+    {
+      "id": "d64d2cf9-efe4-4903-a414-5f1854f80143",
+      "text": "Equipment\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\nSet 1\nSet 2\n1\n9\n6\n3\n4\n9\n10\n7\n2\n8\nJewels\nEquipment Priority\nTrack Build\nShow All\n\nHelm anoint = Zarokh's gift (+1 jewel socket on tree, it'll show up next to your ascendancy).\nNeed 1 Potent Melancholy, 1 Potent ferocity and 1 Potent Contempt.",
+      "title": "Equipment"
+    },
+    {
+      "id": "5a3eaac6-c4e9-4d64-88cf-0fc4d97a321d",
+      "text": "Skill Gems\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\n\nSupport Gem Requirements:\n\nStr 35\n\nDex 105\n\nInt 50\n\nCollapse all\n1\n\nIce Shot\n\nLevel 20\n\nElemental Armament II\nNova Projectiles I\nFork\nGarukhan's Resolve\nRakiata's Flow\n2\n\nTornado Shot\n\nLevel 19\n\nOverabundance II\nRapid Attacks II\nDurability\nBlind II\nConcentrated Area\n3\n\nMirage Deadeye\n\nLevel 20\n\nIce Shot\nDeliberation\nRapid Attacks II\nElemental Armament II\nCooldown Recovery II\n4\n\nGhost Dance\n\nLevel 20\n\nCooldown Recovery II\n5\n\nMirage Archer\n\nLevel 19\n\nIce Shot\nDeliberation\nElemental Armament II\nRapid Attacks II\nCooldown Recovery II\n6\n\nPounce\n\nLevel 19\n\nFreezing Mark\nEternal Mark\nCharged Mark\nProlonged Duration II\nRapid Attacks III\n7\n\nWind Dancer\n\nLevel 19\n\nBlind II\nKnockback\nMaim\nAtziri's Communion\n8\n\nMana Remnants\n\nLevel 16\n\nHarmonic Remnants II\nRemnant Potency III\nKhatal's Rejuvenation\nDialla's Desire\n9\n\nBarrage\n\nLevel 19\n\nRapid Casting II\nOlroth's Conviction\nCooldown Recovery II\n10\n\nHerald of Ice\n\nLevel 20\n\nMagnified Area II\nElemental Armament II\nElemental Focus\nLongshot II\nCold Penetration\nGem Priority\nTrack Build\n+28\nShow All",
+      "title": "Skill Gems"
+    },
+    {
+      "id": "d5633303-fb08-4177-b6db-5747a20331d9",
+      "text": "Passive Tree\nEarly\nnon-crit Midgame\nnon-crit Hybrid swap\nCrit Hybrid\nUber Endgame\nLive Gear\nMain:\n-23\n129\nSet 1:\n0\n24\nSet 2:\n0\n24\nNotable Priority\nTrack Build\n+24\nShow All\n\nCan only swap to pathfinder when you're strong and don't notice the defense/damage loss from swapping off of deadeye. Pathfinder is pure utility for cannot be slowed/sprint knockdown immune.\n\nEvery small node if possible should be 5% increased damage from \nTraveller's Wisdom\n (some nodes will need to stay as attribute for requirements). \nLegacy of Greymake\n helps with attributes.\n\nPathfinder Ascendancy nodes\n\nRelentless Pursuit\n/ \nRunning Assault\n/ \nPath Seeker\n/ \nTraveller's Wisdom\n\n(Doesn't matter which patch you take for path seeker, just taking it for the extra skill points.",
+      "title": "Passive Tree"
+    }
+  ],
+  "selected_tabs": [
+    {
+      "id": "react-aria9127948996-_r_f_-tab-a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "key": "a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "name": "Live Gear",
+      "section_id": "f7d82102-7e77-4a44-ad24-33b67e8ae7bf"
+    },
+    {
+      "id": "react-aria9127948996-_r_13b5_-tab-a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "key": "a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "name": "Live Gear",
+      "section_id": "d64d2cf9-efe4-4903-a414-5f1854f80143"
+    },
+    {
+      "id": "react-aria9127948996-_r_13e9_-tab-a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "key": "a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "name": "Live Gear",
+      "section_id": "5a3eaac6-c4e9-4d64-88cf-0fc4d97a321d"
+    },
+    {
+      "id": "react-aria9127948996-_r_13hm_-tab-a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "key": "a027a8d3-7254-40d4-8073-115918fc6ebc",
+      "name": "Live Gear",
+      "section_id": "d5633303-fb08-4177-b6db-5747a20331d9"
+    }
+  ]
+}

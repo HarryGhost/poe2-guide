@@ -1,0 +1,147 @@
+{
+  "navigation": [
+    [
+      "http://127.0.0.1:8745/index.html",
+      "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:8745/index.html"
+    ],
+    [
+      "file:///mnt/data/poe2_Fubgun_C_R45/index.html",
+      "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/poe2_Fubgun_C_R45/index.html"
+    ]
+  ],
+  "errors": [],
+  "routes": [
+    {
+      "route": "gear?stage=e01",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 15,
+      "bases": 10,
+      "length": 5837
+    },
+    {
+      "route": "item/bow?stage=e01&tab=target",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 1,
+      "bases": 1,
+      "length": 2057
+    },
+    {
+      "route": "guide?stage=e01&tab=overview",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 3404
+    },
+    {
+      "route": "jewels?stage=e01",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 1584
+    },
+    {
+      "route": "special-jewels?stage=e04",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 1359
+    },
+    {
+      "route": "item/quiver?stage=e04&tab=target",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 1,
+      "bases": 1,
+      "length": 2204
+    },
+    {
+      "route": "atlas/expedition?tab=play",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 1632
+    },
+    {
+      "route": "character?stage=e01&tab=tree",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 805
+    },
+    {
+      "route": "item/boots?cp=l03&tab=craft",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 834
+    },
+    {
+      "route": "item/bow?stage=e04&tab=craft",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 1498
+    },
+    {
+      "route": "gear?stage=e06",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 16,
+      "bases": 0,
+      "length": 8190
+    },
+    {
+      "route": "tools/selection-guide",
+      "dupes": [],
+      "dead": [],
+      "width": 1440,
+      "view": 1440,
+      "objects": false,
+      "cards": 0,
+      "bases": 0,
+      "length": 794
+    }
+  ]
+}

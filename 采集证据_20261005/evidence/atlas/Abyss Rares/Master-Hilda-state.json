@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-10-05T09:44:42.701Z",
+  "build": "Abyss Rares",
+  "master": "Hilda",
+  "candidates": [
+    {
+      "active_icon": true,
+      "display_index": 1,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive1.webp",
+      "name": "Breeding Season",
+      "trigger": "_r_3d6_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 2,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone2.webp",
+      "name": "Mighty Prey",
+      "trigger": "_r_3d7_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 3,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone3.webp",
+      "name": "Scarred Lands",
+      "trigger": "_r_3d8_"
+    },
+    {
+      "active_icon": true,
+      "display_index": 4,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive4.webp",
+      "name": "Dangerous Game",
+      "trigger": "_r_3d9_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 5,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone5.webp",
+      "name": "Soul Eaters",
+      "trigger": "_r_3da_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 6,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone6.webp",
+      "name": "Will of the Draíocht",
+      "trigger": "_r_3db_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 7,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone7.webp",
+      "name": "Call of the Spirits",
+      "trigger": "_r_3dc_"
+    },
+    {
+      "active_icon": true,
+      "display_index": 8,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive8.webp",
+      "name": "Ancient Inscriptions",
+      "trigger": "_r_3dd_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 9,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone9.webp",
+      "name": "Lethal Adaptation",
+      "trigger": "_r_3de_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 10,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone10.webp",
+      "name": "Patient Battue",
+      "trigger": "_r_3df_"
+    },
+    {
+      "active_icon": false,
+      "display_index": 11,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone11.webp",
+      "name": "Gutting and Skinning",
+      "trigger": "_r_3dg_"
+    },
+    {
+      "active_icon": true,
+      "display_index": 12,
+      "icon": "https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive12.webp",
+      "name": "Claimed Territories",
+      "trigger": "_r_3dh_"
+    }
+  ],
+  "html": "<div role=\"dialog\" tabindex=\"-1\" class=\"x19bbpc0 xh8yej3 xks650j x1i97zcw x17gf9bc x614542 x1hv8zah x11elnim x134uf6 x2mfxb xlzhlbq x10e4vud\" data-allow-dnd=\"false\"><div class=\"x14hcewi x18zmq3p\"><div class=\"x78zum5 x1cy8zhl x1qughib x1jnr06f\"><div class=\"x1iyjqo2\"><div class=\"x78zum5 x1q0g3np x1qughib x6s0dn4\"><div class=\"xdpxx8g xks650j\">Hilda's Skills</div><div class=\"x78zum5 x13a6bvl x6s0dn4 x167g77z\"><button type=\"button\" class=\"x1hv8zah x1h7s0lp x78zum5 xl56j7k x6s0dn4 x167g77z xlkovuz x1ypdohk x10w6t97 x1eoxqqp xkgd8lh x1kylzug xtbnezy x1i97zcw x1dcod5t x1lmtkl4\"><span role=\"img\" class=\"x1kky2od xlup9mm xi3szuz\" alt=\"presentation\" style=\"mask: url(&quot;https://cdn.mobalytics.gg/assets/common/icons/ngf-system/cross.svg&quot;) center center / cover;\"></span></button></div></div></div></div></div><div><div class=\"x18zmq3p x1ots84s\"><div class=\"x3nfvp2 x6s0dn4 x17d4w8g x1hgs3t1 x1hv8zah x1mcb5s1\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x16rqkct \" style=\"width: 16px; height: 16px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x16rqkct\"><img class=\"xl1xv1r x1n2onr6 xsmyaan x1kpxq89\" alt=\"Hilda\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=32,height=32/assets/poe-2/images/game/Art/2DArt/UIImages/InGame/ConsoleNew/KeystoneUI/CircularButton_B_Active.webp\"></div></div><span class=\"x139jznd x9uxgww\">Points:</span><span class=\"x1h7s0lp x1i97zcw\">4</span><span class=\"x139jznd x1mkayr0\">4</span></div></div><div class=\"xrvj5dj x1wlfl8j xiqf31s x167g77z x1qhigcl\"><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x1ypdohk x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8 xoxo8r8 x1yrpzwk x1i97zcw\" data-tippy-delegate-id=\"_r_3d6_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Breeding Season\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive1.webp\"></div></div><span>Breeding Season</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3d7_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Mighty Prey\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone2.webp\"></div></div><span>Mighty Prey</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3d8_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Scarred Lands\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone3.webp\"></div></div><span>Scarred Lands</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x1ypdohk x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8 xoxo8r8 x1yrpzwk x1i97zcw\" data-tippy-delegate-id=\"_r_3d9_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Dangerous Game\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive4.webp\"></div></div><span>Dangerous Game</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3da_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Soul Eaters\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone5.webp\"></div></div><span>Soul Eaters</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3db_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Will of the Draíocht\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone6.webp\"></div></div><span>Will of the Draíocht</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3dc_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Call of the Spirits\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone7.webp\"></div></div><span>Call of the Spirits</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x1ypdohk x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8 xoxo8r8 x1yrpzwk x1i97zcw\" data-tippy-delegate-id=\"_r_3dd_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Ancient Inscriptions\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive8.webp\"></div></div><span>Ancient Inscriptions</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3de_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Lethal Adaptation\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone9.webp\"></div></div><span>Lethal Adaptation</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3df_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Patient Battue\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone10.webp\"></div></div><span>Patient Battue</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x11nes4d x1gylzyl x1ypdohk x9uxgww x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8\" data-tippy-delegate-id=\"_r_3dg_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Gutting and Skinning\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystone11.webp\"></div></div><span>Gutting and Skinning</span></button></div><div class=\"x78zum5\"><button type=\"button\" class=\"x78zum5 xdt5ytf x6s0dn4 x167g77z xh8yej3 x5yr21d x1x8r35d x7s55g6 x1hv8zah x1ypdohk x1cvue7f x1t3whoi xqhhzvz x1cwu1lf x5q9ga8 xoxo8r8 x1yrpzwk x1i97zcw\" data-tippy-delegate-id=\"_r_3dh_\" data-tippy-trigger-hover=\"\"><div class=\"xyf9f8g x614542 x1o1trcf x2lah0s x1kogg8i \" style=\"width: 32px; height: 32px;\"><div class=\"x78zum5 xl56j7k x6s0dn4 x1mcb5s1 xh8yej3 x5yr21d xb3r6kr x1n2onr6 x12oqio5\"><img class=\"xh8yej3 x5yr21d xl1xv1r x1n2onr6\" alt=\"Claimed Territories\" role=\"presentation\" draggable=\"false\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=64,height=64/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive12.webp\"></div></div><span>Claimed Territories</span></button></div></div></div></div>",
+  "text": "Hilda's Skills\nPoints:\n4\n4\nBreeding Season\nMighty Prey\nScarred Lands\nDangerous Game\nSoul Eaters\nWill of the Draíocht\nCall of the Spirits\nAncient Inscriptions\nLethal Adaptation\nPatient Battue\nGutting and Skinning\nClaimed Territories",
+  "title": "Hilda's Skills"
+}

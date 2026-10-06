@@ -1,0 +1,255 @@
+{
+  "mode": "core",
+  "checks": [
+    {
+      "check": "主页有装备目标",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "六份过滤器有独立下载",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "解释四类碎片且没有旧的仍隐藏说法",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "不让03派生替代01开荒",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "图例文件选择 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部有效规则覆盖 01",
+      "passed": true,
+      "detail": {
+        "total": 424,
+        "expected": 424
+      }
+    },
+    {
+      "check": "显示39条叠加 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "隐藏数量一致 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "图例文件选择 02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部有效规则覆盖 02",
+      "passed": true,
+      "detail": {
+        "total": 479,
+        "expected": 479
+      }
+    },
+    {
+      "check": "显示39条叠加 02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "隐藏数量一致 02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "图例文件选择 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部有效规则覆盖 03",
+      "passed": true,
+      "detail": {
+        "total": 354,
+        "expected": 354
+      }
+    },
+    {
+      "check": "显示39条叠加 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "隐藏数量一致 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "图例文件选择 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部有效规则覆盖 04",
+      "passed": true,
+      "detail": {
+        "total": 293,
+        "expected": 293
+      }
+    },
+    {
+      "check": "显示39条叠加 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "隐藏数量一致 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "图例文件选择 01b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部有效规则覆盖 01b",
+      "passed": true,
+      "detail": {
+        "total": 426,
+        "expected": 426
+      }
+    },
+    {
+      "check": "显示39条叠加 01b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "隐藏数量一致 01b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "图例文件选择 03m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部有效规则覆盖 03m",
+      "passed": true,
+      "detail": {
+        "total": 363,
+        "expected": 363
+      }
+    },
+    {
+      "check": "显示39条叠加 03m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "隐藏数量一致 03m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "补充版中文碎片可搜索",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "蓝底样式可搜索",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "完整规则分页",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "底色精确筛选",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "碎片结果 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "碎片结果 01b",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "碎片结果 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "碎片结果 03m",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "碎片结果 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全部物品样例Python与浏览器匹配一致",
+      "passed": true,
+      "detail": {
+        "total": 1314,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "拒绝非法负数",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "旧路由进入新说明 filter-legend.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "旧路由进入新说明 filters.html",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "全站搜索碎片有新入口",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "真实select切文件",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "查物品切文件保留页面",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "无JS运行错误",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": 45,
+  "failed": 0,
+  "method": "Chromium about:blank; generated HTML/CSS/JS inlined, original image URLs served from local files via a virtual base/request handler. No online deployment or game-client validation. Direct navigation separately blocked."
+}

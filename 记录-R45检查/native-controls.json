@@ -1,0 +1,218 @@
+[
+  {
+    "id": "r42-stage",
+    "value": "l03",
+    "options": [
+      {
+        "value": "l01",
+        "label": "1–14级 · 闪电起步"
+      },
+      {
+        "value": "l02",
+        "label": "15–23级 · 强化弓，预留转型宝石"
+      },
+      {
+        "value": "l03",
+        "label": "24–30级 · 建立冻结＋狙击"
+      },
+      {
+        "value": "l04",
+        "label": "31–41级 · 正式换冰霜射击"
+      },
+      {
+        "value": "l05",
+        "label": "42–59级 · 龙卷与清图连接成型"
+      },
+      {
+        "value": "l06",
+        "label": "60级＋ / 通关衔接 · 通关收尾，衔接异界"
+      },
+      {
+        "value": "e01",
+        "label": "初入异界"
+      },
+      {
+        "value": "e02",
+        "label": "非暴击中期"
+      },
+      {
+        "value": "e03",
+        "label": "非暴击混合防御"
+      },
+      {
+        "value": "e04",
+        "label": "暴击混合防御"
+      },
+      {
+        "value": "e05",
+        "label": "高配冰射"
+      },
+      {
+        "value": "e06",
+        "label": "作者实装"
+      }
+    ]
+  },
+  {
+    "id": "q42-slot",
+    "value": "boots",
+    "options": [
+      {
+        "value": "bow",
+        "label": "主手弓"
+      },
+      {
+        "value": "quiver",
+        "label": "主手箭袋"
+      },
+      {
+        "value": "helmet",
+        "label": "头盔"
+      },
+      {
+        "value": "body",
+        "label": "衣服"
+      },
+      {
+        "value": "gloves",
+        "label": "手套"
+      },
+      {
+        "value": "boots",
+        "label": "鞋子"
+      },
+      {
+        "value": "amulet",
+        "label": "项链"
+      },
+      {
+        "value": "ring1",
+        "label": "戒指Ⅰ"
+      },
+      {
+        "value": "ring2",
+        "label": "戒指Ⅱ"
+      },
+      {
+        "value": "belt",
+        "label": "腰带"
+      },
+      {
+        "value": "weapon2",
+        "label": "武器组Ⅱ · 弓"
+      },
+      {
+        "value": "quiver2",
+        "label": "武器组Ⅱ · 箭袋"
+      },
+      {
+        "value": "life_flask",
+        "label": "生命药剂"
+      },
+      {
+        "value": "mana_flask",
+        "label": "魔力药剂"
+      },
+      {
+        "value": "charm1",
+        "label": "咒符槽Ⅰ"
+      },
+      {
+        "value": "charm2",
+        "label": "咒符槽Ⅱ"
+      },
+      {
+        "value": "charm3",
+        "label": "咒符槽Ⅲ"
+      },
+      {
+        "value": "jewels",
+        "label": "天赋珠宝"
+      }
+    ]
+  },
+  {
+    "id": "c41-kind",
+    "value": "magic1",
+    "options": [
+      {
+        "value": "unknown",
+        "label": "还没选好候选"
+      },
+      {
+        "value": "white",
+        "label": "白装"
+      },
+      {
+        "value": "magic1",
+        "label": "蓝装 · 1条词缀"
+      },
+      {
+        "value": "magic2",
+        "label": "蓝装 · 2条词缀"
+      },
+      {
+        "value": "rare2",
+        "label": "黄装 · 2条词缀"
+      },
+      {
+        "value": "rare3",
+        "label": "黄装 · 3条词缀"
+      },
+      {
+        "value": "rare4",
+        "label": "黄装 · 4条词缀"
+      },
+      {
+        "value": "rare5",
+        "label": "黄装 · 5条词缀"
+      },
+      {
+        "value": "rare6",
+        "label": "黄装 · 6条词缀"
+      },
+      {
+        "value": "blocked",
+        "label": "暗金／腐化／镜像／不明特殊状态"
+      }
+    ]
+  },
+  {
+    "id": "c41-goal",
+    "value": "",
+    "options": [
+      {
+        "value": "",
+        "label": "请选择，不自动决定"
+      },
+      {
+        "value": "defence",
+        "label": "补本地防御百分比"
+      },
+      {
+        "value": "life",
+        "label": "补生命"
+      },
+      {
+        "value": "fire",
+        "label": "补火抗"
+      },
+      {
+        "value": "cold",
+        "label": "补冰抗"
+      },
+      {
+        "value": "lightning",
+        "label": "补电抗"
+      },
+      {
+        "value": "chaos",
+        "label": "补混沌抗性"
+      },
+      {
+        "value": "attribute",
+        "label": "随机补一种属性（不能定向）"
+      }
+    ]
+  }
+]

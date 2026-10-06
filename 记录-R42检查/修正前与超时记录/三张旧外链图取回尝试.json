@@ -1,0 +1,17 @@
+[
+  {
+    "id": "start",
+    "source": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20195211.png",
+    "error": "HTTPSConnectionPool(host='cdn.mobalytics.gg', port=443): Max retries exceeded with url: /uploads/images/poe-2/Screenshot%202026-09-09%20195211.png (Caused by NameResolutionError(\"HTTPSConnection(host='cdn.mobalytics.gg', port=443): Failed to resolve 'cdn.mobalytics.gg' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "id": "progress",
+    "source": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20155824.png",
+    "error": "HTTPSConnectionPool(host='cdn.mobalytics.gg', port=443): Max retries exceeded with url: /uploads/images/poe-2/Screenshot%202026-09-09%20155824.png (Caused by NameResolutionError(\"HTTPSConnection(host='cdn.mobalytics.gg', port=443): Failed to resolve 'cdn.mobalytics.gg' ([Errno -3] Temporary failure in name resolution)\"))"
+  },
+  {
+    "id": "late",
+    "source": "https://cdn.mobalytics.gg/uploads/images/poe-2/Screenshot%202026-09-09%20164951.png",
+    "error": "HTTPSConnectionPool(host='cdn.mobalytics.gg', port=443): Max retries exceeded with url: /uploads/images/poe-2/Screenshot%202026-09-09%20164951.png (Caused by NameResolutionError(\"HTTPSConnection(host='cdn.mobalytics.gg', port=443): Failed to resolve 'cdn.mobalytics.gg' ([Errno -3] Temporary failure in name resolution)\"))"
+  }
+]

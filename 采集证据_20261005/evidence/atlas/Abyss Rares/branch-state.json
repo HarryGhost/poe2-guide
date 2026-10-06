@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-10-05T09:44:40.062Z",
+  "source_url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+  "description": "Atlas Tree Variants\nExpedition\nRitual Belts\nCurrency Abyss\nBreach Rares\nAbyss Rares\nLineage Gems\nDeli Rush\n\n1st Strat: Jado abyss\n\nTablets: 4x abyss (can replace 2 with other tablets for cheaper prices)\nMandatory tablet mods:\n1x \"Abyssal Monsters have #% increased Effectiveness for each closed Pit, up to 100%\"\n1x Map has #% chance to contain four additional Abysses\n4x \"Map has 2 additional random Modifier\" (you need this on every tablet)\n1x \"#% increased chance for Abyssal monsters in Map to have Abyssal Modifiers\" (seemd really good from testing, would always use 1, can use 2)\n\nNot mandatory but the best mod after +2 map mods is \"Map has #% increased number of Rare Monsters\"\n\nYou want at least 3 modifier tablets, here are some other good modifiers you can get\n1) pack size in map\n2) monster rarity\n3) rarity of items found\n4) monster effectiveness (not as good in this strat because you already have so much)\n5) abysses in map spawn increased monsters (not sure how good this stat is, but can't be bad)\n\nMaps: Have to run cities for 4 tablets and use a grand mirror for 200% deli on maps.\n6-8 mod t15 waystone (can do t16, but doesn't make a difference in loot unless it pushes you to area lvl 81 for ilvl 82 gear, which requires +1 tablet).\n\nWaystone: 6 mod your maps, Use \"omen of chaotic effectiveness\" (optional: also use chaotic quantity) and corrupt all.\nIdeally you only run 8 mods, but thats a bit hard to sustain, so also run every good 6 mod map. Can run or sell your t16s.\n\nMaster:\nJado: Partial translation, unforeseen threats and unexpected mission.\n\n----------------------------------------------------------------------------------------------------------------------------------------------------\n\n2nd Strat: Hilda (Take Breeding season and ancient inscriptions)\nTablets: 1x abyss, 1x irradiated, 1x overseer, 1x breach \n(can also use abyss unique tablet over a rare one).\nAbyss needs chance to contain four pits and effectiveness per pit closed.\nOther 3 tablets all need \"1-2 additional random map modifiers\" and 2 other good modifiers\n\nNot mandatory but the best mod after +2 map mods is \"Map has #% increased number of Rare Monsters\"\nOther good mods:\n1) pack size in map\n2) monster rarity\n3) rarity of items found\n4) monster effectiveness (not as good in this strat because you already have so much)",
+  "selected_tabs": [
+    {
+      "id": "react-aria3280961503-_r_7o_-tab-4",
+      "key": "4",
+      "name": "Abyss Rares",
+      "section_id": "f7d82102-7e77-4a44-ad24-33b67e8ae7bf"
+    },
+    {
+      "id": "react-aria3280961503-_r_2pk_-tab-4",
+      "key": "4",
+      "name": "Abyss Rares",
+      "section_id": "0bd18e80-a036-4cfa-bd05-e97d8febc46d"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+const fs=require('fs');
+let acorn;try{acorn=require('acorn');}catch(e){
+  const candidates=[process.env.ACORN_PATH,'/opt/nvm/versions/node/v22.16.0/lib/node_modules/ts-node/node_modules/acorn'].filter(Boolean);
+  for(const candidate of candidates){try{acorn=require(candidate);break;}catch(_){} }
+  if(!acorn)throw new Error('Missing Acorn: install with npm install acorn beside this script, or set ACORN_PATH.');
+}
+const [basefile,newfile,outfile]=process.argv.slice(2);let base=fs.readFileSync(basefile,'utf8').replace(/window\.addEventListener\('hashchange',render\);render\(\);document\.documentElement\.dataset\.releaseReady='true';\s*$/,'');const add=fs.readFileSync(newfile,'utf8');const ast=acorn.parse(base,{ecmaVersion:'latest'}),newast=acorn.parse(add,{ecmaVersion:'latest'});const overrides=new Set(newast.body.filter(x=>x.type==='FunctionDeclaration').map(x=>x.id.name)),last=new Map();ast.body.forEach(x=>{if(x.type==='FunctionDeclaration')last.set(x.id.name,x)});let changes=[];for(const x of ast.body){if(x.type!=='FunctionDeclaration')continue;const name=x.id.name;if(last.get(name)!==x){changes.push([x.start,x.end,'']);continue;}if(overrides.has(name)){if(add.includes('_r41_'+name+'(')){changes.push([x.id.start,x.id.end,'_r41_'+name]);}else changes.push([x.start,x.end,'']);}}
+for(const [s,e,t]of changes.sort((a,b)=>b[0]-a[0]))base=base.slice(0,s)+t+base.slice(e);const all=base+'\n'+add+"\nwindow.addEventListener('hashchange',render);render();document.documentElement.dataset.releaseReady='true';\n";acorn.parse(all,{ecmaVersion:'latest'});fs.writeFileSync(outfile,all);fs.writeFileSync(outfile+'.merge.json',JSON.stringify({removedDuplicateOrReplaced:changes.length,overrides:[...overrides],length:all.length},null,2));

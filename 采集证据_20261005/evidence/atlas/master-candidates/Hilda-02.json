@@ -1,0 +1,13 @@
+{
+  "captured_at": "2026-10-05T09:45:13.879Z",
+  "source_url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+  "master": "Hilda",
+  "candidate": "Mighty Prey",
+  "display_index": 2,
+  "panels": [
+    {
+      "html": "<div data-tippy-root=\"\" id=\"tippy-199\" style=\"pointer-events: none; z-index: 120000; position: fixed; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(440px, 239px, 0px);\" inert=\"\" data-popper-placement=\"bottom\"><div><div class=\"x1cvue7f x1i97zcw x1hv8zah xu70ewc x1qhigcl x1j9u4d2 x1n2onr6 x1n9hxaw x25l62i xiy17q3 x1bc63r9\"><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1n2onr6 x100vrsf x1vqgdyp xb3r6kr\"><img alt=\"Mighty Prey\" width=\"40\" height=\"40\" class=\"x19kjcj4\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=80/assets/poe-2/images/game/Art/2DArt/SkillIcons/passives/AtlasMasters/HildaKeystoneActive2.webp\"></div><div><p class=\"x2klb21\">Mighty Prey</p><p class=\"x139jznd x9uxgww\">Hilda's Hunting</p></div><p class=\"x139jznd x9uxgww x1fj9vlw\" style=\"color: var(--x1nw1xqh);\">25% chance to upgrade Map Bosses to Powerful Map Bosses</p><p class=\"x1cvue7f x1mkayr0 x1fj9vlw\">Some days you're the spear,\r\nsome days you're the boar!</p></div></div></div></div>",
+      "text": "Mighty Prey\n\nHilda's Hunting\n\n25% chance to upgrade Map Bosses to Powerful Map Bosses\n\nSome days you're the spear,\nsome days you're the boar!"
+    }
+  ]
+}

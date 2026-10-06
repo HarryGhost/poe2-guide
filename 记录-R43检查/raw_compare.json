@@ -1,0 +1,2571 @@
+[
+  {
+    "build": "Early",
+    "item": "Obliterator Bow",
+    "slot": "mainHand",
+    "set": "Set 1",
+    "old_name": "Obliterator Bow",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "50% reduced Projectile Range",
+      "(135-154)% increased Physical Damage",
+      "Adds (16-24) to (28-42) Physical Damage",
+      "Adds (40-53) to (62-80) Cold Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "5"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "218-399"
+      },
+      {
+        "label": "Cold Damage",
+        "value": "53-80"
+      }
+    ]
+  },
+  {
+    "build": "Early",
+    "item": "Prismatic Ring",
+    "slot": "leftRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Desert Cap",
+    "slot": "helmet",
+    "set": "Shared",
+    "old_name": "Desert Cap",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "20% increased Rarity of Items found"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "20% increased Rarity of Items found"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "(20-22)% increased Rarity of Items found"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "311"
+      }
+    ]
+  },
+  {
+    "build": "Early",
+    "item": "Corsair Coat",
+    "slot": "body",
+    "set": "Shared",
+    "old_name": "Corsair Coat",
+    "name_equal": true,
+    "old_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Boots: 5% increased Movement Speed",
+      "(101-110)% increased Evasion Rating",
+      "(39-42)% increased Evasion Rating",
+      "+(71-90) to Evasion Rating",
+      "+(262-300) to Evasion Rating",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "2177"
+      }
+    ]
+  },
+  {
+    "build": "Early",
+    "item": "Stellar Amulet",
+    "slot": "amulet",
+    "set": "Shared",
+    "old_name": "Stellar Amulet",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+30 to Spirit"
+    ],
+    "captured_saved_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+30 to Spirit"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Allocates Serrated Edges",
+      "+(5-7) to all Attributes",
+      "+(30-33) to Spirit",
+      "+3 to Level of all Projectile Skills"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Prismatic Ring",
+    "slot": "rightRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Volant Quiver",
+    "slot": "offHand",
+    "set": "Set 1",
+    "old_name": "Volant Quiver",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 16 to 25 Cold damage to Attacks",
+      "+1 to Level of all Projectile Skills",
+      "14% increased Attack Speed",
+      "42% increased Projectile Speed",
+      "43% increased Damage with Bow Skills"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 16 to 25 Cold damage to Attacks",
+      "+1 to Level of all Projectile Skills",
+      "14% increased Attack Speed",
+      "42% increased Projectile Speed",
+      "43% increased Damage with Bow Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Arrow Speed",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "(42-46)% increased Projectile Speed",
+      "(43-50)% increased Damage with Bow Skills",
+      "+1 to Level of all Projectile Skills",
+      "(14-16)% increased Attack Speed"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Grand Bracers",
+    "slot": "gloves",
+    "set": "Shared",
+    "old_name": "Grand Bracers",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "14% increased Attack Speed"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "14% increased Attack Speed"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "Adds (7-11) to (14-20) Physical Damage to Attacks",
+      "Adds (14-15) to (22-24) Cold damage to Attacks",
+      "(14-16)% increased Attack Speed"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "155"
+      }
+    ]
+  },
+  {
+    "build": "Early",
+    "item": "Rawhide Belt",
+    "slot": "belt",
+    "set": "Shared",
+    "old_name": "Rawhide Belt",
+    "name_equal": true,
+    "old_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "captured_saved_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Life Recovery from Flasks",
+      "+(150-174) to maximum Life",
+      "+(31-33) to Strength"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Cavalry Boots",
+    "slot": "boots",
+    "set": "Shared",
+    "old_name": "Cavalry Boots",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "256"
+      }
+    ]
+  },
+  {
+    "build": "Early",
+    "item": "Ultimate Life Flask",
+    "slot": "flask1",
+    "set": "Shared",
+    "old_name": "Ultimate Life Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "captured_saved_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(28-30)% of Recovery applied Instantly"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Thawing Charm",
+    "slot": "charm1",
+    "set": "Shared",
+    "old_name": "Thawing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Frozen",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Silver Charm",
+    "slot": "charm2",
+    "set": "Shared",
+    "old_name": "Silver Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you are affected by a Slow",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Dousing Charm",
+    "slot": "charm3",
+    "set": "Shared",
+    "old_name": "Dousing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Ignited",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Early",
+    "item": "Ultimate Mana Flask",
+    "slot": "flask2",
+    "set": "Shared",
+    "old_name": "Ultimate Mana Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges",
+      "76% increased Amount Recovered"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges",
+      "76% increased Amount Recovered"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(76-80)% increased Amount Recovered",
+      "(55-62)% increased Charges"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Obliterator Bow",
+    "slot": "mainHand",
+    "set": "Set 1",
+    "old_name": "Obliterator Bow",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "50% reduced Projectile Range",
+      "(135-154)% increased Physical Damage",
+      "Adds (16-24) to (28-42) Physical Damage",
+      "Adds (40-53) to (62-80) Cold Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "5"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "218-399"
+      },
+      {
+        "label": "Cold Damage",
+        "value": "53-80"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Prismatic Ring",
+    "slot": "leftRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Desert Cap",
+    "slot": "helmet",
+    "set": "Shared",
+    "old_name": "Desert Cap",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "20% increased Rarity of Items found"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "20% increased Rarity of Items found"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "(20-22)% increased Rarity of Items found"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "311"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Corsair Coat",
+    "slot": "body",
+    "set": "Shared",
+    "old_name": "Corsair Coat",
+    "name_equal": true,
+    "old_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Boots: 5% increased Movement Speed",
+      "(101-110)% increased Evasion Rating",
+      "(39-42)% increased Evasion Rating",
+      "+(71-90) to Evasion Rating",
+      "+(262-300) to Evasion Rating",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "2177"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Stellar Amulet",
+    "slot": "amulet",
+    "set": "Shared",
+    "old_name": "Stellar Amulet",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+30 to Spirit"
+    ],
+    "captured_saved_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+30 to Spirit"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Allocates Serrated Edges",
+      "+(5-7) to all Attributes",
+      "+(30-33) to Spirit",
+      "+3 to Level of all Projectile Skills"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Prismatic Ring",
+    "slot": "rightRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Volant Quiver",
+    "slot": "offHand",
+    "set": "Set 1",
+    "old_name": "Volant Quiver",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 16 to 25 Cold damage to Attacks",
+      "+1 to Level of all Projectile Skills",
+      "14% increased Attack Speed",
+      "42% increased Projectile Speed",
+      "43% increased Damage with Bow Skills"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 16 to 25 Cold damage to Attacks",
+      "+1 to Level of all Projectile Skills",
+      "14% increased Attack Speed",
+      "42% increased Projectile Speed",
+      "43% increased Damage with Bow Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Arrow Speed",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "(42-46)% increased Projectile Speed",
+      "(43-50)% increased Damage with Bow Skills",
+      "+1 to Level of all Projectile Skills",
+      "(14-16)% increased Attack Speed"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Grand Bracers",
+    "slot": "gloves",
+    "set": "Shared",
+    "old_name": "Grand Bracers",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "14% increased Attack Speed"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "14% increased Attack Speed"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "Adds (7-11) to (14-20) Physical Damage to Attacks",
+      "Adds (14-15) to (22-24) Cold damage to Attacks",
+      "(14-16)% increased Attack Speed"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "155"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Rawhide Belt",
+    "slot": "belt",
+    "set": "Shared",
+    "old_name": "Rawhide Belt",
+    "name_equal": true,
+    "old_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "captured_saved_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Life Recovery from Flasks",
+      "+(150-174) to maximum Life",
+      "+(31-33) to Strength"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Cavalry Boots",
+    "slot": "boots",
+    "set": "Shared",
+    "old_name": "Cavalry Boots",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "256"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Ultimate Life Flask",
+    "slot": "flask1",
+    "set": "Shared",
+    "old_name": "Ultimate Life Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "captured_saved_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(28-30)% of Recovery applied Instantly"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Thawing Charm",
+    "slot": "charm1",
+    "set": "Shared",
+    "old_name": "Thawing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Frozen",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Silver Charm",
+    "slot": "charm2",
+    "set": "Shared",
+    "old_name": "Silver Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you are affected by a Slow",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Dousing Charm",
+    "slot": "charm3",
+    "set": "Shared",
+    "old_name": "Dousing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Ignited",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Midgame",
+    "item": "Lavianga's Spirits",
+    "slot": "flask2",
+    "set": "Shared",
+    "old_name": "Lavianga's Spirits",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "This Flask cannot be Used but applies its Effect constantly",
+      "(70-80)% reduced Amount Recovered"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Obliterator Bow",
+    "slot": "mainHand",
+    "set": "Set 1",
+    "old_name": "Obliterator Bow",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "50% reduced Projectile Range",
+      "(135-154)% increased Physical Damage",
+      "Adds (16-24) to (28-42) Physical Damage",
+      "Adds (40-53) to (62-80) Cold Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "runes": [
+      "Countess Seske's Rune of Archery",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "5"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "218-399"
+      },
+      {
+        "label": "Cold Damage",
+        "value": "53-80"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Prismatic Ring",
+    "slot": "leftRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Ancestral Tiara",
+    "slot": "helmet",
+    "set": "Shared",
+    "old_name": "Ancestral Tiara",
+    "name_equal": true,
+    "old_descriptions": [
+      "+48 to maximum Energy Shield",
+      "92% increased Energy Shield"
+    ],
+    "captured_saved_descriptions": [
+      "+48 to maximum Energy Shield",
+      "92% increased Energy Shield"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(92-100)% increased Energy Shield",
+      "+(48-60) to maximum Energy Shield"
+    ],
+    "runes": [
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Energy Shield",
+        "value": "338"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Corsair Coat",
+    "slot": "body",
+    "set": "Shared",
+    "old_name": "Corsair Coat",
+    "name_equal": true,
+    "old_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Boots: 5% increased Movement Speed",
+      "(101-110)% increased Evasion Rating",
+      "(39-42)% increased Evasion Rating",
+      "+(71-90) to Evasion Rating",
+      "+(262-300) to Evasion Rating",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "2177"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Stellar Amulet",
+    "slot": "amulet",
+    "set": "Shared",
+    "old_name": "Stellar Amulet",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+30 to Spirit"
+    ],
+    "captured_saved_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+30 to Spirit"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Allocates Serrated Edges",
+      "+(5-7) to all Attributes",
+      "+(30-33) to Spirit",
+      "+3 to Level of all Projectile Skills"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Prismatic Ring",
+    "slot": "rightRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Volant Quiver",
+    "slot": "offHand",
+    "set": "Set 1",
+    "old_name": "Volant Quiver",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 16 to 25 Cold damage to Attacks",
+      "+1 to Level of all Projectile Skills",
+      "14% increased Attack Speed",
+      "42% increased Projectile Speed",
+      "43% increased Damage with Bow Skills"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 16 to 25 Cold damage to Attacks",
+      "+1 to Level of all Projectile Skills",
+      "14% increased Attack Speed",
+      "42% increased Projectile Speed",
+      "43% increased Damage with Bow Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Arrow Speed",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "(42-46)% increased Projectile Speed",
+      "(43-50)% increased Damage with Bow Skills",
+      "+1 to Level of all Projectile Skills",
+      "(14-16)% increased Attack Speed"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Grand Bracers",
+    "slot": "gloves",
+    "set": "Shared",
+    "old_name": "Grand Bracers",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "14% increased Attack Speed"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "14% increased Attack Speed"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "Adds (7-11) to (14-20) Physical Damage to Attacks",
+      "Adds (14-15) to (22-24) Cold damage to Attacks",
+      "(14-16)% increased Attack Speed"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "155"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Rawhide Belt",
+    "slot": "belt",
+    "set": "Shared",
+    "old_name": "Rawhide Belt",
+    "name_equal": true,
+    "old_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "captured_saved_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Life Recovery from Flasks",
+      "+(150-174) to maximum Life",
+      "+(31-33) to Strength"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Bladed Shoes",
+    "slot": "boots",
+    "set": "Shared",
+    "old_name": "Bladed Shoes",
+    "name_equal": true,
+    "old_descriptions": [
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "35% increased Movement Speed",
+      "(92-100)% increased Evasion and Energy Shield",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "290"
+      },
+      {
+        "label": "Energy Shield",
+        "value": "74"
+      }
+    ]
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Ultimate Life Flask",
+    "slot": "flask1",
+    "set": "Shared",
+    "old_name": "Ultimate Life Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "captured_saved_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(28-30)% of Recovery applied Instantly"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Nascent Hope",
+    "slot": "charm1",
+    "set": "Shared",
+    "old_name": "Nascent Hope",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Frozen",
+      "Used when you become Frozen",
+      "(20-25)% Chance to gain a Charge when you kill an enemy",
+      "Energy Shield Recharge starts on use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "The Fall of the Axe",
+    "slot": "charm2",
+    "set": "Shared",
+    "old_name": "The Fall of the Axe",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you are affected by a Slow",
+      "Used when you are affected by a Slow",
+      "Grants Onslaught during effect"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Dousing Charm",
+    "slot": "charm3",
+    "set": "Shared",
+    "old_name": "Dousing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Ignited",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "non-crit Hybrid swap",
+    "item": "Lavianga's Spirits",
+    "slot": "flask2",
+    "set": "Shared",
+    "old_name": "Lavianga's Spirits",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "This Flask cannot be Used but applies its Effect constantly",
+      "(70-80)% reduced Amount Recovered"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Obliterator Bow",
+    "slot": "mainHand",
+    "set": "Set 1",
+    "old_name": "Obliterator Bow",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3.1% to Critical Hit Chance",
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "captured_saved_descriptions": [
+      "+3.1% to Critical Hit Chance",
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "50% reduced Projectile Range",
+      "(135-154)% increased Physical Damage",
+      "Adds (16-24) to (28-42) Physical Damage",
+      "Adds (40-53) to (62-80) Cold Damage",
+      "+2 to Level of all Projectile Skills",
+      "+(3.1-3.8)% to Critical Hit Chance"
+    ],
+    "runes": [
+      "Countess Seske's Rune of Archery",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "8.8"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "218-399"
+      },
+      {
+        "label": "Cold Damage",
+        "value": "53-80"
+      }
+    ]
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Prismatic Ring",
+    "slot": "leftRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Ancestral Tiara",
+    "slot": "helmet",
+    "set": "Shared",
+    "old_name": "Ancestral Tiara",
+    "name_equal": true,
+    "old_descriptions": [
+      "+48 to maximum Energy Shield",
+      "92% increased Energy Shield"
+    ],
+    "captured_saved_descriptions": [
+      "+48 to maximum Energy Shield",
+      "92% increased Energy Shield"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(92-100)% increased Energy Shield",
+      "+(48-60) to maximum Energy Shield"
+    ],
+    "runes": [
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Energy Shield",
+        "value": "338"
+      }
+    ]
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Corsair Coat",
+    "slot": "body",
+    "set": "Shared",
+    "old_name": "Corsair Coat",
+    "name_equal": true,
+    "old_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Boots: 5% increased Movement Speed",
+      "(101-110)% increased Evasion Rating",
+      "(39-42)% increased Evasion Rating",
+      "+(71-90) to Evasion Rating",
+      "+(262-300) to Evasion Rating",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "2177"
+      }
+    ]
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Stellar Amulet",
+    "slot": "amulet",
+    "set": "Shared",
+    "old_name": "Stellar Amulet",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+47 to Spirit"
+    ],
+    "captured_saved_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+47 to Spirit"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Allocates Serrated Edges",
+      "+(5-7) to all Attributes",
+      "+(47-50) to Spirit",
+      "+3 to Level of all Projectile Skills"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Prismatic Ring",
+    "slot": "rightRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "+(120-149) to maximum Life"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Cadiro's Gambit",
+    "slot": "offHand",
+    "set": "Set 1",
+    "old_name": "Cadiro's Gambit",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Gloves: (7-10)% increased Attack Speed",
+      "(7-10)% increased Attack Speed",
+      "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Grand Bracers",
+    "slot": "gloves",
+    "set": "Shared",
+    "old_name": "Grand Bracers",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "30% increased Critical Damage Bonus"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "30% increased Critical Damage Bonus"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "Adds (7-11) to (14-20) Physical Damage to Attacks",
+      "Adds (14-15) to (22-24) Cold damage to Attacks",
+      "(30-34)% increased Critical Damage Bonus"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "155"
+      }
+    ]
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Rawhide Belt",
+    "slot": "belt",
+    "set": "Shared",
+    "old_name": "Rawhide Belt",
+    "name_equal": true,
+    "old_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "captured_saved_descriptions": [
+      "+150 to maximum Life",
+      "+31 to Strength"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Life Recovery from Flasks",
+      "+(150-174) to maximum Life",
+      "+(31-33) to Strength"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Bladed Shoes",
+    "slot": "boots",
+    "set": "Shared",
+    "old_name": "Bladed Shoes",
+    "name_equal": true,
+    "old_descriptions": [
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "35% increased Movement Speed",
+      "(92-100)% increased Evasion and Energy Shield",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "290"
+      },
+      {
+        "label": "Energy Shield",
+        "value": "74"
+      }
+    ]
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Ultimate Life Flask",
+    "slot": "flask1",
+    "set": "Shared",
+    "old_name": "Ultimate Life Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "captured_saved_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(28-30)% of Recovery applied Instantly"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Nascent Hope",
+    "slot": "charm1",
+    "set": "Shared",
+    "old_name": "Nascent Hope",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Frozen",
+      "Used when you become Frozen",
+      "(20-25)% Chance to gain a Charge when you kill an enemy",
+      "Energy Shield Recharge starts on use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "The Fall of the Axe",
+    "slot": "charm2",
+    "set": "Shared",
+    "old_name": "The Fall of the Axe",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you are affected by a Slow",
+      "Used when you are affected by a Slow",
+      "Grants Onslaught during effect"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Dousing Charm",
+    "slot": "charm3",
+    "set": "Shared",
+    "old_name": "Dousing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "captured_saved_descriptions": [
+      "55% increased Charges gained"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Ignited",
+      "(55-62)% increased Charges gained"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Crit Hybrid",
+    "item": "Lavianga's Spirits",
+    "slot": "flask2",
+    "set": "Shared",
+    "old_name": "Lavianga's Spirits",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "This Flask cannot be Used but applies its Effect constantly",
+      "(70-80)% reduced Amount Recovered"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Warmonger Bow",
+    "slot": "mainHand",
+    "set": "Set 1",
+    "old_name": "Warmonger Bow",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3.1% to Critical Hit Chance",
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills",
+      "20% increased Critical Damage Bonus"
+    ],
+    "captured_saved_descriptions": [
+      "+3.1% to Critical Hit Chance",
+      "Adds 16 to 28 Physical Damage",
+      "Adds 40 to 62 Cold Damage",
+      "135% increased Physical Damage",
+      "+2 to Level of all Projectile Skills",
+      "20% increased Critical Damage Bonus"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(135-154)% increased Physical Damage",
+      "Adds (16-24) to (28-42) Physical Damage",
+      "Adds (40-53) to (62-80) Cold Damage",
+      "+2 to Level of all Projectile Skills",
+      "+(3.1-3.8)% to Critical Hit Chance",
+      "(20-24)% increased Critical Damage Bonus"
+    ],
+    "runes": [
+      "Countess Seske's Rune of Archery",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "8.8"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "203-320"
+      },
+      {
+        "label": "Cold Damage",
+        "value": "53-80"
+      }
+    ]
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Prismatic Ring",
+    "slot": "leftRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 1 to 48 Lightning damage to Attacks",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 1 to 48 Lightning damage to Attacks",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "Adds (1-3) to (48-59) Lightning damage to Attacks"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Ancestral Tiara",
+    "slot": "helmet",
+    "set": "Shared",
+    "old_name": "Ancestral Tiara",
+    "name_equal": true,
+    "old_descriptions": [
+      "+48 to maximum Energy Shield",
+      "92% increased Energy Shield"
+    ],
+    "captured_saved_descriptions": [
+      "+48 to maximum Energy Shield",
+      "92% increased Energy Shield"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(92-100)% increased Energy Shield",
+      "+(48-60) to maximum Energy Shield"
+    ],
+    "runes": [
+      "Raven-Touched Shard"
+    ],
+    "panel_top": [
+      {
+        "label": "Energy Shield",
+        "value": "338"
+      }
+    ]
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Corsair Coat",
+    "slot": "body",
+    "set": "Shared",
+    "old_name": "Corsair Coat",
+    "name_equal": true,
+    "old_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+333 to Evasion Rating",
+      "140% increased Evasion Rating",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Boots: 5% increased Movement Speed",
+      "(101-110)% increased Evasion Rating",
+      "(39-42)% increased Evasion Rating",
+      "+(71-90) to Evasion Rating",
+      "+(262-300) to Evasion Rating",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [
+      "Greater Iron Rune",
+      "Greater Iron Rune"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "2177"
+      }
+    ]
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Stellar Amulet",
+    "slot": "amulet",
+    "set": "Shared",
+    "old_name": "Stellar Amulet",
+    "name_equal": true,
+    "old_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+47 to Spirit"
+    ],
+    "captured_saved_descriptions": [
+      "+3 to Level of all Projectile Skills",
+      "+47 to Spirit"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Allocates Serrated Edges",
+      "+(5-7) to all Attributes",
+      "+(47-50) to Spirit",
+      "+3 to Level of all Projectile Skills"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Prismatic Ring",
+    "slot": "rightRing",
+    "set": "Shared",
+    "old_name": "Prismatic Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 1 to 48 Lightning damage to Attacks",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 1 to 48 Lightning damage to Attacks",
+      "Adds 10 to 18 Physical Damage to Attacks",
+      "Adds 16 to 25 Cold damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Armour: +(7-10)% to all Elemental Resistances",
+      "Adds (16-20) to (25-31) Cold damage to Attacks",
+      "Adds (10-15) to (18-26) Physical Damage to Attacks",
+      "Adds (1-3) to (48-59) Lightning damage to Attacks"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Cadiro's Gambit",
+    "slot": "offHand",
+    "set": "Set 1",
+    "old_name": "Cadiro's Gambit",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Gloves: (7-10)% increased Attack Speed",
+      "(7-10)% increased Attack Speed",
+      "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Grand Bracers",
+    "slot": "gloves",
+    "set": "Shared",
+    "old_name": "Grand Bracers",
+    "name_equal": true,
+    "old_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "30% increased Critical Damage Bonus"
+    ],
+    "captured_saved_descriptions": [
+      "+120 to maximum Life",
+      "Adds 7 to 14 Physical Damage to Attacks",
+      "Adds 14 to 22 Cold damage to Attacks",
+      "30% increased Critical Damage Bonus"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(120-149) to maximum Life",
+      "Adds (7-11) to (14-20) Physical Damage to Attacks",
+      "Adds (14-15) to (22-24) Cold damage to Attacks",
+      "(30-34)% increased Critical Damage Bonus"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "155"
+      }
+    ]
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Headhunter",
+    "slot": "belt",
+    "set": "Shared",
+    "old_name": "Headhunter",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Stun Threshold",
+      "Has (1-3) Charm Slot",
+      "+(40-60) to maximum Life",
+      "+(20-40) to Strength",
+      "+(20-40) to Dexterity",
+      "When you kill a Rare monster, you gain its Modifiers for 60 seconds"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Bladed Shoes",
+    "slot": "boots",
+    "set": "Shared",
+    "old_name": "Bladed Shoes",
+    "name_equal": true,
+    "old_descriptions": [
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "Gain Deflection Rating equal to 21% of Evasion Rating"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "35% increased Movement Speed",
+      "(92-100)% increased Evasion and Energy Shield",
+      "Gain Deflection Rating equal to (21-23)% of Evasion Rating"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "290"
+      },
+      {
+        "label": "Energy Shield",
+        "value": "74"
+      }
+    ]
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Ultimate Life Flask",
+    "slot": "flask1",
+    "set": "Shared",
+    "old_name": "Ultimate Life Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "captured_saved_descriptions": [
+      "28% of Recovery applied Instantly"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(28-30)% of Recovery applied Instantly"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Nascent Hope",
+    "slot": "charm1",
+    "set": "Shared",
+    "old_name": "Nascent Hope",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Frozen",
+      "Used when you become Frozen",
+      "(20-25)% Chance to gain a Charge when you kill an enemy",
+      "Energy Shield Recharge starts on use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "The Fall of the Axe",
+    "slot": "charm2",
+    "set": "Shared",
+    "old_name": "The Fall of the Axe",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you are affected by a Slow",
+      "Used when you are affected by a Slow",
+      "Grants Onslaught during effect"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Rite of Passage",
+    "slot": "charm3",
+    "set": "Shared",
+    "old_name": "Rite of Passage",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you kill a Rare or Unique enemy",
+      "Used when you kill a Rare or Unique enemy",
+      "15% increased Rarity of Items found",
+      "Possessed by Spirit Of The [Azmeri Spirit] for (10-20) seconds on use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Uber Endgame",
+    "item": "Lavianga's Spirits",
+    "slot": "flask2",
+    "set": "Shared",
+    "old_name": "Lavianga's Spirits",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "This Flask cannot be Used but applies its Effect constantly",
+      "(70-80)% reduced Amount Recovered"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Warmonger Bow",
+    "slot": "mainHand",
+    "set": "Set 1",
+    "old_name": "Warmonger Bow",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [
+      "+5% to Critical Hit Chance",
+      "255% increased Physical Damage",
+      "+176 to Accuracy Rating",
+      "+25% to Critical Damage Bonus",
+      "+4 to Level of all Projectile Skills",
+      "+198% Surpassing chance to fire an additional Arrow",
+      "Adds 37 to 65 Physical Damage"
+    ],
+    "stored_desc_equal": false,
+    "captured_panel_modifiers": [],
+    "runes": [
+      "Perfect Iron Rune",
+      "Countess Seske's Rune of Archery",
+      "Serle's Triumph"
+    ],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "5"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "56-84"
+      },
+      {
+        "label": "Item Level",
+        "value": "82"
+      },
+      {
+        "label": "Quality",
+        "value": "30"
+      }
+    ]
+  },
+  {
+    "build": "Live Gear",
+    "item": "Gold Ring",
+    "slot": "leftRing",
+    "set": "Shared",
+    "old_name": "Gold Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 1 to 60 Lightning damage to Attacks",
+      "+15% to all Elemental Resistances",
+      "15% increased Rarity of Items found",
+      "+20% to Chaos Resistance",
+      "Adds 12 to 22 Physical Damage to Attacks",
+      "Adds 25 to 37 Fire damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 1 to 99 Lightning damage to Attacks",
+      "Adds 14 to 35 Physical Damage to Attacks",
+      "17% increased Rarity of Items found",
+      "+16% to all Elemental Resistances",
+      "+23% to Chaos Resistance",
+      "Adds 36 to 63 Fire damage to Attacks"
+    ],
+    "stored_desc_equal": false,
+    "captured_panel_modifiers": [
+      "Body Armour: (6-15)% increased Rarity of Items found",
+      "Adds (25-29) to (37-45) Fire damage to Attacks",
+      "Adds (1-4) to (60-71) Lightning damage to Attacks",
+      "Adds (12-19) to (22-32) Physical Damage to Attacks",
+      "+(15-16)% to all Elemental Resistances",
+      "+(20-23)% to Chaos Resistance",
+      "(15-18)% increased Rarity of Items found"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Ancestral Tiara",
+    "slot": "helmet",
+    "set": "Shared",
+    "old_name": "Ancestral Tiara",
+    "name_equal": true,
+    "old_descriptions": [
+      "+42 to maximum Life",
+      "15% increased Rarity of Items found",
+      "+41% to Fire Resistance",
+      "+71 to maximum Energy Shield",
+      "140% increased Energy Shield",
+      "+13% to Fire and Chaos Resistances"
+    ],
+    "captured_saved_descriptions": [
+      "+42 to maximum Life",
+      "15% increased Rarity of Items found",
+      "+41% to Fire Resistance",
+      "+71 to maximum Energy Shield",
+      "140% increased Energy Shield",
+      "+13% to Fire and Chaos Resistances"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "+(71-79) to maximum Energy Shield",
+      "(39-42)% increased Energy Shield",
+      "+(42-49) to maximum Life",
+      "(101-110)% increased Energy Shield",
+      "+(13-17)% to Fire and Chaos Resistances",
+      "+(41-45)% to Fire Resistance",
+      "(15-18)% increased Rarity of Items found"
+    ],
+    "runes": [
+      "Legacy of Greymake",
+      "Raven-Touched Shard"
+    ],
+    "panel_top": [
+      {
+        "label": "Energy Shield",
+        "value": "474"
+      }
+    ]
+  },
+  {
+    "build": "Live Gear",
+    "item": "Slipstrike Vest",
+    "slot": "body",
+    "set": "Shared",
+    "old_name": "Slipstrike Vest",
+    "name_equal": true,
+    "old_descriptions": [
+      "+262 to Evasion Rating",
+      "+36% to Cold Resistance",
+      "+203 to Evasion Rating",
+      "5% increased Evasion Rating",
+      "27% increased Evasion Rating",
+      "Gain Deflection Rating equal to 24% of Evasion Rating"
+    ],
+    "captured_saved_descriptions": [
+      "+40% to Cold Resistance",
+      "+385 to Evasion Rating",
+      "41% increased Evasion Rating",
+      "+38% to Cold Resistance",
+      "Gain Deflection Rating equal to 24% of Evasion Rating",
+      "106% increased Evasion Rating"
+    ],
+    "stored_desc_equal": false,
+    "captured_panel_modifiers": [
+      "+(203-233) to Evasion Rating",
+      "+(262-300) to Evasion Rating",
+      "(27-42)% increased Evasion Rating",
+      "+(36-40)% to Cold Resistance",
+      "Gain Deflection Rating equal to (24-26)% of Evasion Rating",
+      "(5-20)% increased Evasion Rating"
+    ],
+    "runes": [
+      "Perfect Iron Rune",
+      "Perfect Iron Rune",
+      "Rabbit Idol"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "3191"
+      },
+      {
+        "label": "Item Level",
+        "value": "81"
+      },
+      {
+        "label": "Quality",
+        "value": "23"
+      }
+    ]
+  },
+  {
+    "build": "Live Gear",
+    "item": "Gold Amulet",
+    "slot": "amulet",
+    "set": "Shared",
+    "old_name": "Gold Amulet",
+    "name_equal": true,
+    "old_descriptions": [
+      "+17% to all Elemental Resistances",
+      "55% increased maximum Energy Shield",
+      "+3 to Level of all Projectile Skills",
+      "35% increased Critical Damage Bonus",
+      "+47 to Spirit"
+    ],
+    "captured_saved_descriptions": [
+      "+50 to Spirit",
+      "61% increased maximum Energy Shield",
+      "+3 to Level of all Projectile Skills",
+      "35% increased Critical Damage Bonus",
+      "+17% to all Elemental Resistances",
+      "{crafted}42% increased Global Armour, Evasion and Energy Shield"
+    ],
+    "stored_desc_equal": false,
+    "captured_panel_modifiers": [
+      "Allocates Climate Change",
+      "Body Armour: (12-20)% increased Rarity of Items found",
+      "(45-50)% increased maximum Energy Shield",
+      "+(47-50) to Spirit",
+      "(10-20)% increased maximum Energy Shield",
+      "+(17-18)% to all Elemental Resistances",
+      "(35-39)% increased Critical Damage Bonus",
+      "+3 to Level of all Projectile Skills"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Gold Ring",
+    "slot": "rightRing",
+    "set": "Shared",
+    "old_name": "Gold Ring",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 1 to 60 Lightning damage to Attacks",
+      "+15% to all Elemental Resistances",
+      "15% increased Rarity of Items found",
+      "+36% to Lightning Resistance",
+      "Adds 12 to 22 Physical Damage to Attacks",
+      "Adds 25 to 37 Fire damage to Attacks"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 1 to 60 Lightning damage to Attacks",
+      "+15% to all Elemental Resistances",
+      "15% increased Rarity of Items found",
+      "+36% to Lightning Resistance",
+      "Adds 12 to 22 Physical Damage to Attacks",
+      "Adds 25 to 37 Fire damage to Attacks"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Body Armour: (6-15)% increased Rarity of Items found",
+      "Adds (25-29) to (37-45) Fire damage to Attacks",
+      "Adds (1-4) to (60-71) Lightning damage to Attacks",
+      "Adds (12-19) to (22-32) Physical Damage to Attacks",
+      "+(15-16)% to all Elemental Resistances",
+      "+(36-40)% to Lightning Resistance",
+      "(15-18)% increased Rarity of Items found"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Cadiro's Gambit",
+    "slot": "offHand",
+    "set": "Set 1",
+    "old_name": "Cadiro's Gambit",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Gloves: (7-10)% increased Attack Speed",
+      "(7-10)% increased Attack Speed",
+      "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Runeforged Secured Wraps",
+    "slot": "gloves",
+    "set": "Shared",
+    "old_name": "Runeforged Secured Wraps",
+    "name_equal": true,
+    "old_descriptions": [
+      "Adds 1 to 48 Lightning damage to Attacks",
+      "Adds 12 to 22 Physical Damage to Attacks",
+      "+2 to Level of all Projectile Skills",
+      "25% increased Critical Damage Bonus",
+      "31% increased Projectile Damage",
+      "+51% Surpassing chance to fire an additional Projectile"
+    ],
+    "captured_saved_descriptions": [
+      "Adds 1 to 48 Lightning damage to Attacks",
+      "Adds 12 to 22 Physical Damage to Attacks",
+      "+2 to Level of all Projectile Skills",
+      "25% increased Critical Damage Bonus",
+      "31% increased Projectile Damage",
+      "+51% Surpassing chance to fire an additional Projectile"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Adds (1-3) to (48-59) Lightning damage to Attacks",
+      "Adds (12-19) to (22-32) Physical Damage to Attacks",
+      "(31-40)% increased Projectile Damage",
+      "+2 to Level of all Projectile Skills",
+      "+(51-60)% Surpassing chance to fire an additional Projectile",
+      "(25-29)% increased Critical Damage Bonus"
+    ],
+    "runes": [
+      "Kolr's Hunt",
+      "Idol of Sirrius"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "34"
+      },
+      {
+        "label": "Energy Shield",
+        "value": "10"
+      }
+    ]
+  },
+  {
+    "build": "Live Gear",
+    "item": "Headhunter",
+    "slot": "belt",
+    "set": "Shared",
+    "old_name": "Headhunter",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(20-30)% increased Stun Threshold",
+      "Has (1-3) Charm Slot",
+      "+(40-60) to maximum Life",
+      "+(20-40) to Strength",
+      "+(20-40) to Dexterity",
+      "When you kill a Rare monster, you gain its Modifiers for 60 seconds",
+      "Corrupted"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Daggerfoot Shoes",
+    "slot": "boots",
+    "set": "Shared",
+    "old_name": "Daggerfoot Shoes",
+    "name_equal": true,
+    "old_descriptions": [
+      "15% increased Rarity of Items found",
+      "+41% to Lightning Resistance",
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "60% increased effect of Socketed Augment Items",
+      "17% increased Movement Speed while Sprinting"
+    ],
+    "captured_saved_descriptions": [
+      "15% increased Rarity of Items found",
+      "+41% to Lightning Resistance",
+      "92% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "60% increased effect of Socketed Augment Items",
+      "17% increased Movement Speed while Sprinting"
+    ],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "(92-100)% increased Evasion and Energy Shield",
+      "35% increased Movement Speed",
+      "(17-23)% increased Movement Speed while Sprinting",
+      "+(41-45)% to Lightning Resistance",
+      "60% increased effect of Socketed Augment Items",
+      "(15-18)% increased Rarity of Items found"
+    ],
+    "runes": [
+      "Farrul's Rune of the Chase",
+      "Uhtred's Sidereus",
+      "Guatelitzi's Thesis"
+    ],
+    "panel_top": [
+      {
+        "label": "Evasion Rating",
+        "value": "280"
+      },
+      {
+        "label": "Energy Shield",
+        "value": "86"
+      }
+    ]
+  },
+  {
+    "build": "Live Gear",
+    "item": "Ultimate Life Flask",
+    "slot": "flask1",
+    "set": "Shared",
+    "old_name": "Ultimate Life Flask",
+    "name_equal": true,
+    "old_descriptions": [
+      "20% reduced Charges per use",
+      "24% of Recovery applied Instantly"
+    ],
+    "captured_saved_descriptions": [
+      "24% of Recovery applied Instantly",
+      "17% reduced Charges per use"
+    ],
+    "stored_desc_equal": false,
+    "captured_panel_modifiers": [
+      "(24-27)% of Recovery applied Instantly",
+      "(20-18)% reduced Charges per use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Nascent Hope",
+    "slot": "charm1",
+    "set": "Shared",
+    "old_name": "Nascent Hope",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you become Frozen",
+      "Used when you become Frozen",
+      "(20-25)% Chance to gain a Charge when you kill an enemy",
+      "Energy Shield Recharge starts on use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Dousing Charm",
+    "slot": "charm2",
+    "set": "Shared",
+    "old_name": "Dousing Charm",
+    "name_equal": true,
+    "old_descriptions": [
+      "32% reduced Charges per use",
+      "26% increased Duration"
+    ],
+    "captured_saved_descriptions": [
+      "30% increased Duration",
+      "28% reduced Charges per use"
+    ],
+    "stored_desc_equal": false,
+    "captured_panel_modifiers": [
+      "Used when you become Ignited",
+      "(26-30)% increased Duration",
+      "(32-30)% reduced Charges per use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Rite of Passage",
+    "slot": "charm3",
+    "set": "Shared",
+    "old_name": "Rite of Passage",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Used when you kill a Rare or Unique enemy",
+      "Used when you kill a Rare or Unique enemy",
+      "15% increased Rarity of Items found",
+      "Possessed by Spirit Of The [Azmeri Spirit] for (10-20) seconds on use"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Lavianga's Spirits",
+    "slot": "flask2",
+    "set": "Shared",
+    "old_name": "Lavianga's Spirits",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "This Flask cannot be Used but applies its Effect constantly",
+      "(70-80)% reduced Amount Recovered"
+    ],
+    "runes": [],
+    "panel_top": []
+  },
+  {
+    "build": "Live Gear",
+    "item": "Hysseg's Claw",
+    "slot": "mainHand",
+    "set": "Set 2",
+    "old_name": "Hysseg's Claw",
+    "name_equal": true,
+    "old_descriptions": [],
+    "captured_saved_descriptions": [],
+    "stored_desc_equal": true,
+    "captured_panel_modifiers": [
+      "Minions deal (30-50)% increased Damage",
+      "Grants Skill: Level (5-20) Cackling Companions",
+      "(70-100)% increased Physical Damage",
+      "5% increased Movement Speed",
+      "+(8-15) to Strength",
+      "+(8-15) to Intelligence",
+      "Corrupted"
+    ],
+    "runes": [],
+    "panel_top": [
+      {
+        "label": "Critical Hit Chance",
+        "value": "8"
+      },
+      {
+        "label": "Weapon Speed",
+        "value": "14"
+      },
+      {
+        "label": "Physical Damage",
+        "value": "20-34"
+      },
+      {
+        "label": "Item Level",
+        "value": "75"
+      },
+      {
+        "label": "Quality",
+        "value": "20"
+      }
+    ]
+  }
+]

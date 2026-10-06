@@ -1,0 +1,31 @@
+{
+  "version": "R45",
+  "baseline": "R44",
+  "date": "2026-10-06",
+  "data_assertions": 250,
+  "ui_assertions": 532,
+  "render_views": 504,
+  "width_views_included": 40,
+  "tests_pass": true,
+  "independent_rebuild_files": 1370,
+  "baseline_files": 1366,
+  "baseline_changed": [
+    "index.html",
+    "00_先读我.md",
+    "README_上线.md"
+  ],
+  "originals": {
+    "filters_count": 15,
+    "builds_count": 12,
+    "R28archive_count": 492,
+    "capture_count": 444,
+    "baseline_file_count": 1366
+  },
+  "limits": [
+    "作者实装的弓与保存字段、部分需求、珠宝孔及升华仍有原来源冲突，保持只读。",
+    "完整机器连线与合法逐级点序、全部异界未选候选仍没有足够原始数据；不从截图编造。",
+    "少数旧先祖秘藏事件或符文专名未核定，保留可读规则和逐项原名对照，不藏整段操作。",
+    "尚无国服客户端逐项名称、掉落、工艺收益及实战验证。"
+  ],
+  "navigation": "HTTP/file blocked; real generated code tested in memory document"
+}

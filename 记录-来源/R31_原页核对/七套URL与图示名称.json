@@ -1,0 +1,384 @@
+{
+  "primary": {
+    "expedition": {
+      "id": "expedition",
+      "name": "Expedition",
+      "variant_param": null,
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Eastern Knowledge",
+              "zh": "东方学识"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            },
+            {
+              "en": "Keen Appraisal",
+              "zh": "敏锐鉴识"
+            }
+          ],
+          "note": "正文与图示共同提供；正文中两处拼写另保留在原记录。"
+        },
+        {
+          "master": "Doryani",
+          "options": [
+            {
+              "en": "Stitch the Flesh",
+              "zh": "缝合血肉"
+            },
+            {
+              "en": "Evolutionary Pressure",
+              "zh": "进化压力"
+            },
+            {
+              "en": "Improved Calibration",
+              "zh": "改良校准"
+            },
+            {
+              "en": "Volatile Connection",
+              "zh": "易爆链路"
+            }
+          ],
+          "note": "同页图示备选；正文说明可用，作者偏向Jado。"
+        }
+      ],
+      "tree_notes": [],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    },
+    "ritual-belts": {
+      "id": "ritual-belts",
+      "name": "Ritual Belts",
+      "variant_param": "default-variant",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Unforeseen Threats",
+              "zh": "意外威胁"
+            },
+            {
+              "en": "Eastern Knowledge",
+              "zh": "东方学识"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            }
+          ],
+          "note": "四项来自本方案图示；正文强调两项，并另赞许Unexpected Missions。"
+        }
+      ],
+      "tree_notes": [],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    },
+    "currency-abyss": {
+      "id": "currency-abyss",
+      "name": "Currency Abyss",
+      "variant_param": "1",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Unforeseen Threats",
+              "zh": "意外威胁"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            },
+            {
+              "en": "Long Days",
+              "zh": "漫长时日"
+            }
+          ],
+          "note": "图示显示四项；正文只明确提到其中三项。"
+        }
+      ],
+      "tree_notes": [],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    },
+    "breach-rares": {
+      "id": "breach-rares",
+      "name": "Breach Rares",
+      "variant_param": "3",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Unforeseen Threats",
+              "zh": "意外威胁"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            },
+            {
+              "en": "Keen Appraisal",
+              "zh": "敏锐鉴识"
+            }
+          ],
+          "note": "图示显示四项；正文明确列出其中三项。"
+        }
+      ],
+      "tree_notes": [],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    },
+    "abyss-rares": {
+      "id": "abyss-rares",
+      "name": "Abyss Rares",
+      "variant_param": "4",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Unforeseen Threats",
+              "zh": "意外威胁"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            },
+            {
+              "en": "Keen Appraisal",
+              "zh": "敏锐鉴识"
+            }
+          ],
+          "note": "对应正文Jado分支；正文强调前三项，图示另有第四项。"
+        },
+        {
+          "master": "Hilda",
+          "options": [
+            {
+              "en": "Breeding Season",
+              "zh": "繁育时节"
+            },
+            {
+              "en": "Dangerous Game",
+              "zh": "危险猎物"
+            },
+            {
+              "en": "Ancient Inscriptions",
+              "zh": "古老铭文"
+            },
+            {
+              "en": "Claimed Territories",
+              "zh": "已占领土"
+            }
+          ],
+          "note": "对应正文Hilda分支；正文强调第一和第三项，图示另列两项。"
+        },
+        {
+          "master": "Doryani",
+          "options": [
+            {
+              "en": "Evolutionary Pressure",
+              "zh": "进化压力"
+            },
+            {
+              "en": "Improved Calibration",
+              "zh": "改良校准"
+            },
+            {
+              "en": "Disengaged Safeties",
+              "zh": "解除保险"
+            },
+            {
+              "en": "Volatile Connection",
+              "zh": "易爆链路"
+            }
+          ],
+          "note": "同页还有此组图示，但正文没有给Doryani单独配法；不视为第三套完整刷法。"
+        }
+      ],
+      "tree_notes": [
+        {
+          "tag": "作者图下补充",
+          "text": "深渊树需要选择Amanamu与Omens相关选项。",
+          "boundary": "原文只使用这两个简称，未展开完整节点名、文字与连线；不据此推断具体节点ID或未展示的选择项。"
+        }
+      ],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    },
+    "lineage-gems": {
+      "id": "lineage-gems",
+      "name": "Lineage Gems",
+      "variant_param": "5",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            },
+            {
+              "en": "Untold Histories",
+              "zh": "未闻史册"
+            }
+          ],
+          "note": "正文段未单列大师；同页加点图明确显示这三个名称。未读取到第四个具名选项，不补填。"
+        }
+      ],
+      "tree_notes": [
+        {
+          "tag": "作者明确必选",
+          "text": "森林中发现血脉宝石的概率提高50%；随后补寻路石与碑牌效果相关加成。",
+          "boundary": "这是原页加点图下方的要求，不是每张图保证掉宝石。作者没有在这句话中写出节点ID或逐点顺序。"
+        }
+      ],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    },
+    "deli-rush": {
+      "id": "deli-rush",
+      "name": "Deli Rush",
+      "variant_param": "6",
+      "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6",
+      "checked_date": "2026-09-29",
+      "page_updated": "2026-09-10",
+      "method": "逐条URL读取作者英文页面；核对方案正文、加点图附近文本和图标名称；未模拟点击浏览器，未读取动态节点JSON。",
+      "masters": [
+        {
+          "master": "Jado",
+          "options": [
+            {
+              "en": "Unexpected Missions",
+              "zh": "意外使命"
+            },
+            {
+              "en": "Unforeseen Threats",
+              "zh": "意外威胁"
+            },
+            {
+              "en": "Eastern Knowledge",
+              "zh": "东方学识"
+            },
+            {
+              "en": "Partial Translations",
+              "zh": "残篇译解"
+            }
+          ],
+          "note": "正文段未单列大师；四个名称来自本方案加点图的图标标签，不再标成整页未提供。"
+        }
+      ],
+      "tree_notes": [],
+      "text_provenance": "主体中文沿用用户上传记录；R31以同名英文页面核对，并补图下文字与图示名称。",
+      "exclusions": "评论区、广告、其他作者和其他职业攻略不作本方案依据。"
+    }
+  },
+  "audit": {
+    "version": "R31",
+    "date": "2026-09-29",
+    "scope": "七条URL分别读取、与R30记录核对、补图示大师名称和两段图下要求",
+    "mapping": [
+      {
+        "id": "expedition",
+        "name": "Expedition",
+        "param": null,
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com"
+      },
+      {
+        "id": "ritual-belts",
+        "name": "Ritual Belts",
+        "param": "default-variant",
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Cdefault-variant"
+      },
+      {
+        "id": "currency-abyss",
+        "name": "Currency Abyss",
+        "param": "1",
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C1"
+      },
+      {
+        "id": "breach-rares",
+        "name": "Breach Rares",
+        "param": "3",
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3"
+      },
+      {
+        "id": "abyss-rares",
+        "name": "Abyss Rares",
+        "param": "4",
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C4"
+      },
+      {
+        "id": "lineage-gems",
+        "name": "Lineage Gems",
+        "param": "5",
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C5"
+      },
+      {
+        "id": "deli-rush",
+        "name": "Deli Rush",
+        "param": "6",
+        "url": "https://mobalytics.gg/poe-2/atlas-trees/fubgun-atlas-tree-strats?utm_source=chatgpt.com&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C6"
+      }
+    ],
+    "count": 7,
+    "groups": 10,
+    "named_options": 39,
+    "unchanged_sources": "九份用户读取文件和七张截图原样保留。",
+    "limits": "原文未写的门槛、数量歧义、节点JSON、完整连线与当前游戏机制／实战不自动视为已验证。"
+  }
+}

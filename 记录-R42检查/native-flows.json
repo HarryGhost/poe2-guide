@@ -1,0 +1,134 @@
+[
+  {
+    "name": "24级预留数量与等级直接可见",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "15–23→24–30保留剧情上下文",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "24级技能表在主页面，没有iframe",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "通关衔接→01不继承旧剧情参数",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "从05主动切剧情：全身目标与阶段同步",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "目标→制作保留鞋子与24–30",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "一词蓝装不强迫增幅",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "明确选择后才给当前一颗材料",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "蓝1→黄2已接上",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "黄2补第3条实际材料是普通崇高",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "加工完回当前剧情部位收尾，没有跳e01",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "收尾→阶段下一步仍是24–30",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "05弓默认专用暴击路线",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "暴击弓步骤不混入磨蚀",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "换部位清除旧配方和材料",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "06不能经普通工作台绕开只读",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "看过06再回剧情仍可正常制作",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "实际精魂不足30的结果",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "换阶段不继承上一阶段完成勾选",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "返回原阶段保留手动勾选",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "导出是R42且含网页勾选，不冒充游戏存档",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "全站搜索可找到剧情24级入口",
+    "ok": true,
+    "details": null
+  },
+  {
+    "name": "当前下载只露出四份原版",
+    "ok": true,
+    "details": [
+      {
+        "h": "原版过滤器_从这里选/02_Fubgun_Bow_Campaign.filter",
+        "n": "下载02原版"
+      },
+      {
+        "h": "原版过滤器_从这里选/01_Fubgun_Early_Mapping.filter",
+        "n": "下载01原版"
+      },
+      {
+        "h": "原版过滤器_从这里选/03_Fubgun_Endgame_Mapping.filter",
+        "n": "下载03原版"
+      },
+      {
+        "h": "原版过滤器_从这里选/04_Fubgun_Uber_Strict.filter",
+        "n": "下载04原版"
+      }
+    ]
+  }
+]

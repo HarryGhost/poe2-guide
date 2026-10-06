@@ -1,0 +1,15 @@
+{
+  "captured_at": "2026-10-05T09:33:09.211Z",
+  "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2Ca027a8d3-7254-40d4-8073-115918fc6ebc",
+  "build": "Live Gear",
+  "slot": "boots",
+  "set": "shared",
+  "socket_index": 3,
+  "slug": "soulcore-thesisofblood",
+  "panels": [
+    {
+      "html": "<div data-tippy-root=\"\" id=\"tippy-2406\" data-popper-placement=\"left\" style=\"pointer-events: none; z-index: 120000; position: fixed; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(-314px, 254px, 0px);\"><div><div class=\"x1cvue7f x1i97zcw x1hv8zah xu70ewc x1qhigcl x1j9u4d2 x1n2onr6 x1n9hxaw x25l62i xiy17q3 x1bc63r9\"><div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 x1xyvc85\" style=\"background: linear-gradient(180deg, var(--x1ymkdt3) 0%, rgba(255, 255, 255, 0.00) 100%);\"></div><div class=\"x10l6tqk x10a8y8t xctk3hg x1azq27u xknzg20 xfj9a5l x112ta8 xlbbj0o x19wp0b7 xvpkmg4\" style=\"background: linear-gradient(180deg, var(--x1ymkdt3) 0%, rgba(255, 255, 255, 0.00) 100%) border-box;\"></div></div><div class=\"x78zum5 xdt5ytf x1v2ro7d x1n2onr6\"><div class=\"x1n2onr6 x100vrsf x1vqgdyp xb3r6kr xhdc4oz\"><img alt=\"Guatelitzi's Thesis\" width=\"40\" height=\"40\" class=\"x19kjcj4\" src=\"https://cdn.mobalytics.gg/cdn-cgi/image/format=auto,width=80/assets/poe-2/images/game/Art/2DItems/Currency/PerfectSoulCores/SoulCoreBlood.webp\"></div><div><p class=\"x2klb21\">Guatelitzi's Thesis</p><p class=\"x139jznd x9uxgww\"></p></div><p class=\"x139jznd x9uxgww x1fj9vlw\">Requires Level 65</p><div><ul class=\"x139jznd x9uxgww x5tiur9 x1ghz6dp\"><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Helmet: Gain Armour equal to 35% of Life Lost from Hits in the past 8 seconds</li><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Body Armour: 10% of Physical Damage prevented Recouped as Life</li><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Lose 5% of maximum Life per second while Sprinting</li><li class=\"x1n2onr6 xj9uezu x1gslohp x1fj9vlw\" style=\"list-style-type: disc; color: var(--gray-200);\">Boots: 25% increased Movement Speed while Sprinting</li></ul></div></div></div></div></div>",
+      "text": "Guatelitzi's Thesis\n\nRequires Level 65\n\nHelmet: Gain Armour equal to 35% of Life Lost from Hits in the past 8 seconds\nBody Armour: 10% of Physical Damage prevented Recouped as Life\nLose 5% of maximum Life per second while Sprinting\nBoots: 25% increased Movement Speed while Sprinting"
+    }
+  ]
+}

@@ -1,0 +1,1742 @@
+{
+  "version": "R13",
+  "date": "2026-09-27",
+  "scope": "用户0.5.5导出；网页为国际服当前简体数据，未完成腾讯客户端全量核验",
+  "sources": {
+    "author": {
+      "title": "Fubgun 0.5.5：Crafting Guide / Gear Progression（国际服作者）",
+      "url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye"
+    },
+    "snapshot": {
+      "title": "用户上传的六份原始.build：未补造未导出的词缀",
+      "url": "data/六分支原始及中文映射.json"
+    },
+    "abrasion": {
+      "title": "强效磨蚀精华：弓的物理点伤范围（国际服简体数据）",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Abrasion"
+    },
+    "seeking": {
+      "title": "强效寻觅精华：本地暴击率范围（国际服简体数据）",
+      "url": "https://poe2db.tw/cn/Greater_Essence_of_Seeking"
+    },
+    "spirit": {
+      "title": "精魂：普通项链前缀范围与生成等级（国际服简体数据）",
+      "url": "https://poe2db.tw/cn/Spirit"
+    },
+    "minimum": {
+      "title": "最低词缀等级：不能使用于更低ilvl装备",
+      "url": "https://poe2db.tw/cn/Minimum_Modifier_Level"
+    },
+    "bows": {
+      "title": "弓底材：基础伤害、攻速与佩戴需求（不是ilvl）",
+      "url": "https://poe2db.tw/cn/Bows"
+    }
+  },
+  "legend": [
+    [
+      "作者工艺起点",
+      "对应完整路线的前提；不表示低于这个等级的装备都不能加工。"
+    ],
+    [
+      "作者展示值",
+      "只为对照原件，不用作入场线、最高档或投入门槛。"
+    ],
+    [
+      "当前资料范围",
+      "对应词条或材料的范围，不保证随机结果；国际服简体数据与国服提示分别核对。"
+    ],
+    [
+      "本站教学建议",
+      "解释操作与结果的示例，不冒充Fubgun原文配方。"
+    ]
+  ],
+  "ilvl50": {
+    "title": "物品等级50：能做过渡装，不自动成为废物，也不照高投入配方硬做。",
+    "body": "你说的50是物品等级。选择普通Early加工时，先看物品和通货是否允许，以及结果是否比现用品好；选择作者完整弓／箭袋75、护盾头78、项链80／82工艺时，50低于作者这条路线的起点，先换底材或切回基础加工。",
+    "extra": "不是只有75以上装备才可以增幅、富豪或崇高。最低词缀等级材料另有硬限制；不要拿角色佩戴等级、精华词缀的需求等级或词缀阶级替代ilvl。"
+  },
+  "physical": {
+    "anchor": null,
+    "type": "仅原件示例，不作筛选门槛",
+    "author": "作者只说物理伤害提高越高越好，同时明确任何百分比都能作为起点；没有写“低于某个数字就不能做”。",
+    "interpret": "这里的135%是弓上本地“物理伤害提高”百分比，不是附加135物理点伤、最终物理DPS，也不应把品质或多个合并词条直接当成这条单独词缀。",
+    "advice": "没有已核实的通用物理提高百分比门槛。135%仅是作者展示值，不用于判定值得投入。先核对工艺前提，再比较武器上方的最终物理/元素伤害、攻速及当前装备。",
+    "unconfirmed": "该普通词缀全部阶级与自然生成ilvl表，本次没有完成核验。不把135%说成T1，不保证ilvl50能自然生成这一单条数值。"
+  },
+  "spiritRows": [
+    {
+      "minIlvl": 16,
+      "range": "30–33",
+      "min": 30,
+      "max": 33
+    },
+    {
+      "minIlvl": 25,
+      "range": "34–37",
+      "min": 34,
+      "max": 37
+    },
+    {
+      "minIlvl": 33,
+      "range": "38–42",
+      "min": 38,
+      "max": 42
+    },
+    {
+      "minIlvl": 46,
+      "range": "43–46",
+      "min": 43,
+      "max": 46
+    },
+    {
+      "minIlvl": 54,
+      "range": "47–50",
+      "min": 47,
+      "max": 50
+    }
+  ],
+  "spiritNote": "仅普通项链的这组精魂前缀；固有精魂、催化品质、其他特殊来源和多个效果相加不在此表。ilvl50可达到43–46这一档，但不保证掷出；47–50这档自然前缀需ilvl54。作者整个项链工艺80/82，是另一层条件，不是精魂前缀本身要80。",
+  "metrics": {
+    "e01": {
+      "bow": [
+        {
+          "label": "本地物理提高",
+          "value": "135%",
+          "kind": "作者展示值",
+          "meaning": "135%只是原件的一条物理提高数值；不代表最低值、最高档或整把弓强度。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地物理点伤",
+          "value": "16–28",
+          "kind": "作者展示值",
+          "meaning": "最小16、最大28；与百分比物理是两条不同属性。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地冰霜点伤",
+          "value": "40–62",
+          "kind": "作者展示值",
+          "meaning": "最小40、最大62；保留冻结用伤害，不只看物理。",
+          "source": "snapshot"
+        },
+        {
+          "label": "投射物技能等级",
+          "value": "+2",
+          "kind": "作者展示值",
+          "meaning": "加等级不能弥补很低的伤害底座，升级后复查消耗。",
+          "source": "snapshot"
+        }
+      ],
+      "quiver": [
+        {
+          "label": "黄装替代：冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "Early黄箭袋展示",
+          "meaning": "对照原版非暴击黄箭袋，不是所有词条必须同时凑齐。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：攻击速度",
+          "value": "14%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "同等点伤下再比较；转暴击还需另看暴击、暴伤。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：弓技能伤害",
+          "value": "43%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "不是本地弓物理百分比，两者不要混填。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：投射物等级",
+          "value": "+1",
+          "kind": "Early黄箭袋展示",
+          "meaning": "高投入路线中未核实的+2来源仍只读；不把此处+1改成必得+2。",
+          "source": "snapshot"
+        }
+      ],
+      "body": [
+        {
+          "label": "衣服平铺闪避",
+          "value": "+333",
+          "kind": "作者展示值",
+          "meaning": "是物品本地属性，不是角色总闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "衣服闪避提高",
+          "value": "140%",
+          "kind": "作者展示值",
+          "meaning": "不同底材不能只比百分比，要比较上方最终物品闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "偏转来源",
+          "value": "相当于闪避的21%",
+          "kind": "作者展示值",
+          "meaning": "属于额外防御词条；没有它不等于所有Early衣服不能用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装后的抗性",
+          "value": "按实际上限补齐",
+          "kind": "角色需求",
+          "meaning": "上限75、换装后实际60，则缺15个百分点；不能给每个部位统一要求35抗。",
+          "source": "author"
+        }
+      ],
+      "helmet": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "参考头盔的一条生命属性，不是刚入图必须达到。",
+          "source": "snapshot"
+        },
+        {
+          "label": "抗性与属性",
+          "value": "补足实际缺口",
+          "kind": "角色需求",
+          "meaning": "没有统一每件数值；在验收页算换装后的缺口。",
+          "source": "author"
+        },
+        {
+          "label": "物品稀有度",
+          "value": "20%",
+          "kind": "作者展示值",
+          "meaning": "低于生存需求的优先级；不要为稀有度损失关键生命抗性。",
+          "source": "snapshot"
+        }
+      ],
+      "gloves": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "可用装按改善当前防御判断，不强求一步到展示。",
+          "source": "snapshot"
+        },
+        {
+          "label": "物理攻击点伤",
+          "value": "7–14",
+          "kind": "作者展示值",
+          "meaning": "此处加到攻击；不是弓的本地物理词缀。",
+          "source": "snapshot"
+        },
+        {
+          "label": "冰霜攻击点伤",
+          "value": "14–22",
+          "kind": "作者展示值",
+          "meaning": "与攻速、生命等一起比较。",
+          "source": "snapshot"
+        },
+        {
+          "label": "攻击速度",
+          "value": "14%",
+          "kind": "作者展示值",
+          "meaning": "非暴击阶段参考；不必照高配追暴伤。",
+          "source": "snapshot"
+        }
+      ],
+      "boots": [
+        {
+          "label": "移动速度",
+          "value": "35%",
+          "kind": "作者展示值",
+          "meaning": "不是Early的最低要求；不把35%写成ilvl50必能掷出。",
+          "source": "snapshot"
+        },
+        {
+          "label": "移动速度筛选",
+          "value": "先看≥25%",
+          "kind": "本站选胚建议",
+          "meaning": "作为Early购买/留胚筛选的编辑建议，不是官方或作者门槛；生命抗性还要合用。",
+          "source": "author"
+        },
+        {
+          "label": "生命／防御",
+          "value": "+120生命",
+          "kind": "作者展示值",
+          "meaning": "只对照当前分支防御结构，不拿后期护盾鞋替代前期全部生命。",
+          "source": "snapshot"
+        }
+      ],
+      "amulet": [
+        {
+          "label": "投射物技能等级",
+          "value": "+3",
+          "kind": "作者展示值",
+          "meaning": "原件展示，不是Early入场条件；整条高投入工艺要求+3已破溃。",
+          "source": "snapshot"
+        },
+        {
+          "label": "精魂前缀目标",
+          "value": "30",
+          "kind": "作者展示值",
+          "meaning": "此非暴击分支原件为30精魂；47属于04/05，不能把后期数值提前写成当前最低要求。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先补多少精魂",
+          "value": "按保留缺口",
+          "kind": "角色需求",
+          "meaning": "实际技能最终保留减去当前可用精魂；未知不能填0。不要为了追47把生命抗性换没。",
+          "source": "author"
+        },
+        {
+          "label": "ilvl50普通精魂前缀",
+          "value": "最高已核对43–46",
+          "kind": "当前资料范围",
+          "meaning": "只说这组普通自然前缀的可生成范围，不保证掷出。它与后续项链80/82完整工艺不是同一门槛。",
+          "source": "spirit"
+        }
+      ],
+      "belt": [
+        {
+          "label": "普通腰带生命",
+          "value": "+150",
+          "kind": "作者展示值",
+          "meaning": "原版黄腰带展示；不要求每条先做满。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通腰带力量",
+          "value": "+31",
+          "kind": "作者展示值",
+          "meaning": "实际缺18力量先补18即可，不因参考31而盲堆。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装抗性／属性",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "用后面的缺口计算，不给所有腰带统一词缀门槛。",
+          "source": "author"
+        }
+      ],
+      "rings": [
+        {
+          "label": "每枚物理攻击点伤",
+          "value": "10–18",
+          "kind": "作者展示值",
+          "meaning": "两枚分开比较；不是每枚叠满相同极品才可用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "每枚冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "作者展示值",
+          "meaning": "普通攻击点伤参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "生命（01–04参考）",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "05换成闪电点伤，不要求Early照此牺牲生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "火／冰／电抗",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "不要从“高抗”猜；换装后的实际数字与上限相减。",
+          "source": "author"
+        }
+      ],
+      "flasks": [
+        {
+          "label": "生命药剂立即回复",
+          "value": "28%回复立即生效",
+          "kind": "作者展示值",
+          "meaning": "是回复量的一部分，不是立即回复28%最大生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "魔力药剂回复量",
+          "value": "提高76%",
+          "kind": "Early展示值",
+          "meaning": "实际续航还看药剂基础、消耗与充能；特殊药剂不等于无限蓝。",
+          "source": "snapshot"
+        },
+        {
+          "label": "首领续航验收",
+          "value": "至少完整循环不耗空",
+          "kind": "本站验收建议",
+          "meaning": "填写实际一轮消耗/恢复；没有统一一瓶通关线，不伪造。",
+          "source": "author"
+        }
+      ],
+      "charms": [
+        {
+          "label": "充能获取提高",
+          "value": "55%",
+          "kind": "作者展示值",
+          "meaning": "普通融冰／真银／浸润咒符示例；高配暗金有额外效果。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先满足功能",
+          "value": "冻结／减速／点燃",
+          "kind": "当前配置功能",
+          "meaning": "先有对应应对，再提高充能；掉率和永久覆盖不做保证。",
+          "source": "author"
+        }
+      ],
+      "jewels": [
+        {
+          "label": "原件珠宝实装",
+          "value": "未导出",
+          "kind": "未确认项",
+          "meaning": "不编造每孔词条、种子或数值。",
+          "source": "snapshot"
+        },
+        {
+          "label": "昂贵工艺起手暴伤",
+          "value": "攻击暴伤20%",
+          "kind": "作者明确目标",
+          "meaning": "只属于高投入珠宝路线，不是Early普通珠宝最低要求；特殊容量未核实仍只读。",
+          "source": "author"
+        },
+        {
+          "label": "Early普通珠宝筛选",
+          "value": "先选2条有效属性",
+          "kind": "本站选胚建议",
+          "meaning": "指适用输出/资源属性数量，非每条数值的游戏门槛；不要为了凑条数留无效属性。",
+          "source": "author"
+        }
+      ]
+    },
+    "e02": {
+      "bow": [
+        {
+          "label": "本地物理提高",
+          "value": "135%",
+          "kind": "作者展示值",
+          "meaning": "135%只是原件的一条物理提高数值；不代表最低值、最高档或整把弓强度。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地物理点伤",
+          "value": "16–28",
+          "kind": "作者展示值",
+          "meaning": "最小16、最大28；与百分比物理是两条不同属性。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地冰霜点伤",
+          "value": "40–62",
+          "kind": "作者展示值",
+          "meaning": "最小40、最大62；保留冻结用伤害，不只看物理。",
+          "source": "snapshot"
+        },
+        {
+          "label": "投射物技能等级",
+          "value": "+2",
+          "kind": "作者展示值",
+          "meaning": "加等级不能弥补很低的伤害底座，升级后复查消耗。",
+          "source": "snapshot"
+        }
+      ],
+      "quiver": [
+        {
+          "label": "黄装替代：冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "Early黄箭袋展示",
+          "meaning": "对照原版非暴击黄箭袋，不是所有词条必须同时凑齐。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：攻击速度",
+          "value": "14%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "同等点伤下再比较；转暴击还需另看暴击、暴伤。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：弓技能伤害",
+          "value": "43%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "不是本地弓物理百分比，两者不要混填。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：投射物等级",
+          "value": "+1",
+          "kind": "Early黄箭袋展示",
+          "meaning": "高投入路线中未核实的+2来源仍只读；不把此处+1改成必得+2。",
+          "source": "snapshot"
+        }
+      ],
+      "body": [
+        {
+          "label": "衣服平铺闪避",
+          "value": "+333",
+          "kind": "作者展示值",
+          "meaning": "是物品本地属性，不是角色总闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "衣服闪避提高",
+          "value": "140%",
+          "kind": "作者展示值",
+          "meaning": "不同底材不能只比百分比，要比较上方最终物品闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "偏转来源",
+          "value": "相当于闪避的21%",
+          "kind": "作者展示值",
+          "meaning": "属于额外防御词条；没有它不等于所有Early衣服不能用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装后的抗性",
+          "value": "按实际上限补齐",
+          "kind": "角色需求",
+          "meaning": "上限75、换装后实际60，则缺15个百分点；不能给每个部位统一要求35抗。",
+          "source": "author"
+        }
+      ],
+      "helmet": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "参考头盔的一条生命属性，不是刚入图必须达到。",
+          "source": "snapshot"
+        },
+        {
+          "label": "抗性与属性",
+          "value": "补足实际缺口",
+          "kind": "角色需求",
+          "meaning": "没有统一每件数值；在验收页算换装后的缺口。",
+          "source": "author"
+        },
+        {
+          "label": "物品稀有度",
+          "value": "20%",
+          "kind": "作者展示值",
+          "meaning": "低于生存需求的优先级；不要为稀有度损失关键生命抗性。",
+          "source": "snapshot"
+        }
+      ],
+      "gloves": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "可用装按改善当前防御判断，不强求一步到展示。",
+          "source": "snapshot"
+        },
+        {
+          "label": "物理攻击点伤",
+          "value": "7–14",
+          "kind": "作者展示值",
+          "meaning": "此处加到攻击；不是弓的本地物理词缀。",
+          "source": "snapshot"
+        },
+        {
+          "label": "冰霜攻击点伤",
+          "value": "14–22",
+          "kind": "作者展示值",
+          "meaning": "与攻速、生命等一起比较。",
+          "source": "snapshot"
+        },
+        {
+          "label": "攻击速度",
+          "value": "14%",
+          "kind": "作者展示值",
+          "meaning": "非暴击阶段参考；不必照高配追暴伤。",
+          "source": "snapshot"
+        }
+      ],
+      "boots": [
+        {
+          "label": "移动速度",
+          "value": "35%",
+          "kind": "作者展示值",
+          "meaning": "不是Early的最低要求；不把35%写成ilvl50必能掷出。",
+          "source": "snapshot"
+        },
+        {
+          "label": "移动速度筛选",
+          "value": "先看≥25%",
+          "kind": "本站选胚建议",
+          "meaning": "作为Early购买/留胚筛选的编辑建议，不是官方或作者门槛；生命抗性还要合用。",
+          "source": "author"
+        },
+        {
+          "label": "生命／防御",
+          "value": "+120生命",
+          "kind": "作者展示值",
+          "meaning": "只对照当前分支防御结构，不拿后期护盾鞋替代前期全部生命。",
+          "source": "snapshot"
+        }
+      ],
+      "amulet": [
+        {
+          "label": "投射物技能等级",
+          "value": "+3",
+          "kind": "作者展示值",
+          "meaning": "原件展示，不是Early入场条件；整条高投入工艺要求+3已破溃。",
+          "source": "snapshot"
+        },
+        {
+          "label": "精魂前缀目标",
+          "value": "30",
+          "kind": "作者展示值",
+          "meaning": "此非暴击分支原件为30精魂；47属于04/05，不能把后期数值提前写成当前最低要求。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先补多少精魂",
+          "value": "按保留缺口",
+          "kind": "角色需求",
+          "meaning": "实际技能最终保留减去当前可用精魂；未知不能填0。不要为了追47把生命抗性换没。",
+          "source": "author"
+        },
+        {
+          "label": "ilvl50普通精魂前缀",
+          "value": "最高已核对43–46",
+          "kind": "当前资料范围",
+          "meaning": "只说这组普通自然前缀的可生成范围，不保证掷出。它与后续项链80/82完整工艺不是同一门槛。",
+          "source": "spirit"
+        }
+      ],
+      "belt": [
+        {
+          "label": "普通腰带生命",
+          "value": "+150",
+          "kind": "作者展示值",
+          "meaning": "原版黄腰带展示；不要求每条先做满。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通腰带力量",
+          "value": "+31",
+          "kind": "作者展示值",
+          "meaning": "实际缺18力量先补18即可，不因参考31而盲堆。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装抗性／属性",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "用后面的缺口计算，不给所有腰带统一词缀门槛。",
+          "source": "author"
+        }
+      ],
+      "rings": [
+        {
+          "label": "每枚物理攻击点伤",
+          "value": "10–18",
+          "kind": "作者展示值",
+          "meaning": "两枚分开比较；不是每枚叠满相同极品才可用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "每枚冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "作者展示值",
+          "meaning": "普通攻击点伤参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "生命（01–04参考）",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "05换成闪电点伤，不要求Early照此牺牲生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "火／冰／电抗",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "不要从“高抗”猜；换装后的实际数字与上限相减。",
+          "source": "author"
+        }
+      ],
+      "flasks": [
+        {
+          "label": "生命药剂立即回复",
+          "value": "28%回复立即生效",
+          "kind": "作者展示值",
+          "meaning": "是回复量的一部分，不是立即回复28%最大生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通魔力药剂替代：回复量",
+          "value": "提高76%",
+          "kind": "Early展示值",
+          "meaning": "实际续航还看药剂基础、消耗与充能；特殊药剂不等于无限蓝。",
+          "source": "snapshot"
+        },
+        {
+          "label": "首领续航验收",
+          "value": "至少完整循环不耗空",
+          "kind": "本站验收建议",
+          "meaning": "填写实际一轮消耗/恢复；没有统一一瓶通关线，不伪造。",
+          "source": "author"
+        }
+      ],
+      "charms": [
+        {
+          "label": "充能获取提高",
+          "value": "55%",
+          "kind": "作者展示值",
+          "meaning": "普通融冰／真银／浸润咒符示例；高配暗金有额外效果。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先满足功能",
+          "value": "冻结／减速／点燃",
+          "kind": "当前配置功能",
+          "meaning": "先有对应应对，再提高充能；掉率和永久覆盖不做保证。",
+          "source": "author"
+        }
+      ],
+      "jewels": [
+        {
+          "label": "原件珠宝实装",
+          "value": "未导出",
+          "kind": "未确认项",
+          "meaning": "不编造每孔词条、种子或数值。",
+          "source": "snapshot"
+        },
+        {
+          "label": "昂贵工艺起手暴伤",
+          "value": "攻击暴伤20%",
+          "kind": "作者明确目标",
+          "meaning": "只属于高投入珠宝路线，不是Early普通珠宝最低要求；特殊容量未核实仍只读。",
+          "source": "author"
+        },
+        {
+          "label": "Early普通珠宝筛选",
+          "value": "先选2条有效属性",
+          "kind": "本站选胚建议",
+          "meaning": "指适用输出/资源属性数量，非每条数值的游戏门槛；不要为了凑条数留无效属性。",
+          "source": "author"
+        }
+      ]
+    },
+    "e03": {
+      "bow": [
+        {
+          "label": "本地物理提高",
+          "value": "135%",
+          "kind": "作者展示值",
+          "meaning": "135%只是原件的一条物理提高数值；不代表最低值、最高档或整把弓强度。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地物理点伤",
+          "value": "16–28",
+          "kind": "作者展示值",
+          "meaning": "最小16、最大28；与百分比物理是两条不同属性。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地冰霜点伤",
+          "value": "40–62",
+          "kind": "作者展示值",
+          "meaning": "最小40、最大62；保留冻结用伤害，不只看物理。",
+          "source": "snapshot"
+        },
+        {
+          "label": "投射物技能等级",
+          "value": "+2",
+          "kind": "作者展示值",
+          "meaning": "加等级不能弥补很低的伤害底座，升级后复查消耗。",
+          "source": "snapshot"
+        }
+      ],
+      "quiver": [
+        {
+          "label": "黄装替代：冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "Early黄箭袋展示",
+          "meaning": "对照原版非暴击黄箭袋，不是所有词条必须同时凑齐。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：攻击速度",
+          "value": "14%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "同等点伤下再比较；转暴击还需另看暴击、暴伤。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：弓技能伤害",
+          "value": "43%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "不是本地弓物理百分比，两者不要混填。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：投射物等级",
+          "value": "+1",
+          "kind": "Early黄箭袋展示",
+          "meaning": "高投入路线中未核实的+2来源仍只读；不把此处+1改成必得+2。",
+          "source": "snapshot"
+        }
+      ],
+      "body": [
+        {
+          "label": "衣服平铺闪避",
+          "value": "+333",
+          "kind": "作者展示值",
+          "meaning": "是物品本地属性，不是角色总闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "衣服闪避提高",
+          "value": "140%",
+          "kind": "作者展示值",
+          "meaning": "不同底材不能只比百分比，要比较上方最终物品闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "偏转来源",
+          "value": "相当于闪避的21%",
+          "kind": "作者展示值",
+          "meaning": "属于额外防御词条；没有它不等于所有Early衣服不能用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装后的抗性",
+          "value": "按实际上限补齐",
+          "kind": "角色需求",
+          "meaning": "上限75、换装后实际60，则缺15个百分点；不能给每个部位统一要求35抗。",
+          "source": "author"
+        }
+      ],
+      "helmet": [
+        {
+          "label": "头盔最终物品护盾",
+          "value": "约450",
+          "kind": "作者明确转型目标",
+          "meaning": "是换混合防御时的建议，不是角色总护盾，也不是Early门槛。",
+          "source": "author"
+        },
+        {
+          "label": "本地平铺护盾",
+          "value": "+48",
+          "kind": "作者展示值",
+          "meaning": "不能把这条样例说成作者工艺所需的最高档T1。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地护盾提高",
+          "value": "92%",
+          "kind": "作者展示值",
+          "meaning": "最终护盾还取决于底材、其他词缀与品质。",
+          "source": "snapshot"
+        },
+        {
+          "label": "工艺起手的T1",
+          "value": "完整范围未核实",
+          "kind": "未确认项",
+          "meaning": "不要拿+48当T1证明；未能确认时优先比较约450物品护盾的成品。",
+          "source": "author"
+        }
+      ],
+      "gloves": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "可用装按改善当前防御判断，不强求一步到展示。",
+          "source": "snapshot"
+        },
+        {
+          "label": "物理攻击点伤",
+          "value": "7–14",
+          "kind": "作者展示值",
+          "meaning": "此处加到攻击；不是弓的本地物理词缀。",
+          "source": "snapshot"
+        },
+        {
+          "label": "冰霜攻击点伤",
+          "value": "14–22",
+          "kind": "作者展示值",
+          "meaning": "与攻速、生命等一起比较。",
+          "source": "snapshot"
+        },
+        {
+          "label": "攻击速度",
+          "value": "14%",
+          "kind": "作者展示值",
+          "meaning": "非暴击阶段参考；不必照高配追暴伤。",
+          "source": "snapshot"
+        }
+      ],
+      "boots": [
+        {
+          "label": "移动速度",
+          "value": "35%",
+          "kind": "作者展示值",
+          "meaning": "不是Early的最低要求；不把35%写成ilvl50必能掷出。",
+          "source": "snapshot"
+        },
+        {
+          "label": "移动速度筛选",
+          "value": "先看≥25%",
+          "kind": "本站选胚建议",
+          "meaning": "作为Early购买/留胚筛选的编辑建议，不是官方或作者门槛；生命抗性还要合用。",
+          "source": "author"
+        },
+        {
+          "label": "生命／防御",
+          "value": "92%闪避与护盾提高",
+          "kind": "作者展示值",
+          "meaning": "只对照当前分支防御结构，不拿后期护盾鞋替代前期全部生命。",
+          "source": "snapshot"
+        }
+      ],
+      "amulet": [
+        {
+          "label": "投射物技能等级",
+          "value": "+3",
+          "kind": "作者展示值",
+          "meaning": "原件展示，不是Early入场条件；整条高投入工艺要求+3已破溃。",
+          "source": "snapshot"
+        },
+        {
+          "label": "精魂前缀目标",
+          "value": "30",
+          "kind": "作者展示值",
+          "meaning": "此非暴击分支原件为30精魂；47属于04/05，不能把后期数值提前写成当前最低要求。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先补多少精魂",
+          "value": "按保留缺口",
+          "kind": "角色需求",
+          "meaning": "实际技能最终保留减去当前可用精魂；未知不能填0。不要为了追47把生命抗性换没。",
+          "source": "author"
+        },
+        {
+          "label": "ilvl50普通精魂前缀",
+          "value": "最高已核对43–46",
+          "kind": "当前资料范围",
+          "meaning": "只说这组普通自然前缀的可生成范围，不保证掷出。它与后续项链80/82完整工艺不是同一门槛。",
+          "source": "spirit"
+        }
+      ],
+      "belt": [
+        {
+          "label": "普通腰带生命",
+          "value": "+150",
+          "kind": "作者展示值",
+          "meaning": "原版黄腰带展示；不要求每条先做满。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通腰带力量",
+          "value": "+31",
+          "kind": "作者展示值",
+          "meaning": "实际缺18力量先补18即可，不因参考31而盲堆。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装抗性／属性",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "用后面的缺口计算，不给所有腰带统一词缀门槛。",
+          "source": "author"
+        }
+      ],
+      "rings": [
+        {
+          "label": "每枚物理攻击点伤",
+          "value": "10–18",
+          "kind": "作者展示值",
+          "meaning": "两枚分开比较；不是每枚叠满相同极品才可用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "每枚冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "作者展示值",
+          "meaning": "普通攻击点伤参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "生命（01–04参考）",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "05换成闪电点伤，不要求Early照此牺牲生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "火／冰／电抗",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "不要从“高抗”猜；换装后的实际数字与上限相减。",
+          "source": "author"
+        }
+      ],
+      "flasks": [
+        {
+          "label": "生命药剂立即回复",
+          "value": "28%回复立即生效",
+          "kind": "作者展示值",
+          "meaning": "是回复量的一部分，不是立即回复28%最大生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通魔力药剂替代：回复量",
+          "value": "提高76%",
+          "kind": "Early展示值",
+          "meaning": "实际续航还看药剂基础、消耗与充能；特殊药剂不等于无限蓝。",
+          "source": "snapshot"
+        },
+        {
+          "label": "首领续航验收",
+          "value": "至少完整循环不耗空",
+          "kind": "本站验收建议",
+          "meaning": "填写实际一轮消耗/恢复；没有统一一瓶通关线，不伪造。",
+          "source": "author"
+        }
+      ],
+      "charms": [
+        {
+          "label": "普通咒符替代：充能获取",
+          "value": "55%",
+          "kind": "Early普通咒符展示",
+          "meaning": "高配暗金不是按这条55%词缀制作；这里只给普通功能替代的原件参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先满足功能",
+          "value": "冻结／减速／点燃",
+          "kind": "当前配置功能",
+          "meaning": "先有对应应对，再提高充能；掉率和永久覆盖不做保证。",
+          "source": "author"
+        }
+      ],
+      "jewels": [
+        {
+          "label": "原件珠宝实装",
+          "value": "未导出",
+          "kind": "未确认项",
+          "meaning": "不编造每孔词条、种子或数值。",
+          "source": "snapshot"
+        },
+        {
+          "label": "昂贵工艺起手暴伤",
+          "value": "攻击暴伤20%",
+          "kind": "作者明确目标",
+          "meaning": "只属于高投入珠宝路线，不是Early普通珠宝最低要求；特殊容量未核实仍只读。",
+          "source": "author"
+        },
+        {
+          "label": "Early普通珠宝筛选",
+          "value": "先选2条有效属性",
+          "kind": "本站选胚建议",
+          "meaning": "指适用输出/资源属性数量，非每条数值的游戏门槛；不要为了凑条数留无效属性。",
+          "source": "author"
+        }
+      ]
+    },
+    "e04": {
+      "bow": [
+        {
+          "label": "本地物理提高",
+          "value": "135%",
+          "kind": "作者展示值",
+          "meaning": "135%只是原件的一条物理提高数值；不代表最低值、最高档或整把弓强度。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地物理点伤",
+          "value": "16–28",
+          "kind": "作者展示值",
+          "meaning": "最小16、最大28；与百分比物理是两条不同属性。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地冰霜点伤",
+          "value": "40–62",
+          "kind": "作者展示值",
+          "meaning": "最小40、最大62；保留冻结用伤害，不只看物理。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地暴击率",
+          "value": "+3.1个百分点",
+          "kind": "作者展示值",
+          "meaning": "暴击阶段还要核对武器最终暴击率；原导出小数与当前精华范围需区分。",
+          "source": "snapshot"
+        }
+      ],
+      "quiver": [
+        {
+          "label": "黄装替代：冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "Early黄箭袋展示",
+          "meaning": "04/05原版使用暗金；黄装参考不是同效替代。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：攻击速度",
+          "value": "14%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "同等点伤下再比较；转暴击还需另看暴击、暴伤。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：弓技能伤害",
+          "value": "43%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "不是本地弓物理百分比，两者不要混填。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：投射物等级",
+          "value": "+1",
+          "kind": "Early黄箭袋展示",
+          "meaning": "高投入路线中未核实的+2来源仍只读；不把此处+1改成必得+2。",
+          "source": "snapshot"
+        }
+      ],
+      "body": [
+        {
+          "label": "衣服平铺闪避",
+          "value": "+333",
+          "kind": "作者展示值",
+          "meaning": "是物品本地属性，不是角色总闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "衣服闪避提高",
+          "value": "140%",
+          "kind": "作者展示值",
+          "meaning": "不同底材不能只比百分比，要比较上方最终物品闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "偏转来源",
+          "value": "相当于闪避的21%",
+          "kind": "作者展示值",
+          "meaning": "属于额外防御词条；没有它不等于所有Early衣服不能用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装后的抗性",
+          "value": "按实际上限补齐",
+          "kind": "角色需求",
+          "meaning": "上限75、换装后实际60，则缺15个百分点；不能给每个部位统一要求35抗。",
+          "source": "author"
+        }
+      ],
+      "helmet": [
+        {
+          "label": "头盔最终物品护盾",
+          "value": "约450",
+          "kind": "作者明确转型目标",
+          "meaning": "是换混合防御时的建议，不是角色总护盾，也不是Early门槛。",
+          "source": "author"
+        },
+        {
+          "label": "本地平铺护盾",
+          "value": "+48",
+          "kind": "作者展示值",
+          "meaning": "不能把这条样例说成作者工艺所需的最高档T1。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地护盾提高",
+          "value": "92%",
+          "kind": "作者展示值",
+          "meaning": "最终护盾还取决于底材、其他词缀与品质。",
+          "source": "snapshot"
+        },
+        {
+          "label": "工艺起手的T1",
+          "value": "完整范围未核实",
+          "kind": "未确认项",
+          "meaning": "不要拿+48当T1证明；未能确认时优先比较约450物品护盾的成品。",
+          "source": "author"
+        }
+      ],
+      "gloves": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "可用装按改善当前防御判断，不强求一步到展示。",
+          "source": "snapshot"
+        },
+        {
+          "label": "物理攻击点伤",
+          "value": "7–14",
+          "kind": "作者展示值",
+          "meaning": "此处加到攻击；不是弓的本地物理词缀。",
+          "source": "snapshot"
+        },
+        {
+          "label": "冰霜攻击点伤",
+          "value": "14–22",
+          "kind": "作者展示值",
+          "meaning": "与攻速、生命等一起比较。",
+          "source": "snapshot"
+        },
+        {
+          "label": "暴击伤害加成",
+          "value": "30%",
+          "kind": "作者展示值",
+          "meaning": "转暴击后的展示目标。",
+          "source": "snapshot"
+        }
+      ],
+      "boots": [
+        {
+          "label": "移动速度",
+          "value": "35%",
+          "kind": "作者展示值",
+          "meaning": "不是Early的最低要求；不把35%写成ilvl50必能掷出。",
+          "source": "snapshot"
+        },
+        {
+          "label": "移动速度筛选",
+          "value": "先看≥25%",
+          "kind": "本站选胚建议",
+          "meaning": "作为Early购买/留胚筛选的编辑建议，不是官方或作者门槛；生命抗性还要合用。",
+          "source": "author"
+        },
+        {
+          "label": "生命／防御",
+          "value": "92%闪避与护盾提高",
+          "kind": "作者展示值",
+          "meaning": "只对照当前分支防御结构，不拿后期护盾鞋替代前期全部生命。",
+          "source": "snapshot"
+        }
+      ],
+      "amulet": [
+        {
+          "label": "投射物技能等级",
+          "value": "+3",
+          "kind": "作者展示值",
+          "meaning": "原件展示，不是Early入场条件；整条高投入工艺要求+3已破溃。",
+          "source": "snapshot"
+        },
+        {
+          "label": "精魂前缀目标",
+          "value": "47",
+          "kind": "作者展示值",
+          "meaning": "原导出30或47为单件示例；实际先满足整套技能最终保留。",
+          "source": "snapshot"
+        },
+        {
+          "label": "进阶混沌找精魂",
+          "value": "43–46 或 47–50",
+          "kind": "当前资料范围",
+          "meaning": "作者的高阶精魂目标对应这两档普通项链前缀；自然生成等级为46与54。",
+          "source": "spirit"
+        },
+        {
+          "label": "固定+3加工起点",
+          "value": "ilvl80／追顶抗82",
+          "kind": "作者明确条件",
+          "meaning": "还必须确认破溃、词缀数量、可移除范围；不只是物品有+3。",
+          "source": "author"
+        }
+      ],
+      "belt": [
+        {
+          "label": "普通腰带生命",
+          "value": "+150",
+          "kind": "作者展示值",
+          "meaning": "原版黄腰带展示；不要求每条先做满。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通腰带力量",
+          "value": "+31",
+          "kind": "作者展示值",
+          "meaning": "实际缺18力量先补18即可，不因参考31而盲堆。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装抗性／属性",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "用后面的缺口计算，不给所有腰带统一词缀门槛。",
+          "source": "author"
+        }
+      ],
+      "rings": [
+        {
+          "label": "每枚物理攻击点伤",
+          "value": "10–18",
+          "kind": "作者展示值",
+          "meaning": "两枚分开比较；不是每枚叠满相同极品才可用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "每枚冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "作者展示值",
+          "meaning": "普通攻击点伤参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "生命（01–04参考）",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "05换成闪电点伤，不要求Early照此牺牲生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "火／冰／电抗",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "不要从“高抗”猜；换装后的实际数字与上限相减。",
+          "source": "author"
+        }
+      ],
+      "flasks": [
+        {
+          "label": "生命药剂立即回复",
+          "value": "28%回复立即生效",
+          "kind": "作者展示值",
+          "meaning": "是回复量的一部分，不是立即回复28%最大生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通魔力药剂替代：回复量",
+          "value": "提高76%",
+          "kind": "Early展示值",
+          "meaning": "实际续航还看药剂基础、消耗与充能；特殊药剂不等于无限蓝。",
+          "source": "snapshot"
+        },
+        {
+          "label": "首领续航验收",
+          "value": "至少完整循环不耗空",
+          "kind": "本站验收建议",
+          "meaning": "填写实际一轮消耗/恢复；没有统一一瓶通关线，不伪造。",
+          "source": "author"
+        }
+      ],
+      "charms": [
+        {
+          "label": "普通咒符替代：充能获取",
+          "value": "55%",
+          "kind": "Early普通咒符展示",
+          "meaning": "高配暗金不是按这条55%词缀制作；这里只给普通功能替代的原件参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先满足功能",
+          "value": "冻结／减速／点燃",
+          "kind": "当前配置功能",
+          "meaning": "先有对应应对，再提高充能；掉率和永久覆盖不做保证。",
+          "source": "author"
+        }
+      ],
+      "jewels": [
+        {
+          "label": "原件珠宝实装",
+          "value": "未导出",
+          "kind": "未确认项",
+          "meaning": "不编造每孔词条、种子或数值。",
+          "source": "snapshot"
+        },
+        {
+          "label": "昂贵工艺起手暴伤",
+          "value": "攻击暴伤20%",
+          "kind": "作者明确目标",
+          "meaning": "只属于高投入珠宝路线，不是Early普通珠宝最低要求；特殊容量未核实仍只读。",
+          "source": "author"
+        },
+        {
+          "label": "Early普通珠宝筛选",
+          "value": "先选2条有效属性",
+          "kind": "本站选胚建议",
+          "meaning": "指适用输出/资源属性数量，非每条数值的游戏门槛；不要为了凑条数留无效属性。",
+          "source": "author"
+        }
+      ]
+    },
+    "e05": {
+      "bow": [
+        {
+          "label": "本地物理提高",
+          "value": "135%",
+          "kind": "作者展示值",
+          "meaning": "135%只是原件的一条物理提高数值；不代表最低值、最高档或整把弓强度。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地物理点伤",
+          "value": "16–28",
+          "kind": "作者展示值",
+          "meaning": "最小16、最大28；与百分比物理是两条不同属性。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地冰霜点伤",
+          "value": "40–62",
+          "kind": "作者展示值",
+          "meaning": "最小40、最大62；保留冻结用伤害，不只看物理。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地暴击率",
+          "value": "+3.1个百分点",
+          "kind": "作者展示值",
+          "meaning": "暴击阶段还要核对武器最终暴击率；原导出小数与当前精华范围需区分。",
+          "source": "snapshot"
+        }
+      ],
+      "quiver": [
+        {
+          "label": "黄装替代：冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "Early黄箭袋展示",
+          "meaning": "04/05原版使用暗金；黄装参考不是同效替代。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：攻击速度",
+          "value": "14%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "同等点伤下再比较；转暴击还需另看暴击、暴伤。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：弓技能伤害",
+          "value": "43%",
+          "kind": "Early黄箭袋展示",
+          "meaning": "不是本地弓物理百分比，两者不要混填。",
+          "source": "snapshot"
+        },
+        {
+          "label": "黄装替代：投射物等级",
+          "value": "+1",
+          "kind": "Early黄箭袋展示",
+          "meaning": "高投入路线中未核实的+2来源仍只读；不把此处+1改成必得+2。",
+          "source": "snapshot"
+        }
+      ],
+      "body": [
+        {
+          "label": "衣服平铺闪避",
+          "value": "+333",
+          "kind": "作者展示值",
+          "meaning": "是物品本地属性，不是角色总闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "衣服闪避提高",
+          "value": "140%",
+          "kind": "作者展示值",
+          "meaning": "不同底材不能只比百分比，要比较上方最终物品闪避。",
+          "source": "snapshot"
+        },
+        {
+          "label": "偏转来源",
+          "value": "相当于闪避的21%",
+          "kind": "作者展示值",
+          "meaning": "属于额外防御词条；没有它不等于所有Early衣服不能用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装后的抗性",
+          "value": "按实际上限补齐",
+          "kind": "角色需求",
+          "meaning": "上限75、换装后实际60，则缺15个百分点；不能给每个部位统一要求35抗。",
+          "source": "author"
+        }
+      ],
+      "helmet": [
+        {
+          "label": "头盔最终物品护盾",
+          "value": "约450",
+          "kind": "作者明确转型目标",
+          "meaning": "是换混合防御时的建议，不是角色总护盾，也不是Early门槛。",
+          "source": "author"
+        },
+        {
+          "label": "本地平铺护盾",
+          "value": "+48",
+          "kind": "作者展示值",
+          "meaning": "不能把这条样例说成作者工艺所需的最高档T1。",
+          "source": "snapshot"
+        },
+        {
+          "label": "本地护盾提高",
+          "value": "92%",
+          "kind": "作者展示值",
+          "meaning": "最终护盾还取决于底材、其他词缀与品质。",
+          "source": "snapshot"
+        },
+        {
+          "label": "工艺起手的T1",
+          "value": "完整范围未核实",
+          "kind": "未确认项",
+          "meaning": "不要拿+48当T1证明；未能确认时优先比较约450物品护盾的成品。",
+          "source": "author"
+        }
+      ],
+      "gloves": [
+        {
+          "label": "生命上限",
+          "value": "+120",
+          "kind": "作者展示值",
+          "meaning": "可用装按改善当前防御判断，不强求一步到展示。",
+          "source": "snapshot"
+        },
+        {
+          "label": "物理攻击点伤",
+          "value": "7–14",
+          "kind": "作者展示值",
+          "meaning": "此处加到攻击；不是弓的本地物理词缀。",
+          "source": "snapshot"
+        },
+        {
+          "label": "冰霜攻击点伤",
+          "value": "14–22",
+          "kind": "作者展示值",
+          "meaning": "与攻速、生命等一起比较。",
+          "source": "snapshot"
+        },
+        {
+          "label": "暴击伤害加成",
+          "value": "30%",
+          "kind": "作者展示值",
+          "meaning": "转暴击后的展示目标。",
+          "source": "snapshot"
+        }
+      ],
+      "boots": [
+        {
+          "label": "移动速度",
+          "value": "35%",
+          "kind": "作者展示值",
+          "meaning": "不是Early的最低要求；不把35%写成ilvl50必能掷出。",
+          "source": "snapshot"
+        },
+        {
+          "label": "移动速度筛选",
+          "value": "先看≥25%",
+          "kind": "本站选胚建议",
+          "meaning": "作为Early购买/留胚筛选的编辑建议，不是官方或作者门槛；生命抗性还要合用。",
+          "source": "author"
+        },
+        {
+          "label": "生命／防御",
+          "value": "92%闪避与护盾提高",
+          "kind": "作者展示值",
+          "meaning": "只对照当前分支防御结构，不拿后期护盾鞋替代前期全部生命。",
+          "source": "snapshot"
+        }
+      ],
+      "amulet": [
+        {
+          "label": "投射物技能等级",
+          "value": "+3",
+          "kind": "作者展示值",
+          "meaning": "原件展示，不是Early入场条件；整条高投入工艺要求+3已破溃。",
+          "source": "snapshot"
+        },
+        {
+          "label": "精魂前缀目标",
+          "value": "47",
+          "kind": "作者展示值",
+          "meaning": "原导出30或47为单件示例；实际先满足整套技能最终保留。",
+          "source": "snapshot"
+        },
+        {
+          "label": "进阶混沌找精魂",
+          "value": "43–46 或 47–50",
+          "kind": "当前资料范围",
+          "meaning": "作者的高阶精魂目标对应这两档普通项链前缀；自然生成等级为46与54。",
+          "source": "spirit"
+        },
+        {
+          "label": "固定+3加工起点",
+          "value": "ilvl80／追顶抗82",
+          "kind": "作者明确条件",
+          "meaning": "还必须确认破溃、词缀数量、可移除范围；不只是物品有+3。",
+          "source": "author"
+        }
+      ],
+      "belt": [
+        {
+          "label": "普通腰带生命",
+          "value": "+150",
+          "kind": "Early黄腰带替代展示",
+          "meaning": "05的猎首没有普通黄装工艺；这里保留Early黄腰带替代参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通腰带力量",
+          "value": "+31",
+          "kind": "Early黄腰带替代展示",
+          "meaning": "实际缺18力量先补18即可，不因参考31而盲堆。",
+          "source": "snapshot"
+        },
+        {
+          "label": "换装抗性／属性",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "用后面的缺口计算，不给所有腰带统一词缀门槛。",
+          "source": "author"
+        }
+      ],
+      "rings": [
+        {
+          "label": "每枚物理攻击点伤",
+          "value": "10–18",
+          "kind": "作者展示值",
+          "meaning": "两枚分开比较；不是每枚叠满相同极品才可用。",
+          "source": "snapshot"
+        },
+        {
+          "label": "每枚冰霜攻击点伤",
+          "value": "16–25",
+          "kind": "作者展示值",
+          "meaning": "普通攻击点伤参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "闪电攻击点伤",
+          "value": "1–48",
+          "kind": "05作者展示值",
+          "meaning": "05原件以此替换早期+120生命；Early不要为抄05提前损失生存。",
+          "source": "snapshot"
+        },
+        {
+          "label": "火／冰／电抗",
+          "value": "按整套缺口",
+          "kind": "角色需求",
+          "meaning": "不要从“高抗”猜；换装后的实际数字与上限相减。",
+          "source": "author"
+        }
+      ],
+      "flasks": [
+        {
+          "label": "生命药剂立即回复",
+          "value": "28%回复立即生效",
+          "kind": "作者展示值",
+          "meaning": "是回复量的一部分，不是立即回复28%最大生命。",
+          "source": "snapshot"
+        },
+        {
+          "label": "普通魔力药剂替代：回复量",
+          "value": "提高76%",
+          "kind": "Early展示值",
+          "meaning": "实际续航还看药剂基础、消耗与充能；特殊药剂不等于无限蓝。",
+          "source": "snapshot"
+        },
+        {
+          "label": "首领续航验收",
+          "value": "至少完整循环不耗空",
+          "kind": "本站验收建议",
+          "meaning": "填写实际一轮消耗/恢复；没有统一一瓶通关线，不伪造。",
+          "source": "author"
+        }
+      ],
+      "charms": [
+        {
+          "label": "普通咒符替代：充能获取",
+          "value": "55%",
+          "kind": "Early普通咒符展示",
+          "meaning": "高配暗金不是按这条55%词缀制作；这里只给普通功能替代的原件参考。",
+          "source": "snapshot"
+        },
+        {
+          "label": "先满足功能",
+          "value": "冻结／减速／点燃",
+          "kind": "当前配置功能",
+          "meaning": "先有对应应对，再提高充能；掉率和永久覆盖不做保证。",
+          "source": "author"
+        }
+      ],
+      "jewels": [
+        {
+          "label": "原件珠宝实装",
+          "value": "未导出",
+          "kind": "未确认项",
+          "meaning": "不编造每孔词条、种子或数值。",
+          "source": "snapshot"
+        },
+        {
+          "label": "昂贵工艺起手暴伤",
+          "value": "攻击暴伤20%",
+          "kind": "作者明确目标",
+          "meaning": "只属于高投入珠宝路线，不是Early普通珠宝最低要求；特殊容量未核实仍只读。",
+          "source": "author"
+        },
+        {
+          "label": "Early普通珠宝筛选",
+          "value": "先选2条有效属性",
+          "kind": "本站选胚建议",
+          "meaning": "指适用输出/资源属性数量，非每条数值的游戏门槛；不要为了凑条数留无效属性。",
+          "source": "author"
+        }
+      ]
+    }
+  },
+  "routeNotes": {
+    "bow-noncrit": {
+      "target": "先保留已有的本地物理提高；精华添加物理点伤，显现后再比较整把弓。没有通用135%门槛。",
+      "numbers": [
+        {
+          "label": "强效磨蚀：最小伤害端",
+          "value": "16–24",
+          "kind": "当前资料范围",
+          "meaning": "与最大伤害端独立掷值，不是总伤害16–42。",
+          "source": "abrasion"
+        },
+        {
+          "label": "强效磨蚀：最大伤害端",
+          "value": "28–42",
+          "kind": "当前资料范围",
+          "meaning": "例如16–28是该范围内的一个结果；原导出正是这对数值。",
+          "source": "abrasion"
+        }
+      ],
+      "warn": "作者没有规定“高物理”的最低百分比；135%只作原件对照。"
+    },
+    "bow-crit": {
+      "target": "先有物理底座；强效寻觅补本地暴击率；继续看最终伤害",
+      "numbers": [
+        {
+          "label": "强效寻觅：本地暴击",
+          "value": "+3.11至+3.8个百分点",
+          "kind": "当前资料范围",
+          "meaning": "是加到武器基础暴击率的本地词条，不是提高3.11%全局暴击；与原导出+3.1保留分别展示。",
+          "source": "seeking"
+        }
+      ],
+      "warn": "同时核对后缀是否同组冲突；不要把带低伤害的暴击弓直接当毕业。"
+    },
+    "amulet": {
+      "target": "破溃+3 → 普通精魂前缀43–46／47–50 → 定向收尾",
+      "numbers": [
+        {
+          "label": "精魂普通前缀",
+          "value": "43–46",
+          "kind": "当前资料范围",
+          "meaning": "自然词缀生成等级46；低于此值物品不按这档自然掷出。",
+          "source": "spirit"
+        },
+        {
+          "label": "精魂普通前缀",
+          "value": "47–50",
+          "kind": "当前资料范围",
+          "meaning": "自然词缀生成等级54；并不是整条项链工艺的80/82。",
+          "source": "spirit"
+        }
+      ],
+      "warn": "没有已破溃+3，不能执行后续随机移除。"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "text": "← 全身目标",
+    "href": "#/gear?cp=l03"
+  },
+  {
+    "text": "装备目标",
+    "href": "#/item/boots?cp=l03&tab=target"
+  },
+  {
+    "text": "一步步做",
+    "href": "#/item/boots?cp=l03&tab=craft"
+  },
+  {
+    "text": "换上前检查",
+    "href": "#/item/boots?cp=l03&tab=finish"
+  },
+  {
+    "text": "我有这颗，核对使用步骤",
+    "href": "#/item/boots?cp=l03&tab=craft&kind=magic1&action=essence&essence=body-lesser&goal=life&step=&period=pre31"
+  },
+  {
+    "text": "我有这颗，核对使用步骤",
+    "href": "#/item/boots?cp=l03&tab=craft&kind=magic1&action=essence&essence=body-normal&goal=life&step=&period=pre31"
+  },
+  {
+    "text": "我有这颗，核对使用步骤",
+    "href": "#/item/boots?cp=l03&tab=craft&kind=magic1&action=essence&essence=body-greater&goal=life&step=&period=pre31"
+  },
+  {
+    "text": "接受随机结果：用富豪",
+    "href": "#/item/boots?cp=l03&tab=craft&kind=magic1&action=regal&essence=&goal=life&step=&period=pre31"
+  },
+  {
+    "text": "可选：先用增幅补第2条",
+    "href": "#/item/boots?cp=l03&tab=craft&kind=magic1&action=aug&essence=&goal=life&step=&period=pre31"
+  },
+  {
+    "text": "够用了，查看换上前检查",
+    "href": "#/item/boots?cp=l03&tab=craft&kind=magic1&action=done&essence=&goal=life&step=&period=pre31"
+  },
+  {
+    "text": "本版内容与边界",
+    "href": "#/tools/selection-guide?cp=l03"
+  },
+  {
+    "text": "中文名称来源",
+    "href": "#/tools/names?cp=l03"
+  },
+  {
+    "text": "四份原版过滤器",
+    "href": "#/tools/filters?cp=l03"
+  }
+]

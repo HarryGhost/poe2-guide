@@ -1,0 +1,62 @@
+{
+  "task_scope": "6 specified character builds and 7 specified atlas strategies; read-only capture",
+  "first_saved_evidence_at": "2026-10-05T09:07:13.705Z",
+  "last_saved_browser_evidence_at": "2026-10-05T09:57:17.096Z",
+  "tool": "Codex cua_repl / Codex In-app Browser, DOM read-only evaluation and native tooltip screenshots",
+  "live_gear_gate": {
+    "result": "passed",
+    "evidence": [
+      "evidence/builds/Live Gear-first-Emerald.json",
+      "evidence/builds/Live Gear-first-Emerald.jpg"
+    ],
+    "confirmation": "actual Live Gear selected; first Emerald full four ranged modifiers obtained automatically"
+  },
+  "public_data_method": "DOM script window.__PRELOADED_STATE__ target ngf-ug-featured-document-page document only; 80000-character serialization chunks",
+  "public_data_scope": "Relevant target configurations and author text only; unrelated queries/comments/ads/account/live-character/filter content omitted",
+  "read_only_actions": [
+    "select existing author variant tab",
+    "expand skill display",
+    "switch equipment Set 1 / Set 2 view",
+    "hover equipment/jewel/socket/master tooltips",
+    "open and close master viewing dialog",
+    "fullscreen/zoom tree view"
+  ],
+  "atlas_canvas_candidate_attempt": {
+    "status": "not_retrieved",
+    "observation": "read-only canvas hover/click viewing attempts did not expose parent-node candidate definitions; selected configurations were not changed"
+  },
+  "public_static_resource_attempt": {
+    "source": "three actual document.script src URLs from target page",
+    "resources": [
+      "poe-2-app-component.daf03673.chunk.js",
+      "ngf-ug-featured-document-page.0da9662d.chunk.js",
+      "8418.7f6ddfcd.chunk.js"
+    ],
+    "initial_sandbox_result": "DNS lookup unavailable",
+    "authorized_public_get_result": "HTTP 403 for all three resources",
+    "credentials": "none supplied or reused",
+    "followup": "no bypass; machine edge and parent-node candidate definitions remain explicitly missing"
+  },
+  "not_performed": [
+    "editing author pages or configurations",
+    "modifying existing sites or .build/.filter files",
+    "downloads or changes to filters",
+    "trade page visits or transactions",
+    "exporting credentials/cookies/Authorization",
+    "reading/comparing unavailable local old files"
+  ],
+  "old_record_comparison": "完成网页采集，尚未与本地旧稿比对。",
+  "counts": {
+    "builds": 6,
+    "atlas_variants": 7,
+    "equipment_records": 91,
+    "visible_jewels": 11,
+    "saved_not_displayed_jewels": 1,
+    "socket_associations": 36,
+    "unique_socketed_item_definitions": 12,
+    "skill_groups": 60,
+    "master_loadouts": 10,
+    "master_candidate_definitions": 36,
+    "atlas_saved_multichoice_selections": 221
+  }
+}
