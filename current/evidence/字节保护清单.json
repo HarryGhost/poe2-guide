@@ -1,0 +1,247 @@
+[
+  {
+    "source_path": "Ghostliness_当前阶段与三步调整_20261006.md",
+    "output": "notes/当前阶段与三步调整.md",
+    "sha256": "c10d4ab89617f4c326337b67921d591718961ee1358a6bde6fda7a9a16cac936"
+  },
+  {
+    "source_path": "README.md",
+    "output": "evidence/character/原采集说明.md",
+    "sha256": "6c70dc04fa6017008c5f51bd26b6a0b13a3cefb8d51104d2b6026acbc0d6e2dc"
+  },
+  {
+    "source_path": "R28原站/构筑文件/04_Crit_Hybrid.build",
+    "output": "originals/暴击混合防御.build",
+    "sha256": "bc863bf18b3df3392b10679f93a8f0d3717fe49db96de2cc3bd011b3c904273d"
+  },
+  {
+    "source_path": "原版过滤器_从这里选/01_Fubgun_Early_Mapping.filter",
+    "output": "originals/01_Fubgun_Early_Mapping.filter",
+    "sha256": "f7e83ae7bc4291b17c914c99ea809772237c257edf9b44622372cf91f626f845"
+  },
+  {
+    "source_path": "原版过滤器_从这里选/03_Fubgun_Endgame_Mapping.filter",
+    "output": "originals/03_Fubgun_Endgame_Mapping.filter",
+    "sha256": "c36afdbda5032ef3f6cbf086877fbfc42c1c734e739c8a46412c98d00862abea"
+  },
+  {
+    "source_path": "evidence/equipment_set1_00.jpg",
+    "output": "evidence/character/bow.jpg",
+    "sha256": "6abf22141e3c282d1dcc88a407cdbc141f38583e52d38cc854acd846e4d1f604"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-01.jpg",
+    "output": "evidence/author/equipment-bow.jpg",
+    "sha256": "613e2f20598529cad92c6424d2206bf0d5033c1f0640978712a713adcc056bb9"
+  },
+  {
+    "source_path": "evidence/equipment_set1_14.jpg",
+    "output": "evidence/character/quiver.jpg",
+    "sha256": "171b38162feaf04e5496875cad6aad701955af2dde648595296cc51456650b3c"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-07.jpg",
+    "output": "evidence/author/equipment-quiver.jpg",
+    "sha256": "226bc38efc91625764bd150cc8724581231aeb677930f26610504abe77c4e681"
+  },
+  {
+    "source_path": "evidence/equipment_set1_04.jpg",
+    "output": "evidence/character/helmet.jpg",
+    "sha256": "281ff208222440fb1775284d1b541d8cf4ebe3430fd9e8cc93ad7ba7561649b2"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-03.jpg",
+    "output": "evidence/author/equipment-helmet.jpg",
+    "sha256": "fd36b3dc58da6f7c31ea2f4d82eed63e008ee53758c151d5473239d93abc38ec"
+  },
+  {
+    "source_path": "evidence/equipment_set1_05.jpg",
+    "output": "evidence/character/body.jpg",
+    "sha256": "07121a6c84cdbc152eac370a51fcd3f38c77a1550c458a9e18c3c811e61440d7"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-04.jpg",
+    "output": "evidence/author/equipment-body.jpg",
+    "sha256": "ddc597882fef938c7635e66ab38b4da8159f673d44f5028a8ba4c50d87c11f04"
+  },
+  {
+    "source_path": "evidence/equipment_set1_02.jpg",
+    "output": "evidence/character/gloves.jpg",
+    "sha256": "f2183756098cfc9e5f293745319eb0d95a2db5536c7e95ce8963e10f36409f3e"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-08.jpg",
+    "output": "evidence/author/equipment-gloves.jpg",
+    "sha256": "b34aaa25e1d1d19164a0cc89359b0beccded0e1fbf65e4c8ff8ad6f8cba681d4"
+  },
+  {
+    "source_path": "evidence/equipment_set1_12.jpg",
+    "output": "evidence/character/boots.jpg",
+    "sha256": "c9386acdce91456528185b1624e041d604d1ff00dcedf1f6c5b736cf619b0640"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-10.jpg",
+    "output": "evidence/author/equipment-boots.jpg",
+    "sha256": "b295a8efbe291ef3816952943e8b9ef40f699dae3cc30320c5224926b0e9725d"
+  },
+  {
+    "source_path": "evidence/equipment_set1_10.jpg",
+    "output": "evidence/character/amulet.jpg",
+    "sha256": "ebd4ba68d394c607ad18065aed26d6f07af3cb66acb3c7aa898170b652d92fa2"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-05.jpg",
+    "output": "evidence/author/equipment-amulet.jpg",
+    "sha256": "fdb2f339f710d8d14a90af58636e8d5108e4ac7850b0ae23ea8017d5da86ff67"
+  },
+  {
+    "source_path": "evidence/equipment_set1_06.jpg",
+    "output": "evidence/character/belt.jpg",
+    "sha256": "a59bd66d89dfb9ecd87e86338e59e45b2d125e311c91f00657ffc5f788a4a47e"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-09.jpg",
+    "output": "evidence/author/equipment-belt.jpg",
+    "sha256": "58793407b7b7fc03d6c67a3ac82e3929ac13816d326a923ccd379044b3b70bae"
+  },
+  {
+    "source_path": "evidence/equipment_set1_01.jpg",
+    "output": "evidence/character/ring1.jpg",
+    "sha256": "0bace9e41377d0da2455fd128fe179347e1b13faf6a477e741a72dc70f859c62"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-02.jpg",
+    "output": "evidence/author/equipment-ring1.jpg",
+    "sha256": "1a97e4eb33c5fb80610a40130bf3201d012783fef222fd9155b8dc86b12340da"
+  },
+  {
+    "source_path": "evidence/equipment_set1_11.jpg",
+    "output": "evidence/character/ring2.jpg",
+    "sha256": "ef972385c5851033a5c98fbcb783791ac4334e116bd8e686e2635d26d5e5e804"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-06.jpg",
+    "output": "evidence/author/equipment-ring2.jpg",
+    "sha256": "8871488c5eae4ba093fa64b74256f6a903f173b219cedacf3355cc5603f09ecb"
+  },
+  {
+    "source_path": "evidence/equipment_set1_03.jpg",
+    "output": "evidence/character/life_flask.jpg",
+    "sha256": "693e27182d6e600df814bc522ab2e7a84472662b60c5e135de1d30cf1ee933bb"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-11.jpg",
+    "output": "evidence/author/equipment-life_flask.jpg",
+    "sha256": "af1596d6b88fffc2c9a7dd8b5de2335efc7dcc7c3ebe3e2f1abdbf3f2fa22df8"
+  },
+  {
+    "source_path": "evidence/equipment_set1_13.jpg",
+    "output": "evidence/character/mana_flask.jpg",
+    "sha256": "4ecc451d90ad0d134bea1156ef6412d942d0db6a318411159f18fd2bc4af8a20"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-15.jpg",
+    "output": "evidence/author/equipment-mana_flask.jpg",
+    "sha256": "d9caeefb556c42d8180b2190c9b6651b92eff332f6577a043a81d0d78e5dc1fc"
+  },
+  {
+    "source_path": "evidence/equipment_set1_07.jpg",
+    "output": "evidence/character/charm1.jpg",
+    "sha256": "d6f75c73b3c4b2c11cc71addaa8af8ce2d989e15aa64da09f20c16e5108bb5fa"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-12.jpg",
+    "output": "evidence/author/equipment-charm1.jpg",
+    "sha256": "d1b8d5e148d65bf258fc28074727bb8bc3e2913c084e065578d0d545fbc7fa5a"
+  },
+  {
+    "source_path": "evidence/equipment_set1_08.jpg",
+    "output": "evidence/character/charm2.jpg",
+    "sha256": "817916209ad1c82a5173e68d77943163cbce21ccdf446c7b3bc24cef9f08c9a9"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-13.jpg",
+    "output": "evidence/author/equipment-charm2.jpg",
+    "sha256": "8e9bb4788338d4fb4508e4480074b77f716db0621b76b1da81a4cfee4460d9db"
+  },
+  {
+    "source_path": "evidence/equipment_set1_09.jpg",
+    "output": "evidence/character/charm3.jpg",
+    "sha256": "bf0c0a328ee9653dbe1c24ab8275a3d47ee6ae6b64b2f5c2e9c9e02a38f1cadf"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-14.jpg",
+    "output": "evidence/author/equipment-charm3.jpg",
+    "sha256": "3bf56c76a90bd659e8a6102d78ec9828ed24bf798d957034462f3eae901ebb63"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Passive Tree-full.jpg",
+    "output": "evidence/author/天赋参考原图.jpg",
+    "sha256": "8ed9ca1f0e5fb393e2025fa89811b2d194eab3989c55a6ea09908a97c4d26554"
+  },
+  {
+    "source_path": "evidence/passive_tree_initial.jpg",
+    "output": "evidence/character/passive_tree_initial.jpg",
+    "sha256": "65cf59f58dbe45a877941e83eca2c9bce2c93415a16b6dacb0733eb2ecd2b611"
+  },
+  {
+    "source_path": "evidence/passive_tree_pan_01.jpg",
+    "output": "evidence/character/passive_tree_pan_01.jpg",
+    "sha256": "030a7ce1be8d099765a5aa65e46163d671268929bae1170edad83ea1119d744d"
+  },
+  {
+    "source_path": "evidence/passive_tree_pan_02.jpg",
+    "output": "evidence/character/passive_tree_pan_02.jpg",
+    "sha256": "a4c61bc6b6e4839f8bcb85dfab9c0b0ef626eac1e7d42be60c267fc6c850658e"
+  },
+  {
+    "source_path": "evidence/passive_tree_pan_03.jpg",
+    "output": "evidence/character/passive_tree_pan_03.jpg",
+    "sha256": "f7999aa234fd41fc81194ebd0e361f58942bcda96192c0618ae153407832447a"
+  },
+  {
+    "source_path": "evidence/passive_tree_pan_04.jpg",
+    "output": "evidence/character/passive_tree_pan_04.jpg",
+    "sha256": "c4a113c35ac17c40a0cb6dab32afd4add3416c3f3ade341de3c48df15c633e63"
+  },
+  {
+    "source_path": "evidence/passive_tree_upper_right.jpg",
+    "output": "evidence/character/passive_tree_upper_right.jpg",
+    "sha256": "419e9a2d60a2b377e07a4f88836828ab4fd75761bc87d4b513b45146bc2b960e"
+  },
+  {
+    "source_path": "evidence/passive_tree_upper_middle.jpg",
+    "output": "evidence/character/passive_tree_upper_middle.jpg",
+    "sha256": "5e74c7681230b846548ae2a31b523b110fa1a576873a0e5cabfd8b4943dae15f"
+  },
+  {
+    "source_path": "evidence/passive_tree_lower_middle.jpg",
+    "output": "evidence/character/passive_tree_lower_middle.jpg",
+    "sha256": "4cc4537c432a049dd7bb488e6924488436b1b1b14d2942890ce600adda29d4fa"
+  },
+  {
+    "source_path": "evidence/passive_tree_lower_right.jpg",
+    "output": "evidence/character/passive_tree_lower_right.jpg",
+    "sha256": "2af604608dc99e4237afb03499173e0de451933bc2fbfa9bb340d05e78ccac95"
+  },
+  {
+    "source_path": "evidence/passive_tree_bottom_right.jpg",
+    "output": "evidence/character/passive_tree_bottom_right.jpg",
+    "sha256": "6ffa6023d1ecf28d45d26458088b6f50712775b3987c1e0e67bd2693414bf42e"
+  },
+  {
+    "source_path": "evidence/passive_page_after_reload.jpg",
+    "output": "evidence/character/passive_page_after_reload.jpg",
+    "sha256": "83ec2215902268f461919cd06775e328d89e17e636622701066885013c4d53da"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-16.jpg",
+    "output": "evidence/author/jewel-1.jpg",
+    "sha256": "c2413dd7f5e4a1da78a5a37381215303b0a5bdc202dec933c36462584edb93fa"
+  },
+  {
+    "source_path": "采集证据_20261005/evidence/builds/Crit Hybrid/Set 1-item-17.jpg",
+    "output": "evidence/author/jewel-2.jpg",
+    "sha256": "fb501ff30e1dfd6ea8bb8c49fbe763b4c2b2479c84ebcf510c84da048be6fa6a"
+  }
+]

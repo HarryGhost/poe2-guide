@@ -1,0 +1,1490 @@
+{
+  "baseline": "R45",
+  "chosen_stage": "e04",
+  "chosen_name": "Crit Hybrid",
+  "plan": "Ghostliness_当前阶段与三步调整_20261006.md",
+  "author": {
+    "capture_sha256": "ad242bd108ebc16122523cb914682eb026bdbc166b11d22c4c61f5986077eaf3",
+    "source_url": "https://mobalytics.gg/poe-2/builds/ice-shot-deadeye?utm_source=chatgpt.com&weaponSet=set1&ws-ngf5-f7d82102-7e77-4a44-ad24-33b67e8ae7bf=activeVariantId%2C3",
+    "equipment": [
+      {
+        "id": "Crit Hybrid/Set 1/mainHand",
+        "uid": "bow",
+        "name": "Obliterator Bow",
+        "panel": {
+          "name": "Obliterator Bow",
+          "item_class_label": "Bows",
+          "top_stats": [
+            {
+              "label": "Critical Hit Chance",
+              "value": "8.8"
+            },
+            {
+              "label": "Physical Damage",
+              "value": "218-399"
+            },
+            {
+              "label": "Cold Damage",
+              "value": "53-80"
+            }
+          ],
+          "requirements_text": "Requires: 78 Level, 163 Dexterity.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "78"
+            },
+            {
+              "label": "Dexterity",
+              "value": "163"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "50% reduced Projectile Range",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "投射物射程降低 50%"
+            },
+            {
+              "display_order": 2,
+              "text": "(135-154)% increased Physical Damage",
+              "tier_label": "P3",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "物理伤害提高 (135-154)%"
+            },
+            {
+              "display_order": 3,
+              "text": "Adds (16-24) to (28-42) Physical Damage",
+              "tier_label": "P3",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "附加 (16-24) 至 (28-42) 物理伤害"
+            },
+            {
+              "display_order": 4,
+              "text": "Adds (40-53) to (62-80) Cold Damage",
+              "tier_label": "P3",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "附加 (40-53) 至 (62-80) 冰霜伤害"
+            },
+            {
+              "display_order": 5,
+              "text": "+2 to Level of all Projectile Skills",
+              "tier_label": "S1",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "所有投射物技能等级 +2"
+            },
+            {
+              "display_order": 6,
+              "text": "+(3.1-3.8)% to Critical Hit Chance",
+              "tier_label": "S3",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "暴击率 +(3.1-3.8)%"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Obliterator Bow",
+            "Bows",
+            "Requires: 78 Level, 163 Dexterity."
+          ],
+          "raw_text": "Obliterator Bow\n\nBows\n\nCritical Hit Chance:8.8\nPhysical Damage:218-399\nCold Damage:53-80\n\nRequires: 78 Level, 163 Dexterity.\n\n50% reduced Projectile Range\n(135-154)% increased Physical Damage\nP3\nAdds (16-24) to (28-42) Physical Damage\nP3\nAdds (40-53) to (62-80) Cold Damage\nP3\n+2 to Level of all Projectile Skills\nS1\n+(3.1-3.8)% to Critical Hit Chance\nS3"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 2,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "panel_observed",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "source_order_and_ui_positions_verified",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/leftRing",
+        "uid": "ring1",
+        "name": "Prismatic Ring",
+        "panel": {
+          "name": "Prismatic Ring",
+          "item_class_label": "Rings",
+          "top_stats": [],
+          "requirements_text": "Requires: 35 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "35"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Armour: +(7-10)% to all Elemental Resistances",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "〔原页标签 Armour〕全部元素抗性 +(7-10)%"
+            },
+            {
+              "display_order": 2,
+              "text": "Adds (10-15) to (18-26) Physical Damage to Attacks",
+              "tier_label": "P2",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "攻击附加 (10-15) 至 (18-26) 物理伤害"
+            },
+            {
+              "display_order": 3,
+              "text": "Adds (16-20) to (25-31) Cold damage to Attacks",
+              "tier_label": "P2",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "攻击附加 (16-20) 至 (25-31) 冰霜伤害"
+            },
+            {
+              "display_order": 4,
+              "text": "+(120-149) to maximum Life",
+              "tier_label": "P5",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "最大生命 +(120-149)"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Prismatic Ring",
+            "Rings",
+            "Requires: 35 Level."
+          ],
+          "raw_text": "Prismatic Ring\n\nRings\n\nRequires: 35 Level.\n\nArmour: +(7-10)% to all Elemental Resistances\nAdds (10-15) to (18-26) Physical Damage to Attacks\nP2\nAdds (16-20) to (25-31) Cold damage to Attacks\nP2\n+(120-149) to maximum Life\nP5"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/helmet",
+        "uid": "helmet",
+        "name": "Ancestral Tiara",
+        "panel": {
+          "name": "Ancestral Tiara",
+          "item_class_label": "Helmets",
+          "top_stats": [
+            {
+              "label": "Energy Shield",
+              "value": "338"
+            }
+          ],
+          "requirements_text": "Requires: 80 Level, 115 Intelligence.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "80"
+            },
+            {
+              "label": "Intelligence",
+              "value": "115"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "(92-100)% increased Energy Shield",
+              "tier_label": "P2",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "能量护盾提高 (92-100)%"
+            },
+            {
+              "display_order": 2,
+              "text": "+(48-60) to maximum Energy Shield",
+              "tier_label": "P5",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "最大能量护盾 +(48-60)"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Ancestral Tiara",
+            "Helmets",
+            "Requires: 80 Level, 115 Intelligence."
+          ],
+          "raw_text": "Ancestral Tiara\n\nHelmets\n\nEnergy Shield:338\n\nRequires: 80 Level, 115 Intelligence.\n\n(92-100)% increased Energy Shield\nP2\n+(48-60) to maximum Energy Shield\nP5"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 1,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "panel_observed",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "source_order_and_ui_positions_verified",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/body",
+        "uid": "body",
+        "name": "Corsair Coat",
+        "panel": {
+          "name": "Corsair Coat",
+          "item_class_label": "Body Armours",
+          "top_stats": [
+            {
+              "label": "Evasion Rating",
+              "value": "2177"
+            }
+          ],
+          "requirements_text": "Requires: 80 Level, 121 Dexterity.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "80"
+            },
+            {
+              "label": "Dexterity",
+              "value": "121"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Boots: 5% increased Movement Speed",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "〔原页标签 Boots〕移动速度提高 5%"
+            },
+            {
+              "display_order": 2,
+              "text": "(101-110)% increased Evasion Rating",
+              "tier_label": "P1",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "闪避值提高 (101-110)%"
+            },
+            {
+              "display_order": 3,
+              "text": "(39-42)% increased Evasion Rating",
+              "tier_label": "P1",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "闪避值提高 (39-42)%"
+            },
+            {
+              "display_order": 4,
+              "text": "+(71-90) to Evasion Rating",
+              "tier_label": null,
+              "kind": "unlabelled_modifier",
+              "kind_basis": "页面未逐条给出固有/显性标签，未从通用词缀库补配",
+              "value_semantics": "displayed_range",
+              "zh": "闪避值 +(71-90)"
+            },
+            {
+              "display_order": 5,
+              "text": "+(262-300) to Evasion Rating",
+              "tier_label": "P1",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "闪避值 +(262-300)"
+            },
+            {
+              "display_order": 6,
+              "text": "Gain Deflection Rating equal to (21-23)% of Evasion Rating",
+              "tier_label": "S2",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "获得相当于闪避值 (21-23)% 的偏转值"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Corsair Coat",
+            "Body Armours",
+            "Requires: 80 Level, 121 Dexterity."
+          ],
+          "raw_text": "Corsair Coat\n\nBody Armours\n\nEvasion Rating:2177\n\nRequires: 80 Level, 121 Dexterity.\n\nBoots: 5% increased Movement Speed\n(101-110)% increased Evasion Rating\nP1\n(39-42)% increased Evasion Rating\nP1\n+(71-90) to Evasion Rating\n+(262-300) to Evasion Rating\nP1\nGain Deflection Rating equal to (21-23)% of Evasion Rating\nS2"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 2,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "panel_observed",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "source_order_and_ui_positions_verified",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/amulet",
+        "uid": "amulet",
+        "name": "Stellar Amulet",
+        "panel": {
+          "name": "Stellar Amulet",
+          "item_class_label": "Amulets",
+          "top_stats": [],
+          "requirements_text": "Requires: 24 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "24"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Allocates Serrated Edges",
+              "tier_label": null,
+              "kind": "unlabelled_modifier",
+              "kind_basis": "页面未逐条给出固有/显性标签，未从通用词缀库补配",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "配置 Serrated Edges"
+            },
+            {
+              "display_order": 2,
+              "text": "+(5-7) to all Attributes",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "全部属性 +(5-7)"
+            },
+            {
+              "display_order": 3,
+              "text": "+(47-50) to Spirit",
+              "tier_label": "P4",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "精魂 +(47-50)"
+            },
+            {
+              "display_order": 4,
+              "text": "+3 to Level of all Projectile Skills",
+              "tier_label": "S1",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "所有投射物技能等级 +3"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Stellar Amulet",
+            "Amulets",
+            "Requires: 24 Level."
+          ],
+          "raw_text": "Stellar Amulet\n\nAmulets\n\nRequires: 24 Level.\n\nAllocates Serrated Edges\n+(5-7) to all Attributes\n+(47-50) to Spirit\nP4\n+3 to Level of all Projectile Skills\nS1"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "source_slug_observed"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/rightRing",
+        "uid": "ring2",
+        "name": "Prismatic Ring",
+        "panel": {
+          "name": "Prismatic Ring",
+          "item_class_label": "Rings",
+          "top_stats": [],
+          "requirements_text": "Requires: 35 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "35"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Armour: +(7-10)% to all Elemental Resistances",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "〔原页标签 Armour〕全部元素抗性 +(7-10)%"
+            },
+            {
+              "display_order": 2,
+              "text": "Adds (16-20) to (25-31) Cold damage to Attacks",
+              "tier_label": "P2",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "攻击附加 (16-20) 至 (25-31) 冰霜伤害"
+            },
+            {
+              "display_order": 3,
+              "text": "Adds (10-15) to (18-26) Physical Damage to Attacks",
+              "tier_label": "P2",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "攻击附加 (10-15) 至 (18-26) 物理伤害"
+            },
+            {
+              "display_order": 4,
+              "text": "+(120-149) to maximum Life",
+              "tier_label": "P5",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "最大生命 +(120-149)"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Prismatic Ring",
+            "Rings",
+            "Requires: 35 Level."
+          ],
+          "raw_text": "Prismatic Ring\n\nRings\n\nRequires: 35 Level.\n\nArmour: +(7-10)% to all Elemental Resistances\nAdds (16-20) to (25-31) Cold damage to Attacks\nP2\nAdds (10-15) to (18-26) Physical Damage to Attacks\nP2\n+(120-149) to maximum Life\nP5"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Set 1/offHand",
+        "uid": "quiver",
+        "name": "Cadiro's Gambit",
+        "panel": {
+          "name": "Cadiro's Gambit",
+          "item_class_label": "Quivers",
+          "top_stats": [],
+          "requirements_text": "Requires: 51 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "51"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Gloves: (7-10)% increased Attack Speed",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "〔原页标签 Gloves〕攻击速度提高 (7-10)%"
+            },
+            {
+              "display_order": 2,
+              "text": "(7-10)% increased Attack Speed",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "攻击速度提高 (7-10)%"
+            },
+            {
+              "display_order": 3,
+              "text": "Each Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "每支发射的箭矢为 Crescendo、Splinter、Reversing、Diamond、Covetous 或 Blunt Arrow 之一（不是六种效果同时常驻）"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Cadiro's Gambit",
+            "Quivers",
+            "Requires: 51 Level."
+          ],
+          "raw_text": "Cadiro's Gambit\n\nQuivers\n\nRequires: 51 Level.\n\nGloves: (7-10)% increased Attack Speed\n(7-10)% increased Attack Speed\nEach Arrow fired is a Crescendo, Splinter, Reversing, Diamond, Covetous, or Blunt Arrow"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "base_name_not_separately_printed",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/gloves",
+        "uid": "gloves",
+        "name": "Grand Bracers",
+        "panel": {
+          "name": "Grand Bracers",
+          "item_class_label": "Gloves",
+          "top_stats": [
+            {
+              "label": "Evasion Rating",
+              "value": "155"
+            }
+          ],
+          "requirements_text": "Requires: 70 Level, 87 Dexterity.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "70"
+            },
+            {
+              "label": "Dexterity",
+              "value": "87"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "+(120-149) to maximum Life",
+              "tier_label": "P5",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "最大生命 +(120-149)"
+            },
+            {
+              "display_order": 2,
+              "text": "Adds (7-11) to (14-20) Physical Damage to Attacks",
+              "tier_label": "P3",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "攻击附加 (7-11) 至 (14-20) 物理伤害"
+            },
+            {
+              "display_order": 3,
+              "text": "Adds (14-15) to (22-24) Cold damage to Attacks",
+              "tier_label": "P3",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "攻击附加 (14-15) 至 (22-24) 冰霜伤害"
+            },
+            {
+              "display_order": 4,
+              "text": "(30-34)% increased Critical Damage Bonus",
+              "tier_label": "S2",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "暴击伤害加成提高 (30-34)%"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Grand Bracers",
+            "Gloves",
+            "Requires: 70 Level, 87 Dexterity."
+          ],
+          "raw_text": "Grand Bracers\n\nGloves\n\nEvasion Rating:155\n\nRequires: 70 Level, 87 Dexterity.\n\n+(120-149) to maximum Life\nP5\nAdds (7-11) to (14-20) Physical Damage to Attacks\nP3\nAdds (14-15) to (22-24) Cold damage to Attacks\nP3\n(30-34)% increased Critical Damage Bonus\nS2"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "panel_observed",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/belt",
+        "uid": "belt",
+        "name": "Rawhide Belt",
+        "panel": {
+          "name": "Rawhide Belt",
+          "item_class_label": "Belts",
+          "top_stats": [],
+          "requirements_text": null,
+          "requirements": [],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "(20-30)% increased Life Recovery from Flasks",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "药剂的生命回复量提高 (20-30)%"
+            },
+            {
+              "display_order": 2,
+              "text": "+(150-174) to maximum Life",
+              "tier_label": "P4",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "最大生命 +(150-174)"
+            },
+            {
+              "display_order": 3,
+              "text": "+(31-33) to Strength",
+              "tier_label": "S2",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "力量 +(31-33)"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Rawhide Belt",
+            "Belts"
+          ],
+          "raw_text": "Rawhide Belt\n\nBelts\n\n(20-30)% increased Life Recovery from Flasks\n+(150-174) to maximum Life\nP4\n+(31-33) to Strength\nS2"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "not_printed_in_panel",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/boots",
+        "uid": "boots",
+        "name": "Bladed Shoes",
+        "panel": {
+          "name": "Bladed Shoes",
+          "item_class_label": "Boots",
+          "top_stats": [
+            {
+              "label": "Evasion Rating",
+              "value": "290"
+            },
+            {
+              "label": "Energy Shield",
+              "value": "74"
+            }
+          ],
+          "requirements_text": "Requires: 65 Level, 47 Intelligence, 47 Dexterity.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "65"
+            },
+            {
+              "label": "Intelligence",
+              "value": "47"
+            },
+            {
+              "label": "Dexterity",
+              "value": "47"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "35% increased Movement Speed",
+              "tier_label": "P1",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "移动速度提高 35%"
+            },
+            {
+              "display_order": 2,
+              "text": "(92-100)% increased Evasion and Energy Shield",
+              "tier_label": "P2",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "闪避值与能量护盾提高 (92-100)%"
+            },
+            {
+              "display_order": 3,
+              "text": "Gain Deflection Rating equal to (21-23)% of Evasion Rating",
+              "tier_label": "S2",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "获得相当于闪避值 (21-23)% 的偏转值"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Bladed Shoes",
+            "Boots",
+            "Requires: 65 Level, 47 Intelligence, 47 Dexterity."
+          ],
+          "raw_text": "Bladed Shoes\n\nBoots\n\nEvasion Rating:290\nEnergy Shield:74\n\nRequires: 65 Level, 47 Intelligence, 47 Dexterity.\n\n35% increased Movement Speed\nP1\n(92-100)% increased Evasion and Energy Shield\nP2\nGain Deflection Rating equal to (21-23)% of Evasion Rating\nS2"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "panel_observed",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/flask1",
+        "uid": "life_flask",
+        "name": "Ultimate Life Flask",
+        "panel": {
+          "name": "Ultimate Life Flask",
+          "item_class_label": "Life Flasks",
+          "top_stats": [],
+          "requirements_text": "Requires: 60 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "60"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "(28-30)% of Recovery applied Instantly",
+              "tier_label": "P1",
+              "kind": "prefix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "回复量的 (28-30)% 立即生效"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Ultimate Life Flask",
+            "Life Flasks",
+            "Requires: 60 Level."
+          ],
+          "raw_text": "Ultimate Life Flask\n\nLife Flasks\n\nRequires: 60 Level.\n\n(28-30)% of Recovery applied Instantly\nP1"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/charm1",
+        "uid": "charm1",
+        "name": "Nascent Hope",
+        "panel": {
+          "name": "Nascent Hope",
+          "item_class_label": "Charms",
+          "top_stats": [],
+          "requirements_text": "Requires: 12 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "12"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Used when you become Frozen",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "被冻结时使用"
+            },
+            {
+              "display_order": 2,
+              "text": "Used when you become Frozen",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "被冻结时使用"
+            },
+            {
+              "display_order": 3,
+              "text": "(20-25)% Chance to gain a Charge when you kill an enemy",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "击败敌人时有 (20-25)% 几率获得 1 点充能"
+            },
+            {
+              "display_order": 4,
+              "text": "Energy Shield Recharge starts on use",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "使用时开始能量护盾充能"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Nascent Hope",
+            "Charms",
+            "Requires: 12 Level."
+          ],
+          "raw_text": "Nascent Hope\n\nCharms\n\nRequires: 12 Level.\n\nUsed when you become Frozen\nUsed when you become Frozen\n(20-25)% Chance to gain a Charge when you kill an enemy\nEnergy Shield Recharge starts on use"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "base_name_not_separately_printed",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/charm2",
+        "uid": "charm2",
+        "name": "The Fall of the Axe",
+        "panel": {
+          "name": "The Fall of the Axe",
+          "item_class_label": "Charms",
+          "top_stats": [],
+          "requirements_text": "Requires: 10 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "10"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Used when you are affected by a Slow",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "受到缓速影响时使用"
+            },
+            {
+              "display_order": 2,
+              "text": "Used when you are affected by a Slow",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "受到缓速影响时使用"
+            },
+            {
+              "display_order": 3,
+              "text": "Grants Onslaught during effect",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "效果期间获得猛攻"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "The Fall of the Axe",
+            "Charms",
+            "Requires: 10 Level."
+          ],
+          "raw_text": "The Fall of the Axe\n\nCharms\n\nRequires: 10 Level.\n\nUsed when you are affected by a Slow\nUsed when you are affected by a Slow\nGrants Onslaught during effect"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "base_name_not_separately_printed",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/charm3",
+        "uid": "charm3",
+        "name": "Dousing Charm",
+        "panel": {
+          "name": "Dousing Charm",
+          "item_class_label": "Charms",
+          "top_stats": [],
+          "requirements_text": "Requires: 32 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "32"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Used when you become Ignited",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "被点燃时使用"
+            },
+            {
+              "display_order": 2,
+              "text": "(55-62)% increased Charges gained",
+              "tier_label": "S2",
+              "kind": "suffix",
+              "kind_basis": "页面 P/S 阶级标签",
+              "value_semantics": "displayed_range",
+              "zh": "充能获取量提高 (55-62)%"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Dousing Charm",
+            "Charms",
+            "Requires: 32 Level."
+          ],
+          "raw_text": "Dousing Charm\n\nCharms\n\nRequires: 32 Level.\n\nUsed when you become Ignited\n(55-62)% increased Charges gained\nS2"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "source_and_panel_base_name",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      },
+      {
+        "id": "Crit Hybrid/Shared/flask2",
+        "uid": "mana_flask",
+        "name": "Lavianga's Spirits",
+        "panel": {
+          "name": "Lavianga's Spirits",
+          "item_class_label": "Mana Flasks",
+          "top_stats": [],
+          "requirements_text": "Requires: 40 Level.",
+          "requirements": [
+            {
+              "label": "Level",
+              "value": "40"
+            }
+          ],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "This Flask cannot be Used but applies its Effect constantly",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_text_not_proof_of_author_roll",
+              "zh": "无法主动使用此药剂，但其效果持续生效"
+            },
+            {
+              "display_order": 2,
+              "text": "(70-80)% reduced Amount Recovered",
+              "tier_label": null,
+              "kind": "implicit_styled",
+              "kind_basis": "页面独立固有词缀样式；原 HTML 一并保留",
+              "value_semantics": "displayed_range",
+              "zh": "回复量降低 (70-80)%"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Lavianga's Spirits",
+            "Mana Flasks",
+            "Requires: 40 Level.",
+            "\"How do I cope with what I witnessed on Wraeclast? Thank the Ancestors! My cup, it overflows.\" - Lavianga, former advisor to Kaom"
+          ],
+          "raw_text": "Lavianga's Spirits\n\nMana Flasks\n\nRequires: 40 Level.\n\n\"How do I cope with what I witnessed on Wraeclast?\nThank the Ancestors! My cup, it overflows.\"\n- Lavianga, former advisor to Kaom\n\nThis Flask cannot be Used but applies its Effect constantly\n(70-80)% reduced Amount Recovered"
+        },
+        "quality": null,
+        "item_level": null,
+        "socket_count": 0,
+        "field_status": {
+          "name": "source_and_panel_verified",
+          "base_type": "base_name_not_separately_printed",
+          "rarity_text": "not_explicitly_printed_in_panel",
+          "top_stats": "not_printed_in_panel",
+          "requirements": "panel_observed",
+          "modifiers": "panel_observed",
+          "quality": "not_printed_in_panel",
+          "item_level": "not_printed_in_panel",
+          "sockets": "no_configured_augment_items",
+          "anointment": "not_configured_in_source"
+        }
+      }
+    ],
+    "jewels": [
+      {
+        "id": "Crit Hybrid/Jewel/1",
+        "name": "Heart of the Well",
+        "panel": {
+          "name": "Heart of the Well",
+          "item_class_label": null,
+          "top_stats": [],
+          "requirements_text": null,
+          "requirements": [],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Gain (9–15)% of Damage as Extra Cold Damage",
+              "tier_label": null,
+              "kind": "unlabelled_modifier",
+              "kind_basis": "页面未逐条给出固有/显性标签，未从通用词缀库补配",
+              "value_semantics": "displayed_range",
+              "zh": "获得相当于伤害 (9–15)% 的额外冰霜伤害"
+            },
+            {
+              "display_order": 2,
+              "text": "Gain (9–15)% of Damage as Extra Lightning Damage",
+              "tier_label": null,
+              "kind": "unlabelled_modifier",
+              "kind_basis": "页面未逐条给出固有/显性标签，未从通用词缀库补配",
+              "value_semantics": "displayed_range",
+              "zh": "获得相当于伤害 (9–15)% 的额外闪电伤害"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Heart of the Well",
+            "",
+            ""
+          ],
+          "raw_text": "Heart of the Well\n\nGain (9–15)% of Damage as Extra Cold Damage\nGain (9–15)% of Damage as Extra Lightning Damage"
+        },
+        "node_id": "node-61834",
+        "node_in_explicit_selected_lists": true
+      },
+      {
+        "id": "Crit Hybrid/Jewel/2",
+        "name": "Against the Darkness",
+        "panel": {
+          "name": "Against the Darkness",
+          "item_class_label": null,
+          "top_stats": [
+            {
+              "label": "Radius",
+              "value": "Medium"
+            }
+          ],
+          "requirements_text": null,
+          "requirements": [],
+          "modifiers": [
+            {
+              "display_order": 1,
+              "text": "Notable Passive Skills in Radius also grant Gain (2-4)% of Damage as Extra Cold Damage",
+              "tier_label": null,
+              "kind": "unlabelled_modifier",
+              "kind_basis": "页面未逐条给出固有/显性标签，未从通用词缀库补配",
+              "value_semantics": "displayed_range",
+              "zh": "范围内的核心天赋额外给予：获得相当于伤害 (2-4)% 的额外冰霜伤害"
+            }
+          ],
+          "special_paragraphs": [],
+          "all_paragraphs": [
+            "Against the Darkness",
+            "",
+            "After the fires, in the depths of the Winter of the World, all life in the Vastiri banded together. Whether serpent, hyena, human, or golem, hated enemies clasped hand to claw, built refuge, and fought side by side against the Abyssals. Thus, the Third Pact was born."
+          ],
+          "raw_text": "Against the Darkness\n\nRadius:Medium\nNotable Passive Skills in Radius also grant Gain (2-4)% of Damage as Extra Cold Damage\n\nAfter the fires, in the depths of the Winter of the World, all life in the Vastiri banded together. Whether serpent, hyena, human, or golem, hated enemies clasped hand to claw, built refuge, and fought side by side against the Abyssals. Thus, the Third Pact was born."
+        },
+        "node_id": "node-32763",
+        "node_in_explicit_selected_lists": true
+      }
+    ]
+  },
+  "player": {
+    "captured_at": "2026-10-06T06:03:12.370Z",
+    "identity": {
+      "name": "Ghostliness",
+      "level": 84,
+      "class": "锐眼"
+    },
+    "live_game_seen": false,
+    "snapshot_refresh": null,
+    "equipment": [
+      {
+        "name": "奇迹 宝记 毁灭者之弓",
+        "slot": "主手武器",
+        "display_index": 0,
+        "raw_tooltip": "奇迹 宝记 毁灭者之弓\n弓类\n品质： +20%\n物理伤害： 251-465\n火焰伤害： 42-63\n暴击率： 8.61%\n每秒攻击次数： 1.10\n需求: 等级78敏捷163\n物理伤害提高 40%\n获得相当于伤害 5% 的所有元素额外伤害\n羁绊： 护甲完全破损效果提高 40%\n羁绊： 获得一个能量球时，有 8% 的几率随机获得一个额外的能量球\n物理伤害提高 73%\n附加 42 - 63 火焰伤害\n+160 命中值\n+19% 暴击伤害加成\n暴击几率 +3.61%\n所有攻击技能等级 +2\n物理伤害提高 124%\n投射物射程降低 50%\n已腐化",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "explicit_in_tooltip",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "疫源 灵环 金光戒指",
+        "slot": "左戒指",
+        "display_index": 1,
+        "raw_tooltip": "疫源 灵环 金光戒指\n戒指\n需求: 等级60\n攻击附加 14 - 31 基础火焰伤害\n攻击附加 22 - 33 基础冰霜伤害\n+137 魔力上限\n所有元素抗性 +16%\n火焰抗性 +31%\n技能效果持续时间延长 9%\n物品稀有度提高 9%",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "咒缚 护手 战争裹手",
+        "slot": "手套",
+        "display_index": 2,
+        "raw_tooltip": "咒缚 护手 战争裹手\n手套\n品质： +20%\n闪避值： 113\n能量护盾： 35\n需求: 等级65敏捷44智慧44\n每有一件已装备的腐化物品，技能速度提高 1%\n可以重置神射手词缀\n腐化必定会改变\n羁绊： 投射物伤害提高 20%\n攻击附加 1 - 31 基础闪电伤害\n投射物速度提高 15%\n暴击伤害加成提高 21%\n攻击速度提高 14%\n+25 敏捷\n投射物伤害提高 17%\n已腐化",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "explicit_in_tooltip",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "机遇 终极生命药剂",
+        "slot": "生命药剂",
+        "display_index": 3,
+        "raw_tooltip": "机遇 终极生命药剂\n药剂\n4.80 秒内回复 1923 生命\n每次使用会从 75 充能次数中消耗 4 次\n目前有 75 充能次数\n需求: 等级60\n未保留的生命全满时不移除效果\n不能手动使用\n在你于完美时机释放技能时使用\n技能在效果持续期间的完美时机窗口延长 119%\n回复量提高 109%\n回复速度降低 37%\n每次使用消耗的充能次数降低 51%\n“计算完毕，他已组装完成。 我们的完美战术已启动。”\n点击右键以喝下药剂。只有装备于腰带上时才会充能。可通过水井或击败怪物补充。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "敏锐法令 远古面甲",
+        "slot": "头盔",
+        "display_index": 4,
+        "raw_tooltip": "敏锐法令 远古面甲\n头盔\n护甲： 614\n闪避值： 559\n需求: 等级65力量59敏捷59\n护甲与闪避提高 243%\n+34 敏捷\n获得 30%的闪避值作为额外护甲\n你处于致盲\n致盲对你的效果反转\n“专注。磨砺你的心智。弱者才依赖有形之物。 剥离你的感官，将他们从这个物质世界彻底抹除。”",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "无生之辱 恢弘盛装",
+        "slot": "胸甲",
+        "display_index": 5,
+        "raw_tooltip": "无生之辱 恢弘盛装\n护甲\n品质： +20%\n护甲： 1305\n闪避值： 1200\n能量护盾： 369\n需求: 等级65力量41敏捷41智慧41\n+30 护甲\n+30 点闪避值\n+10 能量护盾上限\n护甲、闪避和能量护盾提高 20%\n所有元素抗性 +6%\n混沌抗性 +13%\n羁绊： +40 生命上限\n羁绊： +40 魔力上限\n护甲、闪避和能量护盾提高 393%\n每个镶嵌的插槽使混沌抗性 +13%\n每个镶嵌的插槽使所有元素抗性 +8%\n每个镶嵌的插槽使晕眩阈值 +70\n已腐化\n凝望之眼绝不会退缩， 他们傲立至最后一刻。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "explicit_in_tooltip",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "无法者 护腰环 生皮腰带",
+        "slot": "腰带",
+        "display_index": 6,
+        "raw_tooltip": "无法者 护腰环 生皮腰带\n腰带\n需求: 等级52\n+88 生命上限\n药剂魔力回复速度提高 25%\n+30 力量\n获得的咒符充能提高 21%\n获得的药剂充能提高 26%\n药剂的生命回复提高 26%\n具有 3 个咒符位",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "阿拉卡力的礼物 抗毒咒符",
+        "slot": "护符1",
+        "display_index": 7,
+        "raw_tooltip": "阿拉卡力的礼物 抗毒咒符\n瓦尔 咒符\n持续 3 秒\n每次使用会从 40 充能次数中消耗 20 次\n目前有 40 充能次数\n需求: 等级24\n使用时回复等于魔力药剂回复量的 19% 的生命\n使用时回复等于生命药剂回复量的 18% 的魔力\n陷入中毒时自动使用\n可以免疫中毒\n放荡女神的信徒永远无需害怕她的毒刺。\n满足条件时自动使用。只有装备于腰带上时才会充能。可通过水井或击败怪物补充。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "贝拉的苦楚 浸润咒符",
+        "slot": "护符2",
+        "display_index": 8,
+        "raw_tooltip": "贝拉的苦楚 浸润咒符\n艾兹麦 咒符\n品质： +7%\n持续 3.20 秒\n每次使用会从 40 充能次数中消耗 30 次\n目前有 40 充能次数\n需求: 等级32\n击败敌人时有 25% 的几率获得一个能量球\n使用时造成持续 4 秒的燃烧地面，地面点燃敌人时造成等同你生命上限 500% 的火焰伤害\n被点燃时自动使用\n可以免疫点燃\n他们在冰封的火堆上发现了嚎哭的孩子。 她被寒冰紧紧包裹，村庄却已化作燃灰。\n满足条件时自动使用。只有装备于腰带上时才会充能。可通过水井或击败怪物补充。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "explicit_in_tooltip",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "落刃时刻 真银咒符",
+        "slot": "护符3",
+        "display_index": 9,
+        "raw_tooltip": "落刃时刻 真银咒符\n艾兹麦 咒符\n品质： +8%\n持续 3.20 秒\n每次使用会从 40 充能次数中消耗 20 次\n目前有 40 充能次数\n需求: 等级10\n效果期间获得猛攻\n当你受到减速影响时使用\n你的速度不受减速效果影响\n已腐化\n“处刑者挥起大刀之时， 最后一刻便永远定格。” ——被特赦两次的沃尔姆\n满足条件时自动使用。只有装备于腰带上时才会充能。可通过水井或击败怪物补充。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "explicit_in_tooltip",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "术痕 圣符 帝金项链",
+        "slot": "项链",
+        "display_index": 10,
+        "raw_tooltip": "术痕 圣符 帝金项链\n项链\n需求: 等级48\n+40 能量护盾上限\n能量护盾上限提高 22%\n+49 精魂\n+27 力量\n+20 敏捷\n火焰抗性 +35%\n物品稀有度提高 16%",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "卡兰德之触 戒指",
+        "slot": "右戒指",
+        "display_index": 11,
+        "raw_tooltip": "卡兰德之触 戒指\n戒指\n映射另一枚戒指\n力量也只是一种观念。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "灵漩 盟誓 符文黑钢战靴",
+        "slot": "鞋子",
+        "display_index": 12,
+        "raw_tooltip": "灵漩 盟誓 符文黑钢战靴\n鞋子\n护甲： 127\n闪避值： 117\n符文结界： 276\n需求: 等级80力量59敏捷59\n闪电抗性 +23%\n移动速度提高 5%\n符文结界提高 20%\n羁绊： 获得相当于生命上限 2% 的额外符文结界上限\n羁绊： 冷却回复速度提高 10%\n护甲与闪避提高 99%\n符文结界提高 25%\n+15 精魂\n移动速度提高 10%\n火焰抗性 +42%\n获得相当于闪避值 20% 的偏转值\n已腐化",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "浊重的 无底之 终极魔力药剂",
+        "slot": "魔力药剂",
+        "display_index": 13,
+        "raw_tooltip": "浊重的 无底之 终极魔力药剂\n药剂\n3 秒内回复 574 魔力\n每次使用会从 75 充能次数中消耗 10 次\n目前有 75 充能次数\n需求: 等级60\n魔力回复提高 85%\n使用时会扣除生命，等同于魔力回复值的 15%\n获得的充能提高 52%\n点击右键以喝下药剂。只有装备于腰带上时才会充能。可通过水井或击败怪物补充。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      },
+      {
+        "name": "卡迪罗的赌局 精工箭袋",
+        "slot": "副手箭袋",
+        "display_index": 14,
+        "raw_tooltip": "卡迪罗的赌局 精工箭袋\n箭袋\n需求: 等级66\n每支射出的箭都是渐强、裂片、回转、金刚、贪婪或钝击箭矢\n攻击速度提高 10%\n已腐化\n“无论如何抹除，世间总有机遇。 只要机制得当，一切果效都能转为己用……” ——卡迪罗·佩兰德斯\n只能在使用弓时装备。",
+        "field_status": {
+          "tooltip_text": "observed_complete_rendered_text",
+          "item_level": "not_displayed",
+          "rarity_label": "not_explicitly_displayed_popup_class_and_visual_preserved",
+          "quality": "not_displayed",
+          "requirements_and_modifiers": "raw_tooltip_preserved_no_pool_substitution"
+        }
+      }
+    ],
+    "gaps": [
+      {
+        "field": "native_game_window",
+        "status": "not_seen",
+        "reason": "Current Mac application inventory did not expose a game or remote game window; user authorized WeGame web character access."
+      },
+      {
+        "field": "snapshot_refresh_time_and_client_patch",
+        "status": "source_not_displayed",
+        "reason": "Acquisition time is not the server snapshot refresh time."
+      },
+      {
+        "field": "weapon_set_II_bow",
+        "status": "tool_not_acquired",
+        "reason": "Small II-view target exposed a socket tooltip; excluded from weapon comparisons."
+      },
+      {
+        "field": "gem_quality",
+        "status": "source_not_displayed",
+        "reason": "All 59 views preserve level/text where shown; quality cannot be assumed zero."
+      },
+      {
+        "field": "buff_activation_and_skill_weapon_sets",
+        "status": "source_not_displayed"
+      },
+      {
+        "field": "equipment_item_level",
+        "status": "source_not_displayed"
+      },
+      {
+        "field": "amulet_anoint",
+        "status": "source_not_displayed_no_confirmation_of_absence"
+      },
+      {
+        "field": "complete_passive_node_ids_edges_ascendancy_and_weapon_set_allocations",
+        "status": "tool_not_acquired",
+        "reason": "Canvas routes and three distinct node effects saved; no complete machine-readable allocation."
+      },
+      {
+        "field": "character_jewels",
+        "status": "viewer_displays_no_jewels_not_verified_in_game"
+      },
+      {
+        "field": "character_atlas",
+        "status": "source_entry_unavailable",
+        "reason": "Official tab displayed 敬请期待."
+      },
+      {
+        "field": "combat_performance_deaths_current_currency_balance",
+        "status": "not_observed",
+        "reason": "No live game observation and no budget inferred from historical earnings."
+      }
+    ]
+  },
+  "parent_files": [
+    {
+      "name": "角色诊断ZIP",
+      "sha256": "4006a797c927c0c7171c254b44eaa972cdf7caa6d4f1d84b36280ad756755a6e"
+    },
+    {
+      "name": "R45 ZIP",
+      "sha256": "c2fc9616d8b9ee3eee251824473d817447606756d4e22d4869671c4e85e74194"
+    }
+  ]
+}

@@ -1,0 +1,2438 @@
+{
+  "mode": "actual published HTML/CSS/JS in Chromium about:blank; local image bytes embedded only in test copy; multi-page target paths verified statically; real HTTP/file blocked (see navigation.json)",
+  "checks": [
+    {
+      "name": "Only selected author configuration",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Character identity",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Player equipment count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Player socket associations",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Current tooltip exact charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source tooltip exact charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author modifiers count charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author sockets count charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence present charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Keep current guide base lists",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Target skills complete",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Preserve two current nondefault skills",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Author jewels complete",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No arbitrary private atlas",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Only one raw build",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Only two original mapping filters",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected notes/当前阶段与三步调整.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/原采集说明.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected originals/暴击混合防御.build",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected originals/01_Fubgun_Early_Mapping.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected originals/03_Fubgun_Endgame_Mapping.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/bow.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-bow.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/quiver.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-quiver.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/helmet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-helmet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/body.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-body.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/gloves.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-gloves.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/boots.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-boots.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/amulet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-amulet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/belt.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-belt.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/ring1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-ring1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/ring2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-ring2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/life_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-life_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/mana_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-mana_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/charm1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-charm1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/charm2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-charm2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/charm3.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/equipment-charm3.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/天赋参考原图.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_initial.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_pan_01.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_pan_02.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_pan_03.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_pan_04.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_upper_right.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_upper_middle.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_lower_middle.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_lower_right.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_tree_bottom_right.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/character/passive_page_after_reload.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/jewel-1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Byte protected evidence/author/jewel-2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring does not offer Greater Body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet high cost branches removed",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet next states all resolve",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique IDs reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No template method artefacts reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:assets/style.css",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref reference.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:originals/01_Fubgun_Early_Mapping.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:originals/03_Fubgun_Endgame_Mapping.filter",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:originals/暴击混合防御.build",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:notes/当前阶段与三步调整.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:evidence/当前来源摘录.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:evidence/字节保护清单.json",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:notes/保留与移除说明.md",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref reference.html:assets/app.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique IDs index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No template method artefacts index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:assets/style.css",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref index.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:crafting.html#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref index.html:crafting.html#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:crafting.html#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref index.html:crafting.html#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:crafting.html#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref index.html:crafting.html#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref index.html:assets/app.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique IDs crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No template method artefacts crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:assets/style.css",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:equipment.html#ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:equipment.html#ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:equipment.html#life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:equipment.html#life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:equipment.html#mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:equipment.html#mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:setup.html#defence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref crafting.html:setup.html#defence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref crafting.html:assets/app.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique IDs setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No template method artefacts setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:assets/style.css",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref setup.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:#skills",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref setup.html:#skills",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:#defence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref setup.html:#defence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:#tree",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref setup.html:#tree",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:#jewels",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref setup.html:#jewels",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/author/天赋参考原图.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/author/天赋参考原图.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_initial.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_pan_01.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_pan_02.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_pan_03.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_pan_04.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_upper_right.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_upper_middle.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_lower_middle.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_lower_right.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_tree_bottom_right.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/character/passive_page_after_reload.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/author/jewel-1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:evidence/author/jewel-2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref setup.html:assets/app.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Unique IDs equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No template method artefacts equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:assets/style.css",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#main",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#bow",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#quiver",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#body",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#gloves",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#boots",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#amulet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#belt",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#ring1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#ring2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#life_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#mana_flask",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#charm1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#charm2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:#charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:#charm3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/bow.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-bow.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/quiver.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-quiver.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:crafting.html#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:crafting.html#helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/helmet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-helmet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/body.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-body.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/gloves.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-gloves.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/boots.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-boots.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/amulet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-amulet.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/belt.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-belt.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:crafting.html#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:crafting.html#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/ring1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-ring1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:crafting.html#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:crafting.html#ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/ring2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-ring2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:crafting.html#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:crafting.html#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/life_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-life_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:crafting.html#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:crafting.html#flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/mana_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-mana_flask.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/charm1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-charm1.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/charm2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-charm2.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/character/charm3.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:evidence/author/equipment-charm3.jpg",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:setup.html#jewels",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Anchor ref equipment.html:setup.html#jewels",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Local ref equipment.html:assets/app.js",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Input ZIP unchanged Ghostliness_角色诊断_2026-10-06.zip",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Input ZIP unchanged poe2_Fubgun_R45_底材选择与完整配装修复_上线包.zip",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "One active navigation index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No build selector index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No removed build choice index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No previous template residue index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Search index.html 先祖冠冕",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "Search index.html 击杀回蓝",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search index.html 卡兰德之触",
+      "ok": true,
+      "detail": 2
+    },
+    {
+      "name": "Search index.html 金刚箭",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search index.html Early",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search index.html non-crit Midgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search index.html non-crit Hybrid swap",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search index.html Uber Endgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search index.html Live Gear",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search index.html 剧情练级",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "One active navigation equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No build selector equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No removed build choice equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No previous template residue equipment.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "15 cards displayed",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Full actor and target panels",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring current original full",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Image evidence popup",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Search equipment.html 先祖冠冕",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "Search equipment.html 击杀回蓝",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search equipment.html 卡兰德之触",
+      "ok": true,
+      "detail": 2
+    },
+    {
+      "name": "Search equipment.html 金刚箭",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search equipment.html Early",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search equipment.html non-crit Midgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search equipment.html non-crit Hybrid swap",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search equipment.html Uber Endgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search equipment.html Live Gear",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search equipment.html 剧情练级",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "One active navigation setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No build selector setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No removed build choice setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No previous template residue setup.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "10 target skills",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Reference tree image loaded",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Search setup.html 先祖冠冕",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "Search setup.html 击杀回蓝",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search setup.html 卡兰德之触",
+      "ok": true,
+      "detail": 2
+    },
+    {
+      "name": "Search setup.html 金刚箭",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search setup.html Early",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search setup.html non-crit Midgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search setup.html non-crit Hybrid swap",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search setup.html Uber Endgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search setup.html Live Gear",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search setup.html 剧情练级",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "One active navigation crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No build selector crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No removed build choice crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No previous template residue crafting.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Search crafting.html 先祖冠冕",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "Search crafting.html 击杀回蓝",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search crafting.html 卡兰德之触",
+      "ok": true,
+      "detail": 2
+    },
+    {
+      "name": "Search crafting.html 金刚箭",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search crafting.html Early",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search crafting.html non-crit Midgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search crafting.html non-crit Hybrid swap",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search crafting.html Uber Endgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search crafting.html Live Gear",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search crafting.html 剧情练级",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "One active navigation reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No build selector reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No removed build choice reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No previous template residue reference.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Only 2 filter download links",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "One raw build download",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Search reference.html 先祖冠冕",
+      "ok": true,
+      "detail": 3
+    },
+    {
+      "name": "Search reference.html 击杀回蓝",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search reference.html 卡兰德之触",
+      "ok": true,
+      "detail": 2
+    },
+    {
+      "name": "Search reference.html 金刚箭",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "Search reference.html Early",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search reference.html non-crit Midgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search reference.html non-crit Hybrid swap",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search reference.html Uber Endgame",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search reference.html Live Gear",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Search reference.html 剧情练级",
+      "ok": true,
+      "detail": 0
+    },
+    {
+      "name": "Ring state ready",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility ready",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state white",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility white",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state magic1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility magic1",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state magic2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility magic2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state rare2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility rare2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state rare3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility rare3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state rare4",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility rare4",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state rare5",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility rare5",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state rare6",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility rare6",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Ring state special",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Purpose visibility special",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No auto material",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No illegal greater body option",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Correct actual material",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Blue1 to yellow2",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Clear former essence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Yellow2 to yellow3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Cold essence direct",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Blue2 to yellow3",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Invalid augment blocked",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Work tab flasks",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Work tab helmet",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Work tab ring",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state ready",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state essence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state desecrate",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state reveal",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state suffix",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state suffix-last",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state bad-roll",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Helmet state finish",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native helmet next",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Native helmet stop",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No viewport overflow 390 index.html",
+      "ok": true,
+      "detail": {
+        "sw": 390,
+        "cw": 390
+      }
+    },
+    {
+      "name": "Mobile menu open",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Mobile menu close",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No viewport overflow 390 equipment.html",
+      "ok": true,
+      "detail": {
+        "sw": 390,
+        "cw": 390
+      }
+    },
+    {
+      "name": "No viewport overflow 390 setup.html",
+      "ok": true,
+      "detail": {
+        "sw": 390,
+        "cw": 390
+      }
+    },
+    {
+      "name": "No viewport overflow 390 crafting.html",
+      "ok": true,
+      "detail": {
+        "sw": 390,
+        "cw": 390
+      }
+    },
+    {
+      "name": "No viewport overflow 390 reference.html",
+      "ok": true,
+      "detail": {
+        "sw": 390,
+        "cw": 390
+      }
+    },
+    {
+      "name": "No viewport overflow 768 index.html",
+      "ok": true,
+      "detail": {
+        "sw": 768,
+        "cw": 768
+      }
+    },
+    {
+      "name": "No viewport overflow 768 equipment.html",
+      "ok": true,
+      "detail": {
+        "sw": 768,
+        "cw": 768
+      }
+    },
+    {
+      "name": "No viewport overflow 768 setup.html",
+      "ok": true,
+      "detail": {
+        "sw": 768,
+        "cw": 768
+      }
+    },
+    {
+      "name": "No viewport overflow 768 crafting.html",
+      "ok": true,
+      "detail": {
+        "sw": 768,
+        "cw": 768
+      }
+    },
+    {
+      "name": "No viewport overflow 768 reference.html",
+      "ok": true,
+      "detail": {
+        "sw": 768,
+        "cw": 768
+      }
+    },
+    {
+      "name": "No viewport overflow 1024 index.html",
+      "ok": true,
+      "detail": {
+        "sw": 1024,
+        "cw": 1024
+      }
+    },
+    {
+      "name": "No viewport overflow 1024 equipment.html",
+      "ok": true,
+      "detail": {
+        "sw": 1024,
+        "cw": 1024
+      }
+    },
+    {
+      "name": "No viewport overflow 1024 setup.html",
+      "ok": true,
+      "detail": {
+        "sw": 1024,
+        "cw": 1024
+      }
+    },
+    {
+      "name": "No viewport overflow 1024 crafting.html",
+      "ok": true,
+      "detail": {
+        "sw": 1024,
+        "cw": 1024
+      }
+    },
+    {
+      "name": "No viewport overflow 1024 reference.html",
+      "ok": true,
+      "detail": {
+        "sw": 1024,
+        "cw": 1024
+      }
+    },
+    {
+      "name": "No viewport overflow 1440 index.html",
+      "ok": true,
+      "detail": {
+        "sw": 1440,
+        "cw": 1440
+      }
+    },
+    {
+      "name": "No viewport overflow 1440 equipment.html",
+      "ok": true,
+      "detail": {
+        "sw": 1440,
+        "cw": 1440
+      }
+    },
+    {
+      "name": "No viewport overflow 1440 setup.html",
+      "ok": true,
+      "detail": {
+        "sw": 1440,
+        "cw": 1440
+      }
+    },
+    {
+      "name": "No viewport overflow 1440 crafting.html",
+      "ok": true,
+      "detail": {
+        "sw": 1440,
+        "cw": 1440
+      }
+    },
+    {
+      "name": "No viewport overflow 1440 reference.html",
+      "ok": true,
+      "detail": {
+        "sw": 1440,
+        "cw": 1440
+      }
+    },
+    {
+      "name": "No viewport overflow 1920 index.html",
+      "ok": true,
+      "detail": {
+        "sw": 1920,
+        "cw": 1920
+      }
+    },
+    {
+      "name": "No viewport overflow 1920 equipment.html",
+      "ok": true,
+      "detail": {
+        "sw": 1920,
+        "cw": 1920
+      }
+    },
+    {
+      "name": "No viewport overflow 1920 setup.html",
+      "ok": true,
+      "detail": {
+        "sw": 1920,
+        "cw": 1920
+      }
+    },
+    {
+      "name": "No viewport overflow 1920 crafting.html",
+      "ok": true,
+      "detail": {
+        "sw": 1920,
+        "cw": 1920
+      }
+    },
+    {
+      "name": "No viewport overflow 1920 reference.html",
+      "ok": true,
+      "detail": {
+        "sw": 1920,
+        "cw": 1920
+      }
+    },
+    {
+      "name": "No runtime JS errors",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "total": 471,
+  "passed": 471,
+  "failed": 0
+}
